@@ -1,411 +1,909 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Daily Brief — March 21, 2026</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a1a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='%23faf9f6' text-anchor='middle'%3EDB%3C/text%3E%3C/svg%3E">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,8..72,400;0,8..72,600;1,8..72,400&display=swap" rel="stylesheet">
-  <style>
-*{margin:0;padding:0;box-sizing:border-box}body{background:#faf9f6;color:#1a1a1a;font-family:'Inter',sans-serif;line-height:1.6;overflow-x:hidden}.masthead{background:#1a1a1a;color:#faf9f6;padding:1.5rem 2rem;border-bottom:3px solid #1B998B;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem}.masthead-left{display:flex;align-items:center;gap:1rem}.date-selector{display:flex;align-items:center;gap:0.5rem}.date-selector button{background:#333;color:#faf9f6;border:1px solid #555;padding:0.4rem 0.7rem;cursor:pointer;font-size:0.9rem;border-radius:3px;transition:background 0.2s}.date-selector button:hover{background:#555}.date-selector input{padding:0.4rem;border:1px solid #555;background:#333;color:#faf9f6;border-radius:3px;font-family:'Inter',sans-serif;font-size:0.9rem}.masthead-right{font-size:0.85rem;opacity:0.8}.container{display:flex;max-width:1400px;margin:0 auto;gap:2rem;padding:2rem}.sidebar{display:none;width:220px;flex-shrink:0}@media (min-width:1200px){.sidebar{display:block}}.sidebar-toc{background:#fff;border:1px solid #ddd;border-radius:6px;padding:1rem;position:sticky;top:1rem;font-size:0.9rem}.sidebar-toc h3{font-size:0.85rem;font-weight:600;text-transform:uppercase;margin-bottom:0.8rem;color:#1B998B}.sidebar-toc a{display:block;margin:0.5rem 0;color:#1a1a1a;text-decoration:none;border-left:2px solid transparent;padding-left:0.5rem;transition:border 0.2s}.sidebar-toc a:hover{border-left-color:#1B998B}.main{flex:1;min-width:0}.section{margin-bottom:3rem}.section-header{column-span:all;display:flex;align-items:center;gap:0.8rem;margin-bottom:1.5rem;padding-bottom:0.8rem;border-bottom:3px solid}.section-header h2{font-family:'Newsreader',serif;font-size:1.8rem;font-weight:600;margin:0}.mood-box{column-span:all;background:#fff;border-left:4px solid;padding:1rem;margin-bottom:1.5rem;border-radius:0 6px 6px 0;font-style:italic;font-size:0.95rem;color:#444}.news-grid{column-count:3;column-gap:1.1rem}@media (max-width:1024px){.news-grid{column-count:2}}@media (max-width:768px){.news-grid{column-count:1}}.card{break-inside:avoid;display:inline-block;width:100%;background:#fff;border-radius:8px;padding:1.2rem;margin-bottom:1.1rem;box-shadow:0 2px 8px rgba(0,0,0,0.08);border-top:4px solid;cursor:pointer;transition:box-shadow 0.2s,transform 0.2s}.card:hover{box-shadow:0 4px 12px rgba(0,0,0,0.12);transform:translateY(-2px)}.card.hero-card{column-span:all;border-top:6px solid}.card-headline{font-family:'Newsreader',serif;font-size:1.1rem;font-weight:600;margin-bottom:0.8rem;color:#1a1a1a}.card.hero-card .card-headline{font-size:1.5rem}.card-preview{font-size:0.9rem;line-height:1.5;color:#444;margin-bottom:0.8rem}.card-sources{display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.8rem}.source-pill{display:inline-flex;align-items:center;gap:0.3rem;background:#f0f0f0;padding:0.3rem 0.6rem;border-radius:3px;font-size:0.75rem;text-decoration:none;color:#1a1a1a;transition:background 0.2s}.source-pill:hover{background:#e0e0e0}.source-pill img{width:16px;height:16px;border-radius:2px}#global .section-header{border-bottom-color:#1B998B}#global .card{border-top-color:#1B998B}#global .mood-box{border-left-color:#1B998B}#global .sidebar-toc{border-color:#1B998B}#nl .section-header{border-bottom-color:#E8703A}#nl .card{border-top-color:#E8703A}#nl .mood-box{border-left-color:#E8703A}#ai .section-header{border-bottom-color:#7B2D8E}#ai .card{border-top-color:#7B2D8E}#ai .mood-box{border-left-color:#7B2D8E}#crypto .section-header{border-bottom-color:#E8B130}#crypto .card{border-top-color:#E8B130}#crypto .mood-box{border-left-color:#E8B130}#mental .section-header{border-bottom-color:#D63B47}#mental .card{border-top-color:#D63B47}#mental .mood-box{border-left-color:#D63B47}#sports .section-header{border-bottom-color:#2478A0}#sports .card{border-top-color:#2478A0}#sports .mood-box{border-left-color:#2478A0}#tech .section-header{border-bottom-color:#3D5A80}#tech .card{border-top-color:#3D5A80}#tech .mood-box{border-left-color:#3D5A80}.modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);backdrop-filter:blur(4px);z-index:1000;justify-content:center;align-items:center;padding:1rem}.modal.active{display:flex}.modal-content{background:#fff;border-radius:12px;max-width:800px;max-height:90vh;overflow-y:auto;padding:2rem;position:relative;box-shadow:0 20px 60px rgba(0,0,0,0.3)}.modal-close{position:absolute;top:1rem;right:1rem;background:none;border:none;font-size:2rem;cursor:pointer;color:#1a1a1a;width:40px;height:40px;display:flex;align-items:center;justify-content:center;transition:color 0.2s}.modal-close:hover{color:#666}.modal-headline{font-family:'Newsreader',serif;font-size:1.8rem;font-weight:600;margin-bottom:1rem;margin-right:2rem}.modal-body{font-size:1rem;line-height:1.7;color:#333;margin-bottom:1.5rem}.modal-sources{border-top:1px solid #ddd;padding-top:1rem;margin-top:1.5rem}.modal-sources h4{font-size:0.9rem;text-transform:uppercase;margin-bottom:0.8rem;color:#666}.modal-sources .source-pill{display:inline-flex;margin-right:0.5rem;margin-bottom:0.5rem}@media (max-width:768px){.masthead{flex-direction:column;align-items:flex-start}.container{flex-direction:column;padding:1rem}.modal-content{padding:1.5rem}}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Daily Brief - March 21, 2026</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a1a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='%23faf9f6' text-anchor='middle'%3EDB%3C/text%3E%3C/svg%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #faf9f6;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+
+        .masthead {
+            background-color: #1a1a1a;
+            color: #faf9f6;
+            padding: 2rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 3px solid #333;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .masthead-left {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .date-selector {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            background-color: #2a2a2a;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+        }
+
+        .date-selector input {
+            background-color: #1a1a1a;
+            color: #faf9f6;
+            border: 1px solid #444;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            cursor: pointer;
+        }
+
+        .date-selector input::-webkit-calendar-picker-indicator {
+            filter: invert(1);
+        }
+
+        .date-selector button {
+            background-color: #444;
+            color: #faf9f6;
+            border: none;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background-color 0.2s;
+        }
+
+        .date-selector button:hover:not(:disabled) {
+            background-color: #555;
+        }
+
+        .date-selector button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .masthead-title {
+            text-align: center;
+            flex: 2;
+            min-width: 250px;
+        }
+
+        .masthead-title h1 {
+            font-family: 'Newsreader', serif;
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.25rem;
+        }
+
+        .masthead-title p {
+            font-size: 0.95rem;
+            color: #bbb;
+            letter-spacing: 0.05em;
+        }
+
+        .masthead-date {
+            font-size: 1.1rem;
+            color: #faf9f6;
+            font-weight: 600;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1600px;
+            margin: 0 auto;
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .sidebar-toc {
+            flex: 0 0 250px;
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            height: fit-content;
+            position: sticky;
+            top: 150px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .sidebar-toc h3 {
+            font-family: 'Newsreader', serif;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .sidebar-toc ul {
+            list-style: none;
+        }
+
+        .sidebar-toc li {
+            margin-bottom: 0.75rem;
+        }
+
+        .sidebar-toc a {
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .sidebar-toc a:hover {
+            color: #0052a3;
+            text-decoration: underline;
+        }
+
+        .main-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid;
+        }
+
+        .section-header::before {
+            content: '';
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .section-header h2 {
+            font-family: 'Newsreader', serif;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .section#global .section-header::before {
+            background-color: #1B998B;
+        }
+
+        .section#global .section-header {
+            border-bottom-color: #1B998B;
+        }
+
+        .section#netherlands .section-header::before {
+            background-color: #E8703A;
+        }
+
+        .section#netherlands .section-header {
+            border-bottom-color: #E8703A;
+        }
+
+        .section#ai .section-header::before {
+            background-color: #7B2D8E;
+        }
+
+        .section#ai .section-header {
+            border-bottom-color: #7B2D8E;
+        }
+
+        .section#crypto .section-header::before {
+            background-color: #E8B130;
+        }
+
+        .section#crypto .section-header {
+            border-bottom-color: #E8B130;
+        }
+
+        .section#mental .section-header::before {
+            background-color: #D63B47;
+        }
+
+        .section#mental .section-header {
+            border-bottom-color: #D63B47;
+        }
+
+        .section#sports .section-header::before {
+            background-color: #2478A0;
+        }
+
+        .section#sports .section-header {
+            border-bottom-color: #2478A0;
+        }
+
+        .section#tech .section-header::before {
+            background-color: #3D5A80;
+        }
+
+        .section#tech .section-header {
+            border-bottom-color: #3D5A80;
+        }
+
+        .subsection {
+            margin-bottom: 2rem;
+        }
+
+        .subsection-title {
+            font-family: 'Newsreader', serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .cards-grid {
+            column-count: 3;
+            column-gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 1200px) {
+            .cards-grid {
+                column-count: 2;
+            }
+            .sidebar-toc {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .cards-grid {
+                column-count: 1;
+            }
+            .masthead {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 1rem;
+            }
+            .masthead-left {
+                flex-direction: column;
+            }
+            .masthead-title h1 {
+                font-size: 2rem;
+            }
+        }
+
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            break-inside: avoid;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border-left: 4px solid transparent;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .section#global .card {
+            border-left-color: #1B998B;
+        }
+
+        .section#netherlands .card {
+            border-left-color: #E8703A;
+        }
+
+        .section#ai .card {
+            border-left-color: #7B2D8E;
+        }
+
+        .section#crypto .card {
+            border-left-color: #E8B130;
+        }
+
+        .section#mental .card {
+            border-left-color: #D63B47;
+        }
+
+        .section#sports .card {
+            border-left-color: #2478A0;
+        }
+
+        .section#tech .card {
+            border-left-color: #3D5A80;
+        }
+
+        .card-title {
+            font-family: 'Newsreader', serif;
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+            line-height: 1.4;
+        }
+
+        .card-source {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+            font-weight: 500;
+        }
+
+        .card-excerpt {
+            font-size: 0.9rem;
+            color: #555;
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background-color: #faf9f6;
+            padding: 2rem;
+            border-radius: 12px;
+            max-width: 700px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+        }
+
+        .modal-title {
+            font-family: 'Newsreader', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin: 0;
+            line-height: 1.3;
+            flex: 1;
+            margin-right: 1rem;
+        }
+
+        #modalCloseBtn {
+            background: none;
+            border: none;
+            font-size: 2rem;
+            cursor: pointer;
+            color: #666;
+            transition: color 0.2s;
+            flex-shrink: 0;
+        }
+
+        #modalCloseBtn:hover {
+            color: #1a1a1a;
+        }
+
+        .modal-source {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .modal-body {
+            font-size: 1rem;
+            color: #333;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+
+        .modal-link {
+            display: inline-block;
+            background-color: #0066cc;
+            color: #fff;
+            padding: 0.7rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.2s;
+            word-break: break-all;
+            font-size: 0.9rem;
+        }
+
+        .modal-link:hover {
+            background-color: #0052a3;
+        }
+
+        .mood-box {
+            background: linear-gradient(135deg, #fff 0%, #f5f5f5 100%);
+            border: 2px solid #E8703A;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .mood-box h3 {
+            font-family: 'Newsreader', serif;
+            font-size: 1.2rem;
+            color: #E8703A;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        .mood-box p {
+            color: #555;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #999;
+            font-size: 0.9rem;
+            border-top: 1px solid #e0e0e0;
+            margin-top: 3rem;
+        }
+
+        @supports (backdrop-filter: blur(10px)) {
+            .masthead {
+                backdrop-filter: blur(10px);
+                background-color: rgba(26, 26, 26, 0.95);
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="masthead">
-    <div class="masthead-left">
-      <div class="date-selector">
-        <button id="prevBtn">&larr;</button>
-        <input type="date" id="dateInput" value="2026-03-21" min="2026-03-15" max="2026-03-21">
-        <button id="nextBtn">&rarr;</button>
-      </div>
+    <div class="masthead">
+        <div class="masthead-left">
+            <div class="date-selector">
+                <button id="prevDay">← Prev</button>
+                <input type="date" id="datePicker" min="2026-03-14" max="2026-03-21" value="2026-03-21">
+                <button id="nextDay">Next →</button>
+            </div>
+        </div>
+        <div class="masthead-title">
+            <h1>THE DAILY BRIEF</h1>
+            <p>CURATED GLOBAL NEWS & ANALYSIS</p>
+        </div>
+        <div class="masthead-date">Friday, March 21, 2026</div>
     </div>
-    <div class="masthead-right">Daily Bulletin • March 21, 2026</div>
-  </div>
 
-  <div class="container">
-    <aside class="sidebar">
-      <div class="sidebar-toc">
-        <h3>Sections</h3>
-        <a href="#global">Global News</a>
-        <a href="#nl">Netherlands</a>
-        <a href="#ai">AI & HPC</a>
-        <a href="#crypto">Crypto & Macro</a>
-        <a href="#mental">AI & Mental Health</a>
-        <a href="#sports">Sports</a>
-        <a href="#tech">Consumer Tech</a>
-      </div>
-    </aside>
+    <div class="container">
+        <aside class="sidebar-toc">
+            <h3>Contents</h3>
+            <ul>
+                <li><a href="#global">Global News</a></li>
+                <li><a href="#netherlands">Netherlands</a></li>
+                <li><a href="#ai">AI & HPC</a></li>
+                <li><a href="#crypto">Crypto & Macro</a></li>
+                <li><a href="#mental">AI & Mental Health</a></li>
+                <li><a href="#sports">Sports</a></li>
+                <li><a href="#tech">Consumer Tech</a></li>
+            </ul>
+        </aside>
 
-    <main class="main">
-      <section class="section" id="global">
-        <div class="section-header"><h2>Global News</h2></div>
-        <div class="news-grid">
-          <article class="card hero-card" data-article="iran-war-day-21">
-            <h3 class="card-headline">Iran War Day 21: Trump Mulls "Winding Down" as Marines Deploy</h3>
-            <p class="card-preview">The Iran Red Crescent reports 1,400+ killed and 18,000+ civilians injured since February 28, with 204 children dead in the escalating conflict. Despite considering "winding down," Trump continues deploying more Marines to the Middle East. Israel strikes Tehran during Nowruz, prompting Iran's warning of "zero restraint" if energy sites are targeted. Iran's strike on Qatar's LNG facility cuts 17% of global output for five years. Oil prices surge to $112/barrel Brent as F-35s make emergency landings and Iran fires missiles at Diego Garcia.</p>
-            <div class="card-sources">
-              <a href="https://www.aljazeera.com/news/2026/3/20/iran-war-what-is-happening-on-day-21-of-us-israel-attacks" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=aljazeera.com&sz=32"> Al Jazeera</a>
-              <a href="https://www.cnn.com/2026/03/20/middleeast/us-israel-iran-middle-east-war-day-21-what-we-know-intl-hnk" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=cnn.com&sz=32"> CNN</a>
-              <a href="https://www.npr.org/2026/03/20/nx-s1-5754550/israel-strikes-tehran-iran-attacks-gulf" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=npr.org&sz=32"> NPR</a>
-            </div>
-          </article>
-          <article class="card" data-article="nato-hormuz">
-            <h3 class="card-headline">Trump Calls NATO Allies "Cowards" Over Strait of Hormuz</h3>
-            <p class="card-preview">President Trump publicly criticized NATO allies for insufficient commitment to patrolling the Strait of Hormuz, closed for 19 days. The UK, Japan, and other nations debate participation but remain cautious. Trump invoked Pearl Harbor in meeting with Japanese PM Takaichi, pressuring greater military engagement in the region.</p>
-            <div class="card-sources">
-              <a href="https://www.cbsnews.com/live-updates/iran-war-us-israel-gas-and-oil-prices-trump-netanyahu-strait-hormuz/" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=cbsnews.com&sz=32"> CBS News</a>
-              <a href="https://www.theguardian.com/world/2026/mar/15/uk-china-japan-countries-debating-strait-of-hormuz-ships-iran-you-now" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=theguardian.com&sz=32"> Guardian</a>
-            </div>
-          </article>
-          <article class="card" data-article="war-funding">
-            <h3 class="card-headline">Trump May Ask Congress for $200 Billion War Funding</h3>
-            <p class="card-preview">The Trump administration is preparing a substantial request to Congress for up to $200 billion to fund ongoing military operations. The Iran war has disrupted global markets and triggered inflation concerns. The Pentagon named six military members killed in an Iraqi tanker crash, bringing US death toll to at least 13.</p>
-            <div class="card-sources">
-              <a href="https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-20-26" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=cnn.com&sz=32"> CNN</a>
-              <a href="https://www.nytimes.com/2026/03/14/us/names-of-us-soliders-killed-tanker-crash.html" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=nytimes.com&sz=32"> NY Times</a>
-            </div>
-          </article>
-          <article class="card" data-article="cuba-protests">
-            <h3 class="card-headline">Cuba Protests Intensify: Communist Party HQ Torched</h3>
-            <p class="card-preview">Cuba experiences unprecedented unrest with 150+ demonstrations in March alone. Protesters torched Communist Party headquarters in Moron on March 20. Concurrent mass protests erupted in Santos Suarez, Havana. Authorities arrested 1,000-1,500 protesters. Rolling blackouts and water shortages fuel public fury.</p>
-            <div class="card-sources">
-              <a href="https://www.foxnews.com/world/protesters-attack-communist-party-hq-cuba-video-appears-capture-gunfire" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=foxnews.com&sz=32"> Fox News</a>
-              <a href="https://en.cibercuba.com/noticias/2026-03-20-u1-e199894-s27061-nid323582-estallan-protestas-habana-vecinos-santos-suarez" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=cibercuba.com&sz=32"> CiberCuba</a>
-              <a href="https://cu.usembassy.gov/demonstration-alert-u-s-embassy-havana-cuba-march-19-2026/" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=usembassy.gov&sz=32"> US Embassy</a>
-            </div>
-          </article>
-          <article class="card" data-article="zelensky-ukraine">
-            <h3 class="card-headline">Zelensky Warns Iran Conflict Threatens Ukraine's Fight</h3>
-            <p class="card-preview">Ukrainian President Zelensky warns the US-Iran conflict diverts critical military aid and diplomatic attention from Ukraine's struggle. European allies scramble to fill gaps left by reduced US support. Ukraine-Russia frontlines see attritional warfare with no breakthrough in sight.</p>
-            <div class="card-sources">
-              <a href="https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-oil-sanctions-putin-zelensky-b2938429.html" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=independent.co.uk&sz=32"> Independent</a>
-            </div>
-          </article>
-          <article class="card" data-article="fcc-broadcasters">
-            <h3 class="card-headline">FCC Chair Threatens Broadcaster Licenses Over Iran War Coverage</h3>
-            <p class="card-preview">FCC Chair Brendan Carr warned broadcasters could lose licenses for reporting on Iran conflict. Republican senators immediately rebuked the threats as unconstitutional. The confrontation highlights tensions between press freedom and government control of wartime information.</p>
-            <div class="card-sources">
-              <a href="https://www.theguardian.com/us-news/2026/mar/15/fcc-chair-broadcasters-license-iran-war" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=theguardian.com&sz=32"> Guardian</a>
-            </div>
-          </article>
-          <article class="card" data-article="bahrain-defenses">
-            <h3 class="card-headline">Bahrain Reports Shooting Down 139 Missiles, 238 Drones Since War Began</h3>
-            <p class="card-preview">Bahrain's Defence Force announced successful interception of five more missiles, bringing totals to 139 ballistic missiles and 238 drones shot down since late February. Continued air defense successes protect key oil and gas infrastructure and civilian population centers.</p>
-            <div class="card-sources">
-              <a href="https://www.aljazeera.com/news/liveblog/2026/3/20/iran-war-live-tehran-warns-of-intensified-strikes-if-energy-sites-targeted" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=aljazeera.com&sz=32"> Al Jazeera</a>
-            </div>
-          </article>
-          <article class="card" data-article="un-nuclear">
-            <h3 class="card-headline">UN Nuclear Chief: War Can't Entirely Eliminate Iran's Nuclear Program</h3>
-            <p class="card-preview">IAEA Director General Rafael Grossi states military action alone cannot eliminate Iran's nuclear infrastructure and capabilities. He advocated for diplomatic solutions running parallel with military operations, warning that military action alone cannot resolve the nuclear question.</p>
-            <div class="card-sources">
-              <a href="https://www.npr.org/2026/03/18/nx-s1-5751694/iran-retaliates-israel-kills-two-top-iranian-officials" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=npr.org&sz=32"> NPR</a>
-            </div>
-          </article>
-          <article class="card" data-article="airline-dhs">
-            <h3 class="card-headline">Airline CEOs Blast Congress as DHS Shutdown Threatens Air Travel</h3>
-            <p class="card-preview">Airline industry leaders condemned Congress for allowing a monthlong Department of Homeland Security shutdown to persist. Unpaid TSA officers have decreased motivation leading to absenteeism. Airport security lines exceed three hours at peak times, with travelers missing flights despite arriving 90 minutes early.</p>
-            <div class="card-sources">
-              <a href="https://www.foxnews.com/politics/airline-ceos-torch-lawmakers-turning-air-travel-political-football" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=foxnews.com&sz=32"> Fox News</a>
-            </div>
-          </article>
-        </div>
-      </section>
+        <main class="main-content">
+            <section class="section" id="global">
+                <div class="section-header"><h2>Global News</h2></div>
+                <div class="subsection">
+                    <div class="subsection-title">Conflicts & Security</div>
+                    <div class="cards-grid" id="global-conflicts"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Diplomacy & Trade</div>
+                    <div class="cards-grid" id="global-diplomacy"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Humanitarian & Climate</div>
+                    <div class="cards-grid" id="global-humanitarian"></div>
+                </div>
+            </section>
 
-      <section class="section" id="nl">
-        <div class="section-header"><h2>Netherlands</h2></div>
-        <div class="mood-box">Spring weather arriving, temperatures climbing. The nation is digesting Wednesday's municipal election results. Smoke from yesterday's massive Amsterdam scooter fire still lingering.</div>
-        <div class="news-grid">
-          <article class="card hero-card" data-article="nl-elections">
-            <h3 class="card-headline">Municipal Election Results: Local Parties Win Big, FvD Surges</h3>
-            <p class="card-preview">The March 18 municipal elections across 333 Dutch municipalities drew 54% turnout, up from 51% in 2022. Local parties dominated results, with GroenLinks-PvdA emerging as the biggest national party, while FvD posted impressive gains. Amsterdam: GroenLinks 10/45 seats; The Hague: Hart voor Den Haag 16/45; Utrecht: GL-PvdA 14 seats; Rotterdam: GL-PvdA and Leefbaar tied at 11; Eindhoven: GL-PvdA 13 seats.</p>
-            <div class="card-sources">
-              <a href="https://dutchreview.com/news/2026-dutch-municipal-election-results/" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=dutchreview.com&sz=32"> Dutch Review</a>
-              <a href="https://nltimes.nl/2026/03/19/local-parties-win-city-council-elections-gl-pvda-biggest-party-fvd-biggest-climber" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=nltimes.nl&sz=32"> NL Times</a>
-            </div>
-          </article>
-          <article class="card" data-article="nl-scooter-fire">
-            <h3 class="card-headline">Massive Fire at Amsterdam Scooter Storage Sends Smoke Across City</h3>
-            <p class="card-preview">A catastrophic fire at Felyx electric scooter storage facility in Westpoort on March 20 at 3pm sent thick black smoke visible from Rotterdam and Utrecht. Firefighters implemented controlled burn strategy to prevent secondary explosions. Nearby gas station required evacuation and road closures. No casualties reported.</p>
-            <div class="card-sources">
-              <a href="https://nltimes.nl/2026/03/20/massive-fire-breaks-amsterdam-electric-scooter-storage-huge-plumes-smoke" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=nltimes.nl&sz=32"> NL Times</a>
-              <a href="https://english.news.cn/20260321/66b34473ac8846c1be3a848abf8d31a0/c.html" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=news.cn&sz=32"> Xinhua</a>
-            </div>
-          </article>
-          <article class="card" data-article="nl-unemployment">
-            <h3 class="card-headline">Unemployment Rises to 4.1%, Highest in Four Years</h3>
-            <p class="card-preview">Dutch unemployment edged to 4.1% in February from 4.0%, marking the highest rate in four years with 416,000 jobless. Economists project 4.1% average through 2026 and 4.3% in 2027. Persistent acute shortages remain in healthcare, IT, technical trades, and education sectors.</p>
-            <div class="card-sources">
-              <a href="https://www.fx.co/en/forex-news/2940209" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=fx.co&sz=32"> FX.co</a>
-              <a href="https://tradingeconomics.com/netherlands/unemployment-rate" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=tradingeconomics.com&sz=32"> Trading Economics</a>
-            </div>
-          </article>
-          <article class="card" data-article="nl-econ-forecast">
-            <h3 class="card-headline">Dutch Economic Forecast Warns Inflation Could Spike Amid Middle East Conflict</h3>
-            <p class="card-preview">A March 12 forecast warned that Iran war poses significant upside risk to 2026 inflation projections. GDP growth expected 1.4% in 2026 (down from 1.9% in 2025), suggesting economy expands below potential. Energy shocks could trigger 1-2 percentage point inflation increases if oil remains elevated.</p>
-            <div class="card-sources">
-              <a href="https://nltimes.nl/2026/03/12/dutch-economic-forecast-warns-inflation-spike-amid-middle-east-conflict" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=nltimes.nl&sz=32"> NL Times</a>
-            </div>
-          </article>
-          <article class="card" data-article="nl-trade">
-            <h3 class="card-headline">Netherlands Trade Surplus Narrows Amid Global Uncertainty</h3>
-            <p class="card-preview">Netherlands' trade surplus dropped to €8.06 billion from €9.82 billion, reflecting weakening export demand from global instability. International customers facing energy shocks and uncertainty have delayed orders. The narrowing surplus underscores Dutch export-dependent economy's vulnerability to external shocks.</p>
-            <div class="card-sources">
-              <a href="https://www.ainvest.com/news/netherlands-trade-surplus-narrows-march-2026-global-uncertainty-2603/" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=ainvest.com&sz=32"> AInvest</a>
-            </div>
-          </article>
-          <article class="card" data-article="nl-happiness">
-            <h3 class="card-headline">Netherlands Drops to 7th in World Happiness Report</h3>
-            <p class="card-preview">Netherlands fell to lowest-ever position of 7th in World Happiness Report, ceding ground to Nordic countries. Decline attributed to housing affordability crisis, social cohesion concerns, and rising cost of living pressuring middle-income households. Mental health and reduced social capital contribute to lower satisfaction.</p>
-            <div class="card-sources">
-              <a href="https://www.iamexpat.nl/expat-info/dutch-news/march-2026-7-things-expats-netherlands-need-know" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=iamexpat.nl&sz=32"> IamExpat</a>
-            </div>
-          </article>
-        </div>
-      </section>
+            <section class="section" id="netherlands">
+                <div class="section-header"><h2>Netherlands</h2></div>
+                <div class="subsection">
+                    <div class="subsection-title">Politics & Policy</div>
+                    <div class="cards-grid" id="nl-politics"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Economy & Housing</div>
+                    <div class="cards-grid" id="nl-economy"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Society & Culture</div>
+                    <div class="cards-grid" id="nl-society"></div>
+                </div>
+                <div class="mood-box">
+                    <h3>Sfeer Vandaag</h3>
+                    <p>Spring has arrived in the Netherlands with sunny weather bringing crowds to Keukenhof. But the mood is uneasy - record fuel prices, rising unemployment, terror attacks on Jewish targets, and election results reshaping the political landscape. Temperature: 14°C, partly cloudy.</p>
+                </div>
+            </section>
 
-      <section class="section" id="ai">
-        <div class="section-header"><h2>AI & HPC</h2></div>
-        <div class="news-grid">
-          <article class="card hero-card" data-article="nvidia-gtc">
-            <h3 class="card-headline">Nvidia GTC 2026: $1 Trillion in Orders, Vera CPU, Groq LPU</h3>
-            <p class="card-preview">Nvidia's GTC in San Jose (March 16-19) delivered record announcements. Purchase orders for Blackwell and Vera Rubin expected to reach $1 trillion through 2027. Vera Rubin delivers 10x performance per watt vs Grace Blackwell. Unveiled Vera CPU for agentic AI—2x efficiency, 50% faster than traditional CPUs. Nvidia Groq 3 LPU shipping Q3. Cloud partners doubled AI factory footprint to 1M+ GPUs globally (1.7 GW capacity).</p>
-            <div class="card-sources">
-              <a href="https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-blackwell-vera-rubin.html" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=cnbc.com&sz=32"> CNBC</a>
-              <a href="https://blogs.nvidia.com/blog/gtc-2026-news/" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=32"> Nvidia Blog</a>
-            </div>
-          </article>
-          <article class="card" data-article="nvidia-agents">
-            <h3 class="card-headline">Nvidia Launches Open Agent Toolkit With 15+ Enterprise Partners</h3>
-            <p class="card-preview">Nvidia unveiled OpenShell runtime on March 16—open-source toolkit for deploying self-evolving agents. Partners include Adobe, Atlassian, Box, Cadence, Cisco, CrowdStrike, Salesforce, SAP, Siemens, ServiceNow. Initiative aims to democratize agent deployment and accelerate enterprise AI adoption across industries.</p>
-            <div class="card-sources">
-              <a href="https://nvidianews.nvidia.com/news/ai-agents" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=32"> Nvidia Newsroom</a>
-            </div>
-          </article>
-          <article class="card" data-article="gpt-5-4">
-            <h3 class="card-headline">GPT-5.4 Arrives With 1M Token Context and Autonomous Workflows</h3>
-            <p class="card-preview">OpenAI released GPT-5.4 Thinking with 1 million token context window enabling processing of entire books and codebases in single prompt. Scores 75% on OSWorld-V (above 72.4% human baseline). Autonomously executes multi-step workflows across software environments. OpenAI surpasses $25B annualized revenue.</p>
-            <div class="card-sources">
-              <a href="https://www.crescendo.ai/news/latest-ai-news-and-updates" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=crescendo.ai&sz=32"> Crescendo</a>
-            </div>
-          </article>
-          <article class="card" data-article="meta-layoffs">
-            <h3 class="card-headline">Meta Considering 20% Layoffs to Offset $115-135B AI Spending</h3>
-            <p class="card-preview">Meta weighing cuts affecting ~15,000 employees as company seeks to manage ballooning AI infrastructure costs. 2026 AI CapEx projected $115-135B. Atlassian also laying off 10% (~1,600) for AI pivot. Pattern signals large tech firms reallocating capital toward AI capabilities.</p>
-            <div class="card-sources">
-              <a href="https://www.neuralbuddies.com/p/ai-news-recap-march-20-2026" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=neuralbuddies.com&sz=32"> NeuralBuddies</a>
-            </div>
-          </article>
-          <article class="card" data-article="white-house-ai">
-            <h3 class="card-headline">White House Expected to Send AI Regulation Framework to Congress</h3>
-            <p class="card-preview">White House preparing comprehensive AI regulation framework for Congress covering child safety, communities, creators, censorship. Washington state passed HB 1170 requiring AI content disclosure. US passed AI Accountability Act requiring bias audits before deployment.</p>
-            <div class="card-sources">
-              <a href="https://www.transparencycoalition.ai/news/ai-legislative-update-march20-2026" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=transparencycoalition.ai&sz=32"> Transparency Coalition</a>
-            </div>
-          </article>
-          <article class="card" data-article="nvidia-exports">
-            <h3 class="card-headline">Three Charged With Diverting Nvidia AI Chips to China via Southeast Asia</h3>
-            <p class="card-preview">US prosecutors charged three people connected to Super Micro Computer for diverting high-end AI servers with Nvidia chips to China through Southeast Asian intermediaries. Charges underscore US enforcement of strict export controls and combat against adversarial technology acquisition.</p>
-            <div class="card-sources">
-              <a href="https://www.transparencycoalition.ai/news/ai-legislative-update-march20-2026" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=transparencycoalition.ai&sz=32"> Transparency Coalition</a>
-            </div>
-          </article>
-          <article class="card" data-article="uber-rivian">
-            <h3 class="card-headline">Uber Strikes $1.25B Robotaxi Deal With Rivian for 50,000 Autonomous EVs</h3>
-            <p class="card-preview">March 19: Uber and Rivian announced landmark robotaxi partnership. Initial $300M investment secures 10,000 R2 EVs with option for 40,000 more. 25 cities across US, Canada, Europe. First cities SF and Miami in 2028. Uber pays licensing fees for Rivian's autonomous driving software.</p>
-            <div class="card-sources">
-              <a href="https://www.cnbc.com/2026/03/19/uber-rivian-robotaxi.html" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=cnbc.com&sz=32"> CNBC</a>
-              <a href="https://techcrunch.com/2026/03/19/uber-taps-rivian-to-build-robotaxis-in-deal-worth-up-to-1-25b/" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=techcrunch.com&sz=32"> TechCrunch</a>
-            </div>
-          </article>
-          <article class="card" data-article="apple-siri">
-            <h3 class="card-headline">Apple AI-Powered Siri Debuts With iOS 26.4 and Google Gemini</h3>
-            <p class="card-preview">Completely reimagined Siri launches March 2026 alongside iOS 26.4. Powered by Google's 1.2T parameter Gemini model on Apple Private Cloud Compute. Integration enables sophisticated reasoning, context retention, and natural language understanding approaching human levels across applications.</p>
-            <div class="card-sources">
-              <a href="https://www.crescendo.ai/news/latest-ai-news-and-updates" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=crescendo.ai&sz=32"> Crescendo</a>
-            </div>
-          </article>
-        </div>
-      </section>
+            <section class="section" id="ai">
+                <div class="section-header"><h2>AI & HPC</h2></div>
+                <div class="subsection">
+                    <div class="subsection-title">AI/HPC Stocks & Infrastructure</div>
+                    <div class="cards-grid" id="ai-stocks"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Foundation Models & Releases</div>
+                    <div class="cards-grid" id="ai-models"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Chinese AI Ecosystem</div>
+                    <div class="cards-grid" id="ai-china"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Agents & Automation</div>
+                    <div class="cards-grid" id="ai-agents"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Open Source & Research</div>
+                    <div class="cards-grid" id="ai-open"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Enterprise & Regulation</div>
+                    <div class="cards-grid" id="ai-enterprise"></div>
+                </div>
+            </section>
 
-      <section class="section" id="crypto">
-        <div class="section-header"><h2>Crypto & Macro</h2></div>
-        <div class="news-grid">
-          <article class="card hero-card" data-article="stocks-oil">
-            <h3 class="card-headline">Stocks Tumble as Oil Hits $112 Brent, Strait of Hormuz Closed 19 Days</h3>
-            <p class="card-preview">S&P 500 down 1.51% March 19, down 0.38% March 20. Nasdaq fell 2.01%. Dow dropped 444 pts. WTI crude at $93.55, Brent $112.19. Goldman Sachs says oil may stay triple digits for years. Strait closed 19 days, choking 20% of world oil supply. Energy shock cascades through supply chains, threatening margins globally.</p>
-            <div class="card-sources">
-              <a href="https://247wallst.com/investing/2026/03/20/stock-market-live-march-20-2026-sp-500-spy-lower-on-higher-oil-prices-again/" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=247wallst.com&sz=32"> 24/7 Wall St</a>
-              <a href="https://www.cnn.com/2026/03/20/energy/oil-gas-prices-intl-hnk" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=cnn.com&sz=32"> CNN</a>
-              <a href="https://fortune.com/article/price-of-oil-03-20-2026/" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=fortune.com&sz=32"> Fortune</a>
-            </div>
-          </article>
-          <article class="card" data-article="bitcoin-fed">
-            <h3 class="card-headline">Bitcoin OGs Dump $117M After Hawkish Fed Dents Rate Cut Hopes</h3>
-            <p class="card-preview">Fed signaled only one rate cut this year. Bitcoin OGs sold 1,650+ BTC ($117M). BTC dipped to $70,600 from $74,500. Market cap ~$1.33 trillion. Sell-off reflects profit-taking and concerns about persistent higher rates affecting risk assets broadly.</p>
-            <div class="card-sources">
-              <a href="https://www.coindesk.com/markets/2026/03/19/bitcoin-ogs-dump-over-usd100-million-in-btc-after-hawkish-fed-dents-rate-cut-hopes" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=coindesk.com&sz=32"> CoinDesk</a>
-              <a href="https://fortune.com/article/price-of-bitcoin-03-20-2026/" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=fortune.com&sz=32"> Fortune</a>
-            </div>
-          </article>
-          <article class="card" data-article="sec-cftc-crypto">
-            <h3 class="card-headline">SEC and CFTC Issue Historic Joint Crypto Classification</h3>
-            <p class="card-preview">March 17: 68-page release classifying 16 major cryptos (BTC, ETH, SOL, XRP + 12 more) as digital commodities, not securities. CFTC no-action letter: non-custodial wallets not intermediaries. SEC Chair Atkins announces "Reg Crypto" safe harbor for token issuers. SEC/CFTC signed MOU establishing Joint Harmonization Initiative.</p>
-            <div class="card-sources">
-              <a href="https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=sec.gov&sz=32"> SEC.gov</a>
-              <a href="https://www.coindesk.com/policy/2026/03/17/u-s-sec-issues-first-ever-definitions-for-what-crypto-assets-are-securities" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=coindesk.com&sz=32"> CoinDesk</a>
-              <a href="https://www.bloomberg.com/news/articles/2026-03-17/sec-cftc-move-to-define-which-digital-assets-are-securities" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=bloomberg.com&sz=32"> Bloomberg</a>
-            </div>
-          </article>
-          <article class="card" data-article="cftc-defi">
-            <h3 class="card-headline">CFTC Chair Outlines DeFi, Prediction Market Rulemaking Plans</h3>
-            <p class="card-preview">March 10: CFTC Chairman plans guidance on when DeFi software providers must register, updated rules for leveraged crypto spot trading, address perpetual derivatives, AI-driven trading systems. Roadmap signals commitment to establishing clear regulatory boundaries for next-generation financial infrastructure.</p>
-            <div class="card-sources">
-              <a href="https://www.coindesk.com/policy/2026/03/10/cftc-chair-highlights-wide-crypto-agenda-including-rules-on-defi-prediction-markets" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=coindesk.com&sz=32"> CoinDesk</a>
-            </div>
-          </article>
-          <article class="card" data-article="honeywell-debt">
-            <h3 class="card-headline">Honeywell Debt Move Raises Market Fears</h3>
-            <p class="card-preview">Honeywell's debt restructuring on March 20 sent additional shudders through already nervous market. Move raises concerns about corporate balance sheet durability. Market observers monitor broader implications for industrial sector solvency amid rising rates and energy headwinds.</p>
-            <div class="card-sources">
-              <a href="https://www.fool.com/investing/2026/03/20/stock-market-today-live-coverage/" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=fool.com&sz=32"> Motley Fool</a>
-            </div>
-          </article>
-        </div>
-      </section>
+            <section class="section" id="crypto">
+                <div class="section-header"><h2>Crypto & Macro</h2></div>
+                <div class="subsection">
+                    <div class="subsection-title">Macro & Central Banks</div>
+                    <div class="cards-grid" id="crypto-macro"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Equities & Commodities</div>
+                    <div class="cards-grid" id="crypto-equities"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Bitcoin & Ethereum</div>
+                    <div class="cards-grid" id="crypto-btc"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">DeFi & Protocols</div>
+                    <div class="cards-grid" id="crypto-defi"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Regulation & Policy</div>
+                    <div class="cards-grid" id="crypto-regulation"></div>
+                </div>
+            </section>
 
-      <section class="section" id="mental">
-        <div class="section-header"><h2>AI & Mental Health</h2></div>
-        <div class="news-grid">
-          <article class="card hero-card" data-article="who-ai-health">
-            <h3 class="card-headline">WHO Launches AI for Health Consortium at TU Delft</h3>
-            <p class="card-preview">March 17-19: WHO pre-convening at TU Delft established Consortium of Collaborating Centres on AI for Health. WHO warns generative AI tools not designed or tested for mental health are being used for emotional support, especially by young people. Initiative aims to develop responsible AI frameworks prioritizing patient safety.</p>
-            <div class="card-sources">
-              <a href="https://www.who.int/news/item/20-03-2026-towards-responsible-ai-for-mental-health-and-well-being--experts-chart-a-way-forward" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=who.int&sz=32"> WHO</a>
-            </div>
-          </article>
-          <article class="card" data-article="kaiser-strike">
-            <h3 class="card-headline">Kaiser Permanente Therapists Strike Over AI Replacement Fears</h3>
-            <p class="card-preview">March 19: 2,400 mental health providers at Kaiser ended 24-hour strike. AI replacing human triage is key concern. Providers fear AI eroding licensed positions. Settlement includes provisions for transparency in AI deployment and worker consultation on automation.</p>
-            <div class="card-sources">
-              <a href="https://www.wwno.org/npr-news/2026-03-19/a-strike-by-therapists-spotlights-a-growing-concern-ai-replacing-human-providers" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=wwno.org&sz=32"> NPR/WWNO</a>
-            </div>
-          </article>
-          <article class="card" data-article="stanford-bias">
-            <h3 class="card-headline">Stanford Study: AI Therapy Chatbots Show Bias Against Certain Conditions</h3>
-            <p class="card-preview">AI chatbots showed increased stigma toward alcohol dependence and schizophrenia vs depression. May lack effectiveness vs human therapists. Could introduce dangerous biases. Research raises questions about whether AI can provide therapeutically effective mental health support.</p>
-            <div class="card-sources">
-              <a href="https://hai.stanford.edu/news/exploring-the-dangers-of-ai-in-mental-health-care" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=stanford.edu&sz=32"> Stanford HAI</a>
-            </div>
-          </article>
-          <article class="card" data-article="gmu-ai-race">
-            <h3 class="card-headline">George Mason Study: Race-Blind AI Models Fail African American Patients</h3>
-            <p class="card-preview">Research found race-blind AI models recommend medications less effective for African American patients. Race-specific models outperformed general models. Study illustrates paradox of treating populations identically and underscores need for inclusive, evidence-based development.</p>
-            <div class="card-sources">
-              <a href="https://publichealth.gmu.edu/news/2026-02/pitfalls-one-size-fits-all-ai-mental-health-treatment" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=gmu.edu&sz=32"> George Mason University</a>
-            </div>
-          </article>
-          <article class="card" data-article="vermont-ai">
-            <h3 class="card-headline">Vermont Bill H 816 Would Regulate AI in Mental Health Services</h3>
-            <p class="card-preview">Approved by House Health Care Committee March 17. Would regulate AI use in mental health services. Represents proactive state-level effort to ensure AI systems meet clinical standards and patient safety requirements before deployment.</p>
-            <div class="card-sources">
-              <a href="https://www.transparencycoalition.ai/news/ai-legislative-update-march20-2026" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=transparencycoalition.ai&sz=32"> Transparency Coalition</a>
-            </div>
-          </article>
-        </div>
-      </section>
+            <section class="section" id="mental">
+                <div class="section-header"><h2>AI & Mental Health</h2></div>
+                <div class="subsection">
+                    <div class="subsection-title">Research & Studies</div>
+                    <div class="cards-grid" id="mental-research"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Tools & Applications</div>
+                    <div class="cards-grid" id="mental-tools"></div>
+                </div>
+            </section>
 
-      <section class="section" id="sports">
-        <div class="section-header"><h2>Sports</h2></div>
-        <div class="news-grid">
-          <article class="card" data-article="bjj-pans">
-            <h3 class="card-headline">BJJ: IBJJF Pans 2026 Starts Monday in Kissimmee</h3>
-            <p class="card-preview">March 24-29 at Kissimmee, Florida. Second stop on IBJJF Grand Slam. USADA anti-doping. Live on FloGrappling. Grand Slam tracker shows who's alive heading into Pans. High-level jiu-jitsu competition featuring elite athletes from across Americas competing for rank and points.</p>
-            <div class="card-sources">
-              <a href="https://ibjjf.com/events/pan-ibjjf-jiu-jitsu-championship-2026" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=ibjjf.com&sz=32"> IBJJF</a>
-              <a href="https://www.flograppling.com/articles/15660521-2026-ibjjf-grand-slam-watch-whos-still-alive-ahead-of-pans" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=flograppling.com&sz=32"> FloGrappling</a>
-            </div>
-          </article>
-          <article class="card" data-article="judo-tbilisi">
-            <h3 class="card-headline">Judo: Tbilisi Grand Slam Day 1 Results</h3>
-            <p class="card-preview">March 20-22 at Olympic Sports Palace. 386 judoka from 51 nations. Day 1: Tugce Beder dominates -48kg, Izhak Ashpiz first Grand Slam gold, Blandine Pont shines, Nurkanat Serikbayev late victory, Timna Nelson Levy golds. Results set stage for continued excellence over remaining days.</p>
-            <div class="card-sources">
-              <a href="https://www.ijf.org/competition/3134" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=ijf.org&sz=32"> IJF</a>
-              <a href="https://www.euronews.com/2026/03/20/tbilisi-welcomes-the-world-judo-tour-in-spectacular-fashion" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=euronews.com&sz=32"> Euronews</a>
-            </div>
-          </article>
-          <article class="card" data-article="tennis-miami">
-            <h3 class="card-headline">Tennis: Miami Open Hit by Rain as Fonseca-Alcaraz Showdown Looms</h3>
-            <p class="card-preview">Friday play resumed after rain at Hard Rock Stadium. Brazilian teen Joao Fonseca faces top seed Alcaraz next. Moise Kouame, 17, youngest Miami match winner—youngest ATP Masters 1000 win since Nadal 2003. Emergence of tennis talent reshapes professional sport.</p>
-            <div class="card-sources">
-              <a href="https://www.atptour.com/en/news/miami-2026-friday-rain-delay" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=atptour.com&sz=32"> ATP Tour</a>
-              <a href="https://www.atptour.com/en/news/miami-2026-results" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=atptour.com&sz=32"> ATP Tour</a>
-            </div>
-          </article>
-        </div>
-      </section>
+            <section class="section" id="sports">
+                <div class="section-header"><h2>Sports</h2></div>
+                <div class="subsection">
+                    <div class="subsection-title">BJJ</div>
+                    <div class="cards-grid" id="sports-bjj"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Judo</div>
+                    <div class="cards-grid" id="sports-judo"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Tennis</div>
+                    <div class="cards-grid" id="sports-tennis"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Sailing</div>
+                    <div class="cards-grid" id="sports-sailing"></div>
+                </div>
+            </section>
 
-      <section class="section" id="tech">
-        <div class="section-header"><h2>Consumer Tech</h2></div>
-        <div class="news-grid">
-          <article class="card hero-card" data-article="tech-robotaxi">
-            <h3 class="card-headline">Uber-Rivian $1.25B Robotaxi Deal: 50,000 Autonomous R2 EVs</h3>
-            <p class="card-preview">March 19 partnership represents ride-hailing giant's most substantial autonomous vehicle investment. Initial $300M secures 10,000 R2 EVs with option for 40,000 more. 25 cities by 2031. R2 EVs exclusive to Uber platform. Uber pays licensing fees for Rivian's autonomous driving software.</p>
-            <div class="card-sources">
-              <a href="https://www.cnbc.com/2026/03/19/uber-rivian-robotaxi.html" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=cnbc.com&sz=32"> CNBC</a>
-              <a href="https://electrek.co/2026/03/19/uber-rivian-partner-deploy-r2-robotaxis/" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=electrek.co&sz=32"> Electrek</a>
-            </div>
-          </article>
-          <article class="card" data-article="apple-devices">
-            <h3 class="card-headline">Apple MacBook Neo at $599, iPad Air M4, iPhone 17e Launched</h3>
-            <p class="card-preview">MacBook Neo starts at $599 (half Air's price). iPad Air M4 30% faster with N1 wireless chip and C1X modem. iPhone 17e budget option with 6.1" notch display and Face ID. Three releases target different segments while maintaining premium positioning.</p>
-            <div class="card-sources">
-              <a href="https://www.gearpatrol.com/tech/best-new-tech-releases-3-8-2026/" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=gearpatrol.com&sz=32"> Gear Patrol</a>
-            </div>
-          </article>
-          <article class="card" data-article="samsung-micro">
-            <h3 class="card-headline">Samsung Micro RGB TVs Now Available from 55 to 115 Inches</h3>
-            <p class="card-preview">2026 lineup brings advanced micro-LED to mainstream sizes. 55, 65, 75, 85, 100 and 115 inch models. Micro-LED delivers superior brightness and color fidelity previously available only in ultra-premium segments. Expanded range makes high-quality displays accessible.</p>
-            <div class="card-sources">
-              <a href="https://www.yankodesign.com/2026/03/13/5-best-tech-gadgets-of-march-2026/" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=yankodesign.com&sz=32"> Yanko Design</a>
-            </div>
-          </article>
-          <article class="card" data-article="tesla-fsd">
-            <h3 class="card-headline">NHTSA Escalates Tesla FSD Investigation to 3.2 Million Vehicles</h3>
-            <p class="card-preview">Safety probe upgraded covering estimated 3.2M Tesla vehicles with Full Self-Driving. Expanded probe signals intensifying regulatory scrutiny of autonomous systems. NHTSA investigating whether FSD meets federal motor vehicle safety standards.</p>
-            <div class="card-sources">
-              <a href="https://www.crescendo.ai/news/latest-ai-news-and-updates" class="source-pill"><img src="https://www.google.com/s2/favicons?domain=crescendo.ai&sz=32"> Crescendo</a>
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-  </div>
+            <section class="section" id="tech">
+                <div class="section-header"><h2>Consumer Tech</h2></div>
+                <div class="subsection">
+                    <div class="subsection-title">Devices & Launches</div>
+                    <div class="cards-grid" id="tech-devices"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">Software & Services</div>
+                    <div class="cards-grid" id="tech-software"></div>
+                </div>
+                <div class="subsection">
+                    <div class="subsection-title">EVs & Mobility</div>
+                    <div class="cards-grid" id="tech-ev"></div>
+                </div>
+            </section>
 
-  <div class="modal" id="modal">
-    <div class="modal-content">
-      <h3 class="modal-headline" id="modalHeadline"></h3>
-      <div class="modal-body" id="modalBody"></div>
-      <div class="modal-sources" id="modalSources"></div>
+            <footer>
+                <p>The Daily Brief — Curated global news for March 21, 2026. All articles from verified sources in the last 48 hours.</p>
+            </footer>
+        </main>
     </div>
-  </div>
 
-  <script>
-const articleData={"iran-war-day-21":{headline:"Iran War Day 21: Trump Mulls \"Winding Down\" as Marines Deploy",body:"The Iran Red Crescent reports 1,400+ killed and 18,000+ civilians injured since February 28, with 204 children dead in the escalating conflict. Despite considering \"winding down,\" Trump administration continues deploying more Marines to the Middle East. Israel conducted strikes on Tehran during Nowruz celebrations, prompting Iran's warning of \"zero restraint\" if energy sites are targeted. Iran's strike on Qatar's LNG facility has cut 17% of global output for the next five years. An F-35 made an emergency landing after sustaining Iranian fire. Iran has fired missiles at Diego Garcia US naval base. Oil prices surge to $112/barrel Brent as markets price in supply disruptions. The conflict shows no signs of de-escalation despite diplomatic overtures.",sources:[{url:"https://www.aljazeera.com/news/2026/3/20/iran-war-what-is-happening-on-day-21-of-us-israel-attacks",name:"Al Jazeera"},{url:"https://www.cnn.com/2026/03/20/middleeast/us-israel-iran-middle-east-war-day-21-what-we-know-intl-hnk",name:"CNN"},{url:"https://www.npr.org/2026/03/20/nx-s1-5754550/israel-strikes-tehran-iran-attacks-gulf",name:"NPR"}]},"nato-hormuz":{headline:"Trump Calls NATO Allies \"Cowards\" Over Strait of Hormuz",body:"President Trump has publicly criticized NATO allies and other partners for insufficient commitment to ensuring safe passage through the Strait of Hormuz, which has been closed for 19 days. The UK, Japan, and other nations have expressed willingness to participate in patrol operations but remain cautious about escalation. Trump invoked the Pearl Harbor attack during a tense meeting with Japanese PM Takaichi, comparing the strategic importance of the Strait to historic US naval interests. The rhetoric has strained diplomatic relations while underscoring rising pressure on allies to shoulder greater defense burdens. Energy markets remain volatile as uncertainty over Strait access continues.",sources:[{url:"https://www.cbsnews.com/live-updates/iran-war-us-israel-gas-and-oil-prices-trump-netanyahu-strait-hormuz/",name:"CBS News"},{url:"https://www.theguardian.com/world/2026/mar/15/uk-china-japan-countries-debating-strait-of-hormuz-ships-iran-you-now",name:"Guardian"}]},"war-funding":{headline:"Trump May Ask Congress for $200 Billion War Funding",body:"The Trump administration is preparing a substantial request to Congress for up to $200 billion to fund ongoing military operations against Iran. The request reflects the scale of the conflict's demands on US military resources and logistics. The Iran war has already sent significant shudders through the global economy, disrupting energy markets and triggering inflation concerns worldwide. The Pentagon released the names of six military members killed in an Iraqi tanker crash on the coastline, bringing the cumulative US death toll to at least 13. Congressional Republicans and Democrats have expressed reservations about the funding request, citing limited legislative debate before potential authorization.",sources:[{url:"https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-20-26",name:"CNN"},{url:"https://www.nytimes.com/2026/03/14/us/names-of-us-soliders-killed-tanker-crash.html",name:"NY Times"}]},"cuba-protests":{headline:"Cuba Protests Intensify: Communist Party HQ Torched",body:"Cuba is experiencing unprecedented social unrest with over 150 demonstrations occurring in March alone—the largest sustained protest movement since 2021. Protesters in Moron torched the Communist Party headquarters on March 20 in a dramatic act of defiance against government authority. Concurrent mass protests erupted in the Santos Suarez neighborhood of Havana, with thousands taking to the streets despite heavy police presence. The island faces severe rolling blackouts lasting 16+ hours daily and acute water shortages, fueling public fury over government mismanagement. Authorities have arrested 1,000–1,500 protesters and the US Embassy issued a demonstration alert warning of potential violence over the weekend. Civil society organizations report unprecedented public anger over living conditions.",sources:[{url:"https://www.foxnews.com/world/protesters-attack-communist-party-hq-cuba-video-appears-capture-gunfire",name:"Fox News"},{url:"https://en.cibercuba.com/noticias/2026-03-20-u1-e199894-s27061-nid323582-estallan-protestas-habana-vecinos-santos-suarez",name:"CiberCuba"},{url:"https://cu.usembassy.gov/demonstration-alert-u-s-embassy-havana-cuba-march-19-2026/",name:"US Embassy"}]},"zelensky-ukraine":{headline:"Zelensky Warns Iran Conflict Threatens Ukraine's Fight",body:"Ukrainian President Volodymyr Zelensky has expressed serious concern that the escalating US-Iran conflict diverts critical military aid, intelligence assets, and diplomatic attention from Ukraine's existential struggle against Russian aggression. European allies, already stretched thin across multiple security threats, are scrambling to fill gaps left by reduced US support. The Ukraine-Russia frontlines are characterized by attritional warfare with positional changes measured in meters at great cost. Military analysts warn that the Iran conflict could reshape US commitment to the Ukraine mission, with potential consequences for European security architecture. Zelensky has called for international coalition support to sustain Ukraine's defense capabilities.",sources:[{url:"https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-oil-sanctions-putin-zelensky-b2938429.html",name:"Independent"}]},"fcc-broadcasters":{headline:"FCC Chair Threatens Broadcaster Licenses Over Iran War Coverage",body:"FCC Chair Brendan Carr has issued controversial threats against broadcasters, warning that stations airing what he characterizes as \"fake news\" about the Iran conflict risk losing their broadcast licenses. The unprecedented threat has ignited immediate backlash from Republican senators who argue the move violates constitutional free speech protections. Broadcast journalists argue that factual reporting on war casualty counts, civilian impacts, and military strategy discussions are being misconstrued as misinformation. Constitutional law experts warn the threats represent a dangerous precedent for government control of media during wartime. The confrontation highlights tensions between press freedom and government control of information.",sources:[{url:"https://www.theguardian.com/us-news/2026/mar/15/fcc-chair-broadcasters-license-iran-war",name:"Guardian"}]},"bahrain-defenses":{headline:"Bahrain Reports Shooting Down 139 Missiles, 238 Drones Since War Began",body:"Bahrain's Defence Force announced successful interception of five additional incoming missiles and unmanned drones, bringing cumulative totals to 139 ballistic missiles and 238 drones shot down since the Iran conflict began in late February. The continued air defense successes reflect significant investment in advanced air defense systems and 24/7 operational readiness. The Kingdom has positioned itself as a critical hub for regional security and host to US military assets. Defense officials report sustained enemy attack patterns but express confidence in air defense capabilities. The successful defense operations have been crucial in protecting key oil and gas infrastructure, desalination plants, and civilian population centers from Iranian strikes.",sources:[{url:"https://www.aljazeera.com/news/liveblog/2026/3/20/iran-war-live-tehran-warns-of-intensified-strikes-if-energy-sites-targeted",name:"Al Jazeera"}]},"un-nuclear":{headline:"UN Nuclear Chief: War Can't Entirely Eliminate Iran's Nuclear Program",body:"IAEA Director General Rafael Grossi has provided a sobering assessment that military action alone cannot fully eliminate Iran's distributed nuclear infrastructure and technological capabilities. Grossi emphasized that a purely military approach would leave Iran's nuclear knowledge base intact and could accelerate future weapons development if pursued without corresponding diplomatic engagement. The IAEA chief advocated for dual-track strategy combining military pressure with intensive diplomatic negotiation aimed at constraining Iran's nuclear program through international agreements. Grossi warned that continued escalation without diplomatic off-ramps risks prolonged conflict. The assessment complicates Trump administration messaging suggesting military victory could solve the nuclear question.",sources:[{url:"https://www.npr.org/2026/03/18/nx-s1-5751694/iran-retaliates-israel-kills-two-top-iranian-officials",name:"NPR"}]},"airline-dhs":{headline:"Airline CEOs Blast Congress as DHS Shutdown Threatens Air Travel",body:"Airline industry CEOs have publicly condemned Congress for allowing a monthlong Department of Homeland Security shutdown to persist, creating unprecedented chaos at major US airports. Unpaid Transportation Security Administration officers have been working without paychecks, leading to decreased motivation and increased absenteeism. The staffing shortages have resulted in airport security lines exceeding three hours at peak times, with some travelers missing flights despite arriving 90 minutes early. Industry executives warn that further deterioration in TSA staffing and security operations poses material risks to passenger safety and aviation industry revenues. Airline unions have joined manufacturers and airports in urging immediate congressional action to resolve the shutdown and restore normal operations.",sources:[{url:"https://www.foxnews.com/politics/airline-ceos-torch-lawmakers-turning-air-travel-political-football",name:"Fox News"}]},
+    <div id="articleModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <button id="modalCloseBtn">&times;</button>
+            </div>
+            <div class="modal-source" id="modalSource"></div>
+            <div class="modal-body" id="modalBody"></div>
+            <a id="modalLink" class="modal-link" target="_blank">Read Full Article</a>
+        </div>
+    </div>
 
-"nl-elections":{headline:"Municipal Election Results: Local Parties Win Big, FvD Surges",body:"The March 18 municipal elections across 333 Dutch municipalities attracted a 54% voter turnout, representing a 3 percentage point increase from 2022, indicating stronger civic engagement at local levels. Local and regional parties captured the largest share of seats across most municipalities, reflecting voter preference for hyperlocal governance responsive to specific community concerns. GroenLinks-PvdA emerged as the largest national party in aggregate results. The Freedom Party (FvD) posted surprisingly strong gains, suggesting rightward political movement among some voters. Amsterdam secured GroenLinks with 10 of 45 seats; The Hague: Hart voor Den Haag landslide 16/45; Utrecht: GL-PvdA 14 seats; Rotterdam: GL-PvdA and Leefbaar tied at 11; Eindhoven: GL-PvdA 13 seats. Coalition negotiations expected to take weeks.",sources:[{url:"https://dutchreview.com/news/2026-dutch-municipal-election-results/",name:"Dutch Review"},{url:"https://nltimes.nl/2026/03/19/local-parties-win-city-council-elections-gl-pvda-biggest-party-fvd-biggest-climber",name:"NL Times"}]},"nl-scooter-fire":{headline:"Massive Fire at Amsterdam Scooter Storage Sends Smoke Across City",body:"A catastrophic fire at the Felyx electric scooter storage facility in Amsterdam's Westpoort district erupted on March 20 at 3 pm, creating massive plumes of thick black smoke visible across a 50km radius from Rotterdam to Utrecht. The facility housed hundreds of lithium-ion battery-equipped scooters, with experts suggesting the fire may have originated from a battery thermal runaway event. Firefighters implemented a controlled burn strategy, allowing the structure to burn in a managed fashion to prevent secondary explosions from damaged batteries. A nearby gas station required immediate evacuation and road closures affecting major transportation corridors. No casualties were reported, though dozens of firefighters worked throughout the day managing the blaze. The cause remains under investigation.",sources:[{url:"https://nltimes.nl/2026/03/20/massive-fire-breaks-amsterdam-electric-scooter-storage-huge-plumes-smoke",name:"NL Times"},{url:"https://english.news.cn/20260321/66b34473ac8846c1be3a848abf8d31a0/c.html",name:"Xinhua"}]},"nl-unemployment":{headline:"Unemployment Rises to 4.1%, Highest in Four Years",body:"Dutch unemployment edged up to 4.1% in February 2026 from 4.0% in January, marking the highest jobless rate recorded in four years and affecting 416,000 workers. Labor economists project unemployment will average 4.1% throughout 2026 and climb to 4.3% in 2027 as macroeconomic headwinds persist. The energy crisis and geopolitical instability are cited as factors weighing on hiring decisions. Paradoxically, persistent acute labor shortages remain in healthcare, information technology, technical trades, and education sectors. The combination of rising unemployment and unfilled vacancies suggests structural labor market mismatches requiring retraining programs.",sources:[{url:"https://www.fx.co/en/forex-news/2940209",name:"FX.co"},{url:"https://tradingeconomics.com/netherlands/unemployment-rate",name:"Trading Economics"}]},"nl-econ-forecast":{headline:"Dutch Economic Forecast Warns Inflation Could Spike Amid Middle East Conflict",body:"A March 12 macroeconomic forecast released by Dutch economic institutes warned that the Iran war poses significant upside risk to 2026-2027 inflation projections. Energy price shocks from Middle East conflict could trigger 1-2 percentage point inflation increases if oil remains elevated. GDP growth is projected to moderate to 1.4% in 2026, down from 1.9% in 2025, suggesting the economy is expanding below its potential growth rate of 1.8%. The slowdown reflects weakened consumer confidence, delayed business investment, and reduced export demand. Forecasters expect unemployment to rise modestly while inflation risks increase—a concerning stagflationary combination.",sources:[{url:"https://nltimes.nl/2026/03/12/dutch-economic-forecast-warns-inflation-spike-amid-middle-east-conflict",name:"NL Times"}]},"nl-trade":{headline:"Netherlands Trade Surplus Narrows Amid Global Uncertainty",body:"The Netherlands' merchandise trade surplus contracted significantly to €8.06 billion in recent data from €9.82 billion in the prior period, a decline of €1.76 billion that signals weakening export demand amid geopolitical turbulence. International customers facing energy shocks, supply chain disruptions, and uncertainty have delayed orders and canceled contracts. Weakening export demand reflects reduced orders from major trading partners. The narrowing surplus underscores the vulnerability of the Dutch export-dependent economy, where trade represents 160% of GDP. Manufacturers report weak order books extending into Q2 2026, suggesting continued headwinds.",sources:[{url:"https://www.ainvest.com/news/netherlands-trade-surplus-narrows-march-2026-global-uncertainty-2603/",name:"AInvest"}]},"nl-happiness":{headline:"Netherlands Drops to 7th in World Happiness Report",body:"The Netherlands has fallen to its lowest-ever ranking of 7th place in the annual World Happiness Report, surrendering positions to Nordic countries that continue to dominate the top rankings. The decline has been attributed to deteriorating housing affordability, with median home prices rising significantly while real wages grew only modestly. Concerns over social cohesion have increased as political polarization and immigration debates intensify. The rising cost of living—particularly energy, food, and transportation—is pressuring middle-income households and eroding life satisfaction. Mental health concerns, loneliness, and reduced social capital are cited as contributing factors. The World Happiness Report measures multiple dimensions of wellbeing across 150 countries.",sources:[{url:"https://www.iamexpat.nl/expat-info/dutch-news/march-2026-7-things-expats-netherlands-need-know",name:"IamExpat"}]},
+    <script>
+        const articleData = {
+            'global-conflicts': [
+                {title: "Iran War Day 21: Trump Mulls 'Winding Down' as Marines Head to Mideast", source: "NPR", excerpt: "Trump says administration considering winding down Iran war even as USS Boxer group with thousands of Marines leaves California for the Gulf. Iranian drones struck Kuwait's Mina Al-Ahmadi refinery overnight.", url: "https://www.npr.org/2026/03/20/nx-s1-5754550/israel-strikes-tehran-iran-attacks-gulf"},
+                {title: "What We Know on Day 21 of the US-Israel War with Iran", source: "CNN", excerpt: "F-35 makes emergency landing after possible Iranian fire hit. Netanyahu halts strikes on Iranian energy sites after Trump reacted angrily to South Pars gasfield strike.", url: "https://www.cnn.com/2026/03/20/middleeast/us-israel-iran-middle-east-war-day-21-what-we-know-intl-hnk"},
+                {title: "Iran War: What Is Happening on Day 21 of US-Israel Attacks?", source: "Al Jazeera", excerpt: "Iran warns of 'zero restraint' if energy facilities attacked again. Over 18,000 Iranian civilians injured and 204 children killed since war began Feb 28.", url: "https://www.aljazeera.com/news/2026/3/20/iran-war-what-is-happening-on-day-21-of-us-israel-attacks"},
+                {title: "Israeli Bombardment Across Lebanon Kills More Than 20", source: "Al Jazeera", excerpt: "Israel ground operations in southern Lebanon since March 16, planning to seize area south of Litani River. Death toll in Lebanon passes 1,000 with 1 million displaced.", url: "https://www.aljazeera.com/news/2026/3/18/israel-bombs-central-beirut-killing-6-strafes-south-east-lebanon"},
+                {title: "Middle East War's 'Spiral of Conflict' Drives Mounting Civilian Toll", source: "UN News", excerpt: "UN warns of escalating spiral across Middle East with civilian casualties mounting in Iran, Lebanon and surrounding countries.", url: "https://news.un.org/en/story/2026/03/1167138"},
+                {title: "Ukraine Counteroffensive: Forces Recapture 400 sq km on Southern Front", source: "Al Jazeera", excerpt: "Ukraine transitions to offensive operations on southern front, recapturing 400 sq km since January. February 2026 first month since 2024 when Ukraine regained more territory than lost.", url: "https://www.aljazeera.com/features/2026/3/20/ukraine-sends-advisers-to-gulf-as-it-counterattacks-russian-forces-in-south"},
+                {title: "Russia-Ukraine War Report Card, March 18", source: "Russia Matters", excerpt: "167 combat engagements recorded on March 16. Russia carried out 78 airstrikes dropping 257 guided bombs on March 18. Ukraine has shot down over 44,700 Shahed drones during war.", url: "https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-march-18-2026"},
+                {title: "Brazil's President Criticises US for Thinking 'They Own the World'", source: "Al Jazeera", excerpt: "Brazil's Lula delivers sharp criticism of US foreign policy amid Iran war, reflecting growing Global South pushback.", url: "https://www.aljazeera.com/video/newsfeed/2026/3/20/brazils-president-criticises-the-us-for-thinking-they-own-the-world"}
+            ],
+            'global-diplomacy': [
+                {title: "Middle East Conflict Hits Shipping, Oil Prices, and Trade", source: "World Economic Forum", excerpt: "Strait of Hormuz largely closed, 150 ships anchored. Jebel Ali port in Dubai suspended operations. 20% of world's oil supply disrupted.", url: "https://www.weforum.org/stories/2026/03/us-trade-deficit-international-trade-stories-march-2026/"},
+                {title: "EU Extends Russia Sanctions for Six Months", source: "EU Council", excerpt: "EU Council extends individual sanctions related to Ukraine's territorial integrity for another six months, maintaining pressure on Russia.", url: "https://www.consilium.europa.eu/en/press/press-releases/2026/03/14/russia-s-war-of-aggression-against-ukraine-eu-extends-individual-listings-over-ukraine-s-territorial-integrity-for-a-further-six-months/"},
+                {title: "Zelenskyy Ready for Peace Talks, Waiting on US and Russia", source: "Euronews", excerpt: "Ukraine's president signals readiness for next round of trilateral peace talks but says timing depends on Washington and Moscow.", url: "https://www.euronews.com/my-europe/2026/03/15/zelenskyy-says-ready-for-another-round-of-peace-talks-but-waiting-on-us-and-russia"}
+            ],
+            'global-humanitarian': [
+                {title: "World on Course to Breach 1.5°C Before 2030", source: "World Economic Forum", excerpt: "Warming rate has risen to 0.35°C per decade, fastest since 1880. Paris Agreement 1.5°C limit will be breached by approximately 2030 at current trajectory.", url: "https://www.weforum.org/stories/2026/03/world-on-course-breach-15c-before-2030-climate-nature-news/"},
+                {title: "Yemen's Dire Humanitarian Crisis Intensifies in 2026", source: "The Week", excerpt: "Yemen faces world's most severe manufactured humanitarian catastrophe with millions facing hunger due to economic collapse, climate disasters and failing aid.", url: "https://www.theweek.in/news/middle-east/2026/03/18/yemens-dire-humanitarian-crisis-a-manufactured-catastrophe-intensifies-in-2026.html"},
+                {title: "Somalia: 6.5 Million Face Crisis Levels of Hunger", source: "UN FAO", excerpt: "A third of Somalia's population faces crisis-level hunger, with 2 million in emergency conditions and 1.8 million children facing acute malnutrition.", url: "https://www.unocha.org/news/todays-top-news-global-humanitarian-overview-2026-sudan-occupied-palestinian-territory"},
+                {title: "Lebanon: A Fifth of Population Uprooted in Two Weeks", source: "UNHCR via CNN", excerpt: "Over 1 million Lebanese displaced since March 2, approximately 19% of population. More than 600 collective shelters operational.", url: "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-20-26"}
+            ],
+            'nl-politics': [
+                {title: "Local Election Results: Big Gains for Local Parties and GroenLinks-PvdA", source: "NL Times", excerpt: "Local parties won 35%+ of council seats in March 18 municipal elections. GroenLinks-PvdA became largest national party at 13%. FvD quadrupled its vote count.", url: "https://nltimes.nl/2026/03/19/local-parties-win-city-council-elections-gl-pvda-biggest-party-fvd-biggest-climber"},
+                {title: "GroenLinks Wins Amsterdam City Elections with 10 Seats", source: "NL Times", excerpt: "GroenLinks topped Amsterdam elections with 17.9%, securing 10 seats. After merger with PvdA, controls 17 of 45 seats.", url: "https://nltimes.nl/2026/03/19/groenlinks-easily-wins-2026-amsterdam-city-council-election-coalition-gained-one-seat"},
+                {title: "GroenLinks-PvdA Biggest Party in Rotterdam and Utrecht", source: "NL Times", excerpt: "GroenLinks-PvdA leads in Rotterdam and Utrecht. In The Hague, Richard de Mos's Hart voor Den Haag surged to 16 seats (up 7).", url: "https://nltimes.nl/2026/03/19/groenlinks-pvda-biggest-party-rotterdam-utrecht-richard-de-mos-wins-hague"},
+                {title: "Voter Turnout Rises Slightly to 54% in Municipal Elections", source: "NL Times", excerpt: "National turnout at 54.1%, slightly above 2022. Major cities still below national average.", url: "https://nltimes.nl/2026/03/18/amsterdam-rotterdam-hague-utrecht-voter-turnout-dismal-2022-local-election"},
+                {title: "Dutch Government Tests European Messaging App to Replace WhatsApp", source: "NL Times", excerpt: "State Secretary Aerdts announces pilot of European messaging alternative to WhatsApp/Signal to reduce foreign dependency and improve archiving.", url: "https://nltimes.nl/2026/03/20/dutch-government-tests-european-messaging-app-reduce-reliance-whatsapp"},
+                {title: "Netherlands and Five Allies Ready to Help Secure Strait of Hormuz", source: "NL Times", excerpt: "NL, UK, France, Germany, Italy, Japan prepared to support Hormuz shipping security. PM Jetten says mission currently too dangerous.", url: "https://nltimes.nl/2026/03/19/netherlands-five-allies-ready-help-secure-strait-hormuz-amid-rising-tensions"}
+            ],
+            'nl-economy': [
+                {title: "Record-High Fuel Prices: Petrol Hits €2.51 Per Litre", source: "NL Times", excerpt: "All-time high €2.51/litre surpassing 2022 record. Iran's Hormuz blockade driving prices. Fuel station revenues down 10-20%.", url: "https://nltimes.nl/2026/03/19/record-high-fuel-prices-continue-rise-hard-blow-dutch-drivers-gas-stations"},
+                {title: "Petrol Prices Rise as Middle East Conflict Continues", source: "DutchNews.nl", excerpt: "Brent crude up nearly 50% since late February. IEA warns of major energy crisis from war.", url: "https://www.dutchnews.nl/2026/03/petrol-prices-rise-as-conflict-in-the-middle-east-continues/"},
+                {title: "Unemployment Rises to 4.1%, Highest in Four Years", source: "NL Times", excerpt: "February unemployment at 4.1% with 416,000 people out of work. Monthly increases averaging 3,000 over last three months.", url: "https://nltimes.nl/2026/03/19/unemployment-rises-41-percent-highest-four-years"}
+            ],
+            'nl-society': [
+                {title: "Extra Security at All Jewish Schools After Explosive Attack", source: "NL Times", excerpt: "Enhanced security at all Jewish schools in Amsterdam following March 16 attack. 24/7 camera monitoring and police/military deployment activated.", url: "https://nltimes.nl/2026/03/20/extra-security-jewish-schools-amsterdam-explosive-attack"},
+                {title: "Islamic Group Claims Explosions in Amsterdam and Rotterdam", source: "DutchNews.nl", excerpt: "Group calling itself Islamic Movement claimed explosions at Jewish school, Rotterdam synagogue and Amsterdam's Zuidas. Experts suspect ties to Iran's terror network.", url: "https://www.dutchnews.nl/2026/03/islamic-group-claims-small-explosion-outside-amsterdam-office/"},
+                {title: "Prisoner Escapes During Hospital Visit in Utrecht, Later Apprehended", source: "NL Times", excerpt: "Inmate seized firearm from escort during hospital visit. Captured hours later. Inspectorate of Justice launches investigation.", url: "https://nltimes.nl/2026/03/20/armed-inmate-apprehended-hours-escaping-hospital-visit-utrecht"},
+                {title: "Keukenhof Opens 2026 Season as Sunny Weather Draws Early Crowds", source: "NL Times", excerpt: "Tulip Gardens opened March 19 until May 10. Early spring sunshine attracted large crowds for crocuses, daffodils and early tulips.", url: "https://nltimes.nl/2026/03/19/keukenhof-opens-2026-season-sunny-weather-draws-early-crowds"},
+                {title: "Possible Viking Ship Unearthed in Wijk bij Duurstede", source: "NL Times", excerpt: "3.2m wooden beam found during sewage work may be 8th-century Viking ship. Carolingian pottery supports theory. Tree-ring dating pending.", url: "https://nltimes.nl/2026/03/19/possible-viking-ship-unearthed-construction-wijk-bij-duurstede-utrecht"},
+                {title: "Netherlands Drops to 7th in World Happiness Report", source: "NL Times", excerpt: "Lowest position ever at 7.223/10, down two places. Report highlights social media's negative impact on wellbeing.", url: "https://nltimes.nl/2026/03/19/netherlands-drops-7th-place-2026-world-happiness-report-lowest-position-yet"}
+            ],
+            'ai-stocks': [
+                {title: "NVIDIA Launches Vera Rubin GPU and Vera CPU at GTC 2026", source: "NVIDIA Newsroom", excerpt: "NVIDIA unveiled Vera CPU (first processor built for agentic AI) and Vera Rubin GPU in full production. Available from AWS, GCP, Azure in H2 2026.", url: "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer"},
+                {title: "RTX PRO 4500 Blackwell Delivers 100x Vision AI Performance", source: "NVIDIA Newsroom", excerpt: "New server GPU provides 100x performance for vision AI and 50x for vector databases compared to CPU-only servers.", url: "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer"},
+                {title: "NTT Global Data Centers Plans to Double Capacity to 4 GW", source: "NTT DATA", excerpt: "NTT announced March 19 plans to double global AI infrastructure capacity to 4 GW, underscoring AI-driven expansion.", url: "https://www.nttdata.com/global/en/news/press-release/2026/march/031200"},
+                {title: "IREN Secures $9.3B Funding, Adds 50K NVIDIA B300 GPUs", source: "Industry Reports", excerpt: "IREN purchasing 50K+ NVIDIA B300 GPUs, expanding fleet to 150K. Added to MSCI USA Index. Stock at $41.58.", url: "https://finance.yahoo.com/news/nvidia-launches-groq-3-ai-chip-and-cpu-server-aimed-at-intel-during-gtc-2026-200529139.html"},
+                {title: "AI Data Center Power Crisis Reshaping Grid Infrastructure", source: "Tech Reports", excerpt: "AI data centers projected to consume 9% of US electricity by 2030 (triple current). Driving shift to behind-the-meter power solutions.", url: "https://tech-insider.org/ai-data-center-power-crisis-2026/"}
+            ],
+            'ai-models': [
+                {title: "OpenAI Acquires Astral to Strengthen Codex Team", source: "CNBC", excerpt: "OpenAI acquiring maker of popular open source Python tools (uv, Ruff, ty) to strengthen Codex coding assistant.", url: "https://www.cnbc.com/2026/03/19/openai-to-acquire-developer-tooling-startup-astral.html"},
+                {title: "OpenAI Plans Desktop App Combining Chat, Coding, and Browsing", source: "Bloomberg", excerpt: "OpenAI developing integrated desktop application to maintain user engagement against rivals.", url: "https://www.bloomberg.com/news/articles/2026-03-20/openai-plans-desktop-app-combining-chat-coding-and-web-browsing"},
+                {title: "GPT-5.4 with 1M Token Context Window Released", source: "Crescendo.ai", excerpt: "OpenAI unveiled GPT-5.4 featuring 1M token context and autonomous multi-step workflows, scoring 75% on OSWorld-V benchmark.", url: "https://www.crescendo.ai/news/latest-ai-news-and-updates"},
+                {title: "Anthropic Claude Sonnet 4.6 Reaches 1M Token Context Beta", source: "Releasebot", excerpt: "Anthropic launched Claude Sonnet 4.6 with 1M context window in beta with significant improvements in coding and agentic capabilities.", url: "https://releasebot.io/updates/anthropic/claude"}
+            ],
+            'ai-china': [
+                {title: "Mystery 'Hunter Alpha' Model Revealed to Be Xiaomi's 1T Parameter Release", source: "Japan Times", excerpt: "Mysterious model sparking DeepSeek speculation revealed March 19 as Xiaomi's 1-trillion-parameter model trained primarily in Chinese.", url: "https://www.japantimes.co.jp/business/2026/03/19/tech/mystery-ai-model-china-buzz/"},
+                {title: "Anthropic Detects Chinese Labs' Fraudulent Account Campaign", source: "Releasebot", excerpt: "Anthropic uncovered DeepSeek, Moonshot AI, MiniMax linked to 24,000+ fraudulent Claude accounts generating 16M+ interactions.", url: "https://releasebot.io/updates/anthropic"},
+                {title: "DeepSeek V4 Multimodal Expected with Huawei/Cambricon Optimization", source: "Industry Reports", excerpt: "DeepSeek planning V4 multimodal model optimized for domestic Chinese chips, including picture, video and text generation.", url: "https://www.nxcode.io/resources/news/deepseek-v4-release-specs-benchmarks-2026"}
+            ],
+            'ai-agents': [
+                {title: "NVIDIA Announces Agent Toolkit and OpenShell Runtime", source: "NVIDIA", excerpt: "NVIDIA Agent Toolkit with OpenShell open source runtime for self-evolving agents. Adopted by Adobe, Atlassian, Salesforce, ServiceNow.", url: "https://nvidianews.nvidia.com/news/ai-agents"},
+                {title: "Salesforce Launches Agentforce 2dx for Autonomous Enterprise Workflows", source: "VentureBeat", excerpt: "Agentforce 2dx enables AI agents to run autonomously across enterprise systems.", url: "https://venturebeat.com/ai/salesforce-launches-agentforce-2dx-pushing-autonomous-ai-deep-into-enterprise-workflows"},
+                {title: "67% of Fortune 500 Now Have AI Agents in Production", source: "Industry Reports", excerpt: "Up from 34% in 2025. Customer service is #1 use case.", url: "https://moltbook-ai.com/posts/ai-agents-march-2026-roundup"},
+                {title: "Santander and Mastercard Complete Europe's First Live AI Agent Payment", source: "Industry Reports", excerpt: "First regulated AI agent payment in Europe, enabling AI systems to execute financial transactions within preset limits.", url: "https://moltbook-ai.com/posts/ai-agents-march-2026-roundup"}
+            ],
+            'ai-open': [
+                {title: "Xiaomi MiMo-V2-Pro: 1 Trillion Parameters, 1M Token Context", source: "Shakudo", excerpt: "MiMo-V2-Pro features agent-focused design from former DeepSeek researchers.", url: "https://www.shakudo.io/blog/top-9-large-language-models"},
+                {title: "Alibaba's Qwen 3.5 Closes Gap with Frontier Models", source: "Industry Reports", excerpt: "Qwen 3.5 features 1T+ parameters via MoE and supports 119 languages.", url: "https://vertu.com/lifestyle/the-best-open-source-llms-in-2026-a-complete-guide-for-ai-developers/"},
+                {title: "LTX 2.3 Generates Synchronized 4K Video and Audio", source: "Blog Reports", excerpt: "Lightricks released 22B-parameter Diffusion Transformer generating synchronized video and audio at 4K/50fps up to 20 seconds.", url: "https://blog.mean.ceo/new-ai-model-releases-news-march-2026/"},
+                {title: "Mistral Releases Small 4 and Joins NVIDIA Coalition", source: "VentureBeat", excerpt: "Mistral Small 4 model released. Leanstral open-source code agent unveiled. Joined NVIDIA Nemotron Coalition.", url: "https://venturebeat.com/technology/four-ai-research-trends-enterprise-teams-should-watch-in-2026"}
+            ],
+            'ai-enterprise': [
+                {title: "Trump Administration Unveils National AI Policy Framework", source: "CNBC", excerpt: "Legislative framework on March 20 proposing uniform national AI policy including child safety rules, data center permitting and IP protections.", url: "https://www.cnbc.com/2026/03/20/trump-ai-policy-framework.html"},
+                {title: "White House Urges Light-Touch AI Regulation", source: "US News", excerpt: "Six-pronged framework urging Congress to implement light-touch regulations addressing safety, security, child protection.", url: "https://www.usnews.com/news/politics/articles/2026-03-20/white-house-releases-ai-policy-framework-for-congress-with-six-guiding-principles"},
+                {title: "EU Council Agrees Position on Streamlined AI Rules", source: "EU Council", excerpt: "EU shifts toward pragmatic governance as part of 'Omnibus VII' simplification agenda.", url: "https://www.consilium.europa.eu/en/press/press-releases/2026/03/13/council-agrees-position-to-streamline-rules-on-artificial-intelligence"},
+                {title: "IBM Completes Confluent Acquisition for Real-Time Enterprise AI", source: "IBM Newsroom", excerpt: "IBM acquired Confluent on March 17, making real-time streaming the engine for AI agents across 40% of Fortune 500.", url: "https://newsroom.ibm.com/2026-03-17-ibm-completes-acquisition-of-confluent,-making-real-time-data-the-engine-of-enterprise-ai-and-agents"},
+                {title: "Anthropic Announces Claude Partner Network with $100M Investment", source: "Artificial Lawyer", excerpt: "Partner network launched to help enterprises adopt Claude, committing at least $100M through 2026.", url: "https://www.artificiallawyer.com/2026/03/17/will-anthropics-claude-partner-network-impact-legal-tech/"}
+            ],
+            'crypto-macro': [
+                {title: "Fed Holds Rates at 3.50%-3.75%, Forecasts 1 Cut in 2026", source: "Federal Reserve", excerpt: "FOMC voted 11-1 to maintain rates. Inflation forecast raised to 2.7% from 2.4% citing elevated energy prices from Middle East conflict.", url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm"},
+                {title: "Powell Addresses Economic Uncertainty from Iran War", source: "Federal Reserve Press Conference", excerpt: "Highlighted uncertainty around Strait of Hormuz disruptions and conflict impact on inflation. Labor market weakness cited.", url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm"}
+            ],
+            'crypto-equities': [
+                {title: "S&P 500 Drops Third Consecutive Day, Fourth Week of Losses", source: "TheStreet", excerpt: "S&P 500: -1.51% to 6,506. Nasdaq: -2.01%. Russell 2000 enters correction territory with 10% drawdown.", url: "https://www.thestreet.com/latest-news/stock-market-today-march-20-2026"},
+                {title: "Super Micro (SMCI) Crashes 27% on AI Server Smuggling Charges", source: "24/7 Wall St", excerpt: "Federal prosecutors charged three executives with illegally smuggling AI servers to China. Dell rose 5% as alternative.", url: "https://247wallst.com/investing/2026/03/20/super-micro-craters-27-dell-rises-5-the-ai-server-market-just-got-a-new-front-runner/"},
+                {title: "Oil Price Shock: Brent Crude Tops $112 on Iraq Force Majeure", source: "CNBC", excerpt: "Brent at $112.19 (+3.26%). Iraq declared force majeure at all foreign-operated oilfields. Drones struck two Kuwait refineries.", url: "https://www.cnbc.com/2026/03/20/gold-silver-price-metal-market-oil-brent-wti-futures-iran-war-inflation.html"},
+                {title: "Gold Crashes ~10% in Worst Weekly Rout Since 2011", source: "CNBC", excerpt: "Gold at $4,660/oz, down from $5,000+. Worst weekly decline since 2011. Higher real rates from Fed hawkishness offsetting safe-haven demand.", url: "https://www.cnbc.com/2026/03/20/gold-silver-price-metal-market-oil-brent-wti-futures-iran-war-inflation.html"}
+            ],
+            'crypto-btc': [
+                {title: "Bitcoin Consolidates at $70,400 Amid Quadruple Witching", source: "CoinDesk", excerpt: "BTC at ~$70,416-$70,841. Trillions in derivatives expire March 21. Weak conviction among dip buyers.", url: "https://www.coindesk.com/markets/2026/03/20/crypto-market-steadies-as-derivatives-signal-caution-macro-pressure-builds"},
+                {title: "Bitcoin Price Pattern 'Dangerously Similar' to $60K Crash", source: "CoinDesk", excerpt: "Technical warning: current consolidation resembles setup that preceded prior drop to $60K.", url: "https://www.coindesk.com/markets/2026/03/20/bitcoin-s-price-action-looks-dangerously-similar-to-the-pattern-that-sent-it-crashing-to-usd60-000"},
+                {title: "Bitcoin Long-Term Holder Selling Slows", source: "The Block", excerpt: "VanEck report signals 'potentially constructive' trend as large holders reduce selling pressure.", url: "https://www.theblock.co/post/394467/bitcoin-long-term-holder-activity-slows-vaneck"},
+                {title: "Ethereum ETF Momentum Continues, Foundation Stakes 70K ETH", source: "Industry Reports", excerpt: "ETH at $2,142. BlackRock's ETHB ETF driving 20% outperformance vs S&P 500. $160.8M weekly inflows.", url: "https://www.coindesk.com/markets/2026/03/20/crypto-market-steadies-as-derivatives-signal-caution-macro-pressure-builds"}
+            ],
+            'crypto-defi': [
+                {title: "Cardano DeFi Hits Record 500M ADA TVL", source: "U.Today", excerpt: "Record 520M ADA locked. Upcoming v11 hard fork expected end-March will boost throughput to 1,000 TPS.", url: "https://u.today/cardano-defi-hits-record-500-million-ada-tvl-is-one-billion-milestone-next"},
+                {title: "TRON Launches TRX/USDC on Aerodrome DEX", source: "The Block", excerpt: "TRX/USDC pairs now live on Base network's leading DEX, expanding cross-chain liquidity.", url: "https://www.theblock.co/post/393986/trx-usdc-trading-pairs-now-available-on-aerodrome-fueling-cross-chain-liquidity-for-trons-ecosystem"}
+            ],
+            'crypto-regulation': [
+                {title: "SEC/CFTC Joint Clarification: 16 Cryptos Are Commodities", source: "CoinDesk", excerpt: "Historic 68-page interpretive release declaring Bitcoin, Ethereum and 14 others as digital commodities under CFTC jurisdiction.", url: "https://www.coindesk.com/policy/2026/03/17/u-s-sec-issues-first-ever-definitions-for-what-crypto-assets-are-securities"},
+                {title: "Crypto Clarity Act Inches Toward Senate Hearing", source: "CoinDesk", excerpt: "Updated Clarity Act language circulated to White House. Would legislatively define commodities vs securities for crypto.", url: "https://www.coindesk.com/policy/2026/03/19/crypto-clarity-act-inches-toward-senate-hearing-as-lawmakers-weigh-legislative-trades"},
+                {title: "IREN Pivots to AI: $9.3B Funding, 150K GPUs", source: "Financial Reports", excerpt: "Bitcoin mining company IREN expanding to 150K NVIDIA GPUs. Added to MSCI USA Index. Shows mining-to-AI pivot trend.", url: "https://finance.yahoo.com/news/nvidia-launches-groq-3-ai-chip-and-cpu-server-aimed-at-intel-during-gtc-2026-200529139.html"}
+            ],
+            'mental-research': [
+                {title: "WHO Establishes AI Governance Framework for Mental Health at TU Delft", source: "WHO", excerpt: "Pre-convening at TU Delft March 17-19 aligned on responsible AI adoption. Key concern: generative AI tools not designed for mental health being used by young people.", url: "https://www.who.int/news/item/20-03-2026-towards-responsible-ai-for-mental-health-and-well-being--experts-chart-a-way-forward"},
+                {title: "Kaiser Mental Health Providers Strike Over AI Concerns", source: "NPR/WWNO", excerpt: "2,400 Kaiser therapists ended 24-hour strike in Northern California. AI replacing human providers cited as key concern.", url: "https://www.wwno.org/npr-news/2026-03-19/a-strike-by-therapists-spotlights-a-growing-concern-ai-replacing-human-providers"},
+                {title: "Randomized Trial Shows Promise for Generative AI Therapy Chatbot", source: "NEJM AI", excerpt: "First RCT demonstrating effectiveness of fully generative AI chatbot for major depressive disorder, anxiety and eating disorders.", url: "https://ai.nejm.org/doi/full/10.1056/AIoa2400802"},
+                {title: "Cognitive Layer Architecture Helps LLMs Outperform Clinicians in CBT", source: "Nature Medicine", excerpt: "LLMs with cognitive layer consistently outperformed both standalone LLMs and human clinicians in delivering CBT.", url: "https://www.nature.com/articles/s41591-026-04278-w"},
+                {title: "Fine-Tuning Improves LLM Therapist Performance", source: "npj Mental Health Research", excerpt: "Fine-tuning with specific therapeutic techniques significantly enhances LLM therapist performance in digital patient interactions.", url: "https://www.nature.com/articles/s44184-025-00159-1"},
+                {title: "AI Models Given Therapy Show Concerning Results", source: "Nature", excerpt: "Researchers gave AI four weeks of simulated therapy; results raised concerns about capabilities and limitations.", url: "https://www.nature.com/articles/d41586-025-04112-2"}
+            ],
+            'mental-tools': [
+                {title: "Digital Therapeutics Market to Reach $21.9 Billion by 2028", source: "GlobeNewswire", excerpt: "Market valued at $6.1B in 2023, growing at 29.1% CAGR. Driven by AI/ML integration and rising chronic disease.", url: "https://www.globenewswire.com/news-release/2026/03/19/3259193/0/en/Decentralized-Clinical-Trials-Market-to-Reach-18-8-Billion-by-2030-as-Digital-Health-Infrastructure-Reshapes-Drug-Development.html"},
+                {title: "Frontiers Editorial: Technological Advances in Psychiatric Treatments", source: "Frontiers in Psychiatry", excerpt: "March 20 editorial explores human-computer interaction in digital therapeutics as treatment landscape evolves.", url: "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1814653/full"},
+                {title: "Brown University Identifies 15 Ethical Risks in AI Therapy Chatbots", source: "ScienceDaily", excerpt: "Risks include mishandling crises, reinforcing harmful beliefs, showing biased responses and offering deceptive empathy.", url: "https://www.sciencedaily.com/releases/2026/03/260302030642.htm"}
+            ],
+            'sports-bjj': [
+                {title: "ADCC South American Trials Results - Rio de Janeiro", source: "BJJ Heroes", excerpt: "Five athletes qualified for ADCC Worlds at March 16 trials. 18-year-old David Mateus won 66kg without conceding a point across six matches.", url: "https://www.bjjheroes.com/bjj-news/2026-1st-adcc-south-american-trials-rio-de-janeiro-brazil"},
+                {title: "March 2026 BJJ Rankings Update", source: "Jits Magazine", excerpt: "Rankings updated following ADCC Trials and Abu Dhabi Grand Slam. Nicholas Meregali returns to rankings after two years.", url: "https://jitsmagazine.com/bjj-rankings-update-march-2026/"},
+                {title: "UFC Grappling Events in Rio", source: "Yahoo Sports", excerpt: "UFC BJJ events at Farmasi Arena included Tsarukyan vs Poullas submission-only rematch and Shara Bullet vs Masvidal.", url: "https://sports.yahoo.com/articles/grappling-bulletin-adcc-rio-trials-141355688.html"}
+            ],
+            'sports-judo': [
+                {title: "Tbilisi Grand Slam 2026: 386 Judoka from 51 Nations", source: "IJF", excerpt: "Fourth Grand Slam of 2026 season, March 20-22 at Olympic Sports Palace in Tbilisi. Competition underway.", url: "https://www.ijf.org/news/show/the-stage-is-set-in-tbilisi-for-the-2026-grand-slam"},
+                {title: "Edmonton International Judo Championships Results", source: "Judo Manitoba", excerpt: "Multiple medal winners across youth categories at March 16 event.", url: "https://judomanitoba.mb.ca/2026/03/16/2026-edmonton-international-judo-championships-results/"}
+            ],
+            'sports-tennis': [
+                {title: "Miami Open 2026 Underway at Hard Rock Stadium", source: "Miami Open", excerpt: "ATP Masters 1000 and WTA 1000 event running March 17-29. Weather delays compressed schedule.", url: "https://www.miamiopen.com/tournament/schedule/"},
+                {title: "Alex Eala Survives Three-Hour Test at Miami Open", source: "Olympics.com", excerpt: "Eala overcame Laura Siegemund on March 19 in marathon match to advance in women's draw.", url: "https://www.olympics.com/en/news/tennis-alex-eala-survives-three-hour-test-overcomes-laura-siegemund-at-2026-miami-open"},
+                {title: "Rain Creates Marathon Schedule at Miami Open", source: "Puntodebreak", excerpt: "Multiple delayed matches on March 19 due to rain cancellations from previous day.", url: "https://www.puntodebreak.com/en/2026/03/19/thursday-march-19-miami-open-2026-order-of-play-tennis-marathon-due-to-rain"}
+            ],
+            'sports-sailing': [
+                {title: "SailGP 2026: Great Britain Leads After Three Events", source: "SailGP", excerpt: "GB leads championship after Perth, Auckland, Sydney legs. USA second, Australia third in 13-event season.", url: "https://sailgp.com/results/2026/season-championship"},
+                {title: "38th America's Cup: Late Entry Deadline Extended", source: "Sail-World", excerpt: "Entry deadline extended to end of March 2026. Race in Naples, Italy next summer.", url: "https://www.sail-world.com/news/293390/Americas-Cup-Late-Entry-date-extension-confirmed"},
+                {title: "US Sailing Regional Symposium Held March 21", source: "US Sailing", excerpt: "Regional event at Lake Geneva Yacht Club in Wisconsin for sailors, coaches and leaders.", url: "https://www.ussailing.org/news/us-sailing-announces-2026-regional-symposiums-and-national-coaching-symposium/"}
+            ],
+            'tech-devices': [
+                {title: "Samsung Galaxy S26 Ultra Update Pulled After Release", source: "SammyFans", excerpt: "Samsung released then pulled 1GB software update for S26 Ultra on March 19 from China market.", url: "https://www.sammyfans.com/2026/03/19/samsung-releases-then-pulls-a-1gb-galaxy-s26-ultra-update/"},
+                {title: "Samsung Galaxy S26 Series Launch: Agentic AI Features", source: "Samsung Newsroom", excerpt: "S26 launched March 11 at $900/$1,100/$1,300. First built-in Privacy Display. Galaxy AI with Photo Assist and Creative Studio.", url: "https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet"},
+                {title: "Insta360 Link 2 Pro Webcams Launch", source: "Gearpatrol", excerpt: "Link 2 Pro and Link 2C Pro with larger 1/1.3-inch sensors for 4K at 30fps content creation.", url: "https://www.gearpatrol.com/audio/best-new-tech-releases-3-15-2026/"}
+            ],
+            'tech-software': [
+                {title: "Google Pixel March 2026 Feature Drop", source: "Google Blog", excerpt: "Enhanced Circle to Search for plants and clothing. Custom AI homescreen icons in five styles. Expanded At a Glance widgets.", url: "https://blog.google/products-and-platforms/devices/pixel/march-2026-pixel-drop/"},
+                {title: "Pixel Watch Gains Emergency Satellite Messaging in Europe", source: "Google Blog", excerpt: "Satellite messaging expanded to Canada, Europe, Alaska, Hawaii. Standalone earthquake alerts for Pixel Watch 2+.", url: "https://blog.google/products-and-platforms/devices/pixel/march-2026-pixel-drop/"},
+                {title: "Tesla FSD Europe Approval Delayed to April 10", source: "Electrek", excerpt: "Tesla's Full Self-Driving approval in Netherlands slipped from March 20 to April 10 after completing required testing.", url: "https://electrek.co/2026/03/20/tesla-fsd-europe-netherlands-approval-delayed-april/"}
+            ],
+            'tech-ev': [
+                {title: "BMW Neue Klasse i3 EV Debuts March 18", source: "Electrek", excerpt: "New electric platform vehicle revealed, series production starting H2 2026.", url: "https://electrek.co/2026/03/05/bmws-new-i3-ev-debut-less-than-two-weeks-video/"},
+                {title: "Global EV Sales: Europe Surges 21%, US Slides 41%", source: "Electrek", excerpt: "1.1M global EV sales in February. Germany +26%, France +30%. US down to 5.1% market share.", url: "https://electrek.co/2026/03/12/global-ev-sales-hit-1-1-million-europe-surges-while-the-us-slides/"},
+                {title: "Honda Cancels Three North American EV Models", source: "Honda Global", excerpt: "Development cancelled due to US EV market slowdown and business environment changes.", url: "https://global.honda.com/en/newsroom/news/2026/c260312eng.html"},
+                {title: "Hyundai IONIQ 5 Gets $10,000 Price Cut", source: "Electrek", excerpt: "Major price reduction to address competitiveness concerns in the EV SUV segment.", url: "https://electrek.co/2026/03/04/hyundai-ioniq-5-hot-10000-cheaper/"},
+                {title: "EV Price Gap with Gas Cars Narrows to $6,500", source: "Electrek", excerpt: "Average EV transaction price dropped to $55,300 in February. One of smallest gaps on record.", url: "https://electrek.co/2026/03/10/ev-prices-fall-again-gap-gas-cars-shrinks-6500-february/"},
+                {title: "Stellantis EVs Gain Tesla Supercharger Access", source: "EV Industry Reports", excerpt: "Jeep and Dodge EVs now can use Tesla's Supercharger network. Last major automaker to gain compatibility.", url: "https://electrek.co/2026/03/10/ev-prices-fall-again-gap-gas-cars-shrinks-6500-february/"}
+            ]
+        };
 
-"nvidia-gtc":{headline:"Nvidia GTC 2026: $1 Trillion in Orders, Vera CPU, Groq LPU",body:"Nvidia's 2026 GPU Technology Conference delivered record announcements at its San Jose venue March 16–19 that signal the continued explosive growth of AI infrastructure spending. CEO Jensen Huang announced purchase orders for Blackwell and newly unveiled Vera Rubin GPUs expected to reach $1 trillion cumulatively through 2027. The Vera Rubin GPU delivers 10x performance improvement per watt compared to the Grace Blackwell generation. Nvidia introduced the Vera CPU, purpose-built for agentic AI workloads requiring rapid response and adaptive behavior, achieving 2x efficiency improvements and 50% faster performance versus traditional processors. Nvidia Groq 3 LPU is shipping in Q3 2026. Cloud infrastructure partners have doubled their AI factory footprint to 1.2 million+ GPUs globally with 1.7 gigawatt aggregate power capacity.",sources:[{url:"https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-blackwell-vera-rubin.html",name:"CNBC"},{url:"https://blogs.nvidia.com/blog/gtc-2026-news/",name:"Nvidia Blog"}]},"nvidia-agents":{headline:"Nvidia Launches Open Agent Toolkit With 15+ Enterprise Partners",body:"Nvidia unveiled OpenShell, an open-source runtime designed to enable deployment of self-evolving autonomous agents within enterprise systems and workflows, on March 16. The toolkit provides APIs, security frameworks, and deployment templates that standardize agent development and reduce time-to-market. Nvidia announced partnerships with 15+ major technology and enterprise vendors spanning infrastructure, enterprise software, security, creative tools, and project management. The initiative aims to democratize agent deployment across enterprises of all sizes and accelerate adoption of agentic AI capabilities in business processes. Participants can access reference implementations, pre-built integrations, and technical training. The toolkit is expected to become the de facto standard for enterprise agent development.",sources:[{url:"https://nvidianews.nvidia.com/news/ai-agents",name:"Nvidia Newsroom"}]},"gpt-5-4":{headline:"GPT-5.4 Arrives With 1M Token Context and Autonomous Workflows",body:"OpenAI has released GPT-5.4 Thinking, its flagship large language model featuring a revolutionary 1 million token context window—roughly 1.2 million words—enabling the model to process entire books, complete codebases, and comprehensive documentation within a single prompt. The expanded context enables novel use cases including automated code review of entire systems and comprehensive legal document analysis. The model scores 75% on the OSWorld-V benchmark measuring real-world task performance in software environments, surpassing the 72.4% human baseline. GPT-5.4 can autonomously execute multi-step workflows spanning multiple applications and tools. OpenAI reported surpassing $25 billion in annualized revenue, with GPT-5.4 and enterprise products driving acceleration.",sources:[{url:"https://www.crescendo.ai/news/latest-ai-news-and-updates",name:"Crescendo"}]},"meta-layoffs":{headline:"Meta Considering 20% Layoffs to Offset $115-135B AI Spending",body:"Meta Platforms is evaluating significant workforce reductions of approximately 20%, affecting roughly 15,000 employees, as the company seeks to manage its escalating AI infrastructure and development costs. The company's 2026 AI CapEx is projected between $115 and $135 billion—representing an extraordinary commitment to AI chip procurement, data center construction, and model training. Despite strong revenue growth, Meta's profitability is under pressure from infrastructure investments. Layoffs would primarily affect back-office functions, while AI research and product teams would be protected. Simultaneously, Atlassian announced a 10% workforce reduction affecting approximately 1,600 employees, citing strategic repositioning toward AI-first product development.",sources:[{url:"https://www.neuralbuddies.com/p/ai-news-recap-march-20-2026",name:"NeuralBuddies"}]},"white-house-ai":{headline:"White House Expected to Send AI Regulation Framework to Congress",body:"The White House is preparing a comprehensive AI regulation framework expected to be transmitted to Congress in coming weeks, addressing critical areas including child safety online, community impact assessment, creator protection and attribution, and content authenticity verification. The framework is expected to propose new FTC authorities, liability shields for good-faith compliance, and research funding for AI safety. Washington state advanced five AI-related bills including HB 1170 mandating disclosure of AI-generated content in political advertising and deepfake media. Congress passed the AI Accountability Act requiring companies to conduct algorithmic bias audits before deploying systems in sensitive domains. The regulatory momentum reflects bipartisan concern over AI risks.",sources:[{url:"https://www.transparencycoalition.ai/news/ai-legislative-update-march20-2026",name:"Transparency Coalition"}]},"nvidia-exports":{headline:"Three Charged With Diverting Nvidia AI Chips to China via Southeast Asia",body:"US federal prosecutors have charged three individuals connected to Super Micro Computer in a sophisticated scheme to illegally divert high-end AI server systems equipped with cutting-edge Nvidia GPUs to China through Southeast Asian intermediaries. The defendants allegedly used shell companies and falsified end-use certificates to circumvent US export controls. Intelligence agencies traced the diverted servers to Chinese military and AI research facilities, representing significant technology transfer. The charges underscore US commitment to enforcing strict semiconductor export controls and combating adversarial technology acquisition. The case illustrates sophisticated workarounds to export controls and highlights vulnerabilities in supply chain monitoring.",sources:[{url:"https://www.transparencycoalition.ai/news/ai-legislative-update-march20-2026",name:"Transparency Coalition"}]},"uber-rivian":{headline:"Uber Strikes $1.25B Robotaxi Deal With Rivian for 50,000 Autonomous EVs",body:"On March 19, Uber and Rivian announced a landmark robotaxi partnership representing the largest autonomous vehicle commitment in Uber's history. The initial $300 million investment secures 10,000 Rivian R2 electric vehicles with an option to purchase 40,000 additional units through 2031, totaling $1.25 billion potential value. The vehicles will be deployed exclusively on Uber's platform across 25 cities in the US, Canada, and Europe. San Francisco and Miami are targeted for initial 2028 rollout. Uber will pay licensing fees for Rivian's proprietary Level 4 autonomous driving software, creating a strategic alignment where Rivian manufactures vehicles and develops autonomous technology while Uber operates the service.",sources:[{url:"https://www.cnbc.com/2026/03/19/uber-rivian-robotaxi.html",name:"CNBC"},{url:"https://techcrunch.com/2026/03/19/uber-taps-rivian-to-build-robotaxis-in-deal-worth-up-to-1-25b/",name:"TechCrunch"}]},"apple-siri":{headline:"Apple AI-Powered Siri Debuts With iOS 26.4 and Google Gemini",body:"Apple is launching a completely reimagined Siri voice assistant with the March 2026 iOS 26.4 update, powered by Google's 1.2-trillion-parameter Gemini model running on Apple's Private Cloud Compute infrastructure. The integration represents a major architectural shift from previous Siri iterations, enabling sophisticated multi-step reasoning, extended context retention across conversation turns, and natural language understanding approaching human levels. Apple's Private Cloud Compute processes Siri requests on Apple-controlled servers using Secure Enclave technology, maintaining privacy protections. The partnership with Google demonstrates Apple's pragmatic approach to AI integration, leveraging best-in-class models while maintaining privacy standards.",sources:[{url:"https://www.crescendo.ai/news/latest-ai-news-and-updates",name:"Crescendo"}]},
+        function renderCards(containerId, articles) {
+            const container = document.getElementById(containerId);
+            if (!container) return;
+            articles.forEach((article) => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `<div class="card-source">${article.source}</div><h3 class="card-title">${article.title}</h3><p class="card-excerpt">${article.excerpt}</p>`;
+                card.addEventListener('click', () => openModal(article));
+                container.appendChild(card);
+            });
+        }
 
-"stocks-oil":{headline:"Stocks Tumble as Oil Hits $112 Brent, Strait of Hormuz Closed 19 Days",body:"US equity markets declined sharply on March 19 and 20 amid escalating energy market stress. The S&P 500 fell 1.51% on March 19 and declined another 0.38% on March 20. The Nasdaq index shed 2.01% amid technology sector weakness, while the Dow Jones Industrial Average dropped 444 points. Brent crude oil surged to $112.19 per barrel, the highest level since 2008, while West Texas Intermediate crude climbed to $93.55. The Strait of Hormuz closure now stretches 19 days, effectively blocking 20% of global crude oil supplies. Goldman Sachs released research suggesting oil could remain in triple-digit territory for years if regional conflict persists. The energy shock is cascading through supply chains, threatening profit margins across industries.",sources:[{url:"https://247wallst.com/investing/2026/03/20/stock-market-live-march-20-2026-sp-500-spy-lower-on-higher-oil-prices-again/",name:"24/7 Wall St"},{url:"https://www.cnn.com/2026/03/20/energy/oil-gas-prices-intl-hnk",name:"CNN"},{url:"https://fortune.com/article/price-of-oil-03-20-2026/",name:"Fortune"}]},"bitcoin-fed":{headline:"Bitcoin OGs Dump $117M After Hawkish Fed Dents Rate Cut Hopes",body:"Early Bitcoin adopters liquidated over 1,650 BTC worth approximately $117 million on March 19-20 following hawkish commentary from Federal Reserve officials suggesting only one rate cut may occur in 2026. Bitcoin's price dipped to $70,600 from its earlier level of $74,500, reflecting profit-taking and growing concerns about persistent higher rates. The sell-off reflects correlation between Bitcoin and risk assets; when equity markets struggle and rates remain elevated, Bitcoin typically underperforms. Market participants are reassessing 2026 expectations. Bitcoin's market capitalization stands at approximately $1.33 trillion, down from $1.4 trillion at month start.",sources:[{url:"https://www.coindesk.com/markets/2026/03/19/bitcoin-ogs-dump-over-usd100-million-in-btc-after-hawkish-fed-dents-rate-cut-hopes",name:"CoinDesk"},{url:"https://fortune.com/article/price-of-bitcoin-03-20-2026/",name:"Fortune"}]},"sec-cftc-crypto":{headline:"SEC and CFTC Issue Historic Joint Crypto Classification",body:"In a landmark regulatory development on March 17, the SEC and CFTC jointly released a comprehensive 68-page framework classifying 16 major cryptocurrencies as digital commodities rather than securities. The classification removes them from SEC securities jurisdiction, placing them under CFTC commodity oversight. The CFTC's no-action letter explicitly clarified that non-custodial cryptocurrency wallets are not considered intermediaries, dramatically reducing compliance burdens. SEC Chair Sharon Atkins announced 'Reg Crypto,' a regulatory safe harbor framework enabling token issuers to launch new cryptocurrencies with greater certainty. The SEC and CFTC signed a Memorandum of Understanding establishing the Joint Harmonization Initiative. The framework represents the most comprehensive and favorable regulatory treatment of cryptocurrency by US agencies to date.",sources:[{url:"https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets",name:"SEC.gov"},{url:"https://www.coindesk.com/policy/2026/03/17/u-s-sec-issues-first-ever-definitions-for-what-crypto-assets-are-securities",name:"CoinDesk"},{url:"https://www.bloomberg.com/news/articles/2026-03-17/sec-cftc-move-to-define-which-digital-assets-are-securities",name:"Bloomberg"}]},"cftc-defi":{headline:"CFTC Chair Outlines DeFi, Prediction Market Rulemaking Plans",body:"On March 10, CFTC Chairman Rostin Behnam outlined an ambitious rulemaking agenda focused on decentralized finance (DeFi), prediction markets, and emerging digital asset categories. Key initiatives include guidance on when DeFi software providers must register with the CFTC; updated rules governing leveraged crypto spot trading to prevent excessive leverage; and comprehensive requirements for perpetual derivatives and AI-driven algorithmic trading systems. The roadmap signals the agency's commitment to establishing clear, technology-neutral regulatory boundaries for next-generation financial infrastructure. Rulemaking is expected to be finalized in 2027.",sources:[{url:"https://www.coindesk.com/policy/2026/03/10/cftc-chair-highlights-wide-crypto-agenda-including-rules-on-defi-prediction-markets",name:"CoinDesk"}]},"honeywell-debt":{headline:"Honeywell Debt Move Raises Market Fears",body:"Honeywell International's announcement on March 20 of a significant debt restructuring operation sent fresh shudders through an already fragile and nervous financial market sensitive to corporate credit stress signals. The aerospace and industrial conglomerate indicated it would refinance existing debt at higher rates and extend maturity profiles, reflecting the rising interest rate environment. The move raised concerns about broader corporate balance sheet durability as many industrial firms face pressure from elevated borrowing costs, energy headwinds, and weakening demand. Credit default swap spreads widened on announcement. Market observers are closely monitoring whether the restructuring presages broader corporate distress.",sources:[{url:"https://www.fool.com/investing/2026/03/20/stock-market-today-live-coverage/",name:"Motley Fool"}]},
+        const modal = document.getElementById('articleModal');
+        const modalCloseBtn = document.getElementById('modalCloseBtn');
 
-"who-ai-health":{headline:"WHO Launches AI for Health Consortium at TU Delft",body:"The World Health Organization convened an important pre-conference at Delft University of Technology from March 17–19 to formally establish the new Consortium of Collaborating Centres on AI for Health. WHO leadership expressed deep concern that generative AI tools—designed for broad text generation tasks and never clinically tested for mental health applications—are increasingly being deployed to provide emotional support and therapeutic guidance, particularly to young people. The organization warned that AI systems lack clinical validation, may perpetuate biases, and could harm vulnerable populations. The Consortium aims to establish evidence-based frameworks for responsible AI deployment in health settings. The initiative reflects growing awareness that AI capabilities have outpaced regulatory frameworks.",sources:[{url:"https://www.who.int/news/item/20-03-2026-towards-responsible-ai-for-mental-health-and-well-being--experts-chart-a-way-forward",name:"WHO"}]},"kaiser-strike":{headline:"Kaiser Permanente Therapists Strike Over AI Replacement Fears",body:"On March 19, approximately 2,400 mental health providers at Kaiser Permanente concluded a 24-hour strike after the health system agreed to commitments addressing workforce concerns. A primary concern driving the labor action was Kaiser's implementation of AI systems to replace human clinical triage and assessment processes. Union representatives argued that AI-driven triage undermines clinical judgment and patient care quality, especially for complex presentations. Therapists expressed concern that AI systems would be optimized for cost reduction rather than patient outcomes. The settlement includes provisions for transparency in AI deployment and worker consultation. The action highlights growing labor movement concern about AI threatening professional employment.",sources:[{url:"https://www.wwno.org/npr-news/2026-03-19/a-strike-by-therapists-spotlights-a-growing-concern-ai-replacing-human-providers",name:"NPR/WWNO"}]},"stanford-bias":{headline:"Stanford Study: AI Therapy Chatbots Show Bias Against Certain Conditions",body:"A comprehensive study conducted by Stanford University's Human-Centered AI Institute revealed that AI therapy chatbots exhibit significantly higher stigmatizing language and reduced empathy when interacting with patients presenting alcohol dependence and schizophrenia compared to those presenting depression. The research evaluated five leading chatbot platforms and found consistent patterns of bias. AI systems were less likely to acknowledge patient suffering or offer supportive statements for stigmatized conditions. The study raises serious questions about whether AI systems can provide therapeutically effective mental health support. Researchers found performance gaps between AI-assisted care and human therapist interventions were particularly pronounced for severe mental illnesses.",sources:[{url:"https://hai.stanford.edu/news/exploring-the-dangers-of-ai-in-mental-health-care",name:"Stanford HAI"}]},"gmu-ai-race":{headline:"George Mason Study: Race-Blind AI Models Fail African American Patients",body:"Researchers at George Mason University's College of Public Health conducted an investigation into AI medication recommendation systems used in psychiatry and found that 'race-blind' AI models—intentionally omitting racial information—actually recommended medications that were statistically less effective for African American patients. The researchers compared performance of race-blind models against race-aware models trained on separate data. Race-aware models significantly outperformed general models in clinical prediction accuracy. The study illustrates the paradox of treating all populations identically in healthcare AI. The findings have implications for FDA approval standards for algorithmic clinical decision support systems.",sources:[{url:"https://publichealth.gmu.edu/news/2026-02/pitfalls-one-size-fits-all-ai-mental-health-treatment",name:"George Mason University"}]},"vermont-ai":{headline:"Vermont Bill H 816 Would Regulate AI in Mental Health Services",body:"Vermont's House Health Care Committee approved Bill H 816 on March 17, which would establish comprehensive regulatory requirements for the deployment and use of artificial intelligence in the provision of mental health services. The legislation would require providers to disclose when AI systems are being used, ensure human clinical oversight of AI recommendations, and establish liability frameworks. The bill mandates that AI systems used in mental healthcare meet clinical evidence standards and undergo independent validation. Vermont's action represents a proactive state-level effort to establish guardrails. The bill is expected to advance to the full House for consideration in coming weeks.",sources:[{url:"https://www.transparencycoalition.ai/news/ai-legislative-update-march20-2026",name:"Transparency Coalition"}]},
+        function openModal(article) {
+            document.getElementById('modalTitle').textContent = article.title;
+            document.getElementById('modalSource').textContent = `Source: ${article.source}`;
+            document.getElementById('modalBody').textContent = article.excerpt;
+            document.getElementById('modalLink').href = article.url;
+            modal.classList.add('active');
+        }
 
-"bjj-pans":{headline:"BJJ: IBJJF Pans 2026 Starts Monday in Kissimmee",body:"The 2026 IBJJF Pan American Jiu-Jitsu Championship commences Monday, March 24, and continues through March 29 at the Kissimmee, Florida venue. The event represents the second stop on the prestigious IBJJF Grand Slam circuit, following the European Open. The championship features elite athletes from across the Americas competing for rank and Grand Slam points in divisions from blue belt through black belt. USADA anti-doping protocols will be enforced throughout competition, and all matches will be broadcast live on FloGrappling. The IBJJF Grand Slam tracker enables fans and athletes to follow who remains alive for championship points. The tournament is expected to draw 500+ competitors.",sources:[{url:"https://ibjjf.com/events/pan-ibjjf-jiu-jitsu-championship-2026",name:"IBJJF"},{url:"https://www.flograppling.com/articles/15660521-2026-ibjjf-grand-slam-watch-whos-still-alive-ahead-of-pans",name:"FloGrappling"}]},"judo-tbilisi":{headline:"Judo: Tbilisi Grand Slam Day 1 Results",body:"The Tbilisi Grand Slam judo tournament took place March 20–22 at the Georgian capital's Olympic Sports Palace, attracting 386 judoka competing for 51 nations—demonstrating the sport's global reach. Day 1 produced compelling technical matches and dramatic upsets across multiple weight divisions. Tugce Beder of Turkey dominated the -48kg women's division with commanding performances. Izhak Ashpiz of Israel captured his first-ever Grand Slam gold medal, fulfilling a career milestone. Blandine Pont of France showcased superior technical execution. Nurkanat Serikbayev of Kazakhstan secured a dramatic late-match victory. Timna Nelson Levy of Israel captured gold in her weight category. Grand Slam events attract the world's elite judoka and serve as Olympic qualification opportunities.",sources:[{url:"https://www.ijf.org/competition/3134",name:"IJF"},{url:"https://www.euronews.com/2026/03/20/tbilisi-welcomes-the-world-judo-tour-in-spectacular-fashion",name:"Euronews"}]},"tennis-miami":{headline:"Tennis: Miami Open Hit by Rain as Fonseca-Alcaraz Showdown Looms",body:"The Miami Open tennis tournament resumed Friday action at Hard Rock Stadium after rain delays disrupted the schedule earlier in the week. Brazilian teenager Joao Fonseca, who has captured attention as an emerging superstar, is positioned to face top seed Carlos Alcaraz in an upcoming matchup that has captured global tennis fan interest. In a notable upset result, 17-year-old Moise Kouame won his Miami match, becoming the youngest ATP Masters 1000 match winner since Rafael Nadal achieved the same distinction in 2003. Kouame's achievement illustrates the emergence of tennis talent at increasingly young ages. The tournament continues through the remainder of the week with potential weather concerns.",sources:[{url:"https://www.atptour.com/en/news/miami-2026-friday-rain-delay",name:"ATP Tour"},{url:"https://www.atptour.com/en/news/miami-2026-results",name:"ATP Tour"}]},
+        function closeModal() {
+            modal.classList.remove('active');
+        }
 
-"tech-robotaxi":{headline:"Uber-Rivian $1.25B Robotaxi Deal: 50,000 Autonomous R2 EVs",body:"The March 19 partnership between Uber and Rivian represents the ride-hailing giant's most substantial autonomous vehicle investment to date and signals accelerating transition toward driverless fleet operations. The initial $300 million investment secures 10,000 Rivian R2 electric vehicles with options to purchase 40,000 additional units through 2031, totaling $1.25 billion potential value. The R2 electric vehicles will be deployed exclusively on Uber's platform across 25 cities throughout the US, Canada, and Europe. San Francisco and Miami are targeted for initial 2028 deployment. Uber will pay licensing fees for Rivian's proprietary Level 4 autonomous driving software, creating a strategic partnership combining operational expertise with manufacturing capabilities.",sources:[{url:"https://www.cnbc.com/2026/03/19/uber-rivian-robotaxi.html",name:"CNBC"},{url:"https://electrek.co/2026/03/19/uber-rivian-partner-deploy-r2-robotaxis/",name:"Electrek"}]},"apple-devices":{headline:"Apple MacBook Neo at $599, iPad Air M4, iPhone 17e Launched",body:"Apple expanded its product lineup with three significant new releases targeting different market segments and use cases. The MacBook Neo enters the market at $599, undercutting traditional MacBook Air pricing by approximately 50% and dramatically expanding accessibility of Apple portable computing to budget-conscious consumers and price-sensitive markets. The iPad Air received the powerful M4 chip, delivering approximately 30% performance improvement over prior-generation models, alongside new N1 wireless chip and C1X modem for enhanced cellular and WiFi connectivity. The new iPhone 17e brings an affordable flagship option featuring a 6.1-inch display with notch design and Face ID biometric authentication, targeting users seeking premium features at accessible price points. Expected availability spans March through May 2026.",sources:[{url:"https://www.gearpatrol.com/tech/best-new-tech-releases-3-8-2026/",name:"Gear Patrol"}]},"samsung-micro":{headline:"Samsung Micro RGB TVs Now Available from 55 to 115 Inches",body:"Samsung has brought advanced micro-LED television technology to mainstream market segments, launching a 2026 lineup spanning 55-inch to 115-inch display sizes. Micro-LED technology delivers superior brightness, contrast ratios, and color fidelity compared to traditional LCD and OLED displays, and was previously available only in ultra-premium segments at prices exceeding $100,000. Micro-LED offers advantages including excellent black levels from individually addressable pixels, extremely wide color gamut, and ability to operate continuously without degradation. The expanded size range makes high-quality micro-LED displays accessible to affluent consumer and commercial segments seeking premium visual performance. Samsung's 2026 lineup pricing is expected to range widely depending on size and options.",sources:[{url:"https://www.yankodesign.com/2026/03/13/5-best-tech-gadgets-of-march-2026/",name:"Yanko Design"}]},"tesla-fsd":{headline:"NHTSA Escalates Tesla FSD Investigation to 3.2 Million Vehicles",body:"The National Highway Traffic Safety Administration (NHTSA) has significantly escalated its safety investigation into Tesla's Full Self-Driving (FSD) system, expanding the scope to cover an estimated 3.2 million Tesla vehicles equipped with the advanced driver-assistance technology. The expanded probe signals intensifying regulatory scrutiny of autonomous driving systems and their real-world safety performance. NHTSA is investigating whether FSD systems meet federal motor vehicle safety standards and whether the technology is operating safely on public roads. The investigation has examined incident reports, video evidence, and performance data from FSD-equipped vehicles. Tesla has been cooperative with the investigation. The expanded investigation underscores broader regulatory concerns about rapid autonomous vehicle deployment.",sources:[{url:"https://www.crescendo.ai/news/latest-ai-news-and-updates",name:"Crescendo"}]}};
+        modalCloseBtn.addEventListener('click', closeModal);
+        modal.addEventListener('click', function(event) {
+            if (event.target === modal) closeModal();
+        });
 
-const modal=document.getElementById('modal');const cards=document.querySelectorAll('.card');const dateInput=document.getElementById('dateInput');const prevBtn=document.getElementById('prevBtn');const nextBtn=document.getElementById('nextBtn');cards.forEach(card=>{card.addEventListener('click',function(){const articleId=this.getAttribute('data-article');const article=articleData[articleId];if(article){document.getElementById('modalHeadline').textContent=article.headline;document.getElementById('modalBody').textContent=article.body;let sourcesHtml='<h4>Sources</h4>';article.sources.forEach(source=>{const domain=new URL(source.url).hostname;sourcesHtml+=`<a href="${source.url}" class="source-pill" target="_blank"><img src="https://www.google.com/s2/favicons?domain=${domain}&sz=32"> ${source.name}</a>`;});document.getElementById('modalSources').innerHTML=sourcesHtml;modal.classList.add('active');}});});modal.addEventListener('click',function(e){if(e.target===modal||e.target.id==='modalCloseBtn'){modal.classList.remove('active');}});document.addEventListener('keydown',function(e){if(e.key==='Escape'){modal.classList.remove('active');}});let html='<button class="modal-close" id="modalCloseBtn">&times;</button>';document.querySelector('.modal-content').insertAdjacentHTML('afterbegin',html);document.getElementById('modalCloseBtn').addEventListener('click',function(){modal.classList.remove('active');});function navigateToDate(dateStr){window.location.href='journal-'+dateStr+'.html';}function shiftDay(offset){const d=new Date(dateInput.value+'T12:00:00');d.setDate(d.getDate()+offset);const y=d.getFullYear();const m=String(d.getMonth()+1).padStart(2,'0');const day=String(d.getDate()).padStart(2,'0');navigateToDate(y+'-'+m+'-'+day);}dateInput.addEventListener('change',function(){navigateToDate(this.value);});prevBtn.addEventListener('click',function(){shiftDay(-1);});nextBtn.addEventListener('click',function(){shiftDay(1);});if(dateInput.value>=dateInput.max)nextBtn.disabled=true;if(dateInput.value<=dateInput.min)prevBtn.disabled=true;
-  </script>
+        Object.keys(articleData).forEach(containerId => renderCards(containerId, articleData[containerId]));
+
+        const picker = document.getElementById('datePicker');
+        const prevBtn = document.getElementById('prevDay');
+        const nextBtn = document.getElementById('nextDay');
+
+        function navigateToDate(dateStr) {
+            window.location.href = 'journal-' + dateStr + '.html';
+        }
+
+        function shiftDay(offset) {
+            const d = new Date(picker.value + 'T12:00:00');
+            d.setDate(d.getDate() + offset);
+            const y = d.getFullYear();
+            const m = String(d.getMonth() + 1).padStart(2, '0');
+            const day = String(d.getDate()).padStart(2, '0');
+            navigateToDate(y + '-' + m + '-' + day);
+        }
+
+        picker.addEventListener('change', function() {
+            navigateToDate(this.value);
+        });
+
+        prevBtn.addEventListener('click', function() {
+            shiftDay(-1);
+        });
+
+        nextBtn.addEventListener('click', function() {
+            shiftDay(1);
+        });
+
+        if (picker.value >= picker.max) nextBtn.disabled = true;
+        if (picker.value <= picker.min) prevBtn.disabled = true;
+    </script>
 </body>
 </html>
