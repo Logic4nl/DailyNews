@@ -72,10 +72,22 @@ h1,h2,h3,h4{font-family:'Newsreader',serif}
 .mood-box{column-span:all;background:linear-gradient(135deg,#FFF5EB,#FFF0E0);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1rem;font-size:0.85rem}
 .mood-box strong{color:#E8703A}
 footer{text-align:center;padding:2rem 1rem;font-size:0.75rem;color:#aaa;border-top:1px solid #e0dcd6;margin-top:2rem}
+.masthead{position:relative}
+.date-nav{position:absolute;left:1.2rem;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:0.4rem}
+.date-nav button{background:none;border:1px solid #ccc;border-radius:6px;width:32px;height:32px;cursor:pointer;font-size:1rem;color:#555;display:flex;align-items:center;justify-content:center;transition:all 0.2s}
+.date-nav button:hover{background:#f0eeea;border-color:#999}
+.date-nav button:disabled{opacity:0.3;cursor:default}
+.date-nav input[type="date"]{font-family:'Inter',sans-serif;font-size:0.82rem;border:1px solid #ccc;border-radius:6px;padding:0.3rem 0.5rem;background:#fff;color:#333;cursor:pointer}
+@media(max-width:768px){.date-nav{position:static;transform:none;justify-content:center;margin-bottom:0.5rem}}
 </style>
 </head>
 <body>
 <header class="masthead">
+<div class="date-nav">
+<button id="prevDay" title="Previous day">&#8249;</button>
+<input type="date" id="datePicker" value="2026-03-21" min="2026-03-15" max="2026-03-21">
+<button id="nextDay" title="Next day">&#8250;</button>
+</div>
 <h1>THE DAILY BRIEF</h1>
 <div class="date">Saturday, March 21, 2026</div>
 <div class="tagline">Your morning intelligence briefing — curated by AI</div>
@@ -1324,6 +1336,27 @@ if(link)link.classList.add('active');
 });
 },{threshold:0.1,rootMargin:'-80px 0px -70% 0px'});
 sections.forEach(s=>observer.observe(s));
+// Date navigation
+const picker=document.getElementById('datePicker');
+const prevBtn=document.getElementById('prevDay');
+const nextBtn=document.getElementById('nextDay');
+function navigateToDate(dateStr){
+const url='journal-'+dateStr+'.html';
+window.location.href=url;
+}
+function shiftDay(offset){
+const d=new Date(picker.value+'T12:00:00');
+d.setDate(d.getDate()+offset);
+const y=d.getFullYear();
+const m=String(d.getMonth()+1).padStart(2,'0');
+const day=String(d.getDate()).padStart(2,'0');
+navigateToDate(y+'-'+m+'-'+day);
+}
+picker.addEventListener('change',function(){navigateToDate(this.value)});
+prevBtn.addEventListener('click',function(){shiftDay(-1)});
+nextBtn.addEventListener('click',function(){shiftDay(1)});
+if(picker.value>=picker.max)nextBtn.disabled=true;
+if(picker.value<=picker.min)prevBtn.disabled=true;
 })();
 </script>
 </body>
