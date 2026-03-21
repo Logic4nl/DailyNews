@@ -1302,7 +1302,7 @@ if(!detail)return;
 const preview=this.querySelector('.card-preview');
 const h3=preview.querySelector('h3');
 const img=this.querySelector('img:not(.source-pill img)');
-let html='<button class="modal-close" onclick="document.getElementById('modal').classList.remove('active')">&times;</button>';
+let html='<button class="modal-close" id="modalCloseBtn">&times;</button>';
 if(img && !img.classList.contains('source-pill')){
 html+='<img class="modal-image" src="'+img.src+'" alt="">';
 }
@@ -1317,7 +1317,7 @@ modal.classList.add('active');
 });
 });
 modal.addEventListener('click',function(e){
-if(e.target===modal)modal.classList.remove('active');
+if(e.target===modal||e.target.id==='modalCloseBtn')modal.classList.remove('active');
 });
 document.addEventListener('keydown',function(e){
 if(e.key==='Escape')modal.classList.remove('active');
