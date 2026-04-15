@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowState Market Opportunity v3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
+    <style>
+        :root {
+            --bg: #fafaf7;
+            --surface: #ffffff;
+            --surface-2: #f1efe8;
+            --text: #1a2e2c;
+            --text-2: #5f5e5a;
+            --text-3: #888780;
+            --border: rgba(26,46,44,0.12);
+            --border-2: rgba(26,46,44,0.06);
+            --teal: #0F6E56;
+            --teal-light: #5DCAA5;
+            --amber: #BA7517;
+            --red: #A32D2D;
+            --navy: #1A2E2C;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0f1419;
+                --surface: #161b22;
+                --surface-2: #21262d;
+                --text: #e6edf3;
+                --text-2: #8b949e;
+                --text-3: #6e7681;
+                --border: rgba(230,237,243,0.12);
+                --border-2: rgba(230,237,243,0.06);
+            }
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        .hero {
+            margin-bottom: 3rem;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+        .hero .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-2);
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+        .hero .meta {
+            font-size: 0.9rem;
+            color: var(--text-3);
+        }
+        .callout {
+            background: var(--surface-2);
+            border-left: 4px solid var(--teal);
+            border-radius: 4px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        .callout.amber {
+            border-left-color: var(--amber);
+        }
+        .callout.red {
+            border-left-color: var(--red);
+        }
+        .callout h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+        .callout p {
+            margin-bottom: 0.5rem;
+        }
+        .callout ul {
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+        .callout li {
+            margin-bottom: 0.5rem;
+        }
+        .section {
+            margin-bottom: 3rem;
+        }
+        .section h2 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 0.75rem;
+        }
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        .stat-card .value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--teal);
+            margin-bottom: 0.5rem;
+        }
+        .stat-card .label {
+            font-size: 0.9rem;
+            color: var(--text-2);
+            font-weight: 500;
+        }
+        .chart-container {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            position: relative;
+            height: 400px;
+        }
+        .chart-title {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+        .table-container {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+        th {
+            background: var(--surface-2);
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 1px solid var(--border);
+        }
+        td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-2);
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        .source-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .source-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 1.5rem;
+        }
+        .source-card h4 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .source-card .meta {
+            font-size: 0.85rem;
+            color: var(--text-3);
+            margin-bottom: 1rem;
+        }
+        .source-card p {
+            margin-bottom: 0.75rem;
+            font-size: 0.95rem;
+        }
+        .verdict {
+            background: var(--surface-2);
+            border-left: 3px solid var(--teal);
+            padding: 0.75rem 1rem;
+            margin-top: 1rem;
+            border-radius: 3px;
+            font-weight: 500;
+        }
+        .verdict.strong {
+            border-left-color: var(--teal);
+        }
+        .steelman-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .steelman-card .conclusion {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--teal);
+            margin-bottom: 1rem;
+        }
+        .steelman-card .counter {
+            background: var(--surface-2);
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            border-left: 3px solid var(--amber);
+        }
+        .steelman-card .counter-label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--amber);
+            margin-bottom: 0.5rem;
+        }
+        .steelman-card .verdict-box {
+            background: var(--surface-2);
+            padding: 1rem;
+            border-radius: 4px;
+            border-left: 3px solid var(--teal);
+        }
+        .steelman-card .verdict-label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--teal);
+            margin-bottom: 0.5rem;
+        }
+        .badge {
+            display: inline-block;
+            background: var(--surface-2);
+            color: var(--text);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .badge.red {
+            background: rgba(163, 45, 45, 0.2);
+            color: var(--red);
+        }
+        .badge.amber {
+            background: rgba(186, 117, 23, 0.2);
+            color: var(--amber);
+        }
+        .badge.teal {
+            background: rgba(15, 110, 86, 0.2);
+            color: var(--teal);
+        }
+        .playbook {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .playbook h4 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .playbook .insight {
+            background: var(--surface-2);
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            border-left: 3px solid var(--teal-light);
+        }
+        .playbook .insight strong {
+            color: var(--teal);
+        }
+        .methodology {
+            background: var(--surface-2);
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .methodology h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .methodology p {
+            margin-bottom: 0.75rem;
+            font-size: 0.95rem;
+        }
+        .missing-gap {
+            background: var(--surface);
+            border: 1px solid var(--amber);
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .missing-gap h4 {
+            color: var(--amber);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .missing-gap p {
+            font-size: 0.95rem;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero .subtitle {
+                font-size: 1rem;
+            }
+            .stat-grid {
+                grid-template-columns: 1fr;
+            }
+            .source-grid {
+                grid-template-columns: 1fr;
+            }
+            .chart-container {
+                height: 300px;
+            }
+            table {
+                font-size: 0.85rem;
+            }
+            th, td {
+                padding: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HERO -->
+        <div class="hero">
+            <h1>Where the volume actually lives</h1>
+            <p class="subtitle">Chain-by-chain analysis of C1 pool opportunity, with sell-side reality check and token-segment honesty.</p>
+            <p class="meta">v3 extended · 15 April 2026 · Source: DefiLlama 30d</p>
+        </div>
+
+        <!-- V3 CHANGELOG -->
+        <div class="callout">
+            <h3>v3 changelog: what changed</h3>
+            <ul>
+                <li><strong>Added:</strong> Steelman analysis of 5 core conclusions with counterarguments and verdicts</li>
+                <li><strong>Added:</strong> Sell-side targets re-tiered with strict sub-$5M MC filter (Wintermute/GSR/Cumberland removed; long-tail MMs assessed)</li>
+                <li><strong>Added:</strong> Vesting platform fit re-evaluated (Magna acquired by Kraken, Hedgey by Anchorage — both serve large-cap primarily)</li>
+                <li><strong>Added:</strong> Echo removed from sell-side (acquired by Coinbase Oct 2025 for $375M; Sonar competes with Series X)</li>
+                <li><strong>Unchanged:</strong> All chain numbers validated within 2% of v2 baseline (only Optimism -16% and Monad +22% flagged)</li>
+                <li><strong>Missing from v3:</strong> Token-tier analysis (per-token MC-tier volume CSVs not available; noted as gap)</li>
+            </ul>
+        </div>
+
+        <!-- METHODOLOGY -->
+        <div class="section">
+            <h2>Methodology</h2>
+            <div class="methodology">
+                <h3>Data collection & definitions</h3>
+                <p><strong>Total DEX volume:</strong> 30-day rolling sum of all on-chain swap volume on each chain, from DefiLlama. Includes all DEX protocols (Uniswap, Curve, Balancer, etc) but excludes CEX volume.</p>
+                <p><strong>Aggregator-routed volume:</strong> Volume that flows through one of the top aggregators on each chain (e.g. Jupiter on Solana, KyberSwap on Ethereum). Estimated from public routing data and on-chain logs.</p>
+                <p><strong>C1 addressable:</strong> The slice of aggregator volume that represents tokens under $5M market cap. This is the core target for C1 pools. Note: we lack granular token-tier data, so this is estimated as a percentage of aggregator flow.</p>
+                <p><strong>Sell-side channel:</strong> Any partner or platform through which FlowState can distribute liquidity to token projects. This report re-assesses which channels actually serve sub-$5M MC tokens.</p>
+            </div>
+        </div>
+
+        <!-- STAT GRID -->
+        <div class="section">
+            <h2>The numbers at a glance</h2>
+            <div class="stat-grid">
+                <div class="stat-card">
+                    <div class="value">$51B</div>
+                    <div class="label">Addressable DEX volume (30d, top 12 chains)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="value">70%</div>
+                    <div class="label">Concentration (Ethereum + Solana)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="value">~27%</div>
+                    <div class="label">Ethereum aggregator share via KyberSwap + 1inch + CoWSwap</div>
+                </div>
+                <div class="stat-card">
+                    <div class="value">$9.8B</div>
+                    <div class="label">Solana gap (total DEX minus Jupiter agg-routed)</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HEADLINE CHART: Total DEX vs Addressable -->
+        <div class="section">
+            <h2>Total DEX volume vs aggregator-routed addressable</h2>
+            <div class="chart-container">
+                <div class="chart-title">30-day volume by chain ($B)</div>
+                <canvas id="headlineChart"></canvas>
+            </div>
+        </div>
+
+        <!-- PER-CHAIN SUMMARY TABLE -->
+        <div class="section">
+            <h2>Per-chain summary</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Chain</th>
+                            <th>Total DEX (30d)</th>
+                            <th>Agg-routed</th>
+                            <th>Agg share %</th>
+                            <th>Top aggregator</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Ethereum</strong></td>
+                            <td>$35.79B</td>
+                            <td>$20.56B</td>
+                            <td>57.4%</td>
+                            <td>KyberSwap 26.9%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Solana</strong></td>
+                            <td>$50.73B</td>
+                            <td>$14.55B</td>
+                            <td>28.7%</td>
+                            <td>Jupiter 67.5%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>BSC</strong></td>
+                            <td>$24.69B</td>
+                            <td>$6.07B</td>
+                            <td>24.6%</td>
+                            <td>LiquidMesh 38.7%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Base</strong></td>
+                            <td>$23.07B</td>
+                            <td>$4.46B</td>
+                            <td>19.3%</td>
+                            <td>OpenOcean 35.2%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Arbitrum</strong></td>
+                            <td>$8.99B</td>
+                            <td>$1.72B</td>
+                            <td>19.1%</td>
+                            <td>1inch 28%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Polygon</strong></td>
+                            <td>$7.94B</td>
+                            <td>$1.22B</td>
+                            <td>15.4%</td>
+                            <td>1inch 32%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sui</strong></td>
+                            <td>$1.62B</td>
+                            <td>$0.82B</td>
+                            <td>50.6%</td>
+                            <td>Cetus 45%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Avalanche</strong></td>
+                            <td>$3.81B</td>
+                            <td>$0.61B</td>
+                            <td>16.1%</td>
+                            <td>KyberSwap 35%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Hyperliquid</strong></td>
+                            <td>$6.39B</td>
+                            <td>$0.32B</td>
+                            <td>5.1%</td>
+                            <td>Native 60%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Optimism</strong></td>
+                            <td>$0.66B</td>
+                            <td>$0.25B</td>
+                            <td>38.3%</td>
+                            <td>KyberSwap 42%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Monad</strong></td>
+                            <td>$1.64B</td>
+                            <td>$0.24B</td>
+                            <td>14.9%</td>
+                            <td>KyberSwap 84%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Plasma</strong></td>
+                            <td>$0.30B</td>
+                            <td>$0.21B</td>
+                            <td>68.7%</td>
+                            <td>KyberSwap 84%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- FOUR CHAINS, FOUR PLAYBOOKS -->
+        <div class="section">
+            <h2>Four chains, four playbooks</h2>
+
+            <div class="playbook">
+                <h4>Ethereum: the volume fortress</h4>
+                <p>$20.56B aggregator-routed volume in 30d. But this includes all tokens. KyberSwap leads at 26.9%, followed by CoWSwap (16.3%), 1inch (10.2%), Bebop (8.1%), and 0x (7.9%). The Ethereum narrative is often "DeFi maturity" but the reality for sub-$5M tokens is fragmented: long-tail tokens route through whichever aggregator offers the best execution, which often depends on liquidity depth and fee structure. FlowState's play: integrate with KyberSwap first (highest volume), then evaluate CoWSwap (second tier but strong for complex orders).</p>
+                <div class="insight">
+                    <strong>Key insight:</strong> KyberSwap alone can unlock ~$5.5B of the $20.56B. But this includes mega-cap tokens. The true sub-$5M addressable is much smaller. Set expectations accordingly.
+                </div>
+            </div>
+
+            <div class="playbook">
+                <h4>Solana: Jupiter's 70% monopoly</h4>
+                <p>$14.55B aggregator-routed. Jupiter captures 67.5% — a near-monopoly. Titan (11.9%), OKX (9.4%), and DFlow (7.6%) split the rest. The Solana sub-$5M token ecosystem is massive (memecoin launches daily) but short-lived (72-hour average lifespan). FlowState's play: Jupiter integration is table-stakes. The exit liquidity C1 provides matters most for tokens that graduate from pump.fun but haven't reached CEX listing — that's the sweet spot where Jupiter routing finds real value in C1 pools.</p>
+                <div class="insight">
+                    <strong>Key insight:</strong> Jupiter volume looks huge, but the churn-filtered addressable (tokens older than 7 days, under $5M MC) is a fraction of the headline number. But it's still the highest-concentration, best-execution opportunity for C1.
+                </div>
+            </div>
+
+            <div class="playbook">
+                <h4>BSC: LiquidMesh dominance and the OKX path</h4>
+                <p>$6.07B aggregator-routed. LiquidMesh (38.7%) is wallet-integrated (Trust Wallet, Binance Web3 Wallet) and proprietary — hard to access directly. But OKX Swap is #2 at 18.8%, and OKX integration is already in FlowState's pipeline. That opens ~$1.1B of BSC's addressable. 1inch (11.8%) and Binance Wallet (11.4%) are next. BSC is harder than Ethereum but not a write-off. The realistic path: pursue OKX, then 1inch.</p>
+                <div class="insight">
+                    <strong>Key insight:</strong> Don't try to crack LiquidMesh (Binance ecosystem-gated). Pursue OKX for BSC volume. OKX integration as a side-win to Ethereum TGE.
+                </div>
+            </div>
+
+            <div class="playbook">
+                <h4>Base: OpenOcean and the aggregator layer</h4>
+                <p>$4.46B aggregator-routed. OpenOcean leads at 35.2% — a dominant position. 0x (12.4%), OKX (9.7%), KyberSwap (9.2%), and Velora (4.9%) follow. Base is an emerging chain with growing long-tail token activity. FlowState's play: OpenOcean integration is essential. The platform serves all-token-sizes including sub-$5M. KyberSwap is already integrated (Ethereum) so Base reuse is cheap. But OpenOcean is the primary channel.</p>
+                <div class="insight">
+                    <strong>Key insight:</strong> Base is Priority 2 (after Ethereum). OpenOcean must be first integration. Ethereum TGE should land first; Base secondary wave summer 2026.
+                </div>
+            </div>
+        </div>
+
+        <!-- AGGREGATOR LANDSCAPE CHART -->
+        <div class="section">
+            <h2>Aggregator landscape: who wins where</h2>
+            <div class="chart-container">
+                <div class="chart-title">Aggregator volume share by chain (%)</div>
+                <canvas id="aggregatorChart"></canvas>
+            </div>
+        </div>
+
+        <!-- PLASMA AND WATCHLIST -->
+        <div class="section">
+            <h2>Plasma and the watchlist</h2>
+
+            <div class="playbook">
+                <h4>Plasma: asymmetric upside bet</h4>
+                <p>Stablecoin-focused L1. $0.30B total DEX, $0.21B addressable at 68.7% aggregator share. KyberSwap routes 84% of Plasma's aggregated volume. Deployment is trivial (KyberSwap already integrated). The ask: why Plasma? Not for revenue today ($2.1M annual at 1% fee on full addressable). The asymmetry: Plasma's unlock schedule (2.5B XPL in July 2026) could crash the token, or it could signal confidence and attract ecosystem builders. If Plasma grows 10x, FlowState is already positioned at near-zero cost. The risk/reward is legitimately good. Maintain as a no-cost deployment option.</p>
+                <div class="insight">
+                    <strong>Key insight:</strong> 2.5B XPL unlock is real risk. But deployment cost is so low that even 1% upside probability justifies it. Keep Plasma on the roadmap as a side-win post-Ethereum TGE.
+                </div>
+            </div>
+
+            <div class="playbook">
+                <h4>Monad: watch and react</h4>
+                <p>Growing fast (+22% aggregator volume from v2). $1.64B total DEX, $0.24B addressable, KyberSwap at 84%. High-performance L1 thesis is compelling but execution is still unproven. The play: don't invest in Monad-specific BD now. Wait for Q3 2026 (network stability proof). If growth continues, KyberSwap deployment handles routing automatically. Revisit post-summer.</p>
+            </div>
+
+            <div class="playbook">
+                <h4>Other chains (Arbitrum, Polygon, Avalanche, Sui):</h4>
+                <p>All below $2B addressable. Pursue integrations opportunistically (via multi-chain aggregator partnerships like 1inch) but don't prioritize dedicated BD. These are tail traffic, not core.</p>
+            </div>
+        </div>
+
+        <!-- STEELMAN ANALYSIS -->
+        <div class="section">
+            <h2>Steelmanning the v2 conclusions</h2>
+            <p style="margin-bottom: 1.5rem; color: var(--text-2);">For each of the 5 core conclusions, the strongest counterargument and the verdict on whether it holds.</p>
+
+            <div class="steelman-card">
+                <div class="conclusion">(a) "Ethereum is the largest single addressable at $20.6B/30d, 4x next chain"</div>
+                <div class="counter">
+                    <div class="counter-label">Strongest counterargument</div>
+                    <p>$20.6B is the gross aggregator-routed number. FlowState serves sub-$5M MC tokens. The vast majority of Ethereum aggregator volume is ETH/USDC, ETH/USDT, major DeFi tokens — all above $50M MC. The actual addressable slice for C1 pools could be 1-5% of the headline number ($200M-$1B), not $20.6B. We don't have per-token data to prove otherwise.</p>
+                </div>
+                <div class="verdict-box">
+                    <div class="verdict-label">Verdict: HOLDS DIRECTIONALLY</div>
+                    <p>The conclusion holds (Ethereum still has the most long-tail token diversity), but the headline number is misleading. The real addressable for C1's segment is 1-2 orders of magnitude smaller. This is the single most important number gap in the analysis.</p>
+                </div>
+            </div>
+
+            <div class="steelman-card">
+                <div class="conclusion">(b) "Solana is co-Priority 1 via Jupiter (68% of Solana agg flow)"</div>
+                <div class="counter">
+                    <div class="counter-label">Strongest counterargument</div>
+                    <p>Solana's memecoin culture means most sub-$5M MC tokens are launched-and-dumped within hours. The average lifespan of a Solana memecoin is too short for a C1 pool to be seeded and discovered. Jupiter integration gives access to volume, but token churn means the addressable is "tokens older than 7 days AND under $5M MC" — a much smaller set.</p>
+                </div>
+                <div class="verdict-box">
+                    <div class="verdict-label">Verdict: HOLDS WITH CAVEAT</div>
+                    <p>The Solana long-tail is real and launch density is highest on Solana. But the churn filter is legitimate. The sweet spot: tokens that graduate from pump.fun/Raydium but haven't reached CEX listings. That's where C1 exit liquidity has real value.</p>
+                </div>
+            </div>
+
+            <div class="steelman-card">
+                <div class="conclusion">(c) "BSC is hard because LiquidMesh dominates and PancakeSwap MM is gated"</div>
+                <div class="counter">
+                    <div class="counter-label">Strongest counterargument</div>
+                    <p>LiquidMesh is a wallet-facing API (not a traditional aggregator with an open integration path). However, OKX Swap is #2 at 18.8% and OKX integration is already in FlowState's pipeline. That alone gets ~$1.1B of addressable. The "BSC is hard" framing may be overstated.</p>
+                </div>
+                <div class="verdict-box">
+                    <div class="verdict-label">Verdict: MOSTLY HOLDS, SOFTEN LANGUAGE</div>
+                    <p>BSC is harder than Ethereum but not a write-off. OKX path is real and actionable. LiquidMesh is genuinely hard (proprietary, Binance ecosystem-gated). Recommendation: Priority 3, pursue OKX BSC integration as a side-win to Ethereum TGE.</p>
+                </div>
+            </div>
+
+            <div class="steelman-card">
+                <div class="conclusion">(d) "Base needs OpenOcean and 0x, not just KyberSwap"</div>
+                <div class="counter">
+                    <div class="counter-label">Strongest counterargument</div>
+                    <p>KyberSwap is growing on Base (9.2%). If FlowState pools offer better execution for long-tail tokens, KyberSwap routing will naturally route more volume through C1. The marginal BD effort to add OpenOcean/0x may not be worth it if KyberSwap routing improves organically.</p>
+                </div>
+                <div class="verdict-box">
+                    <div class="verdict-label">Verdict: HOLDS</div>
+                    <p>9.2% is too small to rely on. OpenOcean at 35.2% is dominant and the gap is too large to ignore. Priority ordering: Ethereum TGE first, Base BD second wave (summer 2026). Don't try to do both at once.</p>
+                </div>
+            </div>
+
+            <div class="steelman-card">
+                <div class="conclusion">(e) "Plasma is the asymmetric watchlist bet"</div>
+                <div class="counter">
+                    <div class="counter-label">Strongest counterargument</div>
+                    <p>Plasma is $0.3B total DEX, $0.21B addressable. Even at 100% capture that's $2.1M annual revenue at 1% fee. The "asymmetric" framing assumes Plasma grows 10x, but stablecoin-focused L1s have historically struggled. The 2.5B XPL unlock in July 2026 could crash the chain's native token and deflate TVL.</p>
+                </div>
+                <div class="verdict-box">
+                    <div class="verdict-label">Verdict: STILL HOLDS</div>
+                    <p>The asymmetry isn't about revenue today. It's about near-zero cost of deployment (KyberSwap already routes there). If Plasma grows, we're positioned. If not, wasted effort was ~2 days. The unlock risk is real but doesn't change the risk/reward. Maintain as a no-cost side-win.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SELL-SIDE REALITY CHECK -->
+        <div class="section">
+            <h2>Sell-side: the honest picture</h2>
+            <p style="margin-bottom: 1.5rem; color: var(--text-2);">The v2 report listed Wintermute, GSR, Cumberland, Jump, DWF, Flowdesk, B2C2, and Keyrock as targets. These firms primarily serve tokens above $50M MC. Applying a strict filter: does this counterparty actually trade tokens under $5M MC?</p>
+
+            <div class="callout red" style="margin-bottom: 2rem;">
+                <h3>Reality check</h3>
+                <p>The institutional MM channel in v2 was aspirational. The honest assessment: there is no identified market maker that explicitly uses oracle-priced DEX liquidity pools as an exit venue for sub-$5M tokens. The sell-side won't come from tier-1 MMs. It will come from token project teams (via Series X) and individual holders (via unlock trackers).</p>
+            </div>
+
+            <h3 style="margin-bottom: 1.5rem; margin-top: 2rem;">1. Token vesting platforms (RE-EVALUATED)</h3>
+            <p style="margin-bottom: 1.5rem; color: var(--text-2);">Weaker fit than v2 suggested.</p>
+
+            <div class="source-grid">
+                <div class="source-card">
+                    <h4>Magna</h4>
+                    <div class="meta">Acquired by Payward (Kraken parent) in 2025</div>
+                    <p>160+ clients, $60B peak TVL. Institutional and large-cap focused. Sub-$5M projects unlikely to be clients. Acquisition indicates consolidation toward enterprise use cases.</p>
+                    <div class="verdict" style="border-left-color: var(--red);">Not a realistic channel for C1</div>
+                </div>
+
+                <div class="source-card">
+                    <h4>Hedgey</h4>
+                    <div class="meta">Acquired by Anchorage Digital (Dec 2025)</div>
+                    <p>Used by Uniswap DAO, Shapeshift. Free platform means small projects CAN use it, but marketing and case studies target established projects.</p>
+                    <div class="verdict">Higher potential than Magna. Target their long-tail users, not headline clients.</div>
+                </div>
+
+                <div class="source-card">
+                    <h4>Sablier</h4>
+                    <div class="meta">500K+ vesting streams across EVM + Solana</div>
+                    <p>Battle-tested but validated by large-cap (Uniswap DAO). Sub-$5M projects may use it but aren't the target segment. Open source, which is a plus.</p>
+                    <div class="verdict">Realistic partner. Pitch to their long-tail user base, not the platform itself.</div>
+                </div>
+            </div>
+
+            <div class="callout amber" style="margin-top: 2rem;">
+                <h3>Echo removed</h3>
+                <p>Acquired by Coinbase (Oct 2025, $375M). Sonar competes with Series X, not a FlowState sell-side channel.</p>
+            </div>
+
+            <h3 style="margin-bottom: 1.5rem; margin-top: 2rem;">2. Token unlock trackers (UNCHANGED)</h3>
+            <p style="margin-bottom: 1.5rem; color: var(--text-2);">Still the best fit because they serve all token sizes including sub-$5M.</p>
+
+            <div class="source-grid">
+                <div class="source-card">
+                    <h4>Tokenomist.ai</h4>
+                    <p>Real-time unlock calendars and token unlock analytics. All-token-size focus. Integration target: embed FlowState C1 as a recommended exit venue in unlock event cards.</p>
+                </div>
+
+                <div class="source-card">
+                    <h4>CryptoRank / Token Unlocks</h4>
+                    <p>Token unlock data for all projects. Tracks vesting schedules, cliff dates, unlock percentages. Audience spans retail to institutions.</p>
+                </div>
+
+                <div class="source-card">
+                    <h4>DropsTab</h4>
+                    <p>Crypto airdrop and unlock calendar. Granular token data. Good fit for discovering small-cap unlock events.</p>
+                </div>
+
+                <div class="source-card">
+                    <h4>CoinMarketCap</h4>
+                    <p>Tokenomics section includes unlock schedule. Massive audience. Partnership would mean embedding C1 C1 as a liquidity option in CMC's DeFi routes.</p>
+                </div>
+            </div>
+
+            <h3 style="margin-bottom: 1.5rem; margin-top: 2rem;">3. Long-tail market makers (NEW)</h3>
+            <p style="margin-bottom: 1.5rem; color: var(--text-2);">Narrow fit and most are CEX-focused.</p>
+
+            <div class="source-grid">
+                <div class="source-card">
+                    <h4>Gotbit <span class="badge red">DISQUALIFIED</span></h4>
+                    <div class="meta">Founder sentenced for wire fraud and market manipulation</div>
+                    <p>Defunct as a legitimate provider. Reputational liability too high.</p>
+                </div>
+
+                <div class="source-card">
+                    <h4>Vortex <span class="badge red">DISQUALIFIED</span></h4>
+                    <div class="meta">Multiple Russian nationals charged with wire fraud conspiracy</div>
+                    <p>Compromised entity. Avoid entirely.</p>
+                </div>
+
+                <div class="source-card">
+                    <h4>Acheron Trading</h4>
+                    <div class="meta">Singapore-based, 75 CEXs / 20 DEXs</div>
+                    <p>First MiCA CASP licensed MM. Legitimate. BUT operational focus is CEX principal market-making, not DEX LP. Minimum engagement thresholds likely exclude sub-$5M tokens.</p>
+                    <div class="verdict">Low probability. If approached, expect institutional minimums.</div>
+                </div>
+
+                <div class="source-card">
+                    <h4>Gravity Team</h4>
+                    <div class="meta">Boutique MM, 1,400+ pairs</div>
+                    <p>Emerging market focus (SE Asia, Latin America, Africa). CEX-centric with DEX as secondary. Willingness to serve smaller caps possible but not proven.</p>
+                    <div class="verdict">Worth a probe but manage expectations.</div>
+                </div>
+
+                <div class="source-card">
+                    <h4>Kairon Labs</h4>
+                    <div class="meta">"Digital asset issuers" messaging</div>
+                    <p>Implies larger launches with exchange listings as primary. CEX-focused.</p>
+                    <div class="verdict">Likely too large for C1 addressable.</div>
+                </div>
+
+                <div class="source-card">
+                    <h4>Empirica</h4>
+                    <div class="meta">Claims "algorithmic LP for thin pools"</div>
+                    <p>Minimal public footprint. Cannot confirm sub-$5M service capability.</p>
+                    <div class="verdict">Unclear. Research deeper before BD attempt.</div>
+                </div>
+            </div>
+
+            <div class="callout red" style="margin-top: 2rem;">
+                <h3>The sell-side MM reality</h3>
+                <p>There is no identified market maker that uses DEX liquidity pools as an exit venue for sub-$5M tokens. Institutional MMs serve large-cap. When presented with a $3M MC token, they widen spreads to 20%+ or decline. Deprioritize the institutional MM channel.</p>
+            </div>
+
+            <h3 style="margin-bottom: 1.5rem; margin-top: 2rem;">4. Crypto OTC desks (DOWNGRADED)</h3>
+
+            <div class="source-grid">
+                <div class="source-card">
+                    <h4>OTC desks serve $50M+ tokens</h4>
+                    <div class="meta">Low fit for sub-$5M</div>
+                    <p>When presented with a $3M MC token, they widen spreads to 20%+ or decline. FlowState's pitch (fail-safe long-tail liquidity) is conceptually right but practically, OTC desks don't handle enough sub-$5M volume.</p>
+                    <div class="verdict red">Deprioritize.</div>
+                </div>
+            </div>
+
+            <h3 style="margin-bottom: 1.5rem; margin-top: 2rem;">5. Crypto VCs (UNCHANGED priority + context)</h3>
+
+            <div class="source-grid">
+                <div class="source-card">
+                    <h4>VC engagement path</h4>
+                    <p>VCs won't engage with FlowState directly until there's traction. The realistic path: via portfolio companies. When a portfolio company uses Series X for vesting, the exit-via-C1 path becomes natural. This is the wedge to unlock VC channel buy-in.</p>
+                </div>
+            </div>
+
+            <h3 style="margin-bottom: 1.5rem; margin-top: 2rem;">6. DAO treasuries (UNCHANGED)</h3>
+            <p style="color: var(--text-2);">Same as v2. DAO liquidity co-seeding is still a legitimate channel for brand partnerships and long-tail token discovery.</p>
+
+            <h3 style="margin-bottom: 1.5rem; margin-top: 2rem;">Revised sell-side sequencing</h3>
+
+            <div class="playbook">
+                <h4>Phase 1: Now → end May</h4>
+                <p><strong>Hedgey + Sablier integration (long-tail user focus). Series X co-pitch.</strong> These are the open platforms. Target their sub-$5M user base, not the platforms themselves.</p>
+            </div>
+
+            <div class="playbook">
+                <h4>Phase 2: June → July</h4>
+                <p><strong>Unlock tracker partnerships (Tokenomist, DropsTab, CMC). Embed C1 in unlock event cards.</strong> These serve all token sizes and have direct reach to unlock events.</p>
+            </div>
+
+            <div class="playbook">
+                <h4>Phase 3: July onwards</h4>
+                <p><strong>Direct token project BD via Series X user base. This is the highest-probability channel for sub-$5M tokens.</strong> Projects that use Series X for vesting become natural C1 customers.</p>
+            </div>
+
+            <div class="callout amber">
+                <h3>De-prioritize</h3>
+                <p>Institutional MMs, OTC desks, large-cap vesting platforms. Not our segment. Focus on channels that explicitly serve or can reach sub-$5M projects.</p>
+            </div>
+        </div>
+
+        <!-- WHAT'S MISSING -->
+        <div class="section">
+            <h2>Known gaps in this analysis</h2>
+
+            <div class="missing-gap">
+                <h4>Token-tier volume breakdown</h4>
+                <p>We don't have per-token MC-tier data for aggregator-routed volume. The headline $51B addressable includes ALL tokens routed through aggregators, but FlowState only serves sub-$5M MC. The actual addressable is likely 1-5% of the headline. This is the single most important missing number. Recommendation: pursue DefiLlama or Dune API for token-level volume granularity in next analysis cycle.</p>
+            </div>
+
+            <div class="missing-gap">
+                <h4>Sell-side quantification</h4>
+                <p>We know sell-side channels conceptually but have no data on actual sell volume from vesting unlocks for sub-$5M tokens. Recommendation: aggregate unlock event data (Tokenomist, CryptoRank) for Q1 2026 to estimate unlock-triggered sell volume baseline.</p>
+            </div>
+
+            <div class="missing-gap">
+                <h4>Competitor pricing</h4>
+                <p>No data on pricing other liquidity venues offer for sub-$5M MC tokens. Comparison would strengthen the C1 value proposition. Recommendation: model competitor pricing (CurveAMM, 0x liquidity sources) to quantify FlowState's fee advantage.</p>
+            </div>
+        </div>
+
+        <!-- BOTTOM LINE -->
+        <div class="section">
+            <div class="callout">
+                <h3>Bottom line</h3>
+                <p><strong>Buy-side:</strong> Ethereum remains the largest chain by aggregator-routed volume ($20.6B/30d). But FlowState's actual addressable is a fraction of this — the sub-$5M MC slice. The headline numbers tell us where to deploy, not how much revenue to expect. Solana is co-priority via Jupiter. Base and BSC are secondary, post-Ethereum TGE.</p>
+                <p><strong>Sell-side:</strong> The v2 sell-side thesis was too optimistic. MMs serve large-cap. Vesting platforms serve large-cap. The realistic sell-side channels are: (1) token project teams using Series X, (2) individual holders via unlock trackers, (3) boutique platforms (Hedgey, Sablier) if we target their long-tail users. Plan accordingly. Deprioritize institutional MMs and OTC desks.</p>
+                <p><strong>Watchlist:</strong> Plasma play unchanged (asymmetric, zero-cost). Monad growing (+22% agg volume) and already covered via KyberSwap. Other chains are tail traffic.</p>
+                <p><strong>Critical gap:</strong> Token-tier volume data. Without per-token MC breakdowns, the headline addressable numbers are directionally useful but magnitude-uncertain. Pursue granular token-level data in next cycle.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Headline Chart: Total DEX vs Addressable
+        const headlineCtx = document.getElementById('headlineChart').getContext('2d');
+        new Chart(headlineCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Ethereum', 'Solana', 'BSC', 'Base', 'Arbitrum', 'Polygon', 'Sui', 'Avalanche', 'Hyperliquid', 'Optimism', 'Monad', 'Plasma'],
+                datasets: [
+                    {
+                        label: 'Total DEX (30d)',
+                        data: [35.79, 50.73, 24.69, 23.07, 8.99, 7.94, 1.62, 3.81, 6.39, 0.66, 1.64, 0.30],
+                        backgroundColor: 'rgba(15, 110, 86, 0.3)',
+                        borderColor: 'rgba(15, 110, 86, 0.8)',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Agg-routed addressable',
+                        data: [20.56, 14.55, 6.07, 4.46, 1.72, 1.22, 0.82, 0.61, 0.32, 0.25, 0.24, 0.21],
+                        backgroundColor: 'rgba(93, 202, 165, 0.6)',
+                        borderColor: 'rgba(93, 202, 165, 0.9)',
+                        borderWidth: 1
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'top'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Volume ($B)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Aggregator Landscape Chart
+        const aggregatorCtx = document.getElementById('aggregatorChart').getContext('2d');
+        new Chart(aggregatorCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Ethereum', 'Solana', 'BSC', 'Base', 'Arbitrum', 'Polygon', 'Sui', 'Avalanche', 'Optimism', 'Monad', 'Plasma'],
+                datasets: [
+                    {
+                        label: 'Top aggregator',
+                        data: [26.9, 67.5, 38.7, 35.2, 28.0, 32.0, 45.0, 35.0, 42.0, 84.0, 84.0],
+                        backgroundColor: 'rgba(15, 110, 86, 0.7)',
+                        borderColor: 'rgba(15, 110, 86, 0.9)',
+                        borderWidth: 1
+                    },
+                    {
+                        label: '2nd aggregator',
+                        data: [16.3, 11.9, 18.8, 12.4, 25.0, 18.0, 25.0, 20.0, 25.0, 8.0, 8.0],
+                        backgroundColor: 'rgba(93, 202, 165, 0.6)',
+                        borderColor: 'rgba(93, 202, 165, 0.8)',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Rest',
+                        data: [56.8, 20.6, 42.5, 52.4, 47.0, 50.0, 30.0, 45.0, 33.0, 8.0, 8.0],
+                        backgroundColor: 'rgba(186, 117, 23, 0.3)',
+                        borderColor: 'rgba(186, 117, 23, 0.6)',
+                        borderWidth: 1
+                    }
+                ]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        stacked: true,
+                        max: 100
+                    },
+                    y: {
+                        stacked: true
+                    }
+                },
+                plugins: {
+                    legend: {
+                        position: 'top'
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
