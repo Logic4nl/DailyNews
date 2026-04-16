@@ -5,75 +5,109 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Miner Analytics - The Daily Brief</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a1a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='%23faf9f6' text-anchor='middle'%3EDB%3C/text%3E%3C/svg%3E">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;0,700;1,400&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Inter',sans-serif;background:#0d1117;color:#c9d1d9;line-height:1.6}
-.masthead{position:relative;text-align:center;padding:2.5rem 1.2rem 1.5rem;border-bottom:3px solid #21262d;margin-bottom:0}
-.masthead h1{font-family:'Newsreader',serif;font-size:3rem;letter-spacing:0.15em;font-weight:700;color:#c9d1d9}
-.masthead .date{font-size:0.95rem;color:#8b949e;margin-top:0.3rem}
-.masthead .tagline{font-family:'Newsreader',serif;font-style:italic;color:#8b949e;margin-top:0.2rem;font-size:1rem}
-.tab-bar{display:flex;justify-content:center;gap:0;border-bottom:3px solid #21262d;background:#161b22}
-.tab-bar a{display:inline-block;padding:0.7rem 2rem;font-family:'Inter',sans-serif;font-size:0.9rem;font-weight:600;color:#8b949e;text-decoration:none;border-bottom:3px solid transparent;margin-bottom:-3px;transition:all 0.2s}
-.tab-bar a:hover{color:#c9d1d9;background:#1c2129}
+body{font-family:'Inter',sans-serif;background:#0a0e14;color:#c9d1d9;line-height:1.7}
+
+/* Masthead */
+.masthead{position:relative;text-align:center;padding:3rem 1.5rem 2rem;margin-bottom:0;background:linear-gradient(180deg,#0f1419 0%,#0a0e14 100%)}
+.masthead h1{font-family:'Playfair Display',serif;font-size:4rem;letter-spacing:0.08em;font-weight:900;color:#e6edf3;line-height:1}
+.masthead .date{font-size:0.8rem;color:#6e7681;margin-top:0.8rem;text-transform:uppercase;letter-spacing:0.15em;font-weight:500}
+.masthead .tagline{font-family:'Newsreader',serif;font-style:italic;color:#58a6ff;margin-top:0.4rem;font-size:0.95rem;letter-spacing:0.02em}
+.masthead::after{content:'';display:block;width:60px;height:3px;background:#58a6ff;margin:1rem auto 0}
+
+/* Tab bar */
+.tab-bar{display:flex;justify-content:center;gap:0;border-bottom:2px solid #1c2129;background:#0f1419}
+.tab-bar a{display:inline-block;padding:0.8rem 2.5rem;font-family:'Inter',sans-serif;font-size:0.82rem;font-weight:600;color:#6e7681;text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all 0.2s;text-transform:uppercase;letter-spacing:0.08em}
+.tab-bar a:hover{color:#c9d1d9;background:#161b22}
 .tab-bar a.active{color:#58a6ff;border-bottom-color:#58a6ff}
-.container{max-width:1400px;margin:0 auto;padding:1.5rem 1rem 4rem}
-.section-title{font-family:'Newsreader',serif;font-size:1.5rem;font-weight:700;color:#c9d1d9;margin:2rem 0 1rem;padding-bottom:0.5rem;border-bottom:2px solid #21262d}
+
+/* Container */
+.container{max-width:1400px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+
+/* Section titles */
+.section-title{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:900;color:#e6edf3;margin:3.5rem 0 1.5rem;padding-bottom:0;border-bottom:none;letter-spacing:-0.02em;display:flex;align-items:center;gap:0.8rem}
 .section-title:first-child{margin-top:0}
+.section-title::before{content:'';width:40px;height:4px;border-radius:2px;background:#58a6ff;flex-shrink:0}
+
 /* Dashboard grid */
-.dashboard-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:1rem;margin-bottom:2rem}
-.position-card{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:1.3rem;transition:border-color 0.2s}
-.position-card:hover{border-color:#30363d}
-.position-card .ticker-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:0.8rem}
-.position-card .ticker-name{font-size:1.3rem;font-weight:700;color:#58a6ff}
-.position-card .company-name{font-size:0.78rem;color:#8b949e}
-.position-card .price{font-size:1.8rem;font-weight:700}
-.position-card .change{font-size:0.9rem;font-weight:600;margin-left:0.5rem}
+.dashboard-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:1.25rem;margin-bottom:2.5rem}
+@media(max-width:640px){.dashboard-grid{grid-template-columns:1fr}}
+
+/* Position cards */
+.position-card{background:#161b22;border:1px solid #21262d;border-radius:16px;padding:1.8rem;transition:all 0.3s ease;position:relative;overflow:hidden}
+.position-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:16px 16px 0 0}
+.position-card:nth-child(1)::before{background:linear-gradient(90deg,#58a6ff,#388bfd)}
+.position-card:nth-child(2)::before{background:linear-gradient(90deg,#3fb950,#2ea043)}
+.position-card:nth-child(3)::before{background:linear-gradient(90deg,#d29922,#bb8009)}
+.position-card:hover{border-color:#30363d;box-shadow:0 8px 24px rgba(0,0,0,0.3);transform:translateY(-2px)}
+.position-card .ticker-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem}
+.position-card .ticker-name{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:900;color:#58a6ff;letter-spacing:-0.01em}
+.position-card .company-name{font-size:0.78rem;color:#6e7681;margin-top:0.15rem}
+.position-card .price{font-size:2rem;font-weight:700;letter-spacing:-0.02em}
+.position-card .change{font-size:0.95rem;font-weight:600;margin-left:0.5rem}
 .green{color:#3fb950}.red{color:#f85149}
-.metric-row{display:flex;justify-content:space-between;padding:0.35rem 0;font-size:0.82rem;border-bottom:1px solid #21262d}
+.metric-row{display:flex;justify-content:space-between;padding:0.45rem 0;font-size:0.82rem;border-bottom:1px solid #1c2129}
 .metric-row:last-child{border-bottom:none}
-.metric-row .label{color:#8b949e}
+.metric-row .label{color:#6e7681}
 .metric-row .value{color:#c9d1d9;font-weight:500}
-.catalyst-note{margin-top:0.8rem;padding:0.6rem;background:#1c2129;border-radius:6px;font-size:0.8rem;color:#8b949e;line-height:1.5}
+.catalyst-note{margin-top:1rem;padding:0.8rem 1rem;background:#1c2129;border-radius:10px;font-size:0.8rem;color:#8b949e;line-height:1.6;border-left:3px solid #d29922}
 .catalyst-note strong{color:#d29922}
+
 /* Alert feed */
-.alert-item{background:#161b22;border:1px solid #21262d;border-left:4px solid #58a6ff;border-radius:8px;padding:1rem;margin-bottom:0.8rem}
-.alert-item .alert-header{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;flex-wrap:wrap}
-.alert-item .alert-time{font-size:0.72rem;color:#8b949e}
-.alert-item .alert-text{font-size:0.85rem;color:#c9d1d9;line-height:1.5}
-.ticker-badge{display:inline-block;padding:0.15rem 0.5rem;background:#58a6ff22;color:#58a6ff;border-radius:4px;font-size:0.72rem;font-weight:600}
-.category-badge{display:inline-block;padding:0.15rem 0.5rem;border-radius:4px;font-size:0.7rem;font-weight:600}
-.category-insider{background:#3fb95044;color:#3fb950}
-.category-analyst{background:#58a6ff44;color:#58a6ff}
-.category-contract{background:#d2992244;color:#d29922}
-.category-news{background:#58a6ff44;color:#58a6ff}
-.category-activist{background:#f8514944;color:#f85149}
+.alert-item{background:#161b22;border:1px solid #21262d;border-left:4px solid #58a6ff;border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.8rem;transition:all 0.2s}
+.alert-item:hover{border-color:#30363d;background:#1c2129}
+.alert-item .alert-header{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem;flex-wrap:wrap}
+.alert-item .alert-time{font-size:0.72rem;color:#6e7681;margin-left:auto}
+.alert-item .alert-text{font-size:0.85rem;color:#c9d1d9;line-height:1.6}
+.ticker-badge{display:inline-block;padding:0.2rem 0.6rem;background:#58a6ff15;color:#58a6ff;border-radius:6px;font-size:0.72rem;font-weight:700;letter-spacing:0.03em}
+.category-badge{display:inline-block;padding:0.2rem 0.6rem;border-radius:6px;font-size:0.7rem;font-weight:600}
+.category-insider{background:#3fb95018;color:#3fb950}
+.category-analyst{background:#58a6ff18;color:#58a6ff}
+.category-contract{background:#d2992218;color:#d29922}
+.category-news{background:#58a6ff18;color:#58a6ff}
+.category-activist{background:#f8514918;color:#f85149}
+
 /* Tables */
-table{width:100%;border-collapse:collapse;margin-bottom:2rem;font-size:0.82rem}
-thead{background:#161b22}
-th{text-align:left;padding:0.7rem;color:#8b949e;font-weight:600;border-bottom:2px solid #21262d}
-td{padding:0.6rem 0.7rem;border-bottom:1px solid #21262d;color:#c9d1d9}
-tr:hover{background:#1c2129}
+.table-container{background:#161b22;border:1px solid #21262d;border-radius:16px;overflow:hidden;margin-bottom:2.5rem}
+table{width:100%;border-collapse:collapse;font-size:0.82rem}
+thead{background:#1c2129}
+th{text-align:left;padding:0.85rem 1rem;color:#6e7681;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;border-bottom:2px solid #21262d}
+td{padding:0.7rem 1rem;border-bottom:1px solid #1c2129;color:#c9d1d9}
+tr:last-child td{border-bottom:none}
+tr:hover{background:#1c212988}
 a{color:#58a6ff;text-decoration:none}
 a:hover{text-decoration:underline}
+
 /* Heatmap */
-.heatmap-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0.8rem;margin-bottom:2rem}
+.heatmap-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0.8rem;margin-bottom:2.5rem}
 @media(max-width:768px){.heatmap-grid{grid-template-columns:repeat(3,1fr)}}
-.heatmap-cell{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:1rem;text-align:center;transition:border-color 0.2s}
-.heatmap-cell:hover{border-color:#30363d}
-.heatmap-cell .ht-ticker{font-weight:700;font-size:1rem;margin-bottom:0.3rem}
+@media(max-width:480px){.heatmap-grid{grid-template-columns:repeat(2,1fr)}}
+.heatmap-cell{background:#161b22;border:1px solid #21262d;border-radius:12px;padding:1.1rem;text-align:center;transition:all 0.2s;position:relative;overflow:hidden}
+.heatmap-cell:hover{border-color:#30363d;transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,0.3)}
+.heatmap-cell.positive{background:linear-gradient(180deg,#3fb95008 0%,#161b22 100%)}
+.heatmap-cell.negative{background:linear-gradient(180deg,#f8514908 0%,#161b22 100%)}
+.heatmap-cell.core{border-color:#58a6ff33}
+.heatmap-cell .ht-ticker{font-family:'Playfair Display',serif;font-weight:900;font-size:1.05rem;margin-bottom:0.3rem}
 .heatmap-cell .ht-change{font-size:1.1rem;font-weight:700}
-.heatmap-cell .ht-flag{font-size:0.7rem;color:#d29922;margin-top:0.3rem}
+.heatmap-cell .ht-flag{font-size:0.68rem;color:#6e7681;margin-top:0.4rem;line-height:1.3}
+
 /* Community pulse */
-.pulse-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem;margin-bottom:2rem}
-.pulse-card{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:1rem}
-.pulse-card .pulse-ticker{font-weight:700;color:#58a6ff;margin-bottom:0.4rem}
-.pulse-card .pulse-text{font-size:0.83rem;color:#8b949e;line-height:1.5}
+.pulse-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem;margin-bottom:2.5rem}
+.pulse-card{background:#161b22;border:1px solid #21262d;border-radius:14px;padding:1.3rem 1.5rem;transition:all 0.2s}
+.pulse-card:hover{border-color:#30363d;background:#1c2129}
+.pulse-card .pulse-ticker{font-family:'Playfair Display',serif;font-weight:900;color:#58a6ff;margin-bottom:0.5rem;font-size:1.1rem}
+.pulse-card .pulse-text{font-size:0.83rem;color:#8b949e;line-height:1.65}
+
 /* Context box */
-.context-box{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:1.5rem;margin-bottom:2rem;font-size:0.9rem;line-height:1.7;color:#8b949e}
-.context-box p{margin-bottom:0.8rem}
+.context-box{background:#161b22;border:1px solid #21262d;border-radius:16px;padding:2rem;margin-bottom:2.5rem;font-size:0.9rem;line-height:1.75;color:#8b949e;position:relative}
+.context-box::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#58a6ff,#d29922,#3fb950);border-radius:16px 16px 0 0}
+.context-box p{margin-bottom:1rem}
 .context-box p:last-child{margin-bottom:0}
-.footer{text-align:center;padding:2rem;color:#484f58;font-size:0.75rem;border-top:1px solid #21262d}
+
+/* Footer */
+.footer{text-align:center;padding:2.5rem;color:#484f58;font-size:0.72rem;border-top:1px solid #1c2129;letter-spacing:0.02em}
 </style>
 </head>
 <body>
@@ -110,7 +144,7 @@ a:hover{text-decoration:underline}
 <div class="position-card">
 <div class="ticker-header">
 <div><span class="ticker-name">SLNH</span><br><span class="company-name">Soluna Holdings Inc.</span></div>
-<div style="text-align:right"><span class="price">$1.05</span><span class="change" style="color:#8b949e">0.00%</span></div>
+<div style="text-align:right"><span class="price">$1.05</span><span class="change" style="color:#6e7681">0.00%</span></div>
 </div>
 <div class="metric-row"><span class="label">Market Cap</span><span class="value">~$51M</span></div>
 <div class="metric-row"><span class="label">52-Week Range</span><span class="value">$0.28 - $2.85</span></div>
@@ -210,6 +244,7 @@ a:hover{text-decoration:underline}
 
 <!-- 3. SEC Filings -->
 <h2 class="section-title">SEC Filings</h2>
+<div class="table-container">
 <table>
 <thead><tr><th>Date</th><th>Ticker</th><th>Type</th><th>Summary</th></tr></thead>
 <tbody>
@@ -220,9 +255,11 @@ a:hover{text-decoration:underline}
 <tr><td>Mar 16</td><td><span class="ticker-badge">MIGI</span></td><td>8-K</td><td>Shareholder update: Nasdaq compliance regained, $19M liability reduction, AI/HPC pivot</td></tr>
 </tbody>
 </table>
+</div>
 
 <!-- 4. Institutional & Insider Activity -->
 <h2 class="section-title">Institutional &amp; Insider Activity</h2>
+<div class="table-container">
 <table>
 <thead><tr><th>Date</th><th>Ticker</th><th>Type</th><th>Person/Fund</th><th>Shares</th><th>Value</th></tr></thead>
 <tbody>
@@ -232,82 +269,83 @@ a:hover{text-decoration:underline}
 <tr><td>Q1 2026</td><td><span class="ticker-badge">CORZ</span></td><td class="red">BTC Sale</td><td>Core Scientific (Treasury)</td><td>~1,907 BTC</td><td>$175M</td></tr>
 </tbody>
 </table>
+</div>
 
 <!-- 5. Peer Heatmap -->
 <h2 class="section-title">Peer Heatmap</h2>
 <div class="heatmap-grid">
 
-<div class="heatmap-cell">
+<div class="heatmap-cell negative core">
 <div class="ht-ticker" style="color:#58a6ff">WULF</div>
 <div class="ht-change red">-6.11%</div>
 <div class="ht-flag">HPC: Kentucky DC</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell core">
 <div class="ht-ticker" style="color:#58a6ff">SLNH</div>
-<div class="ht-change" style="color:#8b949e">0.00%</div>
+<div class="ht-change" style="color:#6e7681">0.00%</div>
 <div class="ht-flag">HPC: Dorothy/Briscoe</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell positive core">
 <div class="ht-ticker" style="color:#58a6ff">MIGI</div>
 <div class="ht-change green">+2.45%</div>
 <div class="ht-flag">HPC: Pivoting</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell positive">
 <div class="ht-ticker">IREN</div>
 <div class="ht-change green">+2.1%</div>
 <div class="ht-flag">HPC: 4.5GW renewables</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell positive">
 <div class="ht-ticker">CORZ</div>
 <div class="ht-change green">+1.8%</div>
 <div class="ht-flag">HPC: Full pivot</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell positive">
 <div class="ht-ticker">CIFR</div>
 <div class="ht-change green">+0.9%</div>
 <div class="ht-flag">HPC: JV divested</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell positive">
 <div class="ht-ticker">HUT</div>
 <div class="ht-change green">+5.3%</div>
 <div class="ht-flag">HPC: $7B Anthropic</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell positive">
 <div class="ht-ticker">CLSK</div>
 <div class="ht-change green">+1.2%</div>
 <div class="ht-flag">13,513 BTC treasury</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell positive">
 <div class="ht-ticker">APLD</div>
 <div class="ht-change green">+3.4%</div>
 <div class="ht-flag">HPC: GPU cloud</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell negative">
 <div class="ht-ticker">MARA</div>
 <div class="ht-change red">-0.8%</div>
 <div class="ht-flag">53,822 BTC held</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell positive">
 <div class="ht-ticker">RIOT</div>
 <div class="ht-change green">+1.5%</div>
 <div class="ht-flag">Mining focus</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell positive">
 <div class="ht-ticker">BTDR</div>
 <div class="ht-change green">+2.7%</div>
 <div class="ht-flag">Chip development</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell positive">
 <div class="ht-ticker">BITF</div>
 <div class="ht-change green">+1.1%</div>
 <div class="ht-flag">HPC: Paso Pe sold</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell negative">
 <div class="ht-ticker">BTBT</div>
 <div class="ht-change red">-0.4%</div>
 <div class="ht-flag">Mining + HPC</div>
 </div>
-<div class="heatmap-cell">
+<div class="heatmap-cell positive">
 <div class="ht-ticker">HIVE</div>
 <div class="ht-change green">+2.0%</div>
 <div class="ht-flag">GPU cloud</div>
@@ -317,6 +355,7 @@ a:hover{text-decoration:underline}
 
 <!-- 6. HPC Deal Tracker -->
 <h2 class="section-title">HPC Deal Tracker</h2>
+<div class="table-container">
 <table>
 <thead><tr><th>Date</th><th>Company</th><th>Counterparty</th><th>MW</th><th>Duration</th><th>Value</th></tr></thead>
 <tbody>
@@ -326,6 +365,7 @@ a:hover{text-decoration:underline}
 <tr><td>Q1 2026</td><td>IREN</td><td>Self (Oklahoma site)</td><td>1,600 MW</td><td>Permanent</td><td>N/A (total 4.5GW pipeline)</td></tr>
 </tbody>
 </table>
+</div>
 
 <!-- 7. Community Pulse -->
 <h2 class="section-title">Community Pulse</h2>

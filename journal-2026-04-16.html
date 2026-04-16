@@ -5,69 +5,100 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>The Daily Brief - April 16, 2026</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a1a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='%23faf9f6' text-anchor='middle'%3EDB%3C/text%3E%3C/svg%3E">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;0,700;1,400&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Inter',sans-serif;background:#faf9f6;color:#1a1a1a;line-height:1.6}
-.masthead{position:relative;text-align:center;padding:2.5rem 1.2rem 1.5rem;border-bottom:3px solid #1a1a1a;margin-bottom:0}
-.masthead h1{font-family:'Newsreader',serif;font-size:3rem;letter-spacing:0.15em;font-weight:700}
-.masthead .date{font-size:0.95rem;color:#555;margin-top:0.3rem}
-.masthead .tagline{font-family:'Newsreader',serif;font-style:italic;color:#777;margin-top:0.2rem;font-size:1rem}
-.date-nav{position:absolute;left:1.2rem;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:0.4rem}
-.date-nav button{background:none;border:1px solid #ccc;border-radius:6px;width:32px;height:32px;cursor:pointer;font-size:1rem;color:#555;display:flex;align-items:center;justify-content:center;transition:all 0.2s}
+body{font-family:'Inter',sans-serif;background:#faf9f6;color:#1a1a1a;line-height:1.7}
+
+/* Masthead */
+.masthead{position:relative;text-align:center;padding:3rem 1.5rem 2rem;border-bottom:none;margin-bottom:0;background:linear-gradient(180deg,#fff 0%,#faf9f6 100%)}
+.masthead h1{font-family:'Playfair Display',serif;font-size:4rem;letter-spacing:0.08em;font-weight:900;color:#1a1a1a;line-height:1}
+.masthead .date{font-size:0.8rem;color:#888;margin-top:0.8rem;text-transform:uppercase;letter-spacing:0.15em;font-weight:500}
+.masthead .tagline{display:none}
+.masthead::after{content:'';display:block;width:60px;height:3px;background:#1a1a1a;margin:1rem auto 0}
+
+/* Date nav */
+.date-nav{position:absolute;left:1.5rem;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:0.4rem}
+.date-nav button{background:none;border:1px solid #ddd;border-radius:8px;width:34px;height:34px;cursor:pointer;font-size:1rem;color:#666;display:flex;align-items:center;justify-content:center;transition:all 0.2s}
 .date-nav button:hover{background:#f0eeea;border-color:#999}
 .date-nav button:disabled{opacity:0.3;cursor:default}
-.date-nav input[type="date"]{font-family:'Inter',sans-serif;font-size:0.82rem;border:1px solid #ccc;border-radius:6px;padding:0.3rem 0.5rem;background:#fff;color:#333;cursor:pointer}
-@media(max-width:768px){.date-nav{position:static;transform:none;justify-content:center;margin-bottom:0.5rem}}
-.tab-bar{display:flex;justify-content:center;gap:0;border-bottom:3px solid #1a1a1a;background:#f5f4f0}
-.tab-bar a{display:inline-block;padding:0.7rem 2rem;font-family:'Inter',sans-serif;font-size:0.9rem;font-weight:600;color:#777;text-decoration:none;border-bottom:3px solid transparent;margin-bottom:-3px;transition:all 0.2s}
-.tab-bar a:hover{color:#1a1a1a;background:#eae8e3}
+.date-nav input[type="date"]{font-family:'Inter',sans-serif;font-size:0.8rem;border:1px solid #ddd;border-radius:8px;padding:0.35rem 0.6rem;background:#fff;color:#444;cursor:pointer}
+@media(max-width:768px){.date-nav{position:static;transform:none;justify-content:center;margin-bottom:0.8rem}}
+
+/* Tab bar */
+.tab-bar{display:flex;justify-content:center;gap:0;border-bottom:2px solid #e8e6e1;background:#faf9f6}
+.tab-bar a{display:inline-block;padding:0.8rem 2.5rem;font-family:'Inter',sans-serif;font-size:0.82rem;font-weight:600;color:#999;text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all 0.2s;text-transform:uppercase;letter-spacing:0.08em}
+.tab-bar a:hover{color:#1a1a1a;background:#f5f3ee}
 .tab-bar a.active{color:#1a1a1a;border-bottom-color:#1a1a1a}
-.layout{display:flex;max-width:1400px;margin:0 auto;padding:0 1rem}
-.sidebar{position:sticky;top:1rem;height:fit-content;width:220px;min-width:220px;padding:1.5rem 1.5rem 1.5rem 0;display:none}
+
+/* Layout */
+.layout{display:flex;max-width:1400px;margin:0 auto;padding:0 1.5rem}
+.sidebar{position:sticky;top:2rem;height:fit-content;width:200px;min-width:200px;padding:2rem 1.5rem 2rem 0;display:none}
 @media(min-width:1200px){.sidebar{display:block}}
-.sidebar nav a{display:block;padding:0.45rem 0.8rem;color:#555;text-decoration:none;font-size:0.82rem;border-left:3px solid transparent;transition:all 0.2s;margin-bottom:0.15rem;border-radius:0 4px 4px 0}
-.sidebar nav a:hover{color:#1a1a1a;background:#f0eeea;border-left-color:#999}
-.sidebar nav a.active{color:#1a1a1a;font-weight:600;border-left-color:#1a1a1a}
-.main{flex:1;min-width:0;padding:1.5rem 0 4rem}
-.section{margin-bottom:3rem}
-.section-header{display:flex;align-items:center;gap:0.8rem;margin-bottom:1.5rem;padding-bottom:0.6rem;border-bottom:3px solid #1a1a1a}
-.section-header .accent{width:6px;height:36px;border-radius:3px}
-.section-header h2{font-family:'Newsreader',serif;font-size:1.7rem;font-weight:700}
-.section-header .count{font-size:0.75rem;color:#888;margin-left:auto;white-space:nowrap}
-.news-grid{column-count:3;column-gap:1.1rem}
-@media(max-width:1024px){.news-grid{column-count:2}}
-@media(max-width:640px){.news-grid{column-count:1}}
-.subsection-label{column-span:all;font-family:'Newsreader',serif;font-size:1.15rem;font-weight:600;color:#444;margin:1.2rem 0 0.8rem;padding-bottom:0.3rem;border-bottom:1px solid #ddd}
-.subsection-label:first-child{margin-top:0}
-.card,.card-with-thumb,.hero-card,.video-card{break-inside:avoid;display:inline-block;width:100%;background:#fff;border-radius:10px;box-shadow:0 1px 4px rgba(0,0,0,0.06);margin-bottom:1.1rem;overflow:hidden;cursor:pointer;transition:box-shadow 0.2s,transform 0.15s;border:1px solid #eee}
-.card:hover,.card-with-thumb:hover,.hero-card:hover,.video-card:hover{box-shadow:0 4px 16px rgba(0,0,0,0.1);transform:translateY(-2px)}
-.hero-card{column-span:all}
-.hero-card .hero-body{padding:1.2rem 1.5rem}
-.hero-card .hero-body h3{font-family:'Newsreader',serif;font-size:1.5rem;margin-bottom:0.4rem}
-.hero-card .hero-body p{color:#555;font-size:0.92rem;line-height:1.55}
-.hero-card .hero-body .meta{display:flex;align-items:center;gap:0.5rem;margin-top:0.6rem;font-size:0.75rem;color:#888}
-.card .card-body{padding:1rem 1.1rem}
-.card .card-body h3{font-family:'Newsreader',serif;font-size:1.1rem;margin-bottom:0.3rem;line-height:1.3}
-.card .card-body p{color:#555;font-size:0.85rem;line-height:1.5}
-.card .card-body .meta{display:flex;align-items:center;gap:0.5rem;margin-top:0.5rem;font-size:0.72rem;color:#888}
-.source-pill{display:inline-block;padding:0.15rem 0.5rem;background:#f0eeea;border-radius:12px;color:#555;text-decoration:none;font-size:0.7rem;transition:background 0.2s}
-.source-pill:hover{background:#e0ddd8}
-.mood-box{column-span:all;background:linear-gradient(135deg,#ffecd2,#fcb69f);border-radius:10px;padding:1.2rem 1.5rem;margin-bottom:1.1rem;border:none;box-shadow:0 1px 4px rgba(0,0,0,0.06)}
-.mood-box h3{font-family:'Newsreader',serif;font-size:1.1rem;margin-bottom:0.3rem}
-.mood-box p{font-size:0.88rem;color:#444}
-.modal-overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);z-index:1000;justify-content:center;align-items:center;padding:1rem}
+.sidebar nav a{display:block;padding:0.5rem 0.8rem;color:#999;text-decoration:none;font-size:0.78rem;border-left:2px solid transparent;transition:all 0.2s;margin-bottom:0.2rem;border-radius:0 4px 4px 0;font-weight:500;letter-spacing:0.02em}
+.sidebar nav a:hover{color:#1a1a1a;background:#f5f3ee;border-left-color:#ccc}
+.sidebar nav a.active{color:#1a1a1a;font-weight:700;border-left-color:#1a1a1a}
+.main{flex:1;min-width:0;padding:2.5rem 0 4rem}
+
+/* Sections */
+.section{margin-bottom:4.5rem}
+.section-header{display:flex;align-items:center;gap:0.8rem;margin-bottom:2rem;padding-bottom:0;border-bottom:none}
+.section-header .accent{width:40px;height:4px;border-radius:2px;align-self:center}
+.section-header h2{font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;letter-spacing:-0.02em}
+.section-header .count{font-size:0.7rem;color:#fff;margin-left:auto;white-space:nowrap;padding:0.2rem 0.7rem;border-radius:20px;font-weight:600;letter-spacing:0.02em}
+
+/* Grid - CSS Grid instead of multi-column */
+.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+@media(max-width:1024px){.news-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.news-grid{grid-template-columns:1fr}}
+
+/* Subsection labels */
+.subsection-label{grid-column:1/-1;font-family:'Inter',sans-serif;font-size:0.72rem;font-weight:700;color:#999;margin:1rem 0 0;padding-bottom:0;border-bottom:none;text-transform:uppercase;letter-spacing:0.12em}
+
+/* Cards base */
+.card,.card-with-thumb,.hero-card,.video-card{background:#fff;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.04),0 4px 12px rgba(0,0,0,0.03);overflow:hidden;cursor:pointer;transition:box-shadow 0.3s ease,transform 0.2s ease;border:none}
+.card:hover,.card-with-thumb:hover,.hero-card:hover,.video-card:hover{box-shadow:0 4px 8px rgba(0,0,0,0.06),0 12px 28px rgba(0,0,0,0.08);transform:translateY(-3px)}
+
+/* Hero card */
+.hero-card{grid-column:1/-1}
+.hero-card .hero-img{width:100%;height:320px;object-fit:cover;display:block}
+@media(max-width:1024px){.hero-card .hero-img{height:240px}}
+@media(max-width:640px){.hero-card .hero-img{height:180px}}
+.hero-card .hero-body{padding:1.5rem 2rem 1.8rem}
+.hero-card .hero-body h3{font-family:'Playfair Display',serif;font-size:1.8rem;margin-bottom:0.5rem;line-height:1.2;letter-spacing:-0.02em;font-weight:900}
+.hero-card .hero-body p{color:#555;font-size:0.95rem;line-height:1.65;max-width:720px}
+.hero-card .hero-body .meta{display:flex;align-items:center;gap:0.5rem;margin-top:0.8rem;font-size:0.75rem;color:#888}
+
+/* Standard card */
+.card .card-body{padding:1.25rem 1.4rem}
+.card .card-body h3{font-family:'Newsreader',serif;font-size:1.15rem;margin-bottom:0.35rem;line-height:1.3;font-weight:700}
+.card .card-body p{color:#666;font-size:0.85rem;line-height:1.55}
+.card .card-body .meta{display:flex;align-items:center;gap:0.5rem;margin-top:0.6rem;font-size:0.72rem;color:#999}
+
+/* Source pills */
+.source-pill{display:inline-block;padding:0.2rem 0.6rem;background:#f5f3ee;border-radius:20px;color:#777;text-decoration:none;font-size:0.68rem;transition:all 0.2s;font-weight:500}
+.source-pill:hover{background:#e8e6e0;color:#555}
+
+/* Mood box */
+.mood-box{grid-column:1/-1;background:linear-gradient(135deg,#ffecd2 0%,#fcb69f 100%);border-radius:12px;padding:1.5rem 2rem;border:none;box-shadow:none}
+.mood-box h3{font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:0.4rem;font-weight:900}
+.mood-box p{font-size:0.88rem;color:#5a3e2b;line-height:1.6}
+
+/* Modal */
+.modal-overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);backdrop-filter:blur(4px);z-index:1000;justify-content:center;align-items:center;padding:1rem}
 .modal-overlay.active{display:flex}
-.modal-content{background:#fff;border-radius:12px;max-width:680px;width:100%;max-height:85vh;overflow-y:auto;padding:2rem;position:relative}
-.modal-content h2{font-family:'Newsreader',serif;font-size:1.6rem;margin-bottom:0.8rem;line-height:1.3}
-.modal-content .modal-body{font-size:0.92rem;color:#333;line-height:1.7}
+.modal-content{background:#fff;border-radius:16px;max-width:680px;width:100%;max-height:85vh;overflow-y:auto;padding:2.5rem;position:relative;box-shadow:0 20px 60px rgba(0,0,0,0.2)}
+.modal-content h2{font-family:'Playfair Display',serif;font-size:1.8rem;margin-bottom:1rem;line-height:1.25;font-weight:900;letter-spacing:-0.02em}
+.modal-content .modal-body{font-size:0.92rem;color:#444;line-height:1.75}
 .modal-content .modal-body p{margin-bottom:0.8rem}
-.modal-content .modal-sources{margin-top:1.2rem;padding-top:0.8rem;border-top:1px solid #eee}
-.modal-content .modal-sources a{display:inline-block;margin:0.2rem 0.3rem 0.2rem 0;padding:0.25rem 0.7rem;background:#f0eeea;border-radius:14px;color:#555;text-decoration:none;font-size:0.78rem;transition:background 0.2s}
-.modal-content .modal-sources a:hover{background:#e0ddd8;color:#333}
-.modal-close{position:absolute;top:1rem;right:1rem;width:36px;height:36px;border-radius:50%;border:none;background:#f0eeea;cursor:pointer;font-size:1.2rem;display:flex;align-items:center;justify-content:center;transition:background 0.2s}
-.modal-close:hover{background:#ddd}
-.footer{text-align:center;padding:2rem;color:#aaa;font-size:0.75rem;border-top:1px solid #eee}
+.modal-content .modal-sources{margin-top:1.5rem;padding-top:1rem;border-top:1px solid #eee}
+.modal-content .modal-sources a{display:inline-block;margin:0.2rem 0.3rem 0.2rem 0;padding:0.3rem 0.8rem;background:#f5f3ee;border-radius:20px;color:#666;text-decoration:none;font-size:0.78rem;transition:all 0.2s;font-weight:500}
+.modal-content .modal-sources a:hover{background:#e8e6e0;color:#333}
+.modal-close{position:absolute;top:1.2rem;right:1.2rem;width:40px;height:40px;border-radius:50%;border:none;background:#f5f3ee;cursor:pointer;font-size:1.3rem;display:flex;align-items:center;justify-content:center;transition:all 0.2s;color:#666}
+.modal-close:hover{background:#e8e6e0;color:#333}
+
+/* Footer */
+.footer{text-align:center;padding:3rem 1.5rem;color:#bbb;font-size:0.72rem;border-top:1px solid #eee;letter-spacing:0.02em}
 </style>
 </head>
 <body>
@@ -108,11 +139,12 @@ body{font-family:'Inter',sans-serif;background:#faf9f6;color:#1a1a1a;line-height
 <div class="section-header">
 <div class="accent" style="background:#1B998B"></div>
 <h2>Global News</h2>
-<span class="count">18 stories</span>
+<span class="count" style="background:#1B998B">18 stories</span>
 </div>
 <div class="news-grid">
 
 <div class="hero-card" data-title="Hungary's Orban Era Ends as Magyar's Tisza Party Wins Supermajority" data-body="<p>Peter Magyar's centre-right Tisza Party swept Hungary's parliamentary election on April 12, securing 138 of 199 seats with 53.6% of the vote and ending Viktor Orban's 16-year grip on power. Orban's Fidesz party managed just 55 seats on 37.8%.</p><p>Turnout surpassed 77%, a record in Hungary's post-Communist era. Magyar, a former Fidesz insider turned critic, ran on a pro-European platform promising judicial independence and closer EU alignment. The two-thirds supermajority gives Tisza the power to amend Hungary's constitution.</p><p>World leaders reacted swiftly. EU officials expressed hope for a reset in relations with Budapest, while Ukraine's president welcomed the prospect of a more cooperative neighbor. Orban conceded on election night, marking the end of one of Europe's most polarizing political eras.</p>" data-sources='[{"name":"CNN","url":"https://www.cnn.com/2026/04/12/world/live-news/hungary-election-orban-magyar"},{"name":"Al Jazeera","url":"https://www.aljazeera.com/news/2026/4/12/hungary-election-early-results-show-magyars-tisza-ahead-of-orbans-fidesz"},{"name":"Euronews","url":"https://www.euronews.com/2026/04/12/record-turnout-as-close-of-polls-nears-in-hungarys-most-consequential-election-in-decades"}]'>
+<img class="hero-img" src="img/2026-04-16/global-hero.webp" alt="" loading="eager">
 <div class="hero-body">
 <h3>Hungary's Orban Era Ends as Magyar's Tisza Party Wins Supermajority</h3>
 <p>Peter Magyar's pro-European Tisza Party won 138 of 199 seats in a landslide, ending Viktor Orban's 16-year rule. Record 77% turnout sealed the most dramatic political shift in Hungary's modern history.</p>
@@ -246,13 +278,14 @@ body{font-family:'Inter',sans-serif;background:#faf9f6;color:#1a1a1a;line-height
 <div class="section-header">
 <div class="accent" style="background:#E8703A"></div>
 <h2>Netherlands</h2>
-<span class="count">12 stories</span>
+<span class="count" style="background:#E8703A">12 stories</span>
 </div>
 <div class="news-grid">
 
 <div class="mood-box"><h3>Sfeer vandaag</h3><p>A classic Dutch April day: highs around 16°C with rain likely, as the saying goes, "April doet wat hij wil." The national mood is watchful, with the Drents Museum trial dominating headlines and defense spending debates stirring up tensions over housing priorities.</p></div>
 
 <div class="hero-card" data-title="Drents Museum Heist Trial Opens with Prosecutors Seeking 66-Month Sentences" data-body="<p>The trial of three men accused of stealing priceless Romanian Dacian treasures from the Drents Museum in Assen began on April 14. Prosecutors have recommended prison sentences of up to 66 months for the suspects.</p><p>In January 2025, the men used a powerful firework bomb to blow open the museum's door and made off with the golden helmet of Cotofenesti and three gold bracelets, on loan from Romania. Most of the artifacts were later returned, including the famous helmet and two bracelets.</p><p>The trial has drawn significant public attention both in the Netherlands and Romania, where the treasures are considered national heritage of immense historical value.</p>" data-sources='[{"name":"NL Times","url":"https://nltimes.nl/2026/04/14/drents-museum-heist-trial-starts-three-men-accused-stealing-romanian-treasures"},{"name":"Romania Insider","url":"https://www.romania-insider.com/trial-begins-dutch-museum-heist-romanian-dacian-treasure-2026"}]'>
+<img class="hero-img" src="img/2026-04-16/netherlands-hero.webp" alt="" loading="lazy">
 <div class="hero-body">
 <h3>Drents Museum Heist Trial Opens, Prosecutors Seek Up to 66 Months</h3>
 <p>Three men face trial for the brazen 2025 theft of Romanian Dacian treasures including the golden helmet of Cotofenesti. Most artifacts were recovered but prosecutors want significant prison time.</p>
@@ -338,11 +371,12 @@ body{font-family:'Inter',sans-serif;background:#faf9f6;color:#1a1a1a;line-height
 <div class="section-header">
 <div class="accent" style="background:#7B2D8E"></div>
 <h2>AI &amp; HPC</h2>
-<span class="count">22 stories</span>
+<span class="count" style="background:#7B2D8E">22 stories</span>
 </div>
 <div class="news-grid">
 
 <div class="hero-card" data-title="Anthropic Confirms Claude Mythos Exists but Won't Release It Publicly" data-body="<p>Anthropic confirmed the existence of Claude Mythos, the most capable AI model ever built, scoring 93.9% on SWE-bench Verified, 94.6% on GPQA Diamond, and reportedly discovering thousands of zero-day vulnerabilities across every major operating system and browser.</p><p>The model will not be made publicly available. Instead, 50 organizations will receive gated access under 'Project Glasswing,' a controlled deployment program. Anthropic cited safety concerns as the primary reason for withholding the model from general release.</p><p>The announcement has reignited debate about the balance between AI capability and safety, with some researchers praising Anthropic's restraint and others arguing that concentration of powerful AI in select organizations poses its own risks.</p>" data-sources='[{"name":"What LLM","url":"https://whatllm.org/blog/new-ai-models-april-2026"},{"name":"Applying AI","url":"https://applyingai.com/2026/04/anthropics-mythos-vs-google-gemini-3-1-startup-ai-model-releases-news-april-2026/"}]'>
+<img class="hero-img" src="img/2026-04-16/ai-hpc-hero.webp" alt="" loading="lazy">
 <div class="hero-body">
 <h3>Anthropic Confirms Claude Mythos Exists but Won't Release It</h3>
 <p>The most capable AI model ever built scores 93.9% on SWE-bench and found thousands of zero-day vulnerabilities. Only 50 organizations get access under Project Glasswing.</p>
@@ -512,11 +546,12 @@ body{font-family:'Inter',sans-serif;background:#faf9f6;color:#1a1a1a;line-height
 <div class="section-header">
 <div class="accent" style="background:#E8B130"></div>
 <h2>Crypto &amp; Macro</h2>
-<span class="count">15 stories</span>
+<span class="count" style="background:#E8B130">15 stories</span>
 </div>
 <div class="news-grid">
 
 <div class="hero-card" data-title="Bitcoin Stalls at $75K Resistance as $424M in Futures Liquidated" data-body="<p>Bitcoin is struggling to break and hold above the $75,000 resistance level after briefly touching $76,000 on Tuesday. The pullback to around $73,900 triggered $424 million in crypto futures liquidations, split almost evenly between longs and shorts, a rare pattern highlighting deep market uncertainty.</p><p>Despite the choppy action, Bitcoin and Ethereum are up 12.3% and 20.2% respectively since the Iran conflict began, with their apolitical nature giving them demand edge over traditional risk assets during geopolitical crises. Increasing ETF inflows continue to provide a floor under prices.</p>" data-sources='[{"name":"CoinDesk","url":"https://www.coindesk.com/markets/2026/04/15/bitcoin-pulls-back-as-usd75-000-remains-both-the-milestone-and-the-ceiling"},{"name":"Yahoo Finance","url":"https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-price-today-wednesday-april-15-2026-prices-hold-amid-geopolitical-tensions-and-etf-demand-112532730.html"}]'>
+<img class="hero-img" src="img/2026-04-16/crypto-macro-hero.webp" alt="" loading="lazy">
 <div class="hero-body">
 <h3>Bitcoin Stalls at $75K as $424M in Futures Liquidated</h3>
 <p>BTC pulled back to $73,900 after briefly touching $76K. Liquidations split evenly between longs and shorts signal deep market uncertainty, though ETF demand provides a floor.</p>
@@ -620,11 +655,12 @@ body{font-family:'Inter',sans-serif;background:#faf9f6;color:#1a1a1a;line-height
 <div class="section-header">
 <div class="accent" style="background:#D63B47"></div>
 <h2>AI &amp; Mental Health</h2>
-<span class="count">8 stories</span>
+<span class="count" style="background:#D63B47">8 stories</span>
 </div>
 <div class="news-grid">
 
 <div class="hero-card" data-title="Can AI Fix the Mental Health Crisis? The Promise and the Gaps" data-body="<p>A comprehensive Medscape analysis examines whether artificial intelligence can address the growing mental health crisis. While AI tools show promise for expanding access and reducing wait times, significant gaps remain between potential and reality.</p><p>The digital mental health era has begun, but the challenge is not whether AI will enter mental healthcare but how thoughtfully it is integrated. Clinical AI adoption remains low despite growing use for administrative tasks, with experts noting that existing tools 'are not well tested' for therapeutic use.</p><p>The analysis underscores the need for rigorous clinical validation and regulatory frameworks before AI mental health tools can scale to meet the enormous unmet demand.</p>" data-sources='[{"name":"Medscape","url":"https://www.medscape.com/viewarticle/can-ai-fix-mental-health-crisis-2026a1000bcn"}]'>
+<img class="hero-img" src="img/2026-04-16/mental-health-hero.webp" alt="" loading="lazy">
 <div class="hero-body">
 <h3>Can AI Fix the Mental Health Crisis?</h3>
 <p>AI shows promise for expanding access to mental healthcare but clinical adoption remains low. Experts say tools need more rigorous testing before they can address the enormous unmet demand.</p>
@@ -700,11 +736,12 @@ body{font-family:'Inter',sans-serif;background:#faf9f6;color:#1a1a1a;line-height
 <div class="section-header">
 <div class="accent" style="background:#2478A0"></div>
 <h2>Sports</h2>
-<span class="count">12 stories</span>
+<span class="count" style="background:#2478A0">12 stories</span>
 </div>
 <div class="news-grid">
 
 <div class="hero-card" data-title="Sinner Wins Monte-Carlo, Returns to World No. 1 After Beating Alcaraz" data-body="<p>Jannik Sinner defeated Carlos Alcaraz 7-6(5), 6-3 in the Monte-Carlo Masters final on Sunday, reclaiming the world No. 1 ranking. The 24-year-old Italian became just the second man alongside Novak Djokovic (2015) to win the first three ATP Masters 1000 events of the season.</p><p>Sinner now begins his 67th week at the top of the ATP rankings, moving one week clear of Alcaraz. The dominant run has cemented his position as the sport's leading force in 2026.</p>" data-sources='[{"name":"ATP Tour","url":"https://www.atptour.com/en/news/sinner-pif-atp-rankings-13-april-2026"},{"name":"ATP Tour","url":"https://www.atptour.com/en/news/alcaraz-sinner-no-1-projection-monte-carlo-final-2026"}]'>
+<img class="hero-img" src="img/2026-04-16/sports-hero.webp" alt="" loading="lazy">
 <div class="hero-body">
 <h3>Sinner Wins Monte-Carlo, Returns to World No. 1</h3>
 <p>The Italian defeated Alcaraz 7-6(5), 6-3 to become only the second man after Djokovic to win the first three Masters 1000 events of the season.</p>
@@ -800,11 +837,12 @@ body{font-family:'Inter',sans-serif;background:#faf9f6;color:#1a1a1a;line-height
 <div class="section-header">
 <div class="accent" style="background:#3D5A80"></div>
 <h2>Consumer Tech</h2>
-<span class="count">12 stories</span>
+<span class="count" style="background:#3D5A80">12 stories</span>
 </div>
 <div class="news-grid">
 
 <div class="hero-card" data-title="Global Smartphone Shipments Fall 4.1% as Memory Constraints Bite" data-body="<p>Global smartphone shipments decreased 4.1% year-over-year to 289.7 million units in Q1 2026, breaking a 10-quarter growth streak. The decline is driven by acute memory supply constraints affecting both production and demand.</p><p>Despite the downturn, Apple grabbed the global No. 1 spot for the first time in a Q1 period with roughly 21% market share. Samsung reclaimed the lead on strong Galaxy S26 Ultra demand with a 3.6% year-on-year increase. Google's Pixel lineup saw about 14% growth, bucking the broader trend.</p>" data-sources='[{"name":"Digital Trends","url":"https://www.digitaltrends.com/phones/iphones-take-the-global-smartphone-crown-in-2026-as-google-pixels-make-a-big-leap/"},{"name":"Technology For You","url":"https://www.technologyforyou.org/samsung-and-apple-grow-in-q1-2026-despite-4-1-drop-in-global-smartphone-shipments-says-idc/"}]'>
+<img class="hero-img" src="img/2026-04-16/consumer-tech-hero.webp" alt="" loading="lazy">
 <div class="hero-body">
 <h3>Global Smartphone Shipments Fall 4.1% as Memory Constraints Bite</h3>
 <p>Q1 2026 breaks a 10-quarter growth streak. Apple takes the global No. 1 spot for the first time in Q1, while Google Pixel grows 14% against the trend.</p>
