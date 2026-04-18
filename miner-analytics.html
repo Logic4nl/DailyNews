@@ -1,403 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Miner Analytics Dashboard - The Daily Brief</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%231a1a1a'/><text x='50' y='68' font-family='Georgia,serif' font-size='48' font-weight='bold' fill='%23faf9f6' text-anchor='middle'>DB</text></svg>">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Daily Brief - Miner Analytics</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a1a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='%23faf9f6' text-anchor='middle'%3EDB%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Inter',sans-serif;background:#0a0e14;color:#c9d1d9;line-height:1.6}
-.masthead{text-align:center;padding:2.5rem 1.2rem 1.5rem;border-bottom:2px solid #1c2129;margin-bottom:0}
-.masthead h1{font-family:'Newsreader',serif;font-size:3rem;letter-spacing:0.15em;font-weight:700;color:#e6edf3}
-.masthead .date{font-size:0.95rem;color:#6e7681;margin-top:0.3rem}
+body{font-family:'Inter',sans-serif;background:#0a0e14;color:#c9d1d9;line-height:1.55}
+.masthead{text-align:center;padding:2.5rem 1.2rem 1.5rem;border-bottom:3px solid #21262d}
+.masthead h1{font-family:'Playfair Display',serif;font-size:4rem;letter-spacing:0.08em;font-weight:900;color:#e6edf3}
+.masthead .date{font-size:0.95rem;color:#8b949e;margin-top:0.3rem}
 .masthead .tagline{font-family:'Newsreader',serif;font-style:italic;color:#6e7681;margin-top:0.2rem;font-size:1rem}
 .tab-bar{display:flex;justify-content:center;gap:0;border-bottom:2px solid #1c2129;background:#0f1419}
-.tab-bar a{display:inline-block;padding:0.7rem 2rem;font-family:'Inter',sans-serif;font-size:0.9rem;font-weight:600;color:#6e7681;text-decoration:none;border-bottom:3px solid transparent;margin-bottom:-2px;transition:all 0.2s}
-.tab-bar a:hover{color:#c9d1d9;background:#161b22}
+.tab-bar a{display:inline-block;padding:0.7rem 2rem;text-transform:uppercase;letter-spacing:0.08em;font-size:0.82rem;font-weight:600;color:#8b949e;text-decoration:none;border-bottom:3px solid transparent;margin-bottom:-2px;transition:all 0.2s}
+.tab-bar a:hover{color:#e6edf3;background:#161b22}
 .tab-bar a.active{color:#58a6ff;border-bottom-color:#58a6ff}
-.container{max-width:1400px;margin:0 auto;padding:2rem 1rem}
-.section-title{font-family:'Newsreader',serif;font-size:1.8rem;font-weight:700;color:#e6edf3;margin-bottom:1.5rem;display:flex;align-items:center;gap:0.8rem;letter-spacing:-0.02em}
-.section-title::before{content:'';width:40px;height:4px;border-radius:2px;background:#58a6ff}
-.dashboard-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:1.5rem;margin-bottom:3rem}
-@media(max-width:640px){.dashboard-grid{grid-template-columns:1fr}}
+main{max-width:1400px;margin:0 auto;padding:2rem 1.2rem 4rem}
+.section{margin-bottom:3rem}
+.section-title{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:900;letter-spacing:-0.02em;color:#e6edf3;margin-bottom:1.2rem;padding-left:1rem;position:relative}
+.section-title::before{content:'';position:absolute;left:0;top:50%;transform:translateY(-50%);width:4px;height:70%;border-radius:2px;background:#58a6ff}
+.dashboard-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:1.4rem}
 .position-card{background:#161b22;border:1px solid #21262d;border-radius:16px;padding:1.8rem;position:relative;overflow:hidden}
-.position-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:16px 16px 0 0}
-.position-card .ticker-name{font-family:'Newsreader',serif;font-size:1.5rem;font-weight:700;color:#e6edf3}
-.position-card .company-name{font-size:0.82rem;color:#6e7681;margin-bottom:1rem}
-.metric-row{display:flex;justify-content:space-between;align-items:center;padding:0.4rem 0;border-bottom:1px solid #21262d}
-.metric-row:last-child{border-bottom:none}
-.metric-row .label{font-size:0.82rem;color:#6e7681}
-.metric-row .value{font-size:0.9rem;font-weight:600;color:#e6edf3}
-.catalyst-note{background:#d2992210;border-left:3px solid #d29922;border-radius:0 8px 8px 0;padding:0.8rem 1rem;margin-top:1rem;font-size:0.82rem;color:#c9d1d9}
-.alert-feed{margin-bottom:3rem}
-.alert-item{background:#161b22;border:1px solid #21262d;border-radius:12px;padding:1rem 1.2rem;margin-bottom:0.8rem;border-left:3px solid #58a6ff}
-.alert-item .alert-date{font-size:0.72rem;color:#6e7681;margin-bottom:0.3rem}
-.alert-item .alert-text{font-size:0.88rem;color:#c9d1d9}
-.ticker-badge{display:inline-block;padding:0.15rem 0.5rem;background:#58a6ff18;color:#58a6ff;border-radius:8px;font-size:0.72rem;font-weight:600;margin-right:0.4rem}
-.category-badge{display:inline-block;padding:0.12rem 0.45rem;border-radius:8px;font-size:0.68rem;font-weight:600;margin-left:0.4rem}
+.position-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#58a6ff,#3fb950)}
+.ticker-line{display:flex;align-items:baseline;gap:0.8rem;margin-bottom:0.8rem;flex-wrap:wrap}
+.ticker-name{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:900;color:#e6edf3}
+.company{font-size:0.85rem;color:#8b949e}
+.price-row{display:flex;align-items:baseline;gap:0.8rem;margin-bottom:1rem}
+.price{font-size:2rem;font-weight:700;color:#e6edf3}
+.change{font-size:1rem;font-weight:600}
+.change.positive{color:#3fb950}
+.change.negative{color:#f85149}
+.change.neutral{color:#8b949e}
+.metric-row{display:flex;justify-content:space-between;padding:0.35rem 0;border-top:1px solid #21262d;font-size:0.85rem}
+.metric-row .label{color:#6e7681}
+.metric-row .value{color:#c9d1d9;text-align:right;max-width:60%}
+.catalyst-note{margin-top:1rem;padding:0.9rem 1rem;background:#1a1511;border-left:3px solid #d29922;border-radius:4px;font-size:0.82rem;color:#c9d1d9;line-height:1.55}
+.catalyst-note strong{color:#d29922;font-size:0.75rem;letter-spacing:0.08em;text-transform:uppercase}
+.alert-feed{display:flex;flex-direction:column;gap:0.8rem}
+.alert-item{background:#161b22;border:1px solid #21262d;border-left:4px solid #58a6ff;border-radius:12px;padding:1rem 1.2rem}
+.alert-item.alert-insider{border-left-color:#3fb950}
+.alert-item.alert-analyst{border-left-color:#58a6ff}
+.alert-item.alert-contract{border-left-color:#d29922}
+.alert-item.alert-news{border-left-color:#58a6ff}
+.alert-item.alert-activist{border-left-color:#f85149}
+.alert-meta{display:flex;align-items:center;gap:0.6rem;margin-bottom:0.5rem;flex-wrap:wrap}
+.ticker-badge{display:inline-block;padding:0.15rem 0.55rem;background:#58a6ff18;color:#58a6ff;border-radius:4px;font-size:0.75rem;font-weight:600;letter-spacing:0.04em}
+.category-badge{display:inline-block;padding:0.15rem 0.55rem;border-radius:4px;font-size:0.7rem;font-weight:600;letter-spacing:0.04em;text-transform:uppercase}
 .category-insider{background:#3fb95018;color:#3fb950}
 .category-analyst{background:#58a6ff18;color:#58a6ff}
 .category-contract{background:#d2992218;color:#d29922}
 .category-news{background:#58a6ff18;color:#58a6ff}
 .category-activist{background:#f8514918;color:#f85149}
-.table-container{background:#161b22;border:1px solid #21262d;border-radius:16px;overflow:hidden;margin-bottom:3rem}
-.table-container table{width:100%;border-collapse:collapse}
-.table-container th{background:#0d1117;padding:0.8rem 1rem;text-align:left;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.06em;color:#6e7681;border-bottom:1px solid #21262d}
-.table-container td{padding:0.7rem 1rem;font-size:0.85rem;border-bottom:1px solid #21262d}
-.table-container tr:last-child td{border-bottom:none}
-.table-container a{color:#58a6ff;text-decoration:none}
-.table-container a:hover{text-decoration:underline}
-.table-responsive{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.heatmap-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0.8rem;margin-bottom:3rem}
-@media(max-width:768px){.heatmap-grid{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:480px){.heatmap-grid{grid-template-columns:repeat(2,1fr)}}
-.heatmap-cell{background:#161b22;border:1px solid #21262d;border-radius:12px;padding:1rem;text-align:center}
-.heatmap-cell.positive{background:linear-gradient(180deg,#3fb95008 0%,#161b22 100%)}
-.heatmap-cell.negative{background:linear-gradient(180deg,#f8514908 0%,#161b22 100%)}
-.heatmap-cell.core{border-color:#58a6ff33}
-.heatmap-cell .hm-ticker{font-family:'Newsreader',serif;font-size:1.1rem;font-weight:700;color:#e6edf3}
-.heatmap-cell .hm-change{font-size:1rem;font-weight:700;margin-top:0.3rem}
-.heatmap-cell .hm-price{font-size:0.78rem;color:#6e7681;margin-top:0.2rem}
-.heatmap-cell .hm-flag{font-size:0.68rem;color:#d29922;margin-top:0.3rem}
-.green{color:#3fb950}
-.red{color:#f85149}
-.pulse-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:1.5rem;margin-bottom:3rem}
-@media(max-width:640px){.pulse-grid{grid-template-columns:1fr}}
-.pulse-card{background:#161b22;border:1px solid #21262d;border-radius:16px;padding:1.5rem}
-.pulse-card .pulse-ticker{font-family:'Newsreader',serif;font-size:1.2rem;font-weight:700;color:#e6edf3;margin-bottom:0.5rem}
-.pulse-card .pulse-text{font-size:0.88rem;color:#c9d1d9;line-height:1.6}
-.context-box{background:#161b22;border:1px solid #21262d;border-radius:16px;padding:2rem;position:relative;overflow:hidden;margin-bottom:3rem}
+.alert-date{color:#6e7681;font-size:0.78rem;margin-left:auto}
+.alert-text{color:#c9d1d9;font-size:0.88rem;line-height:1.55}
+.table-container{background:#161b22;border:1px solid #21262d;border-radius:16px;overflow:hidden}
+table{width:100%;border-collapse:collapse}
+th{background:#0f1419;color:#8b949e;font-size:0.75rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;padding:0.8rem 1rem;text-align:left;border-bottom:1px solid #21262d}
+td{padding:0.8rem 1rem;border-top:1px solid #21262d;font-size:0.85rem;color:#c9d1d9;vertical-align:top}
+td a{color:#58a6ff;text-decoration:none}
+td a:hover{text-decoration:underline}
+.heatmap-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0.8rem}
+@media(max-width:900px){.heatmap-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:500px){.heatmap-grid{grid-template-columns:repeat(2,1fr)}}
+.heatmap-cell{background:#161b22;border:1px solid #21262d;border-radius:12px;padding:0.9rem 0.9rem 0.7rem;text-align:center;transition:transform 0.15s}
+.heatmap-cell.positive{background:linear-gradient(180deg,#3fb95010 0%,#161b22 100%)}
+.heatmap-cell.negative{background:linear-gradient(180deg,#f8514910 0%,#161b22 100%)}
+.heatmap-cell.core{border-color:#58a6ff55}
+.heatmap-cell:hover{transform:translateY(-2px)}
+.hm-ticker{font-family:'Playfair Display',serif;font-size:1.05rem;font-weight:700;color:#e6edf3}
+.hm-price{font-size:0.95rem;color:#c9d1d9;margin-top:0.15rem}
+.hm-change{font-size:0.82rem;color:#8b949e;margin-top:0.2rem;font-weight:600}
+.heatmap-cell.positive .hm-change{color:#3fb950}
+.heatmap-cell.negative .hm-change{color:#f85149}
+.flag-pill{display:inline-block;margin-top:0.4rem;padding:0.1rem 0.45rem;background:#21262d;color:#8b949e;border-radius:3px;font-size:0.65rem;letter-spacing:0.05em}
+.pulse-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.2rem}
+.pulse-card{background:#161b22;border:1px solid #21262d;border-radius:12px;padding:1.2rem 1.4rem}
+.pulse-ticker{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:#58a6ff;margin-bottom:0.5rem}
+.pulse-text{color:#c9d1d9;font-size:0.88rem;line-height:1.55}
+.context-box{background:#161b22;border:1px solid #21262d;border-radius:16px;padding:1.6rem 1.8rem;position:relative;overflow:hidden}
 .context-box::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#58a6ff,#d29922,#3fb950)}
-.context-box p{font-size:0.92rem;line-height:1.7;color:#c9d1d9;margin-bottom:0.8rem}
-.context-box p:last-child{margin-bottom:0}
-.footer{text-align:center;padding:2rem;color:#6e7681;font-size:0.75rem;border-top:1px solid #21262d}
+.context-box p{color:#c9d1d9;font-size:0.95rem;line-height:1.65}
+.footer{text-align:center;padding:2rem;color:#4d5560;font-size:0.75rem;border-top:1px solid #21262d}
 </style>
 </head>
 <body>
-
-<!-- Masthead -->
 <header class="masthead">
-<h1>THE DAILY BRIEF</h1>
-<div class="tagline">Miner Analytics Dashboard</div>
-<div class="date">April 17, 2026</div>
+  <h1>THE DAILY BRIEF</h1>
+  <div class="date">Sunday, April 19, 2026 &middot; prices as of Friday, April 17 close</div>
+  <div class="tagline">Miner &amp; HPC analytics</div>
 </header>
-
-<!-- Tab Bar -->
 <nav class="tab-bar">
-<a href="index.html">News</a>
-<a href="miner-analytics.html" class="active">Miner Analytics</a>
+  <a href="index.html">News</a>
+  <a href="miner-analytics.html" class="active">Miner Analytics</a>
 </nav>
+<main>
 
-<div class="container">
-
-<!-- 1. Core Positions Dashboard -->
-<h2 class="section-title">Core Positions Dashboard</h2>
-<div class="dashboard-grid">
-
-<!-- WULF -->
-<div class="position-card" style="border-top:none">
-<div style="position:absolute;top:0;left:0;right:0;height:3px;border-radius:16px 16px 0 0;background:linear-gradient(90deg,#58a6ff,#3fb950)"></div>
-<div class="ticker-name">WULF</div>
-<div class="company-name">TeraWulf Inc.</div>
-<div class="metric-row"><span class="label">Price</span><span class="value">$19.31 <span class="red">-1.83%</span></span></div>
-<div class="metric-row"><span class="label">Market Cap</span><span class="value">$9.32B</span></div>
-<div class="metric-row"><span class="label">52-Week Range</span><span class="value">$2.19 - $20.98</span></div>
-<div class="metric-row"><span class="label">Short Interest</span><span class="value">28.79% of float (3.28 DTC)</span></div>
-<div class="metric-row"><span class="label">Volume</span><span class="value">38.25M (above avg)</span></div>
-<div class="metric-row"><span class="label">Analyst</span><span class="value">Strong Buy, PT $20.41</span></div>
-<div class="catalyst-note">Priced upsized $900M stock offering at $19.00/share. Morgan Stanley lead. Preliminary Q1: Revenue $30-35M, EBITDA $0-3M, cash $3.1B. Over 50% of Q1 revenue from HPC hosting. Secured $250M revolving credit facility. Hawesville 480 MW campus construction commencing.</div>
+<section class="section">
+  <h2 class="section-title">Core Positions Dashboard</h2>
+  <div class="dashboard-grid">
+    
+<div class="position-card">
+  <div class="ticker-line">
+    <div class="ticker-name">WULF</div>
+    <div class="company">TeraWulf Inc.</div>
+  </div>
+  <div class="price-row">
+    <div class="price">$20.56</div>
+    <div class="change neutral">N/A</div>
+  </div>
+  <div class="metric-row"><span class="label">Market cap</span><span class="value">$8.99B</span></div>
+  <div class="metric-row"><span class="label">52-wk range</span><span class="value">N/A</span></div>
+  <div class="metric-row"><span class="label">Short interest</span><span class="value">22.07% of float</span></div>
+  <div class="metric-row"><span class="label">Volume</span><span class="value">Elevated on $900M secondary 4/15-17</span></div>
+  <div class="catalyst-note"><strong>Catalyst</strong><br>Priced upsized $900M common stock offering (47.4M shares at $19.00) on 4/14, closed 4/16, to fund Hawesville KY AI data center campus. KBW reiterated Outperform, $23 PT. HPC hosting revenue overtook bitcoin mining for the first time. CEO Prager exercised 981k PSUs on 4/14.</div>
 </div>
 
-<!-- SLNH -->
-<div class="position-card" style="border-top:none">
-<div style="position:absolute;top:0;left:0;right:0;height:3px;border-radius:16px 16px 0 0;background:linear-gradient(90deg,#d29922,#f0883e)"></div>
-<div class="ticker-name">SLNH</div>
-<div class="company-name">Soluna Holdings Inc.</div>
-<div class="metric-row"><span class="label">Price</span><span class="value">$1.13 <span class="green">+7.62%</span></span></div>
-<div class="metric-row"><span class="label">Market Cap</span><span class="value">$125.86M</span></div>
-<div class="metric-row"><span class="label">52-Week Range</span><span class="value">$0.415 - $5.14</span></div>
-<div class="metric-row"><span class="label">Short Interest</span><span class="value">3.31% of outstanding</span></div>
-<div class="metric-row"><span class="label">Volume</span><span class="value">7.49M</span></div>
-<div class="metric-row"><span class="label">Analyst</span><span class="value">Strong Buy, PT $5.00 (+342%)</span></div>
-<div class="catalyst-note">Acquired 100% of Project Dorothy 1A for $16.5M. Kati 1A (48 MW) achieved substantial completion ahead of schedule. Pipeline exceeds 4.3 GW. KPMG appointed as auditor. Received Nasdaq minimum bid notice.</div>
+
+<div class="position-card">
+  <div class="ticker-line">
+    <div class="ticker-name">SLNH</div>
+    <div class="company">Soluna Holdings Inc.</div>
+  </div>
+  <div class="price-row">
+    <div class="price">$1.13</div>
+    <div class="change neutral">N/A</div>
+  </div>
+  <div class="metric-row"><span class="label">Market cap</span><span class="value">N/A</span></div>
+  <div class="metric-row"><span class="label">52-wk range</span><span class="value">$0.36 - $5.14</span></div>
+  <div class="metric-row"><span class="label">Short interest</span><span class="value">3.31% of shares</span></div>
+  <div class="metric-row"><span class="label">Volume</span><span class="value">Avg ~7M; spike to $1.23 on 4/14</span></div>
+  <div class="catalyst-note"><strong>Catalyst</strong><br>Acquired remaining 85.4% of Project Dorothy 1A from Spring Lane Capital for $16.5M on 4/16, taking ownership to 100%. Financed via $12M promissory note maturing May 2027. Follows 4/1 closing of $53M Briscoe Wind Farm (150MW) expected to add $6-11M first-year adj EBITDA.</div>
 </div>
 
-<!-- MIGI -->
-<div class="position-card" style="border-top:none">
-<div style="position:absolute;top:0;left:0;right:0;height:3px;border-radius:16px 16px 0 0;background:linear-gradient(90deg,#f85149,#d29922)"></div>
-<div class="ticker-name">MIGI</div>
-<div class="company-name">Mawson Infrastructure Group</div>
-<div class="metric-row"><span class="label">Price</span><span class="value">$6.16 <span class="red">-1.75%</span></span></div>
-<div class="metric-row"><span class="label">Market Cap</span><span class="value">$33.80M</span></div>
-<div class="metric-row"><span class="label">52-Week Range</span><span class="value">$1.70 - $40.00</span></div>
-<div class="metric-row"><span class="label">Short Interest</span><span class="value">4.05% of outstanding</span></div>
-<div class="metric-row"><span class="label">Volume</span><span class="value">169.7K (avg ~50.5K)</span></div>
-<div class="metric-row"><span class="label">Analyst</span><span class="value">Hold (2 Hold, 1 Sell)</span></div>
-<div class="catalyst-note">Cooperation agreement with Endeavor Blockchain. Complete board reconstitution: 5 new directors. Endeavor holds 27.5% stake. 129 MW operational capacity, partly nuclear-powered. New leadership focused on AI/HPC expansion.</div>
+
+<div class="position-card">
+  <div class="ticker-line">
+    <div class="ticker-name">MIGI</div>
+    <div class="company">Mawson Infrastructure Group</div>
+  </div>
+  <div class="price-row">
+    <div class="price">$6.16</div>
+    <div class="change negative">-1.75%</div>
+  </div>
+  <div class="metric-row"><span class="label">Market cap</span><span class="value">N/A</span></div>
+  <div class="metric-row"><span class="label">52-wk range</span><span class="value">N/A</span></div>
+  <div class="metric-row"><span class="label">Short interest</span><span class="value">N/A</span></div>
+  <div class="metric-row"><span class="label">Volume</span><span class="value">Elevated through early April</span></div>
+  <div class="catalyst-note"><strong>Catalyst</strong><br>Board reconstitution effective 4/6-4/8 per cooperation agreement with Endeavor Blockchain (~45.6% stake). New leadership: Kilgore (Exec Chairman), Stanley (CEO), Smith (COO). Settled lawsuits cutting current liabilities $19M; regained Nasdaq compliance. Strategic pivot toward AI/HPC. Shares surged &gt;60% on announcement.</div>
 </div>
 
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Alert Feed</h2>
+  <div class="alert-feed">
+    
+<div class="alert-item alert-insider">
+  <div class="alert-meta">
+    <span class="ticker-badge">WULF</span>
+    <span class="category-badge category-insider">Insider</span>
+    <span class="alert-date">2026-04-14</span>
+  </div>
+  <div class="alert-text">CEO Paul Prager exercised 981,162 PSUs; 535,422 shares net-settled for taxes. Allin WULF LLC exercised 141,726 warrants at $0.01 strike.</div>
 </div>
 
-<!-- 2. Alert Feed -->
-<h2 class="section-title">Alert Feed</h2>
-<div class="alert-feed">
 
-<div class="alert-item">
-<div class="alert-date">April 16, 2026</div>
-<div class="alert-text"><span class="ticker-badge">SLNH</span>Acquired 100% of Project Dorothy 1A from Spring Lane Capital for $16.5M cash + note<span class="category-badge category-contract">Contract</span></div>
-</div>
-
-<div class="alert-item">
-<div class="alert-date">April 15, 2026</div>
-<div class="alert-text"><span class="ticker-badge">WULF</span>Priced upsized $900.6M common stock offering at $19.00/share, Morgan Stanley lead bookrunner<span class="category-badge category-news">News</span></div>
+<div class="alert-item alert-news">
+  <div class="alert-meta">
+    <span class="ticker-badge">WULF</span>
+    <span class="category-badge category-news">News</span>
+    <span class="alert-date">2026-04-15</span>
+  </div>
+  <div class="alert-text">TeraWulf priced upsized $900M common stock offering (47.4M shares at $19.00) to fund Hawesville KY AI data center campus; stock fell ~6% on dilution.</div>
 </div>
 
-<div class="alert-item">
-<div class="alert-date">April 14, 2026</div>
-<div class="alert-text"><span class="ticker-badge">WULF</span>Preliminary Q1 2026: Revenue $30-35M, HPC &gt;50% of revenue, cash position $3.1B<span class="category-badge category-news">News</span></div>
+
+<div class="alert-item alert-analyst">
+  <div class="alert-meta">
+    <span class="ticker-badge">WULF</span>
+    <span class="category-badge category-analyst">Analyst</span>
+    <span class="alert-date">2026-04-15</span>
+  </div>
+  <div class="alert-text">Keefe Bruyette &amp; Woods reiterated Outperform with $23 PT, calling the raise a net positive that pre-funds Hawesville and removes financing uncertainty.</div>
 </div>
 
-<div class="alert-item">
-<div class="alert-date">April 14, 2026</div>
-<div class="alert-text"><span class="ticker-badge">WULF</span>Secured $250M revolving credit facility maturing April 2030<span class="category-badge category-contract">Contract</span></div>
+
+<div class="alert-item alert-contract">
+  <div class="alert-meta">
+    <span class="ticker-badge">SLNH</span>
+    <span class="category-badge category-contract">Contract</span>
+    <span class="alert-date">2026-04-16</span>
+  </div>
+  <div class="alert-text">Soluna acquired Spring Lane Capital&#x27;s remaining 85.4% of Project Dorothy 1A for $16.5M, taking ownership to 100% to accelerate AI campus buildout.</div>
 </div>
 
-<div class="alert-item">
-<div class="alert-date">April 9, 2026</div>
-<div class="alert-text"><span class="ticker-badge">WULF</span>Directors Bucella, Prager, Carter received stock grants at $14.43/share reference<span class="category-badge category-insider">Insider</span></div>
+
+<div class="alert-item alert-contract">
+  <div class="alert-meta">
+    <span class="ticker-badge">CIFR</span>
+    <span class="category-badge category-contract">Contract</span>
+    <span class="alert-date">2026-04-17</span>
+  </div>
+  <div class="alert-text">Cipher Digital signed 15-year lease for third hyperscale AI/HPC data center campus and secured $200M undrawn revolver ($50M accordion); stock +6.81%.</div>
 </div>
 
-<div class="alert-item">
-<div class="alert-date">April 8, 2026</div>
-<div class="alert-text"><span class="ticker-badge">SLNH</span>CEO Belizaire sold 1,000 preferred shares at $7.25 under 10b5-1 plan (retains 100,042)<span class="category-badge category-insider">Insider</span></div>
+
+<div class="alert-item alert-activist">
+  <div class="alert-meta">
+    <span class="ticker-badge">MIGI</span>
+    <span class="category-badge category-activist">Activist</span>
+    <span class="alert-date">2026-04-08</span>
+  </div>
+  <div class="alert-text">Endeavor Blockchain cooperation agreement delivered full board reconstitution; Endeavor group holds ~45.6% of shares.</div>
 </div>
 
-<div class="alert-item">
-<div class="alert-date">April 6, 2026</div>
-<div class="alert-text"><span class="ticker-badge">MIGI</span>Endeavor Blockchain cooperation agreement, complete board reconstitution, 27.5% stake<span class="category-badge category-activist">Activist</span></div>
+
+<div class="alert-item alert-insider">
+  <div class="alert-meta">
+    <span class="ticker-badge">CORZ</span>
+    <span class="category-badge category-insider">Insider</span>
+    <span class="alert-date">2026-04-17</span>
+  </div>
+  <div class="alert-text">Nations Financial Group IA ADV reported purchase of 204,660 CORZ shares in latest 13F-related filing.</div>
 </div>
 
-<div class="alert-item">
-<div class="alert-date">April 6, 2026</div>
-<div class="alert-text"><span class="ticker-badge">SLNH</span>Kati 1A (48 MW) achieved substantial completion ahead of schedule<span class="category-badge category-news">News</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">SEC Filings</h2>
+  <div class="table-container">
+    <table>
+      <thead><tr><th>Date</th><th>Ticker</th><th>Type</th><th>Summary</th><th>Link</th></tr></thead>
+      <tbody>
+        <tr><td>2026-04-15</td><td><span class='ticker-badge'>WULF</span></td><td>424B5/8-K</td><td>Priced upsized $900M common stock offering: 47.4M shares at $19.00, 30-day 7.11M share greenshoe; Morgan Stanley lead.</td><td><a href='https://investors.terawulf.com/' target='_blank' rel='noopener'>View</a></td></tr>
+<tr><td>2026-04-14</td><td><span class='ticker-badge'>WULF</span></td><td>Form 4</td><td>CEO Paul Prager exercised 981,162 performance RSUs; net settlement of 535,422 shares for taxes.</td><td><a href='https://www.stocktitan.net/sec-filings/WULF/' target='_blank' rel='noopener'>View</a></td></tr>
+<tr><td>2026-04-16</td><td><span class='ticker-badge'>SLNH</span></td><td>8-K</td><td>Reported acquisition of remaining 85.4% of Project Dorothy 1A from Spring Lane Capital for $16.5M cash.</td><td><a href='https://www.stocktitan.net/sec-filings/SLNH/' target='_blank' rel='noopener'>View</a></td></tr>
+<tr><td>2026-04-02</td><td><span class='ticker-badge'>SLNH</span></td><td>8-K</td><td>Closed $53M acquisition of 150 MW Briscoe Wind Farm plus Tranche C debt; vertical integration of Project Dorothy.</td><td><a href='https://www.stocktitan.net/sec-filings/SLNH/' target='_blank' rel='noopener'>View</a></td></tr>
+<tr><td>2026-04-07</td><td><span class='ticker-badge'>MIGI</span></td><td>Sch 13D/A</td><td>Amendment No. 7 from Endeavor Blockchain group reporting 1,508,000 share beneficial ownership (~45.6%).</td><td><a href='https://www.stocktitan.net/sec-filings/MIGI/' target='_blank' rel='noopener'>View</a></td></tr>
+<tr><td>2026-04-07</td><td><span class='ticker-badge'>MIGI</span></td><td>8-K</td><td>Reported cooperation agreement with Endeavor-led shareholder group; three directors resigned, five new seated, executive team replaced.</td><td><a href='https://www.stocktitan.net/sec-filings/MIGI/' target='_blank' rel='noopener'>View</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Institutional &amp; Insider Activity</h2>
+  <div class="table-container">
+    <table>
+      <thead><tr><th>Date</th><th>Ticker</th><th>Type</th><th>Person / Fund</th><th>Shares</th><th>Value</th></tr></thead>
+      <tbody>
+        <tr><td>2026-04-14</td><td><span class='ticker-badge'>WULF</span></td><td>Sell</td><td>Paul B. Prager (CEO)</td><td>535,422 (net-settle)</td><td>N/A</td></tr>
+<tr><td>2026-04-14</td><td><span class='ticker-badge'>WULF</span></td><td>Buy</td><td>Allin WULF LLC (Prager-mgd)</td><td>141,726 (warrant @ $0.01)</td><td>$1,417</td></tr>
+<tr><td>2026-04-14</td><td><span class='ticker-badge'>WULF</span></td><td>Sell</td><td>Kerri M. Langlais (CSO)</td><td>180,860 (net-settle)</td><td>N/A</td></tr>
+<tr><td>2026-01-28</td><td><span class='ticker-badge'>MIGI</span></td><td>Buy</td><td>Endeavor Blockchain LLC</td><td>40,000</td><td>~$182,800</td></tr>
+<tr><td>2026-01-28</td><td><span class='ticker-badge'>MIGI</span></td><td>Buy</td><td>PM Squared LLC</td><td>2,100</td><td>~$9,702</td></tr>
+<tr><td>2026-04-17</td><td><span class='ticker-badge'>CORZ</span></td><td>13F</td><td>Nations Financial Group IA ADV</td><td>204,660</td><td>N/A</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Peer Heatmap</h2>
+  <div class="heatmap-grid">
+    
+<div class="heatmap-cell core">
+  <div class="hm-ticker">WULF</div>
+  <div class="hm-price">$20.56</div>
+  <div class="hm-change">—</div>
+  
 </div>
 
-<div class="alert-item">
-<div class="alert-date">Recent</div>
-<div class="alert-text"><span class="ticker-badge">WULF</span>Cantor Fitzgerald raised PT from $24 to $30 (Overweight)<span class="category-badge category-analyst">Analyst</span></div>
+
+<div class="heatmap-cell core">
+  <div class="hm-ticker">SLNH</div>
+  <div class="hm-price">$1.13</div>
+  <div class="hm-change">—</div>
+  
 </div>
 
-<div class="alert-item">
-<div class="alert-date">Recent</div>
-<div class="alert-text"><span class="ticker-badge">CIFR</span>COO Patrick Arthur Kelly open-market sale<span class="category-badge category-insider">Insider</span></div>
+
+<div class="heatmap-cell core">
+  <div class="hm-ticker">MIGI</div>
+  <div class="hm-price">$6.16</div>
+  <div class="hm-change">—</div>
+  
 </div>
 
-</div>
-
-<!-- 3. SEC Filings -->
-<h2 class="section-title">SEC Filings</h2>
-<div class="table-container">
-<div class="table-responsive">
-<table>
-<thead>
-<tr><th>Date</th><th>Ticker</th><th>Type</th><th>Summary</th><th>Link</th></tr>
-</thead>
-<tbody>
-<tr><td>Apr 16</td><td><span class="ticker-badge">SLNH</span></td><td>8-K</td><td>Acquired 100% ownership of Project Dorothy 1A for $16.5M</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SLNH&type=8-K" target="_blank">SEC EDGAR</a></td></tr>
-<tr><td>Apr 15</td><td><span class="ticker-badge">WULF</span></td><td>424B5</td><td>Prospectus supplement for $900.6M equity offering</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WULF&type=424B5" target="_blank">SEC EDGAR</a></td></tr>
-<tr><td>Apr 14</td><td><span class="ticker-badge">WULF</span></td><td>8-K</td><td>Preliminary Q1 2026 results, stock offering, $250M credit facility</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WULF&type=8-K" target="_blank">SEC EDGAR</a></td></tr>
-<tr><td>Apr 9</td><td><span class="ticker-badge">WULF</span></td><td>Form 4 (x3)</td><td>Director compensation grants (Bucella, Prager, Carter)</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WULF&type=4" target="_blank">SEC EDGAR</a></td></tr>
-<tr><td>Apr 8</td><td><span class="ticker-badge">SLNH</span></td><td>Form 4</td><td>CEO Belizaire sold 1,000 Series A preferred shares</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SLNH&type=4" target="_blank">SEC EDGAR</a></td></tr>
-<tr><td>Apr 6</td><td><span class="ticker-badge">MIGI</span></td><td>8-K</td><td>Cooperation agreement with Endeavor Blockchain LLC</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MIGI&type=8-K" target="_blank">SEC EDGAR</a></td></tr>
-<tr><td>Apr 6</td><td><span class="ticker-badge">MIGI</span></td><td>SC 13D/A</td><td>Endeavor reports 27.5% beneficial ownership</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MIGI&type=SC+13D" target="_blank">SEC EDGAR</a></td></tr>
-</tbody>
-</table>
-</div>
-</div>
-
-<!-- 4. Institutional & Insider Activity -->
-<h2 class="section-title">Institutional &amp; Insider Activity</h2>
-<div class="table-container">
-<div class="table-responsive">
-<table>
-<thead>
-<tr><th>Date</th><th>Ticker</th><th>Type</th><th>Person / Fund</th><th>Shares</th><th>Value</th></tr>
-</thead>
-<tbody>
-<tr><td>Apr 15</td><td><span class="ticker-badge">WULF</span></td><td>Offering</td><td>Public Offering (Morgan Stanley lead)</td><td>~47.4M shares</td><td>$900.6M</td></tr>
-<tr><td>Apr 9</td><td><span class="ticker-badge">WULF</span></td><td>Compensation</td><td>Bucella (Director)</td><td>1,733 shares</td><td>~$25K</td></tr>
-<tr><td>Apr 9</td><td><span class="ticker-badge">WULF</span></td><td>Compensation</td><td>Prager (Director)</td><td>1,733 shares</td><td>~$25K</td></tr>
-<tr><td>Apr 9</td><td><span class="ticker-badge">WULF</span></td><td>Compensation</td><td>Carter (Director)</td><td>2,166 shares</td><td>~$31K</td></tr>
-<tr><td>Apr 8</td><td><span class="ticker-badge">SLNH</span></td><td>Sell (10b5-1)</td><td>CEO John Belizaire</td><td>1,000 pref shares</td><td>$7,250</td></tr>
-<tr><td>Apr 6</td><td><span class="ticker-badge">MIGI</span></td><td>Activist</td><td>Endeavor Blockchain LLC</td><td>1,508,000 shares</td><td>27.5% ownership</td></tr>
-<tr><td>Recent</td><td><span class="ticker-badge">CIFR</span></td><td>Sell</td><td>COO Patrick Kelly</td><td>N/A</td><td>N/A</td></tr>
-</tbody>
-</table>
-</div>
-</div>
-
-<!-- 5. Peer Heatmap -->
-<h2 class="section-title">Peer Heatmap</h2>
-<div class="heatmap-grid">
-
-<div class="heatmap-cell negative core">
-<div class="hm-ticker">WULF</div>
-<div class="hm-change red">-1.83%</div>
-<div class="hm-price">$19.31</div>
-<div class="hm-flag">$900M equity raise, 480 MW Hawesville</div>
-</div>
-
-<div class="heatmap-cell positive core">
-<div class="hm-ticker">SLNH</div>
-<div class="hm-change green">+7.62%</div>
-<div class="hm-price">$1.13</div>
-<div class="hm-flag">Dorothy 1A 100% owned, 4.3 GW pipeline</div>
-</div>
-
-<div class="heatmap-cell negative core">
-<div class="hm-ticker">MIGI</div>
-<div class="hm-change red">-1.75%</div>
-<div class="hm-price">$6.16</div>
-<div class="hm-flag">Endeavor takeover, AI/HPC pivot</div>
-</div>
-
-<div class="heatmap-cell negative">
-<div class="hm-ticker">IREN</div>
-<div class="hm-change red">-2.29%</div>
-<div class="hm-price">$47.70</div>
-</div>
 
 <div class="heatmap-cell positive">
-<div class="hm-ticker">CORZ</div>
-<div class="hm-change green">+1.89%</div>
-<div class="hm-price">$19.44</div>
-<div class="hm-flag">$10.2B CoreWeave deal</div>
+  <div class="hm-ticker">IREN</div>
+  <div class="hm-price">$48.12</div>
+  <div class="hm-change">+0.88%</div>
+  <span class="flag-pill">HPC</span>
 </div>
 
-<div class="heatmap-cell negative">
-<div class="hm-ticker">CIFR</div>
-<div class="hm-change red">-3.67%</div>
-<div class="hm-price">$17.34</div>
-<div class="hm-flag">207 MW Fluidstack deal</div>
+
+<div class="heatmap-cell">
+  <div class="hm-ticker">CORZ</div>
+  <div class="hm-price">$19.45</div>
+  <div class="hm-change">—</div>
+  <span class="flag-pill">HPC</span>
 </div>
 
-<div class="heatmap-cell negative">
-<div class="hm-ticker">HUT</div>
-<div class="hm-change red">-0.24%</div>
-<div class="hm-price">$70.92</div>
-<div class="hm-flag">$7B Anthropic/15yr deal</div>
-</div>
 
 <div class="heatmap-cell positive">
-<div class="hm-ticker">CLSK</div>
-<div class="hm-change green">+1.42%</div>
-<div class="hm-price">$11.42</div>
+  <div class="hm-ticker">CIFR</div>
+  <div class="hm-price">$19.22</div>
+  <div class="hm-change">+6.81%</div>
+  <span class="flag-pill">HPC</span>
 </div>
 
-<div class="heatmap-cell negative">
-<div class="hm-ticker">APLD</div>
-<div class="hm-change red">-2.34%</div>
-<div class="hm-price">$30.09</div>
-</div>
 
 <div class="heatmap-cell positive">
-<div class="hm-ticker">MARA</div>
-<div class="hm-change green">+10.32%</div>
-<div class="hm-price">$11.55</div>
+  <div class="hm-ticker">HUT</div>
+  <div class="hm-price">$74.90</div>
+  <div class="hm-change">+5.61%</div>
+  <span class="flag-pill">HPC</span>
 </div>
 
-<div class="heatmap-cell negative">
-<div class="hm-ticker">RIOT</div>
-<div class="hm-change red">-2.87%</div>
-<div class="hm-price">$16.92</div>
-<div class="hm-flag">1 GW AMD Corsicana deal</div>
+
+<div class="heatmap-cell">
+  <div class="hm-ticker">CLSK</div>
+  <div class="hm-price">$11.97</div>
+  <div class="hm-change">—</div>
+  <span class="flag-pill">BTC</span>
 </div>
 
-<div class="heatmap-cell negative">
-<div class="hm-ticker">BTDR</div>
-<div class="hm-change red">-1.51%</div>
-<div class="hm-price">$12.42</div>
+
+<div class="heatmap-cell positive">
+  <div class="hm-ticker">APLD</div>
+  <div class="hm-price">$31.53</div>
+  <div class="hm-change">+4.79%</div>
+  <span class="flag-pill">HPC</span>
 </div>
 
-<div class="heatmap-cell negative">
-<div class="hm-ticker">BITF</div>
-<div class="hm-change red">-3.52%</div>
-<div class="hm-price">$2.74</div>
-<div class="hm-flag">Rebranding to Keel Infrastructure</div>
+
+<div class="heatmap-cell">
+  <div class="hm-ticker">MARA</div>
+  <div class="hm-price">$11.60</div>
+  <div class="hm-change">—</div>
+  <span class="flag-pill">HPC</span>
 </div>
 
-<div class="heatmap-cell negative">
-<div class="hm-ticker">BTBT</div>
-<div class="hm-change red">-0.65%</div>
-<div class="hm-price">$1.52</div>
+
+<div class="heatmap-cell">
+  <div class="hm-ticker">RIOT</div>
+  <div class="hm-price">$18.11</div>
+  <div class="hm-change">—</div>
+  <span class="flag-pill">BTC</span>
 </div>
 
-<div class="heatmap-cell negative">
-<div class="hm-ticker">HIVE</div>
-<div class="hm-change red">-11.54%</div>
-<div class="hm-price">$2.185</div>
+
+<div class="heatmap-cell">
+  <div class="hm-ticker">BTDR</div>
+  <div class="hm-price">$12.70</div>
+  <div class="hm-change">—</div>
+  <span class="flag-pill">BTC</span>
 </div>
 
+
+<div class="heatmap-cell">
+  <div class="hm-ticker">BITF</div>
+  <div class="hm-price">$1.98</div>
+  <div class="hm-change">—</div>
+  <span class="flag-pill">HPC</span>
 </div>
 
-<!-- 6. HPC Deal Tracker -->
-<h2 class="section-title">HPC Deal Tracker</h2>
-<div class="table-container">
-<div class="table-responsive">
-<table>
-<thead>
-<tr><th>Date</th><th>Company</th><th>Counterparty</th><th>MW</th><th>Duration</th><th>Value</th></tr>
-</thead>
-<tbody>
-<tr><td>2026</td><td><span class="ticker-badge">HUT</span> Hut 8</td><td>Anthropic / Fluidstack</td><td>245-2,295 MW</td><td>15yr (+3x5yr)</td><td>$7.0B ($17.7B w/ renewals)</td></tr>
-<tr><td>2026</td><td><span class="ticker-badge">CORZ</span> Core Scientific</td><td>CoreWeave</td><td>400 MW</td><td>12yr</td><td>$10.2B</td></tr>
-<tr><td>2026</td><td><span class="ticker-badge">WULF</span> TeraWulf</td><td>Investment-grade</td><td>480 MW (Hawesville)</td><td>Multi-year</td><td>$12.8B contracted</td></tr>
-<tr><td>2026</td><td><span class="ticker-badge">RIOT</span> Riot Platforms</td><td>AMD</td><td>1 GW (Corsicana)</td><td>10yr</td><td>Est. $1.6-2.1B NOI</td></tr>
-<tr><td>2026</td><td><span class="ticker-badge">CIFR</span> Cipher Mining</td><td>Fluidstack</td><td>207 MW</td><td>Multi-year</td><td>N/A</td></tr>
-<tr><td>2026</td><td><span class="ticker-badge">SLNH</span> Soluna</td><td>Hyperscalers (negotiating)</td><td>Kati 2</td><td>TBD</td><td>TBD</td></tr>
-</tbody>
-</table>
-</div>
+
+<div class="heatmap-cell">
+  <div class="hm-ticker">BTBT</div>
+  <div class="hm-price">$1.52</div>
+  <div class="hm-change">—</div>
+  <span class="flag-pill">BTC</span>
 </div>
 
-<!-- 7. Community Pulse -->
-<h2 class="section-title">Community Pulse</h2>
-<div class="pulse-grid">
 
+<div class="heatmap-cell positive">
+  <div class="hm-ticker">HIVE</div>
+  <div class="hm-price">$2.45</div>
+  <div class="hm-change">+12.13%</div>
+  <span class="flag-pill">HPC</span>
+</div>
+
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">HPC Deal Tracker</h2>
+  <div class="table-container">
+    <table>
+      <thead><tr><th>Date</th><th>Company</th><th>Counterparty</th><th>MW</th><th>Duration</th><th>Value</th></tr></thead>
+      <tbody>
+        <tr><td>2026-04-17</td><td><strong>CIFR</strong></td><td>Undisclosed hyperscaler</td><td>N/A</td><td>15 years</td><td>+$200M revolver</td></tr>
+<tr><td>2026-04-16</td><td><strong>SLNH</strong></td><td>Spring Lane (buyout)</td><td>Dorothy 1A</td><td>Perpetual</td><td>$16.5M</td></tr>
+<tr><td>2026-04-02</td><td><strong>SLNH</strong></td><td>Briscoe Wind (buyout)</td><td>150 MW</td><td>Perpetual</td><td>$53M</td></tr>
+<tr><td>2026-04 ongoing</td><td><strong>WULF</strong></td><td>Contracted HPC tenants</td><td>Hawesville KY</td><td>Long-dated leases</td><td>$12.8B book</td></tr>
+<tr><td>Q1 2026</td><td><strong>HUT</strong></td><td>Anthropic / Fluidstack</td><td>River Bend</td><td>15 years</td><td>$7B</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Community Pulse</h2>
+  <div class="pulse-grid">
+    <div class="pulse-card">
+  <div class="pulse-ticker">WULF</div>
+  <div class="pulse-text">Mixed-to-bullish. StockTwits sentiment resilient despite ~6% drop on $900M dilution; bulls frame it as pre-funding Hawesville and removing overhang, bears cite share count creep. WSB chatter focused on $23 PT and HPC revenue crossover.</div>
+</div>
 <div class="pulse-card">
-<div class="pulse-ticker">WULF - TeraWulf</div>
-<div class="pulse-text">Retail sentiment on StockTwits in bearish territory with low chatter despite stock gains. The $900M dilution weighed heavily. Wall Street remains bullish with Strong Buy consensus and PT of $20.41, but retail investors are concerned about the dilutive impact of the offering on existing shareholders. Short interest at 28.79% of float signals persistent bearish bets.</div>
+  <div class="pulse-ticker">SLNH</div>
+  <div class="pulse-text">Euphoric. StockTwits saw sharp volume spike on 4/14 (+18-22% intraday, print to $1.23). Retail narrative centers on Dorothy vertical-integration thesis and sub-$1 base breakout; caveat: 1.35M warrant issuance noted as dilution risk.</div>
 </div>
-
 <div class="pulse-card">
-<div class="pulse-ticker">SLNH - Soluna Holdings</div>
-<div class="pulse-text">Quiet on social media platforms. The Dorothy 1A full ownership and Kati 1A completion were received positively by the small community of followers. The Nasdaq minimum bid notice is a concern. Analysts maintain a Strong Buy rating with a $5.00 price target representing 342% upside, but the stock's micro-cap status limits institutional coverage.</div>
+  <div class="pulse-ticker">MIGI</div>
+  <div class="pulse-text">Bullish turnaround. StockTwits and 13D-watcher accounts celebrated board overhaul; stock hit two-month high on activist campaign close. Debate centers on whether new team can execute AI/HPC pivot given limited cash.</div>
 </div>
+  </div>
+</section>
 
-<div class="pulse-card">
-<div class="pulse-ticker">MIGI - Mawson Infrastructure</div>
-<div class="pulse-text">StockTwits sentiment bullish with normal chatter. The Endeavor Blockchain board reconstitution created speculative interest, with some seeing the activist involvement as a potential catalyst for the AI/HPC pivot. The stock has been volatile with 3.3x average volume. The small float of 5.49M shares amplifies moves in both directions.</div>
-</div>
+<section class="section">
+  <h2 class="section-title">Sector Context</h2>
+  <div class="context-box">
+    <p>Bitcoin miners capped a strong week with the AI/HPC pivot thesis firmly in control: BTC traded near $77.4k (+5.83% WoW), but the real performance driver was contracted HPC revenue rather than hashprice. HIVE (+12.13%), CIFR (+6.81% on a new 15-year hyperscale lease and $200M revolver), HUT (+5.61%) and APLD (+4.79%) led Friday&#x27;s tape, while pure-play BTC miners (MARA, RIOT, CLSK, BTDR) drifted. The week&#x27;s structural story was TeraWulf&#x27;s $900M equity raise to fund Hawesville and Soluna&#x27;s completion of the Dorothy vertical stack, both signaling that capital markets remain open for miners with credible AI roadmaps even as dilution pressures linger.</p>
+  </div>
+</section>
 
-</div>
-
-<!-- 8. Sector Context -->
-<h2 class="section-title">Sector Context</h2>
-<div class="context-box">
-<p>The BTC miner-to-HPC transition accelerated dramatically in early 2026, with over $70 billion in cumulative AI/HPC contracts announced across publicly listed mining companies. TeraWulf's $900 million equity raise underscores the capital intensity of the pivot, as miners build out data center campuses requiring hundreds of millions in upfront investment before generating HPC revenue. Hashprice dropped to approximately $28-30 per PH/s/day, forcing listed miners to confront the reality that pure-play bitcoin mining is increasingly uneconomic at current difficulty levels. Companies with power assets, land and fiber connectivity, such as WULF, HUT and CORZ, are commanding premium valuations as they transform into digital infrastructure platforms. Smaller operators without HPC pipelines face existential pressure.</p>
-<p>The bifurcation is starkest in the numbers: Core Scientific already derives 39% of revenue from AI hosting, TeraWulf is at 27%, and both expect to exceed 70% by year-end. The sector collectively sold over 15,000 BTC from peak treasury levels to fund infrastructure buildouts. The April 2024 halving's impact continues to compress margins, with weighted average mining cash costs near $80,000 versus bitcoin spot around $75,000. The next halving around 2028 will cut the block subsidy further to 1.5625 BTC, making the HPC pivot not merely strategic but existential for public miners that intend to survive as standalone entities.</p>
-</div>
-
-</div>
-
-<!-- Footer -->
-<footer class="footer">
-The Daily Brief - Miner Analytics Dashboard is generated automatically. All data is sourced from public financial data providers and company filings. Not financial advice. Prices reflect previous session close.
-</footer>
-
+</main>
+<footer class="footer">The Daily Brief is generated automatically. All information is sourced from public news outlets and regulatory filings. Not financial advice.</footer>
 </body>
 </html>
