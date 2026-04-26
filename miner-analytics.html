@@ -3,457 +3,313 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>The Daily Brief - Miner Analytics - Sunday, April 26, 2026</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a1a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='%23e6edf3' text-anchor='middle'%3EDB%3C/text%3E%3C/svg%3E">
+<title>The Daily Brief - Miner Analytics</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a1a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='%23faf9f6' text-anchor='middle'%3EDB%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;0,700;1,400&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Inter',sans-serif;background:#0a0e14;color:#c9d1d9;line-height:1.6}
-a{color:#58a6ff}
-.masthead{text-align:center;padding:2.5rem 1.2rem 1.5rem;border-bottom:2px solid #21262d;background:#0a0e14}
-.masthead h1{font-family:'Playfair Display',serif;font-size:3.6rem;letter-spacing:0.12em;font-weight:900;color:#e6edf3}
-.masthead .date{font-size:0.95rem;color:#6e7681;margin-top:0.3rem}
-.masthead .tagline{font-family:'Newsreader',serif;font-style:italic;color:#6e7681;margin-top:0.2rem;font-size:1rem}
-.tab-bar{display:flex;justify-content:center;gap:0;border-bottom:2px solid #1c2129;background:#0f1419}
-.tab-bar a{display:inline-block;padding:0.7rem 2rem;font-family:'Inter',sans-serif;font-size:0.82rem;font-weight:600;color:#6e7681;text-decoration:none;border-bottom:3px solid transparent;margin-bottom:-3px;transition:all 0.2s;text-transform:uppercase;letter-spacing:0.08em}
-.tab-bar a:hover{color:#c9d1d9}
+body{font-family:'Inter',sans-serif;background:#0d1117;color:#c9d1d9;line-height:1.6}
+.masthead{text-align:center;padding:2.5rem 1.2rem 1.5rem;border-bottom:3px solid #21262d;margin-bottom:0}
+.masthead h1{font-family:'Playfair Display',serif;font-size:3.6rem;letter-spacing:0.12em;font-weight:900;color:#f0f6fc}
+.masthead .date{font-size:0.95rem;color:#8b949e;margin-top:0.3rem}
+.masthead .tagline{font-family:'Newsreader',serif;font-style:italic;color:#8b949e;margin-top:0.2rem;font-size:1rem}
+.tab-bar{display:flex;justify-content:center;gap:0;border-bottom:3px solid #21262d;background:#161b22}
+.tab-bar a{display:inline-block;padding:0.7rem 2rem;font-family:'Inter',sans-serif;font-size:0.82rem;font-weight:600;color:#8b949e;text-decoration:none;border-bottom:3px solid transparent;margin-bottom:-3px;transition:all 0.2s;text-transform:uppercase;letter-spacing:0.08em}
+.tab-bar a:hover{color:#c9d1d9;background:#21262d}
 .tab-bar a.active{color:#58a6ff;border-bottom-color:#58a6ff}
-.container{max-width:1400px;margin:0 auto;padding:2rem 1.2rem}
-.section{margin-bottom:3rem}
-.section-title{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:900;letter-spacing:-0.02em;color:#e6edf3;margin-bottom:1rem;display:flex;align-items:center;gap:0.8rem}
-.section-title::before{content:'';width:40px;height:4px;border-radius:2px;background:#58a6ff;display:inline-block}
-.note{font-size:0.8rem;color:#6e7681;margin-bottom:1rem}
-.dashboard-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:1.3rem}
-.position-card{position:relative;background:#161b22;border:1px solid #21262d;border-radius:16px;padding:1.8rem;overflow:hidden}
-.position-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--topbar)}
-.ticker-name{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:900;color:#e6edf3}
-.company-name{color:#6e7681;font-size:0.85rem;margin-bottom:0.8rem}
-.price-row{display:flex;align-items:baseline;gap:0.8rem;margin-bottom:1rem}
-.price{font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:#e6edf3}
-.change{font-size:1rem;font-weight:600}
-.metric-row{display:flex;justify-content:space-between;padding:0.4rem 0;border-bottom:1px solid #21262d;font-size:0.88rem}
+.layout{max-width:1400px;margin:0 auto;padding:1.4rem 1rem 4rem}
+.section{margin-bottom:2.5rem}
+.section-header{display:flex;align-items:center;gap:0.8rem;margin-bottom:1.2rem;padding-bottom:0.6rem;border-bottom:2px solid #21262d}
+.section-header h2{font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:900;color:#f0f6fc;letter-spacing:-0.02em}
+.section-header .accent{width:6px;height:30px;border-radius:3px;background:#58a6ff}
+.section-note{font-size:0.78rem;color:#8b949e;margin-left:auto}
+.dashboard-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:1rem}
+.position-card{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:1.2rem 1.3rem}
+.position-card h3{font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:900;color:#f0f6fc;margin-bottom:0.1rem}
+.position-card .company{font-size:0.78rem;color:#8b949e;margin-bottom:0.9rem}
+.metric-row{display:flex;justify-content:space-between;padding:0.35rem 0;border-bottom:1px dashed #21262d;font-size:0.85rem}
 .metric-row:last-of-type{border-bottom:none}
-.metric-label{color:#6e7681}
-.metric-val{color:#c9d1d9;font-weight:500;text-align:right}
-.catalyst-note{margin-top:1rem;padding:0.8rem 1rem;border-left:3px solid #d29922;background:#d2992210;color:#c9d1d9;font-size:0.85rem;border-radius:0 8px 8px 0}
+.metric-row .label{color:#8b949e}
+.metric-row .value{color:#c9d1d9;font-weight:600}
+.value-up{color:#3fb950}
+.value-down{color:#f85149}
+.catalyst{margin-top:0.7rem;padding-top:0.6rem;border-top:1px solid #21262d;font-size:0.8rem;color:#c9d1d9;line-height:1.5}
+.catalyst strong{color:#58a6ff;font-weight:600}
 .alert-feed{display:flex;flex-direction:column;gap:0.7rem}
-.alert-item{background:#161b22;border:1px solid #21262d;border-left:3px solid #58a6ff;border-radius:12px;padding:0.9rem 1.1rem}
-.alert-head{display:flex;align-items:center;gap:0.6rem;margin-bottom:0.3rem;flex-wrap:wrap}
-.alert-when{color:#6e7681;font-size:0.78rem;margin-left:auto}
-.alert-text{font-size:0.9rem;color:#c9d1d9}
-.ticker-badge{display:inline-block;padding:0.15rem 0.55rem;background:#58a6ff22;color:#58a6ff;border-radius:10px;font-size:0.75rem;font-weight:600;font-family:'Inter',monospace}
-.category-badge{display:inline-block;padding:0.15rem 0.55rem;border-radius:10px;font-size:0.72rem;font-weight:500;text-transform:uppercase;letter-spacing:0.06em}
-.category-insider{background:#3fb95018;color:#3fb950}
-.category-analyst{background:#58a6ff18;color:#58a6ff}
-.category-contract{background:#d2992218;color:#d29922}
-.category-news{background:#58a6ff18;color:#58a6ff}
-.category-activist{background:#f8514918;color:#f85149}
-.table-container{background:#161b22;border:1px solid #21262d;border-radius:16px;overflow:hidden}
-table{width:100%;border-collapse:collapse;font-size:0.88rem}
-th{text-align:left;padding:0.8rem 1rem;background:#0d1117;color:#6e7681;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;border-bottom:1px solid #21262d}
-td{padding:0.8rem 1rem;border-bottom:1px solid #21262d;color:#c9d1d9;vertical-align:top}
-tr:last-child td{border-bottom:none}
-.heatmap-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0.7rem}
+.alert-item{background:#161b22;border:1px solid #21262d;border-left:3px solid #58a6ff;border-radius:6px;padding:0.8rem 1rem;display:flex;flex-direction:column;gap:0.3rem}
+.alert-item .alert-meta{display:flex;align-items:center;gap:0.5rem;font-size:0.75rem;color:#8b949e;flex-wrap:wrap}
+.alert-item .alert-text{font-size:0.88rem;color:#c9d1d9;line-height:1.5}
+.ticker-badge{display:inline-block;padding:0.15rem 0.5rem;background:#1c2733;border:1px solid #30363d;color:#58a6ff;border-radius:6px;font-size:0.72rem;font-weight:600;font-family:'Inter',sans-serif}
+.category-badge{display:inline-block;padding:0.15rem 0.55rem;border-radius:14px;font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em}
+.category-insider{background:#3fb95044;color:#3fb950}
+.category-analyst{background:#58a6ff44;color:#58a6ff}
+.category-contract{background:#d2992244;color:#d29922}
+.category-news{background:#58a6ff44;color:#58a6ff}
+.category-activist{background:#f8514944;color:#f85149}
+.data-table{width:100%;border-collapse:collapse;background:#161b22;border:1px solid #21262d;border-radius:10px;overflow:hidden;font-size:0.84rem}
+.data-table th{text-align:left;padding:0.7rem 0.9rem;background:#1c2733;color:#8b949e;font-size:0.74rem;text-transform:uppercase;letter-spacing:0.06em;font-weight:600;border-bottom:1px solid #21262d}
+.data-table td{padding:0.7rem 0.9rem;border-bottom:1px solid #21262d;color:#c9d1d9;vertical-align:top}
+.data-table tr:last-child td{border-bottom:none}
+.data-table a{color:#58a6ff;text-decoration:none}
+.data-table a:hover{text-decoration:underline}
+.heatmap-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0.5rem}
 @media(max-width:900px){.heatmap-grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:520px){.heatmap-grid{grid-template-columns:repeat(2,1fr)}}
-.heatmap-cell{background:#161b22;border:1px solid #21262d;border-radius:12px;padding:0.9rem;min-height:110px}
-.heatmap-cell.positive{background:linear-gradient(180deg,#3fb95008 0%,#161b22 100%)}
-.heatmap-cell.negative{background:linear-gradient(180deg,#f8514908 0%,#161b22 100%)}
-.heatmap-cell.core{border-color:#58a6ff55}
-.heat-t{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:#e6edf3}
-.heat-c{font-size:0.95rem;color:#c9d1d9;font-weight:500;margin:0.25rem 0}
-.heat-n{font-size:0.78rem;color:#6e7681;line-height:1.35}
-.pulse-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem}
-.pulse-card{background:#161b22;border:1px solid #21262d;border-radius:12px;padding:1rem 1.2rem}
-.pulse-head{display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem}
-.pulse-sent{font-weight:600;font-size:0.85rem}
-.pulse-text{font-size:0.88rem;color:#c9d1d9}
-.context-box{position:relative;background:#161b22;border:1px solid #21262d;border-radius:16px;padding:1.8rem;overflow:hidden}
-.context-box::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#58a6ff,#d29922,#3fb950)}
-.context-box p{margin-bottom:0.8rem;font-size:0.95rem;color:#c9d1d9}
+.heatmap-cell{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:0.7rem 0.6rem;text-align:center;display:flex;flex-direction:column;gap:0.15rem}
+.heatmap-cell .ticker{font-weight:700;font-size:0.85rem;color:#f0f6fc}
+.heatmap-cell .change{font-size:0.78rem;font-weight:600}
+.heatmap-cell .flag{font-size:0.65rem;color:#8b949e;margin-top:0.15rem}
+.context-box{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:1.2rem 1.4rem;font-size:0.92rem;color:#c9d1d9;line-height:1.65}
+.context-box p{margin-bottom:0.7rem}
 .context-box p:last-child{margin-bottom:0}
-.footer{text-align:center;padding:2rem;color:#6e7681;font-size:0.75rem;border-top:1px solid #21262d}
-.disclaimer{font-size:0.78rem;color:#6e7681;padding:0.6rem 0.9rem;background:#f8514910;border:1px solid #f8514933;border-radius:8px;margin-bottom:1.5rem}
+.community-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:1rem}
+.community-card{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:1rem 1.1rem}
+.community-card h4{font-family:'Inter',sans-serif;font-size:0.95rem;font-weight:700;color:#f0f6fc;margin-bottom:0.3rem;display:flex;align-items:center;gap:0.4rem}
+.community-card p{font-size:0.83rem;color:#c9d1d9;line-height:1.55}
+.footer{text-align:center;padding:2rem;color:#6e7681;font-size:0.75rem;border-top:1px solid #21262d;margin-top:2rem}
+.disclaimer{background:#1c2733;border:1px solid #d2992233;border-radius:8px;padding:0.8rem 1rem;font-size:0.78rem;color:#d29922;margin-bottom:1.5rem}
 </style>
 </head>
 <body>
 <header class="masthead">
 <h1>THE DAILY BRIEF</h1>
-<div class="date">Miner Analytics - Sunday, April 26, 2026</div>
-<div class="tagline">Bitcoin miner-to-HPC position monitor</div>
+<div class="date">Monday, April 27, 2026</div>
+<div class="tagline">Miner Analytics &middot; BTC miner-to-HPC positions</div>
 </header>
 <nav class="tab-bar">
 <a href="index.html">News</a>
 <a href="miner-analytics.html" class="active">Miner Analytics</a>
 </nav>
-<div class="container">
-<div class="disclaimer">Data reflects Friday, April 24, 2026 close. Sunday update; US markets reopen Monday April 27. Not financial advice. No buy / sell recommendations. Missing figures are marked N/A.</div>
+
+<div class="layout">
+
+<div class="disclaimer">Data dated 24-26 April 2026 unless otherwise noted. Not investment advice. Always verify quotes against your broker before acting.</div>
 
 <section class="section">
-<h2 class="section-title">Core Positions Dashboard</h2>
+<div class="section-header"><div class="accent"></div><h2>Core Positions</h2><div class="section-note">WULF &middot; SLNH &middot; MIGI</div></div>
 <div class="dashboard-grid">
 
-<div class="position-card" style="--topbar:linear-gradient(90deg,#58a6ff,#3fb950)">
-<div class="ticker-name">WULF</div>
-<div class="company-name">TeraWulf Inc.</div>
-<div class="price-row"><span class="price">$20.96</span><span class="change" style="color:#3fb950">+2.8%</span></div>
-<div class="metric-row"><span class="metric-label">Market Cap</span><span class="metric-val">~$9.4B post-raise</span></div>
-<div class="metric-row"><span class="metric-label">52-Week Range</span><span class="metric-val">$2.42 - $24.88</span></div>
-<div class="metric-row"><span class="metric-label">Short Interest</span><span class="metric-val">13.4% (Apr 24 est)</span></div>
-<div class="metric-row"><span class="metric-label">Volume vs Avg</span><span class="metric-val">0.9x</span></div>
-<div class="metric-row"><span class="metric-label">Avg Analyst PT</span><span class="metric-val">$23.60</span></div>
-<div class="catalyst-note">Hawesville Kentucky AI campus Phase 1 250 MW tracking late Q2 / early Q3 energization with Fluidstack as anchor tenant. April 15 $900M follow-on dust fully settled; short interest edging lower. Q1 2026 print scheduled for pre-market May 6. Citi reiterated $26 PT this week citing deal mix shift toward AI hosting.</div>
+<div class="position-card">
+<h3>WULF</h3>
+<div class="company">TeraWulf Inc.</div>
+<div class="metric-row"><span class="label">Last (24 Apr)</span><span class="value">$20.60</span></div>
+<div class="metric-row"><span class="label">Market cap</span><span class="value">~$7.9B</span></div>
+<div class="metric-row"><span class="label">52-week range</span><span class="value">$2.67 - $21.60</span></div>
+<div class="metric-row"><span class="label">Short interest</span><span class="value">N/A this update</span></div>
+<div class="metric-row"><span class="label">Volume vs avg</span><span class="value">Elevated post-offering</span></div>
+<div class="catalyst"><strong>Catalyst:</strong> Closed $900M+ common stock offering at $19.00; Q1 2026 revenue guidance $30-35M. Company guides to $12.8B in cumulative AI/HPC contract value with ongoing Kentucky AI data-centre buildout. Analyst price targets in the $23-$32 range.</div>
 </div>
 
-<div class="position-card" style="--topbar:linear-gradient(90deg,#d29922,#f85149)">
-<div class="ticker-name">SLNH</div>
-<div class="company-name">Soluna Holdings Inc.</div>
-<div class="price-row"><span class="price">$2.84</span><span class="change" style="color:#3fb950">+2.2%</span></div>
-<div class="metric-row"><span class="metric-label">Market Cap</span><span class="metric-val">~$69M</span></div>
-<div class="metric-row"><span class="metric-label">52-Week Range</span><span class="metric-val">$1.41 - $7.02</span></div>
-<div class="metric-row"><span class="metric-label">Short Interest</span><span class="metric-val">9.3% (Apr 24 est)</span></div>
-<div class="metric-row"><span class="metric-label">Volume vs Avg</span><span class="metric-val">1.4x</span></div>
-<div class="metric-row"><span class="metric-label">Avg Analyst PT</span><span class="metric-val">$5.00 (single cov)</span></div>
-<div class="catalyst-note">Briscoe Wind Farm 150 MW acquisition ($53M headline) tracking toward end-Q2 close. Dorothy 1A $16.5M full buyout closed April 15, Blockware 3.3 MW expansion live April 21. 26.5M resale overhang from April 22 prospectus supplement easing as expected. Roth small-cap conference presentation April 29 next on-deck catalyst.</div>
+<div class="position-card">
+<h3>SLNH</h3>
+<div class="company">Soluna Holdings Inc.</div>
+<div class="metric-row"><span class="label">Last (mid-Apr)</span><span class="value">~$1.40</span></div>
+<div class="metric-row"><span class="label">Market cap</span><span class="value">N/A this update</span></div>
+<div class="metric-row"><span class="label">Recent range</span><span class="value">$0.61 - $1.54</span></div>
+<div class="metric-row"><span class="label">Short interest</span><span class="value">N/A this update</span></div>
+<div class="metric-row"><span class="label">Volume vs avg</span><span class="value value-up">Sharply higher Apr</span></div>
+<div class="catalyst"><strong>Catalyst:</strong> Closed $53M deal for the 150MW Briscoe Wind Farm in West Texas, guided to $6-11M Y1 adjusted EBITDA and $20-24.4M annualised revenue. Stock trended +18.8% in mid-April and added another +11.6% on April 20.</div>
 </div>
 
-<div class="position-card" style="--topbar:linear-gradient(90deg,#58a6ff,#d29922)">
-<div class="ticker-name">MIGI</div>
-<div class="company-name">Big Digital Energy (fmr Mawson)</div>
-<div class="price-row"><span class="price">$6.21</span><span class="change" style="color:#3fb950">+4.5%</span></div>
-<div class="metric-row"><span class="metric-label">Market Cap</span><span class="metric-val">~$116M</span></div>
-<div class="metric-row"><span class="metric-label">52-Week Range</span><span class="metric-val">$1.77 - $8.05</span></div>
-<div class="metric-row"><span class="metric-label">Short Interest</span><span class="metric-val">6.4% (Apr 24 est)</span></div>
-<div class="metric-row"><span class="metric-label">Volume vs Avg</span><span class="metric-val">2.1x</span></div>
-<div class="metric-row"><span class="metric-label">Avg Analyst PT</span><span class="metric-val">N/A</span></div>
-<div class="catalyst-note">Corporate rebrand to Big Digital Energy effective April 24; final day under MIGI ticker is April 29, BGDE goes live April 30. Nasdaq delist hearing date still pending following April 17 determination; shares trade on stay. Board continued insider accumulation this week with additional Kilgore and Stanley open-market purchases. Midland PA 40 MW HPC LOI moving toward definitive.</div>
+<div class="position-card">
+<h3>MIGI</h3>
+<div class="company">Mawson Infrastructure Group / Big Digital Energy</div>
+<div class="metric-row"><span class="label">Last (16 Apr)</span><span class="value">$6.16</span></div>
+<div class="metric-row"><span class="label">52-week range</span><span class="value">$0.28 - $15.80</span></div>
+<div class="metric-row"><span class="label">Short interest</span><span class="value">~124.6k sh, 4.1% float</span></div>
+<div class="metric-row"><span class="label">SI 12-mo trend</span><span class="value value-down">-48.5%</span></div>
+<div class="metric-row"><span class="label">Volume vs avg</span><span class="value value-up">Elevated post-rebrand</span></div>
+<div class="catalyst"><strong>Catalyst:</strong> Rebranded to Big Digital Energy effective April 24, with shares jumping ~20% on the AI/HPC pivot framing. Company now positions itself as an AI/HPC and BTC infrastructure platform.</div>
 </div>
 
 </div>
 </section>
 
 <section class="section">
-<h2 class="section-title">Alert Feed</h2>
+<div class="section-header"><div class="accent" style="background:#3fb950"></div><h2>Alert Feed</h2><div class="section-note">Last 96 hours</div></div>
 <div class="alert-feed">
 
 <div class="alert-item">
-<div class="alert-head"><span class="ticker-badge">WULF</span><span class="category-badge category-analyst">Analyst</span><span class="alert-when">Apr 24, 15:52</span></div>
-<div class="alert-text">Citigroup reiterates Buy and $26 PT on TeraWulf heading into May 6 print. Notes Hawesville timeline remains the key stock catalyst over next six weeks and flags Fluidstack Phase 2 option as potential upside lever at Q2 call.</div>
+<div class="alert-meta"><span class="ticker-badge">MIGI</span><span class="category-badge category-news">News</span><span>Apr 24, 2026</span></div>
+<div class="alert-text">Mawson Infrastructure rebranded to Big Digital Energy and pitched the change as confirmation of an AI/HPC pivot. Shares jumped roughly 20% on the day.</div>
 </div>
 
 <div class="alert-item">
-<div class="alert-head"><span class="ticker-badge">MIGI</span><span class="category-badge category-insider">Insider</span><span class="alert-when">Apr 24, 15:44</span></div>
-<div class="alert-text">Form 4: Big Digital Energy (formerly Mawson) director Liam Wilson discloses 12,000 share open-market purchase at avg $6.02, the fifth insider buy at the company in the past two weeks. Combined insider accumulation since board reconstitution exceeds $540k at current prices.</div>
+<div class="alert-meta"><span class="ticker-badge">WULF</span><span class="category-badge category-news">News</span><span>Apr 24, 2026</span></div>
+<div class="alert-text">TeraWulf shares trade at $20.60, near the upper end of its 52-week range, after a $900M+ stock offering and stronger-than-expected Q1 2026 revenue guidance of $30-35M.</div>
 </div>
 
 <div class="alert-item">
-<div class="alert-head"><span class="ticker-badge">CORZ</span><span class="category-badge category-contract">Contract</span><span class="alert-when">Apr 24, 14:30</span></div>
-<div class="alert-text">Core Scientific confirms Phase 3 Denton TX with CoreWeave is energized ahead of schedule. Bringing onboarded AI capacity to approximately 1.02 GW with target reaching 1.3 GW by year end. 12-year lease terms unchanged.</div>
+<div class="alert-meta"><span class="ticker-badge">SLNH</span><span class="category-badge category-contract">Contract</span><span>Apr 22, 2026</span></div>
+<div class="alert-text">Soluna confirmed the closing of the $53M deal for the 150MW Briscoe Wind Farm in West Texas, projecting $6-11M of first-year adjusted EBITDA and $20-24.4M of annualised revenue.</div>
 </div>
 
 <div class="alert-item">
-<div class="alert-head"><span class="ticker-badge">APLD</span><span class="category-badge category-contract">Contract</span><span class="alert-when">Apr 24, 13:15</span></div>
-<div class="alert-text">Applied Digital confirms Delta Forge 1 hyperscaler tenant disclosed yesterday is Meta Platforms, subject to customer board approval expected May 12. Lease documentation circulated overnight. Shares add 6.4% on clarity.</div>
+<div class="alert-meta"><span class="ticker-badge">SLNH</span><span class="category-badge category-news">News</span><span>Apr 20, 2026</span></div>
+<div class="alert-text">Soluna stock added another 11.64% as the AI-power pivot narrative continued to attract retail interest.</div>
 </div>
 
 <div class="alert-item">
-<div class="alert-head"><span class="ticker-badge">SLNH</span><span class="category-badge category-news">News</span><span class="alert-when">Apr 24, 12:45</span></div>
-<div class="alert-text">Soluna announces additional 4.5 MW container deployment at Project Dorothy 2 site. Deployment is incremental to previously disclosed Dorothy 2 Phase 1 capacity and is expected online by early Q3. Hosting revenue contribution estimated at $1.1M annualised.</div>
+<div class="alert-meta"><span class="ticker-badge">CIFR</span><span class="category-badge category-contract">Contract</span><span>Apr 22, 2026</span></div>
+<div class="alert-text">Cipher Digital (formerly Cipher Mining) confirmed total contracted HPC backlog of $9.3B, anchored by a 300MW AWS deal and a Google-backstopped Fluidstack agreement.</div>
 </div>
 
 <div class="alert-item">
-<div class="alert-head"><span class="ticker-badge">BITF</span><span class="category-badge category-news">News</span><span class="alert-when">Apr 24, 11:32</span></div>
-<div class="alert-text">Bitfarms (soon Keel Infrastructure) confirms appointment of Patrick Connolly as President of US Operations effective May 5 ticker change. Connolly joins from Vantage Data Centers. Signals deepening hyperscaler pitch bench.</div>
+<div class="alert-meta"><span class="ticker-badge">CORZ</span><span class="category-badge category-contract">Contract</span><span>Apr 21, 2026</span></div>
+<div class="alert-text">Core Scientific reaffirmed expanded CoreWeave contract worth $10.2B over 12 years, with ~350MW energised, ~200MW currently billing and the full 590MW targeted by early 2027.</div>
 </div>
 
 <div class="alert-item">
-<div class="alert-head"><span class="ticker-badge">RIOT</span><span class="category-badge category-activist">Activist</span><span class="alert-when">Apr 24, 10:50</span></div>
-<div class="alert-text">Starboard Value publicly responds to Riot's Wednesday 8-K, welcoming the commitment to a Corsicana HPC roadmap by end-Q3 2026 but pushing for interim milestones with Q2 earnings. Will support board if those interim disclosures materialize.</div>
+<div class="alert-meta"><span class="ticker-badge">HUT</span><span class="category-badge category-contract">Contract</span><span>Apr 18, 2026</span></div>
+<div class="alert-text">Hut 8 reiterated its $7B, 15-year lease with Fluidstack for 245MW at the River Bend campus in Louisiana, with the first data hall targeted for early 2027.</div>
 </div>
 
 <div class="alert-item">
-<div class="alert-head"><span class="ticker-badge">HUT</span><span class="category-badge category-analyst">Analyst</span><span class="alert-when">Apr 24, 09:45</span></div>
-<div class="alert-text">B. Riley raises Hut 8 PT to $42 from $34 after Thursday's $7B River Bend lease, calling the deal a structural re-rating event. Notes remaining 400 MW of optionable capacity at Alpha Texas and Vega sites.</div>
+<div class="alert-meta"><span class="ticker-badge">IREN</span><span class="category-badge category-news">News</span><span>Apr 17, 2026</span></div>
+<div class="alert-text">IREN confirmed AI Cloud Services revenue reached $17.3M in Q4, with 10,900+ NVIDIA GPUs deployed and HPC revenue projected to hit 71% of total by year-end.</div>
 </div>
 
 <div class="alert-item">
-<div class="alert-head"><span class="ticker-badge">IREN</span><span class="category-badge category-contract">Contract</span><span class="alert-when">Apr 24, 09:20</span></div>
-<div class="alert-text">IREN signs incremental 20 MW pre-lease expansion at Childress with returning AI customer, lifting Childress Phase 2 total pre-lease from 50 MW to 70 MW. Definitive lease signing targeted early Q2.</div>
+<div class="alert-meta"><span class="ticker-badge">RIOT</span><span class="category-badge category-analyst">Analyst</span><span>Apr 16, 2026</span></div>
+<div class="alert-text">JPMorgan upgraded Riot Platforms while trimming targets on IREN and CleanSpark in a broader bitcoin miner reset note. Riot reports earnings on April 30.</div>
 </div>
 
 <div class="alert-item">
-<div class="alert-head"><span class="ticker-badge">CIFR</span><span class="category-badge category-analyst">Analyst</span><span class="alert-when">Apr 24, 08:55</span></div>
-<div class="alert-text">HC Wainwright upgrades Cipher Mining to Buy from Neutral on Fluidstack LOI, setting PT at $9 from prior $6. Cites demonstrated AI customer execution as removing previous valuation drag.</div>
+<div class="alert-meta"><span class="ticker-badge">CIFR</span><span class="category-badge category-analyst">Analyst</span><span>Apr 16, 2026</span></div>
+<div class="alert-text">JPMorgan upgraded Cipher and CleanSpark and trimmed targets on Marathon and Riot in the same miner reset note, citing differentiated HPC progress.</div>
 </div>
 
 <div class="alert-item">
-<div class="alert-head"><span class="ticker-badge">BTDR</span><span class="category-badge category-news">News</span><span class="alert-when">Apr 24, 08:30</span></div>
-<div class="alert-text">Bitdeer raises March self-mining hash rate to 70 EH/s final (from 68 EH/s preliminary), and now targets 80 EH/s by end of Q2. SEALMINER A4 rollout to own fleet ahead of schedule.</div>
+<div class="alert-meta"><span class="ticker-badge">WULF</span><span class="category-badge category-news">News</span><span>Apr 14, 2026</span></div>
+<div class="alert-text">TeraWulf closed its follow-on offering of 54.51M shares at $19.00, raising approximately $900.6M to fund expansion of its Kentucky AI/HPC data centres.</div>
 </div>
 
 <div class="alert-item">
-<div class="alert-head"><span class="ticker-badge">MARA</span><span class="category-badge category-news">News</span><span class="alert-when">Apr 24, 07:58</span></div>
-<div class="alert-text">MARA Holdings publishes updated sustainability report: 61% of fleet now powered by renewables or stranded / flared gas. Positions the company ahead of pending EU CSRD-aligned disclosure regime for digital infrastructure providers.</div>
-</div>
-
-<div class="alert-item">
-<div class="alert-head"><span class="ticker-badge">HIVE</span><span class="category-badge category-insider">Insider</span><span class="alert-when">Apr 24, 07:15</span></div>
-<div class="alert-text">HIVE Digital Executive Chair Frank Holmes reports 35,000 share open-market purchase at avg $3.18 through Rule 10b5-1 plan. Second executive purchase at HIVE this month.</div>
+<div class="alert-meta"><span class="ticker-badge">CLSK</span><span class="category-badge category-news">News</span><span>Apr 11, 2026</span></div>
+<div class="alert-text">CleanSpark reported over 1.8GW of power under contract and confirmed advanced talks with hyperscale tenants, with the stock up 25.88% YTD.</div>
 </div>
 
 </div>
 </section>
 
 <section class="section">
-<h2 class="section-title">SEC Filings</h2>
-<div class="note">Notable filings across the miner-to-HPC universe over the past 24 hours.</div>
-<div class="table-container">
-<table>
-<thead><tr><th>Date</th><th>Ticker</th><th>Type</th><th>Summary</th><th>Link</th></tr></thead>
+<div class="section-header"><div class="accent" style="background:#d29922"></div><h2>SEC Filings</h2><div class="section-note">Recent filings</div></div>
+<table class="data-table">
+<thead><tr><th>Date</th><th>Ticker</th><th>Type</th><th>Summary</th><th>Source</th></tr></thead>
 <tbody>
-<tr><td>Apr 24</td><td><span class="ticker-badge">APLD</span></td><td>8-K/A</td><td>Amendment disclosing Meta Platforms as Delta Forge 1 counterparty, subject to May 12 customer board approval.</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001717214">EDGAR</a></td></tr>
-<tr><td>Apr 24</td><td><span class="ticker-badge">MIGI</span></td><td>Form 4</td><td>Director Liam Wilson 12,000 share open-market buy at $6.02.</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001711012">EDGAR</a></td></tr>
-<tr><td>Apr 24</td><td><span class="ticker-badge">HIVE</span></td><td>Form 4</td><td>Exec Chair Frank Holmes 35,000 share open-market buy at $3.18 under 10b5-1.</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001882148">EDGAR</a></td></tr>
-<tr><td>Apr 24</td><td><span class="ticker-badge">SLNH</span></td><td>8-K</td><td>Discloses incremental 4.5 MW Dorothy 2 Phase 1 container deployment.</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001356093">EDGAR</a></td></tr>
-<tr><td>Apr 24</td><td><span class="ticker-badge">CORZ</span></td><td>8-K</td><td>Phase 3 Denton TX CoreWeave energization; HPC onboarded capacity now ~1.02 GW.</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001839341">EDGAR</a></td></tr>
-<tr><td>Apr 24</td><td><span class="ticker-badge">IREN</span></td><td>6-K</td><td>Childress Phase 2 incremental 20 MW pre-lease with existing AI customer.</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001878848">EDGAR</a></td></tr>
-<tr><td>Apr 23</td><td><span class="ticker-badge">APLD</span></td><td>8-K</td><td>300 MW, 15-year Delta Forge 1 lease with US hyperscaler, ~$7.5B contracted revenue.</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001717214">EDGAR</a></td></tr>
-<tr><td>Apr 23</td><td><span class="ticker-badge">MIGI</span></td><td>8-K</td><td>Corporate name change to Big Digital Energy effective April 24, ticker to BGDE April 30.</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001711012">EDGAR</a></td></tr>
-<tr><td>Apr 23</td><td><span class="ticker-badge">SLNH</span></td><td>424(b)(3)</td><td>Resale prospectus for 26.5M shares from April 2024 / 2025 private placement holders.</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001356093">EDGAR</a></td></tr>
-<tr><td>Apr 23</td><td><span class="ticker-badge">HUT</span></td><td>6-K</td><td>River Bend Louisiana 15-year AI lease valued at ~$7B with investment-grade hyperscaler.</td><td><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001882472">EDGAR</a></td></tr>
+<tr><td>Apr 23, 2026</td><td><span class="ticker-badge">BMNR</span></td><td>Form 4</td><td>Director acquired 4,749 shares via RSU vesting from 2026 RSU award. No open-market activity.</td><td><a href="https://www.stocktitan.net/sec-filings/BMNR/form-4-bitmine-immersion-technologies-inc-insider-trading-activity-46325433f77c.html" target="_blank" rel="noopener">Stock Titan</a></td></tr>
+<tr><td>Apr 14, 2026</td><td><span class="ticker-badge">WULF</span></td><td>424B5 / 8-K</td><td>Closed follow-on common stock offering of 54.51M shares at $19.00 for ~$900.6M gross proceeds.</td><td><a href="https://investors.terawulf.com/news-events/press-releases/detail/137/terawulf-announces-closing-of-common-stock-offering" target="_blank" rel="noopener">TeraWulf IR</a></td></tr>
+<tr><td>Apr 10, 2026</td><td><span class="ticker-badge">WULF</span></td><td>S-3 / 8-K</td><td>Announced common stock offering and Q1 2026 revenue guidance of $30-35M.</td><td><a href="https://investors.terawulf.com/news-events/press-releases/detail/135/terawulf-announces-common-stock-offering" target="_blank" rel="noopener">TeraWulf IR</a></td></tr>
+<tr><td>Apr 24, 2026</td><td><span class="ticker-badge">MIGI</span></td><td>8-K</td><td>Announced corporate rebrand to Big Digital Energy effective April 24 with AI/HPC platform positioning.</td><td><a href="https://www.marketbeat.com/stocks/NASDAQ/MIGI/" target="_blank" rel="noopener">MarketBeat</a></td></tr>
+<tr><td>Apr 22, 2026</td><td><span class="ticker-badge">SLNH</span></td><td>8-K</td><td>Closed $53M Briscoe Wind Farm acquisition (150MW), guidance for $6-11M Y1 adjusted EBITDA.</td><td><a href="https://www.timothysykes.com/news/soluna-holdings-inc-slnh-news-2026_04_22-3/" target="_blank" rel="noopener">Sykes</a></td></tr>
 </tbody>
 </table>
-</div>
 </section>
 
 <section class="section">
-<h2 class="section-title">Institutional &amp; Insider Activity</h2>
-<div class="note">Latest Form 4 and 13F-HR disclosures across the tracked universe.</div>
-<div class="table-container">
-<table>
-<thead><tr><th>Date</th><th>Ticker</th><th>Type</th><th>Person / Fund</th><th>Shares</th><th>Value</th></tr></thead>
+<div class="section-header"><div class="accent" style="background:#3fb950"></div><h2>Institutional &amp; Insider Activity</h2><div class="section-note">Recent flow</div></div>
+<table class="data-table">
+<thead><tr><th>Date</th><th>Ticker</th><th>Type</th><th>Person/Fund</th><th>Shares</th><th>Value</th></tr></thead>
 <tbody>
-<tr><td>Apr 24</td><td><span class="ticker-badge">MIGI</span></td><td><span class="category-badge category-insider">Buy</span></td><td>L. Wilson (Director)</td><td>12,000</td><td>$72,240</td></tr>
-<tr><td>Apr 24</td><td><span class="ticker-badge">HIVE</span></td><td><span class="category-badge category-insider">Buy</span></td><td>F. Holmes (Exec Chair)</td><td>35,000</td><td>$111,300</td></tr>
-<tr><td>Apr 23</td><td><span class="ticker-badge">MARA</span></td><td><span class="category-badge category-insider">Buy</span></td><td>F. Thiel (CEO)</td><td>50,000</td><td>$706,000</td></tr>
-<tr><td>Apr 22</td><td><span class="ticker-badge">MIGI</span></td><td><span class="category-badge category-insider">Buy</span></td><td>P. Stanley (CEO)</td><td>15,000</td><td>$95,400</td></tr>
-<tr><td>Apr 22</td><td><span class="ticker-badge">HUT</span></td><td><span class="category-badge category-insider">Buy</span></td><td>B. Tai (Director)</td><td>10,000</td><td>$284,000</td></tr>
-<tr><td>Apr 22</td><td><span class="ticker-badge">APLD</span></td><td><span class="category-badge category-insider">Sell</span></td><td>W. Cummins (CEO)</td><td>60,000</td><td>$747,000</td></tr>
-<tr><td>Apr 21</td><td><span class="ticker-badge">MIGI</span></td><td><span class="category-badge category-insider">Buy</span></td><td>J. Kilgore (Exec Chair)</td><td>25,000</td><td>$152,500</td></tr>
-<tr><td>Apr 21</td><td><span class="ticker-badge">WULF</span></td><td><span class="category-badge category-insider">Sell intent</span></td><td>K. Langlais (Director)</td><td>40,000</td><td>~$846,000</td></tr>
-<tr><td>Apr 18</td><td><span class="ticker-badge">WULF</span></td><td><span class="category-badge category-insider">Sell</span></td><td>P. Prager (CEO)</td><td>100,000</td><td>$1,900,000</td></tr>
-<tr><td>Apr 17</td><td><span class="ticker-badge">CORZ</span></td><td><span class="category-badge category-insider">Buy</span></td><td>A. Jones (Director)</td><td>15,000</td><td>$278,400</td></tr>
-<tr><td>Apr 16</td><td><span class="ticker-badge">SLNH</span></td><td>13F</td><td>Renaissance Technologies</td><td>1,240,000</td><td>$3.52M (Q1 stake)</td></tr>
-<tr><td>Apr 14</td><td><span class="ticker-badge">RIOT</span></td><td>SC 13D/A</td><td>Starboard Value LP</td><td>31,200,000</td><td>9.8% stake</td></tr>
+<tr><td>Apr 23</td><td><span class="ticker-badge">BMNR</span></td><td>RSU vest</td><td>Director (name in Form 4)</td><td>4,749</td><td>$0 strike (vest)</td></tr>
+<tr><td>Apr 14</td><td><span class="ticker-badge">WULF</span></td><td>Offering</td><td>Public follow-on (54.51M sh)</td><td>54,510,000</td><td>~$900.6M</td></tr>
+<tr><td>Apr 22</td><td><span class="ticker-badge">SLNH</span></td><td>Acq financing</td><td>Briscoe Wind Farm vendor</td><td>N/A</td><td>$53M total deal</td></tr>
+<tr><td>Apr 24</td><td><span class="ticker-badge">MIGI</span></td><td>Corp action</td><td>Rebrand to Big Digital Energy</td><td>N/A</td><td>~+20% reaction</td></tr>
+<tr><td>Apr 16</td><td><span class="ticker-badge">CIFR</span>, <span class="ticker-badge">CLSK</span></td><td>13F-aligned flow</td><td>Institutions per JPM upgrade</td><td>N/A this update</td><td>N/A this update</td></tr>
+<tr><td>Apr 16</td><td><span class="ticker-badge">RIOT</span>, <span class="ticker-badge">MARA</span></td><td>Analyst rerating</td><td>JPMorgan target trims</td><td>N/A</td><td>N/A</td></tr>
 </tbody>
 </table>
-</div>
 </section>
 
 <section class="section">
-<h2 class="section-title">Peer Heatmap</h2>
-<div class="note">Daily price action across the 15-ticker miner-to-HPC universe for Friday Apr 24. Core positions have blue outlines. HPC flag indicates meaningful contracted AI hosting capacity or announced pivot.</div>
+<div class="section-header"><div class="accent" style="background:#58a6ff"></div><h2>Peer Heatmap</h2><div class="section-note">15 tickers &middot; recent change</div></div>
 <div class="heatmap-grid">
+<div class="heatmap-cell"><span class="ticker">WULF</span><span class="change value-up">+1.8%</span><span class="flag">HPC pivot</span></div>
+<div class="heatmap-cell"><span class="ticker">SLNH</span><span class="change value-up">+11.6%</span><span class="flag">AI wind deal</span></div>
+<div class="heatmap-cell"><span class="ticker">MIGI</span><span class="change value-up">+20.0%</span><span class="flag">Rebrand</span></div>
+<div class="heatmap-cell"><span class="ticker">IREN</span><span class="change value-up">+0.5%</span><span class="flag">MSFT cloud</span></div>
+<div class="heatmap-cell"><span class="ticker">CORZ</span><span class="change value-up">+0.3%</span><span class="flag">CoreWeave $10.2B</span></div>
 
-<div class="heatmap-cell core positive">
-<div class="heat-t">WULF</div>
-<div class="heat-c" style="color:#3fb950">+2.8%</div>
-<div class="heat-n">Citi reiterates $26 PT; Hawesville Phase 1 on track.</div>
-</div>
+<div class="heatmap-cell"><span class="ticker">CIFR</span><span class="change value-up">+1.5%</span><span class="flag">$9.3B HPC backlog</span></div>
+<div class="heatmap-cell"><span class="ticker">HUT</span><span class="change value-up">+0.4%</span><span class="flag">Fluidstack 245MW</span></div>
+<div class="heatmap-cell"><span class="ticker">CLSK</span><span class="change value-up">+1.2%</span><span class="flag">1.8GW pipeline</span></div>
+<div class="heatmap-cell"><span class="ticker">APLD</span><span class="change value-up">+0.6%</span><span class="flag">HPC focus</span></div>
+<div class="heatmap-cell"><span class="ticker">MARA</span><span class="change value-down">-0.4%</span><span class="flag">JPM trim</span></div>
 
-<div class="heatmap-cell core positive">
-<div class="heat-t">SLNH</div>
-<div class="heat-c" style="color:#3fb950">+2.2%</div>
-<div class="heat-n">+4.5 MW Dorothy 2 expansion; Briscoe close in Q2.</div>
-</div>
-
-<div class="heatmap-cell core positive">
-<div class="heat-t">MIGI</div>
-<div class="heat-c" style="color:#3fb950">+4.5%</div>
-<div class="heat-n">5th insider buy in two weeks; BGDE ticker Apr 30.</div>
-</div>
-
-<div class="heatmap-cell positive">
-<div class="heat-t">IREN</div>
-<div class="heat-c" style="color:#3fb950">+2.1%</div>
-<div class="heat-n">+20 MW Childress Phase 2 pre-lease with AI client.</div>
-</div>
-
-<div class="heatmap-cell positive">
-<div class="heat-t">CORZ</div>
-<div class="heat-c" style="color:#3fb950">+5.7%</div>
-<div class="heat-n">Denton Phase 3 energized early; 1.02 GW now onboard.</div>
-</div>
-
-<div class="heatmap-cell positive">
-<div class="heat-t">CIFR</div>
-<div class="heat-c" style="color:#3fb950">+8.4%</div>
-<div class="heat-n">HC Wainwright upgrades to Buy, PT $9 on Fluidstack LOI.</div>
-</div>
-
-<div class="heatmap-cell positive">
-<div class="heat-t">HUT</div>
-<div class="heat-c" style="color:#3fb950">+6.1%</div>
-<div class="heat-n">B. Riley PT to $42; Connolly hired as US President.</div>
-</div>
-
-<div class="heatmap-cell negative">
-<div class="heat-t">CLSK</div>
-<div class="heat-c" style="color:#f85149">-0.9%</div>
-<div class="heat-n">Still no HPC progression; volume light into weekend.</div>
-</div>
-
-<div class="heatmap-cell positive">
-<div class="heat-t">APLD</div>
-<div class="heat-c" style="color:#3fb950">+6.4%</div>
-<div class="heat-n">Meta named as Delta Forge 1 tenant; May 12 approval.</div>
-</div>
-
-<div class="heatmap-cell positive">
-<div class="heat-t">MARA</div>
-<div class="heat-c" style="color:#3fb950">+1.7%</div>
-<div class="heat-n">Renewables at 61% of fleet; EU CSRD positioning.</div>
-</div>
-
-<div class="heatmap-cell positive">
-<div class="heat-t">RIOT</div>
-<div class="heat-c" style="color:#3fb950">+0.6%</div>
-<div class="heat-n">Starboard accepts roadmap conditional on interim milestones.</div>
-</div>
-
-<div class="heatmap-cell positive">
-<div class="heat-t">BTDR</div>
-<div class="heat-c" style="color:#3fb950">+3.3%</div>
-<div class="heat-n">March 70 EH/s confirmed; 80 EH/s Q2 target raised.</div>
-</div>
-
-<div class="heatmap-cell positive">
-<div class="heat-t">BITF</div>
-<div class="heat-c" style="color:#3fb950">+2.9%</div>
-<div class="heat-n">Connolly joins as US Operations President ahead of KEEL.</div>
-</div>
-
-<div class="heatmap-cell negative">
-<div class="heat-t">BTBT</div>
-<div class="heat-c" style="color:#f85149">-0.3%</div>
-<div class="heat-n">Ohio site Phase 1 permitting updates expected May.</div>
-</div>
-
-<div class="heatmap-cell positive">
-<div class="heat-t">HIVE</div>
-<div class="heat-c" style="color:#3fb950">+2.5%</div>
-<div class="heat-n">Holmes 35k-share insider buy; Paraguay site advancing.</div>
-</div>
-
+<div class="heatmap-cell"><span class="ticker">RIOT</span><span class="change value-down">-0.2%</span><span class="flag">Earnings 4/30</span></div>
+<div class="heatmap-cell"><span class="ticker">BTDR</span><span class="change value-down">-0.3%</span><span class="flag">Behind on HPC</span></div>
+<div class="heatmap-cell"><span class="ticker">BITF</span><span class="change">~flat</span><span class="flag">Mining focus</span></div>
+<div class="heatmap-cell"><span class="ticker">BTBT</span><span class="change value-up">+0.7%</span><span class="flag">Mixed model</span></div>
+<div class="heatmap-cell"><span class="ticker">HIVE</span><span class="change">~flat</span><span class="flag">Mining focus</span></div>
 </div>
 </section>
 
 <section class="section">
-<h2 class="section-title">HPC Deal Tracker</h2>
-<div class="note">Fresh and in-flight miner-to-HPC hosting, colocation and power purchase deals.</div>
-<div class="table-container">
-<table>
+<div class="section-header"><div class="accent" style="background:#d29922"></div><h2>HPC Deal Tracker</h2><div class="section-note">Active and recent</div></div>
+<table class="data-table">
 <thead><tr><th>Date</th><th>Company</th><th>Counterparty</th><th>MW</th><th>Duration</th><th>Value</th></tr></thead>
 <tbody>
-<tr><td>Apr 24</td><td><span class="ticker-badge">APLD</span></td><td>Meta Platforms (pending May 12 board)</td><td>300 MW (Delta Forge 1, ND)</td><td>15 years</td><td>~$7.5B contracted revenue</td></tr>
-<tr><td>Apr 24</td><td><span class="ticker-badge">IREN</span></td><td>Existing AI customer (undisclosed)</td><td>+20 MW (Childress Phase 2)</td><td>Pre-lease, definitive Q2</td><td>N/A, lifts Childress Phase 2 to 70 MW</td></tr>
-<tr><td>Apr 24</td><td><span class="ticker-badge">CORZ</span></td><td>CoreWeave (energization)</td><td>Phase 3 Denton TX live</td><td>Existing 12-yr lease</td><td>Lifts HPC capacity to ~1.02 GW</td></tr>
-<tr><td>Apr 24</td><td><span class="ticker-badge">SLNH</span></td><td>Existing miner tenant</td><td>+4.5 MW Dorothy 2 Phase 1</td><td>Hosting contract</td><td>~$1.1M annualised revenue</td></tr>
-<tr><td>Apr 23</td><td><span class="ticker-badge">HUT</span></td><td>Investment-grade US hyperscaler</td><td>River Bend LA campus</td><td>15 years</td><td>~$7B contracted</td></tr>
-<tr><td>Apr 23</td><td><span class="ticker-badge">CIFR</span></td><td>Fluidstack (LOI)</td><td>50 MW (Stingray TX)</td><td>Target Q3 2026 energization</td><td>Terms undisclosed</td></tr>
-<tr><td>Apr 23</td><td><span class="ticker-badge">IREN</span></td><td>Microsoft (prior deal)</td><td>76,000 GPU Sweetwater 1</td><td>Multi-year</td><td>$9.7B contracted</td></tr>
-<tr><td>Apr 22</td><td><span class="ticker-badge">MARA</span></td><td>Undisclosed AI inference firm</td><td>25 MW (Garden City TX pilot)</td><td>12 months</td><td>N/A, first HPC contract</td></tr>
-<tr><td>Apr 22</td><td><span class="ticker-badge">BTDR</span></td><td>Self-develop (tenant slots open)</td><td>50 MW (Rockdale Phase 2)</td><td>Q4 2026 commissioning</td><td>Capex ~$175M est.</td></tr>
-<tr><td>Apr 21</td><td><span class="ticker-badge">CORZ</span></td><td>CoreWeave</td><td>+570 MW (Phase 3 Denton TX)</td><td>12 years</td><td>Undisclosed, lifts total &gt;1.3 GW</td></tr>
-<tr><td>Apr 21</td><td><span class="ticker-badge">SLNH</span></td><td>Blockware (expansion)</td><td>+3.3 MW (Dorothy 1A)</td><td>Ongoing</td><td>Incremental hosting revenue</td></tr>
-<tr><td>Apr 18</td><td><span class="ticker-badge">WULF</span></td><td>Fluidstack</td><td>250 MW (Hawesville Phase 1)</td><td>10 years</td><td>~$2.3B lifetime, Q3 2026 energization</td></tr>
+<tr><td>2026-Q1</td><td><span class="ticker-badge">CORZ</span></td><td>CoreWeave</td><td>590 (350 energised)</td><td>12 years</td><td>$10.2B</td></tr>
+<tr><td>2026-Q1</td><td><span class="ticker-badge">CIFR</span></td><td>AWS / Fluidstack (Google-backed)</td><td>300+</td><td>Multi-year</td><td>$9.3B backlog</td></tr>
+<tr><td>2026-Q1</td><td><span class="ticker-badge">HUT</span></td><td>Fluidstack</td><td>245 (River Bend)</td><td>15 years</td><td>$7B</td></tr>
+<tr><td>Cumulative</td><td><span class="ticker-badge">WULF</span></td><td>Multiple HPC tenants</td><td>Kentucky campus</td><td>Multi-year</td><td>$12.8B</td></tr>
+<tr><td>Apr 22</td><td><span class="ticker-badge">SLNH</span></td><td>Briscoe Wind Farm</td><td>150</td><td>N/A (asset purchase)</td><td>$53M</td></tr>
+<tr><td>Q4 2025</td><td><span class="ticker-badge">IREN</span></td><td>Microsoft (AI cloud)</td><td>Multi-site</td><td>Multi-year</td><td>Billions (terms NDA)</td></tr>
+<tr><td>Cumulative</td><td>Public miner sector</td><td>Hyperscalers + neoclouds</td><td>Multi-GW</td><td>Multi-year</td><td>>$70B announced</td></tr>
 </tbody>
 </table>
-</div>
 </section>
 
 <section class="section">
-<h2 class="section-title">Community Pulse</h2>
-<div class="note">Aggregated sentiment from StockTwits, Reddit (r/pennystocks, r/wallstreetbets, r/bitcoin) and core HPC forums into the Friday close, refreshed for the Sunday update.</div>
-<div class="pulse-grid">
+<div class="section-header"><div class="accent" style="background:#58a6ff"></div><h2>Community Pulse</h2><div class="section-note">StockTwits / Reddit / X</div></div>
+<div class="community-grid">
 
-<div class="pulse-card">
-<div class="pulse-head"><span class="ticker-badge">WULF</span><span class="pulse-sent" style="color:#3fb950">Bullish</span></div>
-<div class="pulse-text">Citi PT reiteration and improving short interest tape lift sentiment into the May 6 print. Threads pivot from dilution worry back to Hawesville milestones. Options flow skewing to June $22 and $24 calls.</div>
+<div class="community-card">
+<h4><span class="ticker-badge">WULF</span> TeraWulf</h4>
+<p>Sentiment broadly positive but with a clear split: bulls cheer the Kentucky AI build and $12.8B contract value while bears flag dilution risk after the $900M offering. r/wallstreetbets threads remain active around earnings.</p>
 </div>
 
-<div class="pulse-card">
-<div class="pulse-head"><span class="ticker-badge">SLNH</span><span class="pulse-sent" style="color:#3fb950">Cautiously bullish</span></div>
-<div class="pulse-text">4.5 MW Dorothy 2 expansion lands as incremental positive amid continued 424(b)(3) digestion. Longs note revenue ramp visibility strengthens into Q2. Roth presentation April 29 viewed as the next retail magnet.</div>
+<div class="community-card">
+<h4><span class="ticker-badge">SLNH</span> Soluna</h4>
+<p>Retail momentum after the Briscoe wind farm deal. StockTwits volume up sharply, with traders watching $1.50 as a near-term resistance. Some skepticism about realised EBITDA versus guidance.</p>
 </div>
 
-<div class="pulse-card">
-<div class="pulse-head"><span class="ticker-badge">MIGI / BGDE</span><span class="pulse-sent" style="color:#3fb950">Bullish</span></div>
-<div class="pulse-text">Fifth insider buy in two weeks stops bleeding from Nasdaq delist tail risk. Retail repositions ahead of April 30 ticker change. Sentiment strongest on StockTwits where rebrand is framed as "full AI pivot" narrative.</div>
+<div class="community-card">
+<h4><span class="ticker-badge">MIGI</span> MIGI / Big Digital Energy</h4>
+<p>Rebrand to Big Digital Energy fuelled excited Twitter/X chatter on the AI angle. Some longer-term holders are sceptical that the rebrand changes execution risk on actual HPC contracts.</p>
 </div>
 
-<div class="pulse-card">
-<div class="pulse-head"><span class="ticker-badge">APLD</span><span class="pulse-sent" style="color:#3fb950">Very Bullish</span></div>
-<div class="pulse-text">Meta as Delta Forge 1 counterparty is the clarity the bulls wanted. $23B+ lifetime backlog remains the number. May 12 customer board approval is the only remaining overhang. Volume holds 2x+ average two days running.</div>
+<div class="community-card">
+<h4><span class="ticker-badge">IREN</span> IREN Limited</h4>
+<p>Sentiment grounded by the Microsoft cloud relationship and 4.5GW pipeline. Reddit threads emphasise IREN&apos;s scale advantage versus smaller rivals.</p>
 </div>
 
-<div class="pulse-card">
-<div class="pulse-head"><span class="ticker-badge">HUT</span><span class="pulse-sent" style="color:#3fb950">Very Bullish</span></div>
-<div class="pulse-text">B. Riley PT raise to $42 and Connolly hire underline the structural re-rating case post River Bend. Director Tai Apr 22 buy now deeply in the money. Retail shifts toward accumulation into May 8 print.</div>
+<div class="community-card">
+<h4><span class="ticker-badge">CORZ</span> Core Scientific</h4>
+<p>Broadly positive, with the CoreWeave contract giving longs a clear narrative. Watchers focused on getting the remaining ~390MW energised on schedule for early 2027.</p>
 </div>
 
-<div class="pulse-card">
-<div class="pulse-head"><span class="ticker-badge">CORZ</span><span class="pulse-sent" style="color:#3fb950">Very Bullish</span></div>
-<div class="pulse-text">Phase 3 Denton early energization re-cements CORZ as the execution leader. Needham's $34 PT already looks conservative after today's move. AI mix at 45% FY26 consensus being nudged higher.</div>
-</div>
-
-<div class="pulse-card">
-<div class="pulse-head"><span class="ticker-badge">CIFR</span><span class="pulse-sent" style="color:#3fb950">Bullish</span></div>
-<div class="pulse-text">HC Wainwright upgrade gives the Fluidstack LOI a tangible near-term re-rating frame. Retail newly interested after extended quiet period. Bulls want to see a definitive contract by end of Q2.</div>
-</div>
-
-<div class="pulse-card">
-<div class="pulse-head"><span class="ticker-badge">IREN</span><span class="pulse-sent" style="color:#3fb950">Bullish</span></div>
-<div class="pulse-text">Incremental 20 MW Childress pre-lease keeps the "every week is a positive week" cadence. Sweetwater substation live plus additional Childress momentum keep IREN at top of execution rankings.</div>
-</div>
-
-<div class="pulse-card">
-<div class="pulse-head"><span class="ticker-badge">BITF / KEEL</span><span class="pulse-sent" style="color:#3fb950">Cautiously bullish</span></div>
-<div class="pulse-text">Connolly hire from Vantage answers the "who sells the contracts" question ahead of the May 5 ticker change. Bulls now focused on mid-year LOI delivery for Panther Creek 350 MW.</div>
-</div>
-
-<div class="pulse-card">
-<div class="pulse-head"><span class="ticker-badge">MARA</span><span class="pulse-sent" style="color:#3fb950">Bullish</span></div>
-<div class="pulse-text">Renewables mix update positions MARA for EU disclosure regime while Thiel insider buy remains in the rearview. Retail narrative firmly turnaround. Garden City pilot still the tangible HPC anchor.</div>
-</div>
-
-<div class="pulse-card">
-<div class="pulse-head"><span class="ticker-badge">HIVE</span><span class="pulse-sent" style="color:#3fb950">Cautiously bullish</span></div>
-<div class="pulse-text">Holmes 35k-share insider buy reinforces management conviction. Paraguay Yguazu 100 MW advancing. Still viewed as slower-moving HPC pivot story but sentiment has improved two consecutive sessions.</div>
-</div>
-
-<div class="pulse-card">
-<div class="pulse-head"><span class="ticker-badge">RIOT</span><span class="pulse-sent" style="color:#d29922">Mixed</span></div>
-<div class="pulse-text">Starboard response accepted, but interim milestone demand keeps pressure on management. Retail split between "roadmap by Q3" bulls and "no HPC signed yet" skeptics. Q1 print May 8 now make-or-break.</div>
+<div class="community-card">
+<h4><span class="ticker-badge">CIFR</span> Cipher Digital</h4>
+<p>Strong sentiment shift after JPMorgan upgrade and the $9.3B backlog confirmation. Community focused on execution risk on large multi-counterparty contracts.</p>
 </div>
 
 </div>
 </section>
 
 <section class="section">
-<h2 class="section-title">Sector Context</h2>
+<div class="section-header"><div class="accent" style="background:#3fb950"></div><h2>Sector Context</h2><div class="section-note">Themes for the day</div></div>
 <div class="context-box">
-<p>Friday's session confirmed the re-rating narrative that Thursday's $14B of fresh AI infrastructure backlog set in motion. APLD's amendment naming Meta Platforms as the Delta Forge 1 hyperscaler tenant removed the final ambiguity around yesterday's 300 MW lease and added another 6.4%. HUT followed through with a B. Riley PT hike to $42 plus the hire of Vantage Data Centers veteran Patrick Connolly as US Operations President. CORZ quietly delivered what may be the cleanest operational update of the week by energizing Phase 3 Denton ahead of schedule, lifting onboarded AI capacity past 1.0 GW with a clear path to 1.3 GW by year end. Execution, not announcement, is now the theme.</p>
-<p>Core position performance flipped from yesterday's pullback into broad green. WULF added 2.8% on a Citi PT reiteration at $26 and visibly easing short interest; the May 6 Q1 print becomes the next lever. SLNH rebounded 2.2% as the 4.5 MW Dorothy 2 expansion disclosure provided a fundamental counter-weight to this week's resale prospectus overhang. MIGI added 4.5% with another insider buy (director Wilson 12k shares at $6.02), the fifth insider purchase in two weeks ahead of next week's BGDE ticker transition on April 30. The Mawson-to-Big Digital Energy rebrand is functionally complete; the trading question shifts from whether the Nasdaq delist tail risk resolves to how quickly Midland PA 40 MW HPC LOI converts to a definitive contract.</p>
-<p>Bitcoin sat near $77,800 into the Friday close and held a tight $77.3K-$78.5K weekend range, meaning sector performance was driven almost entirely by idiosyncratic AI-hosting developments rather than digital asset beta. US spot Bitcoin ETFs logged an eighth straight day of inflows on Wednesday with $223M of net creations, dominated again by BlackRock's IBIT, while the Crypto Fear and Greed Index slid to 31 in the historical accumulation zone. The catalyst calendar compresses through next week: BGDE ticker change April 30, Soluna at Roth April 29, BITF to KEEL transition May 5, WULF Q1 May 6, HUT and RIOT Q1 May 8, and Meta board approval on Delta Forge 1 May 12. With no material weekend catalysts and a quiet Sunday tape, focus shifts to FOMC and ECB decisions on Wednesday and Thursday and to whether the execution-leader framework (APLD, HUT, CORZ, IREN, CIFR) continues to widen its premium over the names still negotiating. The pattern from this week is clear: contracts paid, promises discounted.</p>
+<p>The sector continues to bifurcate sharply between miners that have credibly pivoted to AI/HPC infrastructure (WULF, CORZ, CIFR, HUT, IREN, APLD) and pure-play miners that are still primarily exposed to BTC economics (MARA, RIOT, CLSK, BITF, HIVE). Total announced AI/HPC contracts across the listed miner universe now exceed $70 billion, with miners as a group beating Bitcoin by roughly 70 percent year-to-date in 2026 on the back of those deals.</p>
+<p>Today&apos;s incremental movers include MIGI&apos;s rebrand to Big Digital Energy and a continued bid in WULF after its $900M+ offering. Soluna&apos;s Briscoe wind farm acquisition continues to feed the small-cap retail narrative that wind-plus-AI is the next leg, while CIFR&apos;s confirmation of a $9.3B backlog is reinforcing the JPMorgan upgrade thesis. Macro risk centres on the FOMC meeting on April 28-29, which could pressure rate-sensitive growth names if the Fed disappoints on cuts.</p>
+<p>Watch through Q2: hyperscaler capex commentary, scale-out timelines for Hut 8 and Core Scientific&apos;s contracted MW, and any incremental Microsoft / Anthropic capacity deals that could fall to listed miners. Riot reports on April 30, providing the next single-name catalyst inside the peer group.</p>
 </div>
 </section>
 
 </div>
-<footer class="footer">
-The Daily Brief - Miner Analytics - Generated Sunday, April 26, 2026 - Self-published daily. Data not verified for trading use.
-</footer>
+
+<footer class="footer">The Daily Brief - Miner Analytics &middot; auto-generated from public news. Verify all data with primary sources before trading. Not financial advice.</footer>
 </body>
 </html>
