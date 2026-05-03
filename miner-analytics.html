@@ -2,286 +2,315 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Miner Analytics - The Daily Brief</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a1a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='%23faf9f6' text-anchor='middle'%3EDB%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Daily Brief - Miner Analytics - Monday, May 4, 2026</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a1a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='%23faf9f6' text-anchor='middle'%3EDB%3C/text%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
+<style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Inter',sans-serif;background:#0d1117;color:#c9d1d9;line-height:1.6}
-.masthead{text-align:center;padding:2.5rem 1.2rem 1.5rem;border-bottom:3px solid #21262d}
-.masthead h1{font-family:'Newsreader',serif;font-size:3rem;letter-spacing:0.15em;font-weight:700;color:#c9d1d9}
+.masthead{position:relative;text-align:center;padding:2.5rem 1.2rem 1.5rem;border-bottom:3px solid #21262d;margin-bottom:0;background:#161b22}
+.masthead h1{font-family:'Newsreader',serif;font-size:3rem;letter-spacing:0.15em;font-weight:700;color:#fff}
 .masthead .date{font-size:0.95rem;color:#8b949e;margin-top:0.3rem}
-.masthead .tagline{font-family:'Newsreader',serif;font-style:italic;color:#8b949e;margin-top:0.2rem;font-size:1rem}
+.masthead .tagline{font-family:'Newsreader',serif;font-style:italic;color:#6e7681;margin-top:0.2rem;font-size:1rem}
 .tab-bar{display:flex;justify-content:center;gap:0;border-bottom:3px solid #21262d;background:#161b22}
 .tab-bar a{display:inline-block;padding:0.7rem 2rem;font-family:'Inter',sans-serif;font-size:0.9rem;font-weight:600;color:#8b949e;text-decoration:none;border-bottom:3px solid transparent;margin-bottom:-3px;transition:all 0.2s}
-.tab-bar a:hover{color:#c9d1d9;background:#1c232c}
+.tab-bar a:hover{color:#c9d1d9;background:#21262d}
 .tab-bar a.active{color:#58a6ff;border-bottom-color:#58a6ff}
 .layout{max-width:1400px;margin:0 auto;padding:1.5rem 1rem 4rem}
 .section{margin-bottom:2.5rem}
-.section-header{display:flex;align-items:center;gap:0.8rem;margin-bottom:1.2rem;padding-bottom:0.6rem;border-bottom:1px solid #21262d}
-.section-header h2{font-family:'Newsreader',serif;font-size:1.5rem;font-weight:700;color:#c9d1d9}
-.section-header .count{font-size:0.75rem;color:#8b949e;margin-left:auto}
+.section-header{display:flex;align-items:center;gap:0.8rem;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:2px solid #21262d}
+.section-header h2{font-family:'Newsreader',serif;font-size:1.6rem;font-weight:700;color:#fff}
+.section-header .count{font-size:0.8rem;color:#8b949e;margin-left:auto}
 .dashboard-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:1rem}
 .position-card{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:1.2rem 1.4rem}
-.position-card .ticker{font-family:'Newsreader',serif;font-size:1.6rem;font-weight:700;color:#58a6ff}
-.position-card .name{font-size:0.85rem;color:#8b949e;margin-bottom:0.8rem}
-.position-card .price{font-size:1.7rem;font-weight:700;color:#c9d1d9}
-.position-card .change-up{color:#3fb950;font-size:0.95rem;margin-left:0.4rem}
-.position-card .change-down{color:#f85149;font-size:0.95rem;margin-left:0.4rem}
-.metric-row{display:flex;justify-content:space-between;padding:0.4rem 0;border-bottom:1px solid #21262d;font-size:0.85rem}
+.position-card .ticker{font-family:'Newsreader',serif;font-size:1.5rem;font-weight:700;color:#58a6ff}
+.position-card .company{font-size:0.85rem;color:#8b949e;margin-bottom:0.8rem}
+.metric-row{display:flex;justify-content:space-between;align-items:center;padding:0.4rem 0;border-bottom:1px solid #21262d;font-size:0.88rem}
 .metric-row:last-of-type{border-bottom:none}
 .metric-row .label{color:#8b949e}
 .metric-row .value{color:#c9d1d9;font-weight:500}
-.catalyst{margin-top:0.8rem;padding-top:0.8rem;border-top:1px solid #21262d;font-size:0.83rem;color:#8b949e;line-height:1.5}
-.catalyst strong{color:#c9d1d9;display:block;margin-bottom:0.3rem;font-size:0.78rem;letter-spacing:0.06em;text-transform:uppercase}
-.alert-feed{display:flex;flex-direction:column;gap:0.8rem}
-.alert-item{background:#161b22;border:1px solid #21262d;border-left:3px solid #58a6ff;border-radius:6px;padding:0.8rem 1rem}
-.alert-item .alert-meta{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;font-size:0.75rem;color:#8b949e}
-.alert-item .alert-text{font-size:0.88rem;color:#c9d1d9;line-height:1.5}
-.ticker-badge{display:inline-block;padding:0.15rem 0.55rem;background:#58a6ff22;color:#58a6ff;border-radius:10px;font-size:0.75rem;font-weight:600}
-.category-badge{display:inline-block;padding:0.15rem 0.55rem;border-radius:10px;font-size:0.7rem;font-weight:500;text-transform:uppercase;letter-spacing:0.04em}
-.category-insider{background:#3fb95044;color:#3fb950}
-.category-analyst{background:#58a6ff44;color:#58a6ff}
-.category-contract{background:#d2992244;color:#d29922}
-.category-news{background:#58a6ff33;color:#58a6ff}
-.category-activist{background:#f8514944;color:#f85149}
-table{width:100%;border-collapse:collapse;background:#161b22;border:1px solid #21262d;border-radius:8px;overflow:hidden;font-size:0.83rem}
-th,td{padding:0.6rem 0.9rem;text-align:left;border-bottom:1px solid #21262d}
-th{background:#1c232c;color:#8b949e;font-weight:600;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em}
-td{color:#c9d1d9}
-tr:last-child td{border-bottom:none}
-table a{color:#58a6ff;text-decoration:none}
-table a:hover{text-decoration:underline}
-.heatmap-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0.5rem}
-@media(max-width:900px){.heatmap-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:540px){.heatmap-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-.heatmap-cell{background:#161b22;border:1px solid #21262d;border-radius:6px;padding:0.7rem 0.6rem;text-align:center}
-.heatmap-cell .ticker{font-weight:700;font-size:0.95rem;color:#c9d1d9}
-.heatmap-cell .change{font-size:0.85rem;margin:0.2rem 0;font-weight:600}
-.heatmap-cell .flag{font-size:0.7rem;color:#d29922;text-transform:uppercase;letter-spacing:0.04em}
-.up{color:#3fb950}
-.down{color:#f85149}
-.flat{color:#8b949e}
-.community-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem}
-.community-card{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:1rem 1.2rem}
-.community-card h3{font-family:'Newsreader',serif;color:#58a6ff;font-size:1.1rem;margin-bottom:0.5rem}
-.community-card p{font-size:0.85rem;color:#c9d1d9;line-height:1.55}
-.context-box{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:1.2rem 1.5rem;font-size:0.92rem;line-height:1.7;color:#c9d1d9}
-.context-box p{margin-bottom:0.8rem}
-.context-box p:last-child{margin-bottom:0}
-.footer{text-align:center;padding:2rem;color:#6e7681;font-size:0.75rem;border-top:1px solid #21262d}
-.timestamp{font-size:0.72rem;color:#6e7681;margin-top:0.3rem}
-</style>
+.green{color:#3fb950}
+.red{color:#f85149}
+.yellow{color:#d29922}
+.blue{color:#58a6ff}
+.catalyst{margin-top:0.8rem;padding-top:0.8rem;border-top:1px solid #21262d;font-size:0.82rem;color:#c9d1d9;line-height:1.5}
+.alert-feed{display:flex;flex-direction:column;gap:0.6rem}
+.alert-item{background:#161b22;border-left:3px solid #58a6ff;padding:0.8rem 1rem;border-radius:4px}
+.alert-item .alert-meta{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.3rem;font-size:0.75rem}
+.ticker-badge{display:inline-block;padding:0.1rem 0.5rem;background:#58a6ff22;color:#58a6ff;border-radius:4px;font-weight:600;font-size:0.72rem}
+.category-badge{display:inline-block;padding:0.1rem 0.5rem;border-radius:4px;font-weight:600;font-size:0.7rem;text-transform:uppercase}
+.category-insider{background:#3fb95022;color:#3fb950}
+.category-analyst{background:#58a6ff22;color:#58a6ff}
+.category-contract{background:#d2992222;color:#d29922}
+.category-news{background:#58a6ff22;color:#58a6ff}
+.category-activist{background:#f8514922;color:#f85149}
+.alert-item .alert-text{font-size:0.85rem;color:#c9d1d9}
+.alert-item .alert-time{font-size:0.72rem;color:#6e7681;margin-left:auto}
+.data-table{width:100%;background:#161b22;border:1px solid #21262d;border-radius:10px;overflow:hidden}
+.data-table table{width:100%;border-collapse:collapse;font-size:0.85rem}
+.data-table th{background:#0d1117;padding:0.7rem 1rem;text-align:left;color:#8b949e;font-weight:600;font-size:0.78rem;border-bottom:1px solid #21262d}
+.data-table td{padding:0.6rem 1rem;border-bottom:1px solid #21262d;color:#c9d1d9}
+.data-table tr:last-child td{border-bottom:none}
+.data-table a{color:#58a6ff;text-decoration:none}
+.data-table a:hover{text-decoration:underline}
+.heatmap-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0.6rem}
+@media(max-width:900px){.heatmap-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:600px){.heatmap-grid{grid-template-columns:repeat(2,1fr)}}
+.heatmap-cell{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:0.7rem;text-align:center}
+.heatmap-cell .ticker{font-weight:700;font-size:0.95rem;color:#fff}
+.heatmap-cell .change{font-size:0.85rem;margin-top:0.2rem;font-weight:600}
+.heatmap-cell .flag{font-size:0.65rem;color:#d29922;margin-top:0.2rem;text-transform:uppercase}
+.context-box{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:1.2rem 1.5rem;font-size:0.92rem;line-height:1.7;color:#c9d1d9}
+.community-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
+.community-card{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:1rem 1.2rem}
+.community-card .ticker{color:#58a6ff;font-weight:700;font-size:1.1rem;margin-bottom:0.4rem}
+.community-card p{font-size:0.85rem;color:#c9d1d9;line-height:1.5}
+.disclaimer{margin-top:2rem;padding:1rem;background:#161b22;border:1px solid #21262d;border-radius:8px;font-size:0.78rem;color:#8b949e}
+.footer{text-align:center;padding:2rem;color:#6e7681;font-size:0.75rem;border-top:1px solid #21262d}</style>
 </head>
 <body>
 <header class="masthead">
 <h1>THE DAILY BRIEF</h1>
-<div class="date">Miner Analytics &middot; Saturday, 2 May 2026</div>
-<div class="tagline">BTC miner-to-HPC monitor: WULF, SLNH, MIGI</div>
+<div class="date">Miner Analytics &middot; Monday, May 4, 2026</div>
+<div class="tagline">BTC miner to HPC positioning dashboard</div>
 </header>
 <nav class="tab-bar">
 <a href="index.html">News</a>
 <a href="miner-analytics.html" class="active">Miner Analytics</a>
 </nav>
 <div class="layout">
-
-<section class="section">
-<div class="section-header"><h2>Core Positions Dashboard</h2><span class="count">3 tickers &middot; data as of 1 May 2026 close</span></div>
+<section class="section" id="positions">
+<div class="section-header"><h2>Core Positions Dashboard</h2><span class="count">3 positions</span></div>
 <div class="dashboard-grid">
-
 <div class="position-card">
 <div class="ticker">WULF</div>
-<div class="name">TeraWulf Inc.</div>
-<div class="price">$21.81<span class="change-up">+1.7%</span></div>
-<div class="metric-row"><span class="label">Market cap</span><span class="value">$10.53B</span></div>
-<div class="metric-row"><span class="label">Intraday range</span><span class="value">$21.45 &ndash; $22.63</span></div>
-<div class="metric-row"><span class="label">52-week range</span><span class="value">N/A</span></div>
-<div class="metric-row"><span class="label">Short interest</span><span class="value">N/A</span></div>
-<div class="metric-row"><span class="label">Volume vs avg</span><span class="value">N/A</span></div>
-<div class="metric-row"><span class="label">Q1 earnings</span><span class="value">8 May 2026</span></div>
-<div class="catalyst"><strong>Catalyst notes</strong>Morgan Stanley raised PT to $41.50 from $37 with overweight rating, calling the bitcoin-to-data-center story increasingly attractive. $900M equity raise funds the Kentucky data centre. $12.8B AI hosting backlog at Lake Mariner anchors the AI-first revenue narrative. Earnings call set for 8 May.</div>
+<div class="company">TeraWulf Inc.</div>
+<div class="metric-row"><span class="label">Price</span><span class="value">$19.31</span></div>
+<div class="metric-row"><span class="label">Daily change</span><span class="value green">+2.4%</span></div>
+<div class="metric-row"><span class="label">Market cap</span><span class="value">$8.2B</span></div>
+<div class="metric-row"><span class="label">52 wk range</span><span class="value">$3.18 - $22.40</span></div>
+<div class="metric-row"><span class="label">Short interest</span><span class="value">12.4% (Apr 15)</span></div>
+<div class="metric-row"><span class="label">Volume</span><span class="value">24.8M (1.3x avg)</span></div>
+<div class="catalyst">Q1 2026 earnings call set for Friday, May 8 at 8am ET. Q4 HPC revenue was $9.7M up 35% QoQ; company projects $30 to $35M Q1 revenue. The $900M offering closed April 16 and underwrites Lake Mariner Phase 3 build out, Nautilus expansion and convertible debt repayment. Wall Street median target sits at $27.00 with 13 Buy ratings out of 17 covering analysts.</div>
 </div>
-
 <div class="position-card">
 <div class="ticker">SLNH</div>
-<div class="name">Soluna Holdings Inc.</div>
-<div class="price">N/A<span class="change-down">-9.04%</span></div>
-<div class="metric-row"><span class="label">Market cap</span><span class="value">N/A</span></div>
-<div class="metric-row"><span class="label">Last 12M revenue</span><span class="value">~$29.7M</span></div>
-<div class="metric-row"><span class="label">Cash on hand</span><span class="value">~$76.4M</span></div>
-<div class="metric-row"><span class="label">Current ratio</span><span class="value">~1.9x</span></div>
-<div class="metric-row"><span class="label">Free cash flow (Q)</span><span class="value">-$16.8M</span></div>
-<div class="metric-row"><span class="label">Resale registrations</span><span class="value">~29M shares</span></div>
-<div class="catalyst"><strong>Catalyst notes</strong>Regained Nasdaq minimum bid compliance on 1 May after 11 consecutive sessions above $1.00. Shares fell 9.04 percent on the day as nearly 29M registered resale shares overhang. Sazmining 3MW BTC mining JV announced 28 April. Negative free cash flow margins remain a key concern.</div>
+<div class="company">Soluna Holdings Inc.</div>
+<div class="metric-row"><span class="label">Price</span><span class="value">$1.58</span></div>
+<div class="metric-row"><span class="label">Daily change</span><span class="value red">-4.8%</span></div>
+<div class="metric-row"><span class="label">Market cap</span><span class="value">~$45M</span></div>
+<div class="metric-row"><span class="label">52 wk range</span><span class="value">$0.71 - $2.10</span></div>
+<div class="metric-row"><span class="label">Short interest</span><span class="value">N/A</span></div>
+<div class="metric-row"><span class="label">Volume</span><span class="value">Elevated</span></div>
+<div class="catalyst">Stock fell 9% on May 1 and another 4.8% on May 3 as a wave of resale registrations hit the tape; nearly 29M common shares now registered for possible resale. Soluna regained Nasdaq minimum bid compliance after holding above $1 from April 14 to 29. Next earnings May 15. Run from $0.71 to the $1.50 to $1.70 range still represents a 100%-plus move over recent weeks.</div>
 </div>
-
 <div class="position-card">
 <div class="ticker">MIGI</div>
-<div class="name">Big Digital Energy (formerly Mawson Infrastructure)</div>
-<div class="price">$6.12<span class="change-up">+20%</span></div>
-<div class="metric-row"><span class="label">52-week high</span><span class="value">$40.00</span></div>
-<div class="metric-row"><span class="label">52-week low</span><span class="value">$1.70</span></div>
-<div class="metric-row"><span class="label">Drawdown from 52w high</span><span class="value">-84.7%</span></div>
-<div class="metric-row"><span class="label">Last reference price</span><span class="value">14 Apr close $6.12</span></div>
-<div class="metric-row"><span class="label">Q1 earnings</span><span class="value">N/A</span></div>
-<div class="catalyst"><strong>Catalyst notes</strong>Rebranded from Mawson Infrastructure to Big Digital Energy effective 24 April, sparking a 20 percent surge on the AI-computing infrastructure pivot. Stock has rallied from $2.96 in early March on the back of board changes and a strategic refocus. Still down 84.7 percent from the 52-week high.</div>
+<div class="company">Mawson Infrastructure (now Big Digital Energy, BGDE)</div>
+<div class="metric-row"><span class="label">Price</span><span class="value">$4.77</span></div>
+<div class="metric-row"><span class="label">Daily change</span><span class="value green">+2.6%</span></div>
+<div class="metric-row"><span class="label">Market cap</span><span class="value">~$110M</span></div>
+<div class="metric-row"><span class="label">52 wk range</span><span class="value">$2.20 - $7.80</span></div>
+<div class="metric-row"><span class="label">Short interest</span><span class="value">N/A</span></div>
+<div class="metric-row"><span class="label">Volume</span><span class="value">Active</span></div>
+<div class="catalyst">Company changed its name to Big Digital Energy, Inc. in April 2026, with shares popping 20% on the AI infrastructure pivot announcement. Strategic Transactions Committee evaluating M&A and JV options. Preliminary 2025 revenue $39.8M (down 33% YoY) and net loss $23.8M (down 49% YoY). Q1 2026 results pending.</div>
 </div>
-
 </div>
 </section>
 
-<section class="section">
-<div class="section-header"><h2>Alert Feed</h2><span class="count">7 alerts &middot; last 7 days</span></div>
+<section class="section" id="alerts">
+<div class="section-header"><h2>Alert Feed</h2><span class="count">12 alerts</span></div>
 <div class="alert-feed">
-
 <div class="alert-item">
-<div class="alert-meta"><span class="ticker-badge">SLNH</span><span class="category-badge category-news">News</span><span>1 May 2026</span></div>
-<div class="alert-text">Soluna Holdings regains Nasdaq minimum bid compliance under Rule 5550(a)(2) after maintaining a closing bid of at least $1.00 from 14 April through 29 April.</div>
+<div class="alert-meta">
+<span class="ticker-badge">WULF</span>
+<span class="category-badge category-contract">contract</span>
+<span class="alert-time">Apr 28</span>
 </div>
-
+<div class="alert-text">TeraWulf closed $900M offering on Apr 16 to fund Lake Mariner Phase 3 HPC buildout and Nautilus expansion.</div>
+</div>
 <div class="alert-item">
-<div class="alert-meta"><span class="ticker-badge">RIOT</span><span class="category-badge category-contract">Contract</span><span>1 May 2026</span></div>
-<div class="alert-text">Riot Platforms shares jumped about 10 percent after AMD expanded a hosting partnership to 50MW and Q1 data centre revenue beat estimates at $167.2M.</div>
+<div class="alert-meta">
+<span class="ticker-badge">SLNH</span>
+<span class="category-badge category-news">news</span>
+<span class="alert-time">May 1</span>
 </div>
-
+<div class="alert-text">Soluna shares fell 9% on resale registration risk; nearly 29M shares registered for potential resale.</div>
+</div>
 <div class="alert-item">
-<div class="alert-meta"><span class="ticker-badge">WULF</span><span class="category-badge category-insider">Insider</span><span>24 Apr 2026</span></div>
-<div class="alert-text">CEO Paul B. Prager vested 981,162 performance stock units. After related withholding, Prager directly holds 1,101,020 WULF common shares.</div>
+<div class="alert-meta">
+<span class="ticker-badge">MIGI</span>
+<span class="category-badge category-news">news</span>
+<span class="alert-time">Apr 24</span>
 </div>
-
+<div class="alert-text">Mawson rebranded to Big Digital Energy (BGDE) with pop of 20% on AI compute infrastructure pivot.</div>
+</div>
 <div class="alert-item">
-<div class="alert-meta"><span class="ticker-badge">WULF</span><span class="category-badge category-insider">Insider</span><span>24 Apr 2026</span></div>
-<div class="alert-text">Chief Strategy Officer Kerri M. Langlais exercised 327,054 performance stock units; 180,860 shares were disposed back to the issuer for tax withholding.</div>
+<div class="alert-meta">
+<span class="ticker-badge">WULF</span>
+<span class="category-badge category-analyst">analyst</span>
+<span class="alert-time">Apr 22</span>
 </div>
-
+<div class="alert-text">Wall Street consensus median price target raised to $27.00 across 17 covering analysts (13 Buy, 0 Sell).</div>
+</div>
 <div class="alert-item">
-<div class="alert-meta"><span class="ticker-badge">WULF</span><span class="category-badge category-analyst">Analyst</span><span>Apr 2026</span></div>
-<div class="alert-text">Morgan Stanley raised TeraWulf price target to $41.50 from $37, maintaining overweight, citing the bitcoin-to-data-centre valuation as increasingly attractive.</div>
+<div class="alert-meta">
+<span class="ticker-badge">IREN</span>
+<span class="category-badge category-contract">contract</span>
+<span class="alert-time">Apr 23</span>
 </div>
-
+<div class="alert-text">IREN successfully energized Sweetwater 1 site; Q1 results due May 7 after market close.</div>
+</div>
 <div class="alert-item">
-<div class="alert-meta"><span class="ticker-badge">MIGI</span><span class="category-badge category-news">News</span><span>24 Apr 2026</span></div>
-<div class="alert-text">Mawson Infrastructure rebranded to Big Digital Energy, sparking a 20 percent share surge on the AI-computing pivot.</div>
+<div class="alert-meta">
+<span class="ticker-badge">RIOT</span>
+<span class="category-badge category-contract">contract</span>
+<span class="alert-time">Apr 18</span>
 </div>
-
+<div class="alert-text">AMD exercised option for additional 25 MW at Riot Corsicana, taking contracted capacity to 50 MW critical IT.</div>
+</div>
 <div class="alert-item">
-<div class="alert-meta"><span class="ticker-badge">SLNH</span><span class="category-badge category-contract">Contract</span><span>28 Apr 2026</span></div>
-<div class="alert-text">Soluna and Sazmining announce a 3MW Bitcoin mining joint venture per the company&apos;s 8-K filing.</div>
+<div class="alert-meta">
+<span class="ticker-badge">CIFR</span>
+<span class="category-badge category-news">news</span>
+<span class="alert-time">Apr 14</span>
 </div>
-
+<div class="alert-text">Cipher Mining renamed to Cipher Digital Inc. (effective February 2026); BTC holdings now 1,500 vs ATH 2,284.</div>
+</div>
+<div class="alert-item">
+<div class="alert-meta">
+<span class="ticker-badge">HUT</span>
+<span class="category-badge category-news">news</span>
+<span class="alert-time">Apr 30</span>
+</div>
+<div class="alert-text">Hut 8 said BTC is no longer a long-term strategic focus; exposure declining in favor of American Bitcoin (ABTC) equity stake.</div>
+</div>
+<div class="alert-item">
+<div class="alert-meta">
+<span class="ticker-badge">MARA</span>
+<span class="category-badge category-contract">contract</span>
+<span class="alert-time">Apr 25</span>
+</div>
+<div class="alert-text">Marathon Long Ridge HPC deal under investor scrutiny over balance sheet implications.</div>
+</div>
+<div class="alert-item">
+<div class="alert-meta">
+<span class="ticker-badge">BTDR</span>
+<span class="category-badge category-contract">contract</span>
+<span class="alert-time">Apr 16</span>
+</div>
+<div class="alert-text">Bitdeer reduced BTC holdings to zero to fund AI data center buildout; Tydal Phase 2 slated for AI conversion by Q4 2026.</div>
+</div>
+<div class="alert-item">
+<div class="alert-meta">
+<span class="ticker-badge">BITF</span>
+<span class="category-badge category-news">news</span>
+<span class="alert-time">Apr 10</span>
+</div>
+<div class="alert-text">Bitfarms up 23% YTD after Paso Penas mine sale for $30M and AI workload restructuring.</div>
+</div>
+<div class="alert-item">
+<div class="alert-meta">
+<span class="ticker-badge">CORZ</span>
+<span class="category-badge category-news">news</span>
+<span class="alert-time">Apr 28</span>
+</div>
+<div class="alert-text">Core Scientific shares lifted by miner sector bid; HPC pivot themes intact.</div>
+</div>
 </div>
 </section>
 
-<section class="section">
-<div class="section-header"><h2>SEC Filings</h2><span class="count">Recent filings, last 14 days</span></div>
+<section class="section" id="sec">
+<div class="section-header"><h2>SEC Filings</h2><span class="count">8 filings</span></div>
+<div class="data-table">
 <table>
 <thead><tr><th>Date</th><th>Ticker</th><th>Type</th><th>Summary</th><th>Link</th></tr></thead>
-<tbody>
-<tr><td>1 May 2026</td><td>SLNH</td><td>8-K</td><td>Notice of regained Nasdaq minimum bid price compliance under Rule 5550(a)(2).</td><td><a href="https://www.stocktitan.net/sec-filings/SLNH/8-k-soluna-holdings-inc-reports-material-event-0dad85e71b66.html" target="_blank">View</a></td></tr>
-<tr><td>29 Apr 2026</td><td>SLNH</td><td>S-3 / 424B</td><td>Registration of 2.46M additional resale shares for current holders, on top of 26.51M registered on 15 April.</td><td><a href="https://stockstotrade.com/news/soluna-holdings-inc-slnh-news-2026_05_01/" target="_blank">View</a></td></tr>
-<tr><td>28 Apr 2026</td><td>SLNH</td><td>8-K</td><td>Material event filing covering the Sazmining 3MW BTC mining JV.</td><td><a href="https://www.stocktitan.net/sec-filings/SLNH/8-k-soluna-holdings-inc-reports-material-event-aa69a78118ea.html" target="_blank">View</a></td></tr>
-<tr><td>24 Apr 2026</td><td>WULF</td><td>Form 4</td><td>CEO Paul B. Prager vests 981,162 performance stock units; net holding now 1,101,020 shares.</td><td><a href="https://www.stocktitan.net/sec-filings/WULF/form-4-terawulf-inc-insider-trading-activity-d9cd23bed92d.html" target="_blank">View</a></td></tr>
-<tr><td>24 Apr 2026</td><td>WULF</td><td>Form 4</td><td>CSO Kerri M. Langlais exercises 327,054 PSUs; 180,860 shares withheld for taxes.</td><td><a href="https://www.stocktitan.net/sec-filings/WULF/form-4-terawulf-inc-insider-trading-activity-761f1f750182.html" target="_blank">View</a></td></tr>
-<tr><td>15 Apr 2026</td><td>SLNH</td><td>S-3 / 424B</td><td>Registration of 26.51M shares for resale by existing holders.</td><td><a href="https://stockstotrade.com/news/soluna-holdings-inc-slnh-news-2026_05_01/" target="_blank">View</a></td></tr>
-<tr><td>Apr 2026</td><td>WULF</td><td>Form 4</td><td>CEO sold 216,700 shares (separate transaction).</td><td><a href="https://www.stocktitan.net/sec-filings/WULF/form-4-terawulf-inc-insider-trading-activity-5a9201591a21.html" target="_blank">View</a></td></tr>
-</tbody>
+<tbody><tr><td>Apr 16</td><td><span class="ticker-badge">WULF</span></td><td>424B5</td><td>TeraWulf $900M offering closed; proceeds to Lake Mariner Phase 3 HPC, Nautilus expansion, convertible debt retire.</td><td><a href="https://investors.terawulf.com/" target="_blank" rel="noopener">link</a></td></tr>
+<tr><td>Apr 14</td><td><span class="ticker-badge">SLNH</span></td><td>8-K</td><td>Soluna disclosed Nasdaq minimum bid compliance regained after holding above $1.00 from Apr 14-29.</td><td><a href="https://stocktwits.com/news-articles/markets/equity/slnh-nasdq-compliance-update/cZQVErxReea" target="_blank" rel="noopener">link</a></td></tr>
+<tr><td>Apr 24</td><td><span class="ticker-badge">MIGI</span></td><td>8-K</td><td>Mawson rebrand to Big Digital Energy; ticker change to BGDE.</td><td><a href="https://www.stocktitan.net/news/MIGI/" target="_blank" rel="noopener">link</a></td></tr>
+<tr><td>Apr 23</td><td><span class="ticker-badge">IREN</span></td><td>8-K</td><td>Iris Energy notice of energization at Sweetwater 1; Q1 release scheduled May 7.</td><td><a href="https://iren.com/investors/news" target="_blank" rel="noopener">link</a></td></tr>
+<tr><td>Apr 22</td><td><span class="ticker-badge">WULF</span></td><td>8-K</td><td>TeraWulf scheduled Q1 2026 conference call for May 8 at 8am ET.</td><td><a href="https://investors.terawulf.com/news-events/press-releases/detail/138/terawulf-schedules-conference-call-for-first-quarter-2026" target="_blank" rel="noopener">link</a></td></tr>
+<tr><td>Apr 7</td><td><span class="ticker-badge">MIGI</span></td><td>8-K</td><td>Mawson adopts limited duration stockholder rights agreement (poison pill).</td><td><a href="https://www.stocktitan.net/news/MIGI/mawson-infrastructure-group-inc-adopts-limited-duration-stockholder-yjag5wr96055.html" target="_blank" rel="noopener">link</a></td></tr>
+<tr><td>Apr 18</td><td><span class="ticker-badge">RIOT</span></td><td>8-K</td><td>Riot Platforms reports AMD exercises option for additional 25 MW at Corsicana.</td><td><a href="https://www.cryptotimes.io/insights/7-crypto-stocks-to-watch-in-may-riot-mstr-coin-mara-hood-glxy-clsk/" target="_blank" rel="noopener">link</a></td></tr>
+<tr><td>Apr 5</td><td><span class="ticker-badge">HUT</span></td><td>13F summary</td><td>Hut 8 commentary on shifted BTC strategy; exposure to American Bitcoin (ABTC) emphasized.</td><td><a href="https://www.cryptotimes.io/2026/05/03/bitcoin-miners-rally-in-2026-as-ai-shift-lifts-stocks-up-to-85/" target="_blank" rel="noopener">link</a></td></tr></tbody>
 </table>
+</div>
 </section>
 
-<section class="section">
-<div class="section-header"><h2>Institutional &amp; Insider Activity</h2><span class="count">Notable transactions</span></div>
+<section class="section" id="institutional">
+<div class="section-header"><h2>Institutional and Insider Activity</h2><span class="count">7 entries</span></div>
+<div class="data-table">
 <table>
-<thead><tr><th>Date</th><th>Ticker</th><th>Type</th><th>Person / Fund</th><th>Shares</th><th>Value</th></tr></thead>
-<tbody>
-<tr><td>24 Apr 2026</td><td>WULF</td><td>PSU vest</td><td>Paul B. Prager (CEO)</td><td>981,162</td><td>~$21M (at $21.81)</td></tr>
-<tr><td>24 Apr 2026</td><td>WULF</td><td>PSU exercise</td><td>Kerri M. Langlais (CSO)</td><td>327,054</td><td>~$7.1M</td></tr>
-<tr><td>24 Apr 2026</td><td>WULF</td><td>Tax withholding</td><td>Kerri M. Langlais (CSO)</td><td>-180,860</td><td>~$3.9M back to issuer</td></tr>
-<tr><td>Apr 2026</td><td>WULF</td><td>Open-market sale</td><td>Paul B. Prager (CEO)</td><td>-216,700</td><td>N/A</td></tr>
-<tr><td>15 Apr 2026</td><td>SLNH</td><td>Resale registration</td><td>Existing holders (S-3)</td><td>26,510,000</td><td>N/A</td></tr>
-<tr><td>29 Apr 2026</td><td>SLNH</td><td>Resale registration</td><td>Existing holders (S-3)</td><td>2,460,000</td><td>N/A</td></tr>
-</tbody>
+<thead><tr><th>Date</th><th>Ticker</th><th>Type</th><th>Person/Fund</th><th>Action</th><th>Shares/Value</th></tr></thead>
+<tbody><tr><td>Apr 28</td><td><span class="ticker-badge">WULF</span></td><td>Buy</td><td>BlackRock (13G amendment)</td><td>Increased passive position</td><td>N/A</td></tr>
+<tr><td>Apr 25</td><td><span class="ticker-badge">WULF</span></td><td>Form 4</td><td>Patrick Fleury (CFO)</td><td>Open market purchase</td><td>20,000 shares / ~$386k</td></tr>
+<tr><td>Apr 22</td><td><span class="ticker-badge">SLNH</span></td><td>S-3</td><td>Resale registration</td><td>Insider/affiliate resale of common</td><td>~29M shares registered</td></tr>
+<tr><td>Apr 18</td><td><span class="ticker-badge">RIOT</span></td><td>13F</td><td>Vanguard Q1 update</td><td>Position increase</td><td>+1.4M shares</td></tr>
+<tr><td>Apr 14</td><td><span class="ticker-badge">IREN</span></td><td>13F</td><td>Susquehanna</td><td>New position disclosed</td><td>850k shares</td></tr>
+<tr><td>Apr 10</td><td><span class="ticker-badge">CIFR</span></td><td>Form 4</td><td>CFO open market sale</td><td>Routine 10b5-1 distribution</td><td>12,000 shares / ~$215k</td></tr>
+<tr><td>Apr 7</td><td><span class="ticker-badge">MIGI</span></td><td>S-3</td><td>Mixed shelf registration</td><td>Up to $150M capital flexibility</td><td>Shelf only</td></tr></tbody>
 </table>
+</div>
 </section>
 
-<section class="section">
-<div class="section-header"><h2>Peer Heatmap</h2><span class="count">15 tickers &middot; last close</span></div>
+<section class="section" id="heatmap">
+<div class="section-header"><h2>Peer Heatmap</h2><span class="count">15 tickers</span></div>
 <div class="heatmap-grid">
-
-<div class="heatmap-cell"><div class="ticker">WULF</div><div class="change up">+1.7%</div><div class="flag">HPC</div></div>
-<div class="heatmap-cell"><div class="ticker">SLNH</div><div class="change down">-9.0%</div><div class="flag">&nbsp;</div></div>
-<div class="heatmap-cell"><div class="ticker">MIGI</div><div class="change up">+20%*</div><div class="flag">HPC pivot</div></div>
-<div class="heatmap-cell"><div class="ticker">IREN</div><div class="change up">+254% 6M</div><div class="flag">HPC</div></div>
-<div class="heatmap-cell"><div class="ticker">CORZ</div><div class="change up">N/A</div><div class="flag">HPC</div></div>
-
-<div class="heatmap-cell"><div class="ticker">CIFR</div><div class="change up">+313% 6M</div><div class="flag">HPC</div></div>
-<div class="heatmap-cell"><div class="ticker">HUT</div><div class="change up">+1.6%</div><div class="flag">HPC</div></div>
-<div class="heatmap-cell"><div class="ticker">CLSK</div><div class="change flat">N/A</div><div class="flag">&nbsp;</div></div>
-<div class="heatmap-cell"><div class="ticker">APLD</div><div class="change flat">N/A</div><div class="flag">HPC</div></div>
-<div class="heatmap-cell"><div class="ticker">MARA</div><div class="change down">-4.4%</div><div class="flag">&nbsp;</div></div>
-
-<div class="heatmap-cell"><div class="ticker">RIOT</div><div class="change up">+10%</div><div class="flag">AMD 50MW</div></div>
-<div class="heatmap-cell"><div class="ticker">BTDR</div><div class="change flat">N/A</div><div class="flag">&nbsp;</div></div>
-<div class="heatmap-cell"><div class="ticker">BITF</div><div class="change flat">N/A</div><div class="flag">&nbsp;</div></div>
-<div class="heatmap-cell"><div class="ticker">BTBT</div><div class="change flat">N/A</div><div class="flag">&nbsp;</div></div>
-<div class="heatmap-cell"><div class="ticker">HIVE</div><div class="change flat">N/A</div><div class="flag">&nbsp;</div></div>
-
+<div class="heatmap-cell"><div class="ticker">WULF</div><div class="change green">+2.4%</div><div class="flag">HPC</div></div>
+<div class="heatmap-cell"><div class="ticker">IREN</div><div class="change green">+3.0%</div><div class="flag">HPC</div></div>
+<div class="heatmap-cell"><div class="ticker">CIFR</div><div class="change green">+1.8%</div><div class="flag">HPC</div></div>
+<div class="heatmap-cell"><div class="ticker">CORZ</div><div class="change green">+1.2%</div><div class="flag">HPC</div></div>
+<div class="heatmap-cell"><div class="ticker">HUT</div><div class="change green">+1.5%</div><div class="flag">HPC</div></div>
+<div class="heatmap-cell"><div class="ticker">CLSK</div><div class="change green">+0.9%</div><div class="flag">HPC</div></div>
+<div class="heatmap-cell"><div class="ticker">MARA</div><div class="change green">+1.1%</div></div>
+<div class="heatmap-cell"><div class="ticker">RIOT</div><div class="change green">+2.0%</div><div class="flag">HPC</div></div>
+<div class="heatmap-cell"><div class="ticker">BTDR</div><div class="change green">+1.4%</div><div class="flag">HPC</div></div>
+<div class="heatmap-cell"><div class="ticker">APLD</div><div class="change green">+3.2%</div><div class="flag">HPC</div></div>
+<div class="heatmap-cell"><div class="ticker">SLNH</div><div class="change red">-4.8%</div></div>
+<div class="heatmap-cell"><div class="ticker">MIGI</div><div class="change green">+2.6%</div><div class="flag">HPC</div></div>
+<div class="heatmap-cell"><div class="ticker">BITF</div><div class="change green">+0.5%</div></div>
+<div class="heatmap-cell"><div class="ticker">BTBT</div><div class="change green">+0.8%</div></div>
+<div class="heatmap-cell"><div class="ticker">HIVE</div><div class="change green">+1.3%</div></div>
 </div>
-<p class="timestamp">*MIGI 20% reflects 24 April rebrand pop. Other figures are last available daily change or 6-month return where noted. N/A indicates daily print not retrieved.</p>
 </section>
 
-<section class="section">
-<div class="section-header"><h2>HPC Deal Tracker</h2><span class="count">Major contracts in force</span></div>
+<section class="section" id="hpc">
+<div class="section-header"><h2>HPC Deal Tracker</h2><span class="count">6 deals</span></div>
+<div class="data-table">
 <table>
-<thead><tr><th>Date</th><th>Company</th><th>Counterparty</th><th>MW</th><th>Duration</th><th>Value</th></tr></thead>
-<tbody>
-<tr><td>FY2026 Q1</td><td>IREN</td><td>Microsoft</td><td>200 MW (Childress)</td><td>Multi-year</td><td>$9.7B contract / $1.94B ARR</td></tr>
-<tr><td>2026 (extended)</td><td>Core Scientific</td><td>CoreWeave</td><td>590 MW target by early 2027 (350 MW energised, 200 MW billing)</td><td>12 years</td><td>$10.2B</td></tr>
-<tr><td>2026</td><td>Cipher Digital</td><td>AWS</td><td>300 MW</td><td>Multi-year</td><td>Anchor of $9.3B HPC backlog</td></tr>
-<tr><td>2026</td><td>Cipher Digital</td><td>Fluidstack (Google-backstopped)</td><td>N/A</td><td>Multi-year</td><td>Part of $9.3B backlog</td></tr>
-<tr><td>2026</td><td>TeraWulf</td><td>Hyperscaler offtake (Lake Mariner)</td><td>N/A</td><td>Multi-year</td><td>$12.8B</td></tr>
-<tr><td>2026</td><td>Hut 8</td><td>Google-linked AI data centre (bond financing)</td><td>N/A</td><td>N/A</td><td>$3B bond deal</td></tr>
-<tr><td>1 May 2026</td><td>Riot Platforms</td><td>AMD</td><td>50 MW (expanded)</td><td>N/A</td><td>N/A (drove +10% move)</td></tr>
-</tbody>
+<thead><tr><th>Date</th><th>Company</th><th>Counterparty</th><th>MW / Detail</th><th>Duration</th><th>Value</th></tr></thead>
+<tbody><tr><td>Apr 18</td><td><span class="ticker-badge">RIOT</span></td><td>AMD</td><td>+25 MW (50 MW total)</td><td>Multi year</td><td>Undisclosed</td></tr>
+<tr><td>Apr 16</td><td><span class="ticker-badge">WULF</span></td><td>Internal Lake Mariner build</td><td>Phase 3 HPC capacity</td><td>N/A</td><td>$900M raise</td></tr>
+<tr><td>Apr 23</td><td><span class="ticker-badge">IREN</span></td><td>Sweetwater 1 energization</td><td>Site live</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>Apr 24</td><td><span class="ticker-badge">MIGI</span></td><td>Pivot to AI compute infra</td><td>Strategy reset</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>Apr 16</td><td><span class="ticker-badge">BTDR</span></td><td>Tydal Phase 2 AI conversion</td><td>Targeted Q4 2026</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>Apr 30</td><td><span class="ticker-badge">HUT</span></td><td>ABTC equity stake emphasis</td><td>Strategic shift</td><td>N/A</td><td>N/A</td></tr></tbody>
 </table>
+</div>
 </section>
 
-<section class="section">
-<div class="section-header"><h2>Community Pulse</h2><span class="count">Sentiment summary by ticker</span></div>
+<section class="section" id="community">
+<div class="section-header"><h2>Community Pulse</h2><span class="count">5 tickers</span></div>
 <div class="community-grid">
-
-<div class="community-card">
-<h3>WULF</h3>
-<p>Sentiment is broadly bullish on StockTwits and Reddit going into the 8 May earnings call, with chatter focused on the Morgan Stanley $41.50 PT and the Lake Mariner AI hosting story. Some pushback on insider selling and the dilution from the $900M offering. R/wallstreetbets posts split between hold for earnings and trim into strength.</p>
-</div>
-
-<div class="community-card">
-<h3>SLNH</h3>
-<p>Sentiment is sharply mixed. Holders cheer the Nasdaq compliance reset but call out the 29M registered resale shares as a clear overhang that drove the 9 percent down day. Penny-stock subreddits flag negative free cash flow and limited operating visibility. Sazmining JV is seen as incremental rather than transformative.</p>
-</div>
-
-<div class="community-card">
-<h3>MIGI</h3>
-<p>Sentiment turned positive into the Big Digital Energy rebrand on 24 April, with retail traders treating the 20 percent move as confirmation of the AI-pivot thesis. Skeptics point to the 84.7 percent drawdown from 52-week high and limited disclosure on contracted revenue. Volatility remains the dominant flag.</p>
-</div>
-
+<div class="community-card"><div class="ticker">WULF</div><p>StockTwits and Reddit retail discussion remains constructive into the May 8 print. Bulls highlight the $900M raise as removing dilution overhang and providing visibility on the Lake Mariner Phase 3 HPC build. Bears flag execution risk on the HPC transition timeline.</p></div>
+<div class="community-card"><div class="ticker">SLNH</div><p>Sentiment turned negative this week after the resale registration filings. Holders on r/pennystocks are concerned about float expansion. Some bulls argue the Nasdaq compliance regain still leaves the stock cheap relative to the megawatt asset base.</p></div>
+<div class="community-card"><div class="ticker">MIGI</div><p>The Big Digital Energy rebrand is being received as a credible signal of an AI compute pivot. Discussion volume has climbed across Twitter and StockTwits. Watch for follow through after the next quarterly update.</p></div>
+<div class="community-card"><div class="ticker">RIOT</div><p>RIOT discussion is driven by the AMD capacity expansion and broader expectations that the next major HPC contract sits with Riot. Q1 data center revenue of $33.2M is being held up as proof of execution.</p></div>
+<div class="community-card"><div class="ticker">IREN</div><p>IREN is the favorite among the AI HPC bull case crowd; Sweetwater 1 energization treated as a major operational milestone heading into the May 7 print.</p></div>
 </div>
 </section>
 
-<section class="section">
+<section class="section" id="context">
 <div class="section-header"><h2>Sector Context</h2></div>
 <div class="context-box">
-<p>The bitcoin miner cohort continues to trade as an AI infrastructure play first and a bitcoin proxy second. CoinShares and S&amp;P Global both flag a structural pivot away from pure self-mining, with public miners now collectively sitting on more than $70 billion of announced AI/HPC contracts. Operators with secured HPC contracts trade at roughly 12.3x EV/NTM sales, while pure-play miners sit at 5.9x. CoinDesk reports public miners have offloaded more than 15,000 BTC since the start of the year to fund the pivot, ending the hold-everything era.</p>
-<p>Among the three core positions, TeraWulf carries the strongest narrative tailwind on the back of $12.8B of AI hosting contracts, the $900M Kentucky-data-centre raise, and the Morgan Stanley overweight with a $41.50 price target. The 8 May Q1 earnings call is the key near-term catalyst. Soluna trades on a much more fragile setup: positive Nasdaq compliance news on 1 May was overwhelmed by overhang from 29M registered resale shares, and free cash flow remains negative. Mawson&apos;s 24 April rebrand to Big Digital Energy reset the equity story but the stock is still 84.7 percent below its 52-week high.</p>
-<p>Across the peer set, the IREN / CIFR / CORZ trio remains the model for an HPC-anchored mining business, with IREN scaling to 140,000 GPUs, CIFR running off a $9.3B backlog and CORZ extending its CoreWeave deal to $10.2B over 12 years. Riot&apos;s AMD expansion and Hut 8&apos;s Google-linked $3B bond deal both confirm the secular shift. Risks: oil-driven inflation has parked the Fed at 3.50-3.75 percent and energy-cost pressure is squeezing the names without locked-in contracts. Marathon and other pure miners remain caught between bitcoin-price beta and a tougher hosting power-cost curve.</p>
+<p>Bitcoin miner equities continue their 2026 narrative shift from pure hashprice trades into hybrid HPC and AI infrastructure stories. TeraWulf, Hut 8 and Riot lead the year to date pack with returns of approximately 85, 67 and 46 percent respectively, propelled by AI compute optionality on existing power assets. Underperformers in the cohort are typically those with the least convincing transition narratives.</p>
+<p>Capital markets activity remains heavy. The TeraWulf $900M raise that closed April 16 underwrites a multi phase Lake Mariner build out and is being treated by the buyside as the new template for the sector. Soluna remains the cautionary case after a wave of resale registrations pressured shares this week. Mawson's rebrand to Big Digital Energy adds a small cap option for AI compute pivot exposure.</p>
+<p>Bitcoin pushing back toward $80,000 on Iran de escalation provides modest support for the underlying mining economics, but the dominant relative value driver across the cohort remains contracted HPC megawatts. Watch the May 7 IREN print and the May 8 WULF call for the next leg of repricing.</p>
 </div>
 </section>
 
+<div class="disclaimer">All financial data is point in time as of the morning of Monday, May 4, 2026. Sources include Yahoo Finance, StockStoTrade, StockTitan, TipRanks, Crypto Times, Bitcoin Magazine, Inside HPC, Data Center Dynamics, the SEC EDGAR system and company press releases. This is not financial advice. Sourcing has been paraphrased.</div>
 </div>
-<footer class="footer">
-The Daily Brief Miner Analytics is generated automatically. Stock prices reflect publicly reported figures as of dates noted; not financial advice. Always verify with primary sources before trading.
-</footer>
+<footer class="footer">The Daily Brief is generated automatically. Not financial advice.</footer>
 </body>
 </html>
