@@ -142,6 +142,18 @@ table.std a:hover{text-decoration:underline}
 .ta-summary p{margin-bottom:0.7rem;font-size:0.86rem}
 .ta-summary p:last-child{margin-bottom:0}
 .ta-summary strong{color:#c9d1d9}
+.ta-details{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:0.6rem 1.4rem;margin-top:-1.5rem;margin-bottom:2.5rem}
+.ta-details summary{cursor:pointer;font-family:'Inter',sans-serif;font-size:0.85rem;font-weight:600;color:#8b949e;list-style:none;padding:0.6rem 0}
+.ta-details summary::-webkit-details-marker{display:none}
+.ta-details summary::before{content:'\25B6';display:inline-block;margin-right:0.6rem;font-size:0.65rem;color:#58a6ff;transition:transform 0.2s}
+.ta-details[open] summary::before{transform:rotate(90deg)}
+.ta-details summary:hover{color:#c9d1d9}
+.ta-details-content{padding:0.5rem 0 0.8rem;color:#c9d1d9;line-height:1.65;font-size:0.85rem;border-top:1px solid #21262d;margin-top:0.3rem}
+.ta-details-content h3{font-family:'Newsreader',serif;font-size:1.05rem;font-weight:700;color:#58a6ff;margin:1rem 0 0.5rem;padding-bottom:0.3rem;border-bottom:1px solid #21262d}
+.ta-details-content h3:first-child{margin-top:0.7rem}
+.ta-details-content p{margin-bottom:0.7rem}
+.ta-details-content p:last-child{margin-bottom:0}
+.ta-details-content strong{color:#c9d1d9}
 </style>
 </head>
 <body>
@@ -162,35 +174,40 @@ table.std a:hover{text-decoration:underline}
 <div class="container">
 <div class="disclaimer">TA snapshot fetched <strong>2026-05-07 02:59:37 UTC</strong> via TradingView screener. Social signals from StockTwits + Reddit. Charts stream live from TradingView. Composite scores (Setup, Pivot Conviction, Hype Stage) are computed locally from public indicators; weights documented in /AI-HPC-Analytics-TA-Proposal.md. Not financial advice.</div>
 <section class="section">
-<div class="section-header"><h2>TA Summary</h2><span class="count">How to read today's data</span></div>
+<div class="section-header"><h2>Market Summary</h2><span class="count">Analyst note · May 7, 2026</span></div>
 <div class="context-box ta-summary">
 
-<h3>Column legend</h3>
-<p>The first columns are basics. Ticker carries its tier badge (CORE for your holdings, PIVOT for AI / HPC pivot peers, BTC for pure miners). Last is yesterday's close. Day %, 5D % and 1M % give you the trend windows.</p>
-<p><strong>RSI(D)</strong> is the daily 14-period Relative Strength Index, where 30 is oversold, 50 is neutral, 70 is overbought, 80+ is extreme. <strong>RSI(W)</strong> is the same on a weekly bar, slower and more telling about the regime than the daily noise. <strong>MACD</strong> ↑ means the MACD line is above its signal line (rising momentum); ↓ means below (fading). <strong>MA Stack</strong> X/4 counts how many of the 20, 50, 100 and 200 day moving averages the price sits above.</p>
-<p><strong>Setup</strong> (0-100) answers "is this a clean entry today?" Sweet spot is RSI 50-65 with confirming volume and a tightening Bollinger squeeze. <strong>Pivot Conviction</strong> (0-100) answers "is this acting like a real AI / HPC infrastructure stock or a re-themed BTC miner?" Blends MA stack, volume, outperformance vs the BTC-only basket and breakouts above structure. <strong>Hype Stage</strong> (Quiet to Distribution) is the retail-cycle classifier. <strong>Sentiment</strong> is the StockTwits + Reddit composite label, with "Retail euphoria" the most extreme.</p>
+<h3>Market context</h3>
+<p>The AI / HPC miner cohort traded into Wednesday's close like a sector that has stopped pretending to be cautious. The BTC-only basket (MARA, RIOT, BTDR, BITF, BTBT, HIVE) is up an average <strong>56% over the last 30 days</strong>. The AI-pivot leaders are running ahead of that benchmark - WULF +72%, CIFR +71%, IREN +75% over the same window. HUT is the outlier at +124% with a Stage 4 distribution reading. This is no longer "the early stage of a re-rating", this is the grind into the manic phase.</p>
+<p>What changed in the past five sessions specifically is volume. Relative volume sits above 1.5x on most of the cohort, above 2.5x on CORZ and BTDR, above 5x on HUT. Volume confirming price tells us institutions and retail are both buying, which is what creates climax candles. MACD is rising on every ticker except BGDE, where the line just kicked back above its signal on today's 33% move and the cross will likely confirm into Friday.</p>
 
-<h3>What today's data is screaming</h3>
-<p>The whole sector is in the late innings of a hype cycle. Every name is up 40-257% over 30 days, MA Stack is 4/4 on twelve of fourteen names with TA, weekly RSI is above 60 across the AI-pivot leaders. This is what mania looks like in numbers.</p>
+<h3>The directional read</h3>
+<p>If you have not taken meaningful profits yet, today is the earliest window where the framework starts insisting on it. Hype Stage is 3 (Mania) on CORZ, 4 (Distribution) on HUT, 2 (Hot) on most of your core. Distribution does not mean the name will drop tomorrow; it means the marginal buyer is being replaced by the marginal seller. The discipline at Stage 3 is to take 25% off. At Stage 4, another 25-50%. At Stage 5, exit and wait.</p>
+<p>Today is not an entry day for any name in the universe. Setup Score is suppressed across the board because price is extended. The trade is trim and trail, not add.</p>
 
-<h3>Reading your five core holdings</h3>
-<p><span class="ticker-badge">WULF</span> Textbook Stage 3 setup. RSI 73.7 daily with weekly 77.1 means extended on both timeframes, a meaningful confirmation rather than intraday noise. Pivot Conviction 85 and Setup 69 say the chart structure is great but the entry is no longer clean. With Q1 earnings tomorrow morning, this is mania-into-print. Sentiment "Bullish" not yet "Retail euphoria" gives slightly more room than CIFR or IREN.</p>
-<p><span class="ticker-badge">CIFR</span> Scoring "Retail euphoria" with Pivot Conviction 88 is the interesting case. The crowd is fully long on StockTwits, but RSI is still only 67.5 daily, 63.7 weekly. The price action is not as parabolic as the social heat suggests. Retail piles in before the chart goes vertical. Watch closely; RSI tagging 75+ would be the trim trigger.</p>
-<p><span class="ticker-badge">IREN</span> Pivot Conviction 95 is the strongest pivot story in the universe by the score, justified by the Microsoft contract. RSI 71.3 daily is hot but not extreme. The "Retail euphoria" sentiment is the warning flag. When the crowd is fully long on a name already up 75% in a month, the next 10% up tends to be much harder won than the last.</p>
-<p><span class="ticker-badge">SLNH</span> The most interesting read on the page. Hype Stage "Building", Setup 63, Pivot 83, Sentiment "Heavy bullish". Price action is mid-cycle (RSI 63.6 daily) but the retail crowd has already gone all in. Classic small-cap dynamic where social heat runs ahead of the chart. Watch for either a sharp follow-through (RSI accelerates into 70+) or a fade (sentiment cools without price catching up). Position sizing matters more than score given the resale overhang.</p>
-<p><span class="ticker-badge">BGDE</span> The genuine surprise. +33% today, +257% over the month, yet RSI 59.7 and Hype Stage "Building". MA Stack 3/4 because the price is still below the 200 SMA after the rebrand. MACD ↓ is a leading-edge signal: today's massive move likely just kicked MACD back above the signal line but the cross has not fully confirmed. Setup 65 is solid for a name with this much room above it. Of all five core holdings, BGDE is the one where the framework says the move may still have legs rather than the move is late.</p>
+<h3>Core holdings findings</h3>
+<p><span class="ticker-badge">WULF</span> Goes into Q1 earnings tomorrow at 8:00 a.m. ET with daily RSI 73.7, weekly RSI 77.1, Pivot Conviction 85. Three analyst upgrades in the past week (Morgan Stanley to $41.50, Northland to $30, KBW to $25). StockTwits is balanced (15 bull / 2 bear), so the crowd is not yet euphoric. Going into the print extended is a classic mania-into-news setup. <strong>Recommendation:</strong> trim 25% before tomorrow's open. Hold the rest through the call. A guide pushing HPC mix above 60% for FY26 likely runs the stock another 10-15%; flat or cautious guidance gives back 5-8% and creates the re-add window.</p>
+<p><span class="ticker-badge">CIFR</span> Cleanest "let it run" candidate by Pivot Conviction 88, second only to IREN and HUT. Daily RSI 67.5 has not tagged the extreme zone yet. The "Retail euphoria" sentiment label is a function of StockTwits being 100% bullish (13 bull / 0 bear) and Reddit hitting its mention cap. The divergence between social heat (extreme) and chart heat (moderate) is the single most interesting setup on the page. <strong>Recommendation:</strong> hold core, tight trail at the 20 SMA. Only trim if RSI tags 75+. Position size unchanged.</p>
+<p><span class="ticker-badge">IREN</span> The strongest pivot story in the universe by score (Pivot 95). The Microsoft contract justifies the conviction. RSI 71.3 daily / 64.4 weekly is hot but not yet extreme. Key risk: execution on the GPU fleet ramp from 23K to 140K by year-end - any operational stumble compresses the multiple fast. "Retail euphoria" sentiment again warns the upside is now harder won. <strong>Recommendation:</strong> trim 15-20% on any tag above $70. Hold the core through 2026.</p>
+<p><span class="ticker-badge">SLNH</span> The asymmetric one. Hype Stage "Building" but Sentiment "Heavy bullish" with 100% StockTwits bullish (20 / 0). Retail crowd is fully long while price sits mid-cycle (RSI 63.6 daily, weekly 57.4). Either price catches up to sentiment in one big follow-through bar, or sentiment fades without price following. The 29M-share resale overhang remains the lid. <strong>Recommendation:</strong> do not add. Set a stop just below the 20 SMA. If RSI tags 75 with confirming volume, trim 30-40% into the move.</p>
+<p><span class="ticker-badge">BGDE</span> The page's most interesting underdog. +33% today off a +257% month with daily RSI still only 59.7 and MA Stack 3/4 (price still below 200 SMA after the rebrand). Setup Score 65 says the entry is still defensible. Hype Stage "Building" places it earliest in the cycle of the five core holdings. The MACD ↓ is misleading - today's print pushes the cross right back above its signal line. This is the one core name where the framework genuinely says the move may have legs. <strong>Recommendation:</strong> hold full size. Add only on a pullback to the 50 SMA or a clean breakout with 3x volume above today's high.</p>
 
-<h3>Peer reads worth flagging</h3>
-<p><span class="ticker-badge">HUT</span> at $108.94 with RSI 82.5 daily, 86.1 weekly and Hype Stage "Distribution" is the textbook trim-or-exit signal. <span class="ticker-badge">CORZ</span> at "Mania" with RSI 78.4 sits one rung below. Same direction. <span class="ticker-badge">RIOT</span> scoring "Retail euphoria" with Pivot 95 is the strongest BTC-only story but also the most crowded.</p>
+<h3>Peer cohort signal</h3>
+<p><span class="ticker-badge">HUT</span> is the bellwether for when the cohort rolls. RSI 82.5 daily, 86.1 weekly, +124% over 30 days, 5.4x relative volume. Textbook climax setup. When HUT prints a doji or a wide-range red bar on >3x average volume, that is the cohort top tell. If you trade adjacent positions tactically, this is the chart to watch.</p>
+<p><span class="ticker-badge">CORZ</span> at "Mania" with RSI 78.4 / weekly 69.8 sits one rung below HUT and probably the second to roll. The CoreWeave deal is real, but the price has now priced in the next 18 months of ramp.</p>
+<p><span class="ticker-badge">RIOT</span> at "Retail euphoria" with Pivot 95 is the strongest BTC-only story, also the most crowded. Pure BTC miners are increasingly hostage to bitcoin's price action - if BTC stalls below $85K, RIOT and MARA give back faster than the AI-pivot cohort.</p>
 
-<h3>How to use the three scores together</h3>
-<p>Setup tells you about entry timing. Pivot Conviction tells you about thesis quality and position sizing. Hype Stage tells you about exit timing.</p>
-<p><strong>Clean add</strong> = Setup &gt; 60 AND Hype Stage 0-1 AND Pivot Conviction &gt; 60. Today, no name meets that combination because Hype Stage is 1-4 across the board. Today is not an entry day.</p>
-<p><strong>Clean trim</strong> = Hype Stage 3+ on a name you're already long. HUT at Distribution is the cleanest. CORZ at Mania is next. WULF, CIFR and IREN at "Hot" sit one rung below; trim ladder reads heaviest at Distribution, less aggressive at Mania, watch trail stops at Hot.</p>
-<p><strong>Clean hold</strong> = Pivot Conviction high AND Hype not yet at 3. SLNH and BGDE both fit. These are the names you give the most room to run.</p>
+<h3>Sentiment alpha</h3>
+<p>The most actionable sentiment read on the page today is the divergence between social heat and chart heat. CIFR, IREN, RIOT all show "Retail euphoria" but RSI in the 67-75 range, not the extreme 80+ zone. Either retail keeps buying and the chart catches up (Stage 3 or 4 print incoming), or institutions take advantage of retail demand to distribute and the names roll without ever getting truly extreme on price. Watch the next five sessions for RSI direction relative to social posting volume.</p>
+<p>The contrarian read sits with the pure BTC miners further down the universe. MARA Sentiment "Bullish" with RSI 69.6 is more measured. BITF returned no TA but Reddit mentions remain low (9 in 7 days), suggesting the dispersion between AI-pivot mania and BTC-pure attention has widened.</p>
 
-<h3>Quick read for the morning</h3>
-<p>Today's discipline is trail stops, not entries. The framework says you are roughly 70-85% of the way through the run. Trail tighter on WULF / CIFR / IREN, give SLNH and BGDE more room since they read earlier-cycle, watch HUT closely as the bellwether for when the cohort starts rolling. Friday's WULF earnings call will likely set the next 1-2 weeks of cohort beta.</p>
+<h3>Catalysts on the radar</h3>
+<p><strong>Tomorrow morning, May 8 at 8:00 a.m. ET:</strong> WULF Q1 earnings. The cohort beta for the next one to two weeks gets set on this print. Guide pushing HPC mix above 60% for 2026 takes the cohort another leg up; flat or cautious guidance is the pivot point that ends the run.</p>
+<p><strong>Through the weekend:</strong> SLNH resale activity tape. BGDE follow-up to the JV announcement.</p>
+<p><strong>Next two weeks:</strong> Form 4 insider activity post-rebrand on BGDE. Follow-up HPC contract announcement for CIFR or CLSK. BTC price reaction at the $85K level.</p>
+
+<h3>Today's punch list</h3>
+<p>Trim 25% of WULF before tomorrow's open. Hold CIFR with a tight trail at the 20 SMA. Trim IREN 15-20% on any tag above $70. Hold SLNH at current size, do not add. Hold BGDE at full size, add only on confirmed pullback or 3x-volume breakout. Peer exposure: HUT first to trim, CORZ second, RIOT carefully if BTC stalls.</p>
 
 </div>
 </section>
@@ -431,6 +448,24 @@ table.std a:hover{text-decoration:underline}
 </div>
 <p class="muted" style="font-size:0.75rem;margin-top:0.6rem">Click any column header to sort. Setup / Pivot scores: 0 = avoid, 100 = strong. Hype Stage: 0 quiet → 4 distribution / 5 rolling over.</p>
 </section>
+
+<details class="ta-details">
+<summary>Reference: column legend and how to use the three scores</summary>
+<div class="ta-details-content">
+
+<h3>Column legend</h3>
+<p>The first columns are basics. Ticker carries its tier badge (CORE for your holdings, PIVOT for AI / HPC pivot peers, BTC for pure miners). Last is yesterday's close. Day %, 5D % and 1M % give the trend windows.</p>
+<p><strong>RSI(D)</strong> is the daily 14-period Relative Strength Index, where 30 is oversold, 50 is neutral, 70 is overbought, 80+ is extreme. <strong>RSI(W)</strong> is the same on a weekly bar, slower and more telling about the regime than the daily noise. <strong>MACD</strong> ↑ means the MACD line is above its signal line (rising momentum); ↓ means below (fading). <strong>MA Stack</strong> X/4 counts how many of the 20, 50, 100 and 200 day moving averages the price sits above.</p>
+<p><strong>Setup</strong> (0-100) answers "is this a clean entry today?" Sweet spot is RSI 50-65 with confirming volume and a tightening Bollinger squeeze. <strong>Pivot Conviction</strong> (0-100) answers "is this acting like a real AI / HPC infrastructure stock or a re-themed BTC miner?" Blends MA stack, volume, outperformance vs the BTC-only basket and breakouts above structure. <strong>Hype Stage</strong> (Quiet to Distribution) is the retail-cycle classifier. <strong>Sentiment</strong> is the StockTwits + Reddit composite label, with "Retail euphoria" the most extreme.</p>
+
+<h3>How to use the three scores together</h3>
+<p>Setup tells you about entry timing. Pivot Conviction tells you about thesis quality and position sizing. Hype Stage tells you about exit timing.</p>
+<p><strong>Clean add</strong> = Setup &gt; 60 AND Hype Stage 0-1 AND Pivot Conviction &gt; 60. The chart is set up to move, the pivot story is confirmed, and the crowd has not piled in yet.</p>
+<p><strong>Clean trim</strong> = Hype Stage 3+ on a name you are already long. Trim ladder reads heaviest at Distribution, less aggressive at Mania, watch trail stops at Hot.</p>
+<p><strong>Clean hold</strong> = Pivot Conviction high AND Hype not yet at 3. These are the names you give the most room to run.</p>
+
+</div>
+</details>
 <section class="section">
 <div class="section-header"><h2>Core Holdings Live</h2><span class="live-badge">Live</span><span class="count">5 positions</span></div>
 <div class="core-grid">
@@ -825,38 +860,4 @@ table.std a:hover{text-decoration:underline}
 <section class="section">
 <div class="section-header"><h2>Institutional &amp; Insider Activity</h2><span class="count">Recent</span></div>
 <table class="std">
-<thead><tr><th>Period</th><th>Ticker</th><th>Type</th><th>Person / Fund</th><th>Detail</th></tr></thead>
-<tbody>
-<tr><td>Apr 2026</td><td>CIFR</td><td>13F</td><td>Aggregate</td><td>~76% institutional ownership, top capital flow gainer in cohort</td></tr>
-<tr><td>Apr 2026</td><td>CORZ</td><td>13F</td><td>Aggregate</td><td>~78.4% institutional ownership (highest in universe)</td></tr>
-<tr><td>Apr 2026</td><td>APLD</td><td>13F</td><td>Aggregate</td><td>~71.4% institutional ownership</td></tr>
-<tr><td>Apr 2026</td><td>IREN</td><td>13F</td><td>Aggregate</td><td>Holder count rising; among top capital inflow tickers</td></tr>
-<tr><td>Apr 2026</td><td>MARA</td><td>13F</td><td>Aggregate</td><td>Steady institutional inflows despite flat tape</td></tr>
-<tr><td>May 2026</td><td>WULF</td><td>Form 4</td><td>None this week</td><td>No new insider transactions; watch for filings post-Q1 print</td></tr>
-<tr><td>May 2026</td><td>SLNH</td><td>Resale</td><td>Various</td><td>~29M shares registered for resale; supply overhang risk</td></tr>
-<tr><td>May 2026</td><td>BGDE</td><td>Insider</td><td>None this week</td><td>Watch for Form 4 filings around BGDE rebrand and JV announcement</td></tr>
-</tbody>
-</table>
-</section>
-<section class="section">
-<div class="section-header"><h2>HPC Deal Tracker</h2><span class="count">5 deals</span></div>
-<table class="std">
-<thead><tr><th>Date</th><th>Company</th><th>Counterparty</th><th>MW</th><th>Duration</th><th>Value</th></tr></thead>
-<tbody>
-<tr><td>May 5, 2026</td><td>WULF</td><td>Fluidstack</td><td>168 MW</td><td>Long-term JV</td><td>Project financing priced</td></tr>
-<tr><td>Apr 30, 2026</td><td>HUT</td><td>Fluidstack</td><td>245 MW</td><td>15 years</td><td>$7B</td></tr>
-<tr><td>Apr 28, 2026</td><td>CORZ</td><td>CoreWeave</td><td>590 MW (full ramp)</td><td>12 years</td><td>$10.2B</td></tr>
-<tr><td>Apr 22, 2026</td><td>IREN</td><td>Microsoft</td><td>200 MW</td><td>Multi-year</td><td>$9.7B</td></tr>
-<tr><td>Apr 2026</td><td>CLSK</td><td>Hyperscaler (TBD)</td><td>N/A</td><td>N/A</td><td>Advanced discussions</td></tr>
-</tbody>
-</table>
-</section>
-<section class="section">
-<div class="section-header"><h2>Peer Heatmap</h2><span class="live-badge">Live</span><span class="count">10 peers (1M)</span></div>
-<div class="heatmap-grid-live">
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:CORZ","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:HUT","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:CLSK","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:APLD","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:MARA","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-<div class="heatmap-cell-live"><div class="tradingview-widget-
+<thead><tr><th>Period</th><th>Ticker</th><th>Type</th><th>Person / Fund</th><th>Deta
