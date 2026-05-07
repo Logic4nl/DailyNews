@@ -136,6 +136,12 @@ table.std a:hover{text-decoration:underline}
 .context-box p:last-child{margin-bottom:0}
 .screener-wrapper{height:520px;background:#161b22;border:1px solid #21262d;border-radius:10px;overflow:hidden}
 .footer{text-align:center;padding:2rem;color:#6e7681;font-size:0.75rem;border-top:1px solid #21262d;background:#0d1117}
+.ta-summary h3{font-family:'Newsreader',serif;font-size:1.05rem;font-weight:700;color:#58a6ff;margin:1.3rem 0 0.5rem;padding-bottom:0.3rem;border-bottom:1px solid #21262d;letter-spacing:0.01em}
+.ta-summary h3:first-child{margin-top:0}
+.ta-summary .ticker-badge{margin-right:0.35rem;vertical-align:middle}
+.ta-summary p{margin-bottom:0.7rem;font-size:0.86rem}
+.ta-summary p:last-child{margin-bottom:0}
+.ta-summary strong{color:#c9d1d9}
 </style>
 </head>
 <body>
@@ -155,6 +161,40 @@ table.std a:hover{text-decoration:underline}
 </div>
 <div class="container">
 <div class="disclaimer">TA snapshot fetched <strong>2026-05-07 02:59:37 UTC</strong> via TradingView screener. Social signals from StockTwits + Reddit. Charts stream live from TradingView. Composite scores (Setup, Pivot Conviction, Hype Stage) are computed locally from public indicators; weights documented in /AI-HPC-Analytics-TA-Proposal.md. Not financial advice.</div>
+<section class="section">
+<div class="section-header"><h2>TA Summary</h2><span class="count">How to read today's data</span></div>
+<div class="context-box ta-summary">
+
+<h3>Column legend</h3>
+<p>The first columns are basics. Ticker carries its tier badge (CORE for your holdings, PIVOT for AI / HPC pivot peers, BTC for pure miners). Last is yesterday's close. Day %, 5D % and 1M % give you the trend windows.</p>
+<p><strong>RSI(D)</strong> is the daily 14-period Relative Strength Index, where 30 is oversold, 50 is neutral, 70 is overbought, 80+ is extreme. <strong>RSI(W)</strong> is the same on a weekly bar, slower and more telling about the regime than the daily noise. <strong>MACD</strong> ↑ means the MACD line is above its signal line (rising momentum); ↓ means below (fading). <strong>MA Stack</strong> X/4 counts how many of the 20, 50, 100 and 200 day moving averages the price sits above.</p>
+<p><strong>Setup</strong> (0-100) answers "is this a clean entry today?" Sweet spot is RSI 50-65 with confirming volume and a tightening Bollinger squeeze. <strong>Pivot Conviction</strong> (0-100) answers "is this acting like a real AI / HPC infrastructure stock or a re-themed BTC miner?" Blends MA stack, volume, outperformance vs the BTC-only basket and breakouts above structure. <strong>Hype Stage</strong> (Quiet to Distribution) is the retail-cycle classifier. <strong>Sentiment</strong> is the StockTwits + Reddit composite label, with "Retail euphoria" the most extreme.</p>
+
+<h3>What today's data is screaming</h3>
+<p>The whole sector is in the late innings of a hype cycle. Every name is up 40-257% over 30 days, MA Stack is 4/4 on twelve of fourteen names with TA, weekly RSI is above 60 across the AI-pivot leaders. This is what mania looks like in numbers.</p>
+
+<h3>Reading your five core holdings</h3>
+<p><span class="ticker-badge">WULF</span> Textbook Stage 3 setup. RSI 73.7 daily with weekly 77.1 means extended on both timeframes, a meaningful confirmation rather than intraday noise. Pivot Conviction 85 and Setup 69 say the chart structure is great but the entry is no longer clean. With Q1 earnings tomorrow morning, this is mania-into-print. Sentiment "Bullish" not yet "Retail euphoria" gives slightly more room than CIFR or IREN.</p>
+<p><span class="ticker-badge">CIFR</span> Scoring "Retail euphoria" with Pivot Conviction 88 is the interesting case. The crowd is fully long on StockTwits, but RSI is still only 67.5 daily, 63.7 weekly. The price action is not as parabolic as the social heat suggests. Retail piles in before the chart goes vertical. Watch closely; RSI tagging 75+ would be the trim trigger.</p>
+<p><span class="ticker-badge">IREN</span> Pivot Conviction 95 is the strongest pivot story in the universe by the score, justified by the Microsoft contract. RSI 71.3 daily is hot but not extreme. The "Retail euphoria" sentiment is the warning flag. When the crowd is fully long on a name already up 75% in a month, the next 10% up tends to be much harder won than the last.</p>
+<p><span class="ticker-badge">SLNH</span> The most interesting read on the page. Hype Stage "Building", Setup 63, Pivot 83, Sentiment "Heavy bullish". Price action is mid-cycle (RSI 63.6 daily) but the retail crowd has already gone all in. Classic small-cap dynamic where social heat runs ahead of the chart. Watch for either a sharp follow-through (RSI accelerates into 70+) or a fade (sentiment cools without price catching up). Position sizing matters more than score given the resale overhang.</p>
+<p><span class="ticker-badge">BGDE</span> The genuine surprise. +33% today, +257% over the month, yet RSI 59.7 and Hype Stage "Building". MA Stack 3/4 because the price is still below the 200 SMA after the rebrand. MACD ↓ is a leading-edge signal: today's massive move likely just kicked MACD back above the signal line but the cross has not fully confirmed. Setup 65 is solid for a name with this much room above it. Of all five core holdings, BGDE is the one where the framework says the move may still have legs rather than the move is late.</p>
+
+<h3>Peer reads worth flagging</h3>
+<p><span class="ticker-badge">HUT</span> at $108.94 with RSI 82.5 daily, 86.1 weekly and Hype Stage "Distribution" is the textbook trim-or-exit signal. <span class="ticker-badge">CORZ</span> at "Mania" with RSI 78.4 sits one rung below. Same direction. <span class="ticker-badge">RIOT</span> scoring "Retail euphoria" with Pivot 95 is the strongest BTC-only story but also the most crowded.</p>
+
+<h3>How to use the three scores together</h3>
+<p>Setup tells you about entry timing. Pivot Conviction tells you about thesis quality and position sizing. Hype Stage tells you about exit timing.</p>
+<p><strong>Clean add</strong> = Setup &gt; 60 AND Hype Stage 0-1 AND Pivot Conviction &gt; 60. Today, no name meets that combination because Hype Stage is 1-4 across the board. Today is not an entry day.</p>
+<p><strong>Clean trim</strong> = Hype Stage 3+ on a name you're already long. HUT at Distribution is the cleanest. CORZ at Mania is next. WULF, CIFR and IREN at "Hot" sit one rung below; trim ladder reads heaviest at Distribution, less aggressive at Mania, watch trail stops at Hot.</p>
+<p><strong>Clean hold</strong> = Pivot Conviction high AND Hype not yet at 3. SLNH and BGDE both fit. These are the names you give the most room to run.</p>
+
+<h3>Quick read for the morning</h3>
+<p>Today's discipline is trail stops, not entries. The framework says you are roughly 70-85% of the way through the run. Trail tighter on WULF / CIFR / IREN, give SLNH and BGDE more room since they read earlier-cycle, watch HUT closely as the bellwether for when the cohort starts rolling. Friday's WULF earnings call will likely set the next 1-2 weeks of cohort beta.</p>
+
+</div>
+</section>
+
 <section class="section">
 <div class="section-header"><h2>TA Scoreboard</h2><span class="live-badge">Live</span><span class="count">15 names · daily snapshot</span></div>
 <div class="scoreboard">
@@ -819,62 +859,4 @@ table.std a:hover{text-decoration:underline}
 <div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:CLSK","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
 <div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:APLD","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
 <div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:MARA","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:RIOT","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:BTDR","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:BITF","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:BTBT","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:HIVE","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-</div>
-</section>
-<section class="section">
-<div class="section-header"><h2>Sector Screener</h2><span class="live-badge">Live</span><span class="count">All 15 names</span></div>
-<div class="screener-wrapper">
-<div class="tradingview-widget-container" style="height:100%;width:100%">
-<div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-{"width":"100%","height":"100%","defaultColumn":"overview","defaultScreen":"general","market":"america","showToolbar":true,"colorTheme":"dark","locale":"en","isTransparent":true,"symbolsList":["NASDAQ:WULF","NASDAQ:CIFR","NASDAQ:IREN","NASDAQ:SLNH","NASDAQ:BGDE","NASDAQ:CORZ","NASDAQ:HUT","NASDAQ:CLSK","NASDAQ:APLD","NASDAQ:MARA","NASDAQ:RIOT","NASDAQ:BTDR","NASDAQ:BITF","NASDAQ:BTBT","NASDAQ:HIVE"]}
-</script>
-</div>
-</div>
-</section>
-<section class="section">
-<div class="section-header"><h2>Sector Context</h2><span class="count">Daily summary</span></div>
-<div class="context-box">
-<p>The miner-to-HPC cohort enters Thursday in mania territory. The BTC-only basket (MARA, RIOT, BTDR, BITF, BTBT, HIVE) is up an average <strong>56.2%</strong> over the last 30 days. Daily RSI sits above 70 on most names and weekly RSI above 65 on the AI-pivot leaders. HUT is the most extreme reading in the universe (RSI 82.5 daily, RSI 86 weekly, 5.4x relative volume) and a textbook Stage 4 distribution candidate. WULF, RIOT, APLD, BTDR all sit in Stage 3 mania.</p>
-<p>What this means for action: Hype Stage on most names is 3 or 4. The Setup Score for new entries is depressed across the board because the moves are extended. The right discipline today is trimming or trailing, not adding. Quieter names showing Stage 1-2 readings (BGDE, BTBT, HIVE) may offer rotation candidates if you want to stay in the cohort but lower beta.</p>
-<p>Watch points for the next 24 hours: WULF Q1 earnings call at 8:00 a.m. ET on May 8 (mania going into print is a classic trim setup). SLNH resale activity continues to pressure the share count. Sentiment readings are extreme on SLNH (100% bullish on StockTwits), a Stage 3-4 contrarian signal regardless of fundamentals.</p>
-</div>
-</section>
-</div>
-<script>
-(function(){
-const table = document.getElementById('ta-table');
-if (!table) return;
-const tbody = table.querySelector('tbody');
-const headers = table.querySelectorAll('th');
-const sortDir = {};
-headers.forEach((h, idx) => {
-  h.addEventListener('click', () => {
-    const col = parseInt(h.dataset.col);
-    const type = h.dataset.type || 'str';
-    const dir = sortDir[col] === 'asc' ? 'desc' : 'asc';
-    sortDir[col] = dir;
-    const rows = Array.from(tbody.querySelectorAll('tr'));
-    rows.sort((a, b) => {
-      const av = a.children[col]?.textContent.trim() || '';
-      const bv = b.children[col]?.textContent.trim() || '';
-      if (type === 'num') {
-        const an = parseFloat(av.replace(/[$%+,]/g,'')) || -Infinity;
-        const bn = parseFloat(bv.replace(/[$%+,]/g,'')) || -Infinity;
-        return dir === 'asc' ? an - bn : bn - an;
-      }
-      return dir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av);
-    });
-    rows.forEach(r => tbody.appendChild(r));
-  });
-});
-})();
-</script>
-<footer class="footer">The Daily Brief is generated automatically. Charts powered by TradingView. TA snapshot via tradingview-screener Python lib. Social via StockTwits + Reddit public APIs. Real-time data depends on your TradingView subscription. Nothing on this page is investment advice.</footer>
-</body>
-</html>
+<div class="heatmap-cell-live"><div class="tradingview-widget-
