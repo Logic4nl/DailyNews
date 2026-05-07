@@ -29,14 +29,23 @@ body{font-family:'Inter',sans-serif;background:#0d1117;color:#c9d1d9;line-height
 .live-badge::before{content:'';width:7px;height:7px;border-radius:50%;background:#3fb950;animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
 .core-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:1.2rem}
-.core-card{background:#161b22;border:1px solid #21262d;border-radius:10px;overflow:hidden}
-.core-card .core-head{padding:1rem 1.3rem;border-bottom:1px solid #21262d}
-.core-card .core-ticker{font-size:1.3rem;font-weight:700;color:#58a6ff}
-.core-card .core-company{font-size:0.82rem;color:#8b949e;margin-top:0.1rem}
-.core-card .core-catalyst{font-size:0.78rem;color:#c9d1d9;margin-top:0.6rem;padding-top:0.6rem;border-top:1px dotted #21262d;line-height:1.5}
-.core-card .core-catalyst strong{color:#d29922}
-.core-chart{height:320px;background:#0d1117}
-.core-ta{height:400px;background:#0d1117;border-top:1px solid #21262d}
+.core-card{background:#161b22;border:1px solid #21262d;border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.core-head{padding:0.9rem 1.2rem;border-bottom:1px solid #21262d}
+.core-ticker{font-size:1.3rem;font-weight:700;color:#58a6ff}
+.core-company{font-size:0.82rem;color:#8b949e;margin-top:0.05rem}
+.position-line{font-size:0.78rem;color:#c9d1d9;margin-top:0.5rem;padding-top:0.5rem;border-top:1px dotted #21262d}
+.position-line .pl-up{color:#3fb950;font-weight:600}
+.position-line .pl-dn{color:#f85149;font-weight:600}
+.core-chart{height:280px;background:#0d1117}
+.core-fundamentals{padding:0.9rem 1.2rem;border-top:1px solid #21262d;background:#0d1117;flex:1}
+.fund-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0 1rem;margin-bottom:0.8rem}
+.fund-row{display:flex;justify-content:space-between;border-bottom:1px dotted #21262d;padding:0.35rem 0;font-size:0.78rem}
+.fund-row:nth-last-child(1),.fund-row:nth-last-child(2){border-bottom:none}
+.fund-row .label{color:#8b949e}
+.fund-row .value{color:#c9d1d9;font-weight:500}
+.fund-row .value.pending{color:#d29922;font-style:italic;font-size:0.72rem}
+.catalyst-line{font-size:0.8rem;color:#c9d1d9;line-height:1.55;padding-top:0.7rem;border-top:1px solid #21262d}
+.catalyst-line strong{color:#d29922}
 .heatmap-grid-live{display:grid;grid-template-columns:repeat(5,1fr);gap:0.7rem}
 @media(max-width:1100px){.heatmap-grid-live{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:600px){.heatmap-grid-live{grid-template-columns:repeat(2,1fr)}}
@@ -71,6 +80,10 @@ table a:hover{text-decoration:underline}
 .community-card{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:1rem 1.2rem;font-size:0.85rem}
 .community-card .ticker-line{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem}
 .community-card .sentiment{color:#c9d1d9;line-height:1.5}
+.tag-bull{font-size:0.72rem;color:#3fb950;font-weight:600}
+.tag-mix{font-size:0.72rem;color:#d29922;font-weight:600}
+.tag-bear{font-size:0.72rem;color:#f85149;font-weight:600}
+.tag-neut{font-size:0.72rem;color:#8b949e;font-weight:600}
 .footer{text-align:center;padding:2rem;color:#6e7681;font-size:0.75rem;border-top:1px solid #21262d;background:#0d1117}
 .disclaimer{background:#1c2128;border:1px solid #d2992244;border-radius:8px;padding:0.9rem 1.1rem;margin-bottom:1.5rem;font-size:0.78rem;color:#d29922}
 .screener-wrapper{height:520px;background:#161b22;border:1px solid #21262d;border-radius:10px;overflow:hidden}
@@ -91,11 +104,11 @@ table a:hover{text-decoration:underline}
 {
 "symbols":[
 {"description":"WULF","proName":"NASDAQ:WULF"},
+{"description":"CIFR","proName":"NASDAQ:CIFR"},
+{"description":"IREN","proName":"NASDAQ:IREN"},
 {"description":"SLNH","proName":"NASDAQ:SLNH"},
 {"description":"BGDE","proName":"NASDAQ:BGDE"},
-{"description":"IREN","proName":"NASDAQ:IREN"},
 {"description":"CORZ","proName":"NASDAQ:CORZ"},
-{"description":"CIFR","proName":"NASDAQ:CIFR"},
 {"description":"HUT","proName":"NASDAQ:HUT"},
 {"description":"CLSK","proName":"NASDAQ:CLSK"},
 {"description":"APLD","proName":"NASDAQ:APLD"},
@@ -107,11 +120,7 @@ table a:hover{text-decoration:underline}
 {"description":"HIVE","proName":"NASDAQ:HIVE"},
 {"description":"BTC","proName":"BITSTAMP:BTCUSD"}
 ],
-"showSymbolLogo":true,
-"isTransparent":true,
-"displayMode":"adaptive",
-"colorTheme":"dark",
-"locale":"en"
+"showSymbolLogo":true,"isTransparent":true,"displayMode":"adaptive","colorTheme":"dark","locale":"en"
 }
 </script>
 </div>
@@ -119,7 +128,7 @@ table a:hover{text-decoration:underline}
 
 <div class="container">
 
-<div class="disclaimer">Charts and TA panels stream live from TradingView. Data freshness depends on your TradingView subscription level. Not financial advice.</div>
+<div class="disclaimer">Charts stream live from TradingView. Fundamentals reflect last public reporting and are refreshed daily. Score columns marked Phase 1 will populate once the daily TA snapshot pipeline ships. Not financial advice.</div>
 
 <section class="section">
 <div class="section-header"><h2>Core Holdings Live</h2><span class="live-badge">Live</span><span class="count">5 positions</span></div>
@@ -129,34 +138,26 @@ table a:hover{text-decoration:underline}
 <div class="core-head">
 <div class="core-ticker">WULF</div>
 <div class="core-company">TeraWulf Inc.</div>
-<div class="core-catalyst"><strong>Position:</strong> 4,500 shares @ $21.76 last. P&amp;L +$2,047. <strong>Catalyst:</strong> Q1 earnings Friday May 8, 8:00 a.m. ET. Morgan Stanley to $41.50, Northland $30, KBW $25.</div>
+<div class="position-line">Position: 4,500 shares · last $21.76 · <span class="pl-up">P&amp;L +$2,047</span></div>
 </div>
 <div class="core-chart">
 <div class="tradingview-widget-container" style="height:100%;width:100%">
 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
-{
-"symbols":[["TeraWulf","NASDAQ:WULF|3M"]],
-"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,
-"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,
-"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10",
-"changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,
-"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],
-"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"
-}
+{"symbols":[["TeraWulf","NASDAQ:WULF|3M"]],"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10","changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"}
 </script>
 </div>
 </div>
-<div class="core-ta">
-<div class="tradingview-widget-container" style="height:100%;width:100%">
-<div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
-{
-"interval":"1D","width":"100%","isTransparent":true,"height":"100%","symbol":"NASDAQ:WULF",
-"showIntervalTabs":true,"displayMode":"single","locale":"en","colorTheme":"dark"
-}
-</script>
+<div class="core-fundamentals">
+<div class="fund-grid">
+<div class="fund-row"><span class="label">Market Cap</span><span class="value">~$8.6B</span></div>
+<div class="fund-row"><span class="label">52W Range</span><span class="value">$2.30 - $24.80</span></div>
+<div class="fund-row"><span class="label">Short Interest</span><span class="value">~14%</span></div>
+<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">~25M</span></div>
+<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value pending">Phase 1</span></div>
+<div class="fund-row"><span class="label">Setup / Hype</span><span class="value pending">Phase 1</span></div>
 </div>
+<div class="catalyst-line"><strong>Catalyst:</strong> Q1 earnings call Friday May 8 8:00 a.m. ET. Morgan Stanley raised PT to $41.50 (from $37), Northland to $30 (from $23.25), KBW to $25 (from $23). HPC hosting now over 50% of revenue, on track to 70%+ by 2027.</div>
 </div>
 </div>
 
@@ -164,34 +165,26 @@ table a:hover{text-decoration:underline}
 <div class="core-head">
 <div class="core-ticker">CIFR</div>
 <div class="core-company">Cipher Mining Inc.</div>
-<div class="core-catalyst"><strong>Position:</strong> 3,500 shares @ $18.11 last. P&amp;L +$3,710. <strong>Catalyst:</strong> Sector-leading 6-month run (+313% per Seeking Alpha). 76% institutional ownership. Recurring revenue profile preferred over hardware-heavy peers.</div>
+<div class="position-line">Position: 3,500 shares · last $18.11 · <span class="pl-up">P&amp;L +$3,710</span></div>
 </div>
 <div class="core-chart">
 <div class="tradingview-widget-container" style="height:100%;width:100%">
 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
-{
-"symbols":[["Cipher Mining","NASDAQ:CIFR|3M"]],
-"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,
-"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,
-"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10",
-"changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,
-"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],
-"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"
-}
+{"symbols":[["Cipher Mining","NASDAQ:CIFR|3M"]],"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10","changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"}
 </script>
 </div>
 </div>
-<div class="core-ta">
-<div class="tradingview-widget-container" style="height:100%;width:100%">
-<div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
-{
-"interval":"1D","width":"100%","isTransparent":true,"height":"100%","symbol":"NASDAQ:CIFR",
-"showIntervalTabs":true,"displayMode":"single","locale":"en","colorTheme":"dark"
-}
-</script>
+<div class="core-fundamentals">
+<div class="fund-grid">
+<div class="fund-row"><span class="label">Market Cap</span><span class="value">~$5.5B</span></div>
+<div class="fund-row"><span class="label">52W Range</span><span class="value">~$2.50 - $19.50</span></div>
+<div class="fund-row"><span class="label">Inst Ownership</span><span class="value">76%</span></div>
+<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">~22M</span></div>
+<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value pending">Phase 1</span></div>
+<div class="fund-row"><span class="label">Setup / Hype</span><span class="value pending">Phase 1</span></div>
 </div>
+<div class="catalyst-line"><strong>Catalyst:</strong> Up roughly 313% over 6 months per Seeking Alpha, leading the AI-pivot cohort. Recurring revenue profile preferred over hardware-heavy peers. Highest institutional ownership in the universe outside CORZ. Watch for follow-up HPC contract.</div>
 </div>
 </div>
 
@@ -199,34 +192,26 @@ table a:hover{text-decoration:underline}
 <div class="core-head">
 <div class="core-ticker">IREN</div>
 <div class="core-company">IREN Limited</div>
-<div class="core-catalyst"><strong>Position:</strong> 1,000 shares @ $50.05 last. P&amp;L +$4,460. <strong>Catalyst:</strong> $9.7B Microsoft AI cloud contract. $1.94B ARR at ~85% project EBITDA. GPU fleet scaling 23K to 140K by year-end.</div>
+<div class="position-line">Position: 1,000 shares · last $50.05 · <span class="pl-up">P&amp;L +$4,460</span></div>
 </div>
 <div class="core-chart">
 <div class="tradingview-widget-container" style="height:100%;width:100%">
 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
-{
-"symbols":[["IREN","NASDAQ:IREN|3M"]],
-"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,
-"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,
-"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10",
-"changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,
-"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],
-"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"
-}
+{"symbols":[["IREN","NASDAQ:IREN|3M"]],"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10","changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"}
 </script>
 </div>
 </div>
-<div class="core-ta">
-<div class="tradingview-widget-container" style="height:100%;width:100%">
-<div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
-{
-"interval":"1D","width":"100%","isTransparent":true,"height":"100%","symbol":"NASDAQ:IREN",
-"showIntervalTabs":true,"displayMode":"single","locale":"en","colorTheme":"dark"
-}
-</script>
+<div class="core-fundamentals">
+<div class="fund-grid">
+<div class="fund-row"><span class="label">Market Cap</span><span class="value">~$13B</span></div>
+<div class="fund-row"><span class="label">52W Range</span><span class="value">~$8.00 - $52.00</span></div>
+<div class="fund-row"><span class="label">Short Interest</span><span class="value">~9%</span></div>
+<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">~10M</span></div>
+<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value pending">Phase 1</span></div>
+<div class="fund-row"><span class="label">Setup / Hype</span><span class="value pending">Phase 1</span></div>
 </div>
+<div class="catalyst-line"><strong>Catalyst:</strong> $9.7B Microsoft AI cloud contract for 200 MW at Childress, Texas. Expected $1.94B ARR at ~85% project EBITDA margins. GPU fleet scaling 23K to 140K by year-end. $3.4B AI cloud ARR target. Highest beta to AI-pivot narrative in the universe.</div>
 </div>
 </div>
 
@@ -234,34 +219,26 @@ table a:hover{text-decoration:underline}
 <div class="core-head">
 <div class="core-ticker">SLNH</div>
 <div class="core-company">Soluna Holdings Inc.</div>
-<div class="core-catalyst"><strong>Position:</strong> 266,000 shares @ $1.32 last. P&amp;L -$69,278. <strong>Catalyst:</strong> Regained Nasdaq compliance May 1. Watch ~29M-share resale overhang. Silverton Texas site bought for $16.5M. Blockware deployed capacity now over 17 MW.</div>
+<div class="position-line">Position: 266,000 shares · last $1.32 · <span class="pl-dn">P&amp;L -$69,278</span></div>
 </div>
 <div class="core-chart">
 <div class="tradingview-widget-container" style="height:100%;width:100%">
 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
-{
-"symbols":[["Soluna","NASDAQ:SLNH|3M"]],
-"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,
-"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,
-"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10",
-"changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,
-"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],
-"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"
-}
+{"symbols":[["Soluna","NASDAQ:SLNH|3M"]],"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10","changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"}
 </script>
 </div>
 </div>
-<div class="core-ta">
-<div class="tradingview-widget-container" style="height:100%;width:100%">
-<div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
-{
-"interval":"1D","width":"100%","isTransparent":true,"height":"100%","symbol":"NASDAQ:SLNH",
-"showIntervalTabs":true,"displayMode":"single","locale":"en","colorTheme":"dark"
-}
-</script>
+<div class="core-fundamentals">
+<div class="fund-grid">
+<div class="fund-row"><span class="label">Market Cap</span><span class="value">~$45M</span></div>
+<div class="fund-row"><span class="label">52W Range</span><span class="value">$0.62 - $4.45</span></div>
+<div class="fund-row"><span class="label">Resale Overhang</span><span class="value">~29M shares</span></div>
+<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">~3M</span></div>
+<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value pending">Phase 1</span></div>
+<div class="fund-row"><span class="label">Setup / Hype</span><span class="value pending">Phase 1</span></div>
 </div>
+<div class="catalyst-line"><strong>Catalyst:</strong> Regained Nasdaq min-bid compliance May 1 (closed above $1.00 for ten consecutive trading days). Two recent resale registrations totalling ~29M shares are the dominant near-term overhang. $16.5M Silverton Texas site acquisition adds capacity. Blockware deployment now over 17 MW.</div>
 </div>
 </div>
 
@@ -269,80 +246,29 @@ table a:hover{text-decoration:underline}
 <div class="core-head">
 <div class="core-ticker">BGDE <span style="font-size:0.75rem;color:#8b949e;font-weight:400;margin-left:0.4rem">(formerly MIGI)</span></div>
 <div class="core-company">Big Digital Energy</div>
-<div class="core-catalyst"><strong>Position:</strong> 6,800 shares @ $4.78 last. P&amp;L +$816. <strong>Catalyst:</strong> Symbol changed from MIGI to BGDE on April 30. Strategic Joint Mining Agreement announced early May. AI/HPC pivot continuing.</div>
+<div class="position-line">Position: 6,800 shares · last $4.78 · <span class="pl-up">P&amp;L +$816</span></div>
 </div>
 <div class="core-chart">
 <div class="tradingview-widget-container" style="height:100%;width:100%">
 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
-{
-"symbols":[["Big Digital Energy","NASDAQ:BGDE|3M"]],
-"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,
-"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,
-"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10",
-"changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,
-"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],
-"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"
-}
+{"symbols":[["Big Digital Energy","NASDAQ:BGDE|3M"]],"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10","changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"}
 </script>
 </div>
 </div>
-<div class="core-ta">
-<div class="tradingview-widget-container" style="height:100%;width:100%">
-<div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
-{
-"interval":"1D","width":"100%","isTransparent":true,"height":"100%","symbol":"NASDAQ:BGDE",
-"showIntervalTabs":true,"displayMode":"single","locale":"en","colorTheme":"dark"
-}
-</script>
+<div class="core-fundamentals">
+<div class="fund-grid">
+<div class="fund-row"><span class="label">Market Cap</span><span class="value">~$95M</span></div>
+<div class="fund-row"><span class="label">52W Range</span><span class="value">$1.85 - $9.10</span></div>
+<div class="fund-row"><span class="label">Short Interest</span><span class="value">~5%</span></div>
+<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">~1.5M</span></div>
+<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value pending">Phase 1</span></div>
+<div class="fund-row"><span class="label">Setup / Hype</span><span class="value pending">Phase 1</span></div>
+</div>
+<div class="catalyst-line"><strong>Catalyst:</strong> Symbol changed from MIGI to BGDE on April 30. Strategic Joint Mining Agreement announced early May. Now positioned as colocation / hosting for compute-intensive workloads alongside the existing BTC-mining operations. Watch for follow-up AI-hosting contract.</div>
 </div>
 </div>
-</div>
 
-</div>
-</section>
-
-<section class="section">
-<div class="section-header"><h2>Peer Heatmap</h2><span class="live-badge">Live</span><span class="count">10 peers (1M)</span></div>
-<div class="heatmap-grid-live">
-
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:CORZ","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:HUT","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:CLSK","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:APLD","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:MARA","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:RIOT","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:BTDR","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:BITF","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:BTBT","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-
-<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:HIVE","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
-
-</div>
-</section>
-
-<section class="section">
-<div class="section-header"><h2>Sector Screener</h2><span class="live-badge">Live</span><span class="count">All 15 names</span></div>
-<div class="screener-wrapper">
-<div class="tradingview-widget-container" style="height:100%;width:100%">
-<div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-{
-"width":"100%","height":"100%","defaultColumn":"overview","defaultScreen":"general",
-"market":"america","showToolbar":true,"colorTheme":"dark","locale":"en","isTransparent":true,
-"symbolsList":["NASDAQ:WULF","NASDAQ:SLNH","NASDAQ:BGDE","NASDAQ:IREN","NASDAQ:CORZ","NASDAQ:CIFR","NASDAQ:HUT","NASDAQ:CLSK","NASDAQ:APLD","NASDAQ:MARA","NASDAQ:RIOT","NASDAQ:BTDR","NASDAQ:BITF","NASDAQ:BTBT","NASDAQ:HIVE"]
-}
-</script>
-</div>
 </div>
 </section>
 
@@ -362,4 +288,56 @@ table a:hover{text-decoration:underline}
 
 <div class="alert-item analyst">
 <div class="alert-header"><span class="ticker-badge">WULF</span><span class="category-badge category-analyst">Analyst</span><span class="timestamp">May 4</span></div>
-<div class="alert-body">Northland raised WULF target to $30 from $23.25, flagging the 480 MW Kentucky site as a nea
+<div class="alert-body">Northland raised WULF target to $30 from $23.25, flagging the 480 MW Kentucky site as a near-term catalyst. KBW lifted target to $25 from $23 with Outperform.</div>
+</div>
+
+<div class="alert-item news">
+<div class="alert-header"><span class="ticker-badge">SLNH</span><span class="category-badge category-news">News</span><span class="timestamp">May 1</span></div>
+<div class="alert-body">Soluna confirmed it regained Nasdaq minimum bid price compliance after closing at or above $1.00 for ten consecutive trading days from April 14 to 29.</div>
+</div>
+
+<div class="alert-item news">
+<div class="alert-header"><span class="ticker-badge">SLNH</span><span class="category-badge category-news">News</span><span class="timestamp">May 1</span></div>
+<div class="alert-body">Resale registrations totalling ~29M shares emerge as a meaningful supply overhang. Stock fell 15.5% on May 4 before recovering.</div>
+</div>
+
+<div class="alert-item contract">
+<div class="alert-header"><span class="ticker-badge">BGDE</span><span class="category-badge category-contract">Contract</span><span class="timestamp">May 1</span></div>
+<div class="alert-body">BGDE (formerly MIGI) announced a Strategic Joint Mining Agreement extending its bitcoin mining capacity. Ticker change from MIGI to BGDE took effect April 30.</div>
+</div>
+
+<div class="alert-item contract">
+<div class="alert-header"><span class="ticker-badge">HUT</span><span class="category-badge category-contract">Contract</span><span class="timestamp">Apr 30</span></div>
+<div class="alert-body">Hut 8 finalised $7B, 15-year Fluidstack lease for 245 MW at River Bend, Louisiana. First data hall targeted early 2027.</div>
+</div>
+
+<div class="alert-item contract">
+<div class="alert-header"><span class="ticker-badge">CORZ</span><span class="category-badge category-contract">Contract</span><span class="timestamp">Apr 28</span></div>
+<div class="alert-body">CoreWeave deal expanded to $10.2B over 12 years. 200 MW currently billing of 350 MW energised. Full 590 MW targeted early 2027.</div>
+</div>
+
+<div class="alert-item news">
+<div class="alert-header"><span class="ticker-badge">APLD</span><span class="category-badge category-news">News</span><span class="timestamp">Apr 28</span></div>
+<div class="alert-body">Applied Digital beat Wall Street expectations on its latest report, helped by its hosting business and AI cloud sub-segment.</div>
+</div>
+
+<div class="alert-item contract">
+<div class="alert-header"><span class="ticker-badge">WULF</span><span class="category-badge category-contract">Contract</span><span class="timestamp">Apr 25</span></div>
+<div class="alert-body">TeraWulf and Fluidstack priced project financing for a 168 MW HPC compute joint venture, supporting an additional buildout that should contribute to revenue in 2027.</div>
+</div>
+
+<div class="alert-item contract">
+<div class="alert-header"><span class="ticker-badge">IREN</span><span class="category-badge category-contract">Contract</span><span class="timestamp">Apr 22</span></div>
+<div class="alert-body">IREN confirmed $9.7B AI cloud contract with Microsoft for 200 MW at Childress, Texas. Expected $1.94B ARR at ~85% project EBITDA margins.</div>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="section-header"><h2>SEC Filings</h2><span class="count">7 filings</span></div>
+<table>
+<thead><tr><th>Date</th><th>Ticker</th><th>Type</th><th>Summary</th><th>Link</th></tr></thead>
+<tbody>
+<tr><td>May 1, 2026</td><td>SLNH</td><td>8-K</td><td>Reports regaining Nasdaq minimum bid price compliance after April 14-29 closing series above $1.00.</td><td><a href="https://www.stocktitan.net/sec-filings/SLNH/8-k-soluna-holdings-inc-reports-material-event-0dad85e71b66.html">Filing</a></td></tr>
+<tr><td>Apr 30, 2026</td><td>MIGI / BGDE</td><td>8-K</td><td>Name and ticker change to Big Digital Energy / BGDE effective Apr 30; symbol change confirmation.</td><td><a href="https://www.stocktitan.net/overvi
