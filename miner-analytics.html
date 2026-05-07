@@ -8,8 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
+<style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Inter',sans-serif;background:#0d1117;color:#c9d1d9;line-height:1.6}
 .masthead{text-align:center;padding:2rem 1.2rem 1.2rem;border-bottom:3px solid #21262d;background:#0d1117}
 .masthead h1{font-family:'Newsreader',serif;font-size:2.5rem;letter-spacing:0.15em;font-weight:700;color:#c9d1d9}
@@ -20,7 +19,7 @@ body{font-family:'Inter',sans-serif;background:#0d1117;color:#c9d1d9;line-height
 .tab-bar a:hover{color:#c9d1d9;background:#1c2128}
 .tab-bar a.active{color:#58a6ff;border-bottom-color:#58a6ff}
 .ticker-tape-wrapper{background:#0d1117;border-bottom:1px solid #21262d}
-.container{max-width:1400px;margin:0 auto;padding:1.5rem 1rem 4rem}
+.container{max-width:1480px;margin:0 auto;padding:1.5rem 1rem 4rem}
 .section{margin-bottom:2.5rem}
 .section-header{display:flex;align-items:center;gap:0.8rem;margin-bottom:1.2rem;padding-bottom:0.6rem;border-bottom:2px solid #21262d}
 .section-header h2{font-family:'Newsreader',serif;font-size:1.5rem;font-weight:700;color:#c9d1d9}
@@ -28,28 +27,87 @@ body{font-family:'Inter',sans-serif;background:#0d1117;color:#c9d1d9;line-height
 .live-badge{display:inline-flex;align-items:center;gap:0.35rem;font-size:0.7rem;color:#3fb950;font-weight:600;text-transform:uppercase;letter-spacing:0.05em}
 .live-badge::before{content:'';width:7px;height:7px;border-radius:50%;background:#3fb950;animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
-.core-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:1.2rem}
+.disclaimer{background:#1c2128;border:1px solid #d2992244;border-radius:8px;padding:0.9rem 1.1rem;margin-bottom:1.5rem;font-size:0.78rem;color:#d29922}
+.muted{color:#8b949e}
+/* Scoreboard table */
+.scoreboard{overflow-x:auto;background:#161b22;border:1px solid #21262d;border-radius:10px}
+.scoreboard table{width:100%;border-collapse:collapse;font-size:0.82rem;min-width:1200px}
+.scoreboard th{background:#1c2128;padding:0.7rem 0.7rem;text-align:left;font-weight:600;color:#8b949e;font-size:0.7rem;text-transform:uppercase;letter-spacing:0.05em;border-bottom:1px solid #21262d;cursor:pointer;user-select:none}
+.scoreboard th:hover{color:#c9d1d9}
+.scoreboard td{padding:0.55rem 0.7rem;border-bottom:1px solid #21262d}
+.scoreboard tr:last-child td{border-bottom:none}
+.scoreboard .up{color:#3fb950}
+.scoreboard .down{color:#f85149}
+.scoreboard .flat{color:#8b949e}
+.scoreboard .tier-core{background:#1f6feb44;color:#58a6ff;padding:0.05rem 0.35rem;border-radius:3px;font-size:0.65rem;font-weight:700;text-transform:uppercase;margin-left:0.3rem}
+.scoreboard .tier-pivot{background:#7b2d8e44;color:#c084fc;padding:0.05rem 0.35rem;border-radius:3px;font-size:0.65rem;font-weight:700;text-transform:uppercase;margin-left:0.3rem}
+.scoreboard .tier-btc{background:#d2992244;color:#d29922;padding:0.05rem 0.35rem;border-radius:3px;font-size:0.65rem;font-weight:700;text-transform:uppercase;margin-left:0.3rem}
+/* RSI color cells */
+.rsi-extreme{color:#f85149;font-weight:600}
+.rsi-hot{color:#d29922;font-weight:600}
+.rsi-warm{color:#58a6ff}
+.rsi-cool{color:#8b949e}
+.rsi-cold{color:#3fb950}
+/* Score colors (cells in table) */
+.sc-low{background:#f8514922;color:#f85149;font-weight:600}
+.sc-mid{background:#d2992222;color:#d29922;font-weight:600}
+.sc-good{background:#3fb95022;color:#3fb950;font-weight:600}
+.sc-great{background:#3fb95044;color:#3fb950;font-weight:700}
+.sc-late{background:#f8514944;color:#f85149;font-weight:700}
+.sc-na{background:#21262d;color:#8b949e}
+/* Hype Stage colors */
+.hs-0{background:#21262d;color:#8b949e;padding:0.15rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600}
+.hs-1{background:#3fb95022;color:#3fb950;padding:0.15rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600}
+.hs-2{background:#58a6ff22;color:#58a6ff;padding:0.15rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600}
+.hs-3{background:#d2992233;color:#d29922;padding:0.15rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:700}
+.hs-4{background:#f8514933;color:#f85149;padding:0.15rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:700}
+.hs-5{background:#5a0a0a;color:#fbb;padding:0.15rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:700}
+.hs-na{background:#21262d;color:#666;padding:0.15rem 0.4rem;border-radius:3px;font-size:0.7rem}
+/* Sentiment colors */
+.sent-eup{background:#7b2d8e44;color:#e879f9;padding:0.15rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:700}
+.sent-bull{background:#3fb95022;color:#3fb950;padding:0.15rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600}
+.sent-mix{background:#d2992222;color:#d29922;padding:0.15rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600}
+.sent-bear{background:#f8514922;color:#f85149;padding:0.15rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600}
+.sent-neut{background:#21262d;color:#8b949e;padding:0.15rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600}
+/* Core Holdings */
+.core-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:1.2rem}
 .core-card{background:#161b22;border:1px solid #21262d;border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
-.core-head{padding:0.9rem 1.2rem;border-bottom:1px solid #21262d}
+.core-head{padding:0.85rem 1.2rem;border-bottom:1px solid #21262d}
 .core-ticker{font-size:1.3rem;font-weight:700;color:#58a6ff}
 .core-company{font-size:0.82rem;color:#8b949e;margin-top:0.05rem}
-.position-line{font-size:0.78rem;color:#c9d1d9;margin-top:0.5rem;padding-top:0.5rem;border-top:1px dotted #21262d}
-.position-line .pl-up{color:#3fb950;font-weight:600}
-.position-line .pl-dn{color:#f85149;font-weight:600}
 .core-chart{height:280px;background:#0d1117}
 .core-fundamentals{padding:0.9rem 1.2rem;border-top:1px solid #21262d;background:#0d1117;flex:1}
 .fund-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0 1rem;margin-bottom:0.8rem}
-.fund-row{display:flex;justify-content:space-between;border-bottom:1px dotted #21262d;padding:0.35rem 0;font-size:0.78rem}
-.fund-row:nth-last-child(1),.fund-row:nth-last-child(2){border-bottom:none}
+.fund-row{display:flex;justify-content:space-between;border-bottom:1px dotted #21262d;padding:0.32rem 0;font-size:0.78rem}
 .fund-row .label{color:#8b949e}
 .fund-row .value{color:#c9d1d9;font-weight:500}
-.fund-row .value.pending{color:#d29922;font-style:italic;font-size:0.72rem}
-.catalyst-line{font-size:0.8rem;color:#c9d1d9;line-height:1.55;padding-top:0.7rem;border-top:1px solid #21262d}
+.fund-row .up{color:#3fb950}
+.fund-row .down{color:#f85149}
+.score-block{display:flex;flex-wrap:wrap;gap:0.4rem;margin:0.7rem 0;padding-top:0.6rem;border-top:1px solid #21262d}
+.score-pill{padding:0.25rem 0.6rem;border-radius:5px;font-size:0.74rem;font-weight:600}
+.score-pill strong{font-weight:700;margin-left:0.25rem}
+.action-line{font-size:0.78rem;color:#c9d1d9;background:#0d1117;border:1px solid #21262d;border-radius:6px;padding:0.55rem 0.8rem;margin-bottom:0.6rem}
+.action-line strong{color:#58a6ff}
+.catalyst-line{font-size:0.78rem;color:#c9d1d9;line-height:1.55;padding-top:0.7rem;border-top:1px solid #21262d}
 .catalyst-line strong{color:#d29922}
+/* Sentiment Cockpit */
+.sent-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:0.9rem}
+.sent-card{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:0.95rem 1.1rem}
+.sent-head{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.6rem;flex-wrap:wrap}
+.ticker-badge{background:#1f6feb44;color:#58a6ff;padding:0.15rem 0.5rem;border-radius:4px;font-size:0.72rem;font-weight:700}
+.sent-pct{margin-left:auto;font-size:0.75rem;color:#8b949e}
+.sent-stats{display:flex;flex-direction:column;gap:0.3rem;margin-bottom:0.55rem}
+.sent-stat{display:flex;justify-content:space-between;font-size:0.77rem;border-bottom:1px dotted #21262d;padding:0.2rem 0}
+.sent-stat .label{color:#8b949e}
+.sent-stat .value{color:#c9d1d9}
+.sent-alpha{font-size:0.78rem;color:#c9d1d9;line-height:1.5;padding-top:0.5rem;border-top:1px solid #21262d}
+.sent-alpha strong{color:#58a6ff}
+/* Heatmap */
 .heatmap-grid-live{display:grid;grid-template-columns:repeat(5,1fr);gap:0.7rem}
 @media(max-width:1100px){.heatmap-grid-live{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:600px){.heatmap-grid-live{grid-template-columns:repeat(2,1fr)}}
 .heatmap-cell-live{background:#161b22;border:1px solid #21262d;border-radius:8px;height:140px;overflow:hidden}
+/* Alert Feed */
 .alert-feed{display:flex;flex-direction:column;gap:0.7rem}
 .alert-item{background:#161b22;border:1px solid #21262d;border-left:3px solid #58a6ff;border-radius:8px;padding:0.9rem 1.1rem}
 .alert-item.activist{border-left-color:#f85149}
@@ -58,7 +116,6 @@ body{font-family:'Inter',sans-serif;background:#0d1117;color:#c9d1d9;line-height
 .alert-item.contract{border-left-color:#d29922}
 .alert-item.news{border-left-color:#58a6ff}
 .alert-header{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;flex-wrap:wrap}
-.ticker-badge{background:#1f6feb44;color:#58a6ff;padding:0.15rem 0.5rem;border-radius:4px;font-size:0.72rem;font-weight:700}
 .category-badge{padding:0.15rem 0.5rem;border-radius:4px;font-size:0.7rem;font-weight:600;text-transform:uppercase}
 .category-insider{background:#3fb95044;color:#3fb950}
 .category-analyst{background:#58a6ff44;color:#58a6ff}
@@ -67,26 +124,18 @@ body{font-family:'Inter',sans-serif;background:#0d1117;color:#c9d1d9;line-height
 .category-activist{background:#f8514944;color:#f85149}
 .alert-item .timestamp{font-size:0.72rem;color:#8b949e;margin-left:auto}
 .alert-item .alert-body{font-size:0.86rem;color:#c9d1d9;line-height:1.5}
-table{width:100%;border-collapse:collapse;background:#161b22;border:1px solid #21262d;border-radius:8px;overflow:hidden;font-size:0.85rem}
-table th{background:#1c2128;padding:0.7rem 0.9rem;text-align:left;font-weight:600;color:#8b949e;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;border-bottom:1px solid #21262d}
-table td{padding:0.7rem 0.9rem;border-bottom:1px solid #21262d;color:#c9d1d9}
-table tr:last-child td{border-bottom:none}
-table a{color:#58a6ff;text-decoration:none}
-table a:hover{text-decoration:underline}
+/* Tables */
+table.std{width:100%;border-collapse:collapse;background:#161b22;border:1px solid #21262d;border-radius:8px;overflow:hidden;font-size:0.85rem}
+table.std th{background:#1c2128;padding:0.7rem 0.9rem;text-align:left;font-weight:600;color:#8b949e;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;border-bottom:1px solid #21262d}
+table.std td{padding:0.7rem 0.9rem;border-bottom:1px solid #21262d;color:#c9d1d9}
+table.std tr:last-child td{border-bottom:none}
+table.std a{color:#58a6ff;text-decoration:none}
+table.std a:hover{text-decoration:underline}
 .context-box{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:1.4rem 1.6rem;line-height:1.7;color:#c9d1d9;font-size:0.9rem}
 .context-box p{margin-bottom:0.8rem}
 .context-box p:last-child{margin-bottom:0}
-.community-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
-.community-card{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:1rem 1.2rem;font-size:0.85rem}
-.community-card .ticker-line{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem}
-.community-card .sentiment{color:#c9d1d9;line-height:1.5}
-.tag-bull{font-size:0.72rem;color:#3fb950;font-weight:600}
-.tag-mix{font-size:0.72rem;color:#d29922;font-weight:600}
-.tag-bear{font-size:0.72rem;color:#f85149;font-weight:600}
-.tag-neut{font-size:0.72rem;color:#8b949e;font-weight:600}
-.footer{text-align:center;padding:2rem;color:#6e7681;font-size:0.75rem;border-top:1px solid #21262d;background:#0d1117}
-.disclaimer{background:#1c2128;border:1px solid #d2992244;border-radius:8px;padding:0.9rem 1.1rem;margin-bottom:1.5rem;font-size:0.78rem;color:#d29922}
 .screener-wrapper{height:520px;background:#161b22;border:1px solid #21262d;border-radius:10px;overflow:hidden}
+.footer{text-align:center;padding:2rem;color:#6e7681;font-size:0.75rem;border-top:1px solid #21262d;background:#0d1117}
 </style>
 </head>
 <body>
@@ -96,44 +145,255 @@ table a:hover{text-decoration:underline}
 <div class="tagline">BTC miner-to-HPC positioning</div>
 </header>
 <nav class="tab-bar"><a href="index.html">News</a><a href="miner-analytics.html" class="active">AI / HPC Analytics</a></nav>
-
 <div class="ticker-tape-wrapper">
 <div class="tradingview-widget-container">
 <div class="tradingview-widget-container__widget"></div>
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-{
-"symbols":[
-{"description":"WULF","proName":"NASDAQ:WULF"},
-{"description":"CIFR","proName":"NASDAQ:CIFR"},
-{"description":"IREN","proName":"NASDAQ:IREN"},
-{"description":"SLNH","proName":"NASDAQ:SLNH"},
-{"description":"BGDE","proName":"NASDAQ:BGDE"},
-{"description":"CORZ","proName":"NASDAQ:CORZ"},
-{"description":"HUT","proName":"NASDAQ:HUT"},
-{"description":"CLSK","proName":"NASDAQ:CLSK"},
-{"description":"APLD","proName":"NASDAQ:APLD"},
-{"description":"MARA","proName":"NASDAQ:MARA"},
-{"description":"RIOT","proName":"NASDAQ:RIOT"},
-{"description":"BTDR","proName":"NASDAQ:BTDR"},
-{"description":"BITF","proName":"NASDAQ:BITF"},
-{"description":"BTBT","proName":"NASDAQ:BTBT"},
-{"description":"HIVE","proName":"NASDAQ:HIVE"},
-{"description":"BTC","proName":"BITSTAMP:BTCUSD"}
-],
-"showSymbolLogo":true,"isTransparent":true,"displayMode":"adaptive","colorTheme":"dark","locale":"en"
-}
+{"symbols":[{"description":"WULF","proName":"NASDAQ:WULF"},{"description":"CIFR","proName":"NASDAQ:CIFR"},{"description":"IREN","proName":"NASDAQ:IREN"},{"description":"SLNH","proName":"NASDAQ:SLNH"},{"description":"BGDE","proName":"NASDAQ:BGDE"},{"description":"CORZ","proName":"NASDAQ:CORZ"},{"description":"HUT","proName":"NASDAQ:HUT"},{"description":"CLSK","proName":"NASDAQ:CLSK"},{"description":"APLD","proName":"NASDAQ:APLD"},{"description":"MARA","proName":"NASDAQ:MARA"},{"description":"RIOT","proName":"NASDAQ:RIOT"},{"description":"BTDR","proName":"NASDAQ:BTDR"},{"description":"BITF","proName":"NASDAQ:BITF"},{"description":"BTBT","proName":"NASDAQ:BTBT"},{"description":"HIVE","proName":"NASDAQ:HIVE"},{"description":"BTC","proName":"BITSTAMP:BTCUSD"}],"showSymbolLogo":true,"isTransparent":true,"displayMode":"adaptive","colorTheme":"dark","locale":"en"}
 </script>
 </div>
 </div>
-
 <div class="container">
-
-<div class="disclaimer">Charts stream live from TradingView. Fundamentals reflect last public reporting and are refreshed daily. Score columns marked Phase 1 will populate once the daily TA snapshot pipeline ships. Not financial advice.</div>
-
+<div class="disclaimer">TA snapshot fetched <strong>2026-05-07 02:59:37 UTC</strong> via TradingView screener. Social signals from StockTwits + Reddit. Charts stream live from TradingView. Composite scores (Setup, Pivot Conviction, Hype Stage) are computed locally from public indicators; weights documented in /AI-HPC-Analytics-TA-Proposal.md. Not financial advice.</div>
+<section class="section">
+<div class="section-header"><h2>TA Scoreboard</h2><span class="live-badge">Live</span><span class="count">15 names · daily snapshot</span></div>
+<div class="scoreboard">
+<table id="ta-table">
+<thead><tr>
+<th data-col="0">Ticker</th>
+<th data-col="1" data-type="num">Last</th>
+<th data-col="2" data-type="num">Day %</th>
+<th data-col="3" data-type="num">5d %</th>
+<th data-col="4" data-type="num">1M %</th>
+<th data-col="5" data-type="num">RSI(D)</th>
+<th data-col="6" data-type="num">RSI(W)</th>
+<th data-col="7">MACD</th>
+<th data-col="8">MA Stack</th>
+<th data-col="9" data-type="num">Setup</th>
+<th data-col="10" data-type="num">Pivot</th>
+<th data-col="11">Hype Stage</th>
+<th data-col="12">Sentiment</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>WULF</strong> <span class="tier-core">core</span></td>
+<td>$25.74</td>
+<td class="up">+9.58%</td>
+<td class="up">+21.3%</td>
+<td class="up">+72.3%</td>
+<td class="rsi-hot">73.7</td>
+<td class="rsi-hot">77.1</td>
+<td class="up">↑</td>
+<td>4/4</td>
+<td class="sc-good">69</td>
+<td class="sc-great">85</td>
+<td class="hs-2">Hot</td>
+<td class="sent-bull">Bullish</td>
+</tr>
+<tr>
+<td><strong>CIFR</strong> <span class="tier-core">core</span></td>
+<td>$21.91</td>
+<td class="down">-0.86%</td>
+<td class="up">+25.6%</td>
+<td class="up">+71.4%</td>
+<td class="rsi-warm">67.5</td>
+<td class="rsi-warm">63.7</td>
+<td class="up">↑</td>
+<td>4/4</td>
+<td class="sc-good">65</td>
+<td class="sc-late">88</td>
+<td class="hs-2">Hot</td>
+<td class="sent-eup">Retail euphoria</td>
+</tr>
+<tr>
+<td><strong>IREN</strong> <span class="tier-core">core</span></td>
+<td>$60.98</td>
+<td class="up">+11.40%</td>
+<td class="up">+36.5%</td>
+<td class="up">+75.6%</td>
+<td class="rsi-hot">71.3</td>
+<td class="rsi-warm">64.4</td>
+<td class="up">↑</td>
+<td>4/4</td>
+<td class="sc-good">65</td>
+<td class="sc-late">95</td>
+<td class="hs-2">Hot</td>
+<td class="sent-eup">Retail euphoria</td>
+</tr>
+<tr>
+<td><strong>SLNH</strong> <span class="tier-core">core</span></td>
+<td>$1.62</td>
+<td class="up">+4.52%</td>
+<td class="up">+52.8%</td>
+<td class="up">+128.2%</td>
+<td class="rsi-warm">63.6</td>
+<td class="rsi-warm">57.4</td>
+<td class="up">↑</td>
+<td>4/4</td>
+<td class="sc-good">63</td>
+<td class="sc-great">83</td>
+<td class="hs-1">Building</td>
+<td class="sent-eup">Heavy bullish</td>
+</tr>
+<tr>
+<td><strong>BGDE</strong> <span class="tier-core">core</span></td>
+<td>$6.25</td>
+<td class="up">+32.98%</td>
+<td class="up">+40.4%</td>
+<td class="up">+257.1%</td>
+<td class="rsi-warm">59.7</td>
+<td class="rsi-warm">50.9</td>
+<td class="down">↓</td>
+<td>3/4</td>
+<td class="sc-good">65</td>
+<td class="sc-good">69</td>
+<td class="hs-1">Building</td>
+<td class="sent-eup">Heavy bullish</td>
+</tr>
+<tr>
+<td><strong>CORZ</strong> <span class="tier-pivot">pivot</span></td>
+<td>$24.63</td>
+<td class="up">+11.00%</td>
+<td class="up">+22.2%</td>
+<td class="up">+51.8%</td>
+<td class="rsi-hot">78.4</td>
+<td class="rsi-warm">69.8</td>
+<td class="up">↑</td>
+<td>4/4</td>
+<td class="sc-good">64</td>
+<td class="sc-great">82</td>
+<td class="hs-3">Mania</td>
+<td class="sent-eup">Heavy bullish</td>
+</tr>
+<tr>
+<td><strong>HUT</strong> <span class="tier-pivot">pivot</span></td>
+<td>$108.94</td>
+<td class="up">+35.31%</td>
+<td class="up">+49.7%</td>
+<td class="up">+124.6%</td>
+<td class="rsi-extreme">82.5</td>
+<td class="rsi-extreme">86.1</td>
+<td class="up">↑</td>
+<td>4/4</td>
+<td class="sc-good">60</td>
+<td class="sc-late">93</td>
+<td class="hs-4">Distribution</td>
+<td class="sent-bull">Bullish</td>
+</tr>
+<tr>
+<td><strong>CLSK</strong> <span class="tier-pivot">pivot</span></td>
+<td>$14.50</td>
+<td class="up">+8.13%</td>
+<td class="up">+23.8%</td>
+<td class="up">+62.9%</td>
+<td class="rsi-hot">71.5</td>
+<td class="rsi-warm">60.5</td>
+<td class="up">↑</td>
+<td>4/4</td>
+<td class="sc-good">58</td>
+<td class="sc-great">78</td>
+<td class="hs-2">Hot</td>
+<td class="sent-bull">Bullish</td>
+</tr>
+<tr>
+<td><strong>APLD</strong> <span class="tier-pivot">pivot</span></td>
+<td>$44.24</td>
+<td class="up">+10.93%</td>
+<td class="up">+36.9%</td>
+<td class="up">+77.8%</td>
+<td class="rsi-hot">74.5</td>
+<td class="rsi-warm">68.3</td>
+<td class="up">↑</td>
+<td>4/4</td>
+<td class="sc-good">58</td>
+<td class="sc-great">85</td>
+<td class="hs-1">Building</td>
+<td class="sent-bull">Bullish</td>
+</tr>
+<tr>
+<td><strong>MARA</strong> <span class="tier-btc">btc</span></td>
+<td>$13.03</td>
+<td class="up">+7.15%</td>
+<td class="up">+19.3%</td>
+<td class="up">+48.0%</td>
+<td class="rsi-warm">69.6</td>
+<td class="rsi-warm">58.0</td>
+<td class="up">↑</td>
+<td>4/4</td>
+<td class="sc-good">51</td>
+<td class="sc-good">65</td>
+<td class="hs-1">Building</td>
+<td class="sent-bull">Bullish</td>
+</tr>
+<tr>
+<td><strong>RIOT</strong> <span class="tier-btc">btc</span></td>
+<td>$23.70</td>
+<td class="up">+16.46%</td>
+<td class="up">+43.1%</td>
+<td class="up">+82.9%</td>
+<td class="rsi-hot">74.5</td>
+<td class="rsi-warm">69.9</td>
+<td class="up">↑</td>
+<td>4/4</td>
+<td class="sc-good">65</td>
+<td class="sc-late">95</td>
+<td class="hs-2">Hot</td>
+<td class="sent-eup">Retail euphoria</td>
+</tr>
+<tr>
+<td><strong>BTDR</strong> <span class="tier-btc">btc</span></td>
+<td>$15.10</td>
+<td class="up">+20.99%</td>
+<td class="up">+35.8%</td>
+<td class="up">+60.1%</td>
+<td class="rsi-hot">74.2</td>
+<td class="rsi-warm">59.2</td>
+<td class="up">↑</td>
+<td>4/4</td>
+<td class="sc-good">63</td>
+<td class="sc-great">82</td>
+<td class="hs-2">Hot</td>
+<td class="sent-eup">Heavy bullish</td>
+</tr>
+<tr><td><strong>BITF</strong></td><td colspan="11" class="muted">No TA data available</td></tr>
+<tr>
+<td><strong>BTBT</strong> <span class="tier-btc">btc</span></td>
+<td>$1.93</td>
+<td class="up">+7.82%</td>
+<td class="up">+27.8%</td>
+<td class="up">+39.9%</td>
+<td class="rsi-warm">69.1</td>
+<td class="rsi-cool">49.8</td>
+<td class="up">↑</td>
+<td>3/4</td>
+<td class="sc-good">53</td>
+<td class="sc-good">66</td>
+<td class="hs-2">Hot</td>
+<td class="sent-eup">Heavy bullish</td>
+</tr>
+<tr>
+<td><strong>HIVE</strong> <span class="tier-btc">btc</span></td>
+<td>$2.94</td>
+<td class="up">+3.52%</td>
+<td class="up">+27.3%</td>
+<td class="up">+50.0%</td>
+<td class="rsi-warm">68.7</td>
+<td class="rsi-warm">54.6</td>
+<td class="up">↑</td>
+<td>3/4</td>
+<td class="sc-mid">46</td>
+<td class="sc-mid">49</td>
+<td class="hs-1">Building</td>
+<td class="sent-bull">Bullish</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="muted" style="font-size:0.75rem;margin-top:0.6rem">Click any column header to sort. Setup / Pivot scores: 0 = avoid, 100 = strong. Hype Stage: 0 quiet → 4 distribution / 5 rolling over.</p>
+</section>
 <section class="section">
 <div class="section-header"><h2>Core Holdings Live</h2><span class="live-badge">Live</span><span class="count">5 positions</span></div>
 <div class="core-grid">
-
 <div class="core-card">
 <div class="core-head">
 <div class="core-ticker">WULF</div>
@@ -143,23 +403,31 @@ table a:hover{text-decoration:underline}
 <div class="tradingview-widget-container" style="height:100%;width:100%">
 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
-{"symbols":[["TeraWulf","NASDAQ:WULF|3M"]],"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10","changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"}
+{"symbols":[["TeraWulf Inc.","NASDAQ:WULF|3M"]],"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10","changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"}
 </script>
 </div>
 </div>
 <div class="core-fundamentals">
 <div class="fund-grid">
-<div class="fund-row"><span class="label">Market Cap</span><span class="value">~$8.6B</span></div>
-<div class="fund-row"><span class="label">52W Range</span><span class="value">$2.30 - $24.80</span></div>
-<div class="fund-row"><span class="label">Short Interest</span><span class="value">~14%</span></div>
-<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">~25M</span></div>
-<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value pending">Phase 1</span></div>
-<div class="fund-row"><span class="label">Setup / Hype</span><span class="value pending">Phase 1</span></div>
+<div class="fund-row"><span class="label">Last</span><span class="value">$25.74 <span class="up" style="font-size:0.72rem">+9.6%</span></span></div>
+<div class="fund-row"><span class="label">Market Cap</span><span class="value">$12.43B</span></div>
+<div class="fund-row"><span class="label">52W Range</span><span class="value">$2.89 - $25.76</span></div>
+<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">32.67M</span></div>
+<div class="fund-row"><span class="label">Rel Vol</span><span class="value">1.48x</span></div>
+<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value"><span class="rsi-hot">73.7</span> / <span class="rsi-hot">77.1</span></span></div>
+<div class="fund-row"><span class="label">Perf 1M / 3M</span><span class="value"><span class="up">+72.3%</span> / <span class="up">+93.4%</span></span></div>
+<div class="fund-row"><span class="label">MA Stack</span><span class="value">4 / 4</span></div>
 </div>
-<div class="catalyst-line"><strong>Catalyst:</strong> Q1 earnings call Friday May 8 8:00 a.m. ET. Morgan Stanley raised PT to $41.50 (from $37), Northland to $30 (from $23.25), KBW to $25 (from $23). HPC hosting now over 50% of revenue, on track to 70%+ by 2027.</div>
+<div class="score-block">
+<div class="score-pill sc-good">Setup <strong>69</strong></div>
+<div class="score-pill sc-great">Pivot <strong>85</strong></div>
+<div class="score-pill hs-2">Hot</div>
+<div class="score-pill sent-bull">Bullish</div>
+</div>
+<div class="action-line"><strong>Action:</strong> Set up: enter half size. Hold + trail stops below 20 SMA.</div>
+<div class="catalyst-line"><strong>Catalyst:</strong> Q1 earnings call Friday May 8 8:00 a.m. ET. Morgan Stanley raised PT to $41.50 (from $37), Northland to $30, KBW to $25. HPC hosting now over 50% of revenue, on track to 70%+ by 2027.</div>
 </div>
 </div>
-
 <div class="core-card">
 <div class="core-head">
 <div class="core-ticker">CIFR</div>
@@ -169,23 +437,31 @@ table a:hover{text-decoration:underline}
 <div class="tradingview-widget-container" style="height:100%;width:100%">
 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
-{"symbols":[["Cipher Mining","NASDAQ:CIFR|3M"]],"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10","changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"}
+{"symbols":[["Cipher Mining Inc.","NASDAQ:CIFR|3M"]],"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10","changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"}
 </script>
 </div>
 </div>
 <div class="core-fundamentals">
 <div class="fund-grid">
-<div class="fund-row"><span class="label">Market Cap</span><span class="value">~$5.5B</span></div>
-<div class="fund-row"><span class="label">52W Range</span><span class="value">~$2.50 - $19.50</span></div>
-<div class="fund-row"><span class="label">Inst Ownership</span><span class="value">76%</span></div>
-<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">~22M</span></div>
-<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value pending">Phase 1</span></div>
-<div class="fund-row"><span class="label">Setup / Hype</span><span class="value pending">Phase 1</span></div>
+<div class="fund-row"><span class="label">Last</span><span class="value">$21.91 <span class="down" style="font-size:0.72rem">-0.9%</span></span></div>
+<div class="fund-row"><span class="label">Market Cap</span><span class="value">$8.89B</span></div>
+<div class="fund-row"><span class="label">52W Range</span><span class="value">$2.95 - $25.52</span></div>
+<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">26.79M</span></div>
+<div class="fund-row"><span class="label">Rel Vol</span><span class="value">1.67x</span></div>
+<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value"><span class="rsi-warm">67.5</span> / <span class="rsi-warm">63.7</span></span></div>
+<div class="fund-row"><span class="label">Perf 1M / 3M</span><span class="value"><span class="up">+71.4%</span> / <span class="up">+59.3%</span></span></div>
+<div class="fund-row"><span class="label">MA Stack</span><span class="value">4 / 4</span></div>
 </div>
-<div class="catalyst-line"><strong>Catalyst:</strong> Up roughly 313% over 6 months per Seeking Alpha, leading the AI-pivot cohort. Recurring revenue profile preferred over hardware-heavy peers. Highest institutional ownership in the universe outside CORZ. Watch for follow-up HPC contract.</div>
+<div class="score-block">
+<div class="score-pill sc-good">Setup <strong>65</strong></div>
+<div class="score-pill sc-late">Pivot <strong>88</strong></div>
+<div class="score-pill hs-2">Hot</div>
+<div class="score-pill sent-eup">Retail euphoria</div>
+</div>
+<div class="action-line"><strong>Action:</strong> Set up: enter half size. Hold + trail stops below 20 SMA.</div>
+<div class="catalyst-line"><strong>Catalyst:</strong> Sector-leading 6-month run. Recurring revenue profile preferred over hardware-heavy peers. Highest institutional ownership in the universe outside CORZ. Watch for follow-up HPC contract.</div>
 </div>
 </div>
-
 <div class="core-card">
 <div class="core-head">
 <div class="core-ticker">IREN</div>
@@ -195,23 +471,31 @@ table a:hover{text-decoration:underline}
 <div class="tradingview-widget-container" style="height:100%;width:100%">
 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
-{"symbols":[["IREN","NASDAQ:IREN|3M"]],"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10","changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"}
+{"symbols":[["IREN Limited","NASDAQ:IREN|3M"]],"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10","changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"}
 </script>
 </div>
 </div>
 <div class="core-fundamentals">
 <div class="fund-grid">
-<div class="fund-row"><span class="label">Market Cap</span><span class="value">~$13B</span></div>
-<div class="fund-row"><span class="label">52W Range</span><span class="value">~$8.00 - $52.00</span></div>
-<div class="fund-row"><span class="label">Short Interest</span><span class="value">~9%</span></div>
-<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">~10M</span></div>
-<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value pending">Phase 1</span></div>
-<div class="fund-row"><span class="label">Setup / Hype</span><span class="value pending">Phase 1</span></div>
+<div class="fund-row"><span class="label">Last</span><span class="value">$60.98 <span class="up" style="font-size:0.72rem">+11.4%</span></span></div>
+<div class="fund-row"><span class="label">Market Cap</span><span class="value">$20.23B</span></div>
+<div class="fund-row"><span class="label">52W Range</span><span class="value">$6.76 - $76.87</span></div>
+<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">35.64M</span></div>
+<div class="fund-row"><span class="label">Rel Vol</span><span class="value">1.65x</span></div>
+<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value"><span class="rsi-hot">71.3</span> / <span class="rsi-warm">64.4</span></span></div>
+<div class="fund-row"><span class="label">Perf 1M / 3M</span><span class="value"><span class="up">+75.6%</span> / <span class="up">+43.0%</span></span></div>
+<div class="fund-row"><span class="label">MA Stack</span><span class="value">4 / 4</span></div>
 </div>
-<div class="catalyst-line"><strong>Catalyst:</strong> $9.7B Microsoft AI cloud contract for 200 MW at Childress, Texas. Expected $1.94B ARR at ~85% project EBITDA margins. GPU fleet scaling 23K to 140K by year-end. $3.4B AI cloud ARR target. Highest beta to AI-pivot narrative in the universe.</div>
+<div class="score-block">
+<div class="score-pill sc-good">Setup <strong>65</strong></div>
+<div class="score-pill sc-late">Pivot <strong>95</strong></div>
+<div class="score-pill hs-2">Hot</div>
+<div class="score-pill sent-eup">Retail euphoria</div>
+</div>
+<div class="action-line"><strong>Action:</strong> Set up: enter half size. Hold + trail stops below 20 SMA.</div>
+<div class="catalyst-line"><strong>Catalyst:</strong> $9.7B Microsoft AI cloud contract for 200 MW at Childress, Texas. Expected $1.94B ARR at ~85% project EBITDA margins. GPU fleet scaling 23K to 140K by year-end. Highest beta to AI-pivot narrative in the universe.</div>
 </div>
 </div>
-
 <div class="core-card">
 <div class="core-head">
 <div class="core-ticker">SLNH</div>
@@ -221,26 +505,34 @@ table a:hover{text-decoration:underline}
 <div class="tradingview-widget-container" style="height:100%;width:100%">
 <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
-{"symbols":[["Soluna","NASDAQ:SLNH|3M"]],"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10","changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"}
+{"symbols":[["Soluna Holdings Inc.","NASDAQ:SLNH|3M"]],"chartOnly":false,"width":"100%","height":"100%","locale":"en","colorTheme":"dark","autosize":true,"showVolume":true,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"Inter, sans-serif","fontSize":"10","changeMode":"price-and-percent","chartType":"area","lineWidth":2,"lineType":0,"dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W","all|1M"],"isTransparent":true,"backgroundColor":"#161b22","gridLineColor":"rgba(42,46,57,0.5)"}
 </script>
 </div>
 </div>
 <div class="core-fundamentals">
 <div class="fund-grid">
-<div class="fund-row"><span class="label">Market Cap</span><span class="value">~$45M</span></div>
-<div class="fund-row"><span class="label">52W Range</span><span class="value">$0.62 - $4.45</span></div>
-<div class="fund-row"><span class="label">Resale Overhang</span><span class="value">~29M shares</span></div>
-<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">~3M</span></div>
-<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value pending">Phase 1</span></div>
-<div class="fund-row"><span class="label">Setup / Hype</span><span class="value pending">Phase 1</span></div>
+<div class="fund-row"><span class="label">Last</span><span class="value">$1.62 <span class="up" style="font-size:0.72rem">+4.5%</span></span></div>
+<div class="fund-row"><span class="label">Market Cap</span><span class="value">$183.35M</span></div>
+<div class="fund-row"><span class="label">52W Range</span><span class="value">$0.41 - $5.14</span></div>
+<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">16.36M</span></div>
+<div class="fund-row"><span class="label">Rel Vol</span><span class="value">1.25x</span></div>
+<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value"><span class="rsi-warm">63.6</span> / <span class="rsi-warm">57.4</span></span></div>
+<div class="fund-row"><span class="label">Perf 1M / 3M</span><span class="value"><span class="up">+128.2%</span> / <span class="up">+70.5%</span></span></div>
+<div class="fund-row"><span class="label">MA Stack</span><span class="value">4 / 4</span></div>
 </div>
-<div class="catalyst-line"><strong>Catalyst:</strong> Regained Nasdaq min-bid compliance May 1 (closed above $1.00 for ten consecutive trading days). Two recent resale registrations totalling ~29M shares are the dominant near-term overhang. $16.5M Silverton Texas site acquisition adds capacity. Blockware deployment now over 17 MW.</div>
+<div class="score-block">
+<div class="score-pill sc-good">Setup <strong>63</strong></div>
+<div class="score-pill sc-great">Pivot <strong>83</strong></div>
+<div class="score-pill hs-1">Building</div>
+<div class="score-pill sent-eup">Heavy bullish</div>
+</div>
+<div class="action-line"><strong>Action:</strong> Set up: enter half size. Accumulation zone, size up.</div>
+<div class="catalyst-line"><strong>Catalyst:</strong> Regained Nasdaq min-bid compliance May 1 (closed above $1.00 for ten consecutive trading days). Two recent resale registrations totalling ~29M shares are the dominant near-term overhang. $16.5M Silverton Texas site acquisition adds capacity.</div>
 </div>
 </div>
-
 <div class="core-card">
 <div class="core-head">
-<div class="core-ticker">BGDE <span style="font-size:0.75rem;color:#8b949e;font-weight:400;margin-left:0.4rem">(formerly MIGI)</span></div>
+<div class="core-ticker">BGDE</div>
 <div class="core-company">Big Digital Energy</div>
 </div>
 <div class="core-chart">
@@ -253,89 +545,336 @@ table a:hover{text-decoration:underline}
 </div>
 <div class="core-fundamentals">
 <div class="fund-grid">
-<div class="fund-row"><span class="label">Market Cap</span><span class="value">~$95M</span></div>
-<div class="fund-row"><span class="label">52W Range</span><span class="value">$1.85 - $9.10</span></div>
-<div class="fund-row"><span class="label">Short Interest</span><span class="value">~5%</span></div>
-<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">~1.5M</span></div>
-<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value pending">Phase 1</span></div>
-<div class="fund-row"><span class="label">Setup / Hype</span><span class="value pending">Phase 1</span></div>
+<div class="fund-row"><span class="label">Last</span><span class="value">$6.25 <span class="up" style="font-size:0.72rem">+33.0%</span></span></div>
+<div class="fund-row"><span class="label">Market Cap</span><span class="value">$34.29M</span></div>
+<div class="fund-row"><span class="label">52W Range</span><span class="value">$1.70 - $40.00</span></div>
+<div class="fund-row"><span class="label">3M Avg Vol</span><span class="value">1.09M</span></div>
+<div class="fund-row"><span class="label">Rel Vol</span><span class="value">1.47x</span></div>
+<div class="fund-row"><span class="label">RSI (D / W)</span><span class="value"><span class="rsi-warm">59.7</span> / <span class="rsi-warm">50.9</span></span></div>
+<div class="fund-row"><span class="label">Perf 1M / 3M</span><span class="value"><span class="up">+257.1%</span> / <span class="up">+98.4%</span></span></div>
+<div class="fund-row"><span class="label">MA Stack</span><span class="value">3 / 4</span></div>
 </div>
-<div class="catalyst-line"><strong>Catalyst:</strong> Symbol changed from MIGI to BGDE on April 30. Strategic Joint Mining Agreement announced early May. Now positioned as colocation / hosting for compute-intensive workloads alongside the existing BTC-mining operations. Watch for follow-up AI-hosting contract.</div>
+<div class="score-block">
+<div class="score-pill sc-good">Setup <strong>65</strong></div>
+<div class="score-pill sc-good">Pivot <strong>69</strong></div>
+<div class="score-pill hs-1">Building</div>
+<div class="score-pill sent-eup">Heavy bullish</div>
+</div>
+<div class="action-line"><strong>Action:</strong> Set up: enter half size. Accumulation zone, size up.</div>
+<div class="catalyst-line"><strong>Catalyst:</strong> Symbol changed from MIGI to BGDE on April 30. Strategic Joint Mining Agreement announced early May. Now positioned as colocation / hosting for compute-intensive workloads alongside the existing BTC-mining operations.</div>
 </div>
 </div>
-
 </div>
 </section>
-
+<section class="section">
+<div class="section-header"><h2>Sentiment Cockpit</h2><span class="count">StockTwits + Reddit · 7-day window</span></div>
+<div class="sent-grid">
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">WULF</span>
+<span class="sent-tag sent-bull">Bullish</span>
+<span class="sent-pct">88% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">15🟢 / 2🔴 (17 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">100 mentions · 3459 pts · 2297 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Crowd-aligned long bias.</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">CIFR</span>
+<span class="sent-tag sent-eup">Retail euphoria</span>
+<span class="sent-pct">100% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">13🟢 / 0🔴 (13 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">100 mentions · 1236 pts · 787 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Crowd is fully long. Watch for distribution.</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">IREN</span>
+<span class="sent-tag sent-eup">Retail euphoria</span>
+<span class="sent-pct">100% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">15🟢 / 0🔴 (15 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">100 mentions · 3103 pts · 635 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Crowd is fully long. Watch for distribution.</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">SLNH</span>
+<span class="sent-tag sent-eup">Heavy bullish</span>
+<span class="sent-pct">100% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">20🟢 / 0🔴 (20 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">13 mentions · 46 pts · 17 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Lopsided long. Look for divergence.</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">BGDE</span>
+<span class="sent-tag sent-eup">Heavy bullish</span>
+<span class="sent-pct">100% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">16🟢 / 0🔴 (16 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">9 mentions · 21 pts · 11 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Lopsided long. Look for divergence.</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">CORZ</span>
+<span class="sent-tag sent-eup">Heavy bullish</span>
+<span class="sent-pct">100% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">7🟢 / 0🔴 (7 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">42 mentions · 109 pts · 85 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Lopsided long. Look for divergence.</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">HUT</span>
+<span class="sent-tag sent-bull">Bullish</span>
+<span class="sent-pct">80% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">12🟢 / 3🔴 (15 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">100 mentions · 1042 pts · 492 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Crowd-aligned long bias.</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">CLSK</span>
+<span class="sent-tag sent-bull">Bullish</span>
+<span class="sent-pct">88% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">15🟢 / 2🔴 (17 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">28 mentions · 99 pts · 53 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Crowd-aligned long bias.</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">APLD</span>
+<span class="sent-tag sent-bull">Bullish</span>
+<span class="sent-pct">84% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">16🟢 / 3🔴 (19 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">80 mentions · 1298 pts · 723 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Crowd-aligned long bias.</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">MARA</span>
+<span class="sent-tag sent-bull">Bullish</span>
+<span class="sent-pct">70% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">14🟢 / 6🔴 (20 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">100 mentions · 5227 pts · 679 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Crowd-aligned long bias.</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">RIOT</span>
+<span class="sent-tag sent-eup">Retail euphoria</span>
+<span class="sent-pct">100% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">17🟢 / 0🔴 (17 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">100 mentions · 1345 pts · 838 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Crowd is fully long. Watch for distribution.</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">BTDR</span>
+<span class="sent-tag sent-eup">Heavy bullish</span>
+<span class="sent-pct">93% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">14🟢 / 1🔴 (15 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">4 mentions · 18 pts · 16 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Lopsided long. Look for divergence.</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">BITF</span>
+<span class="sent-tag sent-neut">Sparse</span>
+<span class="sent-pct">—</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">0🟢 / 0🔴 (0 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">9 mentions · 117 pts · 116 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Insufficient social data</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">BTBT</span>
+<span class="sent-tag sent-eup">Heavy bullish</span>
+<span class="sent-pct">95% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">18🟢 / 1🔴 (19 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">8 mentions · 66 pts · 47 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Lopsided long. Look for divergence.</div>
+</div>
+<div class="sent-card">
+<div class="sent-head">
+<span class="ticker-badge">HIVE</span>
+<span class="sent-tag sent-bull">Bullish</span>
+<span class="sent-pct">71% bull</span>
+</div>
+<div class="sent-stats">
+<div class="sent-stat"><span class="label">StockTwits</span><span class="value">10🟢 / 4🔴 (14 msgs)</span></div>
+<div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">100 mentions · 1278 pts · 540 comments</span></div>
+</div>
+<div class="sent-alpha"><strong>Alpha read:</strong> Crowd-aligned long bias.</div>
+</div>
+</div>
+</section>
 <section class="section">
 <div class="section-header"><h2>Alert Feed</h2><span class="count">Last 7 days</span></div>
 <div class="alert-feed">
-
-<div class="alert-item analyst">
-<div class="alert-header"><span class="ticker-badge">CLSK</span><span class="category-badge category-analyst">Analyst</span><span class="timestamp">May 5</span></div>
-<div class="alert-body">Needham raised CLSK target to $18 from $17 after meeting with management. Company said it is in advanced discussions with an investment-grade hyperscaler customer for data center capacity.</div>
-</div>
-
-<div class="alert-item analyst">
-<div class="alert-header"><span class="ticker-badge">WULF</span><span class="category-badge category-analyst">Analyst</span><span class="timestamp">May 5</span></div>
-<div class="alert-body">Morgan Stanley reiterated Overweight, raised PT to $41.50 from $37 citing Maryland and Kentucky power expansion plus HPC mix shift.</div>
-</div>
-
-<div class="alert-item analyst">
-<div class="alert-header"><span class="ticker-badge">WULF</span><span class="category-badge category-analyst">Analyst</span><span class="timestamp">May 4</span></div>
-<div class="alert-body">Northland raised WULF target to $30 from $23.25, flagging the 480 MW Kentucky site as a near-term catalyst. KBW lifted target to $25 from $23 with Outperform.</div>
-</div>
-
-<div class="alert-item news">
-<div class="alert-header"><span class="ticker-badge">SLNH</span><span class="category-badge category-news">News</span><span class="timestamp">May 1</span></div>
-<div class="alert-body">Soluna confirmed it regained Nasdaq minimum bid price compliance after closing at or above $1.00 for ten consecutive trading days from April 14 to 29.</div>
-</div>
-
-<div class="alert-item news">
-<div class="alert-header"><span class="ticker-badge">SLNH</span><span class="category-badge category-news">News</span><span class="timestamp">May 1</span></div>
-<div class="alert-body">Resale registrations totalling ~29M shares emerge as a meaningful supply overhang. Stock fell 15.5% on May 4 before recovering.</div>
-</div>
-
-<div class="alert-item contract">
-<div class="alert-header"><span class="ticker-badge">BGDE</span><span class="category-badge category-contract">Contract</span><span class="timestamp">May 1</span></div>
-<div class="alert-body">BGDE (formerly MIGI) announced a Strategic Joint Mining Agreement extending its bitcoin mining capacity. Ticker change from MIGI to BGDE took effect April 30.</div>
-</div>
-
-<div class="alert-item contract">
-<div class="alert-header"><span class="ticker-badge">HUT</span><span class="category-badge category-contract">Contract</span><span class="timestamp">Apr 30</span></div>
-<div class="alert-body">Hut 8 finalised $7B, 15-year Fluidstack lease for 245 MW at River Bend, Louisiana. First data hall targeted early 2027.</div>
-</div>
-
-<div class="alert-item contract">
-<div class="alert-header"><span class="ticker-badge">CORZ</span><span class="category-badge category-contract">Contract</span><span class="timestamp">Apr 28</span></div>
-<div class="alert-body">CoreWeave deal expanded to $10.2B over 12 years. 200 MW currently billing of 350 MW energised. Full 590 MW targeted early 2027.</div>
-</div>
-
-<div class="alert-item news">
-<div class="alert-header"><span class="ticker-badge">APLD</span><span class="category-badge category-news">News</span><span class="timestamp">Apr 28</span></div>
-<div class="alert-body">Applied Digital beat Wall Street expectations on its latest report, helped by its hosting business and AI cloud sub-segment.</div>
-</div>
-
-<div class="alert-item contract">
-<div class="alert-header"><span class="ticker-badge">WULF</span><span class="category-badge category-contract">Contract</span><span class="timestamp">Apr 25</span></div>
-<div class="alert-body">TeraWulf and Fluidstack priced project financing for a 168 MW HPC compute joint venture, supporting an additional buildout that should contribute to revenue in 2027.</div>
-</div>
-
-<div class="alert-item contract">
-<div class="alert-header"><span class="ticker-badge">IREN</span><span class="category-badge category-contract">Contract</span><span class="timestamp">Apr 22</span></div>
-<div class="alert-body">IREN confirmed $9.7B AI cloud contract with Microsoft for 200 MW at Childress, Texas. Expected $1.94B ARR at ~85% project EBITDA margins.</div>
-</div>
-
+<div class="alert-item analyst"><div class="alert-header"><span class="ticker-badge">CLSK</span><span class="category-badge category-analyst">Analyst</span><span class="timestamp">May 5</span></div><div class="alert-body">Needham raised CLSK target to $18 from $17 after meeting with management. Company said it is in advanced discussions with an investment-grade hyperscaler customer for data center capacity.</div></div>
+<div class="alert-item analyst"><div class="alert-header"><span class="ticker-badge">WULF</span><span class="category-badge category-analyst">Analyst</span><span class="timestamp">May 5</span></div><div class="alert-body">Morgan Stanley reiterated Overweight, raised PT to $41.50 from $37 citing Maryland and Kentucky power expansion plus HPC mix shift.</div></div>
+<div class="alert-item analyst"><div class="alert-header"><span class="ticker-badge">WULF</span><span class="category-badge category-analyst">Analyst</span><span class="timestamp">May 4</span></div><div class="alert-body">Northland raised WULF target to $30 from $23.25, flagging the 480 MW Kentucky site as a near-term catalyst. KBW lifted target to $25 from $23 with Outperform.</div></div>
+<div class="alert-item news"><div class="alert-header"><span class="ticker-badge">SLNH</span><span class="category-badge category-news">News</span><span class="timestamp">May 1</span></div><div class="alert-body">Soluna confirmed it regained Nasdaq minimum bid price compliance after closing at or above $1.00 for ten consecutive trading days from April 14 to 29.</div></div>
+<div class="alert-item news"><div class="alert-header"><span class="ticker-badge">SLNH</span><span class="category-badge category-news">News</span><span class="timestamp">May 1</span></div><div class="alert-body">Resale registrations totalling ~29M shares emerge as a meaningful supply overhang. Stock fell 15.5% on May 4 before recovering.</div></div>
+<div class="alert-item contract"><div class="alert-header"><span class="ticker-badge">BGDE</span><span class="category-badge category-contract">Contract</span><span class="timestamp">May 1</span></div><div class="alert-body">BGDE (formerly MIGI) announced a Strategic Joint Mining Agreement extending its bitcoin mining capacity. Ticker change from MIGI to BGDE took effect April 30.</div></div>
+<div class="alert-item contract"><div class="alert-header"><span class="ticker-badge">HUT</span><span class="category-badge category-contract">Contract</span><span class="timestamp">Apr 30</span></div><div class="alert-body">Hut 8 finalised $7B, 15-year Fluidstack lease for 245 MW at River Bend, Louisiana. First data hall targeted early 2027.</div></div>
+<div class="alert-item contract"><div class="alert-header"><span class="ticker-badge">CORZ</span><span class="category-badge category-contract">Contract</span><span class="timestamp">Apr 28</span></div><div class="alert-body">CoreWeave deal expanded to $10.2B over 12 years. 200 MW currently billing of 350 MW energised. Full 590 MW targeted early 2027.</div></div>
+<div class="alert-item news"><div class="alert-header"><span class="ticker-badge">APLD</span><span class="category-badge category-news">News</span><span class="timestamp">Apr 28</span></div><div class="alert-body">Applied Digital beat Wall Street expectations on its latest report, helped by its hosting business and AI cloud sub-segment.</div></div>
+<div class="alert-item contract"><div class="alert-header"><span class="ticker-badge">WULF</span><span class="category-badge category-contract">Contract</span><span class="timestamp">Apr 25</span></div><div class="alert-body">TeraWulf and Fluidstack priced project financing for a 168 MW HPC compute joint venture, supporting an additional buildout that should contribute to revenue in 2027.</div></div>
+<div class="alert-item contract"><div class="alert-header"><span class="ticker-badge">IREN</span><span class="category-badge category-contract">Contract</span><span class="timestamp">Apr 22</span></div><div class="alert-body">IREN confirmed $9.7B AI cloud contract with Microsoft for 200 MW at Childress, Texas. Expected $1.94B ARR at ~85% project EBITDA margins.</div></div>
 </div>
 </section>
-
 <section class="section">
 <div class="section-header"><h2>SEC Filings</h2><span class="count">7 filings</span></div>
-<table>
+<table class="std">
 <thead><tr><th>Date</th><th>Ticker</th><th>Type</th><th>Summary</th><th>Link</th></tr></thead>
 <tbody>
 <tr><td>May 1, 2026</td><td>SLNH</td><td>8-K</td><td>Reports regaining Nasdaq minimum bid price compliance after April 14-29 closing series above $1.00.</td><td><a href="https://www.stocktitan.net/sec-filings/SLNH/8-k-soluna-holdings-inc-reports-material-event-0dad85e71b66.html">Filing</a></td></tr>
 <tr><td>Apr 30, 2026</td><td>MIGI / BGDE</td><td>8-K</td><td>Name and ticker change to Big Digital Energy / BGDE effective Apr 30; symbol change confirmation.</td><td><a href="https://www.stocktitan.net/overview/MIGI/">Filing</a></td></tr>
 <tr><td>Apr 30, 2026</td><td>SLNH</td><td>S-3 / Resale</td><td>26.51M-share resale registration creates supply overhang, plus 2.46M follow-on filing.</td><td><a href="https://stockstotrade.com/news/soluna-holdings-inc-slnh-news-2026_05_01/">Reference</a></td></tr>
 <tr><td>Apr 25, 2026</td><td>WULF</td><td>8-K</td><td>Schedules Q1 2026 earnings conference call for May 8, 8:00 a.m. ET.</td><td><a href="https://www.stocktitan.net/news/WULF/tera-wulf-schedules-conference-call-for-first-quarter-2026-financial-9dyyi9ynf3pd.html">Filing</a></td></tr>
-<tr
+<tr><td>Apr 24, 2026</td><td>WULF</td><td>8-K</td><td>Discloses pricing of project financing for 168 MW Fluidstack joint venture.</td><td><a href="https://investors.terawulf.com/news-events/press-releases/detail/128/terawulf-and-fluidstack-announce-successful-pricing-of">Filing</a></td></tr>
+<tr><td>Apr 24, 2026</td><td>MIGI / BGDE</td><td>8-K / DEF 14A</td><td>Name change to Big Digital Energy effective; corporate documents updated.</td><td><a href="https://www.mawsoninc.com/">Reference</a></td></tr>
+<tr><td>Apr 22, 2026</td><td>IREN</td><td>8-K</td><td>Confirmed $9.7B Microsoft AI cloud contract at Childress; details on 200 MW build.</td><td><a href="https://mlq.ai/research/iren-deep-dive-profitable-bitcoin-mining-powering-ai-infrastructure/">Reference</a></td></tr>
+</tbody>
+</table>
+</section>
+<section class="section">
+<div class="section-header"><h2>Institutional &amp; Insider Activity</h2><span class="count">Recent</span></div>
+<table class="std">
+<thead><tr><th>Period</th><th>Ticker</th><th>Type</th><th>Person / Fund</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td>Apr 2026</td><td>CIFR</td><td>13F</td><td>Aggregate</td><td>~76% institutional ownership, top capital flow gainer in cohort</td></tr>
+<tr><td>Apr 2026</td><td>CORZ</td><td>13F</td><td>Aggregate</td><td>~78.4% institutional ownership (highest in universe)</td></tr>
+<tr><td>Apr 2026</td><td>APLD</td><td>13F</td><td>Aggregate</td><td>~71.4% institutional ownership</td></tr>
+<tr><td>Apr 2026</td><td>IREN</td><td>13F</td><td>Aggregate</td><td>Holder count rising; among top capital inflow tickers</td></tr>
+<tr><td>Apr 2026</td><td>MARA</td><td>13F</td><td>Aggregate</td><td>Steady institutional inflows despite flat tape</td></tr>
+<tr><td>May 2026</td><td>WULF</td><td>Form 4</td><td>None this week</td><td>No new insider transactions; watch for filings post-Q1 print</td></tr>
+<tr><td>May 2026</td><td>SLNH</td><td>Resale</td><td>Various</td><td>~29M shares registered for resale; supply overhang risk</td></tr>
+<tr><td>May 2026</td><td>BGDE</td><td>Insider</td><td>None this week</td><td>Watch for Form 4 filings around BGDE rebrand and JV announcement</td></tr>
+</tbody>
+</table>
+</section>
+<section class="section">
+<div class="section-header"><h2>HPC Deal Tracker</h2><span class="count">5 deals</span></div>
+<table class="std">
+<thead><tr><th>Date</th><th>Company</th><th>Counterparty</th><th>MW</th><th>Duration</th><th>Value</th></tr></thead>
+<tbody>
+<tr><td>May 5, 2026</td><td>WULF</td><td>Fluidstack</td><td>168 MW</td><td>Long-term JV</td><td>Project financing priced</td></tr>
+<tr><td>Apr 30, 2026</td><td>HUT</td><td>Fluidstack</td><td>245 MW</td><td>15 years</td><td>$7B</td></tr>
+<tr><td>Apr 28, 2026</td><td>CORZ</td><td>CoreWeave</td><td>590 MW (full ramp)</td><td>12 years</td><td>$10.2B</td></tr>
+<tr><td>Apr 22, 2026</td><td>IREN</td><td>Microsoft</td><td>200 MW</td><td>Multi-year</td><td>$9.7B</td></tr>
+<tr><td>Apr 2026</td><td>CLSK</td><td>Hyperscaler (TBD)</td><td>N/A</td><td>N/A</td><td>Advanced discussions</td></tr>
+</tbody>
+</table>
+</section>
+<section class="section">
+<div class="section-header"><h2>Peer Heatmap</h2><span class="live-badge">Live</span><span class="count">10 peers (1M)</span></div>
+<div class="heatmap-grid-live">
+<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:CORZ","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
+<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:HUT","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
+<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:CLSK","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
+<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:APLD","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
+<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:MARA","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
+<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:RIOT","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
+<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:BTDR","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
+<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:BITF","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
+<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:BTBT","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
+<div class="heatmap-cell-live"><div class="tradingview-widget-container" style="height:100%;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>{"symbol":"NASDAQ:HIVE","width":"100%","height":"100%","locale":"en","dateRange":"1M","colorTheme":"dark","isTransparent":true,"autosize":true,"largeChartUrl":"","chartOnly":false,"noTimeScale":true}</script></div></div>
+</div>
+</section>
+<section class="section">
+<div class="section-header"><h2>Sector Screener</h2><span class="live-badge">Live</span><span class="count">All 15 names</span></div>
+<div class="screener-wrapper">
+<div class="tradingview-widget-container" style="height:100%;width:100%">
+<div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+{"width":"100%","height":"100%","defaultColumn":"overview","defaultScreen":"general","market":"america","showToolbar":true,"colorTheme":"dark","locale":"en","isTransparent":true,"symbolsList":["NASDAQ:WULF","NASDAQ:CIFR","NASDAQ:IREN","NASDAQ:SLNH","NASDAQ:BGDE","NASDAQ:CORZ","NASDAQ:HUT","NASDAQ:CLSK","NASDAQ:APLD","NASDAQ:MARA","NASDAQ:RIOT","NASDAQ:BTDR","NASDAQ:BITF","NASDAQ:BTBT","NASDAQ:HIVE"]}
+</script>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="section-header"><h2>Sector Context</h2><span class="count">Daily summary</span></div>
+<div class="context-box">
+<p>The miner-to-HPC cohort enters Thursday in mania territory. The BTC-only basket (MARA, RIOT, BTDR, BITF, BTBT, HIVE) is up an average <strong>56.2%</strong> over the last 30 days. Daily RSI sits above 70 on most names and weekly RSI above 65 on the AI-pivot leaders. HUT is the most extreme reading in the universe (RSI 82.5 daily, RSI 86 weekly, 5.4x relative volume) and a textbook Stage 4 distribution candidate. WULF, RIOT, APLD, BTDR all sit in Stage 3 mania.</p>
+<p>What this means for action: Hype Stage on most names is 3 or 4. The Setup Score for new entries is depressed across the board because the moves are extended. The right discipline today is trimming or trailing, not adding. Quieter names showing Stage 1-2 readings (BGDE, BTBT, HIVE) may offer rotation candidates if you want to stay in the cohort but lower beta.</p>
+<p>Watch points for the next 24 hours: WULF Q1 earnings call at 8:00 a.m. ET on May 8 (mania going into print is a classic trim setup). SLNH resale activity continues to pressure the share count. Sentiment readings are extreme on SLNH (100% bullish on StockTwits), a Stage 3-4 contrarian signal regardless of fundamentals.</p>
+</div>
+</section>
+</div>
+<script>
+(function(){
+const table = document.getElementById('ta-table');
+if (!table) return;
+const tbody = table.querySelector('tbody');
+const headers = table.querySelectorAll('th');
+const sortDir = {};
+headers.forEach((h, idx) => {
+  h.addEventListener('click', () => {
+    const col = parseInt(h.dataset.col);
+    const type = h.dataset.type || 'str';
+    const dir = sortDir[col] === 'asc' ? 'desc' : 'asc';
+    sortDir[col] = dir;
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+    rows.sort((a, b) => {
+      const av = a.children[col]?.textContent.trim() || '';
+      const bv = b.children[col]?.textContent.trim() || '';
+      if (type === 'num') {
+        const an = parseFloat(av.replace(/[$%+,]/g,'')) || -Infinity;
+        const bn = parseFloat(bv.replace(/[$%+,]/g,'')) || -Infinity;
+        return dir === 'asc' ? an - bn : bn - an;
+      }
+      return dir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av);
+    });
+    rows.forEach(r => tbody.appendChild(r));
+  });
+});
+})();
+</script>
+<footer class="footer">The Daily Brief is generated automatically. Charts powered by TradingView. TA snapshot via tradingview-screener Python lib. Social via StockTwits + Reddit public APIs. Real-time data depends on your TradingView subscription. Nothing on this page is investment advice.</footer>
+</body>
+</html>
