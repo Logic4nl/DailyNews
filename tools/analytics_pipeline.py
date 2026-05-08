@@ -45,8 +45,8 @@ except ImportError:
 # Configuration
 # ---------------------------------------------------------------------------
 
-CORE_HOLDINGS = ["WULF", "CIFR", "IREN", "SLNH", "BGDE"]
-PEERS = ["CORZ", "HUT", "CLSK", "APLD", "MARA", "RIOT", "BTDR", "BITF", "BTBT", "HIVE"]
+CORE_HOLDINGS = ["WULF", "CIFR", "IREN", "SLNH", "BGDE", "BTBT"]
+PEERS = ["CORZ", "HUT", "CLSK", "APLD", "MARA", "RIOT", "BTDR", "BITF", "HIVE"]
 ALL_TICKERS = CORE_HOLDINGS + PEERS
 
 # Some tickers are quoted on different exchanges. Default is NASDAQ.

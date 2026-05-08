@@ -1,12 +1,13 @@
 {
   "version": "1.0",
-  "updated": "2026-05-07",
+  "updated": "2026-05-08",
   "note": "Average cost per share for Core Holdings on the AI / HPC Analytics tab. Source: broker portfolio. Update this file when buying or selling. Share counts and USD P&L are NOT exposed publicly.",
   "avg_prices": {
     "NASDAQ:WULF": 2.99,
     "NASDAQ:CIFR": 17.80,
     "NASDAQ:IREN": 43.76,
     "NASDAQ:SLNH": 1.49,
-    "NASDAQ:BGDE": 5.86
+    "NASDAQ:BGDE": 5.86,
+    "NASDAQ:BTBT": 1.81
   }
 }
