@@ -508,4 +508,25 @@ def main() -> int:
 
     snapshot = build_snapshot()
 
-    # Sanity: must have at least 5 tickers with non-null las
+    # Sanity: must have at least 5 tickers with non-null last_close before writing.
+    valid = sum(1 for t in snapshot["tickers"] if t["ta"].get("last_close") is not None)
+    if valid < 5:
+        logging.error("Only %d tickers returned valid TA; refusing to write %s", valid, args.out)
+        return 2
+
+    out_dir = os.path.dirname(os.path.abspath(args.out))
+    if out_dir and not os.path.isdir(out_dir):
+        os.makedirs(out_dir, exist_ok=True)
+
+    with open(args.out, "w") as f:
+        json.dump(snapshot, f)
+
+    logging.info(
+        "Wrote snapshot for %d tickers (%d valid TA) to %s",
+        len(snapshot["tickers"]), valid, args.out,
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
