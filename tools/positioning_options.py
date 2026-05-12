@@ -204,7 +204,30 @@ for ticker in ALL_TICKERS:
 
 result['data_health']['yfinance'] = 'ok' if yf_fail == 0 else (f'degraded ({yf_fail}/15)' if yf_fail < 5 else 'failed')
 
-with open('/tmp/positioning_snapshot.json', 'w') as f:
+# Sanity filter: an ATM volume-weighted IV that came back below 5 or above 400 percent
+# almost always means yfinance returned mixed-unit values across strikes. Mark n/a rather
+# than publish a misleading number.
+for tk, t in result['tickers'].items():
+    iv30 = t.get('iv30')
+    if iv30 is not None and (iv30 != iv30 or iv30 < 5 or iv30 > 400):
+        t['iv30'] = None
+        t['iv_rv_ratio'] = None
+        t['term_slope'] = None
+    iv60 = t.get('iv60')
+    if iv60 is not None and (iv60 != iv60 or iv60 < 5 or iv60 > 400):
+        t['iv60'] = None
+    iv90 = t.get('iv90')
+    if iv90 is not None and (iv90 != iv90 or iv90 < 5 or iv90 > 400):
+        t['iv90'] = None
+        t['term_slope'] = None
+
+import argparse
+ap = argparse.ArgumentParser()
+default_out = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'positioning_snapshot.json')
+ap.add_argument('--out', default=default_out)
+args, _ = ap.parse_known_args()
+with open(args.out, 'w') as f:
     json.dump(result, f, indent=2, default=str)
+print(f"Wrote snapshot to {args.out}", file=sys.stderr)
 
 print(f"DONE: yf_ok={yf_ok}, yf_fail={yf_fail}", file=sys.stderr)
