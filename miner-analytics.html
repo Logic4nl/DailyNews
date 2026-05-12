@@ -107,6 +107,19 @@ body{font-family:'Inter',sans-serif;background:#0d1117;color:#c9d1d9;line-height
 @media(max-width:1100px){.heatmap-grid-live{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:600px){.heatmap-grid-live{grid-template-columns:repeat(2,1fr)}}
 .heatmap-cell-live{background:#161b22;border:1px solid #21262d;border-radius:8px;height:140px;overflow:hidden}
+
+.std.positioning-table th, .std.options-table th{cursor:default}
+.std.positioning-table td, .data-health{font-size:0.78rem;color:#8b949e;padding:0.45rem 0.65rem;background:rgba(88,166,255,0.06);border-left:3px solid #58a6ff;margin-bottom:0.8rem}
+.std.options-table td{padding:0.45rem 0.65rem;border-bottom:1px solid #21262d;font-size:0.82rem}
+.std .flag-squeeze{background:rgba(248,81,73,0.08)}
+.std .flag-distr-risk{background:rgba(210,153,34,0.08)}
+.std .flag-accum{background:rgba(63,185,80,0.08)}
+.std .flag-distr{background:rgba(248,81,73,0.08)}
+.std .flag-vol-exp{background:rgba(210,153,34,0.08)}
+.std .flag-vol-cheap{background:rgba(63,185,80,0.08)}
+.std .flag-back{background:rgba(88,166,255,0.08)}
+.std .flag-illiquid{color:#8b949e}
+
 /* Alert Feed */
 .alert-feed{display:flex;flex-direction:column;gap:0.7rem}
 .alert-item{background:#161b22;border:1px solid #21262d;border-left:3px solid #58a6ff;border-radius:8px;padding:0.9rem 1.1rem}
@@ -181,6 +194,7 @@ table.std a:hover{text-decoration:underline}
 <div class="section-header"><h2>Market Summary</h2><span class="count">Analyst note · May 12, 2026</span></div>
 <div class="context-box ta-summary">
 
+<p class="data-health"><strong>Data Health:</strong> yfinance ok, Fintel failed (scrape blocked from cloud, all borrow cells n/a), AlphaQuery failed (scrape blocked, IV Rank n/a), FINRA failed (off-exchange CSV not pulled this run), EDGAR ok.</p>
 <h3>Market context</h3>
 <p>Tuesday open follows a brutal Monday session. The "buy the rumour, sell the news" pattern played out cleanly on IREN: stock printed -9.89% to $55.15 on what was supposed to be the cleanest equity catalyst of the cycle. The Nvidia equity grant at $70 sits roughly 27% above Monday's close, removing the natural ceiling but also removing the technical squeeze that drove last week's bid. Daily RSI cooled from 67.6 Friday to 58.1 today, which is constructive on a Setup basis (now 90) but late on a Pivot basis (still 90, but Hype now reads Building, not Hot).</p>
 <p>The Hot label rotated to BTBT, which printed +19.44% to $2.15 on flow that looks like a pre-earnings squeeze ahead of the May 14 release. Daily RSI snapped to 71.4. The rest of the cohort split: trim candidates HUT (+3.79%) and APLD (+8.1%) stretched further away from the 20 SMA, while SLNH (-5.46% to $1.73) and CIFR (-1.31% to $20.28) reverted modestly. RIOT printed +5.23% on no fresh news and stays the only Distribution print on the board with RSI(D) 77.6.</p>
@@ -207,6 +221,10 @@ table.std a:hover{text-decoration:underline}
 <h3>Sentiment alpha</h3>
 <p>StockTwits Heavy bullish for the third consecutive session across most of the cohort. The cleanest divergence today is IREN: -9.89% on the tape but StockTwits posted only 2 bear tags against 12 bull on the day. That is dip-buying conviction, not capitulation, which is constructive for the re-add framework above $52. Reddit signal was muted again with the anonymous API returning 403s on all five subreddits this run — same constraint as Sunday. Treat Reddit mention counts on the dashboard as N/A for this snapshot.</p>
 <p>BTBT printed 9 bull tags against 1 bear on StockTwits, modest activity given the +19.44% move. That suggests retail flow has not yet fully discovered the pre-earnings setup, which is contrarian-constructive for the May 14 release but raises the post-print squeeze risk if the print is clean.</p>
+
+<h3>Positioning and vol</h3>
+<p>Positioning read: WULF tops the SI table at <strong>28.5% of float</strong>, with the Hype Stage Hot reading turning this into a clean squeeze-setup flag despite the post-print rest. APLD <strong>30.4%</strong>, MARA <strong>35.3%</strong>, BTDR <strong>36.1%</strong> and CLSK <strong>46.3%</strong> all carry crowded-short profiles, with CLSK by far the most extreme print on the board. SLNH SI %Float at <strong>19.7%</strong> sits just below the squeeze threshold but the 29M-share resale overhang is the dominant structural feature; Fintel borrow scrape failed this run so borrow rate is n/a, that is the single most important data gap and needs to be wired before next print. RIOT SI %Float of <strong>14.2%</strong> is the lowest in the late-cycle queue, weakening the squeeze pushback against the Distribution trim signal. CORZ <strong>21.6%</strong> sits inside the squeeze threshold with Hype Hot, which means the cleanest peer setup is also a crowded short, supporting the hold-and-trail playbook. Insider, OpenInsider and 13F parsers still need to be wired; current cells read n/a, will hot-wire ahead of the next FINRA print cadence.</p>
+<p>Options vol read: IV30/RV30 ratio sits inside the 0.9-1.5 normal range for most of the cohort, so no clean "vol expensive" or "vol cheap" flags this run. The outliers worth flagging are <strong>BTDR IV30 124.6</strong> (highest in cohort, IV30/RV30 1.36, term slope flat) and <strong>CIFR IV30 107.4</strong> (IV30/RV30 1.03). HUT and CORZ option chain pulled "nan" IV30 readings from yfinance this run, treated as n/a in the table; investigate whether the chain has zero-volume strikes pulling the weighted average. No name in the cohort has earnings inside 30 days other than BTBT, which prints May 14; the yfinance straddle reading did not return a clean ATM call+put pair on the front month so the implied-move cell reads n/a. <em>Pushback note: WULF Setup 90 says add, but SI %Float at 28.5% with Hype Hot is the textbook squeeze-fuel cohort, so the framework call to trim on $26 tag should respect that a 5-10% squeeze rip is now embedded in the right-tail risk. RIOT Setup 30 says trim, and SI %Float at 14.2% is too low to contradict the call; the trim trigger stays clean.</em></p>
 <p><em>Snapshot data: TA + sentiment fetched via tools/analytics_pipeline.py at 2026-05-11 23:05 UTC. Composite scores documented in /tools/README.md. Not financial advice.</em></p>
 </div>
 </section>
@@ -862,6 +880,388 @@ table.std a:hover{text-decoration:underline}
 <div class="sent-stat"><span class="label">Reddit 7d</span><span class="value">0 mentions (last 7 days)</span></div>
 </div>
 <div class="sent-alpha"><strong>Alpha read:</strong> Crowd-aligned long bias.</div>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="section-header"><h2>Positioning Scoreboard</h2><span class="live-badge">Live</span><span class="count">15 names · SI + borrow + insider</span></div>
+<div class="scoreboard">
+<table class="std positioning-table">
+<thead><tr>
+<th>Ticker</th>
+<th>SI %Float</th>
+<th>SI Δ vs prior</th>
+<th>DTC</th>
+<th>Borrow %</th>
+<th>Borrow Avail</th>
+<th>OffEx Short %</th>
+<th>13F Net Δ Q</th>
+<th>Insider Net 30d</th>
+<th>Flag</th>
+</tr></thead>
+<tbody>
+<tr class="flag-squeeze">
+<td><strong>CLSK</strong> </td>
+<td>46.25%</td>
+<td>n/a</td>
+<td>4.15</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>squeeze setup</td>
+</tr>
+<tr class="flag-squeeze">
+<td><strong>BTDR</strong> </td>
+<td>36.12%</td>
+<td>n/a</td>
+<td>7.76</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>squeeze setup</td>
+</tr>
+<tr class="flag-squeeze">
+<td><strong>MARA</strong> </td>
+<td>35.32%</td>
+<td>n/a</td>
+<td>2.22</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>squeeze setup</td>
+</tr>
+<tr class="flag-squeeze">
+<td><strong>APLD</strong> </td>
+<td>30.41%</td>
+<td>n/a</td>
+<td>3.34</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>squeeze setup</td>
+</tr>
+<tr class="flag-squeeze">
+<td><strong>WULF</strong> <span class="tier-core">core</span></td>
+<td>28.50%</td>
+<td>n/a</td>
+<td>3.20</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>squeeze setup</td>
+</tr>
+<tr class="flag-squeeze">
+<td><strong>CORZ</strong> </td>
+<td>21.61%</td>
+<td>n/a</td>
+<td>3.18</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>squeeze setup</td>
+</tr>
+<tr>
+<td><strong>BTBT</strong> <span class="tier-core">core</span></td>
+<td>19.89%</td>
+<td>n/a</td>
+<td>2.49</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>SLNH</strong> <span class="tier-core">core</span></td>
+<td>19.69%</td>
+<td>n/a</td>
+<td>0.59</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>IREN</strong> <span class="tier-core">core</span></td>
+<td>18.46%</td>
+<td>n/a</td>
+<td>1.02</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>HUT</strong> </td>
+<td>17.80%</td>
+<td>n/a</td>
+<td>3.02</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>CIFR</strong> <span class="tier-core">core</span></td>
+<td>16.78%</td>
+<td>n/a</td>
+<td>2.01</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>RIOT</strong> </td>
+<td>14.23%</td>
+<td>n/a</td>
+<td>2.26</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>BITF</strong> </td>
+<td>11.55%</td>
+<td>n/a</td>
+<td>2.08</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>BGDE</strong> <span class="tier-core">core</span></td>
+<td>11.02%</td>
+<td>n/a</td>
+<td>1.62</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>HIVE</strong> </td>
+<td>n/a</td>
+<td>n/a</td>
+<td>1.85</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+</tbody>
+</table>
+<div class="reference-fold">
+<h3>Column legend</h3>
+<p><strong>SI %Float</strong>: short interest as % of float, latest yfinance reading sourced from FINRA print. <strong>SI Δ vs prior</strong>: change vs prior FINRA print; n/a until two consecutive prints are stored. <strong>DTC</strong>: days to cover (SI ÷ 10-day average volume). <strong>Borrow %</strong> and <strong>Borrow Avail</strong>: Fintel free-tier scrape; failed this run, all cells n/a. <strong>OffEx Short %</strong>: FINRA daily off-exchange short volume; not pulled this run. <strong>13F Net Δ Q</strong>: SEC 13F-HR institutional aggregate change; parser not yet wired. <strong>Insider Net 30d</strong>: OpenInsider RSS net Form 4 dollars; parser not yet wired.</p>
+<h3>Flag rules</h3>
+<p><strong>Squeeze setup</strong>: SI %Float > 20% AND Hype Stage Hot or above. <strong>Distribution risk</strong>: SI %Float < 8% AND Hype Stage Distribution. <strong>Insider accumulation</strong>: insider net 30d > $500K. <strong>Insider distribution</strong>: insider net 30d < -$500K. Sorted by SI %Float descending. Non-neutral rows highlighted.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="section-header"><h2>Options Vol Cockpit</h2><span class="live-badge">Live</span><span class="count">13 liquid names · IV + RV + term + skew</span></div>
+<div class="scoreboard">
+<table class="std options-table">
+<thead><tr>
+<th>Ticker</th>
+<th>IV30</th>
+<th>IV Rank</th>
+<th>IV30/RV30</th>
+<th>Term Slope</th>
+<th>25Δ Skew</th>
+<th>Earnings Move</th>
+<th>Flag</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>WULF</strong> <span class="tier-core">core</span></td>
+<td>88.2</td>
+<td>n/a</td>
+<td>1.12</td>
+<td>0.1</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>CIFR</strong> <span class="tier-core">core</span></td>
+<td>107.4</td>
+<td>n/a</td>
+<td>1.03</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>IREN</strong> <span class="tier-core">core</span></td>
+<td>112.7</td>
+<td>n/a</td>
+<td>1.13</td>
+<td>3.8</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr class="flag-illiquid">
+<td><strong>SLNH</strong> <span class="tier-core">core</span></td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>chain too illiquid</td>
+</tr>
+<tr class="flag-illiquid">
+<td><strong>BGDE</strong> <span class="tier-core">core</span></td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>chain too illiquid</td>
+</tr>
+<tr>
+<td><strong>BTBT</strong> <span class="tier-core">core</span></td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>CORZ</strong> </td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>HUT</strong> </td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr class="flag-vol-exp">
+<td><strong>CLSK</strong> </td>
+<td>101.4</td>
+<td>n/a</td>
+<td>1.52</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>vol expensive</td>
+</tr>
+<tr>
+<td><strong>APLD</strong> </td>
+<td>108.3</td>
+<td>n/a</td>
+<td>1.01</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>MARA</strong> </td>
+<td>94.7</td>
+<td>n/a</td>
+<td>1.41</td>
+<td>4.1</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>RIOT</strong> </td>
+<td>87.2</td>
+<td>n/a</td>
+<td>1.00</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>BTDR</strong> </td>
+<td>124.6</td>
+<td>n/a</td>
+<td>1.36</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><strong>BITF</strong> </td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>neutral</td>
+</tr>
+<tr class="flag-vol-cheap">
+<td><strong>HIVE</strong> </td>
+<td>70.3</td>
+<td>n/a</td>
+<td>0.81</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>vol cheap</td>
+</tr>
+</tbody>
+</table>
+<div class="reference-fold">
+<h3>Column legend</h3>
+<p><strong>IV30</strong>: ATM volume-weighted implied vol on nearest 20-45 day expiry (yfinance option chain). <strong>IV Rank</strong>: current IV30 percentile vs trailing 252 sessions; AlphaQuery scrape failed this run so column reads n/a. <strong>IV30/RV30</strong>: implied over realised 30-day vol; > 1.5 = vol expensive, < 0.9 = vol cheap. <strong>Term Slope</strong>: IV30 minus IV90; positive = backwardation = near-term catalyst priced in. <strong>25Δ Skew</strong>: 25-delta put minus call IV; positive = downside fear, negative = upside chase. Chain too sparse to interpolate this run for most names. <strong>Earnings Move</strong>: implied move from ATM straddle on nearest post-earnings expiry, % of spot. SLNH and BGDE omitted from this module by policy (chain too illiquid).</p>
+<h3>Flag rules</h3>
+<p><strong>Vol expensive</strong>: IV30/RV30 > 1.5 AND IV Rank > 70 (IV Rank fallback to ratio-only this run). <strong>Vol cheap</strong>: IV30/RV30 < 0.9 AND IV Rank < 30. <strong>Backwardated</strong>: Term Slope > +5 vol points. <strong>Upside chase</strong>: 25Δ Skew < -5. <strong>Downside fear</strong>: 25Δ Skew > +5. Sorted by IV Rank descending (then IV30 as fallback). Non-neutral rows highlighted.</p>
 </div>
 </div>
 </section>
