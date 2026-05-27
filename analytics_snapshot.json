@@ -1,1 +1,670 @@
-{"version": "1.0", "generated_at_utc": "2026-05-22 23:05:42", "core_holdings": ["WULF", "CIFR", "IREN", "SLNH", "BGDE", "BTBT"], "peers": ["CORZ", "HUT", "CLSK", "APLD", "MARA", "RIOT", "BTDR", "BITF", "HIVE"], "tickers": [{"ticker": "WULF", "ta": {"ticker": "WULF", "last_close": 22.82, "daily_change_pct": -0.43630017452007597, "rsi_d": 55.93033991213516, "rsi_w": 70.35915416970954, "macd_macd": 0.7900946138725935, "macd_signal": 1.0738493269483924, "sma20": 22.4925, "sma50": 19.387999999999998, "sma200": 14.443175000000007, "bb_upper": 25.142065058646388, "bb_lower": 19.84293494135361, "volume": 20773483, "high_d": 23.24, "low_d": 21.88, "summary": "STRONG_BUY", "error": null}, "sentiment": {"ticker": "WULF", "stocktwits_bull": 23, "stocktwits_bear": 0, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 85, "pivot": 80, "hype_stage": "Building", "sentiment_label": "Heavy bullish"}}, {"ticker": "CIFR", "ta": {"ticker": "CIFR", "last_close": 21.97, "daily_change_pct": 2.091078066914495, "rsi_d": 60.77360724904448, "rsi_w": 63.88696303680537, "macd_macd": 0.9424630057228001, "macd_signal": 0.9786418907031921, "sma20": 19.76725, "sma50": 17.3463, "sma200": 15.531225, "bb_upper": 23.29133778976913, "bb_lower": 16.24316221023087, "volume": 19419777, "high_d": 22.35, "low_d": 20.96, "summary": "BUY", "error": null}, "sentiment": {"ticker": "CIFR", "stocktwits_bull": 17, "stocktwits_bear": 1, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 75, "pivot": 75, "hype_stage": "Hot", "sentiment_label": "Heavy bullish"}}, {"ticker": "IREN", "ta": {"ticker": "IREN", "last_close": 56.83, "daily_change_pct": -2.1184981054082055, "rsi_d": 56.60848102901862, "rsi_w": 59.297651179534164, "macd_macd": 2.447291140007536, "macd_signal": 2.726171759661391, "sma20": 52.705, "sma50": 46.09700000000005, "sma200": 44.77407500000001, "bb_upper": 63.59227054867292, "bb_lower": 41.817729451327075, "volume": 36211023, "high_d": 58.815, "low_d": 55.555, "summary": "BUY", "error": null}, "sentiment": {"ticker": "IREN", "stocktwits_bull": 7, "stocktwits_bear": 0, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 85, "pivot": 75, "hype_stage": "Building", "sentiment_label": "Heavy bullish"}}, {"ticker": "SLNH", "ta": {"ticker": "SLNH", "last_close": 1.71, "daily_change_pct": -2.285714285714288, "rsi_d": 53.76104096075151, "rsi_w": 55.621742511446655, "macd_macd": 0.181603590747609, "macd_signal": 0.21811239470046076, "sma20": 1.6770000000000003, "sma50": 1.1995239999999996, "sma200": 1.4895274999999992, "bb_upper": 2.290745875749889, "bb_lower": 1.063254124250112, "volume": 21353800, "high_d": 1.89, "low_d": 1.7, "summary": "BUY", "error": null}, "sentiment": {"ticker": "SLNH", "stocktwits_bull": 9, "stocktwits_bear": 2, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 80, "pivot": 65, "hype_stage": "Building", "sentiment_label": "Bullish lean"}}, {"ticker": "BGDE", "ta": {"ticker": "BGDE", "last_close": 5.9, "daily_change_pct": 9.25925925925926, "rsi_d": 54.33112157383977, "rsi_w": 49.92549715151521, "macd_macd": 0.24092531962642472, "macd_signal": 0.355454048423931, "sma20": 5.568500000000001, "sma50": 4.54752, "sma200": 7.932734999999997, "bb_upper": 7.08370658657489, "bb_lower": 4.053293413425112, "volume": 80413, "high_d": 6.22, "low_d": 5.34, "summary": "BUY", "error": null}, "sentiment": {"ticker": "BGDE", "stocktwits_bull": 3, "stocktwits_bear": 0, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 75, "pivot": 40, "hype_stage": "Building", "sentiment_label": "Heavy bullish"}}, {"ticker": "BTBT", "ta": {"ticker": "BTBT", "last_close": 1.99, "daily_change_pct": 2.5773195876288684, "rsi_d": 58.41523540507109, "rsi_w": 51.838103184087615, "macd_macd": 0.08384744191181381, "macd_signal": 0.08576208347478122, "sma20": 1.79175, "sma50": 1.6141000000000003, "sma200": 2.3386, "bb_upper": 2.1938852384459664, "bb_lower": 1.3896147615540335, "volume": 32435232, "high_d": 2.07, "low_d": 1.94, "summary": "BUY", "error": null}, "sentiment": {"ticker": "BTBT", "stocktwits_bull": 18, "stocktwits_bear": 0, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 65, "pivot": 40, "hype_stage": "Building", "sentiment_label": "Heavy bullish"}}, {"ticker": "CORZ", "ta": {"ticker": "CORZ", "last_close": 25.26, "daily_change_pct": 1.7727639000805853, "rsi_d": 66.5658469039252, "rsi_w": 71.17756590653896, "macd_macd": 1.380612156112921, "macd_signal": 1.3524392019777278, "sma20": 22.642499999999995, "sma50": 19.589399999999998, "sma200": 17.50574999999999, "bb_upper": 26.109780634733916, "bb_lower": 19.175219365266074, "volume": 11574486, "high_d": 25.63, "low_d": 24.415, "summary": "BUY", "error": null}, "sentiment": {"ticker": "CORZ", "stocktwits_bull": 17, "stocktwits_bear": 1, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 80, "pivot": 90, "hype_stage": "Hot", "sentiment_label": "Heavy bullish"}}, {"ticker": "HUT", "ta": {"ticker": "HUT", "last_close": 105.9, "daily_change_pct": 0.608018240547217, "rsi_d": 64.68211168043224, "rsi_w": 85.71918605532443, "macd_macd": 8.700405871711524, "macd_signal": 9.284819861421035, "sma20": 93.2795, "sma50": 73.04560000000001, "sma200": 51.02022500000002, "bb_upper": 120.56071293124634, "bb_lower": 65.99828706875365, "volume": 3304511, "high_d": 108.5299, "low_d": 101.45, "summary": "BUY", "error": null}, "sentiment": {"ticker": "HUT", "stocktwits_bull": 10, "stocktwits_bear": 0, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 75, "pivot": 80, "hype_stage": "Hot", "sentiment_label": "Heavy bullish"}}, {"ticker": "CLSK", "ta": {"ticker": "CLSK", "last_close": 15.97, "daily_change_pct": 1.3324873096446754, "rsi_d": 69.57255402622387, "rsi_w": 62.939665261185695, "macd_macd": 1.0412104423069266, "macd_signal": 0.8882390129740119, "sma20": 13.62199999999998, "sma50": 11.574399999999986, "sma200": 12.390000000000002, "bb_upper": 16.109091473991686, "bb_lower": 11.134908526008275, "volume": 21122424, "high_d": 16.655, "low_d": 15.71, "summary": "BUY", "error": null}, "sentiment": {"ticker": "CLSK", "stocktwits_bull": 12, "stocktwits_bear": 6, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 60, "pivot": 80, "hype_stage": "Building", "sentiment_label": "Bullish lean"}}, {"ticker": "APLD", "ta": {"ticker": "APLD", "last_close": 45.87, "daily_change_pct": -4.477301124531457, "rsi_d": 60.80789964598149, "rsi_w": 69.87208925108064, "macd_macd": 3.2055349711239742, "macd_signal": 3.206489729867652, "sma20": 40.06175, "sma50": 32.735499999999966, "sma200": 28.572174999999998, "bb_upper": 50.06878816071469, "bb_lower": 30.05471183928532, "volume": 22176043, "high_d": 48.5, "low_d": 45.4118, "summary": "BUY", "error": null}, "sentiment": {"ticker": "APLD", "stocktwits_bull": 10, "stocktwits_bear": 2, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 75, "pivot": 80, "hype_stage": "Hot", "sentiment_label": "Bullish lean"}}, {"ticker": "MARA", "ta": {"ticker": "MARA", "last_close": 13.81, "daily_change_pct": 1.9188191881918801, "rsi_d": 65.43884958869577, "rsi_w": 60.12304644204405, "macd_macd": 0.7092756864428154, "macd_signal": 0.7069224211986777, "sma20": 12.437499999999996, "sma50": 10.740300000000005, "sma200": 12.702624999999996, "bb_upper": 14.129928728189274, "bb_lower": 10.745071271810719, "volume": 40102502, "high_d": 14.11, "low_d": 13.41, "summary": "STRONG_BUY", "error": null}, "sentiment": {"ticker": "MARA", "stocktwits_bull": 17, "stocktwits_bear": 4, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 60, "pivot": 75, "hype_stage": "Hot", "sentiment_label": "Bullish lean"}}, {"ticker": "RIOT", "ta": {"ticker": "RIOT", "last_close": 24.49, "daily_change_pct": 0.08173273395994923, "rsi_d": 66.08630098920477, "rsi_w": 69.9695250064593, "macd_macd": 1.8446120416570295, "macd_signal": 1.9147115903924044, "sma20": 21.941250000000004, "sma50": 17.994000000000007, "sma200": 16.522475000000014, "bb_upper": 28.134481688706593, "bb_lower": 15.748018311293412, "volume": 11144565, "high_d": 25.065, "low_d": 24.31, "summary": "STRONG_BUY", "error": null}, "sentiment": {"ticker": "RIOT", "stocktwits_bull": 13, "stocktwits_bear": 1, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 65, "pivot": 75, "hype_stage": "Hot", "sentiment_label": "Heavy bullish"}}, {"ticker": "BTDR", "ta": {"ticker": "BTDR", "last_close": 14.65, "daily_change_pct": -1.809651474530828, "rsi_d": 61.005379411338886, "rsi_w": 58.51490115523041, "macd_macd": 0.7751434554491787, "macd_signal": 0.7428372936776496, "sma20": 12.998500000000003, "sma50": 11.231500000000006, "sma200": 13.375024999999999, "bb_upper": 15.457404430838974, "bb_lower": 10.539595569161033, "volume": 7929476, "high_d": 15.27, "low_d": 14.36, "summary": "STRONG_BUY", "error": null}, "sentiment": {"ticker": "BTDR", "stocktwits_bull": 4, "stocktwits_bear": 7, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 85, "pivot": 75, "hype_stage": "Building", "sentiment_label": "Mixed"}}, {"ticker": "BITF", "ta": {"ticker": "BITF", "last_close": null, "daily_change_pct": null, "rsi_d": null, "rsi_w": null, "macd_macd": null, "macd_signal": null, "sma20": null, "sma50": null, "sma200": null, "bb_upper": null, "bb_lower": null, "volume": null, "high_d": null, "low_d": null, "summary": null, "error": "daily: Exception: Exchange or symbol not found."}, "sentiment": {"ticker": "BITF", "stocktwits_bull": 0, "stocktwits_bear": 0, "stocktwits_total": 0, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "stocktwits: http 404 | reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": null, "pivot": null, "hype_stage": "Quiet", "sentiment_label": "Quiet"}}, {"ticker": "HIVE", "ta": {"ticker": "HIVE", "last_close": 4.07, "daily_change_pct": 5.714285714285719, "rsi_d": 73.32510873694628, "rsi_w": 65.88818213360162, "macd_macd": 0.371734257598618, "macd_signal": 0.2535271384356894, "sma20": 2.9364999999999997, "sma50": 2.4713, "sma200": 3.16285, "bb_upper": 3.973539536372653, "bb_lower": 1.8994604636273462, "volume": 46764851, "high_d": 4.23, "low_d": 3.75, "summary": "BUY", "error": null}, "sentiment": {"ticker": "HIVE", "stocktwits_bull": 12, "stocktwits_bear": 4, "stocktwits_total": 30, "reddit_mentions_7d": 0, "reddit_subs_breakdown": {"wallstreetbets": 0, "stocks": 0, "pennystocks": 0, "Bitcoin": 0, "CryptoCurrency": 0}, "error": "reddit: wallstreetbets: http 403,stocks: http 403,pennystocks: http 403,Bitcoin: http 403,CryptoCurrency: http 403"}, "scores": {"setup": 50, "pivot": 80, "hype_stage": "Hot", "sentiment_label": "Bullish lean"}}]}
+{
+  "version": "1.0",
+  "generated_at_utc": "2026-05-27 16:00:50",
+  "core_holdings": [
+    "WULF",
+    "CIFR",
+    "IREN",
+    "SLNH",
+    "BGDE",
+    "BTBT"
+  ],
+  "peers": [
+    "CORZ",
+    "HUT",
+    "CLSK",
+    "APLD",
+    "MARA",
+    "RIOT",
+    "BTDR",
+    "BITF",
+    "HIVE"
+  ],
+  "tickers": [
+    {
+      "ticker": "WULF",
+      "ta": {
+        "ticker": "WULF",
+        "last_close": 25.365,
+        "daily_change_pct": 0.7347100873709242,
+        "rsi_d": 64.48017768158182,
+        "rsi_w": 74.59210294599191,
+        "macd_macd": 1.0823367692320893,
+        "macd_signal": 1.0560129101841742,
+        "sma20": 22.90825,
+        "sma50": 19.777299999999997,
+        "sma200": 14.646050000000008,
+        "bb_upper": 25.845066771608344,
+        "bb_lower": 19.971433228391653,
+        "volume": 13337515,
+        "high_d": 26.25,
+        "low_d": 24.915,
+        "summary": "STRONG_BUY",
+        "error": null
+      },
+      "sentiment": {
+        "ticker": "WULF",
+        "stocktwits_bull": 20,
+        "stocktwits_bear": 0,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 0,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 0,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": 75,
+        "pivot": 95,
+        "hype_stage": "Hot",
+        "sentiment_label": "Heavy bullish"
+      }
+    },
+    {
+      "ticker": "CIFR",
+      "ta": {
+        "ticker": "CIFR",
+        "last_close": 22.83,
+        "daily_change_pct": -0.8253692441355398,
+        "rsi_d": 62.923237263933295,
+        "rsi_w": 65.36062655186126,
+        "macd_macd": 1.1683045206561538,
+        "macd_signal": 1.0335151131070823,
+        "sma20": 20.28875,
+        "sma50": 17.678900000000002,
+        "sma200": 15.712375,
+        "bb_upper": 23.969727961085898,
+        "bb_lower": 16.607772038914103,
+        "volume": 8011739,
+        "high_d": 23.29,
+        "low_d": 22.17,
+        "summary": "BUY",
+        "error": null
+      },
+      "sentiment": {
+        "ticker": "CIFR",
+        "stocktwits_bull": 14,
+        "stocktwits_bear": 0,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 1,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 1,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": 90,
+        "pivot": 90,
+        "hype_stage": "Hot",
+        "sentiment_label": "Heavy bullish"
+      }
+    },
+    {
+      "ticker": "IREN",
+      "ta": {
+        "ticker": "IREN",
+        "last_close": 62.6,
+        "daily_change_pct": 4.717296754767482,
+        "rsi_d": 62.14921288475744,
+        "rsi_w": 62.668544710241555,
+        "macd_macd": 3.1350006229196623,
+        "macd_signal": 2.8076163612873186,
+        "sma20": 54.184000000000005,
+        "sma50": 46.814200000000056,
+        "sma200": 45.200875,
+        "bb_upper": 65.22657107742569,
+        "bb_lower": 43.14142892257432,
+        "volume": 31716518,
+        "high_d": 64.91,
+        "low_d": 59.83,
+        "summary": "STRONG_BUY",
+        "error": null
+      },
+      "sentiment": {
+        "ticker": "IREN",
+        "stocktwits_bull": 18,
+        "stocktwits_bear": 0,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 5,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 2,
+          "stocks": 3,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": 90,
+        "pivot": 90,
+        "hype_stage": "Hot",
+        "sentiment_label": "Heavy bullish"
+      }
+    },
+    {
+      "ticker": "SLNH",
+      "ta": {
+        "ticker": "SLNH",
+        "last_close": 1.825,
+        "daily_change_pct": -5.44041450777202,
+        "rsi_d": 55.81082524402129,
+        "rsi_w": 57.14081175136446,
+        "macd_macd": 0.168721650799609,
+        "macd_signal": 0.20217286389651384,
+        "sma20": 1.7542500000000003,
+        "sma50": 1.2432239999999997,
+        "sma200": 1.5034879999999993,
+        "bb_upper": 2.2429960997286806,
+        "bb_lower": 1.2655039002713202,
+        "volume": 13789216,
+        "high_d": 1.98,
+        "low_d": 1.79,
+        "summary": "BUY",
+        "error": null
+      },
+      "sentiment": {
+        "ticker": "SLNH",
+        "stocktwits_bull": 19,
+        "stocktwits_bear": 3,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 0,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 0,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": 80,
+        "pivot": 65,
+        "hype_stage": "Building",
+        "sentiment_label": "Heavy bullish"
+      }
+    },
+    {
+      "ticker": "BGDE",
+      "ta": {
+        "ticker": "BGDE",
+        "last_close": 6.7,
+        "daily_change_pct": -5.500705218617767,
+        "rsi_d": 59.00262968650031,
+        "rsi_w": 52.3356714296007,
+        "macd_macd": 0.36915078272128277,
+        "macd_signal": 0.35450309805195496,
+        "sma20": 5.729000000000001,
+        "sma50": 4.72092,
+        "sma200": 7.915684999999997,
+        "bb_upper": 7.277171825089177,
+        "bb_lower": 4.180828174910825,
+        "volume": 48744,
+        "high_d": 7.375,
+        "low_d": 6.61,
+        "summary": "BUY",
+        "error": null
+      },
+      "sentiment": {
+        "ticker": "BGDE",
+        "stocktwits_bull": 5,
+        "stocktwits_bear": 0,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 0,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 0,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": 80,
+        "pivot": 55,
+        "hype_stage": "Building",
+        "sentiment_label": "Heavy bullish"
+      }
+    },
+    {
+      "ticker": "BTBT",
+      "ta": {
+        "ticker": "BTBT",
+        "last_close": 2.005,
+        "daily_change_pct": 0.7537688442211007,
+        "rsi_d": 58.919408012298675,
+        "rsi_w": 52.2365004993791,
+        "macd_macd": 0.09191537039499575,
+        "macd_signal": 0.08739308185254203,
+        "sma20": 1.8375,
+        "sma50": 1.6280999999999997,
+        "sma200": 2.328875,
+        "bb_upper": 2.218006241735921,
+        "bb_lower": 1.4569937582640788,
+        "volume": 8653365,
+        "high_d": 2.02,
+        "low_d": 1.92,
+        "summary": "BUY",
+        "error": null
+      },
+      "sentiment": {
+        "ticker": "BTBT",
+        "stocktwits_bull": 12,
+        "stocktwits_bear": 1,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 0,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 0,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": 80,
+        "pivot": 55,
+        "hype_stage": "Building",
+        "sentiment_label": "Heavy bullish"
+      }
+    },
+    {
+      "ticker": "CORZ",
+      "ta": {
+        "ticker": "CORZ",
+        "last_close": 27.03,
+        "daily_change_pct": 2.5028441410693976,
+        "rsi_d": 71.96104909909272,
+        "rsi_w": 74.10365840752091,
+        "macd_macd": 1.6289571588411533,
+        "macd_signal": 1.431340252399712,
+        "sma20": 23.256499999999996,
+        "sma50": 19.988199999999996,
+        "sma200": 17.62894999999999,
+        "bb_upper": 27.166943836701996,
+        "bb_lower": 19.346056163297995,
+        "volume": 5751117,
+        "high_d": 27.25,
+        "low_d": 26.02,
+        "summary": "STRONG_BUY",
+        "error": null
+      },
+      "sentiment": {
+        "ticker": "CORZ",
+        "stocktwits_bull": 11,
+        "stocktwits_bear": 0,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 0,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 0,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": 55,
+        "pivot": 95,
+        "hype_stage": "Hot",
+        "sentiment_label": "Heavy bullish"
+      }
+    },
+    {
+      "ticker": "HUT",
+      "ta": {
+        "ticker": "HUT",
+        "last_close": 111.64,
+        "daily_change_pct": -0.7997156566554164,
+        "rsi_d": 67.43711961254651,
+        "rsi_w": 86.96471958364226,
+        "macd_macd": 9.287746069232682,
+        "macd_signal": 9.260363953457308,
+        "sma20": 97.0975,
+        "sma50": 75.53900000000002,
+        "sma200": 51.943750000000016,
+        "bb_upper": 123.1014234539715,
+        "bb_lower": 71.09357654602849,
+        "volume": 1239490,
+        "high_d": 114.2475,
+        "low_d": 109.635,
+        "summary": "BUY",
+        "error": null
+      },
+      "sentiment": {
+        "ticker": "HUT",
+        "stocktwits_bull": 9,
+        "stocktwits_bear": 0,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 1,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 1,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": 80,
+        "pivot": 95,
+        "hype_stage": "Hot",
+        "sentiment_label": "Heavy bullish"
+      }
+    },
+    {
+      "ticker": "CLSK",
+      "ta": {
+        "ticker": "CLSK",
+        "last_close": 17.19,
+        "daily_change_pct": 0.35026269702278034,
+        "rsi_d": 74.21927556320128,
+        "rsi_w": 65.62200369050785,
+        "macd_macd": 1.2818622160354742,
+        "macd_signal": 1.0138065715009077,
+        "sma20": 14.135999999999978,
+        "sma50": 11.865199999999986,
+        "sma200": 12.457650000000001,
+        "bb_upper": 17.150706619225566,
+        "bb_lower": 11.121293380774391,
+        "volume": 11794862,
+        "high_d": 17.39,
+        "low_d": 16.65,
+        "summary": "BUY",
+        "error": null
+      },
+      "sentiment": {
+        "ticker": "CLSK",
+        "stocktwits_bull": 22,
+        "stocktwits_bear": 0,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 1,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 1,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": 50,
+        "pivot": 80,
+        "hype_stage": "Hot",
+        "sentiment_label": "Heavy bullish"
+      }
+    },
+    {
+      "ticker": "APLD",
+      "ta": {
+        "ticker": "APLD",
+        "last_close": 45.41,
+        "daily_change_pct": 0.5981391227292778,
+        "rsi_d": 59.83990450727498,
+        "rsi_w": 69.01369986079888,
+        "macd_macd": 3.1963057180510503,
+        "macd_signal": 3.2048204675988217,
+        "sma20": 41.30025000000001,
+        "sma50": 33.45130000000001,
+        "sma200": 28.882725000000008,
+        "bb_upper": 50.46904516348778,
+        "bb_lower": 32.13145483651225,
+        "volume": 9846364,
+        "high_d": 46.105,
+        "low_d": 43.6801,
+        "summary": "BUY",
+        "error": null
+      },
+      "sentiment": {
+        "ticker": "APLD",
+        "stocktwits_bull": 14,
+        "stocktwits_bear": 0,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 2,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 2,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": 75,
+        "pivot": 80,
+        "hype_stage": "Building",
+        "sentiment_label": "Heavy bullish"
+      }
+    },
+    {
+      "ticker": "MARA",
+      "ta": {
+        "ticker": "MARA",
+        "last_close": 14.21,
+        "daily_change_pct": -0.49019607843136215,
+        "rsi_d": 67.31740469094285,
+        "rsi_w": 61.404174593025616,
+        "macd_macd": 0.8010193797702332,
+        "macd_signal": 0.7356357987870848,
+        "sma20": 12.751999999999997,
+        "sma50": 10.939100000000003,
+        "sma200": 12.688424999999997,
+        "bb_upper": 14.500674926909037,
+        "bb_lower": 11.003325073090958,
+        "volume": 13627697,
+        "high_d": 14.34,
+        "low_d": 13.835,
+        "summary": "BUY",
+        "error": null
+      },
+      "sentiment": {
+        "ticker": "MARA",
+        "stocktwits_bull": 18,
+        "stocktwits_bear": 2,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 1,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 1,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": 60,
+        "pivot": 80,
+        "hype_stage": "Hot",
+        "sentiment_label": "Heavy bullish"
+      }
+    },
+    {
+      "ticker": "RIOT",
+      "ta": {
+        "ticker": "RIOT",
+        "last_close": 26.05,
+        "daily_change_pct": -0.11503067484661651,
+        "rsi_d": 70.67095792963929,
+        "rsi_w": 72.34750272341101,
+        "macd_macd": 1.9668531908269848,
+        "macd_signal": 1.9270751316270707,
+        "sma20": 22.80525,
+        "sma50": 18.467800000000004,
+        "sma200": 16.669825000000014,
+        "bb_upper": 28.61225738332578,
+        "bb_lower": 16.998242616674222,
+        "volume": 5614492,
+        "high_d": 26.57,
+        "low_d": 25.67,
+        "summary": "STRONG_BUY",
+        "error": null
+      },
+      "sentiment": {
+        "ticker": "RIOT",
+        "stocktwits_bull": 14,
+        "stocktwits_bear": 0,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 0,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 0,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": 70,
+        "pivot": 95,
+        "hype_stage": "Hot",
+        "sentiment_label": "Heavy bullish"
+      }
+    },
+    {
+      "ticker": "BTDR",
+      "ta": {
+        "ticker": "BTDR",
+        "last_close": null,
+        "daily_change_pct": null,
+        "rsi_d": null,
+        "rsi_w": null,
+        "macd_macd": null,
+        "macd_signal": null,
+        "sma20": null,
+        "sma50": null,
+        "sma200": null,
+        "bb_upper": null,
+        "bb_lower": null,
+        "volume": null,
+        "high_d": null,
+        "low_d": null,
+        "summary": null,
+        "error": "daily: Exception: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators."
+      },
+      "sentiment": {
+        "ticker": "BTDR",
+        "stocktwits_bull": 7,
+        "stocktwits_bear": 5,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 0,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 0,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": null,
+        "pivot": null,
+        "hype_stage": "Building",
+        "sentiment_label": "Mixed"
+      }
+    },
+    {
+      "ticker": "BITF",
+      "ta": {
+        "ticker": "BITF",
+        "last_close": null,
+        "daily_change_pct": null,
+        "rsi_d": null,
+        "rsi_w": null,
+        "macd_macd": null,
+        "macd_signal": null,
+        "sma20": null,
+        "sma50": null,
+        "sma200": null,
+        "bb_upper": null,
+        "bb_lower": null,
+        "volume": null,
+        "high_d": null,
+        "low_d": null,
+        "summary": null,
+        "error": "daily: Exception: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators."
+      },
+      "sentiment": {
+        "ticker": "BITF",
+        "stocktwits_bull": 0,
+        "stocktwits_bear": 0,
+        "stocktwits_total": 0,
+        "reddit_mentions_7d": 0,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 0,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": "stocktwits: http 404"
+      },
+      "scores": {
+        "setup": null,
+        "pivot": null,
+        "hype_stage": "Quiet",
+        "sentiment_label": "Quiet"
+      }
+    },
+    {
+      "ticker": "HIVE",
+      "ta": {
+        "ticker": "HIVE",
+        "last_close": null,
+        "daily_change_pct": null,
+        "rsi_d": null,
+        "rsi_w": null,
+        "macd_macd": null,
+        "macd_signal": null,
+        "sma20": null,
+        "sma50": null,
+        "sma200": null,
+        "bb_upper": null,
+        "bb_lower": null,
+        "volume": null,
+        "high_d": null,
+        "low_d": null,
+        "summary": null,
+        "error": "daily: Exception: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators."
+      },
+      "sentiment": {
+        "ticker": "HIVE",
+        "stocktwits_bull": 14,
+        "stocktwits_bear": 1,
+        "stocktwits_total": 30,
+        "reddit_mentions_7d": 1,
+        "reddit_subs_breakdown": {
+          "wallstreetbets": 1,
+          "stocks": 0,
+          "pennystocks": 0,
+          "Bitcoin": 0,
+          "CryptoCurrency": 0
+        },
+        "error": null
+      },
+      "scores": {
+        "setup": null,
+        "pivot": null,
+        "hype_stage": "Building",
+        "sentiment_label": "Heavy bullish"
+      }
+    }
+  ]
+}
