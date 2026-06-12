@@ -5,8 +5,8 @@ from datetime import datetime, timezone, timedelta
 import warnings
 warnings.filterwarnings('ignore')
 
-CORE = ['WULF', 'CIFR', 'IREN', 'SLNH', 'BGDE', 'BTBT']
-PEERS = ['CORZ', 'HUT', 'CLSK', 'APLD', 'MARA', 'RIOT', 'BTDR', 'BITF', 'HIVE']
+CORE = ['CIFR', 'IREN', 'SLNH', 'BGDE', 'BTBT']
+PEERS = ['CORZ', 'HUT', 'CLSK', 'APLD', 'MARA', 'RIOT', 'BTDR', 'BITF', 'HIVE', 'WULF']
 ALL_TICKERS = CORE + PEERS
 NO_OPTIONS = ['SLNH', 'BGDE']  # Skip options for these
 THIN_OPTIONS = ['BTBT', 'BTDR']  # Front-month only

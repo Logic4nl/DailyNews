@@ -112,8 +112,8 @@ def ma_stack_text(t):
 # Ticker tier map (used to render the scoreboard rows)
 # ---------------------------------------------------------------------------
 TIER_MAP = {
-    "WULF": "core", "CIFR": "core", "IREN": "core", "SLNH": "core", "BGDE": "core",
-    "CORZ": "pivot", "HUT": "pivot", "CLSK": "pivot", "APLD": "pivot",
+    "CIFR": "core", "IREN": "core", "SLNH": "core", "BGDE": "core",
+    "WULF": "pivot", "CORZ": "pivot", "HUT": "pivot", "CLSK": "pivot", "APLD": "pivot",
     "MARA": "btc", "RIOT": "btc", "BTDR": "btc", "BITF": "btc", "BTBT": "core", "HIVE": "btc",
 }
 
@@ -304,7 +304,7 @@ def main():
         if new != card:
             doc = doc.replace(card, new, 1)
 
-    for ticker in ("WULF", "CIFR", "IREN", "SLNH", "BGDE", "BTBT"):
+    for ticker in ("CIFR", "IREN", "SLNH", "BGDE", "BTBT"):
         update_core(ticker)
 
     # -- Sentiment Cockpit cards --------------------------------------------
