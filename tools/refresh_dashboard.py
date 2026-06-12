@@ -184,6 +184,14 @@ def main():
         m = pat.search(doc)
         return (float(m.group(2)), float(m.group(3))) if m else (0.0, 0.0)
 
+    def avg_pnl_cells(ticker, close):
+        avg = entries.get(f"NASDAQ:{ticker}")
+        if avg is None:
+            return '<td class="muted">\u2014</td>\n<td class="muted">\u2014</td>\n'
+        pnl = (close - avg) / avg * 100
+        pc = 'up' if pnl >= 0 else 'down'
+        return f'<td>${avg:,.2f}</td>\n<td class="{pc}">{fmt_pct(pnl)}</td>\n'
+
     def build_row(ticker, tier, p5, p1m):
         rec = by_ticker.get(ticker)
         if not rec or rec["ta"].get("last_close") is None:
@@ -200,7 +208,9 @@ def main():
         return (
             f'<tr>\n'
             f'<td><strong>{ticker}</strong> <span class="tier-{tier}">{tier}</span></td>\n'
-            f'<td>${close:,.2f}</td>\n<td class="{cc}">{fmt_pct(chg)}</td>\n'
+            f'<td>${close:,.2f}</td>\n'
+            f'{avg_pnl_cells(ticker, close)}'
+            f'<td class="{cc}">{fmt_pct(chg)}</td>\n'
             f'<td class="{p5c}">{fmt_pct(p5)}</td>\n<td class="{p1c}">{fmt_pct(p1m)}</td>\n'
             f'<td class="{rsi_class(rsi_d)}">{rsi_d:.1f}</td>\n'
             f'<td class="{rsi_class(rsi_w)}">{rsi_w:.1f}</td>\n'
