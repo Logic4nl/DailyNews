@@ -45,6 +45,55 @@ def fetch_crypto(symbol, yf_symbol):
         return {"last": None, "day_pct": None, "error": str(e)}
     return {"last": None, "day_pct": None}
 
+def fetch_short_interest(tickers):
+    """FINRA short interest via yfinance: SI % float, DTC, and the print (as-of) date."""
+    import yfinance as yf
+    out = {}
+    def one(t):
+        try:
+            info = yf.Ticker(t).info
+            ss = info.get("sharesShort"); fl = info.get("floatShares")
+            spf = info.get("shortPercentOfFloat")
+            si_pct = (spf * 100) if spf is not None else ((ss / fl * 100) if (ss and fl) else None)
+            a10 = info.get("averageDailyVolume10Day") or info.get("averageVolume10days")
+            dtc = (ss / a10) if (ss and a10) else info.get("shortRatio")
+            dsi = info.get("dateShortInterest")
+            asof = dt.datetime.utcfromtimestamp(dsi).date().isoformat() if dsi else None
+            if si_pct is None:
+                return t, None
+            return t, {"si_pct": round(si_pct, 2), "dtc": round(dtc, 2) if dtc else None, "asof": asof}
+        except Exception:
+            return t, None
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        for t, v in ex.map(one, tickers):
+            out[t] = v
+    return out
+
+def short_interest_with_cache(tickers):
+    """Fetch SI, merge with si_cache.json, stamp staleness. Carry forward greyed if a
+    ticker's fresh fetch fails. SI prints are bi-monthly so age>14d is greyed too."""
+    fresh = fetch_short_interest(tickers)
+    cache_path = os.path.join(REPO, "si_cache.json")
+    cache = json.load(open(cache_path)) if os.path.exists(cache_path) else {}
+    today = dt.date.today()
+    final = {}
+    for t in tickers:
+        v = fresh.get(t)
+        if v:
+            v = dict(v); v["fetched_at"] = today.isoformat(); v["carried"] = False
+            cache[t] = v
+        else:
+            c = cache.get(t)
+            v = (dict(c) | {"carried": True}) if c else None
+        if v:
+            asof = v.get("asof")
+            age = (today - dt.date.fromisoformat(asof)).days if asof else None
+            v["age_days"] = age
+            v["stale"] = bool(v.get("carried")) or asof is None or (age is not None and age > 14)
+        final[t] = v
+    json.dump(cache, open(cache_path, "w"), indent=2)
+    return final
+
 def eth_weekly_close():
     try:
         import yfinance as yf
@@ -122,6 +171,7 @@ def consolidated_fetch():
         results = list(ex.map(one, universe))
 
     hist = yf_data(universe)
+    si_map = short_interest_with_cache(universe)
 
     tv_ok = 0; ind_ok = 0
     for t, ta, sent in results:
@@ -149,16 +199,31 @@ def consolidated_fetch():
         p5 = pct(last, closes[-6]) if len(closes) >= 6 else None
         p1m = pct(last, closes[-22]) if len(closes) >= 22 else None
         trail_high = max(highs[-40:]) if highs else None
+        macd_dir = "up" if ta.macd_above_signal else ("down" if ta.macd_above_signal is False else None)
+        bull = sent.stocktwits_bull or 0; bear = sent.stocktwits_bear or 0
+        tot_dir = bull + bear
+        diverge = None; dtype = ""
+        if tot_dir > 0 and macd_dir:
+            br = bull / tot_dir
+            if br >= 0.66 and macd_dir == "down":
+                diverge = True; dtype = "crowd heavy-long into bearish MACD"
+            elif br < 0.5 and macd_dir == "up":
+                diverge = True; dtype = "net-bearish retail into bullish MACD"
+            else:
+                diverge = False
         rows[t] = {
             "last": last, "src": ind_src,
             "day_pct": day_pct,
             "p5": p5, "p1m": p1m,
             "rsi_d": ta.rsi_d, "rsi_w": ta.rsi_w,
-            "macd_dir": "up" if ta.macd_above_signal else ("down" if ta.macd_above_signal is False else None),
+            "macd_dir": macd_dir,
             "ma_stack": ta.ma_stack_score,
             "setup": ap.score_setup(ta), "pivot": ap.score_pivot(ta),
             "hype": ap.hype_stage(ta, sent), "sent_label": ap.sentiment_label(sent),
             "stk_bull": sent.stocktwits_bull, "stk_bear": sent.stocktwits_bear, "stk_total": sent.stocktwits_total,
+            "stk_dir_total": tot_dir, "diverge": diverge, "diverge_type": dtype,
+            "reddit": "no-data",
+            "si": si_map.get(t),
             "closes": closes[-5:], "trail_high": trail_high,
         }
 
@@ -411,6 +476,40 @@ def render(prices, book, total_mv, committed, trails, posture, posture_note, cha
         return {"CLEAR": "st-clear", "ARMED": "st-armed", "FIRED": "st-fired",
                 "BREACHED": "st-fired", "N/A": "muted"}.get(s, "muted")
 
+    for _r in book:
+        _pt = prices["tickers"].get(_r["ticker"], {})
+        _r["si"] = _pt.get("si")
+        _r["stk_bull"] = _pt.get("stk_bull"); _r["stk_bear"] = _pt.get("stk_bear")
+        _r["stk_dir_total"] = _pt.get("stk_dir_total"); _r["diverge"] = _pt.get("diverge"); _r["diverge_type"] = _pt.get("diverge_type")
+
+    # SI / DTC / sentiment cells (freshness-greyed, sortable via data-v)
+    def si_cell(si):
+        if not si or si.get("si_pct") is None:
+            return '<td class="muted" data-v="-1">N/A</td>'
+        v = si["si_pct"]; asof = si.get("asof") or "?"; st = si.get("stale")
+        carried = si.get("carried")
+        tag = " carried" if carried else (" stale" if st else "")
+        inner = f'{v:.1f}% <span class="tiny">{asof}{tag}</span>'
+        return f'<td class="{"si-stale" if st else ""}" data-v="{v}">{inner}</td>'
+    def dtc_cell(si):
+        if not si or si.get("dtc") is None:
+            return '<td class="muted" data-v="-1">N/A</td>'
+        v = si["dtc"]; st = si.get("stale")
+        return f'<td class="{"si-stale" if st else ""}" data-v="{v}">{v:.2f}</td>'
+    def sent_cell(row, with_reddit=False):
+        tot = row.get("stk_dir_total") or 0
+        if not tot:
+            base = '<span class="muted">no-data</span>'
+            rv = -999
+        else:
+            bull = row.get("stk_bull") or 0; bear = row.get("stk_bear") or 0
+            div = row.get("diverge")
+            badge = f' <span class="flag-div" title="{esc(row.get("diverge_type") or "")}">DIVERGENCE</span>' if div else ""
+            base = f'{bull}&uarr; / {bear}&darr;{badge}'
+            rv = bull - bear
+        rd = ' <span class="tiny muted">Reddit n/a</span>' if with_reddit else ""
+        return f'<td class="tiny" data-v="{rv}">{base}{rd}</td>'
+
     # Your Book rows
     book_rows = ""
     for r in book:
@@ -421,7 +520,10 @@ def render(prices, book, total_mv, committed, trails, posture, posture_note, cha
             f'<td>${r["avg"]:.2f}</td>'
             f'<td class="{cls_pct(r["unreal"])}">{fmt_pct(r["unreal"])}</td>'
             f'<td>{r["weight"]:.1f}%</td>'
-            f'<td class="muted">{esc(r["stop_lbl"])}</td>'
+            + si_cell(r.get("si"))
+            + dtc_cell(r.get("si"))
+            + sent_cell(r, with_reddit=True)
+            + f'<td class="muted">{esc(r["stop_lbl"])}</td>'
             f'<td>{esc(r["dist_stop"])}</td>'
             f'<td><span class="chip {chip_cls(r["chip"])}">{esc(r["chip"])}</span></td>'
             f'<td><span class="th {thesis_cls(r["thesis"])}">{esc(r["thesis"])}</span> '
@@ -455,8 +557,6 @@ def render(prices, book, total_mv, committed, trails, posture, posture_note, cha
         held = any(p["ticker"] == t for p in positions["positions"])
         macd = row.get("macd_dir")
         macd_html = '<span class="up">&uarr;</span>' if macd == "up" else ('<span class="down">&darr;</span>' if macd == "down" else "&mdash;")
-        stk = row.get("stk_total") or 0
-        sent_cell = f'{esc(row.get("sent_label") or "Quiet")} <span class="muted tiny">{row.get("stk_bull") or 0}/{row.get("stk_bear") or 0}</span>' if stk else '<span class="muted">N/A</span>'
         uni_rows += (
             f'<tr><td class="tk">{esc(t)}{" &#9733;" if held else ""} <span class="tier tier-{tier}">{tier}</span></td>'
             f'<td>{("$%.2f"%row["last"]) if row.get("last") else "N/A"}</td>'
@@ -468,7 +568,9 @@ def render(prices, book, total_mv, committed, trails, posture, posture_note, cha
             f'<td>{row.get("ma_stack") if row.get("ma_stack") is not None else "N/A"}/4</td>'
             f'<td>{row.get("setup") if row.get("setup") is not None else "&mdash;"}</td>'
             f'<td>{row.get("pivot") if row.get("pivot") is not None else "&mdash;"}</td>'
-            f'<td class="tiny">{sent_cell}</td></tr>\n'
+            + si_cell(row.get("si"))
+            + sent_cell(row)
+            + '</tr>\n'
         )
 
     # Catalysts
@@ -543,6 +645,9 @@ td:last-child,th:last-child{{text-align:left;white-space:normal}}
 .crel{{font-size:.62rem;padding:.05rem .3rem;border-radius:4px;background:#1c2430;color:var(--mut)}}
 .scroll{{overflow-x:auto}}
 .disc{{color:var(--mut);font-size:.72rem;margin-top:1.4rem;border-top:1px solid var(--bd);padding-top:.6rem}}
+.flag-div{{background:#3a1614;color:var(--red);font-weight:700;font-size:.58rem;padding:.04rem .3rem;border-radius:4px;border:1px solid var(--red);letter-spacing:.02em}}
+.si-stale{{color:var(--mut);opacity:.7}}
+table.sortable th{{cursor:pointer;user-select:none}}table.sortable th:hover{{color:var(--tx)}}
 @media(max-width:640px){{th,td{{padding:.35rem .3rem;font-size:.74rem}}h1{{font-size:1.25rem}}}}
 </style></head>
 <body>
@@ -563,7 +668,7 @@ td:last-child,th:last-child{{text-align:left;white-space:normal}}
 <h2>Your Book</h2>
 <div class="muted tiny">{esc(pos_note)} Showing {shown} of {total_pos} reported positions. Cash: ${cash.get('USD','N/A')} USD (${cash.get('total_in_hkd','N/A')} total in HKD). Book market value ${total_mv:,.0f}.</div>
 <div class="scroll"><table>
-<thead><tr><th>Name</th><th>Live</th><th>Day</th><th>Avg cost</th><th>Unreal.</th><th>Weight</th><th>Trail/stop</th><th>Dist</th><th>Status</th><th>Thesis</th></tr></thead>
+<thead><tr><th>Name</th><th>Live</th><th>Day</th><th>Avg cost</th><th>Unreal.</th><th>Weight</th><th>SI %float</th><th>DTC</th><th>Sentiment</th><th>Trail/stop</th><th>Dist</th><th>Status</th><th>Thesis</th></tr></thead>
 <tbody>{book_rows}</tbody></table></div>
 
 <h2>Rules + Triggers</h2>
@@ -574,15 +679,20 @@ td:last-child,th:last-child{{text-align:left;white-space:normal}}
 
 <h2>Universe Scoreboard</h2>
 <div class="muted tiny">15-name TA scan. &#9733; = held. Setup/Pivot 0-100. Sentiment from StockTwits (bull/bear).</div>
-<div class="scroll"><table>
-<thead><tr><th>Ticker</th><th>Last</th><th>Day</th><th>5d</th><th>1M</th><th>RSI D/W</th><th>MACD</th><th>MA</th><th>Setup</th><th>Pivot</th><th>Sentiment</th></tr></thead>
+<div class="scroll"><table class="sortable" id="uni-table">
+<thead><tr><th>Ticker</th><th>Last</th><th>Day</th><th>5d</th><th>1M</th><th>RSI D/W</th><th>MACD</th><th>MA</th><th>Setup</th><th>Pivot</th><th>SI %float</th><th>Sentiment</th></tr></thead>
 <tbody>{uni_rows}</tbody></table></div>
 
 <h2>Catalysts + Filings</h2>
 {cat_rows}
 
 <div class="disc">Every price on this page traces to one fetch at {esc(fetched)} ({esc(src)}). Verdicts are computed from rules.yaml against live prices; nothing here is hand-authored. Source trust: SEC filings / Mike Alfred (SLNH) high; HC Wainwright and B. Riley conflicted (underwriter/lender); retail confirmation-only. Not financial advice. Owner's private analyst note.</div>
-</div></body></html>"""
+</div><script>
+function cellVal(td){{var d=td.getAttribute('data-v');if(d!==null)return parseFloat(d);var n=parseFloat(td.textContent.replace(/[^0-9.\-]/g,''));return isNaN(n)?td.textContent.trim().toLowerCase():n;}}
+function sortTable(tbl,idx){{var tb=tbl.tBodies[0];var rows=[].slice.call(tb.rows);var cur=tbl.getAttribute('data-sc');var dir=(cur==(''+idx))?-1:1;tbl.setAttribute('data-sc',dir==1?(''+idx):'');rows.sort(function(a,b){{var av=cellVal(a.cells[idx]),bv=cellVal(b.cells[idx]);if(av<bv)return -1*dir;if(av>bv)return 1*dir;return 0;}});rows.forEach(function(r){{tb.appendChild(r);}});}}
+document.querySelectorAll('table.sortable thead th').forEach(function(th,i){{th.addEventListener('click',function(){{sortTable(th.closest('table'),i);}});}});
+</script>
+</body></html>"""
 
 # ----------------------------------------------------------------------------
 # MAIN
