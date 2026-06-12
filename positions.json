@@ -1,0 +1,14 @@
+{
+  "source": "Interactive Brokers positions export (Glenda, self-directed)",
+  "as_of": "2026-06-12",
+  "reported_total_positions": 6,
+  "note": "Broker shows 5 of 6 positions in the provided export; the 6th is not visible and is omitted until the next full export.",
+  "cash": { "USD": 295.43, "total_in_hkd": 2315.33 },
+  "positions": [
+    { "ticker": "SLNH", "shares": 265943,    "avg": 1.49,  "thesis": "PENDING",       "thesis_note": "no binding hyperscaler tenant" },
+    { "ticker": "BTBT", "shares": 79616.1955, "avg": 1.86,  "thesis": "PENDING",       "thesis_note": "WhiteFiber stake is the differentiator" },
+    { "ticker": "CIFR", "shares": 3500,       "avg": 17.80, "thesis": "CONFIRMED",     "thesis_note": "signed AWS and Google" },
+    { "ticker": "IREN", "shares": 1139.3791,  "avg": 44.99, "thesis": "CONFIRMED",     "thesis_note": "signed Microsoft, 3.65B IG financing closed" },
+    { "ticker": "BGDE", "shares": 6800,       "avg": 5.86,  "thesis": "SPECIAL-SIT",   "thesis_note": "Nasdaq delisting binary" }
+  ]
+}

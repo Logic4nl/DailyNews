@@ -1,0 +1,12 @@
+{
+  "note": "Curated dated event stream. THESIS = signed deal / financing / filing on a held name. MACRO = beta, rates, geopolitics. Held-name items pin above macro. Add new items on top; collapse repeats.",
+  "items": [
+    { "date": "2026-06-11", "ticker": "IREN", "relevance": "THESIS", "text": "Microsoft GB300 deal ($9.7B) and 4.5 GW pipeline intact; 3.65B IG financing closed. Cleanest signed-tenant name in the book.", "source": "SEC / company filings", "trust": "high" },
+    { "date": "2026-06-11", "ticker": "CIFR", "relevance": "THESIS", "text": "AWS Black Pearl and Fluidstack/Google Barber Lake leases plus the $300M Texas HPC facility anchor signed revenue.", "source": "SEC / company filings", "trust": "high" },
+    { "date": "2026-06-09", "ticker": "SLNH", "relevance": "THESIS", "text": "Bit Digital hosting story intact but no binding Kati 2 lease with a named IG hyperscaler tenant on file; 29M-share S-3 overhang remains. Year-end trim rule stays ARMED.", "source": "SEC EDGAR", "trust": "high" },
+    { "date": "2026-06-09", "ticker": "BTBT", "relevance": "THESIS", "text": "WhiteFiber stake is the differentiator; Q1 mining revenue down 32.9% QoQ, ETH treasury ~155k. Sleeve tied to the ETH 1500 weekly line.", "source": "SEC / company filings", "trust": "high" },
+    { "date": "2026-06-11", "ticker": "MACRO", "relevance": "MACRO", "text": "Risk-on reversal: Trump called off planned Iran strikes; S&P +1.8% to ~7,400, Nasdaq +2.5%, Dow +923 to 50,841. Miner-to-HPC cohort ripped 6-13%.", "source": "TheStreet / Reuters", "trust": "confirmation" },
+    { "date": "2026-06-10", "ticker": "MACRO", "relevance": "MACRO", "text": "May CPI 4.2% YoY, a three-year high (energy-led; core 2.9%). June 16-17 FOMC priced to hold 3.50-3.75% under new Chair Warsh.", "source": "BLS / CNBC", "trust": "confirmation" },
+    { "date": "2026-06-10", "ticker": "MACRO", "relevance": "MACRO", "text": "BTC consolidating low-$60Ks; spot-BTC and ETH ETFs logged a multi-week outflow streak. ETH near $1,650-1,670, the BTBT sleeve's swing variable.", "source": "CoinDesk / Fortune", "trust": "confirmation" }
+  ]
+}

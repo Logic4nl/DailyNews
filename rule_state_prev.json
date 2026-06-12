@@ -1,0 +1,8 @@
+{
+  "slnh_hard_stop": "CLEAR",
+  "slnh_year_end_trim": "ARMED",
+  "slnh_upside_ladder": "CLEAR",
+  "slnh_invalidations": "CLEAR",
+  "btbt_sleeve_invalidation": "CLEAR",
+  "btbt_add_condition": "CLEAR"
+}

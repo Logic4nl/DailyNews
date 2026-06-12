@@ -1,0 +1,86 @@
+version: 1
+updated: "2026-06-12"
+
+# Owner-maintained qualitative inputs. The engine cannot read these from the tape,
+# so they default to the conservative state and the owner flips them when a real
+# event occurs. Edit these between runs as facts change.
+manual_flags:
+  slnh_kati2_named_tenant_filed: false   # binding Kati 2 lease w/ a NAMED investment-grade hyperscaler tenant filed (a development JV does NOT count)
+  slnh_dorothy3_active: false
+  slnh_analyst_initiations_30d: 0
+  slnh_going_concern_10q: false
+  slnh_dilutive_raise_gt30m_unpaired: false
+  slnh_mike_alfred_exit: false
+  slnh_nasdaq_delisting_active: false
+  btbt_second_tranche_open: false        # set true only after the ETH>2000 gate has opened and owner intends to add
+
+# Tier 1: committed plan. These are the rules that matter and render dominant.
+committed_rules:
+  - id: slnh_hard_stop
+    ticker: SLNH
+    type: stop
+    desc: "SLNH hard stop"
+    condition: "daily close < 0.85 for 3 consecutive sessions"
+    threshold: 0.85
+    sessions: 3
+    action: "SELL 50%"
+
+  - id: slnh_year_end_trim
+    ticker: SLNH
+    type: deadline
+    desc: "SLNH year-end trim"
+    condition: "no binding Kati 2 lease with a named IG hyperscaler tenant by 2026-12-31"
+    deadline: "2026-12-31"
+    satisfied_when_flag: slnh_kati2_named_tenant_filed
+    action: "TRIM 25%"
+    note: "A development JV (e.g. Metrobloks) does NOT satisfy this. Stays ARMED until a named tenant lease is filed."
+
+  - id: slnh_upside_ladder
+    ticker: SLNH
+    type: ladder
+    desc: "SLNH upside ladder"
+    levels:
+      - { price: 5,  action: "skip" }
+      - { price: 7,  action: "contingent partial" }
+      - { price: 8,  action: "first trim 60-80k shares" }
+      - { price: 12, action: "ride past only if Kati 2 named tenant + Dorothy 3 active + 2+ analyst initiations <30d, else trim into strength" }
+
+  - id: slnh_invalidations
+    ticker: SLNH
+    type: invalidation
+    desc: "SLNH invalidations (any one => REVIEW, cut)"
+    btc_threshold: 55000
+    any_of:
+      - { key: btc_below_55k,                    label: "BTC closes < 55k with conviction" }
+      - { key: slnh_going_concern_10q,           label: "going-concern language in any 10-Q" }
+      - { key: slnh_dilutive_raise_gt30m_unpaired, label: "dilutive raise > 30M shares without a paired hyperscaler" }
+      - { key: slnh_mike_alfred_exit,            label: "Mike Alfred publicly exits" }
+      - { key: slnh_nasdaq_delisting_active,     label: "Nasdaq delisting reactivates" }
+
+  - id: btbt_sleeve_invalidation
+    ticker: BTBT
+    type: invalidation
+    desc: "BTBT sleeve invalidation"
+    condition: "ETH weekly close < 1500"
+    eth_weekly_threshold: 1500
+    action: "SELL sleeve"
+
+  - id: btbt_add_condition
+    ticker: BTBT
+    type: add_gate
+    desc: "BTBT add condition"
+    condition: "ETH closes > 2000 before any second tranche"
+    eth_threshold: 2000
+    action: "opens 2nd tranche (bullish; suppressed on stale data)"
+
+# Tier 2: situational trailing stops the owner has NOT committed to. A breach raises a
+# watch flag, never a sell instruction.
+tool_trails:
+  default_pct: 12          # trail set X% below the trailing high
+  lookback_sessions: 40    # window used to find the trailing high
+  overrides: {}            # e.g. { SLNH: 15 }
+
+# Macro thresholds used by the posture line.
+macro:
+  btc_risk_off_below: 55000
+  eth_risk_off_below: 1500
