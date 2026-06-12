@@ -1,7 +1,7 @@
 {
   "CIFR": {
     "si_pct": 15.67,
-    "dtc": 2.17,
+    "dtc": 2.14,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
@@ -10,7 +10,7 @@
   },
   "IREN": {
     "si_pct": 16.05,
-    "dtc": 1.08,
+    "dtc": 1.07,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
@@ -19,7 +19,7 @@
   },
   "SLNH": {
     "si_pct": 17.55,
-    "dtc": 1.24,
+    "dtc": 1.34,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
@@ -28,7 +28,7 @@
   },
   "BGDE": {
     "si_pct": 4.59,
-    "dtc": 1.47,
+    "dtc": 1.43,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
@@ -37,7 +37,7 @@
   },
   "BTBT": {
     "si_pct": 15.51,
-    "dtc": 2.22,
+    "dtc": 2.24,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
@@ -46,7 +46,7 @@
   },
   "CORZ": {
     "si_pct": 25.59,
-    "dtc": 5.32,
+    "dtc": 5.46,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
@@ -55,7 +55,7 @@
   },
   "HUT": {
     "si_pct": 15.7,
-    "dtc": 3.95,
+    "dtc": 4.0,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
@@ -64,7 +64,7 @@
   },
   "CLSK": {
     "si_pct": 45.74,
-    "dtc": 3.47,
+    "dtc": 3.48,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
@@ -73,7 +73,7 @@
   },
   "APLD": {
     "si_pct": 29.31,
-    "dtc": 3.67,
+    "dtc": 3.72,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
@@ -82,7 +82,7 @@
   },
   "MARA": {
     "si_pct": 29.65,
-    "dtc": 2.48,
+    "dtc": 2.5,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
@@ -91,7 +91,7 @@
   },
   "RIOT": {
     "si_pct": 17.89,
-    "dtc": 3.57,
+    "dtc": 3.64,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
@@ -100,7 +100,7 @@
   },
   "BTDR": {
     "si_pct": 33.79,
-    "dtc": 3.73,
+    "dtc": 4.02,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
@@ -108,8 +108,8 @@
     "stale": false
   },
   "HIVE": {
-    "si_pct": 14.09,
-    "dtc": 1.06,
+    "si_pct": 14.11,
+    "dtc": 1.11,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
@@ -118,7 +118,7 @@
   },
   "WULF": {
     "si_pct": 25.85,
-    "dtc": 4.14,
+    "dtc": 4.06,
     "asof": "2026-05-29",
     "fetched_at": "2026-06-12",
     "carried": false,
