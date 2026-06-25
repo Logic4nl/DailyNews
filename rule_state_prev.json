@@ -3,6 +3,6 @@
   "slnh_year_end_trim": "ARMED",
   "slnh_upside_ladder": "CLEAR",
   "slnh_invalidations": "ARMED",
-  "btbt_sleeve_invalidation": "CLEAR",
+  "btbt_sleeve_invalidation": "ARMED",
   "btbt_add_condition": "CLEAR"
 }
