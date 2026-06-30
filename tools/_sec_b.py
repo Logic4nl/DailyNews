@@ -1,30 +1,287 @@
 # -*- coding: utf-8 -*-
+
 AI_HPC = [
-    {"hero":True,"sub":"Foundation Models & Releases","h3":"OpenAI gates GPT-5.6 Sol to 20 partners at government request","summary":"OpenAI previewed GPT-5.6 Sol but restricted access to about 20 trusted partners after the US government sought early access to frontier models.","body":["OpenAI said GPT-5.6 Sol is its strongest model so far, with gains in coding, biology and cybersecurity. The June 26 rollout went only to roughly 20 partners and was coordinated with the Trump administration under a voluntary pre-launch testing protocol tied to an executive order.","Sam Altman delayed the broader public release, which the company framed as a temporary step on the path to wider availability in the coming weeks. The lineup spans three sizes, Sol, Terra and Luna, with Sol priced at 5 dollars input and 30 dollars output per million tokens. Government coordination on a flagship model marks a notable shift toward gated access for the most capable systems."],"sources":[("CNBC","https://www.cnbc.com/2026/06/26/openai-limits-new-ai-models-to-trusted-partners-request-us-government.html"),("CryptoBriefing","https://cryptobriefing.com/openai-releases-gpt-56-models-to-20-partners-public-launch-expected-by-july-2026/")]},
-    {"sub":"Foundation Models & Releases","h3":"Anthropic keeps Mythos and Fable models offline amid US review","summary":"Anthropic's Mythos 5 was gated for re-authorization to a short list of trusted US organizations while its most capable model Fable 5 stayed offline.","body":["As of June 27 the US government had gated Anthropic's Mythos 5 for re-authorization to a small set of trusted US organizations. Anthropic's most capable model, Fable 5, remained entirely offline, 15 days into a suspension with restoration described as a hope rather than a firm date.","The constraints mirror the government coordination affecting OpenAI's GPT-5.6 line, underscoring how frontier labs now face pre-launch review before their strongest systems reach customers."],"sources":[("Free Press Journal","https://www.freepressjournal.in/amp/tech/openai-anthropic-limit-new-ai-model-releases-to-trump-approved-users-amid-cybersecurity-review"),("Storyboard18","https://www.storyboard18.com/digital/why-anthropic-held-back-claude-mythos-its-most-powerful-ai-model-yet-102565.htm")]},
-    {"sub":"Foundation Models & Releases","h3":"Anthropic raises API limits, simplifies usage tiers","summary":"On June 27 Anthropic lifted API rate limits so Sonnet and Haiku match Opus, and collapsed usage tiers into three.","body":["Anthropic's Claude Developer Platform raised rate limits so Claude Sonnet and Claude Haiku now match Claude Opus at every usage tier. The company also consolidated its usage tiers into three named Start, Build and Scale.","The changes aim to simplify how developers scale workloads and reduce friction when moving between models, a move that lands as labs compete hard for enterprise developer mindshare."],"sources":[("Releasebot","https://releasebot.io/updates/anthropic")]},
-    {"sub":"Foundation Models & Releases","h3":"Sakana, Google and NVIDIA stack up June model launches","summary":"A busy month of releases ran through late June with Sakana's Fugu Ultra on June 22 joining new Google, NVIDIA and MiniMax models.","body":["Sakana AI shipped Fugu Ultra on June 22, the freshest entry in a crowded month. Google released Gemini 3.1 Flash Image on June 18 and pushed Gemini 3.5 Pro toward general availability, while NVIDIA put out Nemotron 3 Ultra, a 550 billion parameter open model under a permissive license.","MiniMax M3 arrived June 1 with a one million token context window and strong coding scores, and xAI released Grok Imagine Video 1.5 on June 17. The cadence shows frontier and open labs releasing in near lockstep."],"sources":[("LLM-Stats","https://llm-stats.com/llm-updates"),("Price Per Token","https://pricepertoken.com/news/model-releases")]},
-    {"sub":"AI/HPC Stocks & Infrastructure","h3":"NVIDIA pushes into PCs with RTX Spark superchip","summary":"NVIDIA unveiled the RTX Spark, a MediaTek-built superchip that brings up to a petaflop of AI compute to Windows PCs and pressures rival chipmakers.","body":["At Computex, Jensen Huang said NVIDIA and Microsoft will reinvent the PC with the RTX Spark, also called N1X, built with Taiwan's MediaTek. It pairs a Blackwell RTX GPU with a 20-core Grace CPU over NVLink-C2C, offering up to one petaflop of AI compute and 128GB of unified memory for on-device agents.","The chip debuts later this year in Windows PCs from Microsoft, Dell, HP, ASUS, Lenovo and MSI. NVIDIA's move toward edge AI pushed shares of AMD, Intel and Qualcomm lower as it targets a market beyond the data center."],"sources":[("CNBC","https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html"),("NVIDIA Newsroom","https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark")]},
-    {"sub":"AI/HPC Stocks & Infrastructure","h3":"Rosenblatt upgrades CoreWeave, calls it the OS for AI","summary":"CoreWeave drew a Buy rating from Rosenblatt on June 25 and joined the Nasdaq-100 days earlier as AI infrastructure demand stayed tight.","body":["Rosenblatt moved CoreWeave to Buy on June 25, describing it as looking increasingly like the de facto operating system for AI. CoreWeave and Nebius joined the Nasdaq-100 on June 22, widening the investor base, and a 15-year Chicago hyperscale lease locked in roughly 2.2 billion dollars of contracted revenue.","Management said 2026 capacity is effectively sold out, a sign of how scarce AI compute remains. The company also raised its 2026 capital spending outlook to 31 to 35 billion dollars, which stoked concern about rising debt and financing costs."],"sources":[("StocksToTrade","https://stockstotrade.com/news/coreweave-inc-crwv-news-2026_06_12/"),("TradingView","https://www.tradingview.com/news/zacks:af28a5387094b:0-coreweave-vs-oracle-which-ai-infrastructure-stock-is-the-better-pick/")]},
-    {"sub":"AI/HPC Stocks & Infrastructure","h3":"OpenAI IPO delay report rattles Oracle and CoreWeave","summary":"Reports that OpenAI is cautious on going public sent Oracle and CoreWeave lower as investors weighed AI growth concerns.","body":["Oracle and CoreWeave fell in late June on reports that OpenAI executives are wary of a weak market for new listings. The caution followed SpaceX stock dropping 24 percent in six sessions after its record IPO, which appeared to make OpenAI more hesitant about its own debut.","The two names are heavily tied to OpenAI demand. Oracle has a roughly 300 billion dollar deal to build AI data centers through 2030, and CoreWeave holds a multi-year partnership worth up to 22 billion dollars, so any slowdown in OpenAI's trajectory ripples directly into both stocks."],"sources":[("Yahoo Finance","https://finance.yahoo.com/markets/stocks/articles/oracle-coreweave-shares-drop-report-115602292.html"),("CM Elite Group","https://www.cmelitegroup.com/trends-and-insights/oracle-and-coreweave-fall-as-openai-ipo-delay-report-rattles-ai-stocks/")]},
-    {"sub":"AI/HPC Stocks & Infrastructure","h3":"NVIDIA Vera Rubin enters full production for late 2026","summary":"NVIDIA's next-generation Vera Rubin platform reached full production at GTC Taipei on June 1 with partner availability set for the second half of 2026.","body":["Vera Rubin combines one Vera CPU with two Rubin GPUs in a single superchip and ships alongside four networking and storage chips including NVLink 6 Switch, ConnectX-9 SuperNIC, BlueField-4 DPU and Spectrum-6 Ethernet Switch. The Rubin GPU packs 336 billion transistors.","NVIDIA said Vera Rubin entered full production at GTC Taipei on June 1, with partner availability beginning in the second half of 2026. The platform is positioned as a roughly fivefold leap over Blackwell for AI training and inference."],"sources":[("NVIDIA Newsroom","https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer"),("Tom's Hardware","https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-ceo-confirms-vera-rubin-nvl72-is-now-in-production")]},
-    {"sub":"AI/HPC Stocks & Infrastructure","h3":"SoftBank plans up to 85 billion dollars of French data centers","summary":"SoftBank announced plans to invest as much as 75 billion euros to build 5 GW of data center capacity across France.","body":["SoftBank said it will invest up to 75 billion euros, about 85 billion dollars, to develop 5 GW of data center capacity in France. The buildout starts with three sites in Dunkirk, Bosquel and Bouchain.","The commitment is one of the largest single-country AI infrastructure pledges in Europe and signals SoftBank's intent to anchor compute capacity on the continent as demand for training and inference grows."],"sources":[("Data Center Knowledge","https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-june-2026")]},
-    {"sub":"AI/HPC Stocks & Infrastructure","h3":"Applied Digital plans 3.6 billion dollar Louisiana AI campus","summary":"Applied Digital is developing Delta Forge 1, a 300-acre, 3.6 billion dollar AI campus in Boyce, Louisiana.","body":["Applied Digital announced plans for Delta Forge 1, a 300-acre artificial intelligence campus in the town of Boyce, Louisiana, carrying a 3.6 billion dollar price tag. The project adds to a wave of large US buildouts concentrated in the South.","Louisiana has emerged as a magnet for AI infrastructure, with the state also offering 3.3 billion dollars in tax breaks for Meta's Hyperion campus. The trend reflects how power availability and incentives are steering site selection."],"sources":[("Data Center Knowledge","https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-june-2026")]},
-    {"sub":"AI/HPC Stocks & Infrastructure","h3":"CloudBurst breaks ground on 1.2 GW Central Texas campus","summary":"CloudBurst Data Centers started construction on a 1.2 GW flagship campus near San Marcos and New Braunfels in Texas.","body":["CloudBurst Data Centers broke ground on its 1.2 GW flagship campus in the San Marcos and New Braunfels area of Central Texas. The project underscores how Texas is on track to overtake Virginia as the leading US hub for hyperscale construction.","Prime Data Centers also broke ground on SMF02, a 150,000 square foot facility on its Sacramento campus delivering 18 MW of critical IT load. Texas and Arkansas are set to dominate US hyperscale construction in 2026."],"sources":[("Data Center Knowledge","https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-june-2026"),("BlackRidge Research","https://www.blackridgeresearch.com/blog/upcoming-largest-data-center-projects-in-united-states-usa")]},
-    {"sub":"AI/HPC Stocks & Infrastructure","h3":"AI racks blow past 30 kW toward megawatt scale","summary":"Engineers at Data Center World 2026 described facilities turning into tightly integrated compute systems as rack power surges toward the megawatt range.","body":["At Data Center World 2026, leaders from Oracle Cloud Infrastructure, NVIDIA and Google described a structural shift from general-purpose IT halls into tightly integrated compute systems. The changes touch power, cooling, network design and construction timelines.","Racks that once handled 30 to 40 kW are now measured in hundreds of kilowatts, with some designs approaching a megawatt. The density jump is forcing a rethink of liquid cooling, power distribution and how quickly buildings can be brought online."],"sources":[("Data Center Knowledge","https://www.datacenterknowledge.com/build-design/data-center-world-2026-ai-pushes-infrastructure-to-new-limits")]},
-    {"sub":"AI/HPC Stocks & Infrastructure","h3":"Broadcom guidance miss drags down chip sector","summary":"Broadcom's Q3 AI chip guidance came in below estimates, triggering a sharp sell-the-news drop across AMD, Intel and Micron.","body":["Broadcom guided Q3 AI chip sales to about 16 billion dollars, short of the 17.2 billion dollar consensus. The cautious outlook sparked a sell-the-news reaction that sent Broadcom shares down 14 percent.","The pullback rippled across the sector, with Micron falling 17 percent, AMD 12.6 percent and Intel 9 percent over two sessions. The episode showed how sensitive AI chip valuations have become to any sign of slowing demand."],"sources":[("Kavout","https://www.kavout.com/market-lens/what-triggered-the-recent-semiconductor-sell-off"),("CNBC","https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html")]},
-    {"sub":"AI/HPC Stocks & Infrastructure","h3":"Enterprise AI system spend projected to hit 27.5 billion in 2026","summary":"Spending on enterprise AI systems is forecast to climb from about 22.5 billion dollars in 2025 to 27.5 billion in 2026.","body":["Analysts expect firms to lift enterprise AI system spending from roughly 22.5 billion dollars in 2025 to 27.5 billion in 2026, with a projected peak above 40 billion around 2029. The figures point to sustained capital flowing into AI deployment despite valuation jitters.","The trajectory tracks the broader infrastructure boom, where hyperscalers and enterprises are racing to secure compute and power. The steady ramp suggests demand is structural rather than a short-lived spike."],"sources":[("Techzine","https://www.techzine.eu/news/infrastructure/142436/investments-in-ai-data-centers-to-total-27-5-billion-in-2026/")]},
-    {"sub":"Chinese AI Ecosystem","h3":"Qwen overtakes Llama as most-downloaded open model","summary":"Alibaba's Qwen passed 1 billion cumulative Hugging Face downloads, dethroning Meta's Llama as the most-downloaded open model.","body":["Qwen surpassed 1 billion cumulative downloads on Hugging Face, overtaking Meta's Llama as the most-downloaded open model. In June trending rankings, Chinese open models held five of the top ten slots.","Qwen3-Max leads Arena-Hard at 90.5 with a 262K context window and trains on 36 trillion tokens. The milestone cements Alibaba's grip on the open-weight ecosystem as Chinese labs increasingly set the pace for open releases."],"sources":[("South China Morning Post","https://www.scmp.com/tech/big-tech/article/3319831/deepseeks-ai-dominance-china-challenged-alibabas-qwen-and-rising-rivals"),("Data Gravity","https://www.datagravity.dev/p/chinas-open-weight-takeover")]},
-    {"sub":"Chinese AI Ecosystem","h3":"DeepSeek's open-model lead slips as Qwen surges","summary":"DeepSeek's share of open-source model usage on China's PPIO platform fell from over 99 percent to about 80 percent by June.","body":["DeepSeek's share of open-source model usage on the Chinese cloud platform PPIO dropped from over 99 percent in the first quarter to about 80 percent in June. Qwen usage on the same platform surpassed DeepSeek at its late-May peak, reaching 56 percent.","The shift shows how quickly competitive dynamics move among Chinese labs, with Qwen owning the broad ecosystem and DeepSeek leaning on price-performance. DeepSeek-V3.2-Exp handles 128K-token tasks for about 0.28 dollars per million input tokens."],"sources":[("South China Morning Post","https://www.scmp.com/tech/big-tech/article/3319831/deepseeks-ai-dominance-china-challenged-alibabas-qwen-and-rising-rivals"),("CNBC","https://www.cnbc.com/2026/06/18/no-poaching-our-people-chinas-deepseek-reportedly-tells-investors.html")]},
-    {"sub":"Chinese AI Ecosystem","h3":"DeepSeek warns investors against poaching its staff","summary":"DeepSeek reportedly told investors not to poach its people as talent competition among Chinese AI labs intensified.","body":["DeepSeek reportedly cautioned its investors against poaching employees, a sign of how fierce the talent war has grown among Chinese AI firms. The message came as rivals like Alibaba and Moonshot accelerated their own model rollouts.","Holding onto researchers has become a strategic priority as Chinese labs release at a pace that often outstrips Western frontier labs. The episode highlights how scarce and contested top AI talent has become inside China's ecosystem."],"sources":[("CNBC","https://www.cnbc.com/2026/06/18/no-poaching-our-people-chinas-deepseek-reportedly-tells-investors.html")]},
-    {"sub":"Chinese AI Ecosystem","h3":"Moonshot ships Kimi K2.7 Code in rapid open-weight cadence","summary":"Moonshot released a Kimi K2.7 Code variant in June, its fifth major release in under a year, backed by fresh funding.","body":["Moonshot AI released the Kimi K2.7 Code variant in June, continuing one of the fastest release cadences in the field with five major launches between July 2025 and June 2026. The flagship Kimi K2.6 is a trillion-parameter open-weight model that competes with GPT-5.5 and Claude Opus on coding benchmarks at lower token costs.","Moonshot closed a 2 billion dollar round in May at a 20 billion dollar valuation led by Meituan's Long-Z Investments, lifting its six-month fundraising past 3.9 billion. The capital fuels its aggressive open-weight push."],"sources":[("South China Morning Post","https://www.scmp.com/tech/big-tech/article/3350887/moonshot-ai-releases-flagship-model-open-source-push-continues"),("Hugging Face","https://huggingface.co/blog/fdaudens/moonshot-ai-kimi-k2-explained")]},
-    {"sub":"Agents & Automation","h3":"Gartner pegs AI agent software spend at 206 billion in 2026","summary":"A Gartner forecast projects AI agent software spending will hit about 206.5 billion dollars in 2026, up 139 percent year over year.","body":["Gartner projects AI agent software spending will reach roughly 206.5 billion dollars in 2026, a 139 percent jump from 86.4 billion in 2025. That makes agents the fastest-growing slice of enterprise software spend.","The forecast reflects a broad pivot from pilots to production deployments. Vendors across infrastructure, security and applications are racing to capture budget as enterprises move agents into mission-critical workflows."],"sources":[("AI Agent Store","https://aiagentstore.ai/ai-agent-news/2026-june"),("eWeek","https://www.eweek.com/news/agentic-ai-trend-2026/")]},
-    {"sub":"Agents & Automation","h3":"ServiceNow and Accenture launch agentic risk services","summary":"ServiceNow and Accenture rolled out joint AI-powered services on June 29 to move companies from legacy risk platforms to agentic AI.","body":["ServiceNow and Accenture launched a joint offering built on the ServiceNow AI Platform plus an Accenture solution that automates migration from legacy systems. AI agents monitor regulatory changes and automate responses to cut risk before incidents occur.","The partnership targets security and compliance workloads, a high-value entry point for autonomous agents. It signals how systems integrators are packaging agentic capabilities for large enterprises wary of building from scratch."],"sources":[("Accenture Newsroom","https://newsroom.accenture.com/news/2026/servicenow-and-accenture-launch-ai-powered-services-to-accelerate-the-shift-from-legacy-risk-platforms-to-agentic-ai")]},
-    {"sub":"Agents & Automation","h3":"Microsoft ships Agent 365 and autonomous Scout agent","summary":"Microsoft made Agent 365 generally available and introduced Scout, an always-on autonomous agent with its own governed identity.","body":["Microsoft brought Agent 365 to general availability with expanded capabilities and integrations, and introduced a new category called Autopilots. The first flagship is Microsoft Scout, an always-on autonomous agent that carries its own governed Entra identity.","Microsoft also launched Work IQ APIs offering MCP tools and semantic index capabilities to map organizational behavior. The push, anchored at Build 2026, frames agentic AI as ready for mission-critical enterprise use."],"sources":[("Microsoft Security Blog","https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/"),("Windows News","https://windowsnews.ai/article/microsoft-build-2026-agentic-ai-goes-production-with-microsoft-iq-platform.425452")]},
-    {"sub":"Agents & Automation","h3":"Salesforce and Google Cloud link agents across platforms","summary":"Salesforce and Google Cloud expanded their partnership so AI agents can run end-to-end workflows across both platforms with shared context.","body":["Salesforce and Google Cloud announced an expanded partnership letting AI agents execute end-to-end workflows across both platforms, tackling fragmented data and disconnected systems. Agentforce now natively supports Gemini 3.5 Flash through the Atlas Reasoning Engine.","The tie-up reflects intensifying competition with Microsoft for workplace AI. Cross-platform agent interoperability is becoming a key battleground as enterprises demand agents that act across their full software stack."],"sources":[("Salesforce","https://www.salesforce.com/news/press-releases/2026/04/22/salesforce-google-cloud-launch-new-integrations-deep-context/"),("VentureBeat","https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and")]},
-    {"sub":"Agents & Automation","h3":"Straiker raises 64 million to secure enterprise AI agents","summary":"Straiker closed a 64 million dollar Series A to secure enterprise AI agents, lifting its total funding to 85 million.","body":["Straiker announced a 64 million dollar Series A aimed at securing enterprise AI agents, bringing total funding to 85 million. The raise lands as agent deployments multiply and security around autonomous systems becomes a pressing concern.","Investor appetite is concentrating on production AI that makes real decisions, moves money and governs agents. Straiker's funding reflects how agent security has emerged as a distinct and well-capitalized category."],"sources":[("AI Agents Directory","https://aiagentsdirectory.com/news/ai-agents-news-brief-funding-surges-enterprise-adoption-grows-and-development-accelerates")]},
-    {"sub":"Enterprise & Regulation","h3":"EU defers high-risk AI Act obligations to late 2027","summary":"The EU's Digital Omnibus deal pushes Annex III high-risk AI obligations from August 2026 to December 2027, easing pressure on enterprises.","body":["Under the Digital Omnibus on AI, Annex III use-based high-risk obligations are postponed from 2 August 2026 to 2 December 2027, a 16-month deferral. The European Parliament endorsed the provisional agreement on 16 June, with formal Council adoption and publication expected in July.","The package mixes timeline relief, targeted simplification and a few substantive changes, the first amendments to the AI Act since its 2024 adoption. It also extends simplified compliance to mid-cap firms with up to 750 employees and 150 million euros in revenue."],"sources":[("Latham & Watkins","https://www.lw.com/en/insights/ai-act-update-eu-resolves-to-change-rules-and-extend-deadlines"),("Global Policy Watch","https://www.globalpolicywatch.com/2026/06/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions-2/")]},
-    {"sub":"Enterprise & Regulation","h3":"EU picks EUROPA consortium for open frontier AI challenge","summary":"The European Commission selected the EUROPA consortium to build an open-source frontier AI model spanning all 24 EU languages.","body":["On 19 June the Commission named EUROPA the winner of the Frontier AI Grand Challenge, a project to build a European open-source frontier model covering all 24 official EU languages. The award signals Europe's intent to field a sovereign alternative to US and Chinese models.","The effort fits a wider push for digital autonomy as the bloc finalizes AI Act amendments. An open multilingual model could give European enterprises a homegrown option for sensitive deployments."],"sources":[("European Commission","https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"),("Stibbe","https://www.stibbe.com/publications-and-insights/ai-act-reloaded-what-the-latest-ai-act-changes-mean-in-practice")]},
-    {"sub":"Enterprise & Regulation","h3":"HPE extends agentic AI across GreenLake and Morpheus","summary":"At HPE Discover 2026, HPE tied new agentic AI capabilities into its GreenLake and Morpheus software to embed automation in its hybrid cloud stack.","body":["At HPE Discover 2026 in Las Vegas, HPE announced extensions to its agentic AI strategy across GreenLake and Morpheus software. The move ties agent capabilities to its hybrid cloud and automation stack as part of a broader push to make AI-driven automation a core infrastructure feature.","The announcements reflect how infrastructure vendors are racing to bake agents into their platforms rather than leave them as bolt-ons. HPE is positioning automation as central to how enterprises run hybrid workloads."],"sources":[("AI Agent Store","https://aiagentstore.ai/ai-agent-news/2026-june")]},
-    {"sub":"Enterprise & Regulation","h3":"Q1 2026 venture funding shatters records on AI mega-rounds","summary":"Global venture funding hit about 300 billion dollars in Q1 2026, with AI alone drawing 255.5 billion and eclipsing the full 2025 AI total.","body":["Q1 2026 set a venture funding record near 300 billion dollars, with AI accounting for 255.5 billion, more than the entire 2025 AI total in a single quarter. The pace carried into June with multiple half-billion-dollar rounds.","Recent deals included Ramp at 750 million on a 44 billion dollar valuation, Supabase at 500 million valued at 10.5 billion, and Flourish at 500 million backed by Jeff Bezos and Google Ventures. Nine of the week's ten biggest rounds carried a direct AI angle."],"sources":[("Crunchbase News","https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/"),("Crunchbase News","https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/")]},
+    {
+        "hero": True,
+        "sub": "AI/HPC Stocks & Infrastructure",
+        "h3": "OpenAI eyes 2027 IPO as Anthropic moves to go public first",
+        "summary": "Both labs filed confidentially for what could be historic public offerings, with Anthropic now expected to list as soon as October.",
+        "body": [
+            "OpenAI is weighing an initial public offering as soon as 2027, and its leadership reportedly expects rival Anthropic to reach the public markets first. Anthropic is said to be considering a debut as early as October, a striking reversal in a race long defined by OpenAI's lead.",
+            "The dual filings cap a frenzied funding stretch. Anthropic took the top spot in private AI valuation after a 65 billion dollar Series H valued it near 965 billion, the first time any company has topped OpenAI on that measure. The looming offerings would test public appetite for the largest names in the AI buildout.",
+        ],
+        "sources": [
+            ("Bloomberg", "https://www.bloomberg.com/news/articles/2026-06-26/openai-weighs-ipo-in-2027-after-expected-anthropic-public-debut"),
+            ("Crunchbase News", "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"),
+        ],
+    },
+    {
+        "sub": "AI/HPC Stocks & Infrastructure",
+        "h3": "Nvidia ships Vera Rubin platform with six new chips",
+        "summary": "Nvidia kicked off its next GPU generation at GTC Taipei, with cloud deployments slated across AWS, Google Cloud, Microsoft and Oracle later this year.",
+        "body": [
+            "Nvidia unveiled the Vera Rubin platform anchored by a new Rubin GPU featuring a third-generation Transformer Engine and 50 petaflops of NVFP4 inference compute. Spectrum-X Ethernet built on co-packaged optics is now in full production for scale-out AI factory deployments.",
+            "AWS, Google Cloud, Microsoft and OCI are among the first cloud providers expected to deploy Vera Rubin instances this year. The first gigawatt of Nvidia systems under its OpenAI partnership is slated for the second half of 2026 on the same platform.",
+        ],
+        "sources": [
+            ("Nvidia Newsroom", "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer"),
+            ("The Next Platform", "https://www.nextplatform.com/ai/2026/06/02/nvidia-extends-its-grip-on-the-ai-datacenter-outwards/5250344"),
+        ],
+    },
+    {
+        "sub": "AI/HPC Stocks & Infrastructure",
+        "h3": "TSMC says CoWoS packaging sold out through 2026",
+        "summary": "CEO C.C. Wei told shareholders advanced packaging capacity remains extremely tight, a bottleneck for the whole AI chip supply chain.",
+        "body": [
+            "At TSMC's June 4 annual meeting, chief executive C.C. Wei said CoWoS advanced packaging capacity is extremely tight and sold out through 2026. The constraint affects Broadcom and other accelerator designers that depend on TSMC for manufacturing and packaging.",
+            "To ease pressure, TSMC and Amkor Technology formed an alliance to expand advanced packaging in Arizona and Korea. The packaging squeeze has become a recurring theme as AI chip demand keeps outrunning the most specialized links in the supply chain.",
+        ],
+        "sources": [
+            ("Tom's Hardware", "https://www.tomshardware.com/tech-industry/semiconductors/custom-ai-asics-examined-from-broadcom-to-mtia"),
+            ("Capacity", "https://capacityglobal.com/news/broadcom-tsmc-ai-chip-supply-chain-constraints/"),
+        ],
+    },
+    {
+        "sub": "AI/HPC Stocks & Infrastructure",
+        "h3": "Broadcom AI guidance disappoints, rattles chip stocks",
+        "summary": "Broadcom guided Q3 AI chip sales to 16 billion dollars, short of analyst hopes, and held its full-year forecast steady.",
+        "body": [
+            "Broadcom's Q3 AI chip sales guidance of 16 billion dollars came in below the 17.2 billion analysts expected, and the company notably declined to raise its full-year 2026 AI semiconductor forecast. The cautious outlook fed volatility across semiconductor names earlier in June.",
+            "The wobble stood out against a backdrop of relentless AI capex. AMD pressed its case for a 120 billion dollar data center opportunity while Qualcomm launched a Dragonfly server brand, signaling more competition for the accelerator dollars Nvidia still dominates.",
+        ],
+        "sources": [
+            ("Kavout", "https://www.kavout.com/market-lens/what-triggered-the-recent-semiconductor-sell-off"),
+            ("Distill Intelligence", "https://www.distillintelligence.com/briefings/semiconductors-ai-chips-2026-06-26"),
+        ],
+    },
+    {
+        "sub": "AI/HPC Stocks & Infrastructure",
+        "h3": "Meta lifts El Paso data center bet to over 10 billion dollars",
+        "summary": "Meta expanded a Texas AI facility to one gigawatt of capacity even as it cut jobs and projected up to 135 billion in 2026 capex.",
+        "body": [
+            "Meta raised its planned investment in an El Paso AI data center from 1.5 billion to more than 10 billion dollars, expanding the site to one gigawatt of capacity ahead of a 2028 launch. The move came amid internal restructuring including roughly 700 initial job cuts.",
+            "The company is steering toward as much as 135 billion dollars in 2026 capital spending, almost all of it driven by AI infrastructure. The El Paso expansion underscores how power-hungry frontier ambitions are reshaping where and how hyperscalers build.",
+        ],
+        "sources": [
+            ("LLM-Stats", "https://llm-stats.com/llm-updates"),
+            ("Goldman Sachs", "https://www.goldmansachs.com/insights/articles/us-data-center-power-demand-projected-to-double-by-2027"),
+        ],
+    },
+    {
+        "sub": "AI/HPC Stocks & Infrastructure",
+        "h3": "CloudBurst breaks ground on 1.2 GW Texas campus",
+        "summary": "One of North America's largest single-site data center projects began construction in Central Texas as power becomes the binding constraint on AI growth.",
+        "body": [
+            "CloudBurst Data Centers broke ground on a 1.2 gigawatt flagship campus near San Marcos and New Braunfels in Central Texas, among the largest single-site projects ever announced on the continent. Vantage is separately planning a 1.4 gigawatt, 25 billion dollar campus in Shackelford County.",
+            "Gartner expects worldwide data center power demand to climb about 27 percent in 2026 to 132 gigawatts. With grid capacity now the limiting factor, developers are racing to lock in gigawatt-scale electricity well ahead of bringing chips online.",
+        ],
+        "sources": [
+            ("NextBigFuture", "https://www.nextbigfuture.com/2026/06/power-is-everything-in-ai-100-billion-per-gigawatt-of-data-center.html"),
+            ("Gartner", "https://www.gartner.com/en/newsroom/press-releases/2026-06-10-gartner-says-data-center-electricity-demand-to-grow-26-percent-in-2026"),
+        ],
+    },
+    {
+        "sub": "AI/HPC Stocks & Infrastructure",
+        "h3": "DeepSeek closes first funding round near 50 billion valuation",
+        "summary": "The Chinese lab raised about 7.4 billion dollars from backers including Tencent and CATL in its maiden external round.",
+        "body": [
+            "DeepSeek reportedly closed its first external funding round, raising roughly 50 billion yuan, about 7.4 billion dollars, at a valuation north of 50 billion. Investors include Tencent and battery giant CATL, reflecting broad ecosystem support inside China.",
+            "Founder Liang Wenfeng attached an unusual condition: a non-negotiable no-poaching clause barring investors from luring DeepSeek staff. The deal underscores China's drive toward a self-sufficient AI stack spanning models and the energy to run them.",
+        ],
+        "sources": [
+            ("CNBC", "https://www.cnbc.com/2026/06/18/no-poaching-our-people-chinas-deepseek-reportedly-tells-investors.html"),
+            ("CNBC", "https://www.cnbc.com/2026/06/03/deepseek-slated-to-draw-7-billion-in-maiden-fundraising-sources-say.html"),
+        ],
+    },
+    {
+        "sub": "AI/HPC Stocks & Infrastructure",
+        "h3": "Flourish raises 500 million for brain-inspired AI",
+        "summary": "The startup pulled in half a billion dollars in initial funding from Jeff Bezos, Lux Capital and Google Ventures.",
+        "body": [
+            "Flourish, a startup building AI models inspired by the human brain, raised 500 million dollars in initial funding with backers including Jeff Bezos, Lux Capital and Google Ventures. The round lands amid a record stretch for AI venture capital.",
+            "Q1 2026 saw more than 300 billion dollars in global venture investment, with four of the five largest rounds ever closing in the quarter. Developer platform Supabase also raised 500 million the same week at a 10.5 billion valuation.",
+        ],
+        "sources": [
+            ("Crunchbase News", "https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/"),
+            ("Crunchbase News", "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/"),
+        ],
+    },
+    {
+        "sub": "Foundation Models & Releases",
+        "h3": "GPT-5.6 launches under government access restrictions",
+        "summary": "OpenAI's three-variant GPT-5.6 family rolled out June 25 to a small group of trusted partners amid cybersecurity concerns.",
+        "body": [
+            "OpenAI's GPT-5.6 family arrived June 25 split into three variants, Sol, Terra and Luna, each targeting a different point on the cost-versus-capability curve. The launch promises gains in reasoning, automation and token efficiency.",
+            "The rollout was deliberately constrained to a small group of trusted partners, with the participation list shared with the government. Officials raised concerns that models scoring high enough on cybersecurity benchmarks could enable automated vulnerability discovery at scale. A broader release is expected pending review.",
+        ],
+        "sources": [
+            ("Squared Tech", "https://www.squaredtech.co/gpt-56-preview-openais-3-new-models-explained"),
+            ("Geeky Gadgets", "https://www.geeky-gadgets.com/gpt-5-6-june-2026-release/"),
+        ],
+    },
+    {
+        "sub": "Foundation Models & Releases",
+        "h3": "Google delays Gemini 3.5 Pro to July",
+        "summary": "The flagship missed its June target and remains in limited preview for select Vertex AI customers, with general availability now set for July.",
+        "body": [
+            "Gemini 3.5 Pro, which Sundar Pichai teased at I/O with a next-month timeline, slipped past its June window. As of late June it sits in limited preview for select Vertex AI enterprise customers, with broad availability now targeted for July.",
+            "Google did ship Gemini 3.1 Flash-Lite in preview, billed as the fastest and most cost-efficient model in the Gemini 3 line for high-volume workloads. The delay leaves the headline frontier release as the most anticipated launch on the July calendar.",
+        ],
+        "sources": [
+            ("TechTimes", "https://www.techtimes.com/articles/319318/20260629/gemini-35-pro-cleared-july-launch-fable-5-nears-return-gpt-56-stays-locked.htm"),
+            ("Google DeepMind", "https://deepmind.google/blog/"),
+        ],
+    },
+    {
+        "sub": "Foundation Models & Releases",
+        "h3": "Anthropic's Fable 5 sidelined by US export directive",
+        "summary": "Anthropic's June frontier model was made temporarily unavailable after a government export-control order restricted access for foreign nationals.",
+        "body": [
+            "Claude Fable 5, launched June 9 as Anthropic's new frontier model, is available via the API, in Claude Code and in GitHub Copilot, and tops nearly all reasoning benchmarks. But on June 12 a US export-control directive forced Anthropic to suspend access to Fable 5 and Mythos 5 for foreign nationals.",
+            "The suspension marks a sharp new front in the model-access wars, applying export rules to software capability rather than chips. It also complicates frontier-tier availability for the many international developers who had only just gained access.",
+        ],
+        "sources": [
+            ("Developers Digest", "https://www.developersdigest.tech/blog/best-ai-coding-tools-june-2026-post-fable5"),
+            ("Anthropic", "https://www.anthropic.com/news"),
+        ],
+    },
+    {
+        "sub": "Foundation Models & Releases",
+        "h3": "Users pivot from tokenmaxxing to efficiency",
+        "summary": "A shift toward cheaper, leaner models is forcing OpenAI and Anthropic to confront a new spending reality.",
+        "body": [
+            "Customers are moving away from maximizing token throughput toward efficiency, pressuring the economics that underpin the biggest labs. The CEO of startup Lindy shifted 100 percent of his company's traffic from Claude to DeepSeek, citing cheaper open-weight alternatives.",
+            "Microsoft, which has poured billions into both OpenAI and Anthropic, unveiled a suite of low-cost models this month. The trend suggests the frontier race is no longer only about raw capability but about cost per useful unit of work.",
+        ],
+        "sources": [
+            ("CNBC", "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html"),
+        ],
+    },
+    {
+        "sub": "Chinese AI Ecosystem",
+        "h3": "Alibaba ships Qwen3.7-Plus multimodal agent variant",
+        "summary": "The June 1 release adds full agent workflows at about a sixth of the per-token cost of the flagship Qwen3.7-Max.",
+        "body": [
+            "Alibaba rolled out Qwen3.7-Plus, a multimodal agent variant, on June 1, following the proprietary Qwen3.7-Max flagship. The 3.7 generation carries a one million token context window and full agent workflows, while Qwen 3.6 remains the open-weight line.",
+            "Qwen 3.7 is currently API-only via Alibaba Cloud, with Qwen3.6-35B-A3B under Apache 2.0 recommended for self-hosting. Alibaba says its open models have crossed 700 million downloads, and the Qwen app reached 234 million users by May.",
+        ],
+        "sources": [
+            ("AI/ML API", "https://aimlapi.com/blog/qwen-3-6-series-alibabas-open-source-llm-revolution-in-2026"),
+            ("Xinhua", "https://english.news.cn/20260113/004b0522f987475cbf83ffc3a8d009aa/c.html"),
+        ],
+    },
+    {
+        "sub": "Chinese AI Ecosystem",
+        "h3": "Moonshot's Kimi K2.5 goes omni with video input",
+        "summary": "The Alibaba-backed lab's update processes text, images and video from a single prompt, matching the omni-model shift led by OpenAI and Google.",
+        "body": [
+            "Moonshot AI rolled out Kimi K2.5, which can handle text, images and video from one prompt, following the omni-model direction pioneered by OpenAI and Google. The Kimi line has repeatedly pushed records for context-window length while holding performance across benchmarks.",
+            "Alongside Alibaba's Qwen push, Moonshot's release underscores how fast China's frontier labs are closing the multimodal gap. Both companies now field models that compete directly with leading Western systems on capability and cost.",
+        ],
+        "sources": [
+            ("TrendForce", "https://www.trendforce.com/news/2026/02/02/news-china-steps-up-ai-push-alibaba-latest-qwen-model-nears-u-s-rivals-moonshot-advances/"),
+        ],
+    },
+    {
+        "sub": "Chinese AI Ecosystem",
+        "h3": "Cheap open-weight models pull traffic from US labs",
+        "summary": "DeepSeek's low-cost open models are increasingly displacing premium US offerings in production deployments.",
+        "body": [
+            "The decision by Lindy to route all of its traffic to DeepSeek crystallized a broader pull toward Chinese open-weight models that undercut US labs on price. DeepSeek's cheaper, open alternatives have become a credible default for cost-sensitive builders.",
+            "Combined with DeepSeek's freshly closed mega-round and Alibaba's aggressive Qwen pricing, the dynamic points to a Chinese ecosystem competing not just on benchmarks but on the unit economics that decide real deployments.",
+        ],
+        "sources": [
+            ("CNBC", "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html"),
+            ("CNBC", "https://www.cnbc.com/2026/06/03/deepseek-slated-to-draw-7-billion-in-maiden-fundraising-sources-say.html"),
+        ],
+    },
+    {
+        "sub": "Agents & Automation",
+        "h3": "Gartner pegs AI agent software at 206 billion in 2026",
+        "summary": "Agent software spending is forecast to jump 139 percent year over year, the fastest-growing slice of enterprise software.",
+        "body": [
+            "Gartner projects AI agent software spending will reach roughly 206.5 billion dollars in 2026, up 139 percent from 86.4 billion in 2025. That makes agents the fastest-growing category in enterprise software.",
+            "The forecast reflects a shift from chat assistants toward an autonomous software layer that handles real work across business functions. Gartner expects more than a third of enterprises to wire data streaming directly into AI agents within two years.",
+        ],
+        "sources": [
+            ("Blog.mean.ceo", "https://blog.mean.ceo/ai-agents-news-june-2026/"),
+        ],
+    },
+    {
+        "sub": "Agents & Automation",
+        "h3": "ServiceNow and Accenture launch agentic risk services",
+        "summary": "The June 29 partnership pairs managed security with AI agents that monitor vendors and automate migration off legacy risk platforms.",
+        "body": [
+            "Accenture and ServiceNow launched a joint offering on June 29 built on the ServiceNow AI Platform, combining managed security services with automated migration away from legacy risk systems. AI agents monitor vendors, automate lifecycle management and give security teams a unified view of enterprise risk.",
+            "The launch is part of a wider enterprise wave. Tavant separately debuted a three-layer agentic platform for software engineering, data modernization and domain-specific automation, reflecting how vendors are racing to package agents for production work.",
+        ],
+        "sources": [
+            ("Accenture Newsroom", "https://newsroom.accenture.com/news/2026/servicenow-and-accenture-launch-ai-powered-services-to-accelerate-the-shift-from-legacy-risk-platforms-to-agentic-ai"),
+            ("HousingWire", "https://www.housingwire.com/articles/tavant-agentic-ai-platform-software-engineering-automation/"),
+        ],
+    },
+    {
+        "sub": "Agents & Automation",
+        "h3": "Coding tools converge into one agentic stack",
+        "summary": "Cursor, Claude Code and Codex are blending into a shared workflow, with Fable 5 the frontier model many of them route to.",
+        "body": [
+            "The practical 2026 setup for many developers pairs Cursor for daily editing with Claude Code for agentic heavy lifting, both pointing at Anthropic's Fable 5 when frontier capability is needed. Cursor 3.7 ships Composer 2.5, its agentic mode, plus a custom Tab completion model.",
+            "Cursor Pro users can route to Fable 5 by supplying an Anthropic API key, though it is not in the base subscription. Industry observers describe the tools effectively merging into a single coding stack that nobody explicitly planned.",
+        ],
+        "sources": [
+            ("The New Stack", "https://thenewstack.io/ai-coding-tool-stack/"),
+            ("Developers Digest", "https://www.developersdigest.tech/blog/best-ai-coding-tools-june-2026-post-fable5"),
+        ],
+    },
+    {
+        "sub": "Agents & Automation",
+        "h3": "Salesforce Agentforce passes 1 billion in ARR",
+        "summary": "Salesforce says its agentic CRM has delivered billions of agentic work units as enterprise buyers shift toward agents.",
+        "body": [
+            "Salesforce reported that Agentforce now powers every Customer 360 application and has crossed 1 billion dollars in annual recurring revenue, with 3.8 billion agentic work units delivered for customers. The company is positioning itself as the leading agentic CRM.",
+            "Demand is broadening. A Futurum survey found nearly 39 percent of enterprise buyers expect generative AI to be delivered primarily through agents, ranking agentic AI as a top criterion in software purchasing decisions.",
+        ],
+        "sources": [
+            ("Smartbridge", "https://smartbridge.com/salesforce-agentforce-vs-microsoft-copilot-studio-2026-comparison/"),
+            ("Futurum Group", "https://futurumgroup.com/insights/will-ms-copilot-cowork-enable-real-enterprise-ai-collaboration/"),
+        ],
+    },
+    {
+        "sub": "Enterprise & Regulation",
+        "h3": "EU Parliament backs Digital Omnibus delaying AI Act deadlines",
+        "summary": "Lawmakers endorsed a June 16 deal that pushes the hardest high-risk obligations back by more than a year.",
+        "body": [
+            "The European Parliament endorsed the Digital Omnibus on AI on June 16, the first amendments since the AI Act was adopted. High-risk Annex III systems covering recruitment, credit scoring, law enforcement, education and border control move from August 2026 to December 2, 2027.",
+            "High-risk AI built into regulated products under Annex I shifts to August 2028, and the deadline for national regulatory sandboxes slips a year to August 2027. Final adoption and publication in the Official Journal are expected in July, just ahead of the original August 2 deadline.",
+        ],
+        "sources": [
+            ("Inside Privacy", "https://www.insideprivacy.com/artificial-intelligence/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions/"),
+            ("Holland & Knight", "https://www.hklaw.com/en/insights/publications/2026/04/us-companies-face-eu-ai-acts-possible-august-2026-compliance-deadline"),
+        ],
+    },
+    {
+        "sub": "Enterprise & Regulation",
+        "h3": "US weighs preempting state AI laws as patchwork grows",
+        "summary": "A White House framework urges Congress to legislate broad preemption under a light-touch standard, but the effort remains unsettled.",
+        "body": [
+            "Companies in 2026 must navigate three regimes at once: the EU AI Act in its main application phase, a US federal posture aimed at preempting state rules, and a patchwork of state AI laws. A March White House framework recommended Congress legislate broad preemption under a light-touch standard.",
+            "Preemption is far from settled. Congressional efforts to override state AI regulation have repeatedly stalled, and courts will ultimately decide how far executive action can reach, leaving enterprises planning for several possible outcomes at once.",
+        ],
+        "sources": [
+            ("Collibra", "https://www.collibra.com/blog/ai-regulatory-compliance-in-2026-eu-ai-act-us-orders-and-state-laws-and-how-to-operationalize"),
+            ("National Law Review", "https://natlawreview.com/article/2026-outlook-artificial-intelligence"),
+        ],
+    },
+    {
+        "sub": "Enterprise & Regulation",
+        "h3": "Anthropic poaches two key Gemini researchers from Google",
+        "summary": "Jonas Adler and Alexander Pritzel, both seen internally as central to Gemini, are planning to leave for Anthropic.",
+        "body": [
+            "Two leading Google researchers, Jonas Adler and Alexander Pritzel, are planning to leave for Anthropic, both viewed internally as key contributors to the Gemini model line. The departures add to a churn of high-profile talent across the frontier labs.",
+            "Nobel laureate John Jumper is also heading to Anthropic while star researcher Noam Shazeer moves to OpenAI. The reshuffling shows how intense competition for a small pool of senior researchers has become a strategic battleground in its own right.",
+        ],
+        "sources": [
+            ("Bloomberg", "https://www.bloomberg.com/news/articles/2026-06-24/google-poised-to-lose-two-more-high-profile-ai-staffers-to-anthropic"),
+        ],
+    },
 ]

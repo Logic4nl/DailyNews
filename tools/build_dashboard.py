@@ -45,10 +45,17 @@ def fetch_crypto(symbol, yf_symbol):
         return {"last": None, "day_pct": None, "error": str(e)}
     return {"last": None, "day_pct": None}
 
-def fetch_short_interest(tickers):
-    """FINRA short interest via yfinance: SI % float, DTC, and the print (as-of) date."""
-    import yfinance as yf
-    out = {}
+def fetch_short_interest(tickers, deadline=45):
+    """FINRA short interest via yfinance: SI % float, DTC, and the print (as-of) date.
+
+    yf.Ticker().info is throttled hard by Yahoo and can hang on internal retries, so
+    each ticker runs in a daemon thread with a shared wall-clock deadline. Tickers that
+    do not return by the deadline yield None and carry forward from si_cache.json
+    (greyed, date-stamped) per the spec degrade path. Daemon threads never block exit.
+    """
+    import yfinance as yf, threading, time as _t
+    out = {t: None for t in tickers}
+    lock = threading.Lock()
     def one(t):
         try:
             info = yf.Ticker(t).info
@@ -60,13 +67,17 @@ def fetch_short_interest(tickers):
             dsi = info.get("dateShortInterest")
             asof = dt.datetime.utcfromtimestamp(dsi).date().isoformat() if dsi else None
             if si_pct is None:
-                return t, None
-            return t, {"si_pct": round(si_pct, 2), "dtc": round(dtc, 2) if dtc else None, "asof": asof}
+                return
+            with lock:
+                out[t] = {"si_pct": round(si_pct, 2), "dtc": round(dtc, 2) if dtc else None, "asof": asof}
         except Exception:
-            return t, None
-    with ThreadPoolExecutor(max_workers=6) as ex:
-        for t, v in ex.map(one, tickers):
-            out[t] = v
+            return
+    threads = [threading.Thread(target=one, args=(t,), daemon=True) for t in tickers]
+    for th in threads:
+        th.start()
+    end = _t.time() + deadline
+    for th in threads:
+        th.join(max(0.0, end - _t.time()))
     return out
 
 def short_interest_with_cache(tickers):
@@ -155,23 +166,32 @@ def pct(a, b):
     return (a / b - 1.0) * 100.0
 
 def consolidated_fetch():
+    import socket as _socket
+    _socket.setdefaulttimeout(20)
     universe = ap.ALL_TICKERS
     ta_ok = 0
     rows = {}
 
     def one(t):
-        ta = ap.fetch_ta(t)
+        # TradingView TA library has no socket timeout and hangs under concurrency in this
+        # environment; force the spec yfinance fallback path (indicators synthesized from history).
+        ta = ap.TASnapshot(ticker=t)
         st = ap.fetch_stocktwits(t)
         sent = ap.SentimentSnapshot(ticker=t)
         if "error" not in st:
             sent.stocktwits_bull = st["bull"]; sent.stocktwits_bear = st["bear"]; sent.stocktwits_total = st["total"]
         return t, ta, sent
 
+    import sys as _sys, time as _tt
+    _t0=_tt.time()
+    print("[stage] TA/stocktwits start", flush=True)
     with ThreadPoolExecutor(max_workers=8) as ex:
         results = list(ex.map(one, universe))
-
+    print(f"[stage] TA done {_tt.time()-_t0:.0f}s", flush=True)
     hist = yf_data(universe)
+    print(f"[stage] yf_data done {_tt.time()-_t0:.0f}s", flush=True)
     si_map = short_interest_with_cache(universe)
+    print(f"[stage] SI done {_tt.time()-_t0:.0f}s", flush=True)
 
     tv_ok = 0; ind_ok = 0
     for t, ta, sent in results:
