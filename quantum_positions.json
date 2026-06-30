@@ -1,0 +1,8 @@
+{
+  "source": "Quantum satellite sleeve (manual, owner-maintained)",
+  "as_of": "2026-06-30",
+  "sleeve_state": "FLAT",
+  "note": "Awaiting QTUM rel-strength confirmation. No position open. Funded by miner/HPC trims, not by core positions and not by ETH-earmarked capital.",
+  "risk_capital_usd": null,
+  "positions": []
+}

@@ -1,0 +1,45 @@
+version: 1
+updated: "2026-06-30"
+# Quantum short-term rotation sleeve (AI/HPC strategy add-on).
+# Tactical satellite inside the AI/HPC book. Funded by miner/HPC trims, NOT by core
+# positions and NOT by ETH-earmarked capital. This is a trade, not a hold.
+
+sizing:
+  sleeve_pct_low: 3            # total sleeve 3-5% of risk capital
+  sleeve_pct_high: 5
+  starter_fraction: 0.33       # immediate-entry probe is capped at 1/3
+  survive_drawdown_pct: 50     # size so a 50% sleeve drawdown is survivable
+
+vehicles:
+  core: [QTUM]                                  # theme exposure, no single-name blowup
+  beta_boosters: [IONQ, RGTI, QBTS, QUBT]       # EQUAL weight so one blowup cannot sink the sleeve
+  crypto_adjacent: [BTQ, ARQQ, LAES]            # ARQQ, LAES optional
+  nanos: [ONE, OONEF]                           # token-watch only, NEVER sized
+
+benchmarks:
+  spy: SPY
+  defensives: [XLV, XLP, XLU]                   # entry blocked while these Lead
+  high_beta: [IGV, SMH]                         # want these firming up
+
+entry:
+  # Primary trigger: QTUM rel strength vs SPY flips Rolling over -> Improving.
+  # 1D and 5D rel turn positive, 20D still positive. Do not chase while 5D rel negative.
+  rel_windows: [1, 5, 20]
+  do_not_chase_if_5d_negative: true
+  immediate_probe_allowed: true                 # 1/3 starter before confirmation, tight stop
+
+exits:
+  sleeve_stop_pct: -17                           # -15 to -20 band on the sleeve
+  sleeve_stop_band: [-15, -20]
+  take_profit_first_pop_pct: 25                  # scale out 1/3 on first +20-30% pop, trail the rest
+  take_profit_band: [20, 30]
+  rel_rollback_5d_negative: true                 # QTUM 5D rel negative again => exit signal
+  time_stop_weeks: 6                             # no rel outperformance in 4-6 weeks => recycle to HPC
+  time_stop_band: [4, 6]
+
+invalidation:
+  btc_breakdown_below: 55000                     # same macro trigger as the miner book
+  rates_2y_spike_bps: 25                          # 2yr yields spike (5d move, basis points)
+  qtum_20d_rel_negative: true                     # structurally lagging, not just consolidating
+
+book_interaction: "Quantum and the HPC miners share the same risk-on driver. Net high-beta compute exposure stays inside the overall risk budget. Do not double up."

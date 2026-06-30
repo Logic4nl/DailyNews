@@ -14,6 +14,7 @@ Version: 2026-05-12 (added positioning + options vol layer).
 6. **Insert Positioning Scoreboard + Options Vol Cockpit** sections (between Sentiment Cockpit and Alert Feed) using the latest `positioning_snapshot.json` data.
 7. **Build News Journal HTML** for the day.
 8. `cp journal-YYYY-MM-DD.html index.html`.
+8b. **Build Quantum tab** — `python3 tools/build_quantum.py --fetch-only` then `python3 tools/build_quantum.py --render-only --date YYYY-MM-DD` (-> `quantum.html`). See `QUANTUM_MODULE.md` for the authoritative spec. Tab bar on every page is now News | Miner Analytics | Quantum.
 9. Sanity check, commit, push, copy to `/sessions/<session>/mnt/outputs/`.
 
 ## Market Summary structure (top to bottom)

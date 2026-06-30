@@ -651,7 +651,7 @@ table.sortable th{{cursor:pointer;user-select:none}}table.sortable th:hover{{col
 @media(max-width:640px){{th,td{{padding:.35rem .3rem;font-size:.74rem}}h1{{font-size:1.25rem}}}}
 </style></head>
 <body>
-<div class="tab-bar"><a href="index.html">News</a><a href="miner-analytics.html" class="active">Miner Analytics</a></div>
+<div class="tab-bar"><a href="index.html">News</a><a href="miner-analytics.html" class="active">Miner Analytics</a><a href="quantum.html">Quantum</a></div>
 <div class="wrap">
 <h1>AI / HPC Miner Analytics</h1>
 <div class="muted tiny">Glenda's IB book &middot; self-directed &middot; BTC miner-to-HPC pivot &middot; {esc(date_stamp)}</div>

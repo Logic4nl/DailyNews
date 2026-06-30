@@ -124,6 +124,7 @@ body{font-family:'Inter',sans-serif;background:#faf9f6;color:#1a1a1a;line-height
 <div class="tab-bar">
 <a href="index.html" class="active">News</a>
 <a href="miner-analytics.html">AI / HPC Analytics</a>
+<a href="quantum.html">Quantum</a>
 </div>
 <div class="layout">
 <aside class="sidebar">
