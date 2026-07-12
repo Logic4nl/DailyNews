@@ -3,365 +3,353 @@
 CRYPTO_MACRO = [
     {
         "hero": True,
-        "sub": "Bitcoin & Ethereum",
-        "h3": "Bitcoin reclaims $64K as short bets get crushed",
-        "summary": "BTC pushed above $64,000 for the first time in weeks after roughly $96 million in bearish positions were liquidated and US-Iran talks resumed.",
+        "sub": "Macro & Central Banks",
+        "h3": "Fed holds at 3.50-3.75% as July hike odds fade",
+        "summary": "The Fed's benchmark rate stays at 3.50-3.75% ahead of the July 28-29 FOMC meeting, with markets trimming the chance of a hike.",
         "body": [
-            "Bitcoin touched an intraday high near $64,650 on July 10 and held above $64,000 into July 11, snapping out of the slump that had dragged it to a 21-month low near $60,000 at the end of June. Traders pointed to a short squeeze worth about $96 million, easing Middle East jitters and renewed appetite after the SEC teased its 2026 crypto rulemaking agenda.",
-            "The rebound is fragile. The Fear and Greed gauge is still parked in extreme fear and analysts warn that June US inflation data due mid-month could quickly stall momentum. A weaker jobs print has revived hopes that new Fed chair Kevin Warsh leans dovish, though nothing is confirmed before the late-July meeting."
+            "The federal funds target range remains at 3.50-3.75%, unchanged across several consecutive meetings, with no fresh economic projections due at the late-July gathering. Traders on the CME FedWatch tool have pared the odds of a 25 basis point July hike to roughly a quarter, down from earlier in the summer.",
+            "A softer June jobs report and guarded remarks from Fed Chair Kevin Warsh cooled hike expectations, according to Barclays. Officials remain caught between inflation projections revised up toward 3.6% for 2026 and clear signs the labor market is losing steam.",
         ],
         "sources": [
-            ("Bitcoin.com News", "https://news.bitcoin.com/bitcoin-pushes-above-64k-as-96m-in-bearish-bets-collapse-and-momentum-rebuilds/"),
-            ("CoinDesk", "https://www.coindesk.com/markets/2026/07/10/bitcoin-zips-to-nearly-usd64-000-as-chip-rally-and-yen-strength-drive-gains"),
-            ("Benzinga", "https://www.benzinga.com/crypto/cryptocurrency/26/07/60394342/bitcoin-pops-to-64000-heres-whats-needed-for-a-push-to-71000")
-        ]
-    },
-    {
-        "sub": "Bitcoin & Ethereum",
-        "h3": "Bitcoin ETFs snap their longest outflow streak",
-        "summary": "US spot Bitcoin and ether funds pulled in roughly $282 million during the week of July 7-11, ending an eight-week run of withdrawals.",
-        "body": [
-            "After Bitcoin ETFs suffered their worst month on record in June with about $4.5 billion pulled, flows finally turned positive. Spot bitcoin funds took in $265.69 million on July 6 alone, their strongest single day of the month, with BlackRock leading the recovery as sentiment improved.",
-            "The turn is real but modest. Analysts note the roughly $282 million of fresh money is dwarfed by the $9.46 billion that left over the prior stretch, so several sustained weeks of inflows would be needed before anyone can credibly call a bottom in institutional demand."
+            ("Federal Reserve H.15", "https://www.federalreserve.gov/releases/h15/"),
+            ("Yahoo Finance", "https://finance.yahoo.com/economy/policy/articles/fed-hike-interest-rates-july-060507499.html"),
         ],
-        "sources": [
-            ("Crypto Briefing", "https://cryptobriefing.com/bitcoin-ether-etfs-inflow-ends-outflow-streak/"),
-            ("TechTimes", "https://www.techtimes.com/articles/319974/20260709/bitcoin-etf-inflows-hit-510m-over-3-days-when-blackrock-leads-bitcoin-follows.htm")
-        ]
-    },
-    {
-        "sub": "Bitcoin & Ethereum",
-        "h3": "Ether near $1,770 as staking ETFs take shape",
-        "summary": "Spot ether funds drew $84 million in the week to July 11, breaking an eight-week outflow streak while staking-enabled ETFs advance toward launch.",
-        "body": [
-            "Ethereum was trading around $1,767 in early July, still far below the hype that greeted the first US spot ether ETFs. The week ending July 11 brought $84.42 million of net inflows, the strongest weekly haul since late April, hinting that institutional interest is thawing.",
-            "The bigger catalyst may be staking. Morgan Stanley filed an amended S-1 for a spot ether trust under the ticker MSSE that would stake 50 to 80 percent of its holdings and keep 95 percent of the rewards for investors, undercutting rivals on fees. Grayscale and others are racing to add on-chain yield to their products."
-        ],
-        "sources": [
-            ("Investing.com", "https://www.investing.com/analysis/ethereum-staking-etfs-could-give-eth-the-institutional-story-it-lacked-200683665"),
-            ("Crypto Times", "https://www.cryptotimes.io/2026/06/19/morgan-stanley-files-for-spot-ethereum-etf-with-staking/")
-        ]
-    },
-    {
-        "sub": "Bitcoin & Ethereum",
-        "h3": "Strategy trims stack as MSTR premium fades",
-        "summary": "The company formerly known as MicroStrategy held about 843,775 BTC in early July after quietly reducing its position, while its stock bounced off deep lows.",
-        "body": [
-            "Strategy still runs the largest corporate bitcoin treasury in the world, but recent filings show it sold roughly 3,588 BTC in the reporting window, more than earlier reports had suggested. The firm reported holding 843,775 BTC and about $2.55 billion in cash as of July 5.",
-            "MSTR shares clawed back about 29 percent off their late-June bottom near $82 but investors no longer pay the fat premium they once gave the stock as a leveraged bitcoin proxy. A Chaikin Money Flow reading near minus 0.23 signals institutions are still net sellers."
-        ],
-        "sources": [
-            ("Yahoo Finance", "https://finance.yahoo.com/markets/crypto/articles/microstrategy-sold-7x-more-bitcoin-120834375.html"),
-            ("BeInCrypto", "https://beincrypto.com/microstrategy-stock-mstr-july-2026-prediction/")
-        ]
-    },
-    {
-        "sub": "Bitcoin & Ethereum",
-        "h3": "US digital dollar ban clears the field for stablecoins",
-        "summary": "A four-year prohibition on a Federal Reserve central bank digital currency is taking effect, removing what crypto firms saw as a rival to private stablecoins.",
-        "body": [
-            "The measure blocks the Fed from issuing a digital dollar through the end of 2030. Industry advocates framed it as clearing a lane for privately issued dollar-pegged tokens, and the news added to the bullish mood that lifted bitcoin back above $64,000.",
-            "Combined with advancing US crypto policy and a softer jobs backdrop, the CBDC ban has become part of the reason on-chain data shows whales stepping up US-based buying. Critics counter that removing a public option cedes ground to a handful of large private issuers."
-        ],
-        "sources": [
-            ("InteractiveCrypto", "https://www.interactivecrypto.com/bitcoin-breaks-64-000-amid-us-iran-talks-and-96m-short-squeeze-what-s-next-for-btc-jul-2026"),
-            ("Yahoo Finance", "https://ca.finance.yahoo.com/news/bitcoin-stays-above-64-000-100136007.html")
-        ]
     },
     {
         "sub": "Macro & Central Banks",
-        "h3": "Fed stares down weak jobs and sticky prices",
-        "summary": "The FOMC has held rates at 3.5 to 3.75 percent for four straight meetings as chair Kevin Warsh faces a slowing labor market and stubborn inflation.",
+        "h3": "US payrolls add just 57,000 in June as hiring cools",
+        "summary": "June nonfarm payrolls rose only 57,000, well below forecasts, while the jobless rate slipped to 4.2% on a shrinking labor force.",
         "body": [
-            "June payrolls came in at just 57,000, roughly half of forecasts, and unemployment ticked up to 4.2 percent, while May CPI ran at 4.2 percent year over year. That mix of soft hiring and firm prices leaves the Fed boxed in ahead of its July 28-29 meeting, where markets expect no change.",
-            "Warsh, chairing his first meetings, is due to testify to Congress the same day June CPI lands. The June dot plot actually leaned toward at least one hike rather than a cut, so traders are parsing every data point for whether the next move is up or down."
+            "Employers added 57,000 jobs in June, short of the roughly 115,000 consensus and slower than May's downwardly revised 129,000. The unemployment rate ticked down to 4.2%, but mainly because labor force participation fell to 61.5%, the lowest since early 2021.",
+            "Professional and business services led gains while leisure and hospitality shed 61,000 positions on weak seasonal hiring. Downward revisions to April and May cut a combined 74,000 jobs from prior tallies, underscoring a softening backdrop.",
         ],
         "sources": [
-            ("Forbes", "https://www.forbes.com/sites/investor-hub/article/fed-meeting-tracker-interest-rate-strategy/"),
-            ("Federal Reserve", "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm")
-        ]
+            ("CNBC", "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"),
+            ("BLS", "https://www.bls.gov/news.release/empsit.nr0.htm"),
+        ],
     },
     {
         "sub": "Macro & Central Banks",
-        "h3": "ECB weighs another move after first hike since 2023",
-        "summary": "The European Central Bank raised its key rates by 25 basis points in June and meets again July 23 as Middle East energy shocks fuel inflation.",
+        "h3": "June CPI print lands July 14 with inflation still sticky",
+        "summary": "May inflation ran hot at 4.2% year over year, and analysts expect the June report due July 14 to ease the headline rate toward 3.9%.",
         "body": [
-            "The June 11 decision lifted the deposit rate to 2.25 percent, the marginal lending rate to 2.65 percent and the main refinancing rate to 2.40 percent, the first increase in three years. Policymakers cited war in the Middle East and its inflationary pressure as they defended the 2 percent medium-term target.",
-            "New staff projections see headline inflation averaging 3.0 percent in 2026 before easing toward 2.0 percent by 2028. The July 23 Governing Council meeting will test whether June was enough or whether energy dynamics and wage effects force further tightening."
+            "The May Consumer Price Index rose 0.5% on the month and 4.2% over the year, with core prices up 2.8%. That kept pressure on a Fed already wary of a higher-for-longer stance.",
+            "Economists expect the June release, scheduled for July 14, to show headline inflation cooling to around 3.9% while core stays near 2.9%. The data lands two weeks before the FOMC decision and could shape the rate debate.",
+        ],
+        "sources": [
+            ("BLS", "https://www.bls.gov/news.release/cpi.nr0.htm"),
+            ("Kiplinger", "https://www.kiplinger.com/investing/economy/june-cpi-preview-dont-let-a-negative-headline-fool-you"),
+        ],
+    },
+    {
+        "sub": "Macro & Central Banks",
+        "h3": "ECB seen holding July 23 after surprise June hike",
+        "summary": "Markets price roughly a 90% chance the ECB leaves rates unchanged on July 23, after it raised rates in June for the first time in nearly three years.",
+        "body": [
+            "The ECB's Governing Council meets July 23, with the deposit rate expected to stay at 2.25% after June's quarter-point increase to combat inflation. Traders put the odds of no change near 90%.",
+            "June's hike, the first in almost three years, was driven by energy price shocks and Middle East tensions feeding into euro area inflation. President Christine Lagarde's press conference will be watched for signals on whether further tightening is coming.",
         ],
         "sources": [
             ("European Central Bank", "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html"),
-            ("Euronews", "https://www.euronews.com/business/2026/06/11/ecb-raises-interest-rates-for-the-first-time-in-three-years-as-iran-war-fuels-inflation")
-        ]
+            ("Euronews", "https://www.euronews.com/business/2026/06/11/ecb-raises-interest-rates-for-the-first-time-in-three-years-as-iran-war-fuels-inflation"),
+        ],
     },
     {
         "sub": "Macro & Central Banks",
-        "h3": "Gold holds above $4,100 as Gulf strikes rattle markets",
-        "summary": "Bullion steadied near $4,100 an ounce and Brent crude hovered around $72 as fresh US-Iran hostilities disrupted flows through the Strait of Hormuz.",
+        "h3": "Gold holds above $4,100 as stocks flirt with records",
+        "summary": "Gold traded near $4,140 an ounce while the S&P 500 sat close to record territory, up around 8% on the year despite tariff jitters.",
         "body": [
-            "Spot gold slipped close to $4,071 late in the week as a firmer inflation outlook pushed traders toward more hawkish Fed bets, even as a softer dollar offered some support. HSBC trimmed its average 2026 gold forecast to $4,560 from $4,864.",
-            "Oil was set for a weekly gain on supply worries after renewed US-Iran strikes near the Strait of Hormuz, though both sides signaled peace talks would continue. The tension is feeding straight into central bank inflation math on both sides of the Atlantic."
+            "Gold climbed above $4,100 an ounce, changing hands near $4,144 on July 10, well off January's all-time high above $5,590 but still elevated on geopolitical and inflation worries. Safe-haven demand has stayed firm through a turbulent first half.",
+            "The S&P 500 is up roughly 8% year to date and hovering near record highs, buoyed by resilient earnings even as investors weigh looming tariff deadlines. Trade policy remains the market's key swing factor into late summer.",
         ],
         "sources": [
-            ("CNBC", "https://www.cnbc.com/amp/2026/07/10/gold-heads-for-weekly-drop-as-gulf-attacks-reinforce-rate-hike-bets.html"),
-            ("Fortune", "https://fortune.com/article/price-of-oil-07-06-2026/")
-        ]
+            ("Forbes Advisor", "https://www.forbes.com/advisor/investing/gold-price/"),
+            ("CNN Business", "https://www.cnn.com/2026/07/01/business/stock-market-up-inflation-war"),
+        ],
     },
     {
-        "sub": "Macro & Central Banks",
-        "h3": "SK Hynix lands record US listing as chips lead stocks",
-        "summary": "SK Hynix ADRs jumped nearly 13 percent in their debut after a $26.5 billion raise, the largest ever US listing by a foreign company.",
+        "sub": "Bitcoin & Ethereum",
+        "h3": "Bitcoin holds near $64K on short squeeze; ETH near $1,800",
+        "summary": "Bitcoin pushed back above $64,000 on a short squeeze that liquidated about $165M, while Ether rose to roughly $1,798.",
         "body": [
-            "The blockbuster IPO helped power a broad tech-led rally, with seven of eleven S&P 500 sectors advancing. Meta added about 6 percent after a bullish SemiAnalysis report on its AI compute buildout, underscoring how much the market is riding artificial intelligence names.",
-            "The mood is upbeat but nervous. Investors are looking past the debut to June CPI and Warsh testimony, wary that a hot inflation number could reprice rate expectations and cool the risk-on tone quickly."
+            "Bitcoin traded around $64,200, up about 0.5%, after a squeeze wiped out roughly $165M in short positions. Ether gained about 1.4% to near $1,798, holding its ground as the second-largest token.",
+            "US spot Bitcoin ETFs logged about $90M of inflows on July 10, a modest bright spot even as 30-day flows stayed deeply negative. Sentiment remained cautious with prices range-bound in the mid-$60,000s.",
         ],
         "sources": [
-            ("Investrade", "https://investrade.com/mid-morning-look-july-10-2026/"),
-            ("Trading Economics", "https://tradingeconomics.com/united-states/stock-market")
-        ]
+            ("CoinStats", "https://coinstats.app/ai/a/crypto-news-update-11-July-2026"),
+            ("KuCoin", "https://www.kucoin.com/news/articles/crypto-daily-market-report-july-10-2026"),
+        ],
+    },
+    {
+        "sub": "Bitcoin & Ethereum",
+        "h3": "Spot Bitcoin ETFs bleed $5B in worst quarter since launch",
+        "summary": "US spot Bitcoin ETFs shed roughly $5B in Q2 2026, their biggest quarterly outflow since the 2024 debut, though early July flows turned choppy.",
+        "body": [
+            "Investors pulled about $5B net from US spot Bitcoin ETFs in the second quarter, with June alone accounting for roughly $4.5B, the worst month on record for the products. An eight-week outflow streak topped $8B before easing.",
+            "Early July brought a partial reversal, with a $223.5M net inflow on July 2 snapping a long losing run and BlackRock leading a three-day, $510M rebound. Year-to-date net outflows still sit near $5.4B.",
+        ],
+        "sources": [
+            ("KuCoin", "https://www.kucoin.com/news/flash/u-s-spot-bitcoin-etfs-record-527m-net-outflows-from-june-29-to-july-2"),
+            ("TechTimes", "https://www.techtimes.com/articles/319974/20260709/bitcoin-etf-inflows-hit-510m-over-3-days-when-blackrock-leads-bitcoin-follows.htm"),
+        ],
+    },
+    {
+        "sub": "Bitcoin & Ethereum",
+        "h3": "Strategy sells BTC as it shifts to active treasury model",
+        "summary": "Michael Saylor's Strategy unveiled a digital credit capital framework and sold about $216M of Bitcoin, still holding 843,775 BTC.",
+        "body": [
+            "Strategy, formerly MicroStrategy, announced a Digital Credit Capital Framework on June 29 that treats its Bitcoin as a flexible capital resource rather than a static hoard, anchored by a $1.25B monetization program. The firm then sold roughly 3,558 BTC for about $216M.",
+            "Even after the sale, Strategy retains 843,775 BTC at an average cost near $66,385, keeping it the largest corporate Bitcoin treasury in the world. The pivot marks a notable break from its long-running buy-and-hold approach.",
+        ],
+        "sources": [
+            ("Yahoo Finance", "https://finance.yahoo.com/markets/crypto/articles/strategy-just-unveiled-brand-approach-111400228.html"),
+            ("Bitbo Treasuries", "https://bitbo.io/treasuries/microstrategy/"),
+        ],
+    },
+    {
+        "sub": "Bitcoin & Ethereum",
+        "h3": "Ethereum staking ETFs pay yield as inflows trickle in",
+        "summary": "US Ether staking ETFs are live and earning 3.1-3.3% before fees, with a $29M net inflow on July 2 led by BlackRock's ETHA.",
+        "body": [
+            "A March joint SEC-CFTC interpretive release classified staking rewards as non-securities, clearing the way for staked Ether ETFs. Grayscale's ETHE and BlackRock's ETHB now offer staking yields of roughly 3.1-3.3%, netting shareholders about 1.9-2.6% after costs.",
+            "Ether ETFs drew a $29M net inflow on July 2, mostly into BlackRock's product, as staking becomes a differentiator that Bitcoin funds cannot match. Several more issuers are awaiting approval to launch competing products.",
+        ],
+        "sources": [
+            ("Everstake", "https://everstake.one/resources/blog/ethereum-staking-etfs-for-institutions"),
+            ("CoinDesk", "https://www.coindesk.com/markets/2026/01/07/staking-goes-mainstream-what-2026-could-look-like-for-ether-investors"),
+        ],
     },
     {
         "sub": "DeFi & Altcoins",
-        "h3": "DeFi value locked slides toward $72 billion",
-        "summary": "Total value locked across decentralized finance fell to about $71.8 billion, down more than 37 percent year to date as yields cooled.",
+        "h3": "Summer.fi halts vaults after $6M flash loan exploit",
+        "summary": "DeFi platform Summer.fi paused its Lazy Summer vaults after an attacker drained about $6M using a flash loan to manipulate USDC vault accounting.",
         "body": [
-            "DeFi opened 2026 with roughly $114 billion locked and has bled value nearly every month since, sinking below $72 billion by mid-July across more than 450 chains. Ethereum still commands about 53 percent of the total, and 24-hour DEX volume topped $7.2 billion.",
-            "Cooling on-chain yields are the main culprit as capital rotates out of higher-risk strategies. The contraction stands in sharp contrast to booming stablecoin supply, a sign users want dollar exposure more than leverage right now."
+            "Summer.fi froze all Lazy Summer Protocol vaults following an exploit that siphoned roughly $6M from its yield product. The attacker used a flash loan to inflate vault balances and redeem them for profit, and the SUMR token fell more than 18%.",
+            "The incident adds to a punishing year for DeFi security, with sector losses already topping $840M by the start of Q3 2026. Analysts note that compromised accounts now drive more than half of all DeFi attacks by count.",
         ],
         "sources": [
-            ("Coinlaw", "https://coinlaw.io/decentralized-finance-market-statistics/"),
-            ("CryptoRank", "https://cryptorank.io/news/feed/12f9b-defi-total-value-locked-plunges-39-in-2026-as-yields-cool-down")
-        ]
+            ("The Block", "https://www.theblock.co/post/407198/summer-finance-exploited"),
+            ("CoinDesk", "https://www.coindesk.com/web3/2026/07/06/defi-protocol-summer-fi-halts-lazy-summer-vaults-after-usd6-million-exploit"),
+        ],
     },
     {
         "sub": "DeFi & Altcoins",
-        "h3": "Stablecoins top $314B as banks and consortia pile in",
-        "summary": "Stablecoin circulation crossed $314 billion, with a 140-firm consortium launching Open USD and BNY Mellon adding USDC custody.",
+        "h3": "White hats find Aptos flaw that risked $70B in assets",
+        "summary": "Security researchers disclosed a patched Aptos blockchain flaw that could have put up to $70B in digital assets, including stablecoins and bridges, at systemic risk.",
         "body": [
-            "More than 140 payment, banking and crypto firms unveiled the Open Standard and its dollar-pegged Open USD, which aims to scrap minting and redemption fees and route reserve interest back to member businesses. Bank of New York Mellon added USDC minting, burning and custody to its digital asset platform.",
-            "In Europe, CACEIS rolled out a MiCA-compliant euro stablecoin called EURXT on Ethereum mainnet. The wave of bank-grade issuance signals stablecoins are moving from crypto plumbing toward core financial infrastructure."
+            "Ethical hackers at Hexens uncovered a vulnerability in the Aptos blockchain that, if exploited, could have threatened as much as $70B across stablecoins and cross-chain bridges. They simulated the attack with a success rate above 90% using a server setup costing just $3,000 to mimic a third of the validator network.",
+            "The flaw was reported through emergency channels and patched within days, with no funds lost. The episode highlights how a modest research budget can surface catastrophic systemic risks in high-throughput chains.",
         ],
         "sources": [
-            ("Crypto.com Research", "https://cryptocomresearch.substack.com/p/defi-l1l2-weekly-2026-07-02"),
-            ("Coinlaw", "https://coinlaw.io/decentralized-finance-market-statistics/")
-        ]
+            ("CoinDesk", "https://www.coindesk.com/tech/2026/07/04/how-ethical-hackers-with-just-a-usd3-000-server-found-a-flaw-that-could-ve-put-usd70-billion-in-crypto-at-risk"),
+        ],
     },
     {
         "sub": "DeFi & Altcoins",
-        "h3": "XRP and Solana wrestle for the number six spot",
-        "summary": "XRP traded near $1.09 and Solana around $77 as SOL bulls eye an upgrade that could finalize blocks in milliseconds.",
+        "h3": "XRP near $1.10 and SOL around $79 as ETFs draw cash",
+        "summary": "XRP hovered near $1.10 and Solana around $79, with spot XRP and SOL ETFs pulling steady inflows and Clearstream adding SOL custody.",
         "body": [
-            "Both tokens slid alongside a risk-off market, with XRP marking four straight days of declines under $1.10 and Solana slipping about 5 percent in a session. XRP still ranks sixth by market cap near $68 billion, roughly $22 billion ahead of Solana in seventh.",
-            "Solana is pinning its case on Alpenglow, a new consensus design meant to replace Proof of History and Tower BFT with the Votor and Rotor components that could finalize blocks in 100 to 150 milliseconds. XRP counters with a friendlier legal path and fresh ETF approvals in several markets."
+            "XRP traded close to $1.10 near a key support zone while Solana sat around $79. Spot Solana and XRP ETFs posted fresh inflows, lifting cumulative totals to roughly $1.14B for SOL and $1.49B for XRP.",
+            "European settlement giant Clearstream expanded its regulated custody service to include Solana, boosting institutional access. SOL ranks seventh by market cap at about $47B, still trailing XRP near $68B.",
         ],
         "sources": [
-            ("Investing News Network", "https://investingnews.com/cryptocurrency-market-recap/"),
-            ("24/7 Wall St.", "https://247wallst.com/investing/cryptocurrency/2026/07/08/can-solana-sol-outpace-xrp-ripple-in-crypto-rankings/")
-        ]
+            ("Forbes Advisor", "https://www.forbes.com/financial-services/top-10-cryptocurrencies-2/"),
+            ("Bloomingbit", "https://en.bloomingbit.io/feed/news/116037"),
+        ],
     },
     {
         "sub": "DeFi & Altcoins",
-        "h3": "Tokenized private credit passes $31 billion on-chain",
-        "summary": "Real-world asset tokenization is rotating toward private credit, now the biggest non-stablecoin category on-chain at more than $31 billion.",
+        "h3": "Robinhood lets AI agents trade crypto for users",
+        "summary": "Robinhood said eligible US customers will soon connect an AI agent to a dedicated account to trade crypto, as Uniswap topped $1B on Robinhood Chain.",
         "body": [
-            "The headline tokenization narratives have stalled while private credit quietly grew into a $31 billion on-chain market. Regulated dollar products are surging too, with Anchorage Digital Bank's USDGO up 54 percent in three weeks to $6.12 billion, Global Dollar up 16 percent and Dai up 8 percent.",
-            "The shift shows institutions leaning into yield-bearing, compliance-friendly instruments rather than speculative tokens. It reinforces the theme of 2026 crypto as an infrastructure story more than a retail mania."
+            "Robinhood announced that eligible US users will be able to link an AI agent to a dedicated Robinhood account that trades crypto on their behalf, complete with real-time profit and loss tracking and push notifications. The feature pushes agentic trading further into retail hands.",
+            "Separately, Uniswap surpassed $1B in cumulative volume on Robinhood Chain since launch, a sign of growing on-chain activity tied to the platform. The moves underscore Robinhood's deepening crypto ambitions.",
         ],
         "sources": [
-            ("BeInCrypto", "https://beincrypto.com/top-tokenization-stats-on-chain-rotation-2026/")
-        ]
+            ("CoinStats", "https://coinstats.app/ai/a/crypto-news-update-11-July-2026"),
+        ],
+    },
+    {
+        "sub": "Regulation & Policy",
+        "h3": "Circle wins OCC charter for national trust bank",
+        "summary": "Circle received final OCC approval to establish First National Digital Currency Bank, a national trust bank, sending its shares sharply higher.",
+        "body": [
+            "The OCC granted Circle final approval on July 10 to open First National Digital Currency Bank, operating as Circle National Trust and offering federally regulated custody for USDC reserves and affiliates. The stablecoin issuer's shares jumped after the news.",
+            "The charter places Circle under direct federal oversight and marks a major milestone for stablecoin infrastructure, with reserve management planned as a future capability. It adds to a growing line of crypto firms pursuing federal banking licenses.",
+        ],
+        "sources": [
+            ("Circle", "https://www.circle.com/pressroom/circle-receives-final-occ-approval-to-establish-national-trust-bank"),
+            ("CoinDesk", "https://www.coindesk.com/business/2026/07/10/circle-secures-u-s-trust-bank-approval-in-crypto-expansion"),
+        ],
+    },
+    {
+        "sub": "Regulation & Policy",
+        "h3": "Ripple lands full EU MiCA license in Luxembourg",
+        "summary": "Ripple secured full MiCA CASP authorization from Luxembourg's CSSF, letting it offer regulated crypto services across all 30 EEA countries.",
+        "body": [
+            "Luxembourg's financial regulator upgraded Ripple's preliminary approval to a full Crypto-Asset Service Provider license on July 6, making the company fully MiCA-compliant. The license lets Ripple offer its regulated payments product to institutions and businesses across the European Economic Area.",
+            "The approval builds on Ripple's February authorization as an Electronic Money Institution in Luxembourg. It puts Ripple among a small group of firms with full MiCA authorization, after only about 210 of more than 1,200 former operators cleared the July 1 licensing deadline.",
+        ],
+        "sources": [
+            ("Ripple", "https://ripple.com/ripple-press/ripple-receives-full-eu-mica-casp-license/"),
+            ("CoinDesk", "https://www.coindesk.com/policy/2026/07/06/ripple-s-preliminary-crypto-asset-provider-license-in-luxembourg-upgraded-to-fully-compliant"),
+        ],
     },
     {
         "sub": "Regulation & Policy",
         "h3": "GENIUS Act stablecoin rules face July 18 deadline",
-        "summary": "US regulators must finalize access rules under the GENIUS Act by July 18, deciding which issuers can enter the market and under what standards.",
+        "summary": "Six US federal agencies are racing to finalize GENIUS Act stablecoin rules by July 18, one year after the law was enacted.",
         "body": [
-            "The GENIUS Act created the first federal framework for dollar-backed stablecoins, imposing reserve requirements, audit standards and supervisory pathways. Regulators are racing to publish the rules that determine which permitted, foreign and state-qualified issuers get in.",
-            "The stakes are high because the statute has no fallback if agencies miss the date, with no interim guidance or automatic implementation. FinCEN and OFAC have already floated a joint rule covering the law's anti-money-laundering and sanctions compliance requirements."
+            "The OCC, FDIC, NCUA, Treasury, FinCEN and OFAC must each finalize their stablecoin frameworks by July 18, exactly a year after Congress passed the GENIUS Act. Proposed rules include a $5M capital floor from the OCC and confirmation that token holders get no FDIC deposit insurance.",
+            "The rules will reshape who can issue stablecoins, how much capital they must hold and how redemptions work. New federal applicants, foreign issuers and state-qualified players are the most exposed if the deadline arrives without a coherent framework.",
         ],
         "sources": [
             ("CryptoSlate", "https://cryptoslate.com/genius-act-deadline-puts-stablecoin-issuers-on-the-clock/"),
-            ("U.S. Treasury", "https://home.treasury.gov/news/press-releases/sb0435")
-        ]
+            ("US Treasury", "https://home.treasury.gov/news/press-releases/sb0435"),
+        ],
     },
     {
         "sub": "Regulation & Policy",
-        "h3": "CLARITY Act stalls as Senate clock runs down",
-        "summary": "The crypto market structure bill sits on the Senate calendar with no floor vote scheduled and three disputes still blocking passage.",
+        "h3": "SEC and Senate advance dueling crypto market rules",
+        "summary": "The SEC is targeting July 2026 for three crypto market structure proposals as the Senate weighs the CLARITY Act before an August deadline.",
         "body": [
-            "The CLARITY Act cleared the Senate Banking Committee 15-9 in May and reached the legislative calendar in June, but no cloture motion has been filed. Backers say it likely needs to pass by the end of July or its 2026 prospects deteriorate materially.",
-            "Three fights are holding it up: crypto insider trading and ethics disclosures, law enforcement concerns over a provision that prosecutors say could hamper investigations and a dispute over stablecoin yield revenue. A fresh version of the bill was expected to drop as soon as this week."
+            "The SEC has slated July 2026 as a target for proposing rules on crypto asset offerings, broker-dealer capital requirements and market structure, though no rule texts have yet been released. The agency could begin writing rules before Congress finishes its own bill.",
+            "The CLARITY Act, which has passed the House and cleared the Senate Banking Committee, awaits a full Senate vote before an August 7 deadline. Whichever track moves first, the two efforts will jointly define the US crypto regulatory architecture.",
         ],
         "sources": [
-            ("CoinDesk", "https://www.coindesk.com/policy/2026/07/09/newest-version-of-crypto-clarity-act-may-drop-as-soon-as-next-week-sources-say"),
-            ("Yahoo Finance", "https://finance.yahoo.com/markets/crypto/articles/clarity-act-stalls-senate-three-100403007.html")
-        ]
+            ("SEC", "https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets"),
+            ("CryptoSlate", "https://cryptoslate.com/sec-could-start-writing-crypto-rules-before-the-senate-votes-on-clarity/"),
+        ],
     },
-    {
-        "sub": "Regulation & Policy",
-        "h3": "SEC teases crypto rulebook in 2026 agenda",
-        "summary": "The SEC published its 2026 regulatory agenda on July 7, outlining proposed crypto asset rules expected to be unveiled later in the month.",
-        "body": [
-            "The agenda helped lift market sentiment by signaling that formal crypto rules are finally on the way. It builds on a March joint framework from the SEC and CFTC that classified 16 crypto assets, including bitcoin and ether, as digital commodities under CFTC jurisdiction rather than securities.",
-            "Traders read the roadmap as a sign the regulatory fog is lifting after years of enforcement-by-litigation. The details due later in July will show how far the agencies go toward clear registration and disclosure paths for tokens and exchanges."
-        ],
-        "sources": [
-            ("InteractiveCrypto", "https://www.interactivecrypto.com/bitcoin-breaks-64-000-amid-us-iran-talks-and-96m-short-squeeze-what-s-next-for-btc-jul-2026"),
-            ("DL News", "https://www.dlnews.com/articles/regulation/key-dates-for-us-crypto-regulation-in-2026/")
-        ]
-    }
 ]
 
 MENTAL_HEALTH = [
     {
         "hero": True,
         "sub": "Research & Studies",
-        "h3": "Patients are bringing AI to therapy, APA finds",
-        "summary": "More than a third of psychologists report clients now use chatbots as an extra mental health helper, according to a new American Psychological Association report.",
+        "h3": "Patients are bringing AI into therapy, APA finds",
+        "summary": "More than a third of psychologists report clients using AI as an extra mental health resource, but every head-to-head study still favors human therapists.",
         "body": [
-            "The APA report documents how quickly consumer AI has crept into clinical settings, with over a third of surveyed psychologists saying patients turn to tools like ChatGPT between sessions. Clinicians describe a mix of benefits and hazards as people lean on always-available systems that were never designed as therapists.",
-            "The association urges guardrails, noting chatbots can feel empathetic while missing crisis cues and reinforcing distorted thinking. It calls for clearer standards so the technology supports rather than substitutes for licensed care."
+            "A new APA report finds over a third of psychologists now have patients turning to AI chatbots as an additional source of mental health support. The tools deliver CBT education and coping skills reasonably well, yet every study comparing them to human clinicians for moderate-to-severe depression or anxiety shows people do better with a therapist.",
+            "The report warns that chatbots cannot reliably detect suicidal ideation or psychiatric emergencies, which is why all current apps carry crisis disclaimers. It also flags that most trials run only two to eight weeks, leaving long-term durability unproven.",
         ],
         "sources": [
-            ("American Psychological Association", "https://www.apa.org/pubs/reports/chatbots-mental-health-2026")
-        ]
+            ("American Psychological Association", "https://www.apa.org/pubs/reports/chatbots-mental-health-2026"),
+        ],
     },
     {
         "sub": "Research & Studies",
-        "h3": "Youth use of AI for mental health jumps sharply",
-        "summary": "The share of young people turning to chatbots for mental health advice rose from about 1 in 8 to 1 in 5 in a single year, new data shows.",
+        "h3": "Lonely users may feel lonelier after leaning on chatbots",
+        "summary": "A 12-month study across four countries found that loneliness drives people toward AI chatbots, and heavy use can deepen those feelings over time.",
         "body": [
-            "A JAMA Pediatrics analysis of chatbot use and disclosure among US adolescents and young adults, published online in June, tracked a jump of more than 40 percent in a year. Researchers warn that agreeable, engagement-optimized systems are a poor fit for teens with suicidal thoughts.",
-            "Reporting alongside the data notes that safety measures are easily bypassed and that nearly half of test prompts included nudges to keep users chatting. The findings are fueling calls for age checks and clearer boundaries on what these tools should handle."
+            "A longitudinal study of adults in four English-speaking countries found that lonely people are more likely to seek companionship from chatbots, but that sustained use may worsen loneliness rather than relieve it. A related pilot showed users who chose the chatbot already reported higher loneliness and lower life satisfaction.",
+            "Participants still described the chatbot as a safe, non-judgmental space for expressing emotions, while acknowledging its formulaic limits. In the APA survey, 93% of psychologists worried AI companionship could harm real-world social engagement even as most saw potential to ease loneliness.",
         ],
         "sources": [
-            ("JAMA Pediatrics", "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2849307"),
-            ("STAT News", "https://www.statnews.com/2026/07/02/teens-chatbots-mental-health-rules-bans/")
-        ]
+            ("PsyPost", "https://www.psypost.org/turning-to-chatbots-when-lonely-may-exacerbate-feelings-of-loneliness-study-finds/"),
+            ("Frontiers in Digital Health", "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1687924/full"),
+        ],
     },
     {
         "sub": "Research & Studies",
-        "h3": "Study finds counselor chatbots break ethics rules",
-        "summary": "Brown researchers report that chatbots prompted to act as counselors routinely violate core mental health ethics and mishandle crises.",
+        "h3": "LLMs show promise flagging depression and suicide risk",
+        "summary": "A JAMA Network Open study of more than 1,000 patients found language models could detect depression and high suicide risk from narrative text with useful accuracy.",
         "body": [
-            "The study found that when general-purpose models role-play as therapists they can reinforce false beliefs, project a hollow sense of empathy and fumble emergency situations. Critically, the systems could not reliably detect suicidal ideation or psychiatric emergencies.",
-            "The authors argue that human ethical standards do not automatically transfer to AI counselors and that safeguards are needed before such tools are deployed at scale. Their work adds to a growing evidence base questioning off-the-shelf chatbots as stand-in clinicians."
+            "In a cross-sectional study of 1,064 patients and over 52,000 responses, large language and text-embedding models detected clinically significant depression and high suicide risk with areas under the curve above 0.7, especially from self-concept narratives. The signal was strongest when patients described how they saw themselves.",
+            "The authors caution that performance still needs improvement and that ethical concerns must be resolved before clinical use. A parallel PLOS Digital Health study reached a similar conclusion, framing AI as a supportive tool that requires validation and human oversight.",
         ],
         "sources": [
-            ("Simply Psychology", "https://www.simplypsychology.com/articles/ai-therapy-chatbots-research-review")
-        ]
+            ("JAMA Network Open", "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2834372"),
+            ("PLOS Digital Health", "https://journals.plos.org/digitalhealth/article?id=10.1371%2Fjournal.pdig.0001352"),
+        ],
     },
     {
         "sub": "Research & Studies",
-        "h3": "Therabot trial tests a purpose-built therapy model",
-        "summary": "A randomized controlled trial of the expert-tuned Therabot chatbot targeted adults with depression, anxiety or high risk for eating disorders.",
+        "h3": "Common Sense Media calls major chatbots unsafe for teens",
+        "summary": "Testing found leading AI chatbots fail to safely handle teen mental health support, lacking crisis intervention and clinical judgment.",
         "body": [
-            "Published through NEJM AI, the trial evaluated a generative model fine-tuned specifically for mental health treatment rather than a repurposed consumer bot. Participants had clinically significant symptoms of major depression, generalized anxiety or elevated risk for feeding and eating disorders.",
-            "The work is being watched as a benchmark for whether tightly scoped, clinically supervised systems can deliver measurable benefit safely. Researchers stress that positive results would not endorse unsupervised general chatbots for the same populations."
+            "Common Sense Media reported that major AI chatbots are unsafe for teen mental health support, missing the human connection, clinical assessment and real-time crisis response that safe care requires. Reviewers found risks of harmful advice and reinforcement of unhealthy behaviors.",
+            "The findings land amid wrongful-death lawsuits against OpenAI and Character.AI from families of teens who died by suicide, including one case alleging a chatbot acted as a suicide coach. California's SB 243, passed in late 2025, became the first US law imposing safety and reporting rules on companion chatbots.",
         ],
         "sources": [
-            ("NEJM AI", "https://ai.nejm.org/doi/full/10.1056/AIoa2400802")
-        ]
+            ("Common Sense Media", "https://www.commonsensemedia.org/press-releases/common-sense-media-finds-major-ai-chatbots-unsafe-for-teen-mental-health-support"),
+        ],
     },
     {
         "sub": "Research & Studies",
-        "h3": "Lived-experience study probes chatbot self-management",
-        "summary": "A JMIR Mental Health qualitative study asked people with depression how an LLM chatbot fits into day-to-day self-management.",
+        "h3": "Study warns AI companionship poses risks to teen development",
+        "summary": "ASU researchers found the adolescent brain is especially vulnerable to the constant affirmation and sycophancy of AI companions.",
         "body": [
-            "The research centers the voices of people living with depression, mapping the perceived benefits, limits and worries that surface when they use a large language model for self-help. Participants valued round-the-clock availability but flagged concerns about trust, privacy and over-reliance.",
-            "The authors translate those experiences into harm-mitigating design ideas, arguing that tools should be built with users rather than for them. It is part of a shift toward evidence grounded in real use rather than lab-only testing."
+            "An ASU study concluded that AI companionship carries developmental risks for teens, whose brains are uniquely susceptible to instant affirmation and emotionally responsive design. Sycophantic behavior can unintentionally reinforce harmful thoughts and reduce motivation to seek real relationships.",
+            "Usage is heavy: research cited alongside the study found 55% of teens engage with chatbots more than once a day, and 19% spend as much or more time with AI companions as with real friends. Clinicians are urging parents to understand who their children are confiding in.",
         ],
         "sources": [
-            ("JMIR Mental Health", "https://mental.jmir.org/2026/1/e78288")
-        ]
-    },
-    {
-        "sub": "Research & Studies",
-        "h3": "WHO issues ethics rules for health AI models",
-        "summary": "The World Health Organization published guidance on large multi-modal models in health, urging transparency and oversight proportionate to risk.",
-        "body": [
-            "Released in March, the WHO guidance responds to converging evidence that people with anxiety, depression, relationship problems and acute crises are already leaning on chatbots. It warns that multimodal systems are entering health care faster than governance can keep up.",
-            "The framework calls for rigorous evaluation, clear disclosure and human accountability, echoing peer-reviewed work cataloguing how large language models are being used as de facto mental health providers. It aims to set expectations before adoption outpaces safety."
+            ("ASU News", "https://news.asu.edu/20260629-science-and-technology-ai-companionship-poses-risks-teen-development-study-shows"),
+            ("Child Mind Institute", "https://childmind.org/article/ai-chatbots-and-teens/"),
         ],
-        "sources": [
-            ("Patient Safety Learning Hub", "https://www.pslhub.org/learn/digital-health-and-care-service-provision/288_artificial-intelligence/380_large-language-models-llms-and-generative-ai/ethics-and-governance-of-artificial-intelligence-for-health-guidance-on-large-multi-modal-models-who-25-march-2026-r14246/"),
-            ("NIH PMC", "https://pmc.ncbi.nlm.nih.gov/articles/PMC12462653/")
-        ]
     },
     {
         "sub": "Tools & Applications",
-        "h3": "OpenAI tightens ChatGPT for distress and self-harm",
-        "summary": "OpenAI updated its default GPT-5 model to better spot mental distress, de-escalate and steer users toward professional help.",
+        "h3": "OpenAI hardens ChatGPT for mental health crises",
+        "summary": "OpenAI rolled out safety updates that better detect distress, track risk across sessions and cut unsafe responses in suicide-related chats by 50%.",
         "body": [
-            "The company says the revised model returns responses that break its safety guidelines 65 to 80 percent less often across mental health domains. A May update added safety summaries and cross-conversation tracking so warning signs can be connected across separate sessions.",
-            "ChatGPT now routes people expressing suicidal intent to resources like the 988 line in the US and Samaritans in the UK. OpenAI also plans a trusted-contact feature letting adults designate someone to be alerted when they may need extra support."
+            "Working with mental health experts, OpenAI updated ChatGPT to recognize signs of psychosis, mania, self-harm and emotional overreliance, de-escalate conversations and steer users toward professional care. The system adds safety summaries and cross-conversation tracking to connect warning signs across separate sessions.",
+            "The company said safe-response performance improved by 50% in long suicide and self-harm conversations, and it is adding emotional reliance to baseline safety testing. OpenAI estimated that in a given week about 0.15% of users express suicidal intent and a similar share show heightened attachment to the chatbot.",
         ],
         "sources": [
             ("OpenAI", "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/"),
-            ("Becker's Behavioral Health", "https://www.beckersbehavioralhealth.com/ai-2/openai-strengthens-chatgpt-mental-health-guardrails-6-things-to-know/")
-        ]
+        ],
     },
     {
         "sub": "Tools & Applications",
-        "h3": "FTC and states move to rein in companion bots",
-        "summary": "Regulators are tightening scrutiny of AI companion chatbots as lawmakers press the FTC and several states pass their own rules.",
+        "h3": "Illinois enforces first-in-nation AI therapy ban",
+        "summary": "Illinois's WOPR law bars AI from providing therapy or making clinical decisions without a licensed professional, with fines up to $10,000 per violation.",
         "body": [
-            "The FTC voted 3-0 to order seven companies, including Alphabet, Meta, OpenAI, Snap, Character Technologies and X.AI, to explain how they evaluate chatbot safety and limit harm to minors. Senators have pushed the agency to act faster on risks to children and teens.",
-            "States are not waiting. Illinois and Nevada banned AI for behavioral health outright, while New York and Utah require chatbots to disclose they are not human, with New York also mandating self-harm detection and crisis referrals."
+            "The Wellness and Oversight for Psychological Resources Act prohibits companies from offering therapy in Illinois through AI unless a licensed professional delivers the service, and it bars chatbots from diagnosing, generating treatment plans or engaging in direct therapeutic communication. AI may still handle administrative tasks like scheduling and note-drafting.",
+            "Violations carry fines of up to $10,000 per incident, though analysts note enforcement questions remain given how many apps operate across state lines. Illinois was the first state to ban AI from acting as a therapist without clinician oversight.",
         ],
         "sources": [
-            ("Senator Alex Padilla", "https://www.padilla.senate.gov/newsroom/press-releases/padilla-schiff-urge-federal-trade-commission-to-address-ai-chatbots-risks-to-children-and-teens/"),
-            ("Stateline", "https://stateline.org/2026/01/15/ai-therapy-chatbots-draw-new-oversight-as-suicides-raise-alarm/")
-        ]
+            ("Taft Law", "https://www.taftlaw.com/news-events/law-bulletins/new-illinois-law-restricts-ai-use-in-therapy-sessions/"),
+            ("StateScoop", "https://statescoop.com/illinois-bans-ai-mental-health-services/"),
+        ],
     },
     {
         "sub": "Tools & Applications",
-        "h3": "Investors bet big on purpose-built mental health AI",
-        "summary": "Slingshot's $93 million raise and rounds for Talkiatry and Grow Therapy show capital concentrating in mental health AI and care platforms.",
+        "h3": "FDA has yet to clear any AI mental health device",
+        "summary": "The FDA has authorized no AI-enabled device built specifically for mental health and is drafting guidance expected late in 2026.",
         "body": [
-            "Digital health startups pulled in $4 billion in the first quarter, the strongest opening quarter since the pandemic peak, but nearly 60 percent came from a dozen mega-deals. Slingshot's $93 million backing for its Ash therapy model signaled conviction in purpose-built systems.",
-            "Established players are responding. Talkspace and Lyra outlined conversational chatbots trained on therapy sessions, and Spring Health even floated a bot to audit the safety of other therapy bots. Talkiatry raised $210 million and Grow Therapy landed $150 million."
+            "Despite clearing over 1,200 AI-enabled devices in fields like radiology and cardiology, the FDA has authorized none designed specifically for mental health. Its Digital Health Center of Excellence is developing guidance, expected in late 2026, with oversight to hinge on intended use, autonomy and risk.",
+            "The regulatory vacuum has consequences: an analysis of nearly 96,000 apps flagged as software as a medical device found 95% lacked verifiable FDA authorization. Woebot Health shut its consumer app in 2025, citing the cost and uncertainty of complying with device rules for large language models.",
         ],
         "sources": [
-            ("Rock Health", "https://rockhealth.com/insights/q1-2026-funding-overview-capital-continues-concentrating-and-four-other-market-signals/"),
-            ("Fierce Healthcare", "https://www.fiercehealthcare.com/digital-health/digital-health-startups-raked-4b-q1-12-megadeals-driving-investment-rock-health")
-        ]
+            ("Hogan Lovells", "https://www.hoganlovells.com/en/publications/fdas-digital-health-advisory-committee-weighs-guardrails-for-generative-ai-in-mental-health-devices"),
+            ("BakerHostetler", "https://www.bakerlaw.com/insights/fda-seeks-guidance-from-the-digital-health-advisory-committee-on-ai-considerations-for-innovators-of-digital-mental-health-medical-devices-and-wellness-products/"),
+        ],
     },
     {
         "sub": "Tools & Applications",
-        "h3": "Woebot exits as Wysa scales the pioneers diverge",
-        "summary": "Woebot shut its consumer therapy chatbot, blaming FDA hurdles and fast-moving AI, while Wysa expands with breakthrough device status.",
+        "h3": "Otsuka and Click launch fully remote depression app trial",
+        "summary": "The Mirai study tests a prescription digital therapeutic as an add-on to antidepressants for major depression, run entirely remotely.",
         "body": [
-            "Woebot pulled its pioneering rules-based chatbot, with founder Alison Darcy citing the cost of meeting FDA marketing requirements as generative AI raced ahead. The company survives as a business-to-business partner to health systems like Akron Children's and Virtua Health.",
-            "Wysa, meanwhile, holds FDA Breakthrough Device Designation and sits as the largest global conversational mental-health player with NHS and employer integrations. The FDA has authorized over 1,200 AI-enabled devices but still none specifically for mental health conditions."
+            "Otsuka and Click Therapeutics began a fully remote clinical trial evaluating a digital therapeutic as adjunctive treatment for adults with major depressive disorder on antidepressant monotherapy. The design lets participants enroll and take part without visiting a clinic.",
+            "The effort reflects a broader push to validate app-based interventions against rigorous endpoints, following the CT-152 Phase 3 Mirai study for depression. Remote trials aim to widen access and generate the evidence regulators and payers increasingly demand.",
         ],
         "sources": [
-            ("STAT News", "https://www.statnews.com/2025/07/02/woebot-therapy-chatbot-shuts-down-founder-says-ai-moving-faster-than-regulators/"),
-            ("Telehealth.org", "https://telehealth.org/news/ai-psychotherapy-shutdown-what-woebots-exit-signals-for-clinicians/")
-        ]
+            ("Click Therapeutics", "https://www.clicktherapeutics.com/news/otsuka-and-click-therapeutics-initiate-first-of-its-kind-fully-remote-clinical-trial-using-digital-therapeutics-as-adjunctive-therapy-in-adults-with-major-depressive-disorder"),
+            ("Psychiatric Times", "https://www.psychiatrictimes.com/view/a-digital-therapeutic-ct-152-as-adjunct-to-antidepressant-medication-a-phase-3-randomized-controlled-trial-the-mirai-study-"),
+        ],
     },
     {
         "sub": "Tools & Applications",
-        "h3": "Headspace puts an AI companion on the wrist",
-        "summary": "Headspace launched an Apple Watch app that reads health signals to catch receptive moments and offers a voice and text AI companion.",
+        "h3": "Self-guided digital CBT eyed to cut therapy waitlists",
+        "summary": "New trials suggest self-guided digital CBT can rival clinician-supported versions and help patients stuck on psychotherapy waiting lists.",
         "body": [
-            "The new app uses wearable data to identify when a member may be most open to a mindfulness moment, then nudges them toward it. Its AI companion works across text and voice to help users name and process what they are feeling.",
-            "The launch reflects a broader push to fuse passive sensing with conversational support so help arrives before a crisis. It lands as regulators and researchers debate how much emotional weight such always-on tools should carry."
+            "A Swedish feasibility trial found that a tailored digital self-help program for depression and anxiety produced outcomes comparable to a clinician-guided version, pointing to a scalable option that needs less staff time. Researchers see self-guided tools as a way to reach more people faster.",
+            "UCSF investigators are testing the Spanish-language SilverCloud digital CBT program for Latino patients with depression or anxiety, comparing self-guided and supported formats. Systematic reviews increasingly frame such interventions as a stopgap for people waiting for in-person psychotherapy.",
         ],
         "sources": [
-            ("MobiHealthNews", "https://www.mobihealthnews.com/news/qa-headspace-debuts-new-apple-watch-app-mental-health-support")
-        ]
+            ("Taylor & Francis", "https://www.tandfonline.com/doi/full/10.1080/16506073.2026.2632368"),
+            ("UCSF Clinical Trials", "https://clinicaltrials.ucsf.edu/depression"),
+        ],
     },
-    {
-        "sub": "Tools & Applications",
-        "h3": "Trial finds AI support eases anxiety and depression",
-        "summary": "A Reichman University study reports an AI conversational platform significantly cut anxiety and depression symptoms and built a therapeutic bond.",
-        "body": [
-            "The research found that a well-designed conversational agent reduced symptoms, formed a meaningful therapeutic alliance with users and delivered round-the-clock emotional support. The results add to cautious optimism that responsibly built tools can complement human care.",
-            "Experts frame such systems as an extension of telehealth rather than a replacement for clinicians. The key caveat remains that benefits depend on careful design and oversight, not on repurposed general-purpose chatbots."
-        ],
-        "sources": [
-            ("Medical Xpress", "https://medicalxpress.com/news/2026-05-therapy-fingertips-ai-mental-health.html")
-        ]
-    }
 ]

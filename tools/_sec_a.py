@@ -4,49 +4,37 @@ GLOBAL = [
     {
         "hero": True,
         "sub": "Conflicts & Security",
-        "h3": "Iran and US trade threats as Hormuz standoff festers",
-        "summary": "Tehran and Washington held off on fresh strikes this weekend but both sides issued fiery public warnings, leaving the Gulf on edge.",
+        "h3": "US pounds Iran with fresh strikes as Hormuz standoff deepens",
+        "summary": "Washington hit around 140 Iranian targets overnight and Tehran fired back at Gulf states as the Strait of Hormuz became a flashpoint.",
         "body": [
-            "Iran's Revolutionary Guard said the Strait of Hormuz was closed after it fired a warning shot at a vessel it accused of using an unapproved route. The two governments appear to be pausing the direct exchanges of fire seen earlier in the week, yet the mood remains combustible with Iran's supreme leadership and President Trump both trading threats.",
-            "On the sidelines, Iranian Foreign Minister Abbas Araghchi met his Omani counterpart in Muscat to discuss navigation safety and the wider diplomatic track. A separate flare-up in southern Lebanon, where a strike wounded seven people despite a truce tied to the Iran ceasefire framework, underscored how fragile the regional calm has become.",
+            "The US military said it struck roughly 140 sites across Iran in its largest assault in weeks, and Tehran responded with a barrage aimed at American bases and Arab neighbors. Kuwait, Qatar, Oman, Jordan and the United Arab Emirates all reported incoming fire, with Kuwait citing hits near border posts and an oil rig.",
+            "Iran's Revolutionary Guard declared the Strait of Hormuz closed after firing a warning shot at a vessel, though a US Navy-linked monitoring center said the southern route stayed open to two-way traffic. The flare-up put fresh strain on the interim deal the two sides reached on June 17.",
         ],
         "sources": [
-            ("CNN", "https://www.cnn.com/2026/07/11/world/live-news/iran-war-trump"),
-            ("Times of Israel", "https://www.timesofisrael.com/liveblog-july-11-2026/"),
+            ("Al Jazeera", "https://www.aljazeera.com/news/liveblog/2026/7/12/iran-war-live-irgc-declares-strait-of-hormuz-closed-over-us-interference"),
+            ("PBS NewsHour", "https://www.pbs.org/newshour/world/u-s-strikes-iran-over-latest-ship-attack-and-tehran-responds-by-hitting-arab-states"),
         ],
     },
     {
         "sub": "Conflicts & Security",
-        "h3": "Hormuz shipping grinds to a halt as fighting resumes",
-        "summary": "No large vessel has crossed the strait on the US-coordinated route since Tuesday, choking one of the world's most vital energy chokepoints.",
+        "h3": "Russia and Ukraine trade drone and missile salvos, killing nine",
+        "summary": "Overnight strikes left four dead in Ukraine and five in Russia and occupied territory as US-led peace efforts stalled.",
         "body": [
-            "Traceable crossings along the Oman-hugging southern lane have effectively stopped, with no ship above 10,000 deadweight tonnes transiting with its tracking signal on since July 7. Before the war began in late February roughly 130 vessels moved through the passage each day.",
-            "Energy markets have absorbed repeated shocks from the crisis, though prices held broadly steady with Brent crude near 77 dollars a barrel. Analysts warn that shipping firms and insurers, not governments, will ultimately decide when the strait is truly reopened.",
+            "Russian drones and missiles killed four people in Ukraine, including two at an industrial site in Kryvyi Rih and a resident of Kherson. Ukrainian strikes on Russian-held Zaporizhzhia and Russia's Samara region left five dead.",
+            "The exchanges came a day before Kyiv's allies gathered in Paris to weigh more pressure on Moscow. Russia has escalated ballistic missile attacks as Ukraine runs short of interceptors for its Patriot air defenses.",
         ],
         "sources": [
-            ("Al Jazeera", "https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting"),
-            ("Wikipedia", "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"),
+            ("The Moscow Times", "https://www.themoscowtimes.com/2026/07/12/nine-dead-as-russia-ukraine-exchange-strikes-a93228"),
+            ("Al Jazeera", "https://www.aljazeera.com/news/2026/7/12/nine-dead-as-russia-and-ukraine-trade-drone-and-missile-salvos"),
         ],
     },
     {
         "sub": "Conflicts & Security",
-        "h3": "IRGC claims strike on US base in Jordan",
-        "summary": "Iran said it targeted a US command center and the Al-Azraq air base, while US airstrikes reportedly killed three Guard members in Khuzestan.",
+        "h3": "Nine months into ceasefire, Israel controls nearly 70% of Gaza",
+        "summary": "Israel's military footprint keeps expanding despite the October truce, with the UN reporting hundreds of Palestinian deaths since it began.",
         "body": [
-            "Iran's Revolutionary Guard announced a missile strike aimed at a US command-and-control site in the region and at the Al-Azraq base in Jordan, the latest escalation in the on-again conflict. Washington has not confirmed damage from the claimed attack.",
-            "In parallel, Iranian officials reported that US airstrikes on the southwestern province of Khuzestan killed three members of the Guard. The exchanges show how quickly the standoff can tip back toward open fighting even as diplomats push for restraint.",
-        ],
-        "sources": [
-            ("Anadolu Agency", "https://aa.com.tr/en/world/morning-briefing-july-10-2026/3993788"),
-        ],
-    },
-    {
-        "sub": "Conflicts & Security",
-        "h3": "Israel controls nearly 70% of Gaza as truce stays hollow",
-        "summary": "Nine months into a ceasefire, the deal remains largely unfulfilled while Israel's military footprint keeps expanding.",
-        "body": [
-            "Israel now holds close to 70 percent of Gaza, up from about half when the October truce began, in what Prime Minister Netanyahu describes as a step-by-step plan to encircle Hamas. Gaza health authorities say near-daily Israeli fire has killed more than 1,000 people since the ceasefire took effect.",
-            "Hamas has said it will dissolve its civil administration and hand governance to a technocratic committee envisioned under the 20-point plan. Yet core elements of the agreement remain stalled, and residents describe unclaimed bodies and squalor as reconstruction fails to arrive.",
+            "At the start of the October ceasefire Israel held about half of Gaza along the so-called yellow line, but its forces now control close to 70 percent of the territory. Prime Minister Benjamin Netanyahu framed the creeping advance as a step-by-step plan to encircle Hamas.",
+            "The UN humanitarian office says roughly 200 Palestinians have been killed near the shifting lines since the truce took effect. Key parts of the 20-point plan remain unrealized, with Hamas having dissolved its civil administration in early July.",
         ],
         "sources": [
             ("NPR", "https://www.npr.org/2026/07/10/nx-s1-5887357/israel-gaza-war-trump-ceasefire-military-control"),
@@ -55,185 +43,127 @@ GLOBAL = [
     },
     {
         "sub": "Conflicts & Security",
-        "h3": "Israeli strike wounds seven in southern Lebanon",
-        "summary": "A reported strike on a town near the coast injured several people despite a Hezbollah truce tied to the Iran framework.",
+        "h3": "Two killed in shooting at Toronto Latin street festival",
+        "summary": "Gunmen opened fire on each other in a crowd at the Salsa on St. Clair festival, killing two and wounding several as thousands fled.",
         "body": [
-            "Seven people were hurt when Israel reportedly struck a neighborhood in the southern Lebanese town of Al-Mansouri, according to local accounts the Israeli military said it was checking. The area falls under a ceasefire agreed as part of the broader Iran de-escalation.",
-            "The incident adds to a pattern of cross-border violence that keeps testing the durability of the truce. Lebanese authorities have repeatedly warned that renewed strikes risk dragging the country back into wider conflict.",
+            "Police said two people exchanged gunfire in the crowd around 8:12 p.m. on Saturday, leaving two dead and up to six injured. An estimated 13,000 people were at the event, and the shooting set off a stampede.",
+            "Two firearms were recovered and investigators marked out three crime scenes while searching for suspects. The festival, billed as Canada's largest Latin street celebration, did not resume on Sunday.",
         ],
         "sources": [
-            ("Times of Israel", "https://www.timesofisrael.com/liveblog-july-11-2026/"),
+            ("NPR", "https://www.npr.org/2026/07/12/g-s1-133229/toronto-shooting-salsa-festival"),
+            ("NBC News", "https://www.nbcnews.com/world/canada/toronto-festival-shooting-rcna545415"),
         ],
     },
     {
         "sub": "Conflicts & Security",
-        "h3": "Russia's Ukraine advance stalls at brutal cost",
-        "summary": "Moscow gained only a sliver of territory over four weeks while losing tens of thousands of troops, analysts say.",
+        "h3": "Fresh clashes and drone strikes hit DR Congo's South Kivu",
+        "summary": "Heavy fighting in the Fizi, Mwenga and Uvira areas has killed civilians and cut off aid to communities already sheltering the displaced.",
         "body": [
-            "Ukrainian OSINT trackers put Russia's net gain at around 31 square miles over the four weeks to July 7, with other analysts estimating far less. Kyiv's military said Russian forces suffered nearly 39,500 casualties in June alone, a rate that has climbed sharply as advances slow.",
-            "Russia is still pressing its long-range campaign, firing dozens of missiles and hundreds of drones in single overnight barrages, including strikes on Kyiv's defense industry. Ukraine's Patriot batteries are running short of interceptors, intercepting only a fraction of the ballistic missiles fired in June.",
+            "The UN says clashes since July 4, including reported drone attacks, have killed at least five civilians and injured dozens in eastern Congo. At least 6,000 people fled to Kipupu and Malanda, adding to more than 200,000 already displaced in the zone.",
+            "The renewed violence is delaying humanitarian assessments and restricting access. Aid officials warn the security collapse is compounding an already dire regional emergency.",
         ],
         "sources": [
-            ("Al Jazeera", "https://www.aljazeera.com/news/2026/7/3/russian-advance-collapses-in-ukraine-as-anxiety-rises-in-moscow"),
-            ("Russia Matters", "https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-july-8-2026"),
-        ],
-    },
-    {
-        "sub": "Conflicts & Security",
-        "h3": "Ukrainian drones hit refinery deep inside Siberia",
-        "summary": "A long-range strike set fire to Russia's Omsk refinery some 2,700km from the front, extending Kyiv's reach.",
-        "body": [
-            "Ukrainian drones struck the Omsk refinery in Siberia, reportedly sparking a blaze at one of the most distant Russian energy targets hit so far. The attack fits Kyiv's strategy of squeezing the fuel and revenue that sustain Moscow's war machine.",
-            "Such deep strikes have become a recurring feature of the conflict as Ukraine expands its domestic drone production. Trump, meanwhile, told reporters a resolution to the war is getting closer than many realize, tying his optimism to recent alliance talks.",
-        ],
-        "sources": [
-            ("Russia Matters", "https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-july-8-2026"),
-        ],
-    },
-    {
-        "sub": "Conflicts & Security",
-        "h3": "Sudan's war enters new phase around el-Obeid",
-        "summary": "Escalating fighting has driven more than 11,000 people from the strategic North Kordofan city in two weeks.",
-        "body": [
-            "The battle for el-Obeid has forced over 11,000 residents to flee, including more than 5,500 children, as the UN warns up to half a million civilians could be exposed if violence intensifies. The city sits at a crossroads that both sides see as pivotal to the next stage of the war.",
-            "Sudan's conflict has already killed at least 59,000 people and displaced roughly 13 million, pushing parts of the country into famine. Aid agencies say access is shrinking just as needs surge across Kordofan.",
-        ],
-        "sources": [
-            ("Al Jazeera", "https://www.aljazeera.com/news/2026/7/7/why-el-obeid-matters-as-sudans-war-enters-a-new-phase"),
-            ("ReliefWeb", "https://reliefweb.int/report/sudan/sudan-more-5500-children-displaced-escalating-violence-el-obeid-past-two-weeks"),
-        ],
-    },
-    {
-        "sub": "Conflicts & Security",
-        "h3": "Fresh violence in eastern DR Congo displaces thousands",
-        "summary": "Clashes and reported drone attacks in South Kivu have killed civilians and cut off humanitarian access since July 4.",
-        "body": [
-            "Heavy fighting across the Fizi, Mwenga and Uvira territories has killed at least five civilians and injured dozens, with aid workers reporting drone strikes among the causes. At least 6,000 people have fled to Kipupu and Malanda as agencies try to verify further displacement.",
-            "The UN says the renewed violence is severely restricting relief efforts in a region already strained by years of conflict. Aid officials warn that shrinking access could leave newly displaced families without basic support.",
-        ],
-        "sources": [
-            ("OCHA", "https://www.globalsecurity.org/military/library/news/2026/07/mil-260706-unocha01.htm"),
-        ],
-    },
-    {
-        "sub": "Conflicts & Security",
-        "h3": "China and Russia stage joint naval drills off Qingdao",
-        "summary": "The Joint Sea-2026 exercise runs through mid-July as Beijing signals a new focus on AI-driven warfare.",
-        "body": [
-            "The two militaries began their annual combined naval exercise off Qingdao on July 6, with the drills scheduled to continue until July 13. The show of cooperation comes as China's carrier operations increasingly probe waters near Taiwan and the wider Western Pacific.",
-            "In its official press, the PLA has emphasized a possible new domain it calls technological strategy, spotlighting AI algorithms in future great power conflict. Chinese planners have long pushed the intelligentization of warfare, aiming to weave emerging tech into kill chains and logistics.",
-        ],
-        "sources": [
-            ("AEI", "https://www.aei.org/articles/china-taiwan-update-july-10-2026/"),
+            ("UN OCHA / GlobalSecurity", "https://www.globalsecurity.org/military/library/news/2026/07/mil-260706-unocha01.htm"),
         ],
     },
     {
         "sub": "Diplomacy & Trade",
-        "h3": "NATO touts unity and spending gains at Ankara summit",
-        "summary": "Allies met July 7-8 in Turkey, with all members now past the old 2% benchmark and marching toward a 5% target.",
+        "h3": "Macron gathers 'Coalition of the Willing' in Paris for Ukraine",
+        "summary": "At least 25 leaders met at Les Invalides to firm up air defense support and coordinate military aid pledged for Kyiv this year.",
         "body": [
-            "Secretary General Mark Rutte set out three priorities in Ankara: raising defense investment, boosting industrial production and sustaining support for Ukraine. Officials noted that every ally cleared the previous 2 percent of GDP threshold in 2025, and European members plus Canada lifted spending by around 20 percent in a single year.",
-            "The alliance is one year into a decade-long push toward 5 percent of GDP by 2035, and announced new multinational buys of tankers, high-altitude drones and airborne early-warning aircraft. Trump praised what he called tremendous unity among members.",
+            "France hosted the Ukraine coalition on the eve of Bastille Day, with Volodymyr Zelensky attending and Moldova and North Macedonia joining for the first time. The group has grown to dozens of countries meeting in person and by video link.",
+            "Talks focused on strengthening Ukrainian air defenses, expanding Patriot systems and building new anti-missile capacity. Allies pointed back to earlier commitments to send tens of billions of euros in military support in 2026.",
         ],
         "sources": [
-            ("NATO", "https://www.nato.int/en/news-and-events/articles/news/2026/07/06/nato-secretary-general-previews-the-ankara-summit-highlights-progress-on-defence-spending"),
-            ("France 24", "https://www.france24.com/en/europe/20260708-ukraine-live-russia-launches-deadly-strikes-kyiv-nato-leaders-prepare-meet-in-ankara"),
+            ("Euronews", "https://www.euronews.com/my-europe/2026/07/12/coalition-of-the-willing-leaders-to-meet-in-paris-ahead-of-bastille-day-parade"),
+            ("Kyiv Post", "https://www.kyivpost.com/post/80035"),
         ],
     },
     {
         "sub": "Diplomacy & Trade",
-        "h3": "Trump's global tariff faces a July expiration cliff",
-        "summary": "A 10% Section 122 import surcharge is set to lapse around July 24 unless Congress acts, even as new probes brew.",
+        "h3": "EU scraps tariffs on US industrial goods under new trade pact",
+        "summary": "Duties on American industrial imports fell to zero from July 1, cementing the deal struck by von der Leyen and Trump.",
         "body": [
-            "After the Supreme Court struck down some tariffs early this year, the administration leaned on a Section 122 global surcharge that is scheduled to expire around July 24. If lawmakers do not extend it, the 10 percent levy would fall away, setting up a fresh scramble over trade policy.",
-            "In the background, US trade officials have opened Section 301 investigations tied to forced labor and industrial overcapacity, widely seen as a route to reimpose duties. Probes have already flagged partners including Canada, the EU, Mexico and Pakistan over labor enforcement.",
+            "After approval by the European Parliament and Council, the EU eliminated all tariffs on US industrial goods as of July 1, 2026. The move locks in the transatlantic framework agreed the previous summer to steady trade relations.",
+            "Brussels kept leverage in reserve, saying it can suspend preferential treatment if Washington keeps steel and aluminum tariffs above 15 percent past the end of the year. The arrangement is meant to close a volatile chapter for the two blocs.",
         ],
         "sources": [
-            ("Baker Botts", "https://ourtake.bakerbotts.com/post/102n7tq/trump-tariff-tracker-july-2-2026"),
-            ("Dorsey", "https://www.dorsey.com/newsresources/publications/client-alerts/2026/6/new-section-301-tariffs"),
+            ("France 24", "https://www.france24.com/en/europe/20260616-europe-signs-off-on-long-awaited-us-tariff-deal"),
+            ("European Commission", "https://commission.europa.eu/topics/trade/eu-us-trade-deal_en"),
         ],
     },
     {
         "sub": "Diplomacy & Trade",
-        "h3": "EU goods hit with 15% US tariff under new deal",
-        "summary": "Brussels enacted the tariff commitments in its deal with Washington, taking effect on July 1.",
+        "h3": "USMCA review opens as fresh US tariff deadlines loom",
+        "summary": "The first formal review of the North American trade pact is under way while Section 301 and Section 122 deadlines approach late July.",
         "body": [
-            "The Council of the EU formally adopted two regulations to implement the trade arrangement, meaning most European exports to the US now face a 15 percent tariff rate. The move locks in terms negotiated to head off a broader transatlantic trade fight.",
-            "The deal lands amid a wider tariff push from Washington, including a separate Section 301 investigation into Germany over drug pricing. Businesses on both sides are recalibrating supply chains as the new rates settle in.",
+            "The joint review of the US-Mexico-Canada Agreement began July 1 and could reshape rules of origin, digital trade and farm provisions. Separately, the USTR faces a July 20 deadline to complete Section 301 probes that could bring new tariffs on Vietnam, Indonesia, Thailand and additional Chinese goods.",
+            "A 10 percent global tariff invoked under Section 122 is set to lapse around July 24 unless Congress acts, after a federal appeals court upheld it in June. Traders are watching the overlapping timelines closely.",
         ],
         "sources": [
-            ("Dorsey", "https://www.dorsey.com/newsresources/publications/client-alerts/2026/6/new-section-301-tariffs"),
+            ("Tax Foundation", "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"),
+            ("Tariffs Tool", "https://www.tariffstool.com/guides/tariff-news-2026"),
         ],
     },
     {
         "sub": "Diplomacy & Trade",
-        "h3": "US, Canada and Mexico fail to agree on USMCA path",
-        "summary": "A virtual meeting of the three trade chiefs ended without a deal on continuing the North American pact.",
+        "h3": "Japan's Takaichi holds supermajority but reform push stalls",
+        "summary": "The LDP's historic two-thirds grip on the lower house is being tested by opposition boycotts over seat cuts and imperial succession.",
         "body": [
-            "US Trade Representative Greer said the administration did not reach agreement with Canada and Mexico on the future of the USMCA following talks among the partners. The impasse raises questions over the terms that will govern the region's deeply integrated trade.",
-            "The stalemate feeds a broader climate of trade uncertainty, with Washington pursuing labor and overcapacity probes against multiple partners. Businesses across the continent are bracing for a bumpy renegotiation.",
+            "Prime Minister Sanae Takaichi's Liberal Democrats won 316 of 465 lower house seats in February, a postwar first. Momentum has since slowed as coalition strains build.",
+            "Flagship bills to cut lower house seats by 10 percent, name Osaka a secondary capital and reform imperial succession risk stalling amid opposition walkouts. Analysts warn of a stretch of political friction ahead.",
         ],
         "sources": [
-            ("Dorsey", "https://www.dorsey.com/newsresources/publications/client-alerts/2026/6/new-section-301-tariffs"),
+            ("The Japan Times", "https://www.japantimes.co.jp/news/2026/02/09/japan/politics/japan-2026-lower-house-election/"),
+            ("CSIS", "https://www.csis.org/analysis/japans-upper-house-election-prolonged-instability"),
         ],
     },
     {
         "sub": "Diplomacy & Trade",
-        "h3": "Ireland takes the EU Council helm for six months",
-        "summary": "Dublin assumed the rotating presidency on July 1 and this week laid out its priorities for the bloc.",
+        "h3": "Qatar and Pakistan scramble to salvage US-Iran interim deal",
+        "summary": "Mediators are pushing to keep a diplomatic track alive as the 60-day window from the June 17 agreement nears its midpoint.",
         "body": [
-            "Ireland began steering the Council of the European Union on July 1, taking charge of the agenda for the second half of the year. Its opening week featured finance ministers signing off on country-specific economic recommendations and briefings on digital and animal health rules.",
-            "The handover follows a June summit where leaders backed unity on the next long-term budget, competitiveness and continued support for Ukraine. Lawmakers are also advancing updated passenger rights, including compensation after three-hour flight delays.",
+            "Qatari and Pakistani envoys are working to hold together the interim understanding reached on June 17, which opened a 60-day path toward a permanent end to the fighting. The latest strikes and Hormuz standoff have thrown that timeline into doubt.",
+            "Oman floated a new traffic plan for the strait as regional capitals pressed for de-escalation. The midpoint of the interim period falls within the week, raising the stakes for negotiators.",
         ],
         "sources": [
-            ("European Council", "https://www.consilium.europa.eu/en/press/press-releases/2026/07/03/forward-look-2026/"),
-            ("EUbusiness", "https://www.eubusiness.com/politics/eucalendar/"),
-        ],
-    },
-    {
-        "sub": "Diplomacy & Trade",
-        "h3": "Major US housing bill becomes law without Trump's signature",
-        "summary": "The largest affordability package in decades took effect after the president declined to sign it.",
-        "body": [
-            "Trump allowed a sweeping bipartisan housing bill to become law without signing it, after tying his support to a separate elections overhaul that Republicans could not advance. The measure aims to lower the cost of homeownership largely by spurring construction nationwide.",
-            "The law bundles more than 40 provisions drawn from both parties, reflecting rare cross-aisle agreement on housing costs. Supporters cast it as the most consequential affordability push in decades.",
-        ],
-        "sources": [
-            ("NPR", "https://www.npr.org/2026/07/10/nx-s1-5885027/housing-bill-without-trump-signature"),
-            ("NBC News", "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-2026-election-congress-housing-iran-ice-doj-live-updates-rcna358291"),
-        ],
-    },
-    {
-        "sub": "Diplomacy & Trade",
-        "h3": "White House ousts entire Election Assistance Commission",
-        "summary": "All three sitting members were removed ahead of the midterms, hobbling the bipartisan agency.",
-        "body": [
-            "The administration removed every current member of the US Election Assistance Commission, a body that helps set voting standards, just months before the midterm elections. Critics warn the move guts an agency meant to operate on a bipartisan basis.",
-            "The shake-up lands amid broader disputes over election policy, including a stalled overhaul the president had sought to link to housing legislation. The timing has sharpened concerns among voting-rights advocates.",
-        ],
-        "sources": [
-            ("NBC News", "https://www.nbcnews.com/politics/2026-election/trump-fires-election-assistance-commission-members-ahead-midterms-rcna353781"),
-        ],
-    },
-    {
-        "sub": "Diplomacy & Trade",
-        "h3": "Pakistan emerges as key broker in Middle East crisis",
-        "summary": "Islamabad has taken on an unlikely mediating role, lending its name to a US-Iran understanding.",
-        "body": [
-            "Pakistan has become a notable go-between during the regional war, with a US-Iran arrangement dubbed the Islamabad Memorandum of Understanding named in recognition of its efforts. The role marks a diplomatic elevation for a country often on the sidelines of Gulf disputes.",
-            "Its mediation runs alongside Omani-hosted contacts as outside powers scramble to keep the conflict from widening. Whether such channels can produce a durable de-escalation remains far from certain.",
-        ],
-        "sources": [
-            ("CNN", "https://www.cnn.com/2026/07/11/world/live-news/iran-war-trump"),
+            ("NPR", "https://www.npr.org/2026/07/11/g-s1-133212/us-iran-vessel-attack-strait-hormuz-gulf"),
+            ("Iran International", "https://www.iranintl.com/en/liveblog/202607116587"),
         ],
     },
     {
         "sub": "Humanitarian & Climate",
-        "h3": "North American heat wave death toll climbs past 40",
-        "summary": "A punishing heat dome scorched the eastern US and Canada, with a second dome building over the west.",
+        "h3": "WHO warns Europe faces more deadly heat weeks ahead",
+        "summary": "Health officials caution that record summer temperatures could keep driving excess deaths across the continent.",
         "body": [
-            "The first heat dome baked the eastern US and Canada from late June into early July, tying or breaking records and pushing Atlantic City to 106F on July 4. By July 8 at least 44 deaths had been linked to the heat, and Canada Day storms brought record rainfall and flooding to Ottawa.",
-            "A second dome is now forming over the western half of the continent, with advisories from the Southwest to Alaska and Phoenix topping 113F. Scientists point to El Nino and human-driven warming as compounding drivers.",
+            "The WHO's European office said more deadly weeks of extreme heat may still lie ahead after a punishing run of record temperatures. Spain alone logged more than 1,000 excess deaths tied to a June heatwave.",
+            "Scientists with World Weather Attribution called the recent heat virtually impossible without climate change. Records fell across more than a dozen countries from May onward, including in the Netherlands.",
+        ],
+        "sources": [
+            ("WHO Europe", "https://www.who.int/europe/news/item/07-07-2026-statement---extreme-heat--more-deadly-weeks-may-still-lie-ahead-for-the-european-region"),
+            ("Wikipedia", "https://en.wikipedia.org/wiki/2026_European_heatwaves"),
+        ],
+    },
+    {
+        "sub": "Humanitarian & Climate",
+        "h3": "Wildfires tear through Portugal, Spain, Greece and France",
+        "summary": "Firefighters battled blazes across more than 190 square kilometers as Greece warned of toxic smoke and France evacuated thousands.",
+        "body": [
+            "A fire near Thessaloniki forced evacuation alerts for three suburbs and a facility housing 157 people with disabilities, while another blaze burned pine forest west of Athens. In Portugal's Vouzela area a fire spread across some 12,000 hectares.",
+            "Spain saw more than 2,200 hectares burn near the Costa Brava in two days, and about 10,000 people were evacuated in France's Pyrenees-Orientales. The fires coincided with weeks of extreme heat and high power demand.",
+        ],
+        "sources": [
+            ("PBS NewsHour", "https://www.pbs.org/newshour/world/wildfires-rage-in-portugal-greece-and-spain-while-greek-authorities-warn-of-toxic-smoke"),
+            ("Euronews", "https://www.euronews.com/2026/07/06/wildfires-rage-in-portugal-and-spain-as-authorities-in-greece-warn-of-toxic-smoke"),
+        ],
+    },
+    {
+        "sub": "Humanitarian & Climate",
+        "h3": "North American heat wave death toll keeps climbing",
+        "summary": "A second heat dome built over the western and central US after weeks of record temperatures killed dozens.",
+        "body": [
+            "At least 44 deaths were attributed to the heat by early July, with a peak of 106F recorded in Atlantic City on Independence Day. The heat overlapped with the FIFA World Cup and holiday travel.",
+            "A new dome formed over the western and central US from July 6, pushing Phoenix to 113F. Scientists tracking the extremes said the intensity has outrun many of their models.",
         ],
         "sources": [
             ("Axios", "https://www.axios.com/2026/07/06/us-heat-wave-death-toll-july-2026"),
@@ -242,40 +172,53 @@ GLOBAL = [
     },
     {
         "sub": "Humanitarian & Climate",
-        "h3": "Europe bakes as UK sets a new heat record",
-        "summary": "The WHO warns of more deadly weeks ahead as Iberia braces for 43C temperatures.",
+        "h3": "Displacement surges around Sudan's el-Obeid as cholera spreads",
+        "summary": "More than 11,000 people fled fighting near the strategic city in two weeks, and the UN warns half a million could be at risk.",
         "body": [
-            "Britain logged its eighth day above 34C in 2026 on July 9, a new national record for such days in a single year, according to the Met Office. Portugal and southern Spain are forecast to hit 43C, with France and the Benelux facing another surge.",
-            "The World Health Organization cautioned that Europe may still face more deadly weeks of extreme heat this summer. Health officials across the continent are urging precautions for the vulnerable as temperatures spike.",
+            "Over 11,000 people, including more than 5,500 children, escaped escalating clashes around el-Obeid in North Kordofan. The UN says up to 500,000 civilians could be endangered if the violence widens.",
+            "In West Kordofan more than 800 cholera cases prompted an emergency water and health response funded through the Sudan Humanitarian Fund. Only about 44 percent of the 890 million dollar 2026 appeal has been met.",
         ],
         "sources": [
-            ("Wikipedia", "https://en.wikipedia.org/wiki/2026_European_heatwaves"),
-            ("WHO Europe", "https://www.who.int/europe/news/item/07-07-2026-statement---extreme-heat--more-deadly-weeks-may-still-lie-ahead-for-the-european-region"),
+            ("Al Jazeera", "https://www.aljazeera.com/news/2026/7/7/why-el-obeid-matters-as-sudans-war-enters-a-new-phase"),
+            ("IOM / GlobalSecurity", "https://www.globalsecurity.org/military/library/news/2026/07/mil-260703-iom01.htm"),
         ],
     },
     {
         "sub": "Humanitarian & Climate",
-        "h3": "Sudan aid appeal barely half funded amid cholera",
-        "summary": "Less than 44% of the 2026 response is financed as disease and child casualties mount.",
+        "h3": "Fire at Bangkok pub kills at least 27",
+        "summary": "A blaze engulfed the Na Ladprao pub in the early hours of Monday, leaving dozens dead and many in critical condition.",
         "body": [
-            "Of the 890 million dollars needed for Sudan's 2026 humanitarian plan, only about 387 million has come in, leaving relief agencies stretched thin. In West Kordofan alone more than 800 cholera cases have been logged, prompting an emergency water and health allocation.",
-            "UNICEF says at least 330 children were killed or injured in Sudan during the first half of 2026, with the toll rising fastest around el-Obeid. Aid officials warn the funding gap is deepening a crisis already marked by famine and mass displacement.",
+            "The fire was reported around midnight and killed at least 27 people before firefighters brought it under control. Bangkok's governor said 22 of 63 injured people were in critical condition.",
+            "A musician who was performing said he saw smoke from a circuit breaker near the stage before the power cut out and an explosion followed. The cause remains under investigation.",
         ],
         "sources": [
-            ("OCHA", "https://www.unocha.org/news/todays-top-news-global-humanitarian-overview-2026-sudan-occupied-palestinian-territory"),
-            ("ReliefWeb", "https://reliefweb.int/report/sudan/sudan-more-5500-children-displaced-escalating-violence-el-obeid-past-two-weeks"),
+            ("NPR", "https://www.npr.org/2026/07/12/g-s1-133238/fire-breaks-out-at-a-pub-in-bangkok-killing-at-least-27-people-officials-say"),
+            ("South China Morning Post", "https://www.scmp.com/news/asia/southeast-asia/article/3360301/least-27-dead-after-fire-breaks-out-bangkok-pub"),
         ],
     },
     {
         "sub": "Humanitarian & Climate",
-        "h3": "DR Congo Ebola outbreak kills more than 500",
-        "summary": "The outbreak declared in May has claimed at least 506 lives as health workers threaten to strike.",
+        "h3": "Srebrenica marks 31 years as ten more victims are buried",
+        "summary": "Thousands gathered at Potocari to honor the newly identified dead, with this year's commemoration focused on the women of Srebrenica.",
         "body": [
-            "Congo's health ministry says the Ebola outbreak declared on May 15 has killed at least 506 people out of 1,561 confirmed cases. The toll makes it one of the deadlier flare-ups in recent years for a country long familiar with the virus.",
-            "Response efforts are under strain, with Ebola health workers threatening industrial action over conditions. The outbreak compounds a humanitarian picture already worsened by fighting in the country's east.",
+            "Ten recently identified victims were laid to rest at the Potocari Memorial Center as families and officials marked 31 years since the 1995 genocide. The youngest of the ten was 20 in 1995 and the oldest 56.",
+            "Marchers completed the annual Peace March tracing the route men and boys used trying to flee. More than a thousand victims are still missing, and The Hague also held its own remembrance of the massacre carried out on Dutch peacekeepers' watch.",
         ],
         "sources": [
-            ("OkayAfrica", "https://www.okayafrica.com/today-in-africa-july-6-2026-over-300-children-among-latest-victims-of-sudan-war-dr-congo-ebola-health-workers-threaten-strike/1434570"),
+            ("Al Jazeera", "https://www.aljazeera.com/news/2026/7/11/thousands-gather-in-srebrenica-to-mark-31-years-since-genocide"),
+            ("NL Times", "https://nltimes.nl/2026/07/11/hague-marks-31-years-since-srebrenica-genocide-dutch-peacekeepers-watch"),
+        ],
+    },
+    {
+        "sub": "Humanitarian & Climate",
+        "h3": "DR Congo Ebola outbreak tops 1,560 confirmed cases",
+        "summary": "Health authorities report the virus spreading across three eastern provinces, with Ituri remaining the epicenter.",
+        "body": [
+            "More than 1,560 confirmed Ebola cases have been recorded across Ituri, North Kivu and South Kivu, with Ituri hardest hit. New suspected cases have surfaced in areas previously untouched by the outbreak.",
+            "Ongoing conflict in the east is hampering containment and access for health teams. The dual burden of fighting and disease is deepening the humanitarian strain on the region.",
+        ],
+        "sources": [
+            ("UN OCHA / GlobalSecurity", "https://www.globalsecurity.org/military/library/news/2026/07/mil-260706-unocha01.htm"),
         ],
     },
 ]
@@ -284,178 +227,164 @@ NETHERLANDS = [
     {
         "hero": True,
         "sub": "Politics & Policy",
-        "h3": "Second heat plan of summer as mercury nears 34C",
-        "summary": "The National Heat Plan is back in force and a code yellow warning covers the south as temperatures climb.",
+        "h3": "Jetten presses to break nitrogen deadlock as farmer anger simmers",
+        "summary": "The cabinet is pushing tougher emissions cuts to restart stalled housing and infrastructure permits, with another summer of protests feared.",
         "body": [
-            "A fresh spell of hot weather is pushing temperatures above 30 degrees across the centre and south, with highs near 34 possible in Limburg, Noord-Brabant and Zeeuws-Vlaanderen. The National Heat Plan has been activated and a code yellow warning applies to seven provinces because of the heat.",
-            "The north stays cooler at 22 to 24 degrees thanks to a northeast wind off the Wadden Islands. It is the second heat plan activation of the summer, coming just three weeks after a more severe June heatwave, with KNMI also flagging a strong risk of sunburn.",
+            "Prime Minister Rob Jetten says the Netherlands must quickly clear the nitrogen impasse blocking permits for homes, farms and roads. The plan targets up to 46 percent less agricultural emissions and a cap of 2.6 cows per hectare by 2035, backed by 20 billion euros for farmers and nature.",
+            "A narrow majority provided by PRO kept the plan alive after a heated debate. Officials are bracing for renewed farmer demonstrations, warning that public frustration is already high and could escalate fast.",
         ],
         "sources": [
-            ("NL Times", "https://nltimes.nl/2026/07/11/netherlands-braces-incoming-heat-wave-temperatures-reach-34degc"),
-            ("DutchNews.nl", "https://www.dutchnews.nl/2026/07/heat-plan-back-in-force-as-temperatures-near-32/"),
-        ],
-    },
-    {
-        "sub": "Politics & Policy",
-        "h3": "Jetten's minority cabinet governs deal by deal",
-        "summary": "Five months in, the D66-led government still lacks a majority and must court the opposition on every bill.",
-        "body": [
-            "Prime Minister Rob Jetten's coalition of D66, VVD and CDA holds 66 seats, ten short of a majority, making it the first Dutch minority government in decades. That leaves the cabinet negotiating support piece by piece for each proposal it puts forward.",
-            "The arrangement followed the collapse of a turbulent coalition that had included the far-right PVV and the farmers' BBB. Jetten, the country's youngest and first openly gay premier, has spent his early months managing the fragile parliamentary math.",
-        ],
-        "sources": [
-            ("Euronews", "https://www.euronews.com/2026/02/23/new-dutch-minority-government-sworn-in-under-the-nations-youngest-prime-minister-rob-jette"),
-            ("Wikipedia", "https://en.wikipedia.org/wiki/2025%E2%80%932026_Dutch_cabinet_formation"),
-        ],
-    },
-    {
-        "sub": "Politics & Policy",
-        "h3": "Cabinet weighs tougher nitrogen cuts, fears protests",
-        "summary": "New rules for farms near protected nature could revive the mass demonstrations of four years ago.",
-        "body": [
-            "The government is preparing sweeping nitrogen reduction measures, including stricter limits for farmers close to protected areas. Officials in The Hague worry the plans could reignite the large farmer protests that erupted after a controversial emissions map was released four years ago.",
-            "The debate has also drawn baseless online claims that farms are being closed to house asylum seekers, which farm leaders have rejected. The nitrogen file remains one of the most politically charged issues facing the minority cabinet.",
-        ],
-        "sources": [
+            ("NL Times", "https://nltimes.nl/2026/07/02/govt-apprehensive-weaken-nitrogen-plan-heated-debate-pro-provides-majority"),
             ("NL Times", "https://nltimes.nl/2026/05/18/dutch-cabinet-prepares-tougher-nitrogen-cuts-farmer-protest-fears-return"),
         ],
     },
     {
         "sub": "Politics & Policy",
-        "h3": "Spy agencies say Russia hacked cameras near bases",
-        "summary": "Dutch intelligence reported that Russia accessed cameras to monitor military transport routes.",
+        "h3": "Dutch FM warns US-Iran war will bring more hunger and refugees",
+        "summary": "The foreign minister said renewed fighting between Washington and Tehran risks deepening humanitarian fallout across the region.",
         "body": [
-            "Dutch security services said Russia had hacked into cameras to spy on military movements and transport routes, part of a broader pattern of hybrid activity. The disclosure adds to European concerns over Russian reconnaissance and sabotage efforts.",
-            "The reported intrusion comes as the Netherlands ramps up defense spending in line with NATO targets. Officials have repeatedly warned of stepped-up espionage aimed at logistics and critical infrastructure.",
+            "The Netherlands responded to the escalation between the US and Iran by warning it will drive more hunger and displacement. The comments underline The Hague's concern over the widening Gulf conflict.",
+            "The remarks came as European allies weighed the diplomatic and energy consequences of the strikes. Dutch officials have pressed for de-escalation and protection of civilians.",
         ],
         "sources": [
-            ("NL Times", "https://nltimes.nl/top-stories"),
+            ("NL Times", "https://nltimes.nl/categories/politics"),
         ],
     },
     {
         "sub": "Politics & Policy",
-        "h3": "Asylum decisions sped up for safe-country arrivals",
-        "summary": "Following the EU Migration Pact, the Netherlands has cut the notification window from six months to three.",
+        "h3": "Van den Brink to carry out tougher asylum rules",
+        "summary": "The new migration minister is tasked with implementing curbs drafted by the previous cabinet, reshaping how refugees are housed.",
         "body": [
-            "Under changes tied to the EU Migration and Asylum Pact, the timeline for deciding on permission to stay has been shortened from six months to three, applied mainly to applicants from countries classed as safe. The government says the faster process is meant to clear cases more efficiently.",
-            "The shift follows a dip in overall migration, with 309,000 arrivals in 2025, about 8,000 fewer than the year before. The decline was sharpest among asylum seekers and highly skilled workers from outside the EU.",
+            "Bart van den Brink of the CDA, also deputy prime minister, is charged with rolling out controversial asylum and migration legislation. The plan expands long-term places in regular facilities so emergency shelters are no longer needed.",
+            "Municipalities would decide for themselves whether refugees get priority for social housing. The changes mark a firmer line inherited from the outgoing government.",
         ],
         "sources": [
-            ("IND", "https://ind.nl/en/asylum-and-family-reunification-latest-developments"),
+            ("DutchNews.nl", "https://www.dutchnews.nl/2026/02/rob-jettens-team-who-is-who-in-the-new-dutch-cabinet/"),
+        ],
+    },
+    {
+        "sub": "Politics & Policy",
+        "h3": "The Hague marks 31 years since Srebrenica",
+        "summary": "Ceremonies in the Netherlands recalled the 1995 massacre carried out while Dutch peacekeepers were stationed at the enclave.",
+        "body": [
+            "The Hague held its remembrance as thousands gathered in Bosnia to mark the 31st anniversary of the genocide. The Dutch peacekeeping role at Srebrenica remains a painful chapter in the country's history.",
+            "This year's commemoration highlighted the women who have preserved the memory of the more than 8,000 men and boys killed. More than a thousand victims are still being sought.",
+        ],
+        "sources": [
+            ("NL Times", "https://nltimes.nl/2026/07/11/hague-marks-31-years-since-srebrenica-genocide-dutch-peacekeepers-watch"),
         ],
     },
     {
         "sub": "Economy & Housing",
-        "h3": "Dutch home prices hit record 506,000 euros but cool",
-        "summary": "Second-quarter prices set a new high yet the annual rise slowed sharply to 2.4%, brokers say.",
+        "h3": "Dutch inflation eases to 2.9% in June",
+        "summary": "Statistics Netherlands flash figures show price growth cooling from 3.4 percent in May.",
         "body": [
-            "The average home sold for a record 506,000 euros in the second quarter, up 2.4 percent from a year earlier and 3.4 percent from the previous quarter. NVM said the pace of increase is clearly levelling off compared with the steep gains of recent years.",
-            "A record 56,700 homes were listed for sale in the quarter, boosted by landlords offloading rental properties, which lifted the number of completed sales. Analysts point to higher interest rates and energy-price uncertainty as cooling forces.",
+            "CBS put June inflation at 2.9 percent in its flash estimate, down from 3.4 percent a month earlier. The reading suggests some relief for households after a stretch of stubborn price pressure.",
+            "Rental costs remained a driver, holding near 4.9 percent in annual terms into early 2026. Economists still see only modest overall growth for the Dutch economy this year.",
         ],
         "sources": [
-            ("NL Times", "https://nltimes.nl/2026/07/09/dutch-home-price-increases-leveling-24-year-year-record-eu506000-nvm"),
+            ("CBS", "https://www.cbs.nl/en-gb/news/2026/27/inflation-at-2-9-percent-in-june-according-to-flash-estimate"),
         ],
     },
     {
         "sub": "Economy & Housing",
-        "h3": "New-build home sales tumble 19% as market softens",
-        "summary": "Just 5,100 newly built homes changed hands in the first quarter, down sharply from a year earlier.",
+        "h3": "Rent increases of at least 4.1% take effect from July 1",
+        "summary": "Government-set caps allow social, private and mid-market rents to rise for the coming year.",
         "body": [
-            "Sales of new-build homes fell 19 percent in the first quarter of 2026 compared with the same period in 2025, with only 5,100 units sold. The drop points to a cooling in a segment sensitive to financing costs and buyer confidence.",
-            "Experts tie the slowdown to rising interest rates and uncertainty over energy prices. The trend adds pressure on construction targets at a time when the country is straining to boost housing supply.",
+            "The maximum permitted rent increases for existing contracts are 4.1 percent in the social sector, 4.4 percent in the private sector and 6.1 percent in the mid-market segment. The new limits took effect on July 1 and run until July 1, 2027.",
+            "The caps add to affordability pressure amid a persistent housing shortage. Prices are still rising nationally, though at a slower pace than in recent years.",
         ],
         "sources": [
-            ("NL Times", "https://nltimes.nl/2026/07/06/new-build-home-sales-netherlands-fall-19-market-cools"),
+            ("IamExpat", "https://www.iamexpat.nl/housing/property-news/dutch-government-greenlights-rent-increases-least-41-next-year"),
+            ("DutchBrief", "https://www.dutchbrief.com/p/dutch-government-approves-rent-increases-of-at-least-4-1-for-2026"),
         ],
     },
     {
         "sub": "Economy & Housing",
-        "h3": "Landlords sell rentals, flooding market with listings",
-        "summary": "A record wave of homes coming to market is partly driven by landlords exiting the rental sector.",
+        "h3": "Tata Steel faces possible 600 million euro fine over pollution",
+        "summary": "Prosecutors are pursuing criminal charges over emissions from the IJmuiden plant, with a preliminary hearing set for November.",
         "body": [
-            "The 56,700 homes put up for sale through NVM agents in the second quarter marked a record, with landlords selling off rental properties a major factor. That surge in supply fed directly into a higher number of completed transactions.",
-            "For 2026 the maximum permitted rent increases stand at 4.1 percent in the social sector, 4.4 percent in the private sector and 6.1 percent in the mid-market band. The mix of rules and softer prices is reshaping choices for owners and renters alike.",
+            "The Public Prosecution Service alleges Tata Steel Netherlands intentionally polluted the air around its IJmond works, creating health risks. The maximum penalty could reach about 10 percent of annual revenue, roughly 600 million euros, which one legal researcher called astronomical.",
+            "Studies suggest residents near the plant may lose up to 2.5 years of life expectancy from exposure. A preliminary hearing is scheduled for November 20 at Amsterdam District Court, and executives could in theory face prison if deaths are proven.",
         ],
         "sources": [
-            ("NL Times", "https://nltimes.nl/2026/07/09/dutch-home-price-increases-leveling-24-year-year-record-eu506000-nvm"),
+            ("NL Times", "https://nltimes.nl/2026/07/12/tata-steel-faces-possible-600-million-euro-fine-criminal-pollution-case"),
+            ("DutchNews.nl", "https://www.dutchnews.nl/2026/07/tata-steel-to-face-criminal-charges-for-pollution/"),
         ],
     },
     {
         "sub": "Economy & Housing",
-        "h3": "Minimum wage and benefits nudge higher from July",
-        "summary": "Statutory pay rose again this month, lifting the hourly rate for adults to 14.99 euros.",
+        "h3": "Schiphol braces for record 12.7 million summer travelers",
+        "summary": "The airport expects an average of 219,000 passengers a day over the July and August holiday peak.",
         "body": [
-            "From July the minimum wage climbed by roughly 10 to 20 cents, taking the hourly rate for those aged 21 and over to 14.99 euros, up from 14.71 euros. Pensions and several social benefits were also adjusted upward.",
-            "The changes are part of a broader batch of rule updates taking effect at the start of the second half of the year. They land as households weigh higher living costs against a cooling housing market.",
+            "Amsterdam Schiphol projects more than 12.7 million travelers between July 3 and August 30, up from around 12.4 million a year earlier. Spain, the UK and Greece top the list of destinations.",
+            "New CT scanners mean passengers no longer need to remove electronics from bags, though the 100ml liquid rule still applies. Singapore Airlines is also adding Amsterdam flights from August.",
         ],
         "sources": [
-            ("IamExpat", "https://www.iamexpat.nl/expat-info/dutch-news/july-2026-what-changes-are-coming-netherlands"),
+            ("Aviation24", "https://www.aviation24.be/airports/amsterdam-schiphol-ams/amsterdam-airport-schiphol-expects-record-summer-traffic-with-12-7-million-passengers-over-holiday-period/"),
+            ("TravelWires", "https://www.travelwires.com/schiphol-expects-over-12-7-million-passengers-this-summer/"),
         ],
     },
     {
         "sub": "Society & Culture",
-        "h3": "Amsterdam unveils permanent Walk of Pride monument",
-        "summary": "WorldPride festivities opened with a lasting tribute as the city marks 25 years of marriage equality.",
+        "h3": "Man badly beaten after Amersfoort Pride; police probe hate motive",
+        "summary": "The victim says he was pulled from his bike and attacked by several young men on his way home from the event.",
         "body": [
-            "The run-up to WorldPride Amsterdam kicked off on July 9 with the unveiling of a permanent Walk of Pride monument through the city. The Netherlands is celebrating 25 years since the world's first same-sex marriage took place in Amsterdam in 2001.",
-            "The main WorldPride programme runs from July 25 to August 8, featuring the Pride March, the famed Canal Parade and a human rights conference at the Beurs van Berlage. KLM is the official airline partner and will join the canal procession.",
+            "A man was left seriously injured after attending Amersfoort Pride, telling police he was assaulted by a group of young men. The attackers have not been found.",
+            "Police are investigating a possible anti-LGBTQ+ motive. The case has drawn concern amid a summer of Pride events across the country.",
         ],
         "sources": [
-            ("Pride Amsterdam", "https://pride.amsterdam/en/worldpride/"),
-            ("I amsterdam", "https://www.iamsterdam.com/en/whats-on/calendar/festivals/events/worldpride-amsterdam-2026"),
+            ("NL Times", "https://nltimes.nl/2026/07/12/man-severely-beaten-amersfoort-pride-police-probe-anti-lgbtq-motive"),
         ],
     },
     {
         "sub": "Society & Culture",
-        "h3": "Unions warn Dutch workplaces unready for heat",
-        "summary": "As extreme heat becomes the new normal, labor groups say too many workplaces cannot cope.",
+        "h3": "Knife found by reporter confirmed as ABN Amro stabbing weapon",
+        "summary": "Prosecutors say a blade recovered near the scene was used in the fatal spring attack on a bank employee.",
         "body": [
-            "A labor union warned that many Dutch workplaces are not equipped for rising temperatures, calling for better protection as heatwaves grow more frequent. The concern surfaced as the country activated its heat plan for the second time this summer.",
-            "Experts describe extreme heat as an emerging normal for the Netherlands rather than a rare event. Employers are being urged to adjust hours, provide cooling and safeguard outdoor and indoor workers alike.",
+            "The Public Prosecution Service confirmed that a knife an AD journalist found near the site was the weapon used to kill a 59-year-old ABN Amro worker in late March. The confirmation followed reporting by AD and RTL Nieuws.",
+            "A suspect in the killing had two prior run-ins with Dutch police. The case has kept public attention on safety in the Amsterdam area.",
         ],
         "sources": [
-            ("NL Times", "https://nltimes.nl/2026/07/06/netherlands-unprepared-extreme-heat-new-normal-temps-30degc-week"),
+            ("NL Times", "https://nltimes.nl/2026/07/12/knife-found-journalist-murder-weapon-abn-amro-workers-stabbing-om-confirms"),
         ],
     },
     {
         "sub": "Society & Culture",
-        "h3": "Noord-Brabant flags surge in domestic violence cases",
-        "summary": "Authorities in the southern province reported a worrying rise in domestic violence and child abuse.",
+        "h3": "Officials warn of domestic violence surge in Noord-Brabant",
+        "summary": "Authorities flagged rising domestic violence and child abuse as aid groups paused services at an asylum center over incidents.",
         "body": [
-            "Officials in Noord-Brabant sounded the alarm over an increase in reports of domestic violence and child abuse. The trend has prompted renewed attention to support services and prevention across the province.",
-            "The issue featured among a run of social concerns reported this week, from asylum center problems to package theft in Amsterdam. Campaigners say sustained funding and awareness are needed to reverse the rise.",
+            "Officials in Noord-Brabant warned of a spike in domestic violence and child abuse across the province. Separately, aid organizations halted services at an asylum center after incidents tied to a small group of men.",
+            "In Amsterdam, package theft has climbed, with the Oost district worst affected. The reports underline growing strain on local services this summer.",
         ],
         "sources": [
-            ("NL Times", "https://nltimes.nl/top-stories"),
+            ("NL Times", "https://nltimes.nl/categories/crime"),
         ],
     },
     {
         "sub": "Society & Culture",
-        "h3": "Nearly 2,000 rabbits seized from breeding facility",
-        "summary": "Authorities removed almost 2,000 rabbits and 127 dogs from a site in Zuid-Holland.",
+        "h3": "Researchers warn swimmers underestimate open-water dangers",
+        "summary": "As the heat pushes people toward lakes and rivers, experts caution about hidden risks in open water.",
         "body": [
-            "Inspectors seized close to 2,000 rabbits and 127 dogs from a breeding facility in Zuid-Holland in one of the larger animal interventions of the year. The scale of the operation drew attention to conditions at commercial breeding sites.",
-            "Animal welfare authorities are handling the care of the seized animals as investigations continue. The case adds to ongoing scrutiny of breeding practices in the Netherlands.",
+            "Researchers warned that swimmers often misjudge the dangers of open water as temperatures climb. Cold layers, currents and poor visibility can catch bathers off guard.",
+            "The advice comes with much of the country reaching for cooling relief during a hot, dry spell. Safety groups urged caution at unsupervised spots.",
         ],
         "sources": [
-            ("NL Times", "https://nltimes.nl/top-stories"),
+            ("NL Times", "https://nltimes.nl/2026/07/12/netherlands-set-week-heat-sunshine-storms-bring-cooler-weather"),
         ],
     },
     {
         "sub": "Society & Culture",
-        "h3": "Big-name concerts pack Amsterdam and The Hague",
-        "summary": "Bruno Mars and Alanis Morissette drew crowds this week with only minor traffic disruption reported.",
+        "h3": "Nearly 2,000 rabbits and 127 dogs seized from breeding site",
+        "summary": "Authorities removed the animals from a Zuid-Holland breeding facility in a large welfare operation.",
         "body": [
-            "Bruno Mars performed in Amsterdam while Alanis Morissette played in The Hague around July 7, part of a busy stretch on the Dutch live-music calendar. Organizers reported minimal rush-hour trouble despite the large audiences.",
-            "The concerts set the tone for a festival-heavy summer that builds toward WorldPride later in the month. City authorities have been managing crowds and transport as events cluster across the Randstad.",
+            "Inspectors seized almost 2,000 rabbits and 127 dogs from a breeding facility in Zuid-Holland. The scale of the operation drew attention to conditions at commercial breeders.",
+            "The seizure was among several animal welfare cases reported in recent days. Officials have not detailed the fate of the animals.",
         ],
         "sources": [
-            ("NL Times", "https://nltimes.nl/categories/entertainment"),
+            ("NL Times", "https://nltimes.nl/categories/1-1-2"),
         ],
     },
 ]
 
-MOOD = {
-    "h3": "Sfeer vandaag",
-    "p": "Een tweede hittegolf van de zomer jaagt de temperaturen in het zuiden op richting 34 graden en het Nationaal Hitteplan is opnieuw van kracht. In de steden zoeken mensen verkoeling in het water en de schaduw, terwijl Amsterdam zich alvast opmaakt voor WorldPride. De stemming is zwoel en zomers, met een mix van klamme vermoeidheid en feestelijke voorpret.",
-}
+MOOD = {"h3": "Sfeer vandaag", "p": "Het is opnieuw een warme, zonnige maandag met temperaturen ruim boven de 30 graden en code geel voor de hitte in grote delen van het land. De zomervakantie is losgebarsten en Schiphol puilt uit, maar de sfeer is gemengd: hittemoeheid, zorgen over droogte en open water, en een sombere ondertoon door de Srebrenica-herdenking en de oplopende spanning tussen de VS en Iran. Vanaf donderdag draait het weer om met kans op onweer en verkoeling."}
