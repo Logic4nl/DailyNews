@@ -6,9 +6,9 @@ from _sec_b import AI_HPC
 from _sec_c import CRYPTO_MACRO, MENTAL_HEALTH
 from _sec_d import SPORTS, CONSUMER_TECH
 
-DATE_ISO = "2026-07-14"
-DATE_HUMAN = "Tuesday, July 14, 2026"
-PREV_ISO = "2026-07-13"
+DATE_ISO = "2026-07-15"
+DATE_HUMAN = "Wednesday, July 15, 2026"
+PREV_ISO = "2026-07-14"
 MIN_ISO = "2026-03-19"
 
 DATA = {
