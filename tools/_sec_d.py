@@ -4,50 +4,24 @@ SPORTS = [
     {
         "hero": True,
         "sub": "Tennis",
-        "h3": "Sinner beats Zverev to defend Wimbledon crown",
-        "summary": "Jannik Sinner won a four-set final over Alexander Zverev on Centre Court to keep his Wimbledon title.",
+        "h3": "Sinner defends Wimbledon crown over Zverev",
+        "summary": "Jannik Sinner held off Alexander Zverev to retain his Wimbledon title and claim a fifth major.",
         "body": [
-            "Jannik Sinner defended his Wimbledon title on July 13, edging Alexander Zverev 6-7 7-6 6-3 6-4 after dropping a tight opening set. The 24-year-old Italian became the first man since Roger Federer to win back-to-back Wimbledon crowns, cementing his hold on the world No. 1 ranking.",
-            "The win came without his main rival on the grass. Carlos Alcaraz sat out the tournament with a wrist injury, and Sinner said afterwards that the sport needs the Spaniard back to keep the rivalry alive. Attention now shifts to the North American hard-court swing and the US Open.",
+            "Jannik Sinner beat Alexander Zverev 6-7(7-9), 7-6(7-2), 6-3, 6-4 in the final to keep his grip on the gentlemen's singles trophy at the All England Club. It was the Italian's second Wimbledon title and his fifth Grand Slam overall, and it stretched his winning run against Zverev to ten straight matches.",
+            "Sinner becomes the tenth man in the Open Era to defend the Wimbledon singles title. The tournament ran without Carlos Alcaraz, who withdrew as he continued to recover from a wrist injury, leaving Sinner as the clear headline act on the grass.",
         ],
         "sources": [
-            ("CBS Sports", "https://www.cbssports.com/tennis/news/wimbledon-2026-results-winners-jannik-sinner-linda-noskova/live/"),
-            ("beIN Sports", "https://www.beinsports.com/en-us/tennis/articles/sinner-welcomes-zverev-competition-but-tennis-needs-alcaraz-2026-07-13"),
+            ("Olympics.com", "https://www.olympics.com/en/news/wimbledon-2026-jannik-sinner-alexander-zverev-mens-singles-final-resuls"),
+            ("ATP Tour", "https://www.atptour.com/en/news/wimbledon-2026-results"),
         ],
     },
     {
         "sub": "Tennis",
-        "h3": "Noskova wins all-Czech Wimbledon women's final",
-        "summary": "Linda Noskova beat compatriot Karolina Muchova in three sets to claim her first Grand Slam title.",
+        "h3": "Summer swing rolls on in Bastad, Gstaad and Umag",
+        "summary": "The men's clay-court 250 events fill the week after Wimbledon with Rublev, Bublik and Cobolli leading the fields.",
         "body": [
-            "Linda Noskova defeated fellow Czech Karolina Muchova 6-2 5-7 6-3 in the Wimbledon women's final to lift her first major trophy. At 21 years and 236 days, Noskova became the youngest Wimbledon champion since Petra Kvitova in 2011.",
-            "The all-Czech showdown drew record viewership for the women's final, according to reports, even as the men's final dipped without Alcaraz in the draw. Noskova had never previously reached a Grand Slam final.",
-        ],
-        "sources": [
-            ("Sportico", "https://www.sportico.com/leagues/tennis/2026/wimbledon-results-2026-jannik-sinner-linda-noskova-1234938669/"),
-            ("ESPN", "https://www.espn.com/tennis/story/_/id/49332915/wimbledon-2026-today-blog-11-07-2026-live-updates-news-score-results-karolina-muchova-linda-noskova-all-czech-women-final-july-11"),
-        ],
-    },
-    {
-        "sub": "Tennis",
-        "h3": "Alcaraz eyes return as US Open picture takes shape",
-        "summary": "Sidelined since April with a wrist problem, Carlos Alcaraz is targeting the American hard courts for his comeback.",
-        "body": [
-            "Carlos Alcaraz has not played since injuring his wrist against Otto Virtanen at the Barcelona Open in April. Reports this week suggest he will skip the Canadian Masters and aim to be ready for Cincinnati and the US Open.",
-            "Even with Alcaraz out, analysts still rate Sinner the favourite in New York. The Italian holds the No. 1 ranking and is being tracked as a candidate to become the first man to win nine Masters 1000 titles in a single season.",
-        ],
-        "sources": [
-            ("Punto de Break", "https://www.puntodebreak.com/en/2026/07/14/sinner-remains-the-top-favorite-for-the-us-open-even-if-alcaraz-returns"),
-            ("Tennis World USA", "https://www.tennisworldusa.org/tennis/news/Carlos_Alcaraz/165854/carlos-alcaraz-confirms-his-next-tournament-after-losing-to-jannik-sinner/"),
-        ],
-    },
-    {
-        "sub": "Tennis",
-        "h3": "Clay swing returns with Bastad, Gstaad and Umag",
-        "summary": "Three ATP 250 clay events run at once as the tour resets after Wimbledon.",
-        "body": [
-            "The week after Wimbledon sends the ATP back onto clay for three simultaneous 250-level events in Bastad, Gstaad and Umag. Andrey Rublev, Alexander Bublik and Flavio Cobolli headline the fields, with Bublik defending in the Swiss Alps at Gstaad.",
-            "Home favourite Stan Wawrinka is set to play Gstaad one last time before his planned retirement later this season. Cobolli leads the Umag draw while Rublev returns to Bastad for a fourth appearance.",
+            "With Wimbledon done, the ATP shifts to the European clay of the Nordea Open in Bastad, the Swiss Open in Gstaad and the Croatia Open in Umag, all running through the July 13 to 19 week. Andrey Rublev, Alexander Bublik and Flavio Cobolli headline the entry lists across the three tournaments.",
+            "By Friday the draws are down to the last eight, with Gstaad previews flagging Tomas Etcheverry and Alejandro Davidovich Fokina among the contenders. The events give clay specialists a rare mid-summer window before the tour turns to the North American hard courts.",
         ],
         "sources": [
             ("ATP Tour", "https://www.atptour.com/en/news/bastad-gstaad-umag-2026-scouting-report"),
@@ -55,94 +29,133 @@ SPORTS = [
         ],
     },
     {
-        "sub": "Formula 1",
-        "h3": "F1 heads to Spa braced for wet Belgian GP",
-        "summary": "The Belgian Grand Prix on July 19 could hand drivers their first wet running in the new 2026 cars.",
+        "sub": "Tennis",
+        "h3": "WTA spreads across Iasi, Prague and Hamburg",
+        "summary": "The women's tour runs a busy stretch of European events as players build toward the hard-court swing.",
         "body": [
-            "Round 10 of the season lands at Spa-Francorchamps on July 19, with a sprint on Saturday and thundery showers forecast all weekend. It would be the first time drivers race the new-generation 2026 machinery in the wet.",
-            "Kimi Antonelli leads the drivers' standings on 179 points, 25 clear of Mercedes teammate George Russell and 32 ahead of Lewis Hamilton. The gap tightened after Charles Leclerc broke through for his first win since 2024.",
+            "The WTA fills the post-Wimbledon calendar with the UniCredit Iasi Open in Romania, the Livesport Prague Open in the Czech Republic and the MSC Hamburg Ladies Open in Germany. The clustered clay and hard events give a wide field of players ranking points and match time.",
+            "The tour has already laid out its hard-court swing details for the weeks ahead, with dates, draws and prize money confirmed as attention starts to turn toward the North American stretch and the buildup to the US Open.",
         ],
         "sources": [
-            ("Formula 1", "https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-belgian-grand-prix.7MROwv6FGgwOA193ps2sRq"),
+            ("WTA Official", "https://www.wtatennis.com/news/4531508/hard-court-swing-2026-411-dates-draws-prize-money-and-everything-you-need-to-know"),
+            ("WTA Official", "https://www.wtatennis.com/tournaments/2063/iasi/2026/draws"),
+        ],
+    },
+    {
+        "sub": "Sailing",
+        "h3": "Flying Roos lead SailGP as Britain event nears",
+        "summary": "Tom Slingsby's BONDS Flying Roos top the SailGP standings ahead of the Great Britain Sail Grand Prix.",
+        "body": [
+            "Tom Slingsby's BONDS Flying Roos sit on top of the 2026 SailGP championship table with 62 points, clear of Diego Botin's Los Gallos and Dylan Fletcher's Emirates GBR who are level on 44. Los Gallos took the most recent race weekend in Canada in late June.",
+            "The fleet next races at the Emirates Great Britain Sail Grand Prix on July 25 and 26, giving the chasing crews a chance to close on the Australians before the season heads into its second half.",
+        ],
+        "sources": [
+            ("SailGP", "https://sailgp.com/results/all-seasons/"),
+            ("U.S. SailGP Team", "https://www.ussailgpteam.com/standings"),
+        ],
+    },
+    {
+        "sub": "Sailing",
+        "h3": "America's Cup entries swell for Naples 2027",
+        "summary": "The 38th America's Cup in Naples keeps drawing new challengers with Tom Slingsby set to skipper an Australian entry.",
+        "body": [
+            "Preparations for the 38th America's Cup, to be sailed in Naples in 2027, gathered pace as more teams confirmed entries. Emirates Team New Zealand defends against a growing challenger fleet that includes Athena Racing, Luna Rossa, Alinghi, a French entry, an American challenger and a new Australian team.",
+            "Team Australia, backed by John Winning Jr and skippered by SailGP star Tom Slingsby, bought Team New Zealand's winning 2021 AC75, while the American challenger picked up American Magic's Patriot yacht and training platforms. The Louis Vuitton Cup will decide who meets the Kiwis in a match starting July 10, 2027.",
+        ],
+        "sources": [
+            ("RNZ", "https://www.rnz.co.nz/news/sport/591199/america-s-cup-late-entries-to-swell-naples-fleet-in-2027"),
+            ("Wikipedia", "https://en.wikipedia.org/wiki/2027_America's_Cup"),
+        ],
+    },
+    {
+        "sub": "Formula 1",
+        "h3": "Belgian GP weekend opens at a wet Spa",
+        "summary": "Formula 1 returns from the factory gates to Spa-Francorchamps with Friday practice under rain-threatened skies.",
+        "body": [
+            "The Belgian Grand Prix weekend gets going on Friday with first practice at 13:30 local time and second practice at 17:00 at Spa-Francorchamps. Qualifying follows on Saturday afternoon before Sunday's race, the last round before Formula 1's summer break together with next weekend's Hungarian Grand Prix.",
+            "Spa's famous unpredictable weather looms large, with warm conditions and a high chance of rain forecast across the sessions. The mixed conditions could shake up the order at one of the calendar's most demanding circuits.",
+        ],
+        "sources": [
+            ("Sky Sports", "https://www.skysports.com/f1/news/12433/13561703/belgian-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-at-spa-francorchamps-live-on-sky-sports"),
+            ("RacingNews365", "https://racingnews365.com/2026-f1-belgian-grand-prix-spa-time-schedule"),
+        ],
+    },
+    {
+        "sub": "Formula 1",
+        "h3": "Verstappen future clouds the Red Bull garage",
+        "summary": "Speculation over Max Verstappen's next move intensifies after his representatives sounded out McLaren.",
+        "body": [
+            "Max Verstappen's future is set to dominate the Spa paddock after his camp held talks with McLaren about a potential switch. The four-time champion is contracted to Red Bull through 2028 but holds an exit clause that can be triggered if he sits outside the top two at the start of the summer break.",
+            "The Dutchman was openly critical of Red Bull at Silverstone after a technical problem sent him into a second crash in as many weekends. With his home crowd expected to pack the Belgian grandstands, the pressure on the team is only rising.",
+        ],
+        "sources": [
+            ("Sky Sports", "https://www.skysports.com/f1/news/12433/13562900/f1-title-battle-max-verstappens-future-and-aston-martin-upgrades-among-key-talking-points-ahead-of-belgium-hungary-double-header"),
             ("ESPN", "https://www.espn.com/f1/story/_/id/49214438/belgian-grand-prix-2026-race-f1-start-s-how-watch-schedule-usa-tv-channel-live-stream-predictions-results"),
         ],
     },
     {
         "sub": "Formula 1",
-        "h3": "Leclerc snaps drought with Silverstone win",
-        "summary": "Charles Leclerc took his first victory in nearly two years at the British Grand Prix.",
+        "h3": "Antonelli clings to slim lead over Russell",
+        "summary": "Kimi Antonelli's advantage over Mercedes team-mate George Russell has shrunk to 25 points.",
         "body": [
-            "Charles Leclerc won the British Grand Prix at Silverstone on July 5, finishing ahead of George Russell and Lewis Hamilton. It was the Ferrari driver's first Grand Prix victory since 2024 and reshuffled the title race heading into Spa.",
-            "In the sprint, Mercedes rookie Kimi Antonelli scored his first sprint win from Hamilton's pole, with Lando Norris third. Antonelli went into the weekend leading the championship and stayed on top afterwards.",
+            "Mercedes head into the Belgian round with an intra-team title fight brewing. Kimi Antonelli leads team-mate George Russell but the gap has narrowed to just 25 points, keeping the pressure on the young Italian as the season reaches its midpoint.",
+            "With Aston Martin bringing upgrades and the wider championship battle still tight, the double header at Spa and the Hungaroring shapes as a pivotal stretch before teams down tools for the August shutdown.",
         ],
         "sources": [
-            ("Wikipedia", "https://en.wikipedia.org/wiki/2026_British_Grand_Prix"),
-            ("The Race", "https://www.the-race.com/formula-1/winners-and-losers-from-f1s-2026-british-grand-prix/"),
-        ],
-    },
-    {
-        "sub": "Sailing",
-        "h3": "Australia lead SailGP as fleet heads to Portsmouth",
-        "summary": "Tom Slingsby's Flying Roos top the standings ahead of the Great Britain event on July 25-26.",
-        "body": [
-            "After seven events of the 2026 SailGP season, the BONDS Flying Roos of Australia lead the championship on 62 points under Tom Slingsby. Spain's Los Gallos and Emirates Great Britain sit level on 44 in a tight chase.",
-            "The next stop is the Emirates Great Britain Sail Grand Prix in Portsmouth on July 25-26, the eighth round of the campaign. Spain took the most recent win in Canada in June.",
-        ],
-        "sources": [
-            ("SailGP", "https://sailgp.com/results/all-seasons/"),
-            ("Sail-World", "https://www.sail-world.com/news/295980/Apex-Group-Bermuda-Sail-Grand-Prix-Overall"),
-        ],
-    },
-    {
-        "sub": "Sailing",
-        "h3": "America's Cup countdown hits one year to Naples",
-        "summary": "The 38th America's Cup match is set for July 2027 in Naples with seven teams committed.",
-        "body": [
-            "With one year to go, the 38th America's Cup is shaping up around a Naples match starting July 10, 2027. Emirates Team New Zealand defends against a field that now includes Athena Racing, Luna Rossa, Alinghi and challengers from the United States and Australia.",
-            "The American entry bought American Magic's AC75 Patriot and key hardware, while the Australian challenge is skippered by SailGP star Tom Slingsby with Glenn Ashby leading design. Preliminary regattas and the Louis Vuitton Cup fill the run-in.",
-        ],
-        "sources": [
-            ("Scuttlebutt Sailing News", "https://www.sailingscuttlebutt.com/2026/07/10/38th-americas-cup-one-year-out/"),
-            ("Wikipedia", "https://en.wikipedia.org/wiki/2027_America's_Cup"),
+            ("Sky Sports", "https://www.skysports.com/f1/news/12433/13562900/f1-title-battle-max-verstappens-future-and-aston-martin-upgrades-among-key-talking-points-ahead-of-belgium-hungary-double-header"),
+            ("Autosport", "https://www.autosport.com/f1/results/2026/british-gp-661674/"),
         ],
     },
     {
         "sub": "Football",
-        "h3": "Weghorst leaves Ajax to rejoin Twente",
-        "summary": "The Dutch striker has completed a move from Ajax to Eredivisie rival Twente as the summer window heats up.",
+        "h3": "Ajax leads a busy Eredivisie transfer summer",
+        "summary": "Ajax move aggressively in the market while champions PSV stay quiet and Feyenoord fill gaps.",
         "body": [
-            "Wout Weghorst has left Ajax to sign for Twente, with both clubs confirming the transfer. The move is one of the headline domestic deals of a busy Eredivisie summer window.",
-            "Elsewhere, PSV is open to selling Ricardo Pepi amid interest from Fulham, Aston Villa is chasing Twente defender Ruud Nijstad, and Barcelona has made contact over Ajax winger Mika Godts. AZ vice-captain Sven Mijnans has also switched clubs.",
+            "Ajax have been the most active of the Dutch big three, bringing in Caio Henrique and Daley Blind with Marc-Andre ter Stegen and Marcos Leonardo also reported as heading to Amsterdam. Feyenoord added Charles Vanhoutte, Nacho Ferri and Mika Marmol but still look short at goalkeeper and up front.",
+            "PSV, by contrast, have kept spending to a minimum with Sven Mijnans their main arrival while losing Anass Salah-Eddine and Ismael Saibari. All three clubs missed out on striker Alvaro Rodriguez, who chose a Premier League move to Bournemouth over the Eredivisie.",
         ],
         "sources": [
-            ("TransferFeed", "https://www.transferfeed.com/leagues/eredivisie/30"),
-            ("ESPN", "https://www.espn.com/soccer/transfers/_/league/ned.1/eredivisie"),
+            ("FootballTransfers", "https://www.footballtransfers.com/nl/transfernieuws/nl-eredivisie/2026/07/ajax-psv-en-feyenoord-jagen-de-linie-waar-ze-zich-op-moeten-focussen"),
+            ("AjaxShowtime", "https://www.ajaxshowtime.com/bijzaken-en-geruchten/markt-open-transfers-zomer-2026-eredivisie-op-een-rij"),
         ],
     },
     {
-        "sub": "BJJ & Judo",
-        "h3": "ADCC 2026 card locks in Duarte vs Simoes",
-        "summary": "The no-gi world championship heads to Poland in September with a superfight between two absolute champions.",
+        "sub": "Football",
+        "h3": "Premier League clubs splash out in record deals",
+        "summary": "Big spending marks the English summer window with clubs breaking transfer records across the board.",
         "body": [
-            "The ADCC 2026 World Championships fight card is set, headlined by a superfight between the last two absolute champions, Kaynan Duarte and Yuri Simoes. The event runs September 12-13 in Krakow, marking the first time Poland has hosted the championship.",
-            "Several reigning division champions are missing from the lineup, including Mica Galvao, Diogo Reis and Giancarlo Bodoni. Regional ADCC opens continued through July, including stops in Croatia and Miami.",
+            "The Premier League window is producing eye-watering fees. Manchester City agreed a club-record deal worth around 135 million euros for Nottingham Forest's Elliot Anderson, while Tottenham completed a club-record move for Newcastle midfielder Sandro Tonali worth up to 100 million pounds.",
+            "Manchester United triggered a 35 million pound release clause for Aston Villa's Youri Tielemans and added Chelsea's Andrey Santos, while Arsenal made Piero Hincapie's loan permanent. The window stays open until September 1.",
         ],
         "sources": [
-            ("FloGrappling", "https://www.flograppling.com/articles/16048196-when-is-the-2026-adcc-world-championships"),
+            ("ESPN", "https://www.espn.com/soccer/story/_/id/48955344/premier-league-2026-summer-transfers-all-confirmed-ins-outs-every-club"),
+            ("Sky Sports", "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs"),
+        ],
+    },
+    {
+        "sub": "Grappling & Judo",
+        "h3": "ADCC 2026 card set for Krakow showdown",
+        "summary": "Organizers revealed the fight card for the ADCC World Championships with a new-look absolute superfight.",
+        "body": [
+            "The ADCC World Championships return on September 12 and 13 in Krakow, Poland, and the confirmed card carries a very different look. With Gordon Ryan retired, the marquee superfight now pits the last two ADCC absolute champions against each other in Kaynan Duarte versus Yuri Simoes.",
+            "Several big names are missing, including reigning champions Mica Galvao, Diogo Reis and Giancarlo Bodoni, and none of the UFC BJJ champions will take part. FloGrappling is again expected to carry the event, with early rounds likely streamed free on YouTube.",
+        ],
+        "sources": [
+            ("Yahoo Sports", "https://sports.yahoo.com/articles/adcc-2026-fight-card-list-145527121.html"),
+            ("ADCC Official", "https://adcc-official.com/"),
+        ],
+    },
+    {
+        "sub": "Grappling & Judo",
+        "h3": "Michell invite fuels ADCC controversy",
+        "summary": "The grappling community is up in arms over a controversial name still on the ADCC 2026 invite list.",
+        "body": [
+            "The updated ADCC 2026 invite list has drawn heavy criticism for keeping Izaak Michell, who earned his spot by winning the 2025 Asia and Oceania Trials. Michell has been the subject of removal calls for months while on the run from police over allegations that he sexually assaulted multiple women.",
+            "His continued inclusion has sparked wider questions about transparency in how ADCC hands out and manages its invitations. The dispute has become one of the loudest off-mat stories in jiu-jitsu ahead of the September championships.",
+        ],
+        "sources": [
             ("MMA Mania", "https://www.mmamania.com/bjj-news/454741/adcc-2026-fight-card-3-adcc-champs-out-no-ufc-bjj-champs-but-wanted-rape-suspect-still-in"),
-        ],
-    },
-    {
-        "sub": "BJJ & Judo",
-        "h3": "Craig Jones scraps CJI 3 as UFC BJJ takes over",
-        "summary": "The proposed 10 million dollar grappling event is cancelled, reshaping the pro no-gi calendar.",
-        "body": [
-            "Craig Jones has confirmed that the Craig Jones Invitational 3, once pitched as a 10 million dollar showcase with a Dillon Danis superfight, will not happen. Jones acknowledged the cancellation directly to fans online.",
-            "The move underlines how the UFC's own BJJ league is reshaping the professional grappling market. UFC BJJ has been stacking numbered cards, with UFC BJJ 10 slated for late August ahead of the ADCC Worlds.",
-        ],
-        "sources": [
-            ("BJJEE", "https://www.bjjee.com/articles/craig-jones-confirms-cji-3-is-cancelled-as-ufc-bjj-reshapes-the-professional-grappling-market/"),
-            ("BJJ Problems", "https://bjjproblems.com/blogs/bjj-problems/ufc-bjj-10-august-adcc-worlds-three-week-compression"),
+            ("BJJEE", "https://www.bjjee.com/bjj-news/adcc-2026-invites-spark-confusion-controversy-as-transparency-questions-grow/"),
         ],
     },
 ]
@@ -150,131 +163,172 @@ SPORTS = [
 CONSUMER_TECH = [
     {
         "hero": True,
-        "sub": "EVs & Mobility",
-        "h3": "Tesla posts record deliveries as Miami robotaxi rolls",
-        "summary": "A Q2 delivery beat and a live Miami robotaxi service lifted Tesla ahead of its July 22 earnings.",
-        "body": [
-            "Tesla delivered about 480,000 vehicles in the second quarter, a record that beat expectations and helped push the stock back toward 420 dollars. The company also deployed 13.5 GWh of energy storage in the period.",
-            "Its robotaxi service is now live in a narrow slice of Miami, while a steering-wheel-free Cybercab prototype runs supervised tests in Austin. Elon Musk cautioned that material robotaxi revenue is unlikely before 2027. All eyes turn to the July 22 earnings call.",
-        ],
-        "sources": [
-            ("24/7 Wall St", "https://247wallst.com/investing/2026/07/06/tesla-rises-6-on-robotaxi-and-delivery-momentum-rivian-and-lucid-jump-7-nio-gains-5-in-ev-sector-rally/"),
-            ("Motley Fool", "https://www.fool.com/investing/2026/07/08/is-tesla-buy-deliveries-expectation-robotaxi-miami/"),
-        ],
-    },
-    {
-        "sub": "EVs & Mobility",
-        "h3": "BYD set to retake global EV sales crown from Tesla",
-        "summary": "The Chinese automaker shipped more battery-electric cars than Tesla in Q2 as exports climb.",
-        "body": [
-            "BYD is poised to reclaim the title of the world's top seller of fully electric cars, having delivered 557,090 battery-electric models in the quarter through June. That figure is expected to top Tesla's roughly 396,500 units for the same period.",
-            "Rising exports are driving the shift as BYD pushes into more markets abroad. The swing highlights how quickly the balance of the global EV race is tilting toward Chinese producers.",
-        ],
-        "sources": [
-            ("Bloomberg", "https://www.bloomberg.com/news/articles/2026-07-01/byd-set-to-overtake-tesla-again-on-electric-car-sales"),
-            ("Yahoo Finance", "https://finance.yahoo.com/markets/stocks/articles/tesla-byd-rivian-stock-currently-072500707.html"),
-        ],
-    },
-    {
-        "sub": "EVs & Mobility",
-        "h3": "Rivian lifts delivery outlook as R2 ramps up",
-        "summary": "Strong Q2 output and early R2 sales pushed Rivian to raise its full-year forecast.",
-        "body": [
-            "Rivian raised its 2026 delivery guidance to a range of 65,000 to 70,000 vehicles after building 12,613 and delivering 12,194 in the second quarter, beating its own targets. The company credited quarter-over-quarter growth in its EDV and R1 lines plus the first R2 deliveries.",
-            "The mass-market R2 SUV, starting near 58,000 dollars, is central to the plan. Rivian is expanding its Illinois plant and building a new facility in Georgia to support the ramp.",
-        ],
-        "sources": [
-            ("TechCrunch", "https://techcrunch.com/2026/07/02/rivian-thinks-it-will-sell-more-evs-than-expected-this-year/"),
-            ("Benzinga", "https://www.benzinga.com/trading-ideas/movers/26/07/60477102/what-is-going-on-with-rivian-stock-on-wednesday"),
-        ],
-    },
-    {
         "sub": "Devices & Launches",
         "h3": "Samsung sets July 22 Unpacked for new foldables",
-        "summary": "Galaxy Unpacked lands in London with the Z Fold 8, Z Flip 8 and new Galaxy Watches expected.",
+        "summary": "Samsung confirmed a London Unpacked event to reveal the Galaxy Z Fold 8, Z Flip 8 and new wearables.",
         "body": [
-            "Samsung will host Galaxy Unpacked in London on July 22 under the tagline A New Shape Unfolds. The company is expected to reveal three foldable phones, including the Galaxy Z Fold 8 and Z Flip 8, plus two new Galaxy Watches.",
-            "Leaks point to a shorter, wider Z Fold 8 and a thinner, lighter Z Flip 8 that could gain faster charging. The invitation art hints at a reworked foldable format as the headline design change.",
+            "Samsung has scheduled its next Galaxy Unpacked for July 22 in London, where it plans to launch the Galaxy Z Fold 8 and Galaxy Z Flip 8 along with two new Galaxy Watches and possibly its first smart glasses. Leaks point to a wider passport-style Fold with a 5.5-inch cover screen and a 7.6-inch inner display.",
+            "The Z Flip 8 is tipped to closely follow the Flip 7 with a revised hinge that hides the crease better, while carrying a higher price. Reports suggest the whole foldable lineup is in line for price increases this year, with the Flip 8 possibly starting near 1,200 dollars.",
         ],
         "sources": [
-            ("Samsung Newsroom", "https://news.samsung.com/global/invitation-galaxy-unpacked-july-2026-a-new-shape-unfolds"),
             ("SamMobile", "https://www.sammobile.com/news/samsung-galaxy-unpacked-event-july-22-2026-z-flip-fold-8/"),
+            ("Tom's Guide", "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-unpacked-2026-preview-galaxy-z-fold-8-z-flip-8-intelligent-eyewear-and-more"),
         ],
     },
     {
         "sub": "Devices & Launches",
-        "h3": "Nothing Phone 3 arrives at 799 dollars with Glyph Matrix",
-        "summary": "Nothing's flagship ships July 15 with a new dot-matrix rear display and upper mid-range specs.",
+        "h3": "Google to launch Pixel 11 on August 12",
+        "summary": "Google set an August event for the Pixel 11 family, landing a month before Apple's expected iPhone reveal.",
         "body": [
-            "The Nothing Phone 3 goes on sale July 15 for 799 dollars in black and white. It runs a Snapdragon 8s Gen 4 with up to 16GB of RAM and a 6.67-inch 120Hz AMOLED panel that peaks at 4,500 nits.",
-            "The signature rear lighting is replaced by a Glyph Matrix, a dot-matrix display that can show the time, notifications and small toys. Nothing OS 3.5 adds a Flip to Record option for AI summaries. Charging tops out at 65W wired and 15W wireless.",
+            "Google will hold its Made by Google event on August 12 to introduce the Pixel 11, Pixel 11 Pro, Pixel 11 Pro XL and a new Pixel 11 Pro Fold. Leaked renders suggest slimmer bezels, a slightly thinner body than the Pixel 10 and a redesigned all-black camera bar.",
+            "The timing is deliberate. By going early Google gets its new phones out roughly a month ahead of Apple's expected September iPhone launch, trying to grab attention before its bigger rival takes the stage.",
         ],
         "sources": [
-            ("9to5Google", "https://9to5google.com/2025/07/01/nothing-phone-3-specs-release-date-price/"),
-            ("Engadget", "https://www.engadget.com/mobile/smartphones/the-nothing-phone-3-arrives-in-july-134121908.html"),
+            ("MacRumors", "https://www.macrumors.com/2026/07/07/google-pixel-11-event/"),
+            ("Digital Trends", "https://www.digitaltrends.com/phones/made-by-google-august-2026-everything-we-expect-from-the-pixel-11-launch-event/"),
         ],
     },
     {
         "sub": "Devices & Launches",
-        "h3": "AirPods gain new Live Translation languages",
-        "summary": "Fresh AirPods firmware in public beta expands live translation and adds iOS 27 features.",
+        "h3": "Apple readies first foldable iPhone for autumn",
+        "summary": "Apple is expected to debut its first folding iPhone alongside the iPhone 18 Pro models in September.",
         "body": [
-            "Apple released new AirPods beta firmware to public testers, build 9A5314b, covering the AirPods Pro 2 and 3, AirPods 4 and AirPods Max 2. The update pairs with iOS features to broaden Live Translation support.",
-            "Live Translation currently handles English, French, German, Portuguese and Spanish, with Chinese, Japanese, Korean and Italian due later this year. Apple is separately reported to be working on camera-equipped AirPods for a late 2027 launch.",
+            "Apple is lining up a September launch for the iPhone 18 Pro, iPhone 18 Pro Max and its first foldable iPhone, a device many see as the company's most significant hardware bet in years. Rivals Samsung and Google have both moved their own events earlier to steal some of that spotlight.",
+            "In a break from tradition Apple is holding the standard iPhone 18 back until spring 2027, meaning the autumn lineup leans entirely on the Pro tier and the new folding model. That leaves no direct base-model answer to Google's Pixel 11 this year.",
         ],
         "sources": [
-            ("MacRumors", "https://www.macrumors.com/2026/07/14/airpods-public-beta-firmware/"),
-            ("Apple Support", "https://support.apple.com/en-us/123075"),
+            ("AppleInsider", "https://appleinsider.com/articles/26/07/08/samsung-google-want-to-upstage-iphone-fold-debut-with-earlier-events"),
+            ("MacRumors", "https://www.macrumors.com/2026/07/07/google-pixel-11-event/"),
+        ],
+    },
+    {
+        "sub": "Devices & Launches",
+        "h3": "Nothing opens new B series with Phone 4b",
+        "summary": "Nothing launched the Phone 4b and Ear 3a, kicking off a cheaper product line aimed at a wider audience.",
+        "body": [
+            "Nothing unveiled the Phone 4b alongside the Ear 3a earbuds, marking the debut of its new B series designed to bring the brand's look and software to more buyers. The phone runs a Snapdragon 6 Gen 4 chip and packs a 6.7-inch 120Hz AMOLED display with dual rear cameras led by a 50MP main sensor.",
+            "The push comes as Nothing winds down support for its original Phone 1, which received its final software update. The company has signalled it will not ship a flagship this year and is instead concentrating on broadening its mid-range and budget offering.",
+        ],
+        "sources": [
+            ("GSMArena", "https://www.gsmarena.com/nothing_phone_4b_will_be_unveiled_on_july_7-news-73398.php"),
+            ("Basic Tutorials", "https://basic-tutorials.com/news/nothing-phone-4b-specs-price-and-release-date-of-the-new-budget-smartphone/"),
+        ],
+    },
+    {
+        "sub": "Devices & Launches",
+        "h3": "Smartphone market slips to 13-year low",
+        "summary": "Global phone shipments hit their weakest level in over a decade even as Samsung and Apple posted strong quarters.",
+        "body": [
+            "Fresh Q2 figures show the global smartphone market falling to its lowest point in 13 years, yet the top players held up well. Samsung reclaimed the number one spot with a 24 percent share, while Apple hit a record 20 percent by holding iPhone prices steady rather than raising them.",
+            "Google stood out as a growth story, lifting shipments 16 percent year over year on the back of its Pixel 10 line. The mixed picture underlines how demand is concentrating around a handful of strong brands even as the wider market shrinks.",
+        ],
+        "sources": [
+            ("Yahoo Finance", "https://finance.yahoo.com/markets/stocks/articles/apple-iphone-google-pixel-q2-203134062.html"),
+            ("AppleInsider", "https://appleinsider.com/articles/26/07/08/samsung-google-want-to-upstage-iphone-fold-debut-with-earlier-events"),
+        ],
+    },
+    {
+        "sub": "EVs & Mobility",
+        "h3": "BYD set to retake global EV crown from Tesla",
+        "summary": "BYD's second-quarter battery-electric deliveries look set to push it back ahead of Tesla worldwide.",
+        "body": [
+            "BYD is poised to reclaim the title of the world's biggest seller of fully electric cars, delivering 557,090 battery-electric vehicles in the quarter through June. That figure is expected to top Tesla, which is forecast to report around 396,500 deliveries for the same period.",
+            "The Chinese maker's surge is driven by a strong export push into Europe, Southeast Asia and Latin America. The result underscores how quickly BYD's overseas expansion is reshaping the global electric vehicle standings.",
+        ],
+        "sources": [
+            ("Electrek", "https://electrek.co/2026/07/01/byd-tesla-q2-2026-bev-sales/"),
+            ("Bloomberg", "https://www.bloomberg.com/news/articles/2026-07-01/byd-set-to-overtake-tesla-again-on-electric-car-sales"),
+        ],
+    },
+    {
+        "sub": "EVs & Mobility",
+        "h3": "Rivian beats targets and lifts 2026 outlook",
+        "summary": "Rivian topped its own delivery guidance and raised its full-year forecast after a strong quarter.",
+        "body": [
+            "Rivian produced 12,613 vehicles and delivered 12,194 in the second quarter, comfortably beating its internal guidance of 9,000 to 11,000 units. On the back of that run the automaker raised its full-year 2026 delivery outlook to between 65,000 and 70,000 vehicles.",
+            "The beat stood out against a tougher quarter for legacy carmakers Ford and General Motors, and it fed a broader sense that EV demand is picking up again after a cautious start to the year.",
+        ],
+        "sources": [
+            ("Benzinga", "https://www.benzinga.com/markets/tech/26/07/60405306/tesla-rivian-beat-expectations-as-ford-gm-face-tough-quarter"),
+            ("Motley Fool", "https://www.fool.com/investing/2026/07/03/tesla-byd-or-rivian-which-stock-currently-has-the/"),
+        ],
+    },
+    {
+        "sub": "EVs & Mobility",
+        "h3": "A golden summer lifts electric car demand",
+        "summary": "EV sales are climbing across several major markets after a gloomy start to 2026.",
+        "body": [
+            "Analysts are describing a golden summer for electric cars, with demand rebounding in several markets after the pessimism that hung over the sector earlier in the year. Both Tesla and BYD are helping drive the recovery as buyers return.",
+            "The pickup spans regions rather than a single market, suggesting the earlier slump was more of a pause than a lasting stall. Momentum heading into the second half of the year now looks stronger than many had feared.",
+        ],
+        "sources": [
+            ("Bloomberg", "https://www.bloomberg.com/news/newsletters/2026-07-06/tesla-and-byd-drive-a-golden-summer-for-electric-cars"),
+            ("Electric Vehicles", "https://eletric-vehicles.com/"),
         ],
     },
     {
         "sub": "Software & Services",
-        "h3": "iOS 26.6 to flag malicious messages",
-        "summary": "The next iPhone update adds a warning for suspicious messages and is due around July 27.",
+        "h3": "OpenAI rolls GPT-5.6 across its products",
+        "summary": "OpenAI began a global rollout of GPT-5.6 spanning ChatGPT, Codex and the API.",
         "body": [
-            "Apple's iOS 26.6 beta introduces a Malicious Message Detected feature that warns users about potentially harmful messages and lets them share samples with Apple to help investigate attacks. The update also brings bug fixes and security patches.",
-            "iOS 26.6 is expected to ship on or around July 27, though it could slip a few days. It follows recent additions such as a tinted Liquid Glass option and expanded Live Translation languages.",
+            "OpenAI started rolling out GPT-5.6 across ChatGPT, its Codex coding tool and the developer API, with availability expanding gradually toward full coverage. The update lands as the company keeps refreshing its model lineup at a brisk pace.",
+            "The move follows the retirement of older models including GPT-4.5, with existing chats shifted onto newer versions. It marks another step in OpenAI's steady march of model upgrades through 2026.",
         ],
         "sources": [
-            ("9to5Mac", "https://9to5mac.com/2026/07/01/ios-26-6-release-date-heres-when-the-new-iphone-update-is-coming/"),
-            ("MacRumors", "https://www.macrumors.com/"),
-        ],
-    },
-    {
-        "sub": "Software & Services",
-        "h3": "Spotify adds a ChatGPT-style music assistant",
-        "summary": "The streaming app now lets users chat by text or voice to get recommendations.",
-        "body": [
-            "Spotify expanded its AI push with a conversational music assistant built into the mobile Home and Now Playing views. Users can type or speak to ask for recommendations, dig into their listening history and refine what plays next.",
-            "The move deepens Spotify's investment in AI-driven discovery and puts it in more direct competition with chatbot-style assistants. The feature rolled out on mobile devices in mid-July.",
-        ],
-        "sources": [
-            ("TechCrunch", "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/"),
-        ],
-    },
-    {
-        "sub": "Software & Services",
-        "h3": "ChatGPT returns to WhatsApp in Europe",
-        "summary": "OpenAI brought ChatGPT back to WhatsApp in the EEA and added unified search across the app.",
-        "body": [
-            "ChatGPT is available again on WhatsApp in the European Economic Area, now with image, voice and multilingual chat, plus optional account linking for higher usage limits. OpenAI also rolled out unified search across chats, projects, images and documents.",
-            "Other recent changes raised custom instruction limits to 5,000 characters for paid tiers and introduced a new speech-to-text model for dictation across all plans. The updates aim to make past content easier to find and interactions faster.",
-        ],
-        "sources": [
-            ("OpenAI Help Center", "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"),
+            ("OpenAI", "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"),
             ("Releasebot", "https://releasebot.io/updates/openai/chatgpt"),
         ],
     },
     {
         "sub": "Software & Services",
-        "h3": "WhatsApp builds a home-screen voice note widget",
-        "summary": "Meta is testing an Android widget that records and sends voice notes without opening the app.",
+        "h3": "ChatGPT adds a Work agent and unified search",
+        "summary": "OpenAI expanded ChatGPT with an agent for complex tasks plus search across chats, files and images.",
         "body": [
-            "WhatsApp is making progress on a voice note widget for Android that lets users record straight from the home screen and send to one or more recipients. The tool would cut the steps needed to fire off a quick audio message.",
-            "The feature is still in development and follows a run of WhatsApp additions aimed at faster messaging. Meta has not confirmed a public release date.",
+            "ChatGPT gained a new Work agent built for longer, more involved jobs that can research and analyze information, act across connected apps and files, and produce finished documents, spreadsheets, presentations and reports. It is aimed at users who want the assistant to carry a task through end to end.",
+            "OpenAI also switched on unified search across chats, projects, images and documents on web, iOS and Android, and lifted custom instruction limits to 5,000 characters for paying tiers. A personal finance experience is rolling out to more users in the United States.",
         ],
         "sources": [
-            ("BetaNews", "https://betanews.com/article/whatsapp-is-making-good-progress-creating-a-voice-note-widget-for-android/"),
+            ("OpenAI Help Center", "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"),
+            ("Releasebot", "https://releasebot.io/updates/openai"),
+        ],
+    },
+    {
+        "sub": "Software & Services",
+        "h3": "Pixel July update ends the bootloop nightmare",
+        "summary": "Google's July patch fixes a restart-loop bug that had plagued Pixel owners for months.",
+        "body": [
+            "Google shipped the July 2026 Pixel update, its first monthly patch since Android 17 arrived. The headline fix tackles a bug that could leave devices stuck in a restart loop, unable to load Android at all, ending a months-long headache for owners of the Pixel 6 through Pixel 10.",
+            "A second fix addresses apps that were unexpectedly closing or refusing to open across every supported device. The rollout covers the full Pixel lineup as Google settles the platform after its latest Android release.",
+        ],
+        "sources": [
+            ("PhoneArena", "https://www.phonearena.com/news/pixel-july-2026-update-fixes-bootloop_id181704"),
+            ("Gadget Hacks", "https://android.gadgethacks.com/news/july-2026-pixel-update-rolls-out-with-5-bug-fixes-for-all-devices/"),
+        ],
+    },
+    {
+        "sub": "Software & Services",
+        "h3": "Spotify brings song sharing to WhatsApp Status",
+        "summary": "Spotify rolled out a feature letting users post tracks, playlists and podcasts straight to WhatsApp Status.",
+        "body": [
+            "Spotify added the ability to share songs, playlists, albums, podcasts, artist clips and audiobooks directly to WhatsApp Status. Each share shows up as a visual card with the title, cover art, an Open on Spotify link and even a short audio preview.",
+            "The tie-up deepens the links between the two apps and mirrors the way Spotify content already flows into Instagram Stories. It is another sign of music streaming and messaging tools blending more tightly together.",
+        ],
+        "sources": [
+            ("Android Central", "https://www.androidcentral.com/apps-software/spotify/android-users-can-now-share-their-favorite-spotify-songs-through-whatsapp-status"),
+            ("RouteNote", "https://routenote.com/blog/whatsapp-to-add-new-spotify-integration-a-new-way-to-share-music/"),
+        ],
+    },
+    {
+        "sub": "Software & Services",
+        "h3": "Instagram tightens its links with WhatsApp",
+        "summary": "Instagram's July updates add video to Instants, Spotify sharing in Notes and a WhatsApp link on profiles.",
+        "body": [
+            "Instagram's July round of updates brought video recording to its Instants feature, live music sharing from Spotify in Notes, and the option to add a WhatsApp Link to profiles. A test of a business hours and contact banner and several Edits tweaks including bilingual captions also landed.",
+            "The changes keep pulling Meta's apps closer together while adding creator tools. Google separately began treating Instagram as a measurable property inside Search Console, a nod to the platform's growing role in discovery.",
+        ],
+        "sources": [
+            ("SocialBee", "https://socialbee.com/blog/instagram-updates/"),
+            ("Metricool", "https://metricool.com/instagram-news/"),
         ],
     },
 ]
