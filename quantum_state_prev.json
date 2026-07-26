@@ -1,6 +1,6 @@
 {
-  "gate": "BASING",
+  "gate": "LAGGING",
   "verdict": "INVALIDATED - rotation killed: QTUM 20D rel negative",
   "invalidated": true,
-  "date": "2026-07-24"
+  "date": "2026-07-26"
 }
