@@ -1,290 +1,280 @@
 {
-  "ai-hpc": [
-    {
-      "hero": true,
-      "sub": "AI/HPC Stocks & Infrastructure",
-      "h3": "Amazon stock jumps as AWS growth finally outruns AI spending",
-      "summary": "Amazon shares rose more than 10% after AWS revenue climbed 37% to $42.2 billion, easing worries that its enormous AI buildout was outpacing returns.",
-      "body": [
-        "Amazon reported that AWS grew 37% year over year to $42.2 billion, its fastest pace since 2021, with an operating margin near 39% and a contracted backlog of roughly $496 billion. CEO Andy Jassy called the cloud unit booming and pointed to a $25 billion annual run rate for AI and custom silicon. Investors rewarded the print because cloud revenue is now growing faster than capital spending.",
-        "The company still lifted its 2026 capital expenditure guidance by about 10% to $220 billion, blaming rising memory costs, and warned that capacity will stay tight into 2027 and 2028. The reaction stood in contrast to Alphabet, whose own capex hike days earlier had spooked the market. The message from earnings week was clear that spending is tolerated only when it maps to a metered and growing revenue line."
-      ],
-      "sources": [["Forbes","https://www.forbes.com/sites/petercohan/2026/07/31/amazon-stock-pops-108-on-aws-growth-payoff-from-ai-capex/"],["CNBC","https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html"]]
-    },
-    {
-      "hero": false,
-      "sub": "AI/HPC Stocks & Infrastructure",
-      "h3": "Microsoft earnings clear the AI payoff bar as Azure surges",
-      "summary": "Microsoft posted strong fiscal fourth-quarter results on July 29 and guided calendar-2026 capex to about $175 billion, with Azure growth reassuring investors.",
-      "body": [
-        "Microsoft reported fiscal fourth-quarter 2026 results on July 29 with revenue around $87 billion and Azure growth of roughly 43% year over year. The company guided calendar-2026 capital spending to about $175 billion and said fiscal 2027 outlays will keep rising. Shares climbed close to 9% by the next session as investors judged that AI spend is translating into external cloud demand.",
-        "The report landed in a tense earnings week where Alphabet had been punished for a capex hike and Amazon still had to prove its case. Microsoft benefited from being able to tie AI infrastructure to a growing and metered Azure revenue line. The result helped steady a stock that had drifted near a one-year low heading into the print."
-      ],
-      "sources": [["GeekWire","https://www.geekwire.com/2026/microsoft-earnings-preview-record-ai-spending-and-a-stock-near-a-one-year-low/"],["CNBC","https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html"]]
-    },
-    {
-      "hero": false,
-      "sub": "AI/HPC Stocks & Infrastructure",
-      "h3": "Meta discloses $279 billion in future data center leases",
-      "summary": "Meta said it has committed hundreds of billions in long- and short-term agreements for AI data centers and compute, underscoring the scale of its superintelligence push.",
-      "body": [
-        "In its July 30 results Meta reported roughly $279 billion in future data center lease obligations and said total AI-related spending commitments now approach $700 billion. The company vowed to ramp AI data center investment significantly through 2026 and beyond as it chases what Mark Zuckerberg calls personal superintelligence. The disclosures put hard numbers on a buildout that spans Louisiana, Indiana, Texas and Canada.",
-        "Meta also paired with BlackRock on a roughly $14 billion data center venture in El Paso and confirmed its 5GW Hyperion campus in Louisiana will top $50 billion. Separately the company launched Meta Compute to sell excess AI capacity to outside customers. The moves signal Meta wants to both consume and resell frontier-scale infrastructure."
-      ],
-      "sources": [["Bloomberg","https://www.bloomberg.com/news/articles/2026-07-30/meta-reports-279-billion-in-future-data-center-leases-for-ai"],["CNBC","https://www.cnbc.com/2026/07/28/meta-blackrock-partner-on-14-billion-el-paso-data-center.html"]]
-    },
-    {
-      "hero": false,
-      "sub": "AI/HPC Stocks & Infrastructure",
-      "h3": "Alphabet stock slides after $205 billion capex forecast",
-      "summary": "Google parent Alphabet reported strong cloud growth on July 22 but rattled investors by raising capital spending guidance to as much as $205 billion.",
-      "body": [
-        "Alphabet said revenue rose 24% and cloud revenue jumped 82% in its July 22 report, yet the stock fell about 7% the next day. The selloff followed a capital spending forecast lifted to as much as $205 billion, well above the roughly $188 billion analysts had modeled. The reaction set a wary tone for the rest of the hyperscaler earnings week.",
-        "The drop briefly pushed Alphabet below its prior $4 trillion valuation and sharpened scrutiny of every big-tech capex line that followed. Analysts framed the week as a test of whether AI infrastructure spending can be justified by external revenue. Google's cloud momentum was strong but not enough to offset sticker shock over the spending ramp."
-      ],
-      "sources": [["CNBC","https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html"],["Digital Applied","https://www.digitalapplied.com/blog/ai-capex-scorecard-earnings-week-july-2026"]]
-    },
-    {
-      "hero": false,
-      "sub": "AI/HPC Stocks & Infrastructure",
-      "h3": "TeraWulf rides $19 billion Anthropic lease and sheds Texas stake",
-      "summary": "TeraWulf shares gained on a 20-year $19 billion Anthropic data center lease in Kentucky while the miner moved to sell a majority stake in a Texas AI joint venture.",
-      "body": [
-        "TeraWulf signed a 20-year lease worth about $19 billion with Anthropic at its campus on a former aluminum smelter site in Hawesville, Kentucky. The project is set to come online in the second half of 2027 and ramp to roughly 401 megawatts of compute by early 2028. The deal lifted a cohort of AI infrastructure and neocloud names including IREN, Hut 8 and Riot.",
-        "TeraWulf also said it plans to sell its majority interest in a 168-megawatt Texas AI data center joint venture for about $450 million. The company framed the sale as a way to concentrate on wholly owned AI infrastructure. The twin moves show the bitcoin miner leaning hard into long-duration hyperscaler leases."
-      ],
-      "sources": [["SiliconANGLE","https://siliconangle.com/2026/07/06/anthropic-inks-19b-ai-data-center-lease-terawulf/"],["The Motley Fool","https://www.fool.com/investing/2026/07/06/why-terawulf-iren-data-center-stocks-up-today/"]]
-    },
-    {
-      "hero": false,
-      "sub": "AI/HPC Stocks & Infrastructure",
-      "h3": "CoreWeave locks Galaxy Digital Texas campus, doubles capex plan",
-      "summary": "CoreWeave leased an entire Texas data center campus backed by $3.5 billion in Galaxy Digital financing and said 2026 capex could reach $30-35 billion.",
-      "body": [
-        "Galaxy Digital arranged $3.5 billion in bond financing for a large Texas data center campus, with CoreWeave agreeing to lease the full IT load under 15-year contracts. CoreWeave separately said it aims to add 5GW of capacity by 2030 and expects 2026 capital spending to more than double to between $30 billion and $35 billion. Most of that is tied to already signed customer contracts.",
-        "The company expects to roughly double active power capacity to more than 1.7GW by year-end and plans to fold in Nvidia Rubin systems in the second half of 2026. Nvidia has also committed billions to back CoreWeave's expansion. The neocloud is racing to convert contracted demand into live megawatts."
-      ],
-      "sources": [["Simply Wall St","https://simplywall.st/stocks/us/software/nasdaq-crwv/coreweave/news/coreweave-crwv-locks-in-galaxy-digitals-35-billion-texas-dat"],["Data Center Dynamics","https://www.datacenterdynamics.com/en/news/coreweave-aims-to-add-5gw-more-data-center-capacity-by-2030-anticipates-capex-in-2026-to-double/"]]
-    },
-    {
-      "hero": false,
-      "sub": "AI/HPC Stocks & Infrastructure",
-      "h3": "AMD secures Core Scientific capacity in $14 billion power play",
-      "summary": "AMD struck a roughly $14 billion arrangement for AI data center capacity from Core Scientific, adding a second hyperscale-scale anchor beyond its CoreWeave ties.",
-      "body": [
-        "Core Scientific, which is being acquired by CoreWeave, added a roughly $14 billion AMD deal on top of an existing 590-megawatt CoreWeave contract that already projected about $10.2 billion in revenue. The company had grown to about 437 megawatts of billable AI colocation capacity by mid-July. The AMD agreement broadens the miner-turned-colocation operator's customer base.",
-        "CoreWeave and Core Scientific also broke ground on a 100MW facility at the Port of Muskogee in Oklahoma, with about 70MW of critical IT load due to go live in 2026. Once the acquisition closes CoreWeave gains roughly 1.3GW of gross power plus more than 1GW of expansion headroom. The deals show former bitcoin sites converting fast into AI factories."
-      ],
-      "sources": [["TechTimes","https://www.techtimes.com/articles/321817/20260728/amd-secures-ai-data-center-capacity-core-scientific-14b-power-play.htm"],["Core Scientific","https://investors.corescientific.com/news-events/press-releases/detail/74/core-scientific-to-provide-approximately-200-mw-of-infrastructure-to-host-coreweaves-high-performance-computing-services-capturing-significant-ai-compute-opportunity"]]
-    },
-    {
-      "hero": false,
-      "sub": "AI/HPC Stocks & Infrastructure",
-      "h3": "Cipher Mining stacks AWS and Google-backed HPC leases",
-      "summary": "Cipher Mining has locked in roughly $11 billion in contracted AI and HPC revenue through hosting deals with Amazon Web Services and Google-backed Fluidstack.",
-      "body": [
-        "Cipher Mining signed a 15-year, $5.5 billion lease to deliver 300 megawatts to AWS by late 2026, with the first phase starting in July. It also inked a 10-year, 168-megawatt AI hosting agreement with Fluidstack, a deal backed by Google and worth about $3 billion over its initial term. Google agreed to backstop $1.4 billion of the lease obligations and received warrants for Cipher shares.",
-        "The company's first-quarter 2026 materials pointed to roughly $11.4 billion in contracted revenue as its business tilts from bitcoin toward HPC hosting. Cipher joins a wave of miners repurposing power-rich sites for hyperscalers. The combined backlog establishes it as a credible AI infrastructure developer."
-      ],
-      "sources": [["CoinDesk","https://www.coindesk.com/business/2025/11/03/cipher-mining-surges-19-usd5-5b-amazon-web-services-deal"],["Cipher Mining","https://investors.ciphermining.com/news-releases/news-release-details/cipher-mining-signs-168-mw-10-year-ai-hosting-agreement"]]
-    },
-    {
-      "hero": false,
-      "sub": "AI/HPC Stocks & Infrastructure",
-      "h3": "OpenAI and Oracle expand Stargate toward 7 gigawatts",
-      "summary": "OpenAI, Oracle and SoftBank added five new US Stargate data center sites, pushing planned capacity near 7GW and total investment past $400 billion.",
-      "body": [
-        "OpenAI said it agreed with Oracle to develop up to 4.5GW of additional Stargate capacity as part of a partnership that exceeds $300 billion over five years. The companies, joined by SoftBank, named five new US sites including locations in Shackelford County, Texas and Dona Ana County, New Mexico. Combined with Abilene and CoreWeave projects, planned Stargate capacity nears 7GW.",
-        "The expansion lifts total planned Stargate investment above $400 billion over three years. It underscores how OpenAI is racing to lock in power and buildings well ahead of demand. Oracle has become a central financier and developer for the flagship AI infrastructure program."
-      ],
-      "sources": [["OpenAI","https://openai.com/index/five-new-stargate-sites/"],["Data Center Dynamics","https://www.datacenterdynamics.com/en/news/openai-announces-five-more-us-stargate-data-centers-with-oracle-and-softbank/"]]
-    },
-    {
-      "hero": false,
-      "sub": "AI/HPC Stocks & Infrastructure",
-      "h3": "Neocloud trade wobbles as Nebius sinks on financing doubts",
-      "summary": "Nebius shares tumbled after an asset-light pivot failed to answer a key financing question, exposing fragility in the high-flying AI neocloud sector.",
-      "body": [
-        "Nebius unveiled an asset-light strategy meant to outmaneuver CoreWeave but the stock cratered double digits as investors punished an unresolved financing question. The selloff dragged on peers and reignited debate about how much of the GPU boom rests on circular financing between Nvidia and its cloud customers. Analysts began weighing which neoclouds can actually fund their commitments.",
-        "Nebius had earlier reported explosive revenue growth and raised annual capex guidance to as much as $25 billion. The reversal showed how quickly sentiment can flip when balance sheets and power access come into question. The episode reframed the sector's contest from a GPU race toward a war over power and financing."
-      ],
-      "sources": [["24/7 Wall St","https://247wallst.com/investing/2026/07/16/nebius-sinks-13-as-the-neocloud-trade-unravels-how-coreweave-iren-and-the-ai-data-center-stocks-stack-up/"],["Data Center Knowledge","https://www.datacenterknowledge.com/cloud/earnings-roundup-neoclouds-shift-from-gpu-race-to-power-wars"]]
-    },
-    {
-      "hero": false,
-      "sub": "AI/HPC Stocks & Infrastructure",
-      "h3": "Bitcoin miners face a 2026 reckoning between AI pivots and margins",
-      "summary": "Post-halving margin pressure is pushing bitcoin miners toward AI and HPC hosting, with power-rich sites becoming the industry's main survival strategy.",
-      "body": [
-        "Industry trackers describe 2026 as a reckoning for bitcoin miners squeezed by thin post-halving margins, rising debt and consolidation. Many are repurposing large-scale power and cooling infrastructure for AI and high-performance computing rather than SHA-256 hashing. The shift has turned once-struggling miners into sought-after hosts for hyperscalers.",
-        "Early movers like HIVE began pivoting toward HPC years ago, and names such as TeraWulf, IREN, Core Scientific and Cipher have since signed multibillion-dollar leases. Data from TheMinerMag showed 2025 as one of the harshest margin environments on record. The AI pivot has become the clearest path to survival and even outsized valuations."
-      ],
-      "sources": [["Cointelegraph","https://cointelegraph.com/news/bitcoin-mining-outlook-2026-ai-profitability-consolidation"],["insights4vc","https://insights4vc.substack.com/p/bitcoin-minings-ai-pivot-2026-thesis"]]
-    },
-    {
-      "hero": false,
-      "sub": "Foundation Models & Releases",
-      "h3": "Anthropic launches Claude Opus 5 with an effort dial",
-      "summary": "Anthropic released Claude Opus 5 on July 24 with a 1M-token context window and a setting that lets users trade off cost against capability.",
-      "body": [
-        "Anthropic released Claude Opus 5 on July 24, positioning it for complex agentic coding and enterprise work. The model offers a 1M-token context window, up to 128K output tokens and adaptive thinking by default. A standout feature lets users toggle effort between low, medium and high to balance spending and performance.",
-        "Opus 5 is priced at $5 per million input tokens and $25 per million output tokens, unchanged from the prior Opus release. Anthropic says it delivers performance close to its most powerful model on many tasks at a lower cost. The launch continued a rapid-fire summer of frontier model releases."
-      ],
-      "sources": [["TechCrunch","https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/"],["Fortune","https://fortune.com/2026/07/24/anthropic-debuts-claude-opus-5-with-feature-that-lets-users-toggle-between-cost-and-capability/"]]
-    },
-    {
-      "hero": false,
-      "sub": "Foundation Models & Releases",
-      "h3": "DeepSeek ships official V4-Flash as China price war heats up",
-      "summary": "DeepSeek published the official DeepSeek-V4-Flash-0731 on July 31, touting big agentic and coding gains from re-training rather than a new architecture.",
-      "body": [
-        "DeepSeek released the official DeepSeek-V4-Flash-0731 on Hugging Face on July 31 and moved the flagship V4-Flash API into public beta. The model card states the architecture and size are unchanged from the preview, with improvements coming from re-post-training. The company said agent capabilities now far exceed the earlier V4-Pro preview.",
-        "On the API side the model natively supports the Responses format and is adapted for Codex-style workflows. The release landed as Chinese labs push aggressively on price and capability. It arrived days after Moonshot and Alibaba unveiled their own frontier systems."
-      ],
-      "sources": [["Caixin Global","https://www.caixinglobal.com/2026-08-01/deepseek-releases-official-v4-flash-model-as-chinas-ai-race-intensifies-102470292.html"],["MarkTechPost","https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/"]]
-    },
-    {
-      "hero": false,
-      "sub": "Foundation Models & Releases",
-      "h3": "Nvidia trims Rubin Ultra and delays Kyber rack to 2028",
-      "summary": "SemiAnalysis reported Nvidia cancelled its original four-chip Rubin Ultra and pushed its Kyber NVL144 rack to 2028 after design and customer issues.",
-      "body": [
-        "About three months after unveiling Rubin Ultra at GTC 2026, Nvidia scrapped the original four-chip design and shifted to a half-size version with roughly half the performance, according to SemiAnalysis reporting relayed by Tom's Hardware. The analyst firm tied the changes to PCB midplane problems and customer pushback on the Kyber rack. Nvidia reportedly will not ship the Kyber NVL144 rack until 2028.",
-        "Despite the roadmap turbulence SemiAnalysis said the HBM4 supply bottleneck for Rubin is mostly resolved and expects second-half data center revenue about 20% above consensus. The base Rubin GPU is pitched at 5x the inference and 3.5x the training performance of Blackwell. CoreWeave still plans to deploy Rubin systems from the second half of 2026."
-      ],
-      "sources": [["Tom's Hardware","https://www.tomshardware.com/pc-components/gpus/nvidias-kyber-rack-for-rubin-ultra-slips-to-2028"],["SemiAnalysis","https://newsletter.semianalysis.com/p/nvidia-the-inference-kingdom-expands"]]
-    },
-    {
-      "hero": false,
-      "sub": "Foundation Models & Releases",
-      "h3": "AMD launches MI400 Instinct GPUs to challenge Nvidia",
-      "summary": "AMD unveiled its Instinct MI400 series at Advancing AI 2026, pairing CDNA 5 silicon and HBM4 memory to target frontier AI and sovereign HPC.",
-      "body": [
-        "AMD launched the Instinct MI400 series on July 23 at its Advancing AI 2026 event, including the MI455X for frontier AI factories and the MI430X for sovereign AI and HPC. The chips use AMD's CDNA 5 architecture and carry 432GB of HBM4 per GPU, a 50% jump over the MI350 generation. AMD also rolled out Helios AI rack systems and new EPYC CPUs.",
-        "The portfolio leans on the open ROCm software stack as AMD tries to close the gap with Nvidia, particularly for inference workloads where its accelerators have gained traction. The MI430X is slated for availability in 2027. The launch reinforced AMD's push to become a credible second source for AI compute."
-      ],
-      "sources": [["Data Center Dynamics","https://www.datacenterdynamics.com/en/news/amd-launches-instinct-mi400-series-gpus-for-ai-workloads/"],["AMD","https://newsroom.amd.com/news/aai-2026-mi400-instinct-update/"]]
-    },
-    {
-      "hero": false,
-      "sub": "Foundation Models & Releases",
-      "h3": "Nvidia pushes AI into PCs with RTX Spark superchip",
-      "summary": "Nvidia is bringing its RTX Spark superchip to Windows laptops and desktops this fall, extending its bid to own every layer of the AI stack.",
-      "body": [
-        "Nvidia detailed the RTX Spark superchip, which pairs a Blackwell RTX GPU with a 20-core Grace CPU over NVLink-C2C to run AI directly on personal computers. The part features 6,144 CUDA cores and fifth-generation Tensor Cores with FP4 precision. New AI PCs built around it are expected to debut in the fall.",
-        "CEO Jensen Huang framed the consumer push as an effort to win at every layer of the AI stack, from data center racks down to the desktop. The move extends Nvidia's reach beyond training clusters into on-device inference. It also opens a new front against rivals targeting the AI PC category."
-      ],
-      "sources": [["CNBC","https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html"],["CBS News","https://www.cbsnews.com/news/nvidia-consumer-pc-push-new-ai-superchip/"]]
-    },
-    {
-      "hero": false,
-      "sub": "Chinese AI Ecosystem",
-      "h3": "Moonshot releases Kimi K3, the largest open model yet",
-      "summary": "China's Moonshot AI released the 2.8-trillion-parameter Kimi K3 and published its full open weights, rivaling top US systems on frontier benchmarks.",
-      "body": [
-        "Moonshot AI released Kimi K3 on July 16, a 2.8-trillion-parameter open-weight model it says rivals OpenAI and Anthropic on frontier benchmarks. That makes it the first open-source model in the 3-trillion-parameter class, roughly 75% larger than DeepSeek's V4 Pro. The launch briefly pressured rival AI stocks as investors weighed China closing the gap.",
-        "The company published the full weights on July 27 through Hugging Face, including 96 weight shards and deployment instructions. The move continued Moonshot's open-source strategy that began with Kimi K2 in 2025. It cemented the startup's comeback in a crowded Chinese model race."
-      ],
-      "sources": [["VentureBeat","https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems"],["CNBC","https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html"]]
-    },
-    {
-      "hero": false,
-      "sub": "Chinese AI Ecosystem",
-      "h3": "Alibaba previews Qwen3.8-Max at 2.4 trillion parameters",
-      "summary": "Alibaba unveiled a preview of Qwen3.8-Max at the Shanghai AI conference, claiming its multimodal flagship is second only to Anthropic's top Claude model.",
-      "body": [
-        "Alibaba previewed Qwen3.8-Max on July 19 at the World Artificial Intelligence Conference, describing a 2.4-trillion-parameter multimodal system it claims trails only Anthropic's Fable 5. The preview is available through Alibaba's own products, developer token plans and its Qoder platforms while evaluations finish. Shares in Alibaba rose on the announcement.",
-        "The company shipped the claim without benchmarks, a model card or independent testing, drawing skepticism from analysts. The reveal came just days after Moonshot's Kimi K3 rattled markets. It underscored how quickly Chinese labs are trading top-of-leaderboard claims."
-      ],
-      "sources": [["MarkTechPost","https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/"],["South China Morning Post","https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5"]]
-    },
-    {
-      "hero": false,
-      "sub": "Chinese AI Ecosystem",
-      "h3": "Huawei touts Ascend supernodes and plans to double output",
-      "summary": "Huawei showcased new Ascend AI chip systems at WAIC 2026 and is preparing to roughly double production of its flagship accelerators this year.",
-      "body": [
-        "Huawei presented new Ascend AI solutions at WAIC 2026 in mid-July, headlined by the Atlas 950 SuperPoD it billed as the industry's largest supernode. The company also pushed open-source foundational software and industry-scale supernode deployments. The showcase framed Huawei as the anchor of China's domestic compute stack.",
-        "Huawei is preparing to deliver roughly 600,000 units of its Ascend 910C in 2026, about double last year, and lift total Ascend output toward 1.6 million dies. Progress with foundry partner SMIC on 7nm capacity is helping ease bottlenecks. The ramp matters as US export limits keep constraining Nvidia's China sales."
-      ],
-      "sources": [["Huawei Central","https://www.huaweicentral.com/huawei-to-announce-new-ascend-ai-chip-solutions-at-waic-2026/"],["Yahoo Finance","https://finance.yahoo.com/news/huaweis-bold-ai-chip-push-180552201.html"]]
-    },
-    {
-      "hero": false,
-      "sub": "Chinese AI Ecosystem",
-      "h3": "Only trivial volumes of Nvidia H200 chips reach China",
-      "summary": "A US official said very few Nvidia H200-class AI chips have actually shipped to China under new licenses despite the policy thaw.",
-      "body": [
-        "A Trump administration export official said only a trivial number of Nvidia H200 and equivalent AI chips have shipped to China against approved licenses. The comment tempered expectations after Washington cleared roughly 10 Chinese firms, including Alibaba, Tencent and ByteDance, to buy the H200 with a per-customer cap. The policy had swung from an April 2025 ban to licensed exports.",
-        "The gap between approvals and actual shipments reflects lingering friction over supply, demand and geopolitics. Analysts have argued the US is effectively ceding much of the China AI chip market regardless. Huawei's Ascend ramp is filling part of that void."
-      ],
-      "sources": [["Yahoo Finance","https://finance.yahoo.com/technology/ai/articles/small-amount-nvidia-ai-chips-152915216.html"],["Brookings","https://www.brookings.edu/articles/ball-games-over-the-us-is-out-of-the-ai-chip-market-in-china/"]]
-    },
-    {
-      "hero": false,
-      "sub": "Agents & Automation",
-      "h3": "Enterprise AI agents outpace the governance built to control them",
-      "summary": "Analysts warn that agentic AI is entering production faster than the content, identity and permissions systems needed to run it safely.",
-      "body": [
-        "Industry coverage in late July described enterprises rushing agentic AI into production while governance, identity and permissions frameworks lag behind. Gartner projects 40% of enterprise applications will embed agents by the end of the year, up from under 5% in 2025. That leap is straining the integration and access controls that let agents use company knowledge safely.",
-        "Systems integrators are leaning in, with Cognizant standing up a dedicated EMEA AI unit to help customers build and run agentic workflows. The message from analysts is that organizations must first structure their institutional knowledge and access rules. Without that plumbing, autonomous agents risk operating faster than oversight can follow."
-      ],
-      "sources": [["Redmond Magazine","https://redmondmag.com/articles/2026/07/20/enterprise-ai-agents-outpace-the-content.aspx"],["Hector Pincheira","https://www.hectorpincheira.com/en/news/technological-radar-july-2026-ai-agents-go-into-production-and-governance-doesnt-keep-up/"]]
-    },
-    {
-      "hero": false,
-      "sub": "Agents & Automation",
-      "h3": "OpenAI coding and work agents cross 10 million weekly users",
-      "summary": "OpenAI said its Codex coding agent and ChatGPT Work task agent reached a combined 10 million weekly active users as agentic tools go mainstream.",
-      "body": [
-        "OpenAI reported that its Codex coding agent and ChatGPT Work task agent hit a combined 10 million weekly active users on July 21. The company's GPT-5.6 Sol model reached general availability earlier in the month and runs at high token speeds on Cerebras hardware. The numbers show agentic coding moving from experiment to daily workflow.",
-        "Modern coding agents can now execute end-to-end changes spanning hundreds of files while grounded in real repositories and dev tools. OpenAI is also folding browser-based agent features into ChatGPT and Codex as it winds down its standalone Atlas browser. The shift reflects a broader industry pivot toward agents that act rather than just answer."
-      ],
-      "sources": [["ClaudeWorld","https://claude-world.com/articles/ai-coding-models-tools-july-2026/"],["Wikipedia","https://en.wikipedia.org/wiki/Codex_(AI_agent)"]]
-    },
-    {
-      "hero": false,
-      "sub": "Agents & Automation",
-      "h3": "China sets first binding rules for autonomous AI agents",
-      "summary": "China rolled out what is described as the world's first regulatory framework focused entirely on AI agents, with tiered limits on agent autonomy.",
-      "body": [
-        "China implemented an implementation-opinions framework aimed specifically at AI agents, establishing a tiered decision-authorization system that governs how much autonomy and access agents can hold. Reports describe it as the first binding regime built entirely around agentic AI. The rules pair with earlier companion-AI restrictions that began enforcement in mid-July.",
-        "The move arrives as Chinese labs ship agent-capable models like DeepSeek V4-Flash and Kimi K3 at a rapid clip. Regulators appear to be racing to set guardrails before autonomous agents proliferate across consumer and enterprise apps. The framework could become a template that other governments study."
-      ],
-      "sources": [["aiagentstore.ai","https://aiagentstore.ai/ai-agent-news/2026-july"],["CDT","https://cdt.org/insights/cdt-europes-ai-bulletin-july-2026/"]]
-    },
-    {
-      "hero": false,
-      "sub": "Enterprise & Regulation",
-      "h3": "EU AI Act core obligations take effect on August 2",
-      "summary": "A major slice of the EU AI Act's rules apply from August 2, even after an Omnibus package delayed and softened some deadlines.",
-      "body": [
-        "As of August 2 the EU AI Act's core obligations apply to the majority of AI systems on the European market, including general-purpose model governance duties. The rollout follows the AI Omnibus, given final Council approval on June 29, which postponed some compliance dates and amended parts of the law. A new prohibition on AI systems that generate non-consensual intimate imagery was also added.",
-        "The Commission has paired the rulebook with a cybersecurity action plan that shifts toward testing AI in secure pan-European environments. US companies operating in Europe face compliance questions tied to the August milestone. The date marks one of the most consequential points in the Act's phased timeline."
-      ],
-      "sources": [["Technology.org","https://www.technology.org/2026/07/17/eu-ai-act-what-actually-applies-on-2-august-2026/"],["Latham & Watkins","https://www.lw.com/en/insights/ai-act-update-eu-resolves-to-change-rules-and-extend-deadlines"]]
-    },
-    {
-      "hero": false,
-      "sub": "Enterprise & Regulation",
-      "h3": "US Senate advances AI bill with state-law preemption",
-      "summary": "A federal AI bill cleared the Senate with language that could preempt state-level AI rules, setting up a fight over the balance of regulatory power.",
-      "body": [
-        "The so-called Great American AI Act passed the Senate carrying preemption language that could override state AI compliance requirements if the House concurs. Supporters frame a single federal standard as clarity for industry, while critics warn it could hollow out state protections. The measure now depends on House approval to become law.",
-        "The debate lands amid a patchwork of global approaches, with the UK advancing its own AI safety bill and China enforcing agent and companion rules. US firms are watching whether Washington will centralize authority or leave states in charge. The outcome will shape how AI is governed across the largest tech market."
-      ],
-      "sources": [["Cubbbix","https://cubbbix.com/blog/ai-regulation-july-2026-global-update/"],["Stephenson Harwood","https://www.stephensonharwood.com/insights/neural-network-july-2026/"]]
-    },
-    {
-      "hero": false,
-      "sub": "Enterprise & Regulation",
-      "h3": "Meta opens a cloud business to resell spare AI compute",
-      "summary": "Meta launched Meta Compute to sell excess AI infrastructure capacity, turning its massive buildout into a potential external revenue line.",
-      "body": [
-        "Meta announced Meta Compute on July 1, a new cloud business that sells the company's surplus AI infrastructure to outside customers. The move mirrors how hyperscalers monetize capacity and could help justify Meta's enormous data center spending. It arrives alongside disclosures of nearly $700 billion in AI-related commitments.",
-        "The launch fits a broader theme from earnings week that markets reward AI capex tied to metered external revenue. By reselling compute, Meta gains a demand signal it previously lacked as a pure consumer of its own clusters. It positions the company to compete for enterprise AI workloads against AWS, Azure and neoclouds."
-      ],
-      "sources": [["Data Center Dynamics","https://www.datacenterdynamics.com/en/news/meta-delivers-blowout-earnings-says-it-will-ramp-ai-data-center-investment-significantly-in-2026/"],["Bloomberg","https://www.bloomberg.com/news/articles/2026-07-30/meta-reports-279-billion-in-future-data-center-leases-for-ai"]]
-    }
-  ]
+ "ai-hpc": [
+  {
+   "hero": true,
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "Nvidia weighs $250B backstop for OpenAI's Ohio megacampus",
+   "summary": "Nvidia is in talks to guarantee up to $250 billion of lease and construction debt for a 10-gigawatt OpenAI data center in Pike County, Ohio.",
+   "body": [
+    "OpenAI is negotiating a backstop of up to $250 billion from Nvidia that would help fund a massive new data center campus, leaning on Nvidia's credit to secure the financing. The 10-gigawatt project in Piketon, Ohio is being built by SB Energy, a SoftBank subsidiary.",
+    "The full build could cost more than $500 billion including the chips inside, and is expected to deliver as much as 800 megawatts of power by 2028. The guarantee would cover lease and construction debt, with the Nvidia chips negotiated separately."
+   ],
+   "sources": [
+    [
+     "CNBC",
+     "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html"
+    ],
+    [
+     "Bloomberg",
+     "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says"
+    ]
+   ]
+  },
+  {
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "OpenAI and Nvidia commit to 10GW and $100B",
+   "summary": "The two companies signed a letter of intent to deploy at least 10 gigawatts of Nvidia systems, with Nvidia investing up to $100 billion.",
+   "body": [
+    "Under the strategic partnership, Nvidia intends to invest up to $100 billion in OpenAI progressively as each gigawatt of capacity is deployed. The first gigawatt lands in the second half of 2026 on the Vera Rubin platform.",
+    "The deal deepens the tie between the leading model developer and its primary chip supplier, and underscores how AI ambitions are increasingly a question of power and capital as much as software."
+   ],
+   "sources": [
+    [
+     "Nvidia Newsroom",
+     "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems"
+    ]
+   ]
+  },
+  {
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "IREN lands $9.7B Microsoft GPU deal",
+   "summary": "The former bitcoin miner secured a multi-year deal with Microsoft for 76,000 Nvidia GB300 GPUs at its Texas campus.",
+   "body": [
+    "IREN, the largest of the miner-to-HPC names by market cap, signed a $9.7 billion agreement with Microsoft covering 76,000 Nvidia GB300 GPUs across 200 megawatts at its Childress, Texas site.",
+    "The deal is the clearest sign yet that repurposed mining infrastructure can win hyperscaler-scale contracts, and it reframes IREN as an AI cloud provider rather than a pure bitcoin producer."
+   ],
+   "sources": [
+    [
+     "MLQ",
+     "https://mlq.ai/research/iren-deep-dive-profitable-bitcoin-mining-powering-ai-infrastructure/"
+    ],
+    [
+     "Coin Alert News",
+     "https://coinalertnews.com/news/2026/07/20/hut8-iren-ai-data-centers"
+    ]
+   ]
+  },
+  {
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "IREN lifts AI cloud revenue target above $4B",
+   "summary": "After signing $2.8 billion in new multi-year contracts, IREN raised its year-end annualized run-rate goal for AI cloud services.",
+   "body": [
+    "IREN said $2.8 billion in newly signed multi-year contracts pushed its year-end 2026 annualized run-rate revenue target for AI cloud services past $4 billion.",
+    "The upgrade illustrates the revenue arbitrage attracting miners into HPC, where GPU hosting and AI cloud contracts can dwarf the economics of selling hashpower."
+   ],
+   "sources": [
+    [
+     "MLQ",
+     "https://mlq.ai/research/iren-deep-dive-profitable-bitcoin-mining-powering-ai-infrastructure/"
+    ]
+   ]
+  },
+  {
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "CoreWeave exercises option for 112MW more from Core Scientific",
+   "summary": "CoreWeave took up another option for Core Scientific to deliver 112 additional megawatts of HPC capacity to host Nvidia GPUs.",
+   "body": [
+    "In early August, CoreWeave exercised a further option for Core Scientific to build out 112 more megawatts of high-performance computing capacity, following earlier expansions between the two companies.",
+    "The recurring option exercises show how quickly the AI hosting relationship is scaling, and how much former mining capacity is being pulled into GPU service."
+   ],
+   "sources": [
+    [
+     "CoinGeek",
+     "https://coingeek.com/coreweave-signals-shift-in-mining-dynamics-under-new-talks/"
+    ]
+   ]
+  },
+  {
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "Miners have booked over $70B in AI and HPC contracts",
+   "summary": "Cumulative AI and high-performance computing deals across the public mining sector have topped $70 billion.",
+   "body": [
+    "More than $70 billion in cumulative AI and HPC contracts have now been announced across public bitcoin miners, as names demote or abandon mining to become data-center operators.",
+    "The scale of the shift is redrawing how the sector is valued, with power capacity, cooling and interconnects increasingly the assets that matter to investors."
+   ],
+   "sources": [
+    [
+     "Cryptonews",
+     "https://cryptonews.net/news/mining/32977167/"
+    ],
+    [
+     "VanEck",
+     "https://www.vaneck.com/us/en/blogs/digital-assets/matthew-sigel-bitcoin-miners-ai-arbitrage-play-to-boost-revenue/"
+    ]
+   ]
+  },
+  {
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "Hut 8 joins the multi-billion HPC scramble",
+   "summary": "Hut 8 is among the former miners securing large AI infrastructure deals as the pivot accelerates.",
+   "body": [
+    "Hut 8 and IREN were both cited securing multi-billion-dollar AI infrastructure agreements, part of a wider wave of miners converting power-dense sites to serve AI and HPC clients.",
+    "The trend leans on existing grid connections and Nvidia GPU allocations, turning stranded mining capacity into a scarce commodity for AI buyers."
+   ],
+   "sources": [
+    [
+     "Coin Alert News",
+     "https://coinalertnews.com/news/2026/07/20/hut8-iren-ai-data-centers"
+    ]
+   ]
+  },
+  {
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "Power supply becomes the AI bottleneck",
+   "summary": "OpenAI's Ohio project alone could draw 800 megawatts by 2028, sharpening questions about the grid.",
+   "body": [
+    "The scale of new AI campuses is turning electricity into the binding constraint. The Ohio project is expected to deliver as much as 800 megawatts by 2028, enough to power hundreds of thousands of homes.",
+    "Utilities and regulators are grappling with how to add capacity fast enough, and where the cost of new generation and transmission should fall."
+   ],
+   "sources": [
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/economy/2026/7/27/nvidia-plans-250bn-push-to-bolster-openais-infrastructure-ambitions"
+    ]
+   ]
+  },
+  {
+   "sub": "Foundation Models & Releases",
+   "h3": "Anthropic ships Claude Opus 5",
+   "summary": "Anthropic's new flagship approaches top-tier intelligence at roughly half the price, with an effort dial to trade cost for capability.",
+   "body": [
+    "Claude Opus 5, released July 24, is positioned as Anthropic's most capable model, approaching Fable-5-level intelligence at around half the price. It adds an effort dial that lets users trade off cost against capability.",
+    "Anthropic highlighted stronger coding, agentic and self-verification performance, aimed squarely at developers building autonomous workflows."
+   ],
+   "sources": [
+    [
+     "Fello AI",
+     "https://felloai.com/best-ai-models/"
+    ],
+    [
+     "AI Release Tracker",
+     "https://aireleasetracker.com/"
+    ]
+   ]
+  },
+  {
+   "sub": "Foundation Models & Releases",
+   "h3": "Google releases Gemini 3.6 Flash",
+   "summary": "Google's new workhorse model is cheaper and more efficient, with fewer wasted reasoning steps on coding and multi-step tasks.",
+   "body": [
+    "Gemini 3.6 Flash, out July 21, is pitched as a cheaper, more efficient workhorse than its predecessor, trimming wasted reasoning steps and tool calls on coding and multi-step tasks.",
+    "The release continues the industry push toward fast, low-cost models that handle the bulk of everyday inference while flagship models tackle harder problems."
+   ],
+   "sources": [
+    [
+     "LLM Stats",
+     "https://llm-stats.com/llm-updates"
+    ]
+   ]
+  },
+  {
+   "sub": "Foundation Models & Releases",
+   "h3": "DeepSeek V4 reaches general availability",
+   "summary": "The Chinese lab's V4 model went GA on July 20, extending the pressure from open and low-cost competitors.",
+   "body": [
+    "DeepSeek moved its V4 model into general availability on July 20, reinforcing its position as a leading Chinese developer competing on capability and price.",
+    "The release adds to a crowded field where Western labs and Chinese challengers are trading blows on benchmarks and cost per token."
+   ],
+   "sources": [
+    [
+     "LLM Stats",
+     "https://llm-stats.com/llm-updates"
+    ]
+   ]
+  },
+  {
+   "sub": "Chinese AI Ecosystem",
+   "h3": "DeepSeek V4-Flash undercuts on price",
+   "summary": "A new V4-Flash variant landed July 31 at $0.14 and $0.28 per million tokens, sharpening the price-performance race.",
+   "body": [
+    "DeepSeek released V4-Flash-0731 on July 31, billed as a new price-performance pick at roughly $0.14 per million input tokens and $0.28 per million output tokens.",
+    "Aggressive pricing from Chinese labs is pushing the whole market lower, squeezing margins for developers charging premium rates for inference."
+   ],
+   "sources": [
+    [
+     "LLM Stats",
+     "https://llm-stats.com/llm-updates"
+    ]
+   ]
+  },
+  {
+   "sub": "Chinese AI Ecosystem",
+   "h3": "China's low-cost models reshape the market",
+   "summary": "Cheap, capable Chinese releases are forcing Western providers to defend both price and differentiation.",
+   "body": [
+    "The rapid cadence of Chinese model releases, led by DeepSeek's V4 line, is compressing prices and narrowing the capability gap that Western labs once relied on.",
+    "For enterprises, the result is more choice and leverage, though data governance and export questions keep the picture complicated."
+   ],
+   "sources": [
+    [
+     "LLM Stats",
+     "https://llm-stats.com/ai-news"
+    ]
+   ]
+  },
+  {
+   "sub": "Agents & Automation",
+   "h3": "Agentic coding is the new battleground",
+   "summary": "The latest flagship models are competing hardest on autonomous coding and self-verification.",
+   "body": [
+    "Claude Opus 5's headline gains in coding, agentic behaviour and self-verification point to where the frontier labs see value: models that can plan, execute and check multi-step work with less human oversight.",
+    "Google's efficiency push with Gemini 3.6 Flash targets the same workflows from the cost side, aiming to make agent loops cheap enough to run at scale."
+   ],
+   "sources": [
+    [
+     "Fello AI",
+     "https://felloai.com/best-ai-models/"
+    ],
+    [
+     "LLM Stats",
+     "https://llm-stats.com/llm-updates"
+    ]
+   ]
+  },
+  {
+   "sub": "Enterprise & Regulation",
+   "h3": "AI alignment debate flares over the OpenAI backstop",
+   "summary": "The scale of the proposed Nvidia guarantee has reignited arguments about concentration and safety in frontier AI.",
+   "body": [
+    "The prospect of a $250 billion backstop tying OpenAI's fortunes so tightly to Nvidia has intensified debate over concentration of power and the governance of frontier AI buildouts.",
+    "Critics question whether financing structures this large leave room for meaningful safety and oversight, while backers argue the capacity is needed to keep pace with demand."
+   ],
+   "sources": [
+    [
+     "The AI Insider",
+     "https://theaiinsider.tech/2026/07/28/ai-alignment-debate-intensifies-as-openai-seeks-250b-nvidia-backstop-for-massive-data-center/"
+    ]
+   ]
+  },
+  {
+   "sub": "Enterprise & Regulation",
+   "h3": "Circular AI financing draws scrutiny",
+   "summary": "Chip vendors underwriting their own customers' buildouts is raising eyebrows among analysts.",
+   "body": [
+    "The pattern of Nvidia investing in and backstopping the very customers buying its chips has prompted questions about circular financing and how much of the AI capex boom rests on vendor support.",
+    "Supporters say it aligns incentives and speeds deployment, while skeptics warn it can mask demand and concentrate risk if growth disappoints."
+   ],
+   "sources": [
+    [
+     "CNBC",
+     "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html"
+    ]
+   ]
+  },
+  {
+   "sub": "Enterprise & Regulation",
+   "h3": "Vera Rubin platform anchors next buildout",
+   "summary": "Nvidia's Vera Rubin systems will power the first gigawatt of OpenAI's new capacity later this year.",
+   "body": [
+    "Nvidia's Vera Rubin platform is set to underpin the first gigawatt of the OpenAI partnership in the second half of 2026, marking the next generation of AI training hardware.",
+    "The rollout timeline gives a concrete marker for when the headline capacity commitments start translating into deployed compute."
+   ],
+   "sources": [
+    [
+     "Nvidia Newsroom",
+     "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems"
+    ]
+   ]
+  }
+ ]
 }
