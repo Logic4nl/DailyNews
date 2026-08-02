@@ -1,0 +1,340 @@
+{
+  "global": [
+    {
+      "hero": true,
+      "sub": "Conflicts & Security",
+      "h3": "Russian missiles pound Kyiv as Pentagon steps back from NATO role",
+      "summary": "Deadly Russian strikes hit the Ukrainian capital while Washington signals it will hand off its lead role coordinating NATO support for Kyiv.",
+      "body": [
+        "Russia opened August with a fresh wave of ballistic missiles and drones against Kyiv, killing several residents and wounding others as strikes ignited warehouses and damaged homes. Ukrainian air defenses managed to intercept only a fraction of the incoming missiles overnight, and President Volodymyr Zelenskyy said the shortage of Patriot interceptors was emboldening Moscow to keep hitting cities.",
+        "Ukrainian forces answered with their own blows, striking Russian targets in occupied Crimea and Kherson region and sinking a Russian container ship. The mood in Kyiv darkened further after the Pentagon signaled it would relinquish its leadership role in coordinating NATO military aid, raising fears in Europe about who fills the gap."
+      ],
+      "sources": [["RBC-Ukraine","https://newsukraine.rbc.ua/war-in-ukraine"],["Wikipedia","https://en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrainian_war_(1_June_2026_%E2%80%93_present)"]]
+    },
+    {
+      "hero": false,
+      "sub": "Conflicts & Security",
+      "h3": "Board of Peace unveils next phase of Gaza ceasefire as strikes go on",
+      "summary": "Trump and the Board of Peace announced a staged Hamas disarmament deal, but Israeli air strikes killed three Palestinians a day later.",
+      "body": [
+        "US President Donald Trump and the Board of Peace announced a framework on July 31 to move the Gaza ceasefire into its next phase, with Hamas agreeing to place its weapons into storage and disarm in stages while Israel withdraws its forces over time. A two-week truce is meant to nail down the details of the sequencing.",
+        "The optimism was quickly tested. Israeli strikes killed three Palestinians and wounded several others the following day, and Hamas warned it would not act on the deal unless Israel meets its own withdrawal commitments. Israel has yet to publicly endorse the latest proposal, and it insists it will not pull back from the Yellow Line until disarmament is complete."
+      ],
+      "sources": [["Al Jazeera","https://www.aljazeera.com/news/2026/7/31/gaza-board-of-peace-announces-hamas-disarmament-agreement-what-we-know"],["Anadolu Agency","https://aa.com.tr/en/middle-east/israeli-strikes-kill-3-palestinians-in-gaza-despite-deal-on-next-phase-of-ceasefire/4015708"]]
+    },
+    {
+      "hero": false,
+      "sub": "Conflicts & Security",
+      "h3": "Sudan army unleashes heaviest airstrikes yet on RSF in Kordofan",
+      "summary": "Sudan's air force hammered Rapid Support Forces positions across Kordofan as RSF leader Hemedti told fighters to retake Khartoum.",
+      "body": [
+        "Sudan's air force carried out some of its most intense strikes since the civil war began, pounding Rapid Support Forces positions across North and West Kordofan. Targets included gatherings around Um Badr, Sodari and El Nuhud as the army pressed to blunt an RSF advance.",
+        "The escalation came as RSF commander Mohamed Hamdan Dagalo, known as Hemedti, released a video urging his fighters to seize the capital. Civilians continued to bear the brunt, with retreating RSF units accused of looting markets and raiding homes and a recent drone strike killing at least 21 people at a water source in North Darfur."
+      ],
+      "sources": [["Sudan Tribune","https://sudantribune.com/article/316827"],["Al Jazeera","https://www.aljazeera.com/video/newsfeed/2026/7/30/sudans-rsf-vows-to-return-to-khartoum"]]
+    },
+    {
+      "hero": false,
+      "sub": "Conflicts & Security",
+      "h3": "Tehran says no talks with Washington as Qatar channel stalls",
+      "summary": "Iran denied any active negotiations with the US even as indirect technical talks continued in Qatar over the Strait of Hormuz and its nuclear program.",
+      "body": [
+        "Iran's Foreign Ministry insisted there were no negotiations underway with the United States, saying Tehran would never let Washington dictate the timing of war and peace. The comments underscored how fragile relations remain months after US and Israeli strikes in February killed Supreme Leader Ali Khamenei and Iran retaliated against US bases.",
+        "Behind the scenes, indirect technical talks carried on in Qatar under a 14-point memorandum signed in June that set out discussions on navigation in the Strait of Hormuz and Iran's nuclear activities. Progress has been slow, with both sides still arguing over what they actually agreed to."
+      ],
+      "sources": [["CNN","https://www.cnn.com/2026/07/27/world/live-news/iran-war-trump"]]
+    },
+    {
+      "hero": false,
+      "sub": "Conflicts & Security",
+      "h3": "Beijing expands maritime pressure on Taiwan as detentions rise",
+      "summary": "Chinese vessels pushed further into waters near Taiwan while Taipei reported a fresh high in citizens detained on the mainland.",
+      "body": [
+        "China kept up its gray zone pressure on Taiwan, deploying a fisheries vessel for a survey inside the island's exclusive economic zone and continuing marine research operations to the east. Analysts read the activity as an effort to normalize a permanent Chinese presence and reinforce Beijing's jurisdictional claims.",
+        "Taiwan's Mainland Affairs Council reported that 11 more Taiwanese travelers had gone missing or been detained in China in a single week, a new high that has rattled cross-strait travel. The friction came even as trade officials from Washington and Beijing prepared to sit down again."
+      ],
+      "sources": [["AEI","https://www.aei.org/commentary/china-taiwan-update-july-31-2026/"],["Focus Taiwan","https://focustaiwan.tw/business/202607310020"]]
+    },
+    {
+      "hero": false,
+      "sub": "Diplomacy & Trade",
+      "h3": "US slaps 35 percent tariff on Canadian goods",
+      "summary": "A 35 percent US tariff on many Canadian imports took effect August 1, escalating friction between the neighbors.",
+      "body": [
+        "The Trump administration's 35 percent tariff on a swath of Canadian goods came into force on August 1, following through on a threat the president floated in July. The move deepens a tariff campaign that has rattled North American supply chains and strained relations with Ottawa.",
+        "The measure lands alongside a wider round of levies on major trading partners, and economists warn the cumulative effect will feed into higher prices for American businesses and consumers. Canadian officials have signaled they are weighing their response."
+      ],
+      "sources": [["Tax Foundation","https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"],["Ballotpedia","https://ballotpedia.org/Donald_Trump's_executive_orders_and_actions_on_trade_and_tariffs,_2025-2026"]]
+    },
+    {
+      "hero": false,
+      "sub": "Diplomacy & Trade",
+      "h3": "US labor market cools as traders brace for August jobs data",
+      "summary": "Hiring has slowed sharply and unemployment is drifting higher, with the next payrolls report due August 7.",
+      "body": [
+        "The American labor market entered August looking tired, with job openings falling and hiring slowing to a crawl. June payrolls rose just 57,000 and unemployment sat at 4.2 percent, and economists expect only a modest pickup when July figures land on August 7.",
+        "Federal Reserve Chair Jerome Powell has argued that recent payroll gains were overstated and that revisions may show the economy has been shedding jobs since April. The softening data is sharpening the debate over when the Fed will move on interest rates."
+      ],
+      "sources": [["Bloomberg","https://www.bloomberg.com/news/articles/2026-08-01/us-job-growth-to-pick-up-after-disappointing-june"],["Bureau of Labor Statistics","https://www.bls.gov/news.release/empsit.nr0.htm"]]
+    },
+    {
+      "hero": false,
+      "sub": "Diplomacy & Trade",
+      "h3": "US and China resume trade talks as Taiwan posts blistering growth",
+      "summary": "Washington and Beijing held their first direct trade talks since May, while Taiwan reported its strongest half-year growth in 50 years.",
+      "body": [
+        "US and Chinese negotiators met for their first direct trade talks since the Trump-Xi meeting in May, testing whether a fragile truce on tariffs can hold. Both sides have kept a mix of fentanyl and reciprocal duties in place while pausing steeper increases.",
+        "The backdrop is a booming Taiwanese economy, which expanded 13.72 percent in the first half of 2026, its best first-half showing in half a century. The surge was powered by the artificial intelligence boom, heavy investment and stronger consumer spending."
+      ],
+      "sources": [["TaiwanPlus","https://www.taiwanplus.com/news/newscasts/whats-up-taiwan/260731004/us-china-resume-trade-talks-july-31-2026"],["Focus Taiwan","https://focustaiwan.tw/business/202607310020"]]
+    },
+    {
+      "hero": false,
+      "sub": "Diplomacy & Trade",
+      "h3": "EU-US 15 percent tariff framework settles into force",
+      "summary": "The transatlantic trade framework capping most European exports at a 15 percent US tariff is now operating after taking effect July 1.",
+      "body": [
+        "The EU-US trade framework that sets a 15 percent tariff on most European goods entering the United States is now in force after clearing the European Parliament and Council and taking effect on July 1. Cars fall under the 15 percent rate while steel and aluminum remain at 50 percent.",
+        "The deal also carries pledges of hundreds of billions in EU investment in the United States and large European purchases of American energy. Brussels has framed the arrangement as a way to restore stability after months of tariff brinkmanship."
+      ],
+      "sources": [["European Commission","https://commission.europa.eu/topics/trade/eu-us-trade-deal_en"],["Council of the EU","https://www.consilium.europa.eu/en/press/press-releases/2026/05/20/eu-us-trade-council-and-parliament-strike-a-deal-to-implement-the-tariff-elements-of-the-joint-statement/"]]
+    },
+    {
+      "hero": false,
+      "sub": "Diplomacy & Trade",
+      "h3": "Zambia heads toward high-stakes August 13 general election",
+      "summary": "Zambians prepare to vote for president and parliament on August 13 in a contest testing the country's democratic credentials.",
+      "body": [
+        "Zambia is gearing up for general elections on August 13, when voters will choose a president, members of the national assembly and local leaders. About 8.7 million of the country's more than 21 million citizens have registered to cast ballots.",
+        "President Hakainde Hichilema has pledged a peaceful and transparent vote, but analysts warn that the country's reputation as a democratic success story is showing strain. Opposition complaints and questions over the electoral playing field are shadowing the campaign."
+      ],
+      "sources": [["Wikipedia","https://en.wikipedia.org/wiki/2026_Zambian_general_election"],["ISS Africa","https://issafrica.org/iss-today/elections-2026-is-zambia-s-democratic-success-story-beginning-to-fray"]]
+    },
+    {
+      "hero": false,
+      "sub": "Diplomacy & Trade",
+      "h3": "Kazakhstan set for August vote to fill new Kurultai",
+      "summary": "Kazakhstan will hold legislative elections in August to fill all 145 seats of its newly created assembly.",
+      "body": [
+        "Kazakhstan is scheduled to hold legislative elections in August to elect all 145 members of the newly formed Kurultai. The vote is part of a broader reshaping of the country's political institutions.",
+        "The elections will be closely watched as a gauge of how much genuine competition the authorities are willing to allow. Kazakhstan's leadership has promised political reforms in recent years while keeping tight control over the system."
+      ],
+      "sources": [["Wikipedia","https://en.wikipedia.org/wiki/2026_Kazakh_legislative_election"]]
+    },
+    {
+      "hero": false,
+      "sub": "Humanitarian & Climate",
+      "h3": "Wildfires force mass evacuations across southern Europe",
+      "summary": "Fires tearing through France, Spain, Portugal and Greece have driven thousands from their homes amid record heat.",
+      "body": [
+        "Wildfires raged across southern France and parts of Spain, Portugal and Greece, forcing thousands of people to flee as crews struggled to contain the flames. France and Spain were among the hardest hit after weeks of extreme heat left the land tinder dry.",
+        "The fires follow a record June heat wave blamed for thousands of deaths across the continent, and Western Europe has now endured its third heat wave in six weeks. The World Health Organization has warned that climate change is making such blazes more frequent and more intense."
+      ],
+      "sources": [["Inside Climate News","https://insideclimatenews.org/news/07072026/record-heat-drives-wildfires-in-europe-forces-thousands-to-evacuate/"],["Al Jazeera","https://www.aljazeera.com/video/inside-story/2026/7/26/whats-causing-the-unprecedented-wildfires-in-europe"]]
+    },
+    {
+      "hero": false,
+      "sub": "Humanitarian & Climate",
+      "h3": "Europe's scorching summers turn into an expensive problem",
+      "summary": "Repeated heat waves are straining Europe's infrastructure, businesses and public budgets.",
+      "body": [
+        "Europe's punishing summer is proving costly as record heat strains power grids, transport networks and health systems. Businesses are grappling with lost productivity while insurers face mounting claims from wildfires and extreme weather.",
+        "Economists point to rising bills across cooling, agriculture, health care and public budgets as the new normal for a warming continent. The pressure is prompting warnings that Europe is underprepared for the economic toll of hotter summers."
+      ],
+      "sources": [["CNBC","https://www.cnbc.com/2026/07/30/europe-heatwaves-economy-wildfires-summer.html"]]
+    },
+    {
+      "hero": false,
+      "sub": "Humanitarian & Climate",
+      "h3": "Pakistan monsoon death toll tops 100 with more rain coming",
+      "summary": "More than 100 people have died in a month of monsoon rains and floods across Pakistan, with further downpours forecast.",
+      "body": [
+        "Pakistan's monsoon season has killed more than 100 people since late June, with the northwestern province of Khyber Pakhtunkhwa recording the highest toll. Many deaths were caused by collapsing houses and roofs as heavy rain battered vulnerable communities.",
+        "Authorities warned that more heavy rain was on the way, raising the risk of fresh flooding and landslides. The disaster is a grim reminder of Pakistan's exposure to climate driven extremes, three years after catastrophic floods submerged a third of the country."
+      ],
+      "sources": [["Al Jazeera","https://www.aljazeera.com/news/2026/7/27/death-toll-from-pakistan-monsoon-rains-floods-tops-100"],["ABC News","https://abcnews.com/International/wireStory/pakistan-monsoon-death-toll-tops-100-month-heavy-135115888"]]
+    },
+    {
+      "hero": false,
+      "sub": "Humanitarian & Climate",
+      "h3": "Deadly floods batter northeast India's Assam",
+      "summary": "Floods in Assam killed at least 10 people in a day as heavy rain caused what officials called unprecedented devastation.",
+      "body": [
+        "At least 10 people died in floods in India's northeastern state of Assam over a single 24-hour period, pushing the weekly toll to 36. Officials described the flooding as unprecedented devastation as rivers burst their banks and swept through villages.",
+        "The downpours were part of a wider band of deadly weather across northeastern India, Pakistan and Afghanistan that claimed more than 80 lives in a week. Rescue teams worked to reach stranded residents as waters kept rising."
+      ],
+      "sources": [["U.S. News","https://www.usnews.com/news/world/articles/2026-07-23/floods-in-northeast-india-kill-10-thousands-affected"]]
+    },
+    {
+      "hero": false,
+      "sub": "Humanitarian & Climate",
+      "h3": "Venezuela faces years of rebuilding after deadly earthquakes",
+      "summary": "Recovery from June's twin earthquakes will take years as the UN aid appeal remains badly underfunded.",
+      "body": [
+        "Venezuela is still reckoning with the aftermath of the twin earthquakes that struck off its northern coast in June, killing at least 1,719 people and injuring around 5,000. The emergency phase has passed but officials say reconstruction will run into the tens of billions and take years in some communities.",
+        "International donors including the European Commission, the UN emergency fund and Germany have pledged support, yet the UN's humanitarian plan for the year remains far short of the roughly 931 million dollars it needs. Aid groups continue delivering food, water and shelter to hard hit areas."
+      ],
+      "sources": [["Al Jazeera","https://www.aljazeera.com/news/2026/7/25/whats-next-for-venezuelas-path-to-recovery-from-devastating-earthquakes"],["UN News","https://news.un.org/en/story/2026/06/1167837"]]
+    },
+    {
+      "hero": false,
+      "sub": "Humanitarian & Climate",
+      "h3": "Europe counts down to first total solar eclipse in 27 years",
+      "summary": "A total solar eclipse on August 12 will sweep across Iceland and northern Spain, the first for mainland Europe since 1999.",
+      "body": [
+        "Skywatchers are preparing for a total solar eclipse on August 12 that will trace a narrow path across Siberia, eastern Greenland, western Iceland and northern Spain. It will be the first total solar eclipse visible from mainland Europe since 1999.",
+        "Totality will last up to about two minutes and 18 seconds, with Spanish cities and Iceland's west coast in prime position near sunset. Tourism operators in both countries are bracing for a rush of visitors chasing the brief evening darkness."
+      ],
+      "sources": [["NASA","https://science.nasa.gov/eclipses/future-eclipses/total-solar-eclipse-on-august-12-2026/"],["timeanddate","https://www.timeanddate.com/eclipse/solar/2026-august-12"]]
+    },
+    {
+      "hero": false,
+      "sub": "Diplomacy & Trade",
+      "h3": "Andy Burnham takes over as UK prime minister",
+      "summary": "Andy Burnham has succeeded Keir Starmer as Britain's seventh prime minister in a decade after Starmer's resignation.",
+      "body": [
+        "Andy Burnham has become the United Kingdom's seventh prime minister in ten years, taking over from Keir Starmer who tendered his resignation to King Charles III. Starmer stepped down as Labour leader in June after two years in office marred by sluggish growth and struggling public services.",
+        "In an emotional final appearance in the Commons, Starmer said he was leaving the country in better shape than he found it and pledged wholehearted support for his successor. Burnham now inherits a difficult inbox of cost of living pressures and stretched services."
+      ],
+      "sources": [["NPR","https://www.npr.org/2026/07/19/nx-s1-5895993/andy-burnham-prime-minister-keir-starmer"],["Al Jazeera","https://www.aljazeera.com/news/2026/7/15/starmer-bids-mps-goodbye-as-british-pm-and-pledges-to-support-his-successor"]]
+    }
+  ],
+  "netherlands": [
+    {
+      "hero": true,
+      "sub": "Society & Culture",
+      "h3": "Amsterdam's WorldPride Canal Parade sails with 80 boats",
+      "summary": "Around 80 decorated boats float through Amsterdam's canals for the Canal Parade, the centerpiece of the city's first WorldPride.",
+      "body": [
+        "Amsterdam's canals turned into a rainbow of color as roughly 80 decorated boats set off at noon for the Canal Parade, the highlight of the Netherlands' first WorldPride. Community groups, NGOs and floats wound from the Oosterdok along the Amstel and Prinsengracht as an estimated half a million spectators lined the bridges and quaysides.",
+        "The celebration marks 25 years since the Netherlands became the first country to legalize same sex marriage. Organizers built a temporary 9,000 seat stadium on the Prinsengracht that the parade sails straight through, capping a two week festival of parties and events across the city."
+      ],
+      "sources": [["NL Times","https://nltimes.nl/2026/08/01/80-amsterdam-canal-parade-boats-set-depart-noon-worldpride-highlight"],["DutchReview","https://dutchreview.com/culture/worldpride-amsterdam-guide/"]]
+    },
+    {
+      "hero": false,
+      "sub": "Politics & Policy",
+      "h3": "Nationwide consumer fireworks ban takes effect",
+      "summary": "From August 1 Dutch consumers can no longer buy or set off fireworks under a new national ban.",
+      "body": [
+        "A nationwide ban on consumer fireworks came into force on August 1, barring the public from buying or setting off fireworks after years of debate over injuries and disorder. Certain groups can still apply for exemptions following adjustments to the rules.",
+        "Supporters argue the ban will cut the toll of eye injuries, damaged property and attacks on emergency workers seen around New Year. Critics say it punishes responsible users and question how strictly it can be enforced."
+      ],
+      "sources": [["DutchReview","https://dutchreview.com/news/dutch-nationwide-fireworks-ban-from-august-1-2026/"],["IamExpat","https://www.iamexpat.nl/expat-info/dutch-news/august-2026-9-changes-expats-netherlands-need-know-about"]]
+    },
+    {
+      "hero": false,
+      "sub": "Politics & Policy",
+      "h3": "Farmers block highways over cabinet's nitrogen plans",
+      "summary": "Dutch farmers staged tractor protests against a 20 billion euro nitrogen package demanding deep emissions cuts.",
+      "body": [
+        "Farmers rolled tractors onto major highways in late July to protest the cabinet's nitrogen reduction plans, blocking routes near the Moerdijk and Merwede bridges. The demonstrations target a policy package introduced in June that would force farmers to cut nitrogen emissions by 42 to 46 percent by 2035.",
+        "The government says its roughly 20 billion euro plan is needed to curb pollution and restore damaged nature. Farmers counter that the targets threaten their livelihoods and have vowed further action as tensions with The Hague simmer."
+      ],
+      "sources": [["NL Times","https://nltimes.nl/2026/07/27/video-dutch-farmers-protest-government-nitrogen-plans-along-major-highways"],["NL Times","https://nltimes.nl/2026/07/20/dutch-farmers-gear-new-protests-nitrogen-rules"]]
+    },
+    {
+      "hero": false,
+      "sub": "Politics & Policy",
+      "h3": "Jetten cabinet pushes tougher asylum and migration rules",
+      "summary": "The government is advancing measures to criminalize undocumented stay and seeks an opt-out from EU asylum rules.",
+      "body": [
+        "Prime Minister Rob Jetten's cabinet is pressing ahead with a stricter asylum and return policy, including a contested bill to criminalize illegal residence in the Netherlands. Ministers are also seeking to restore measures left out of the EU migration pact through separate legislation.",
+        "The government wants an opt-out from EU asylum rules should the bloc's treaties be amended, and it is examining whether rejected asylum seekers could be sent to countries outside the European Union. Lawmakers have already rejected an earlier hardline asylum package, setting up further clashes."
+      ],
+      "sources": [["NL Times","https://nltimes.nl/2026/05/07/dutch-cabinet-pushes-new-law-criminalize-undocumented-stay"],["InfoMigrants","https://www.infomigrants.net/en/post/71031/dutch-lawmakers-reject-proposed-hardline-asylum-bill"]]
+    },
+    {
+      "hero": false,
+      "sub": "Politics & Policy",
+      "h3": "Jetten leads first Dutch minority government in decades",
+      "summary": "The D66-led coalition with VVD and CDA governs 10 seats short of a majority after the 2025 election.",
+      "body": [
+        "Rob Jetten's government, sworn in on February 23, brings together his progressive liberal D66 with the VVD and the Christian Democrats. The three parties hold 66 of the 150 seats in the House of Representatives, leaving them 10 short of a majority.",
+        "It is the Netherlands' first minority government in decades, a fragile arrangement that forces the cabinet to court opposition votes on major bills. The setup helps explain the tough negotiations now playing out over nitrogen, asylum and the budget."
+      ],
+      "sources": [["Wikipedia","https://en.wikipedia.org/wiki/Jetten_cabinet"],["Friedrich Naumann Foundation","https://www.freiheit.org/europe/dutch-liberal-gamble-d66-and-vvd-revitalize-dutch-politics-and-european-cooperation"]]
+    },
+    {
+      "hero": false,
+      "sub": "Economy & Housing",
+      "h3": "Dutch inflation edges up to 3.1 percent as fuel costs jump",
+      "summary": "Inflation rose to 3.1 percent in July, driven by a spike in energy and fuel prices.",
+      "body": [
+        "Dutch inflation ticked up to 3.1 percent in July from 2.9 percent in June, according to a flash estimate from statistics agency CBS. A 9.7 percent jump in energy prices including motor fuels was the main driver of the increase.",
+        "Services inflation held at 4.1 percent while goods bought abroad were 4.8 percent more expensive than a year earlier. The reading keeps inflation above target for a stretch now running two and a half years, squeezing household budgets."
+      ],
+      "sources": [["DutchNews.nl","https://www.dutchnews.nl/2026/07/dutch-inflation-rises-to-3-1-in-july-as-fuel-costs-soar/"],["NL Times","https://nltimes.nl/2026/07/31/high-energy-fuel-prices-push-dutch-inflation-31-july"]]
+    },
+    {
+      "hero": false,
+      "sub": "Economy & Housing",
+      "h3": "House prices hit record 506,000 euros as listings surge",
+      "summary": "The average Dutch home sold for a record 506,000 euros in the second quarter as landlords flooded the market with rentals.",
+      "body": [
+        "The average home in the Netherlands sold for a record 506,000 euros in the second quarter, though the 2.4 percent annual rise was the slowest in years and trailed inflation. Some 56,700 existing homes were newly listed with NVM agents between April and June, the most in any quarter since records began in 1995.",
+        "A wave of landlords selling off rental properties has driven the surge in supply, feeding through to more sales. Analysts say the cooling in price growth marks a sharp shift from last year's 9 percent gains even as homes stay expensive."
+      ],
+      "sources": [["NL Times","https://nltimes.nl/2026/07/09/dutch-home-price-increases-leveling-24-year-year-record-eu506000-nvm"],["DutchNews.nl","https://www.dutchnews.nl/2026/07/record-number-of-dutch-homes-go-on-sale-as-landlords-sell-up/"]]
+    },
+    {
+      "hero": false,
+      "sub": "Economy & Housing",
+      "h3": "ING forecasts record year for Dutch home sales",
+      "summary": "ING expects home sales to reach an all-time high of around 245,000 this year as supply climbs.",
+      "body": [
+        "Bank ING expects the number of homes sold in the Netherlands to hit an all-time high of about 245,000 this year, lifted by the record volume of properties coming onto the market. The forecast reflects the flood of listings from landlords and a still hungry pool of buyers.",
+        "Even so, price growth is projected to slow to around 3 percent as the surge in supply cools the frenzy of recent years. Buyers may find a little more breathing room, though affordability remains stretched."
+      ],
+      "sources": [["NL Times","https://nltimes.nl/2026/07/28/ing-forecasts-record-dutch-home-sales-year"]]
+    },
+    {
+      "hero": false,
+      "sub": "Economy & Housing",
+      "h3": "Schiphol braces for record summer and long passport queues",
+      "summary": "Amsterdam's airport expects a record 12.7 million passengers this summer as new EU entry checks lengthen queues.",
+      "body": [
+        "Amsterdam Schiphol is bracing for a record summer, forecasting more than 12.7 million passengers between early July and late August, up from 12.4 million a year earlier. Spain, the United Kingdom and Greece are leading demand at around 219,000 travelers a day during the peak.",
+        "The rush is being complicated by the EU's new Entry Exit System, which airlines warn could push passport queues toward four hours. High absenteeism among security staff is adding to the strain on the country's largest airport."
+      ],
+      "sources": [["Aviation24","https://www.aviation24.be/airports/amsterdam-schiphol-ams/amsterdam-airport-schiphol-expects-record-summer-traffic-with-12-7-million-passengers-over-holiday-period/"],["DutchReview","https://dutchreview.com/news/longer-passport-queues-at-schiphol-this-summer-06072026/"]]
+    },
+    {
+      "hero": false,
+      "sub": "Society & Culture",
+      "h3": "Netherlands declares official water shortage amid drought",
+      "summary": "Persistent drought and heat have pushed the country into an official Level 2 water shortage.",
+      "body": [
+        "The Netherlands has moved to Level 2, an actual water shortage, after weeks of drought and heat left rivers running unusually low. Little rain has fallen in July and the Rhine and Meuse are carrying warm water at around 25 degrees, with reports of blue green algae and dying fish.",
+        "The classification lets the government roll out water saving measures such as limiting farmers' use of surface water for irrigation, and ships may face delays as locks open less often. Officials stress that drinking water supplies are secure after stocks were topped up before summer."
+      ],
+      "sources": [["DutchNews.nl","https://www.dutchnews.nl/2026/07/the-netherlands-is-officially-in-a-water-shortage/"],["CNN","https://www.cnn.com/2026/07/21/climate/netherlands-drought-water-crisis-europe-heat"]]
+    },
+    {
+      "hero": false,
+      "sub": "Society & Culture",
+      "h3": "August opens hot and sunny as drought deepens",
+      "summary": "The Netherlands is starting August with tropical warmth and abundant sunshine, though the dry spell is set to worsen.",
+      "body": [
+        "August has opened with tropical warmth and plenty of sunshine, with temperatures climbing into the mid to high twenties and touching the low thirties earlier in the week. The bright weather has drawn crowds to beaches, terraces and the WorldPride festivities in Amsterdam.",
+        "The flip side is a deepening drought, with forecasters warning that the lack of rain will keep pressure on rivers and reservoirs. Authorities are urging households and businesses to use water sparingly through the hot spell."
+      ],
+      "sources": [["NL Times","https://nltimes.nl/2026/08/01/august-start-hot-sunny-drought-expected-worsen"],["NL Times","https://nltimes.nl/2026/07/28/bright-sunny-summers-day-ahead-temps-35degc-tomorrow"]]
+    },
+    {
+      "hero": false,
+      "sub": "Society & Culture",
+      "h3": "Summer winds down as August rule changes take hold",
+      "summary": "A string of changes arrives in August, from the fireworks ban to the approaching school return.",
+      "body": [
+        "August brings a batch of changes for residents, headlined by the new consumer fireworks ban and a set of updated rules flagged for expats. Summer holidays are winding down, with schools reopening in stages from mid August across the northern, southern and central regions.",
+        "The transition marks the slow return to routine after a festival heavy stretch of summer. Families are using the final holiday weeks before the school year restarts and workplaces refill."
+      ],
+      "sources": [["IamExpat","https://www.iamexpat.nl/expat-info/dutch-news/august-2026-9-changes-expats-netherlands-need-know-about"]]
+    }
+  ],
+  "mood": {
+    "h3": "Sfeer vandaag",
+    "p": "Amsterdam wakes to bright sun and tropical warmth in the high twenties, ideal weather for the half million people crowding the canals for the WorldPride parade. The festive buzz is tempered by a national water shortage as the drought drags on and rivers run low. The mood is celebratory yet watchful, a country in party mode while keeping one eye on the dry taps and parched fields."
+  }
+}

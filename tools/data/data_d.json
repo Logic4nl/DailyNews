@@ -1,0 +1,325 @@
+{
+  "sports": [
+    {
+      "hero": true,
+      "sub": "Tennis",
+      "h3": "Canadian Open opens in Toronto and Montreal missing its biggest names",
+      "summary": "The National Bank Open began its two-week run on August 1 without Jannik Sinner, Carlos Alcaraz or Novak Djokovic in the men's field.",
+      "body": [
+        "The Masters 1000 and WTA 1000 event runs from August 1 to August 13, with the women playing in Toronto and the men in Montreal. Sinner skipped the tournament after claiming his second straight Wimbledon crown, citing a schedule change following a punishing grass-court run. Alcaraz stayed away to keep nursing a wrist problem, while Djokovic also pulled out of Montreal.",
+        "The withdrawals reshaped the draws and handed openings to the players who did show up. Germany's Alexander Zverev, the 2026 Roland-Garros champion, leads the Montreal field as top seed, with Felix Auger-Aliassime seeded second and standing as the highest-seeded Canadian in the tournament's history. Both finals are set for August 13."
+      ],
+      "sources": [
+        ["ESPN", "https://www.espn.com/tennis/story/_/id/49442121/jannik-sinner-novak-djokovic-withdraw-montreal-masters-1000-tournament-national-bank-open"],
+        ["National Bank Open", "https://nationalbankopen.com/news/read/2026/top-seeds-toronto-montreal-zverev-auger-aliassime-sabalenka-rybakina"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Tennis",
+      "h3": "Sabalenka and Rybakina headline the WTA draw in Toronto",
+      "summary": "Four-time Grand Slam champion Aryna Sabalenka is the top seed in Toronto with Elena Rybakina close behind as the women's field gets underway.",
+      "body": [
+        "The WTA 1000 event in Toronto opened alongside the men's tournament in Montreal, with Sabalenka leading the seedings and Rybakina among the leading contenders. The draw offers ranking points and hard-court form heading into the North American summer swing.",
+        "As with the men, the women's field was thinned by late withdrawals, and questions swirled over whether Sabalenka herself would ultimately play through the fortnight. The champions on both sides will be crowned on August 13."
+      ],
+      "sources": [
+        ["National Bank Open", "https://nationalbankopen.com/news/read/2026/top-seeds-toronto-montreal-zverev-auger-aliassime-sabalenka-rybakina"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Sailing",
+      "h3": "Spain win in Portsmouth as SailGP delivers its tightest racing yet",
+      "summary": "Diego Botin's Spain took top spot at the Emirates Great Britain Sail Grand Prix in Portsmouth, where every fleet race went to a different team.",
+      "body": [
+        "The eighth event of the 2026 SailGP season wrapped up on July 26 with Spain edging Sweden and Canada in the podium race. All ten group races across the weekend were won by different crews, the most open racing the campaign has seen so far.",
+        "The British home team finished runner-up for their third podium of the season, breaking into the top three for the first time this year. The circuit now heads into a break before the ROCKWOOL Germany Sail Grand Prix in Sassnitz on August 22 and 23."
+      ],
+      "sources": [
+        ["Sailing World", "https://www.sailingworld.com/racing/sailgps-los-gallos-keep-streak/"],
+        ["Scuttlebutt Sailing News", "https://www.sailingscuttlebutt.com/2026/07/26/spain-win-at-sailgp-portsmouth/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Sailing",
+      "h3": "America's Cup fleet in Naples swells with late entries",
+      "summary": "Organisers of the 2027 America's Cup in Naples say late entries will boost the challenger fleet for the July 2027 showdown.",
+      "body": [
+        "The 38th America's Cup will be raced in Naples, Italy, with the match itself scheduled for July 10 to 18, 2027. Emirates Team New Zealand defends as holder, while a growing group of challengers including Athena Racing, Luna Rossa, Alinghi and American Racing fight through the Louis Vuitton Cup to reach the final.",
+        "The organisers extended the entry deadline to the end of March to draw more teams, and additional syndicates have since signalled interest. The larger fleet points to one of the most contested challenger series in recent editions."
+      ],
+      "sources": [
+        ["RNZ", "https://www.rnz.co.nz/news/sport/591199/america-s-cup-late-entries-to-swell-naples-fleet-in-2027"],
+        ["Emirates Team New Zealand", "https://emirates-team-new-zealand.americascup.com/en/news/813_2027-THE-LOUIS-VUITTON-38TH-AMERICA-S-CUP-MAY-JULY-2027.html"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Formula 1",
+      "h3": "Norris beats Verstappen to win a dramatic Hungarian GP",
+      "summary": "Lando Norris converted pole into victory at the Hungaroring on July 26, holding off Max Verstappen and Kimi Antonelli before the summer break.",
+      "body": [
+        "The eleventh round of the season delivered Norris and McLaren their first win of the year, a twelfth career victory for the Briton and a third straight McLaren triumph at the Hungarian circuit. Verstappen took second ahead of Antonelli, with Charles Leclerc and Lewis Hamilton completing the top five for Ferrari.",
+        "The result closed out the first half of the campaign on a high for McLaren and gave Verstappen a morale boost after a run of setbacks. The grid now pauses for the traditional August shutdown before racing resumes later in the month."
+      ],
+      "sources": [
+        ["Formula 1", "https://www.formula1.com/en/latest/article/norris-beats-verstappen-and-antonelli-to-victory-in-dramatic-hungarian-gp.5JQmohRAKABD2asRsMWogj"],
+        ["The Race", "https://www.the-race.com/formula-1/f1-2026-hungarian-grand-prix-results/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Formula 1",
+      "h3": "Verstappen exit clause dominates the F1 summer break",
+      "summary": "With Max Verstappen unable to finish the first half of the season in the top two, his Red Bull exit clause has become the talk of the paddock.",
+      "body": [
+        "Verstappen's deal runs to 2028 but includes a clause letting him leave for 2027 if he sits outside the championship's top two at the summer break. Sitting well down the order after a rough run, the Dutchman now meets that condition, opening the door to a move that reports link to both McLaren and Mercedes.",
+        "Red Bull tried to buy out the escape route earlier in the year but was rebuffed. Team figures have played down the prospect of a decision landing during the shutdown, yet the saga is set to shape the driver market for months."
+      ],
+      "sources": [
+        ["ESPN", "https://www.espn.com/racing/f1/story/_/id/45965617/state-silly-season-drive-where-f1-2026"],
+        ["Sky Sports", "https://www.skysports.com/f1/live-blog/12433/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Football",
+      "h3": "PSV face AZ for the Johan Cruijff Schaal in Eindhoven",
+      "summary": "The Dutch season's curtain-raiser pits champions PSV against cup winners AZ at the Philips Stadion on August 2.",
+      "body": [
+        "PSV enter the Johan Cruijff Schaal as record fifteen-time winners and take part for a record eighth year running as they chase more silverware. AZ arrive as the KNVB Cup holders, appearing in the Super Cup for just the third time in their history.",
+        "The match traditionally opens the domestic calendar and gives both sides a competitive test before the league begins. A win would let either club set the tone for the campaign ahead."
+      ],
+      "sources": [
+        ["AZ Alkmaar", "https://www.az.nl/inside-az/nieuws/2026/juli/alles-over-de-johan-cruijff-schaal"],
+        ["Wikipedia", "https://nl.wikipedia.org/wiki/Johan_Cruijff_Schaal_2026"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Football",
+      "h3": "Eredivisie set to kick off on August 7 after busy preseason",
+      "summary": "The 2026-27 Eredivisie campaign starts on August 7, capping weeks of preseason friendlies for the Dutch top flight.",
+      "body": [
+        "Clubs have used July to sharpen up against European opposition, with Ajax facing Olympiakos, PSV meeting Villarreal and Feyenoord taking on Club Brugge and Rayo Vallecano. The tune-ups gave managers a look at new signings and fitness ahead of the opening weekend.",
+        "Feyenoord round off their warm-up program against Atalanta on August 2 before the league gets underway. The season opener sets up another three-way title race between PSV, Ajax and Feyenoord."
+      ],
+      "sources": [
+        ["Eredivisie", "https://eredivisie.com/news/first-matchweek-2026-2027/"],
+        ["FCUpdate", "https://www.fcupdate.nl/voetbalnieuws/2026/07/voorbereiding-eredivisie-202627-alle-oefenwedstrijden-op-een-rij"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Combat Sports",
+      "h3": "ADCC Worlds head to Krakow in a first for Europe",
+      "summary": "The Abu Dhabi Combat Club has confirmed its 2026 World Championship for Krakow, Poland on September 12 and 13.",
+      "body": [
+        "The submission grappling showpiece will take over the TAURON Arena Krakow, billed as the largest grappling event ever staged in Europe with nearly 12,000 seats. An amateur world championship on September 11 turns the weekend into a three-day festival of no-gi grappling.",
+        "The choice marks a major return to Europe for ADCC, whose last continental worlds were held in Finland in 2017. It is also the first edition outside Las Vegas since 2019, underlining the sport's growth across the region."
+      ],
+      "sources": [
+        ["FloGrappling", "https://www.flograppling.com/articles/14439885-confirmed-adcc-worlds-coming-to-poland-in-2026-venue-dates-set"],
+        ["BJJ Eastern Europe", "https://www.bjjee.com/bjj-news/adcc-confirms-2026-world-championships-will-take-place-in-krakow-poland/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Combat Sports",
+      "h3": "ADCC trials send fresh qualifiers toward the Krakow worlds",
+      "summary": "Regional ADCC trials have continued to fill the World Championship brackets, with eight athletes booking spots at the Asia and Oceania event.",
+      "body": [
+        "The Asia and Oceania trials produced a string of standout results, including Belal Etiabari becoming the first New Zealander to win an ADCC trials title at over 99kg. Kanae Ikeda upset the favorites to take the under 55kg bracket, while Nadia Frankland finally claimed a trials crown at under 65kg.",
+        "South American trials in Rio and Sao Paulo added more qualifiers to the mix, each sending winners on to Poland. The qualifying grind sets up a deep and unpredictable field for September."
+      ],
+      "sources": [
+        ["FloGrappling", "https://www.flograppling.com/articles/16009759-2026-adcc-asia-oceania-trials-recap-8-qualify-in-australia"],
+        ["Jits Magazine", "https://jitsmagazine.com/adcc-asia-oceania-trials-2026-full-results-and-highlights/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Football",
+      "h3": "Feyenoord close preseason with Atalanta test",
+      "summary": "Feyenoord wrap up their summer warm-up schedule against Serie A side Atalanta on August 2 before the Eredivisie restart.",
+      "body": [
+        "The Rotterdam club lined up a demanding set of friendlies, taking on Club Brugge, Charleroi and Rayo Vallecano before meeting Atalanta. The Italian opposition offers a final gauge of sharpness ahead of competitive action.",
+        "With the league opening on August 7, the match doubles as a last chance to bed in tactics and give minutes to squad players. Feyenoord will want a strong showing to carry momentum into the new season."
+      ],
+      "sources": [
+        ["FCUpdate", "https://www.fcupdate.nl/voetbalnieuws/2026/07/voorbereiding-eredivisie-202627-alle-oefenwedstrijden-op-een-rij"]
+      ]
+    }
+  ],
+  "consumer-tech": [
+    {
+      "hero": true,
+      "sub": "EVs & Mobility",
+      "h3": "Tesla widens Florida robotaxi rollout and puts Model Y L on sale",
+      "summary": "Tesla expanded its robotaxi service to Tampa and Orlando and opened US orders for the three-row Model Y L Launch Series.",
+      "body": [
+        "After launching driverless rides in Miami over the July 4 weekend, Tesla added Tampa and Orlando to its robotaxi map, using small geofenced zones for the initial rollout. Cybercab prototypes without steering wheels are also being tested under supervision in Austin.",
+        "On the retail side, Tesla listed the larger Model Y L in a Launch Series trim priced at 61,990 dollars before fees, with deliveries slated between September and October. Early buyers get a year of free Full Self-Driving, part of the company's push to lift software attach rates."
+      ],
+      "sources": [
+        ["Tesla Oracle", "https://www.teslaoracle.com/2026/07/22/tesla-launches-robotaxi-service-in-two-more-florida-cities/"],
+        ["Tesla Oracle", "https://www.teslaoracle.com/2026/07/11/tesla-tsla-puts-model-y-l-launch-series-for-sale-in-the-us/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "Rivian raises 2026 guidance as R2 deliveries begin",
+      "summary": "Rivian topped its Q2 delivery outlook and lifted its full-year forecast as the new R2 mid-size SUV started reaching customers.",
+      "body": [
+        "Rivian built 12,613 vehicles and delivered 12,194 in the second quarter, beating its own 9,000 to 11,000 target thanks to strong demand for its vans and R1 line plus the first R2 handovers. The compact, high-volume R2 began rolling off the Normal, Illinois line and reaching buyers from mid-June.",
+        "On the back of that progress the company raised full-year delivery guidance to a range of 65,000 to 70,000 vehicles. Rivian also improved its earnings outlook and trimmed planned capital spending for the year."
+      ],
+      "sources": [
+        ["Electrek", "https://electrek.co/2026/07/30/rivian-rivn-q2-2026-earnings-r2-deliveries-revenue-up-27/"],
+        ["InsideEVs", "https://insideevs.com/news/787190/rivian-r2-deliveries-2026-volume/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "BYD posts record overseas sales as it presses its global push",
+      "summary": "BYD reported a 21.8 percent sales jump in July with overseas deliveries hitting a fresh record of nearly 180,000 units.",
+      "body": [
+        "The Chinese automaker sold a record 179,841 vehicles abroad in July, up more than 124 percent year over year and accounting for roughly 43 percent of the month's total. The surge keeps BYD on track to reclaim the crown as the world's top seller of fully electric cars.",
+        "BYD is also readying a wave of Europe-specific models, starting with the Dolphin G plug-in hybrid that opens at 28,990 euros in Germany. Local production in Hungary and further launches are meant to blunt tariff pressure and win over European buyers."
+      ],
+      "sources": [
+        ["CnEVPost", "https://cnevpost.com/2026/08/01/byd-jul-2026-sales/"],
+        ["Autocar", "https://www.autocar.co.uk/car-news/new-cars/byd-launch-new-wave-european-specific-models"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "Ford tests its 30,000 dollar electric pickup on public roads",
+      "summary": "Ford's affordable midsize electric truck, built on a new Universal EV platform, began public testing near Detroit ahead of a 2027 launch.",
+      "body": [
+        "Prototypes of Ford's low-cost pickup were spotted running in Dearborn, the first product from the automaker's skunkworks team based in Long Beach, California. The truck uses cost-cutting LFP batteries and targets a starting price around 30,000 dollars while offering more passenger room than a Toyota RAV4.",
+        "Ford has framed the Universal EV platform as its Model T moment, a clean-sheet architecture designed to underpin several affordable electric models. The company says the pickup will lead the lineup when production begins in 2027."
+      ],
+      "sources": [
+        ["Carscoops", "https://www.carscoops.com/2026/07/ford-electric-truck-spied/"],
+        ["Tom's Guide", "https://www.tomsguide.com/vehicle-tech/evs/ford-reveals-its-model-t-ev-moment-with-an-affordable-usd30-000-electric-pickup"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "WhatsApp adds usernames and a wave of new features",
+      "summary": "WhatsApp rolled out reservable usernames, iPad registration and in-app PDF tools in one of its biggest feature drops of the year.",
+      "body": [
+        "The update lets users claim a unique username and gives creators and businesses the option to reuse the handle they already hold on Instagram or Facebook, keeping identities consistent across Meta's apps. The release also brought direct account setup on iPad, a reworked CarPlay and Android Auto experience and music sharing through Status.",
+        "WhatsApp now lets people open PDFs inside a chat without downloading them and make lightweight edits like highlighting and annotation. The changes lean into how people juggle work and personal messaging on the platform."
+      ],
+      "sources": [
+        ["Meta", "https://about.fb.com/news/2026/07/new-whatsapp-features-keep-up-with-the-way-you-actually-live/"],
+        ["Stuff", "https://stuff.co.za/2026/07/23/whatsapp-borrows-another-instagram-feature/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "iOS 26.6 lands and quietly preps iPhones for iOS 27",
+      "summary": "Apple released iOS 26.6 on July 27 with bug fixes and a Spotlight change that lays the groundwork for this fall's iOS 27.",
+      "body": [
+        "The update is a modest one for day-to-day users, bundling security patches and stability fixes rather than headline features. Its most consequential change optimizes the Spotlight index in preparation for the next major release.",
+        "Apple's engineering attention has largely shifted to iOS 27, which is expected to arrive alongside the iPhone 18 Pro in the fall. Reports suggest the standard iPhone 18 and an iPhone 18 Air could slip to spring 2027."
+      ],
+      "sources": [
+        ["9to5Mac", "https://9to5mac.com/2026/07/27/ios-26-6-now-available-whats-new/"],
+        ["Forbes", "https://www.forbes.com/sites/ewanspence/2026/07/31/apple-news-headlines-iphone-18-pro-release-date-ios-26-6-upgrade-macbook-pro-touch-display/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "Windows 11 Copilot starts showing images in its answers",
+      "summary": "Microsoft updated Copilot in Windows 11 so it can surface relevant images from files and meetings directly inside responses.",
+      "body": [
+        "Rolled out in late July, the change moves Copilot beyond text-only replies by pulling in visuals from documents and meeting content to add context. Microsoft says the goal is to make answers easier to understand at a glance.",
+        "The company also expanded its Agent Store, letting organizations submit agents built in Agent Builder for admin review and publication. Together the moves push Microsoft's AI assistant deeper into everyday workflows."
+      ],
+      "sources": [
+        ["Releasebot", "https://releasebot.io/updates/microsoft/microsoft-copilot"],
+        ["Windows Latest", "https://www.windowslatest.com/2026/07/30/sorry-outlook-classic-holdouts-you-cant-escape-microsoft-copilot-and-the-button-is-getting-bigger/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "Samsung unveils Galaxy Z Fold 8 and Flip 8 lineup",
+      "summary": "Samsung used its July Unpacked in London to reveal the Galaxy Z Fold 8, a new Fold 8 Ultra and the Z Flip 8, all shipping August 7.",
+      "body": [
+        "The Z Fold 8 grows wider and shorter, opening to an interior screen closer to a small tablet, while the Fold 8 Ultra carries a thin build, triple cameras and a silicon-carbon battery. The Z Flip 8 keeps a familiar look but trims thickness, weight and bezel size.",
+        "Samsung also teased new Galaxy Watches and previewed smart glasses made with Gentle Monster and Warby Parker, its first entry into a category dominated by Meta. The full lineup went on sale August 7."
+      ],
+      "sources": [
+        ["Engadget", "https://www.engadget.com/2219690/samsung-galaxy-unpacked-july-2026-live-blog-z-fold-8-launch/"],
+        ["Tom's Guide", "https://www.tomsguide.com/news/live/samsung-galaxy-unpacked-2026-live"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "Google sets August 12 for Pixel 11 and Pixel Watch 5",
+      "summary": "Google will hold its Made by Google event on August 12 in New York, where the Pixel 11 family and Pixel Watch 5 are expected.",
+      "body": [
+        "The show, moved to a prime-time evening slot, should bring the Pixel 11, 11 Pro, 11 Pro XL and 11 Pro Fold alongside a two-size Pixel Watch 5 and new Pixel Buds. Leaks point to a brighter Samsung OLED panel, 256GB of base storage and a possible price bump.",
+        "Powering the phones is Google's Tensor G6, reportedly built on a TSMC 2nm process. Rumors also suggest the Pixel 11 Pro could add interactive LED lighting around its camera bar."
+      ],
+      "sources": [
+        ["9to5Google", "https://9to5google.com/2026/07/07/made-by-google-2026-invite/"],
+        ["Digital Trends", "https://www.digitaltrends.com/phones/made-by-google-august-2026-everything-we-expect-from-the-pixel-11-launch-event/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "Meta smart glasses sales nearly double as lineup expands",
+      "summary": "Meta says revenue from its AI glasses roughly doubled year over year in Q2, and new self-branded and Ray-Ban models are on the way.",
+      "body": [
+        "Sales of Meta's camera glasses nearly doubled in the second quarter, and the company now expects to hit its 10 million unit production goal ahead of schedule while weighing a jump to 20 million pairs a year. The momentum underlines how quickly the wearable category is maturing.",
+        "Meta recently launched its first self-branded models, the 299 dollar Adventurer and Fury plus a pricier Starfire edition, moving beyond the Ray-Ban name for some products. FCC filings suggest two more Ray-Ban branded pairs are also being prepared."
+      ],
+      "sources": [
+        ["CNBC", "https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html"],
+        ["Road to VR", "https://roadtovr.com/meta-ray-ban-smart-glasses-2026-next-gen/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "Switch 2 nears 20 million sold as Splatoon Raiders lands",
+      "summary": "Nintendo's Switch 2 is tracking just under 20 million units worldwide, with Splatoon Raiders topping the Japanese charts in late July.",
+      "body": [
+        "As of the end of July the console's global sell-through sat just shy of 20 million, keeping it ahead of the PlayStation 5 at the same point. A price increase in Japan in May did little to dent demand, a sign an announced US hike may not either.",
+        "The spin-off Splatoon Raiders was the week's best-selling new game at more than 474,000 retail copies in Japan, and the Xenoblade Chronicles 2 Switch 2 Edition arrived on July 30 with 4K output and fresh content. A summer sale is helping keep the software pipeline busy."
+      ],
+      "sources": [
+        ["Gematsu", "https://www.gematsu.com/2026/07/famitsu-sales-7-20-26-7-26-26"],
+        ["My Nintendo News", "https://mynintendonews.com/2026/07/30/us-nintendo-download-for-30th-july-2026/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "Garmin launches the 199 dollar Cirqa smart ring",
+      "summary": "Garmin released its Cirqa wearable on July 24, priced at 199.99 dollars as a one-off purchase with core metrics free in Garmin Connect.",
+      "body": [
+        "Announced on July 21 and available three days later, the Cirqa marks Garmin's push into the smart ring space against rivals like Oura and Samsung. Core health and activity metrics are included in the Garmin Connect app without a subscription.",
+        "The flat purchase price stands out in a category where many competitors lock features behind monthly fees. It gives Garmin's fitness-focused user base a discreet tracking option to pair with its watches."
+      ],
+      "sources": [
+        ["the5krunner", "https://the5krunner.com/2026/07/10/garmin-cirqa-launch-dates-july/"]
+      ]
+    }
+  ]
+}
