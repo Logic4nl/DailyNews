@@ -1,256 +1,362 @@
 {
- "sports": [
-  {
-   "hero": true,
-   "sub": "Tennis",
-   "h3": "National Bank Open under way in Canada",
-   "summary": "The combined ATP and WTA 1000 events opened in Montreal and Toronto, running August 1 to 13.",
-   "body": [
-    "The 2026 National Bank Open presented by Rogers began August 1 with qualifying, and main-draw play runs from August 2 through August 13. The women's event is at Sobeys Stadium in Toronto and the men's at IGA Stadium in Montreal.",
-    "The Canadian hardcourt swing is a key tune-up ahead of the North American summer, with ranking points and momentum on the line before the season's later majors."
-   ],
-   "sources": [
-    [
-     "Wikipedia",
-     "https://en.wikipedia.org/wiki/2026_National_Bank_Open"
-    ],
-    [
-     "Tennis Connected",
-     "https://tennisconnected.com/national-bank-open-2026-schedule-of-play-for-sunday-august-2/"
-    ]
-   ]
-  },
-  {
-   "sub": "Formula 1",
-   "h3": "Norris wins in Hungary to open title defence",
-   "summary": "Lando Norris took his first grand prix victory of the season at the Hungaroring, lifting his points tally.",
-   "body": [
-    "Lando Norris claimed victory at the 2026 Hungarian Grand Prix over 70 laps of the Hungaroring, the opening win of his title defence. The result moved him to 128 points.",
-    "The win came just before Formula 1's summer break, giving Norris and his team momentum to carry into the second half of the championship."
-   ],
-   "sources": [
-    [
-     "The Race",
-     "https://www.the-race.com/formula-1/f1-2026-hungarian-grand-prix-results/"
-    ],
-    [
-     "Formula 1",
-     "https://www.formula1.com/en/racing/2026/hungary"
-    ]
-   ]
-  },
-  {
-   "sub": "Formula 1",
-   "h3": "F1 heads into its summer break",
-   "summary": "With Hungary done, the paddock pauses before the second half of the 2026 season resumes.",
-   "body": [
-    "The Hungarian Grand Prix marked the traditional start of Formula 1's summer shutdown, a mandated break before the championship reconvenes for its run to the finish.",
-    "Teams use the pause to regroup and plan upgrades, while the title picture stays open heading into the decisive stretch."
-   ],
-   "sources": [
-    [
-     "Forbes",
-     "https://www.forbes.com/sites/yaraelshebiny/2026/07/26/f1-standings-2026-after-the-hungarian-grand-prix/"
-    ]
-   ]
-  },
-  {
-   "sub": "Football",
-   "h3": "Eredivisie season kicks off August 7",
-   "summary": "The 71st edition of the Dutch top flight begins this week, running through May 2027.",
-   "body": [
-    "The 2026-27 Eredivisie is scheduled to start on August 7 and conclude on May 23, 2027, opening a fresh domestic campaign as clubs finalise their squads.",
-    "The new season reopens the familiar contest between the traditional powers and the chasing pack for European places."
-   ],
-   "sources": [
-    [
-     "Wikipedia",
-     "https://en.wikipedia.org/wiki/2026%E2%80%9327_Eredivisie"
-    ]
-   ]
-  },
-  {
-   "sub": "Sailing",
-   "h3": "SailGP season six rolls on",
-   "summary": "The Rolex SailGP Championship continues its global circuit through late November.",
-   "body": [
-    "The 2026 SailGP Championship, the sixth season, is contested over thirteen sail grands prix at venues around the world, running from January to November.",
-    "The high-speed foiling series keeps building its calendar as national teams chase points across the season's international stops."
-   ],
-   "sources": [
-    [
-     "Wikipedia",
-     "https://en.wikipedia.org/wiki/2026_SailGP_championship"
-    ]
-   ]
-  },
-  {
-   "sub": "Tennis",
-   "h3": "Canada draws set the North American swing",
-   "summary": "Main-draw action in Montreal and Toronto gets fully under way this week.",
-   "body": [
-    "After qualifying opened the tournament, the main draws in Montreal and Toronto begin their run through August 13, with top players entering the North American hardcourt stretch.",
-    "Results here shape seedings and confidence for the events that follow later in the summer."
-   ],
-   "sources": [
-    [
-     "LTA",
-     "https://www.lta.org.uk/news/national-bank-open-2026-preview-draws-player-list-how-to-watch/"
-    ]
-   ]
-  },
-  {
-   "sub": "Football",
-   "h3": "Dutch clubs finish pre-season prep",
-   "summary": "Eredivisie sides wrap friendlies and fitness work ahead of the opening weekend.",
-   "body": [
-    "With kickoff days away, Eredivisie clubs are completing pre-season friendlies and conditioning, finalising line-ups and any late transfer business.",
-    "The opening fixtures will give the first read on which squads have gelled and which still have work to do."
-   ],
-   "sources": [
-    [
-     "Wikipedia",
-     "https://en.wikipedia.org/wiki/2026%E2%80%9327_Eredivisie"
-    ]
-   ]
-  },
-  {
-   "sub": "Formula 1",
-   "h3": "Title race stays tight after Hungary",
-   "summary": "Norris's win reshuffled the standings but left the championship fight wide open.",
-   "body": [
-    "Norris's Hungarian victory strengthened his position in the standings without settling the title picture, keeping several drivers in contention as the season pauses.",
-    "The second half of the calendar will decide whether his defence gathers pace or the field closes the gap."
-   ],
-   "sources": [
-    [
-     "Forbes",
-     "https://www.forbes.com/sites/yaraelshebiny/2026/07/26/f1-standings-2026-after-the-hungarian-grand-prix/"
-    ]
-   ]
-  }
- ],
- "consumer-tech": [
-  {
-   "hero": true,
-   "sub": "Devices & Launches",
-   "h3": "TechRadar's August picks favor OLED and audio",
-   "summary": "The month's standout gadgets include Samsung's S95H OLED TV, the Marshall Stanmore IV speaker and the GoPro Mission 1 Pro.",
-   "body": [
-    "TechRadar's August roundup highlighted the Samsung S95H, calling it one of the best OLED TVs it has tested, alongside the Marshall Stanmore IV speaker praised for its bass and amp-inspired look.",
-    "The GoPro Mission 1 Pro camera also featured, rounding out a month weighted toward display quality and premium audio rather than radical new categories."
-   ],
-   "sources": [
-    [
-     "TechRadar",
-     "https://www.techradar.com/tech/top-tech-of-the-month-the-best-new-gadgets-weve-tested-for-august-2026"
-    ]
-   ]
-  },
-  {
-   "sub": "Devices & Launches",
-   "h3": "Samsung Galaxy Z Fold 8 pre-registration closes",
-   "summary": "The foldable's sign-up window is ending, with a smaller bonus than last year.",
-   "body": [
-    "Samsung's Galaxy Z Fold 8 pre-registration period is closing, and this year's sign-up bonus is smaller than the one offered previously.",
-    "The new Ultra foldable is pitched with a brighter anti-glare screen, a bigger battery and experiential design upgrades as Samsung defends its lead in large foldables."
-   ],
-   "sources": [
-    [
-     "TechRadar",
-     "https://www.techradar.com/"
-    ]
-   ]
-  },
-  {
-   "sub": "Software & Services",
-   "h3": "Apple hides Siri text-editing tools in macOS 27 beta",
-   "summary": "Apple has tucked a suite of Siri-powered AI text-editing features into the latest macOS beta.",
-   "body": [
-    "Apple placed a set of Siri AI text-editing tools inside the macOS 27 beta, an early look at how the company plans to weave generative features deeper into the desktop.",
-    "The quiet rollout suggests Apple is testing capabilities ahead of a broader push, keeping expectations measured until a formal release."
-   ],
-   "sources": [
-    [
-     "Yahoo Tech",
-     "https://tech.yahoo.com/computing/articles/icymi-weeks-7-biggest-tech-080040944.html"
-    ]
-   ]
-  },
-  {
-   "sub": "Software & Services",
-   "h3": "Apple raises iPhone 17 prices in Japan",
-   "summary": "Apple officially lifted iPhone 17 pricing in the Japanese market.",
-   "body": [
-    "Apple raised iPhone 17 prices in Japan, adjusting to currency and cost pressures in a major market.",
-    "Regional pricing moves like this are watched closely as a signal of how Apple is balancing margins against demand in a competitive smartphone landscape."
-   ],
-   "sources": [
-    [
-     "Yahoo Tech",
-     "https://tech.yahoo.com/computing/articles/icymi-weeks-7-biggest-tech-080040944.html"
-    ]
-   ]
-  },
-  {
-   "sub": "Devices & Launches",
-   "h3": "Hisense PX4 Pro brings 200-inch cinema home",
-   "summary": "The ultra-short-throw laser projector teased at CES pairs 3,500 lumens with Devialet audio.",
-   "body": [
-    "Hisense's PX4 Pro ultra-short-throw laser projector, first teased at CES 2026, offers 3,500 lumens and Devialet audio, aiming to deliver a 200-inch home cinema experience.",
-    "The projector reflects a broader push to make big-screen home viewing brighter and more capable without a dedicated theater room."
-   ],
-   "sources": [
-    [
-     "TechRadar",
-     "https://www.techradar.com/tech/top-tech-of-the-month-the-best-new-gadgets-weve-tested-for-august-2026"
-    ]
-   ]
-  },
-  {
-   "sub": "Devices & Launches",
-   "h3": "Foldables push brighter screens and bigger batteries",
-   "summary": "This year's flagship foldables lean on display and battery upgrades over reinvention.",
-   "body": [
-    "The latest foldables, led by Samsung's Ultra, emphasise brighter anti-glare displays, larger batteries and design refinements rather than dramatic new form factors.",
-    "The incremental approach suggests the category is maturing, with makers competing on polish and everyday usability."
-   ],
-   "sources": [
-    [
-     "TechRadar",
-     "https://www.techradar.com/"
-    ]
-   ]
-  },
-  {
-   "sub": "Software & Services",
-   "h3": "AI features spread across everyday apps",
-   "summary": "From Siri editing tools to on-device assistants, generative features keep seeping into mainstream software.",
-   "body": [
-    "The steady arrival of AI text and productivity tools in mainstream operating systems shows how quickly generative features are becoming table stakes rather than novelties.",
-    "For users, the payoff is convenience baked into familiar apps, though the pace also raises ongoing questions about privacy and reliability."
-   ],
-   "sources": [
-    [
-     "Yahoo Tech",
-     "https://tech.yahoo.com/computing/articles/icymi-weeks-7-biggest-tech-080040944.html"
-    ]
-   ]
-  },
-  {
-   "sub": "Devices & Launches",
-   "h3": "CES 2026 launches still filtering to shelves",
-   "summary": "Gadgets teased in January are reaching reviewers and buyers through the summer.",
-   "body": [
-    "Several products first shown at CES 2026, including the Hisense PX4 Pro, are only now reaching testing and availability, a reminder of the long gap between announcement and shelf.",
-    "The cadence keeps a steady stream of new hardware arriving even in a quieter part of the tech calendar."
-   ],
-   "sources": [
-    [
-     "Engadget",
-     "https://www.engadget.com/general/all-the-tech-and-gadgets-announced-at-ces-2026-130124023.html"
-    ]
-   ]
-  }
- ]
+  "sports": [
+    {
+      "hero": true,
+      "sub": "Tennis",
+      "h3": "National Bank Open in full swing across Montreal and Toronto",
+      "summary": "The Canadian hard court double is underway with the men in Montreal and women in Toronto, though several headliners are sitting this one out.",
+      "body": [
+        "The 2026 National Bank Open is deep into its opening rounds this week, running from August 1 through the finals on August 13. The men play the Masters 1000 event at IGA Stadium in Montreal while the women contest the WTA 1000 at Sobeys Stadium in Toronto.",
+        "World number one Jannik Sinner and Novak Djokovic both opted to skip Montreal, thinning the top of the men's draw and opening a path for the next tier of contenders. Tuesday's Montreal order of play featured names like Draper, Hurkacz, Cerundolo and Monfils working through the early rounds.",
+        "The expanded two week format gives players extra rest days before the Cincinnati swing and the US Open series ramps up later in the month."
+      ],
+      "sources": [
+        ["ATP Tour", "https://www.atptour.com/en/news/montreal-2026-atp-masters-1000-history-draw-schedule"],
+        ["Tennis Grandstand", "https://tennisgrandstand.com/2026/07/27/tennis-news-this-week-sinner-djokovic-montreal-alcaraz/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Tennis",
+      "h3": "Gauff tops Toronto field as Andreescu draws Krejcikova",
+      "summary": "Coco Gauff leads the WTA Canadian Open draw in Toronto, where two former Slam champions meet in an early blockbuster.",
+      "body": [
+        "The WTA 1000 in Toronto features a stacked field led by Aryna Sabalenka, Elena Rybakina, Jessica Pegula and Coco Gauff at the top of the seeding. Mirra Andreeva, Linda Noskova, Iga Swiatek and Amanda Anisimova round out the top eight.",
+        "One of the early standout matchups pits home favourite Bianca Andreescu against two time major winner Barbora Krejcikova, a first round clash of Slam champions that would headline most tournaments.",
+        "Filipino breakout star Alex Eala earned a seeding boost after a strong run of results, underlining how quickly the WTA pecking order is shifting this season."
+      ],
+      "sources": [
+        ["WTA", "https://www.wtatennis.com/news/4324523/montreal-draw-gauff-tops-field-slam-champs-andreescu-and-krejcikova-to-meet"],
+        ["Yahoo Sports", "https://sports.yahoo.com/articles/canadian-open-wta-toronto-draw-182549265.html"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Tennis",
+      "h3": "Alcaraz cleared to return and eyeing Cincinnati comeback",
+      "summary": "Carlos Alcaraz has been given the all clear after a wrist injury and is targeting the Cincinnati Masters for his return.",
+      "body": [
+        "Doctors have confirmed that Alcaraz's right wrist has fully recovered from the severe tenosynovitis that flared in mid April. The injury forced him to miss the French Open, Wimbledon and Montreal, a brutal stretch of lost points at his best surfaces.",
+        "The Spaniard is skipping the Canadian swing but plans to reappear at the Cincinnati Masters, giving himself a hard court tune up ahead of the US Open.",
+        "His absence has let Sinner stretch a commanding lead atop the rankings, so Alcaraz returns with plenty to chase in the back half of the season."
+      ],
+      "sources": [
+        ["Tennis365", "https://www.tennis365.com/tennis-news/carlos-alcaraz-schedule-what-tournaments-signed-up-tennis-return"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Tennis",
+      "h3": "Sinner's relentless run pads his lead at the top",
+      "summary": "Jannik Sinner heads into August as world number one after a second straight Wimbledon title and a near flawless first half.",
+      "body": [
+        "Sinner has won six of the seven biggest events since early February, becoming the first player to sweep the opening five Masters 1000 titles of a season at Indian Wells, Miami, Monte Carlo, Madrid and Rome.",
+        "That completed his Career Golden Masters and, paired with a second consecutive Wimbledon crown, pushed him past Alcaraz in their ongoing big title battle.",
+        "With Alcaraz sidelined for much of the clay and grass swing, Sinner enters the North American hard courts as the clear favourite to keep the number one ranking through the US Open."
+      ],
+      "sources": [
+        ["ATP Tour", "https://www.atptour.com/en/news/sinner-wimbledon-2026-big-titles"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Brazilian Jiu-Jitsu & Judo",
+      "h3": "ADCC World Championship heads to Krakow for the first time",
+      "summary": "The 2026 ADCC World Championship will be held at Tauron Arena in Krakow, Poland, marking the country's first time hosting the sport's biggest no gi event.",
+      "body": [
+        "ADCC has confirmed its flagship World Championship for September 12 and 13 at the 15,000 seat Tauron Arena Krakow. It is the first time Poland has staged the event and the first Worlds since Las Vegas in 2024.",
+        "The best submission grapplers on the planet, including reigning champions, trials winners and elite invitees, will fight for the most prestigious title in no gi grappling. The event streams exclusively on FloSports.",
+        "With qualification wrapping up through the trials system, the athlete list is nearly locked as the countdown to Krakow begins."
+      ],
+      "sources": [
+        ["FloGrappling", "https://www.flograppling.com/articles/16048196-when-is-the-2026-adcc-world-championships"],
+        ["ADCC News", "https://adcombat.com/adcc-world-championship-2026-announced/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Brazilian Jiu-Jitsu & Judo",
+      "h3": "Gordon Ryan rules himself out of ADCC 2026",
+      "summary": "The dominant no gi star Gordon Ryan says he will not compete at the 2026 ADCC World Championship, leaving the superheavyweight picture wide open.",
+      "body": [
+        "Ryan, long regarded as the most feared grappler in the sport, has stated he is not returning for ADCC 2026. Persistent health issues have limited his competitive schedule over the past two years.",
+        "His absence removes the biggest name from the Krakow card and hands a genuine opening to a new generation of heavyweights who have spent years chasing him.",
+        "The vacuum sets up one of the most unpredictable ADCC brackets in recent memory as contenders jockey for the crown he leaves behind."
+      ],
+      "sources": [
+        ["Jits Magazine", "https://jitsmagazine.com/gordon-ryan-says-hes-not-coming-back-for-adcc-2026/"],
+        ["FloGrappling", "https://www.flograppling.com/people/5950166-gordon-ryan"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Brazilian Jiu-Jitsu & Judo",
+      "h3": "Baku set to stage the 2026 World Judo Championships",
+      "summary": "The IJF World Judo Championships return to Baku, Azerbaijan this autumn, the pinnacle of the judo calendar on the road to Los Angeles 2028.",
+      "body": [
+        "Azerbaijan's capital will host the Worlds from October 4 to 11, the second time Baku has staged the event after 2018. The program features 15 events across seven men's, seven women's and one mixed team category.",
+        "IJF President Marius Vizer praised Baku's track record, calling it a guarantee of a top level event both on the tatami and in its organisation.",
+        "The championships offer crucial world ranking points as athletes begin positioning themselves for Olympic qualification in the new cycle."
+      ],
+      "sources": [
+        ["IJF.org", "https://www.ijf.org/news/show/baku-set-to-host-the-2026-world-judo-championships"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Sailing",
+      "h3": "Spain close on Australia as SailGP breaks before Germany",
+      "summary": "Spain has narrowed the gap to Australia's Flying Roos in the SailGP championship, with Artemis climbing to third after Portsmouth.",
+      "body": [
+        "Following the Great Britain Sail Grand Prix in Portsmouth in late July, Spain inched closer to the series leading Bonds Flying Roos while the Swiss backed Artemis team surged into third overall.",
+        "Artemis sit on 47 points, just one ahead of the United States, underlining how tightly packed the chasing pack has become. Australia remain the red hot favourites to take the title.",
+        "The fleet now waits for the ROCKWOOL Germany Sail Grand Prix in Sassnitz on August 22 and 23, the next chance to shake up the standings."
+      ],
+      "sources": [
+        ["Scuttlebutt Sailing News", "https://www.sailingscuttlebutt.com/2026/07/26/spain-win-at-sailgp-portsmouth/"],
+        ["SailGP", "https://sailgp.com/results/all-seasons/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Formula 1",
+      "h3": "Norris grabs Hungary win as F1 heads into summer break",
+      "summary": "Lando Norris took his first victory of 2026 at the Hungarian Grand Prix, the last race before Formula 1's three week shutdown.",
+      "body": [
+        "Norris lost the lead to teammate Oscar Piastri off the line but reclaimed it after the second round of pit stops, then held on ahead of Max Verstappen and Kimi Antonelli. Piastri retired from second with a gearbox failure.",
+        "It was Norris's first win as reigning world champion at a circuit he has now won at more than once. The result took some pressure off after a mixed run of form.",
+        "Kimi Antonelli extended his championship lead heading into the break, with the season set to resume at a sprint weekend for the Dutch Grand Prix from August 21 to 23."
+      ],
+      "sources": [
+        ["Sky Sports", "https://www.skysports.com/f1/news/12433/13567065/hungarian-gp-lando-norris-wins-first-race-of-2026-formula-1-season-after-early-oscar-piastri-squabble"],
+        ["Formula 1", "https://www.formula1.com/en/racing/2026/hungary"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Formula 1",
+      "h3": "Verstappen future dominates F1 silly season",
+      "summary": "Max Verstappen's contract has become the central storyline of the driver market as reports swirl over his Red Bull commitment.",
+      "body": [
+        "Verstappen holds a Red Bull deal through 2028, but a performance clause could let him leave at the end of this year if he was not in the top two of the standings by the summer break. A difficult first half has left him well outside that mark.",
+        "Jos Verstappen has bluntly rejected Dutch reports that his son is preparing to recommit to Red Bull for 2027 while negotiating a richer contract without an exit clause.",
+        "Red Bull is reportedly willing to raise the four time champion's salary in exchange for removing the clause, a saga that could trigger a chain of moves across the grid."
+      ],
+      "sources": [
+        ["GPFans", "https://www.gpfans.com/en/f1-news/1087419/max-verstappen-red-bull-f1-contract-clause-ticking-time-bomb-threatens-messy-divorce/"],
+        ["F1 Fansite", "https://www.f1-fansite.com/f1-news/jos-verstappen-slams-claims-about-maxs-next-move/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Football",
+      "h3": "Eredivisie kicks off Friday with Cambuur against Excelsior",
+      "summary": "The new Dutch top flight season starts this Friday, with three time defending champions PSV opening at home.",
+      "body": [
+        "The 2026-27 Eredivisie runs from August 7 through late May, with SC Cambuur and Excelsior Rotterdam opening the campaign on Friday evening in Leeuwarden.",
+        "Defending champions PSV begin their title defence at home against Fortuna Sittard, while Ajax travel to PEC Zwolle in the same time slot.",
+        "The traditional powers reshaped their squads over the summer, setting up what looks like a genuinely open race after PSV's recent grip on the trophy."
+      ],
+      "sources": [
+        ["Eredivisie.com", "https://eredivisie.com/news/first-matchweek-2026-2027/"],
+        ["Wikipedia", "https://en.wikipedia.org/wiki/2026%E2%80%9327_Eredivisie"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Football",
+      "h3": "Ajax bolster attack with Marcos Leonardo signing",
+      "summary": "Ajax have added firepower under manager Michel, landing striker Marcos Leonardo from Al-Hilal as they chase domestic dominance.",
+      "body": [
+        "Ajax have been busy in the market this summer, with the arrival of Marcos Leonardo from Al-Hilal the marquee move to strengthen their frontline. The Brazilian gives Michel a proven goal threat.",
+        "The Amsterdam club are determined to reclaim the title after ceding ground to PSV in recent seasons and have overhauled the squad accordingly.",
+        "With PSV, Feyenoord and Ajax all reshaping their rosters, previews point to one of the most competitive Dutch title races in years."
+      ],
+      "sources": [
+        ["365Scores", "https://www.365scores.com/news/the-dutch-renaissance-a-complete-preview-of-the-2026-27-eredivisie-season"],
+        ["Football Oranje", "https://www.football-oranje.com/dutch-eredivisie-2026-27-season-preview/"]
+      ]
+    }
+  ],
+  "consumer-tech": [
+    {
+      "hero": true,
+      "sub": "Devices & Launches",
+      "h3": "Google locks in August 12 for Pixel 11 launch",
+      "summary": "Google will unveil the Pixel 11 lineup and Pixel Watch 5 at a Made by Google event on August 12, moving the keynote to prime time.",
+      "body": [
+        "Google has confirmed its next Made by Google event for August 12 at 6 PM ET in New York, ditching the usual midday slot for an evening show. The invite teased a gold phone with a glowing camera bar.",
+        "The Pixel 11, 11 Pro, 11 Pro XL and 11 Pro Fold are all expected, powered by the new Tensor G6 chip, alongside the Tensor driven Pixel Watch 5. Leaks point to a brighter Samsung OLED panel, 256GB base storage across the range and a possible price bump.",
+        "The event streams live on Google's Made by Google YouTube channel, kicking off the busiest stretch of the fall phone season."
+      ],
+      "sources": [
+        ["9to5Google", "https://9to5google.com/2026/07/07/made-by-google-2026-invite/"],
+        ["Digital Trends", "https://www.digitaltrends.com/phones/made-by-google-august-2026-everything-we-expect-from-the-pixel-11-launch-event/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "Galaxy Z Fold 8 Ultra lands with a brighter, bigger screen",
+      "summary": "Samsung's flagship foldable goes on sale this week with an 8 inch inner display and a 200MP camera, though reviewers flag the higher price.",
+      "body": [
+        "The Galaxy Z Fold 8 Ultra pairs an 8 inch LTPO AMOLED inner screen at 120Hz and 3,000 nits with a 6.5 inch cover display, a 200MP main camera and a Snapdragon 8 Elite Gen 5 chip. The hinge slims down to 4.1mm unfolded.",
+        "Early reviews praise the brighter, less reflective display and the best battery life of any Galaxy foldable so far, but note a weak telephoto lens, no S Pen support and only minor design changes.",
+        "Pricing starts at 2,099 dollars for 256GB, a 100 dollar jump over last year, with sales beginning August 7."
+      ],
+      "sources": [
+        ["Tom's Guide", "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-fold-8-ultra-review"],
+        ["GSMArena", "https://www.gsmarena.com/samsung_galaxy_z_fold8_ultra_5g-14802.php"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "Samsung Unpacked delivered foldables, watches and glasses",
+      "summary": "Samsung's July Unpacked event rolled out the Z Fold 8 series, the Z Flip 8, new Galaxy Watches and its first Galaxy smart glasses.",
+      "body": [
+        "At its summer Unpacked, Samsung introduced a reworked Z Fold 8 with more passport like proportions plus the Z Fold 8 Ultra, the Z Flip 8 and refreshed Galaxy Watch models.",
+        "The headline surprise was Galaxy Glasses, Samsung's entry into the AI smart eyewear race that Meta and Google are also chasing hard.",
+        "The lineup signals Samsung's push to spread beyond phones into wearables and face worn computing as the next battleground."
+      ],
+      "sources": [
+        ["TechRadar", "https://www.techradar.com/phones/samsung-galaxy-phones/the-5-biggest-announcements-at-samsung-galaxy-unpacked-2026-including-new-phones-watches-and-smart-glasses"],
+        ["Android Central", "https://www.androidcentral.com/phones/live/samsung-galaxy-unpacked-2026-launch-live-z-fold-8-ultra-z-fold-8-z-flip-8-galaxy-glasses-and-all-the-news"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "Meta widens its AI glasses lead with 299 dollar frames",
+      "summary": "Meta rolled out three new AI glasses starting at 299 dollars, undercutting its own previous models as rivals close in.",
+      "body": [
+        "Meta launched the Adventurer, Fury and a Kylie Jenner branded model, all matching Ray-Ban Meta Gen 2 specs but costing 80 dollars less. The frames now carry Meta's own brand for the first time.",
+        "Every model ships with Muse Spark, Meta's first proprietary AI model built specifically for on device wearable inference. The Kylie edition adds an AI generated voice assistant for 399 dollars.",
+        "Meta holds roughly 80 percent of the AI smart glasses market and the aggressive pricing is a clear move to defend that lead as Google and Samsung push in."
+      ],
+      "sources": [
+        ["CNBC", "https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "Bose readies a second generation QuietComfort",
+      "summary": "Leaks point to a new Bose QuietComfort with lossless USB-C audio and a refreshed design arriving in mid August.",
+      "body": [
+        "A second generation Bose QuietComfort is expected to launch around August 13 at 359 dollars, adding lossless USB-C audio, TrueSpatial spatial sound and a redesigned build.",
+        "Bose is leaning on its strengths in comfort and low frequency noise cancellation, while the current QuietComfort model has already slid to 229 dollars ahead of the successor.",
+        "The refresh keeps Bose competitive against Sony's flagship over ear cans, which counter with longer battery life and LDAC support."
+      ],
+      "sources": [
+        ["What Hi-Fi?", "https://www.whathifi.com/headphones/wireless-headphones/boses-second-gen-quietcomfort-headphones-leak-teasing-improved-sound-more-features-and-a-refreshed-look"],
+        ["TechTimes", "https://www.techtimes.com/articles/321213/20260721/bose-quietcomfort-headphones-drop-229-successor-leaks-august-launch.htm"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "OpenAI expands GPT-5.6 family and sunsets o3",
+      "summary": "OpenAI's new GPT-5.6 model family is rolling out broadly while the older o3 model is scheduled for retirement later in August.",
+      "body": [
+        "OpenAI launched the GPT-5.6 family in July, led by the flagship Sol alongside the balanced Terra and cost efficient Luna. It also introduced GPT-Live voice models that can listen and speak at the same time.",
+        "Late July brought steep price cuts, with GPT-5.6 Luna dropping 80 percent and Terra 20 percent as OpenAI pushes for wider adoption.",
+        "As part of the transition, the o3 model will be retired from ChatGPT on August 26 following a 90 day sunset period."
+      ],
+      "sources": [
+        ["TechCrunch", "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/"],
+        ["Axios", "https://www.axios.com/2026/07/09/ai-openai-gpt-release"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "Windows 11 August update lets you uninstall an AI model",
+      "summary": "Microsoft's August update adds the first ability to remove a built in AI component, plus new sign in security and touchpad gestures.",
+      "body": [
+        "The Windows 11 August update, expected on Patch Tuesday around August 11, lets users uninstall the Image Generation AI model through Settings for the first time. Users still cannot strip out all AI features at once.",
+        "The release also brings Windows Hello Enhanced Sign-in Security for external fingerprint sensors, new touchpad gestures, Voice Isolation for Voice Access and Fluid Dictation for Voice Typing.",
+        "Microsoft is framing the update around reliability, with a smarter search index, a more stable File Explorer and a raft of performance fixes rather than flashy new looks."
+      ],
+      "sources": [
+        ["gHacks", "https://www.ghacks.net/2026/07/29/windows-11-august-2026-update-adds-ai-model-uninstall-windows-hello-ess-for-external-sensors-and-touchpad-gestures/"],
+        ["Windows Central", "https://www.windowscentral.com/microsoft/windows-11/biggest-changes-microsoft-is-rolling-out-in-august-for-windows-11"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "Apple ships iOS 26.6 with heavy security patching",
+      "summary": "Apple's iOS 26.6 and its companion updates landed with over 80 security fixes and Spotlight tuning ahead of iOS 27.",
+      "body": [
+        "iOS 26.6, macOS Tahoe 26.6, tvOS, watchOS and visionOS 26.6 arrived with more than 80 security fixes and optimizations to the Spotlight index that underpins Siri and search.",
+        "The 26 cycle introduced the Liquid Glass redesign, the biggest visual overhaul since iOS 7, plus live translation, AI powered shortcuts and updated Visual Intelligence.",
+        "This is likely the last incremental release before iOS 27, and Apple is nudging users to update now since the coming AI features will lean heavily on the Spotlight index."
+      ],
+      "sources": [
+        ["Engadget", "https://www.engadget.com/2224488/ios26-6-macos26-6-and-the-rest-are-out-addressing-security-fixes/"],
+        ["MacRumors", "https://www.macrumors.com/2026/07/27/ios-26-6-security-fixes/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "Tesla's next Roadster set to break cover this month",
+      "summary": "Tesla has scheduled the long delayed second generation Roadster to finally debut in August, promising a sub one second sprint.",
+      "body": [
+        "After years of delays, the next generation Tesla Roadster is slated to be revealed in August. Tesla has hyped it as the most radical electric sports car on the market.",
+        "The company claims aerospace derived technology and a sub one second zero to sixty time, figures that would put it in a class of its own if they hold up in production.",
+        "A credible reveal would be a rare bright spot for Tesla's product narrative as rivals crowd into the mainstream EV space."
+      ],
+      "sources": [
+        ["Electrek", "https://electrek.co/"],
+        ["Top Electric SUV", "https://topelectricsuv.com/electric-cars/2026-2027-electric-cars-upcoming/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "Rivian's R2 pushes the brand toward the mainstream",
+      "summary": "Rivian has begun customer deliveries of its cheaper R2 SUV, its big bet to grow from a niche maker into a mass market name.",
+      "body": [
+        "Rivian's R2 is meant to transform the company from a luxury EV niche player into a mainstream brand. The first trim to ship is the 57,990 dollar Performance with 656 horsepower and a 3.6 second zero to sixty.",
+        "A 53,990 dollar Premium version arrives late this year with up to 330 miles of EPA estimated range. CEO RJ Scaringe says the R2 will compete not just with Tesla but with legacy names like Jeep and Subaru.",
+        "Rivian's production targets for the R2 remain ambitious, and hitting them is central to the automaker's path to profitability."
+      ],
+      "sources": [
+        ["CNBC", "https://www.cnbc.com/2026/06/09/rivian-r2-suv-tesla-competition.html"],
+        ["InsideEVs", "https://insideevs.com/news/789243/rivian-r2-production-2026-20000/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "NACS rollout reshapes EV charging in 2026",
+      "summary": "The shift to Tesla's charging standard and wider Supercharger access is making 2026 a turning point for charging convenience.",
+      "body": [
+        "Ford, GM, Rivian, Volvo, Mercedes-Benz, Hyundai, Kia and others have adopted Tesla's North American Charging Standard, and adapters that let non Tesla vehicles use Superchargers are now rolling out in volume.",
+        "The change opens thousands of reliable fast charging stalls to a much larger pool of drivers, easing one of the biggest pain points for EV adoption.",
+        "Automakers are also extending charging perks, with Ford renewing its Power Promise program nearly two years after launch."
+      ],
+      "sources": [
+        ["GreenCars", "https://www.greencars.com/news/ev-charging-in-2026-is-about-to-change-in-three-important-ways"],
+        ["InsideEVs", "https://insideevs.com/news/category/charging/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "Bidirectional charging finally goes mainstream",
+      "summary": "Vehicle to grid and vehicle to home charging are lining up across cars, hardware and utilities as BYD pushes ultra fast charging.",
+      "body": [
+        "Bidirectional charging is coming together on three fronts at once with more capable vehicles, more home hardware and more utility support. Owners of eligible Ford, GM, Hyundai, Kia, Tesla and Nissan EVs are starting to see value beyond range.",
+        "Volkswagen is launching a fully integrated vehicle to grid offer for private customers in Germany, with more European countries to follow, since its ID family has been bidirectional ready since 2023.",
+        "On the charging speed side, BYD says its Flash Chargers can deliver up to 1,500 kilowatts to cars fitted with its latest Blade Battery."
+      ],
+      "sources": [
+        ["Automotive News", "https://www.autonews.com/ev/ane-bidi-ev-directional-charging-energy-0624/"],
+        ["Blink Charging", "https://blinkcharging.com/blog/ev-market-innovation-trends-shaping-2026"]
+      ]
+    }
+  ]
 }
