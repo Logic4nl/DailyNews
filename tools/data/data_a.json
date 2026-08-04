@@ -3,287 +3,361 @@
     {
       "hero": true,
       "sub": "Conflicts & Security",
-      "h3": "Israel strikes Gaza again, defying peace board pressure",
-      "summary": "Israeli forces shelled several Gaza districts on Monday, straining the US-backed ceasefire roadmap despite calls from mediators to hold fire.",
+      "h3": "Long-range strikes kill nine as Russia and Ukraine escalate",
+      "summary": "Overnight missile and drone barrages killed at least five people in Russia and four in Ukraine as both sides widened attacks on rear-area targets.",
       "body": [
-        "The Israeli military launched artillery and tank fire across multiple parts of the Gaza Strip, hitting eastern Khan Younis, the Al-Bureij refugee camp and areas east of Gaza City. At least two people were reported killed in the strikes, the first in a day, carried out despite pressure from the newly formed Board of Peace to de-escalate.",
-        "Mediators from Qatar, Egypt and Turkey issued a joint statement condemning the continued Israeli operations and warning that attacks on medical infrastructure threaten the fragile agreement. Under the disarmament deal Hamas agreed to hand over its weapons while Israel is meant to withdraw and gradually transfer power to a Palestinian administration.",
-        "Those terms have met a cold reception among Israeli politicians and commentators, raising doubts about whether the roadmap can hold as hardline demands resurface."
+        "A Ukrainian drone hit a warehouse in the Moscow region on Tuesday, killing five people and wounding ten, according to regional governor Andrei Vorobyov, while Kyiv said its forces struck logistics hubs and oil infrastructure deep inside Russia. A Russian strike on a fuel station in Dnipropetrovsk Oblast killed three people including a rescue worker and his young son.",
+        "The exchanges follow a record July in which Russia fired 381 missiles at Ukraine, the highest monthly total of the war. Analysts say Moscow's spring-summer offensive has failed to deliver significant territorial gains more than two months in."
       ],
       "sources": [
-        ["Times of Israel", "https://www.timesofisrael.com/liveblog-august-3-2026/"],
-        ["Haaretz", "https://www.haaretz.com/israel-news/israel-security/2026-08-03/ty-article-live/"],
-        ["Al Jazeera", "https://www.aljazeera.com/news/2026/8/1/is-israel-really-ready-to-withdraw-from-gaza"]
+        [
+          "Al Jazeera",
+          "https://www.aljazeera.com/news/2026/8/4/nine-killed-in-escalating-long-range-strikes-between-russia-and-ukraine"
+        ],
+        [
+          "Forbes",
+          "https://www.forbes.com/sites/katyasoldak/2026/08/04/tuesday-august-4-russias-war-on-ukraine-news-and-information-from-ukraine/"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Conflicts & Security",
-      "h3": "Russian missiles and drones pound Ukraine before dawn",
-      "summary": "Ballistic missiles hit several districts of Kyiv over the weekend as Russia kept up a heavy campaign of strikes and drone attacks.",
+      "h3": "Netanyahu refuses Gaza pullback until Hamas fully disarms",
+      "summary": "The Israeli prime minister rejected parts of a US-brokered plan, saying troops will hold current lines until Hamas hands over its weapons.",
       "body": [
-        "Ballistic missiles tore into five districts of the Ukrainian capital before dawn on Saturday, part of a sustained Russian barrage. Recent daily tallies logged dozens of missile strikes, scores of air strikes and hundreds of guided aerial bombs alongside thousands of attack drones aimed at Ukrainian positions and settlements.",
-        "Ukrainian forces reported repelling assaults in the Oleksandrivka and Huliaipole directions, with hundreds of drones intercepted or suppressed. Russian gains continued in places even as Kyiv pressed for stronger air defenses.",
-        "The intensity of the attacks underscored how far apart the two sides remain from any negotiated pause in the fighting."
+        "Benjamin Netanyahu pushed back Tuesday on a disarmament framework announced by President Donald Trump that would see Hamas surrender its arms while Israel withdraws and gradually transfers authority to a Palestinian administration. The terms drew a cool response across Israeli politics and media.",
+        "Netanyahu said Israel would not leave its positions before disarmament is complete, casting doubt on the timeline for any handover of power in the enclave."
       ],
       "sources": [
-        ["GlobalSecurity", "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-08-01.htm"],
-        ["NPR", "https://www.npr.org/sections/world/"]
+        [
+          "Haaretz",
+          "https://www.haaretz.com/israel-news/israel-security/2026-08-04/ty-article-live/as-board-of-peace-urges-de-escalation-idf-strikes-reportedly-kill-two-in-gaza/0000019f-ca64-db33-a5ff-fa7420cf0000"
+        ],
+        [
+          "Al Jazeera",
+          "https://www.aljazeera.com/news/2026/8/1/is-israel-really-ready-to-withdraw-from-gaza"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Conflicts & Security",
-      "h3": "Sudan war shifts to Kordofan as toll climbs",
-      "summary": "Fighting between Sudan's army and the Rapid Support Forces has spread to Kordofan and Blue Nile, with tens of thousands of deaths recorded.",
+      "h3": "Israeli strikes kill Gaza civilians as monitors urge de-escalation",
+      "summary": "The Board of Peace criticised continued Israeli bombardment that has killed civilians and destroyed medical supplies since a disarmament deal was announced.",
       "body": [
-        "The conflict that began in April 2023 now affects all of Sudan's 18 states. After the army retook Al Jazirah and Khartoum and the RSF captured El Fasher in North Darfur, the battle has shifted into the Kordofan region and expanded into Blue Nile.",
-        "The Armed Conflict Location and Event Data project recorded close to 53,000 combined civilian and combatant deaths as of June. Aid agencies count roughly 8.9 million people internally displaced and millions more forced abroad.",
-        "Drone strikes and attacks on civilians have continued to draw warnings from UN humanitarian officials."
+        "Board of Peace representative Nickolay Mladenov said two days of strikes across Gaza had killed civilians and wrecked medical stocks people rely on. At least 19 Palestinians were reported killed in a single day, part of a weekend toll of 26.",
+        "The bombardment continued even as the agreement announced by Washington called for de-escalation, deepening doubts about whether the ceasefire framework can hold."
       ],
       "sources": [
-        ["Security Council Report", "https://www.securitycouncilreport.org/monthly-forecast/2026-07/sudan-40.php"],
-        ["UN News", "https://news.un.org/en/story/2026/03/1167125"]
+        [
+          "Haaretz",
+          "https://www.haaretz.com/israel-news/israel-security/2026-08-03/ty-article-live/trump-iran-negotiations-start-monday-hormuz-denuclearization-deal-imminent/0000019f-c572-d37f-adff-d5fe2fed0005"
+        ],
+        [
+          "Al Jazeera",
+          "https://www.aljazeera.com/news/2026/8/4/palestine-weekly-israel-kills-dozens-in-gaza-after-hamas-disarmament-deal"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Conflicts & Security",
-      "h3": "Civilian killings mount in eastern Congo",
-      "summary": "UN humanitarians warn of relentless attacks in North Kivu and Ituri, where more than 1,000 people have been killed this year.",
+      "h3": "China holds live-fire drills as Taiwan tests wartime resilience",
+      "summary": "Beijing staged exercises in the Taiwan Strait while Taipei ran annual drills rehearsing how the island would keep fighting and communicating under attack.",
       "body": [
-        "OCHA said it remains deeply concerned about repeated attacks on civilians in the Beni and Lubero territories of North Kivu and in neighboring Ituri province. Partners report that over 1,000 people have been killed across the two provinces since the start of the year.",
-        "The violence has driven fresh displacement in a region already hosting large numbers of people who fled earlier rounds of fighting. Humanitarian access remains difficult amid armed group activity.",
-        "Aid officials have appealed for stronger protection measures and sustained funding for the response."
+        "Beijing launched a two-day live-fire drill after President Lai Ching-te said Taiwan was not subordinate to the People's Republic of China, a remark China branded reckless and provocative. The exercises added to a stretch of heightened military pressure around the island.",
+        "During its own drills Taiwan tested relocating weapons production lines and converting civilian factories for military use, and for the first time deliberately slowed mobile internet to simulate scarce bandwidth during an invasion."
       ],
       "sources": [
-        ["UN OCHA", "https://www.unocha.org/news/todays-top-news-sudan-occupied-palestinian-territory-democratic-republic-congo"],
-        ["UN News", "https://news.un.org/en/story/2026/03/1167125"]
+        [
+          "South China Morning Post",
+          "https://www.scmp.com/topics/taiwan"
+        ],
+        [
+          "AEI",
+          "https://www.aei.org/commentary/china-taiwan-update-july-31-2026/"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Conflicts & Security",
-      "h3": "Trump calls off Iran strike as Gulf allies urge restraint",
-      "summary": "The US president said he halted a planned weekend attack on Iran at the request of Gulf partners, insisting a deal is close.",
+      "h3": "Russia set new July record for missile barrages on Ukraine",
+      "summary": "Moscow fired 381 missiles during July, the highest monthly total and daily rate since the full-scale invasion began.",
       "body": [
-        "Speaking aboard Air Force One, Trump said he called off a weekend strike against Iran after Gulf allies asked Washington to hold off, arguing that the outline of an agreement had been reached. He said negotiations were set to begin on Monday.",
-        "Tehran offered a different account. Iran's foreign ministry said there were no direct talks with the United States and that it would not host any delegation, though it confirmed separate discussions with Oman over the Strait of Hormuz.",
-        "Oil prices slid as traders weighed the prospect of easing tensions in the strategically vital waterway."
+        "Russian forces launched an average of just over twelve missiles a day in July, setting wartime records for both scale and pace, according to Ukrainian military figures. Air defences were stretched as cities across the country came under repeated fire.",
+        "Despite the intensified bombardment, analysts say Russia's ground offensive has failed to produce operationally significant gains more than two and a half months after it began."
       ],
       "sources": [
-        ["Bloomberg", "https://www.bloomberg.com/news/articles/2026-08-03/iran-says-hormuz-talks-underway-after-trump-calls-off-strikes"],
-        ["CNBC", "https://www.cnbc.com/2026/08/03/trump-iran-us-negotiations-peace-proposals-.html"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Conflicts & Security",
-      "h3": "Kremlin critic Nadezhdin leaves Russia amid crackdown",
-      "summary": "Opposition politician Boris Nadezhdin has left Russia after being barred from this year's parliamentary election.",
-      "body": [
-        "Nadezhdin, a longtime critic of the war in Ukraine, departed Russia following a crackdown that blocked him from running in the coming parliamentary vote. His exit adds to a steady outflow of opposition figures facing pressure at home.",
-        "The move highlights the shrinking space for dissent ahead of an election the authorities are expected to tightly manage. Nadezhdin had drawn notable public support during an earlier attempt to challenge the Kremlin.",
-        "His departure was reported alongside a wider pattern of political repression inside Russia."
-      ],
-      "sources": [
-        ["Euronews", "https://www.euronews.com/tag/world-news"],
-        ["NPR", "https://www.npr.org/sections/world/"]
+        [
+          "Kyiv Independent",
+          "https://kyivindependent.com/"
+        ],
+        [
+          "Kyiv Post",
+          "https://www.kyivpost.com/thread/81655"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Diplomacy & Trade",
-      "h3": "Iran and Oman near deal on Strait of Hormuz",
-      "summary": "Tehran says talks with Muscat over managing shipping through the strait are in their final stages, easing oil markets.",
+      "h3": "Trump says Iran talks resume as Hormuz deal edges closer",
+      "summary": "The president confirmed negotiations were restarting and aides said an agreement to reopen the Strait of Hormuz could land within days.",
       "body": [
-        "Iranian officials said negotiations with Oman on the future management of the Strait of Hormuz are close to conclusion, offering an indirect channel to defuse a standoff that had rattled global energy markets. Brent crude fell about 4.6 percent to just over 83 dollars a barrel on the news.",
-        "Trump has framed any arrangement as keeping the strait permanently open to international shipping, while Iran insists it will retain sovereign control over the waterway. The gap between those positions leaves the outcome uncertain.",
-        "The strait carries a large share of the world's seaborne oil, making the diplomacy closely watched by traders."
+        "Trump said talks with Iran were resuming and warned Tehran it faced a final chance to reach a deal on the strait and its nuclear programme. Treasury Secretary Scott Bessent said an agreement to restore free movement through the waterway could be reached within a day or two, a step that could ease energy prices.",
+        "The president also lashed out at Iranian leaders as duplicitous, accusing them of seeking meetings while publicly denying any direct contact."
       ],
       "sources": [
-        ["Bloomberg", "https://www.bloomberg.com/news/articles/2026-08-03/iran-says-hormuz-talks-underway-after-trump-calls-off-strikes"],
-        ["The Week", "https://www.theweek.in/news/middle-east/2026/08/03/us-iran-negotiations-monday-trump.html"]
+        [
+          "GlobalSecurity",
+          "https://www.globalsecurity.org/wmd/library/news/iran/2026/08/iran-260804-pdo01.htm"
+        ],
+        [
+          "France 24",
+          "https://www.france24.com/en/middle-east/20260803-trump-says-us-iran-talks-continue-warns-tehran-faces-last-chance"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Diplomacy & Trade",
-      "h3": "Trump's 35% tariff on Canada takes effect",
-      "summary": "A 35 percent US tariff on Canadian goods came into force on August 1 after the president threatened it earlier in July.",
+      "h3": "Iran denies direct US talks, points to Oman shipping deal",
+      "summary": "Tehran said it was not negotiating with Washington but was working with Oman on a temporary safe route through the Strait of Hormuz.",
       "body": [
-        "The tariff, floated on July 10, went live at the start of August, deepening a trade dispute that has run since early 2025. Canada has met earlier US duties with retaliatory measures of its own.",
-        "The move fits a broader pattern of the administration using tariffs as leverage, with new duties and deadlines rolled out across several trading partners. Analysts have tracked a widening set of levies through 2026.",
-        "Businesses on both sides of the border face fresh uncertainty over supply chains and pricing."
+        "Iranian officials rejected Trump's claim of active negotiations, saying discussions were limited to Oman over a corridor for shipping through the strait. Tehran has insisted on keeping a role in managing passage through the strategic route, while Washington demands unrestricted navigation.",
+        "The competing accounts left the status of any deal unclear even as US officials suggested a breakthrough was imminent."
       ],
       "sources": [
-        ["Tax Foundation", "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"],
-        ["AOL", "https://www.aol.com/news/trump-announces-planned-tariffs-six-161442967.html"]
+        [
+          "Washington Post",
+          "https://www.washingtonpost.com/national-security/2026/08/03/trump-claims-active-ceasefire-talks-iran-denies-direct-negotiations/"
+        ],
+        [
+          "NBC News",
+          "https://www.nbcnews.com/world/iran/trump-iran-talks-attacks-canceled-hormuz-nuclear-rcna590535"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Diplomacy & Trade",
-      "h3": "US-India tensions persist under 50% tariff wall",
-      "summary": "A diplomatic and trade rift between Washington and New Delhi continues, with combined US duties on Indian exports reaching 50 percent.",
+      "h3": "US 35 percent tariff on Canada takes effect",
+      "summary": "A new 35 percent duty on Canadian goods came into force on August 1, escalating trade friction between the neighbours.",
       "body": [
-        "The dispute escalated last year when the administration imposed a 25 percent reciprocal tariff on Indian goods, then added a further 25 percent penalty tied to India's continued purchases of Russian oil. The combined 50 percent duty has strained one of Washington's key Indo-Pacific relationships.",
-        "The standoff has spilled beyond trade into broader diplomatic friction. Both governments have signaled little appetite to back down quickly.",
-        "The episode illustrates how energy imports and geopolitics have become entangled in US tariff policy."
+        "The tariff followed Trump's July threat and adds to a wider 2026 trade regime that sets a 10 percent base reciprocal rate for most countries and higher tiers for a list of 46 economies including China and Vietnam. Ottawa has warned of countermeasures.",
+        "Washington also declined to renew the USMCA at its joint review, leaving the pact in force with zero-percent preferences but shifting it to annual reviews and a possible 2036 sunset."
       ],
       "sources": [
-        ["Reuters", "https://www.reuters.com/"],
-        ["J.P. Morgan Research", "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs"]
+        [
+          "Tax Foundation",
+          "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
+        ],
+        [
+          "Trade Compliance Resource Hub",
+          "https://www.tradecomplianceresourcehub.com/2026/07/27/trump-2-0-tariff-tracker/"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Diplomacy & Trade",
-      "h3": "Trump hints at fresh trade deals with several nations",
-      "summary": "The president signaled imminent trade announcements involving a minimum of seven countries as an August deadline loomed.",
+      "h3": "EU wins US ceiling as 15 percent trade deal beds in",
+      "summary": "A transatlantic accord that took effect July 1 caps most EU-origin goods at an all-inclusive 15 percent rate.",
       "body": [
-        "Trump said trade news was coming soon for at least seven countries, part of a rolling series of tariff threats and deals tied to an August 1 deadline. Earlier notices had targeted Brazil and several other nations.",
-        "The approach has kept trading partners guessing as letters, deadlines and carve-outs shift week to week. Officials have paired the levies with parallel investigations into forced labor and other issues.",
-        "Markets have grown used to reading each announcement for signs of where the next duties will land."
+        "The deal replaces the base reciprocal tariff layer for the bloc with a single 15 percent ceiling on most exports to the United States, giving European exporters more certainty after months of uncertainty. Brussels framed it as a way to shield industry from steeper duties.",
+        "The arrangement sits alongside a patchwork of country deals Washington has struck as it reshapes global trade under a reciprocal tariff model."
       ],
       "sources": [
-        ["Yahoo News", "https://www.yahoo.com/news/trump-hints-imminent-trade-news-032608890.html"],
-        ["Tax Foundation", "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"]
+        [
+          "Trade Compliance Resource Hub",
+          "https://www.tradecomplianceresourcehub.com/2026/07/27/trump-2-0-tariff-tracker/"
+        ],
+        [
+          "Tax Foundation",
+          "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Diplomacy & Trade",
-      "h3": "EU weighs Ukraine aid as US backing wavers",
-      "summary": "European leaders have pushed to shore up Ukraine support and their own defenses amid uncertainty over Washington's commitment.",
+      "h3": "EU ministers back Spain in Schengen clash with Italy",
+      "summary": "Home affairs ministers sought to calm a solidarity crisis after Italy imposed checks on arrivals from Spain following a mass crossing at Ceuta.",
       "body": [
-        "EU governments have moved to loosen budget rules so willing members can raise military spending, while exploring ways to guarantee future protection for Ukraine. The push follows growing doubts about the reliability of US support.",
-        "Leaders have discussed freeing up large sums for security and coordinating on a short timeline. The bloc's 27 members signed off on measures aimed at strengthening European defense.",
-        "The debate reflects a continent adjusting to the possibility that it may need to carry more of the burden itself."
+        "More than 60,000 people crossed from Morocco into the Spanish enclave of Ceuta around July 30, and Rome responded by reintroducing checks on non-EU arrivals from Spain by air and sea, the first time a state invoked Schengen powers against a country it does not border. Ministers meeting by video conference sided with Madrid to defuse the row.",
+        "The standoff exposed deep strains over migration burden-sharing as arrivals surged on the western Mediterranean route."
       ],
       "sources": [
-        ["PBS NewsHour", "https://www.pbs.org/newshour/world/eu-leaders-hold-emergency-summit-on-ukraine-aid-and-their-own-security-as-u-s-support-wanes"],
-        ["Euronews", "https://www.euronews.com/tag/eu-summit"]
+        [
+          "Euronews",
+          "https://www.euronews.com/video/2026/08/04/latest-news-bulletin-august-4th-2026-midday"
+        ],
+        [
+          "Rio Times",
+          "https://www.riotimesonline.com/europe-intelligence-brief-2026-08-04/"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Diplomacy & Trade",
-      "h3": "Taiwan braces for tense November local elections",
-      "summary": "Local officials cast the coming vote as a referendum on the government as Beijing steps up influence efforts.",
+      "h3": "Guinea-Bissau under military rule after disputed vote",
+      "summary": "The armed forces seized power following a contested presidential election whose results were never released.",
       "body": [
-        "With Taiwan's local elections set for November 28, one Taichung politician described the ballot as a nationwide vote of no confidence in the government. The contest will fill mayoral, council and township posts across the island.",
-        "Analysts warn that Beijing is broadening its interference, including reports of United Front summer camps aimed at Taiwanese college students. China has long sought to shape Taiwanese politics in its favor.",
-        "The vote is shaping up as a significant test with implications for cross-strait relations."
+        "General Horta Inta-a Na Man is serving as president after the military took control in the wake of a race between incumbent Umaro Sissoco Embalo and challenger Fernando Dias da Costa. Authorities have set December 2026 as a target for fresh elections.",
+        "The takeover adds to a run of military interventions across West Africa, where entrenched incumbents and youth frustration continue to strain fragile democracies."
       ],
       "sources": [
-        ["Focus Taiwan", "https://focustaiwan.tw/society/202608030004"],
-        ["Brookings", "https://www.brookings.edu/articles/how-do-taiwanese-feel-about-the-cheng-xi-meeting/"]
+        [
+          "Africa Center",
+          "https://africacenter.org/spotlight/en-elections-2026/"
+        ],
+        [
+          "Carnegie Endowment",
+          "https://carnegieendowment.org/research/2026/01/africa-democracy-protest-elections-coups"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Humanitarian & Climate",
-      "h3": "Venezuela quake toll passes 3,500 as recovery drags on",
-      "summary": "Recovery continues after June's twin earthquakes, the strongest to hit Venezuela in a century, killed more than 3,500 people.",
+      "h3": "Nearly 19.5 million in Sudan face acute hunger",
+      "summary": "UN analysis warns two in five Sudanese are in crisis-level food insecurity as the civil war grinds into a fourth year.",
       "body": [
-        "Two quakes of magnitude 7.2 and 7.5 struck on June 24, flattening buildings and killing more than 3,530 people in the country's worst seismic disaster in 100 years. Tens of thousands were reported missing in the immediate aftermath.",
-        "More than 2,000 rescue workers from 27 countries deployed under UN coordination, including a Dutch urban search and rescue team backed by a two million euro aid package. Dozens of international teams brought specialists and search dogs.",
-        "Weeks on, the focus has shifted from rescue to shelter, water and long-term rebuilding for displaced survivors."
+        "More than five million people face emergency hunger and around 135,000 are living in catastrophic conditions, according to the latest assessment, while over 825,000 children risk death from severe malnutrition this year. Close to nine million people have been displaced inside the country.",
+        "Aid access is crippled by the destruction of markets, clinics and water systems, with about 40 percent of health facilities non-functional and 17 million people lacking safe drinking water."
       ],
       "sources": [
-        ["UN News", "https://news.un.org/en/story/2026/06/1167825"],
-        ["Al Jazeera", "https://www.aljazeera.com/news/2026/6/26/which-countries-have-pledged-aid-to-venezuela-after-powerful-earthquakes"]
+        [
+          "FAO",
+          "https://www.fao.org/newsroom/detail/risk-of-famine-persists-as-nearly-19.5-million-people-face-acute-food-insecurity-in-sudan/en"
+        ],
+        [
+          "UN News",
+          "https://news.un.org/en/story/2026/05/1167528"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Humanitarian & Climate",
-      "h3": "Canada endures a summer of compounding disasters",
-      "summary": "Extreme heat, violent storms, flooding and wildfires have disrupted life across Canada through the summer of 2026.",
+      "h3": "South Sudan hunger crisis pushes 7.8 million to the brink",
+      "summary": "Intensifying fighting has driven millions into high acute food insecurity, with 2.2 million children acutely malnourished.",
       "body": [
-        "Aid groups describe a season of overlapping climate shocks from coast to coast, with heat waves, destructive thunderstorms, floods and widespread wildfires straining communities and emergency services. The pattern has become a recurring feature of Canadian summers.",
-        "The disruptions have forced evacuations and damaged infrastructure in multiple provinces. Relief organizations have warned that compounding disasters stretch response capacity.",
-        "The summer adds to evidence of intensifying climate extremes across North America."
+        "UN agencies say 7.8 million people face high levels of acute food insecurity, and nearly 700,000 severely wasted children are at grave risk of dying. Aid officials have warned the country could tip into full-scale famine if violence keeps blocking relief.",
+        "The deterioration compounds a regional emergency spilling across borders as conflict in neighbouring Sudan displaces families and disrupts harvests."
       ],
       "sources": [
-        ["Oxfam Canada", "https://www.oxfam.ca/story/summer-2026-compounding-climate-disasters"],
-        ["Al Jazeera", "https://www.aljazeera.com/news/2025/12/31/after-the-floods-of-2025-can-we-keep-2026-above-water"]
+        [
+          "UNICEF",
+          "https://www.unicef.org/press-releases/hunger-intensifies-south-sudan-78-million-people-face-high-acute-food-insecurity-0"
+        ],
+        [
+          "Al Jazeera",
+          "https://www.aljazeera.com/news/2026/4/17/un-warns-south-sudan-at-risk-of-full-scale-famine-as-fighting-intensifies"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Humanitarian & Climate",
-      "h3": "Monsoon floods kill dozens across India",
-      "summary": "The death toll from flooding in Assam has risen to 82, with more deaths reported in Kerala from flash floods and landslides.",
+      "h3": "US wildfires burn 4.5 million acres in record season",
+      "summary": "More than 42,000 fires have scorched over 4.5 million acres this year, well above the ten-year average.",
       "body": [
-        "Heavy monsoon rains pushed the toll in India's Assam state to 82, while four people died in Kerala as flash floods and landslides hit hill areas. Water-sharing disputes have added strain, with authorities ordering releases between southern states amid competing claims over supplies.",
-        "The floods have displaced families and damaged farmland during a punishing wet season. Relief operations continued in the worst-hit districts.",
-        "The events fit a wider regional picture of erratic and destructive rainfall this year."
+        "The season has run at 130 percent of the average number of fires and 146 percent of average acres burned, with blazes reported from Louisiana to South Dakota. Officials warn compounding heat and drought are stretching firefighting resources thin.",
+        "The United States is one front in a global fire year that has also hit Europe and South America hard."
       ],
       "sources": [
-        ["Climate and Economy", "https://climateandeconomy.com/2026/08/01/1st-august-2026-todays-round-up-of-climate-news/"],
-        ["Al Jazeera", "https://www.aljazeera.com/news/2026/1/28/drought-in-the-east-floods-in-the-south-africa-battered-by-climate-change"]
+        [
+          "Center for Disaster Philanthropy",
+          "https://disasterphilanthropy.org/disasters/2026-north-american-wildfires/"
+        ],
+        [
+          "CNN",
+          "https://edition.cnn.com/2026/07/20/climate/climate-compounding-disasters-summer"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Humanitarian & Climate",
-      "h3": "Drought deepens hunger across the Horn of Africa",
-      "summary": "Repeated failed rains and rising temperatures have driven severe water shortages, crop failures and hunger in Somalia.",
+      "h3": "European wildfires char more than 250,000 hectares",
+      "summary": "Over a quarter of a million hectares have burned across Europe this year amid record heat and drought.",
       "body": [
-        "Successive poor rainy seasons and increasingly unpredictable weather have caused water shortages, crop failures and livestock deaths across Somalia, deepening hunger for millions. Aid agencies describe conditions worsening across the wider Horn.",
-        "Forecasters warn that shifting weather patterns could bring further extremes to the region, from drought to sudden flooding. Both scenarios threaten fragile food systems.",
-        "Humanitarian groups have called for sustained funding to prevent a slide into famine."
+        "More than 1,250 fires have been detected since the start of 2026, with southern Europe bearing the brunt of a punishing summer. In Chile more than 3,000 wildfires were recorded in the 2025-2026 season, underscoring a worldwide surge.",
+        "Scientists link the intensity of the blazes to persistent heatwaves that have dried out vegetation and lowered river levels across the continent."
       ],
       "sources": [
-        ["Oxfam", "https://www.oxfam.ca/story/summer-2026-compounding-climate-disasters"],
-        ["The IRC", "https://www.rescue.org/press-release/el-nino-threatens-deadly-floods-and-disease-across-east-africa-and-asia"]
+        [
+          "Greenpeace International",
+          "https://www.greenpeace.org/international/story/82686/climate-emergencies-photos-of-2026-so-far/"
+        ],
+        [
+          "UN News",
+          "https://news.un.org/en/story/2026/07/1168042"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Humanitarian & Climate",
-      "h3": "Aid groups warn El Nino threatens millions in Asia and Africa",
-      "summary": "An intensifying El Nino pattern could bring floods, disease outbreaks, heat and drought to vulnerable communities in the weeks ahead.",
+      "h3": "Texas hit by second 1,000-year flood in two years",
+      "summary": "Parts of Texas are reeling from flash flooding after another extreme rainfall event, the state's second such deluge since 2024.",
       "body": [
-        "Relief organizations warn that a strengthening El Nino risks severe flooding, disease, heat waves and drought across East Africa and Asia. Families in Kenya, Uganda, Somalia, Bangladesh, Pakistan and Afghanistan are among those most exposed.",
-        "The overlapping hazards threaten to compound existing crises in places already coping with displacement and food insecurity. Agencies say early action could limit the damage.",
-        "The warning highlights how a single climate driver can ripple across continents."
+        "The downpour triggered dangerous flash floods and rescues as forecasters described a 1,000-year rainfall event, a marker of how sharply extreme precipitation has intensified. Communities were still assessing damage as the water receded.",
+        "The flooding is part of what analysts have called a summer of compounding disasters, with fires, floods and record heat striking in overlapping waves."
       ],
       "sources": [
-        ["The IRC", "https://www.rescue.org/press-release/el-nino-threatens-deadly-floods-and-disease-across-east-africa-and-asia"],
-        ["UN News", "https://news.un.org/en/story/2026/05/1167537"]
+        [
+          "CNN",
+          "https://edition.cnn.com/2026/07/20/climate/climate-compounding-disasters-summer"
+        ],
+        [
+          "UN News",
+          "https://news.un.org/en/story/2026/07/1168042"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Humanitarian & Climate",
-      "h3": "Ceuta border crisis death toll rises to 67",
-      "summary": "Deaths at Spain's Ceuta enclave climbed to 67 after drownings and a stampede at a breakwater barrier with Morocco.",
+      "h3": "UN warns climate alarm is blaring from every direction",
+      "summary": "The UN's climate chief said human and economic costs are reaching national emergency levels as another heat surge builds.",
       "body": [
-        "The toll from the crisis at the Ceuta border with Morocco rose to 67, including people who drowned and others crushed in a stampede to cross a breakwater barrier. The surge overwhelmed the Spanish enclave.",
-        "The episode renewed attention on the dangers migrants face at Europe's southern frontiers. Authorities have struggled to manage sudden mass crossings.",
-        "It also underscored the strained relationship between Madrid and Rabat over migration."
+        "Simon Stiell said the mercury was set to soar again as fires, floods and heat converged worldwide, calling the mounting damage a crisis reaching emergency proportions. He urged governments to accelerate action ahead of the next round of climate talks.",
+        "His warning came as danger-season indicators tripled compared with earlier baselines, with scientists pointing to a cascade of extreme events across the northern hemisphere summer."
       ],
       "sources": [
-        ["Euronews", "https://www.euronews.com/tag/world-news"],
-        ["NPR", "https://www.npr.org/sections/world/"]
+        [
+          "UN News",
+          "https://news.un.org/en/story/2026/07/1168042"
+        ],
+        [
+          "Union of Concerned Scientists",
+          "https://blog.ucs.org/erika-spanger-siegfried/danger-season-is-here-again-with-triple-the-danger-for-2026/"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Humanitarian & Climate",
-      "h3": "Cubans sleep on Havana seafront amid brutal blackouts",
-      "summary": "Residents are bedding down on the Malecon as power cuts of up to 20 hours collide with a suffocating summer heat.",
+      "h3": "At least 72 dead in mass crossing to Spanish Ceuta",
+      "summary": "A surge of more than 60,000 people from Morocco toward the enclave of Ceuta left dozens dead in late July.",
       "body": [
-        "Some Cubans have taken to sleeping on Havana's famous Malecon boulevard as crippling blackouts stretch as long as 20 hours during a punishing summer. The outages have compounded daily hardship on the island.",
-        "Chronic energy shortages have plagued Cuba's aging grid, leaving households without reliable power for cooking, cooling or refrigeration. The heat has made conditions indoors unbearable for many.",
-        "The scenes reflect a deepening economic and infrastructure crisis."
+        "The crossing around July 30 overwhelmed the tiny North African enclave and set off an EU political crisis over how to share responsibility for arrivals. Rescue and medical services struggled to cope with the scale of the movement.",
+        "The tragedy sharpened debate over migration on the western Mediterranean route and strained relations between Madrid, Rabat and other EU capitals."
       ],
       "sources": [
-        ["Euronews", "https://www.euronews.com/tag/news"],
-        ["NPR", "https://www.npr.org/sections/world/"]
+        [
+          "Rio Times",
+          "https://www.riotimesonline.com/europe-intelligence-brief-2026-08-04/"
+        ],
+        [
+          "Euronews",
+          "https://www.euronews.com/video/2026/08/04/latest-news-bulletin-august-4th-2026-morning"
+        ]
       ]
     }
   ],
@@ -291,216 +365,306 @@
     {
       "hero": true,
       "sub": "Politics & Policy",
-      "h3": "Jetten pushes to break the nitrogen deadlock",
-      "summary": "The prime minister says the Netherlands must urgently unlock stalled permits for housing, farming and infrastructure held up by nitrogen rules.",
+      "h3": "Jetten races to break nitrogen deadlock and free up building",
+      "summary": "The prime minister says the Netherlands must end its nitrogen impasse fast to restart stalled permits for housing, farming and roads.",
       "body": [
-        "Rob Jetten has warned that the country must quickly break what officials call the nitrogen deadlock in order to restart permits for home building, farming projects and road works. The impasse has crippled parts of the transport, infrastructure and farming sectors for years.",
-        "Agriculture Minister Jaimi van Essen presented a new nitrogen package before the summer recess, drawing wary attention from farmers who fear tighter emission cuts. Earlier rounds of reductions triggered fierce protests across the country.",
-        "The cabinet is betting that clearing the deadlock is essential to delivering on its housing and economic promises."
+        "Rob Jetten has made clearing the nitrogen logjam a priority, arguing that frozen permits are choking home construction and infrastructure. The plan targets up to 46 percent lower agricultural emissions and 50 percent cuts from mobility and industry by 2035, with 20 billion euros set aside to support farmers and restore nature.",
+        "The push carries political risk as ministers weigh how hard to press cuts without reigniting the farmer protests that shook earlier governments."
       ],
       "sources": [
-        ["NL Times", "https://nltimes.nl/2026/05/18/dutch-cabinet-prepares-tougher-nitrogen-cuts-farmer-protest-fears-return"],
-        ["DutchNews.nl", "https://www.dutchnews.nl/2025/10/rob-jetten-d66-election-exclusive-interview/"]
+        [
+          "NL Times",
+          "https://nltimes.nl/2026/05/18/dutch-cabinet-prepares-tougher-nitrogen-cuts-farmer-protest-fears-return"
+        ],
+        [
+          "DutchNews.nl",
+          "https://www.dutchnews.nl/2025/10/rob-jetten-d66-election-exclusive-interview/"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Politics & Policy",
-      "h3": "Cabinet tightens asylum and family reunification rules",
-      "summary": "Jetten's government has moved to toughen asylum procedures while proposing that applications could be filed outside the EU.",
+      "h3": "Jetten government moves to tighten asylum rules",
+      "summary": "Ministers are drawing up fresh asylum restrictions after the Senate blocked an earlier bill to harden the system.",
       "body": [
-        "The cabinet has passed tougher restrictions on family reunification as part of national legislation implementing the EU's migration and asylum pact. Jetten has also floated allowing asylum claims to be lodged outside the European Union while boosting spending on integration.",
-        "The approach tries to balance a hard line on numbers with investment in helping newcomers settle. The asylum system has been under heavy strain amid a shortage of reception places.",
-        "Migration remains one of the most politically charged issues facing the minority government."
+        "Asylum minister Bart van den Brink wants to broaden the definition of undesirable aliens to target people who resist deportation, offered as an alternative to criminalising illegal residence outright. The move follows Jetten's pledge to produce new measures within weeks.",
+        "The centrist coalition of D66, VVD and CDA is trying to show it can manage migration without the hardline tone of the previous cabinet."
       ],
       "sources": [
-        ["DutchNews.nl", "https://www.dutchnews.nl/2026/04/jetten-promises-new-restrictions-on-asylum-in-two-weeks/"],
-        ["NL Times", "https://nltimes.nl/categories/politics"]
+        [
+          "DutchNews.nl",
+          "https://www.dutchnews.nl/2026/04/jetten-promises-new-restrictions-on-asylum-in-two-weeks/"
+        ],
+        [
+          "NL Times",
+          "https://nltimes.nl/categories/politics"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Politics & Policy",
-      "h3": "Minority coalition governs 10 seats short of a majority",
-      "summary": "The D66, VVD and CDA coalition under Jetten holds just 66 seats, making it the first Dutch minority government in decades.",
+      "h3": "Local objections stall power grid expansion amid congestion",
+      "summary": "Community resistance is delaying grid upgrades even as the Netherlands struggles with severe network congestion.",
       "body": [
-        "The Jetten cabinet, sworn in on February 23, brings together D66, the VVD and the CDA. Together the three parties hold 66 of the 150 seats in the House of Representatives, 10 short of a majority.",
-        "That leaves the government reliant on shifting support to pass legislation, a delicate arrangement for a country facing housing, nitrogen and migration pressures. Dilan Yesilgoz and Bart van den Brink serve as deputy prime ministers.",
-        "At 38, Jetten is the youngest person and first openly gay politician to lead a Dutch government."
+        "Efforts to expand the electricity network are running into local objections that hold up new lines and substations, worsening a capacity crunch that has left businesses waiting for connections. Grid operators warn the bottlenecks threaten housing and industrial projects.",
+        "The delays highlight the tension between the energy transition and the not-in-my-backyard resistance that slows big infrastructure work."
       ],
       "sources": [
-        ["AOL", "https://www.aol.com/articles/dutch-coalition-government-led-youngest-092121813.html"],
-        ["NL Times", "https://nltimes.nl/"]
+        [
+          "NL Times",
+          "https://nltimes.nl/"
+        ],
+        [
+          "NL Times",
+          "https://nltimes.nl/categories/business"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Politics & Policy",
-      "h3": "Court rules state failed to protect witness's family",
-      "summary": "A Dutch court found the state fell short in protecting the family of Nabil B, the crown witness in the Taghi crime trial.",
+      "h3": "Working past 67 becomes standard in Dutch labour deals",
+      "summary": "New collective agreements increasingly treat employment beyond the state pension age of 67 as normal.",
       "body": [
-        "The court ruled that the Dutch state failed to adequately protect the family of Nabil B, whose testimony was central to the case against crime boss Ridouan Taghi. The witness's brother and lawyer were previously killed in attacks linked to the case.",
-        "The judgment revives scrutiny of how the justice system shields those who cooperate against organized crime. The Marengo trial exposed the violent reach of the network.",
-        "The ruling adds pressure on authorities to strengthen witness protection."
+        "Labour deals are shifting to make working past 67 a standard option rather than an exception, reflecting tight labour markets and an ageing workforce. Employers and unions are building in arrangements for older staff who want to stay on.",
+        "The change points to a gradual rethink of retirement as the Netherlands grapples with worker shortages across sectors."
       ],
       "sources": [
-        ["NL Times", "https://nltimes.nl/categories/crime"],
-        ["DutchNews.nl", "https://www.dutchnews.nl/"]
+        [
+          "NL Times",
+          "https://nltimes.nl/"
+        ],
+        [
+          "DutchNews.nl",
+          "https://www.dutchnews.nl/"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Politics & Policy",
+      "h3": "New law forces makers to repair appliances after warranty",
+      "summary": "Manufacturers will be required to fix broken appliances even once the warranty has expired under a new Dutch rule.",
+      "body": [
+        "The measure obliges producers to repair faulty appliances beyond the warranty period, part of a broader right-to-repair push aimed at cutting electronic waste. Consumer advocates say it should extend the life of everyday devices.",
+        "It lands as the EU rolls out wider repair and sustainability rules that reshape how products are sold and serviced."
+      ],
+      "sources": [
+        [
+          "NL Times",
+          "https://nltimes.nl/2026/08/04/wildfire-risk-nearly-doubles-netherlands-past-decade"
+        ],
+        [
+          "DutchNews.nl",
+          "https://www.dutchnews.nl/"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Economy & Housing",
-      "h3": "House prices keep climbing despite affordability strain",
-      "summary": "The Dutch central bank expects home prices to rise around 4.8 percent this year even as buyers face rising mortgage rates.",
+      "h3": "Dutch inflation climbs to 3.1 percent in July",
+      "summary": "A CBS flash estimate put July inflation at 3.1 percent, up from 2.9 percent in June.",
       "body": [
-        "The Dutch central bank projects house price increases of about 4.8 percent in 2026 and 5.5 percent in 2027, though annual growth is easing from last year's pace. A wave of former rental properties coming to market is expected to soften prices somewhat before subsiding.",
-        "Affordability remains a major obstacle, with first-time buyers, single people and lower and middle income earners squeezed by high prices and borrowing costs. Consumer confidence has slipped as rates rise.",
-        "The country still faces a structural shortage estimated at around 400,000 homes."
+        "Statistics Netherlands said consumer prices rose 1.6 percent in July from June, lifting the annual rate to 3.1 percent. The EU-harmonised measure came in at 2.9 percent, also higher than the previous month.",
+        "The uptick keeps price pressures above the European Central Bank's comfort zone, with full CPI figures due on August 11."
       ],
       "sources": [
-        ["De Nederlandsche Bank", "https://www.dnb.nl/en/current-economic-issues/housing-market/"],
-        ["DutchNews.nl", "https://www.dutchnews.nl/category/economy/"]
+        [
+          "CBS",
+          "https://www.cbs.nl/en-gb/news/2026/31/inflation-was-3-1-percent-in-july-according-to-flash-estimate"
+        ],
+        [
+          "Trading Economics",
+          "https://tradingeconomics.com/netherlands/inflation-cpi"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Economy & Housing",
-      "h3": "Jetten pledges 100,000 homes a year and 10 new towns",
-      "summary": "The government wants to build 100,000 homes annually and lay out 10 new towns to ease the housing shortage.",
+      "h3": "DNB expects house price growth to cool to 3 to 4 percent",
+      "summary": "The central bank forecasts annual house price rises of 3 to 4 percent through 2028, sharply below recent years.",
       "body": [
-        "Jetten has promised to build 100,000 homes a year and establish 10 new towns, part of a drive to end years of stagnation in Dutch housing. The plan earmarks locations for new neighborhoods that are easy to reach by car, bicycle and public transport.",
-        "The blueprint would make it simpler to split a house into multiple homes or add a floor to existing buildings, and harder to block new projects. Clearing the nitrogen bottleneck is seen as key to getting shovels in the ground.",
-        "Delivering the numbers will test the minority government's ability to move quickly."
+        "De Nederlandsche Bank said falling consumer confidence and rising mortgage rates are leaving buyers both less willing and less able to borrow, easing the pace of price growth. More homes are also coming to market as ex-rental properties are sold off.",
+        "The slowdown offers modest relief in a market long defined by shortages and steep price gains, though affordability remains stretched in the big cities."
       ],
       "sources": [
-        ["Worthy News", "https://www.worthynews.com/112459-youngest-dutch-pm-rob-jetten-sworn-in-while-facing-climate-migration-and-life-issues-worthy-news-in-depth"],
-        ["Government.nl", "https://www.government.nl/government/governments-plans-in-plain-language"]
+        [
+          "DNB",
+          "https://www.dnb.nl/en/current-economic-issues/housing-market/"
+        ],
+        [
+          "Rabobank",
+          "https://www.rabobank.com/knowledge/d011508452-dutch-housing-market-quarterly-no-signs-of-cooling-even-as-supply-grows"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Economy & Housing",
-      "h3": "Dutch economy set for modest growth as inflation cools",
-      "summary": "Output is forecast to grow 1.2 percent in 2026 with inflation easing toward the eurozone average.",
+      "h3": "Dutch unemployment edges up as growth stays modest",
+      "summary": "CBS counted 393,000 unemployed in early August as forecasts point to a slowly rising jobless rate.",
       "body": [
-        "The Dutch economy is projected to expand by 1.2 percent in 2026 and 1.4 percent in 2027, slightly above the EU average. Inflation, still around 3 percent and above the eurozone norm, is expected to fall to about 2.4 percent this year.",
-        "The outlook points to a steady if unspectacular recovery, with household purchasing power gradually improving as price pressures ease. Higher borrowing costs continue to weigh on spending and investment.",
-        "Economists see limited risk of overheating in the near term."
+        "The number of unemployed reached 393,000, with economists expecting the rate to climb toward 4.2 percent this year and 4.4 percent in 2027. Growth is projected around 1 percent to 1.2 percent, held back by capacity bottlenecks.",
+        "Fitch reaffirmed the Netherlands' AAA rating with a stable outlook, citing strong institutions and eurozone membership."
       ],
       "sources": [
-        ["ABN AMRO", "https://www.abnamro.com/research/en/our-research/housing-market-monitor-will-2026-be-an-unexceptional-year"],
-        ["Rabobank", "https://www.rabobank.com/knowledge/d011508452-dutch-housing-market-quarterly-no-signs-of-cooling-even-as-supply-grows"]
+        [
+          "CBS",
+          "https://www.cbs.nl/en-gb/figures/detail/80590eng"
+        ],
+        [
+          "Rabobank",
+          "https://www.rabobank.com/knowledge/d011507691-dutch-economy-expected-to-continue-growing-in-2026-and-2027-but-unemployment-will-rise"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Economy & Housing",
-      "h3": "Rail disruption hits the Utrecht to The Hague line",
-      "summary": "Train services were disrupted between Utrecht and The Hague, snarling travel on a busy stretch of the network.",
+      "h3": "Shell sells European onshore renewables to TotalEnergies",
+      "summary": "Shell agreed to offload its European onshore renewable energy operations to rival TotalEnergies.",
       "body": [
-        "Passengers faced delays and cancellations as train traffic was disrupted between Utrecht and The Hague, one of the country's busier corridors. The interruption added to a summer of intermittent problems on the rail network.",
-        "Commuters and holiday travelers were advised to check for alternative routes during the disruption. Operators worked to restore normal service.",
-        "Reliability on the rails remains a recurring frustration for Dutch travelers."
+        "The deal hands TotalEnergies Shell's onshore wind and solar assets across Europe as the Anglo-Dutch major continues to trim its renewables footprint and refocus on core businesses. It marks another step in Shell's retreat from parts of the green portfolio it built up in recent years.",
+        "The sale underscores shifting strategies among oil majors weighing returns from renewables against traditional energy."
       ],
       "sources": [
-        ["NL Times", "https://nltimes.nl/categories/business"],
-        ["NL Times", "https://nltimes.nl/top-stories"]
+        [
+          "NL Times",
+          "https://nltimes.nl/categories/business"
+        ],
+        [
+          "NL Times",
+          "https://nltimes.nl/"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Society & Culture",
-      "h3": "Two arrested after Dam Square war monument defaced",
-      "summary": "Police detained two men after the National WWII Monument in Amsterdam was covered in graffiti early Sunday.",
+      "h3": "Wildfire risk in the Netherlands nearly doubles in a decade",
+      "summary": "New analysis finds the country's wildfire danger has roughly doubled over the past ten years amid hotter, drier summers.",
       "body": [
-        "The National Monument on Dam Square was painted with blue graffiti carrying messages about human trafficking and a call to wake up, along with a skull image at its base. A 27-year-old man from Hoofddorp was caught spraying the structure around 5:15 a.m. and detained on the spot.",
-        "He remains in custody and is being questioned, and a second man was also arrested. The monument, a solemn national symbol, has been targeted repeatedly in recent years.",
-        "A protester had previously sprayed slogans on it during a demonstration the year before."
+        "The KNMI produced a wildfire impact forecast for the first time this year as fire services warned of rising danger across heath and forest. The finding lands during a parched summer that has left vegetation tinder-dry.",
+        "Officials say the trend reflects a warming climate that is reshaping risk in a country better known for water management than drought."
       ],
       "sources": [
-        ["NL Times", "https://nltimes.nl/2026/08/02/two-men-arrested-national-wwii-monument-dam-square-defaced-graffiti"],
-        ["NL Times", "https://nltimes.nl/categories/crime"]
+        [
+          "NL Times",
+          "https://nltimes.nl/2026/08/04/wildfire-risk-nearly-doubles-netherlands-past-decade"
+        ],
+        [
+          "NL Times",
+          "https://nltimes.nl/2026/08/01/august-start-hot-sunny-drought-expected-worsen"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Society & Culture",
-      "h3": "Code yellow heat as temperatures near 35C",
-      "summary": "The KNMI issued a nationwide code yellow warning with highs up to 35 degrees before cooler air arrives midweek.",
+      "h3": "Fast-moving Limburg wildfire proves hard to extinguish",
+      "summary": "A rapidly spreading blaze in Limburg is expected to take a long time to bring fully under control.",
       "body": [
-        "A southerly airflow pushed very warm air over the Netherlands on Monday and Tuesday, with temperatures reaching 30 degrees and locally as high as 35. The KNMI weather service issued a code yellow heat warning covering the whole country.",
-        "Relief was forecast from Wednesday as cooler weather moved in. Authorities urged people to stay hydrated and check on vulnerable neighbors during the hottest hours.",
-        "The spell capped an unusually hot Dutch summer."
+        "Fire crews battled a fast-moving wildfire in Limburg that officials warned could smoulder for an extended period given dry conditions. The fire added to mounting concern about drought-driven blazes this summer.",
+        "Elsewhere, low water levels forced several ferries in Gelderland out of service as rivers ran exceptionally low."
       ],
       "sources": [
-        ["NL Times", "https://nltimes.nl/2026/08/03/another-hot-day-ahead-temps-35degc-cooler-weather-wednesday"],
-        ["NL Times", "https://nltimes.nl/2026/08/02/warm-days-ahead-temps-reach-30-35degc-monday-tuesday"]
+        [
+          "NL Times",
+          "https://nltimes.nl/"
+        ],
+        [
+          "NL Times",
+          "https://nltimes.nl/2026/08/01/august-start-hot-sunny-drought-expected-worsen"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Society & Culture",
-      "h3": "2026 closes in on record for extreme heat days",
-      "summary": "The Netherlands has logged six days above 35 degrees this year, putting 2026 within reach of the all-time record.",
+      "h3": "Drought deficit nears the record set in 1976",
+      "summary": "The precipitation shortfall has reached 250 millimetres, closing in on the country's worst dry spell on record.",
       "body": [
-        "The country recorded its sixth regional extreme heat day of the year when temperatures topped 35 degrees, leaving 2026 close to the national record. The earlier 35-degree days came in quick succession in June.",
-        "The year's highest reading remains 39.4 degrees, measured in the village of Ell on June 26. The frequency of extreme heat has drawn attention to a warming climate.",
-        "Meteorologists say such clusters of hot days are becoming more common."
+        "A second dry spring in a row has pushed the rainfall deficit toward the 1976 benchmark, leaving rivers low and water stress rising. The southeast has seen the fourth heatwave of the year, with local highs around 33 degrees.",
+        "Water authorities are managing shipping and irrigation as the parched conditions ripple across agriculture and inland transport."
       ],
       "sources": [
-        ["NL Times", "https://nltimes.nl/2026/07/30/netherlands-six-days-extreme-heat-35-degrees-year"],
-        ["DutchReview", "https://dutchreview.com/news/netherlands-super-heatwave-might-break-records-23062026/"]
+        [
+          "NL Times",
+          "https://nltimes.nl/2026/08/01/august-start-hot-sunny-drought-expected-worsen"
+        ],
+        [
+          "NL Times",
+          "https://nltimes.nl/2026/04/25/back-back-dry-springs-leave-netherlands-early-drought-signs-rising-water-stress"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Society & Culture",
-      "h3": "AZ thrash 10-man PSV to win Johan Cruyff Shield",
-      "summary": "AZ Alkmaar routed a 10-man PSV 4-0 to lift the season-opening Johan Cruyff Shield.",
+      "h3": "Home visits by Dutch family doctors fall 50 percent",
+      "summary": "House calls by GPs have halved over the past 15 years as primary care shifts away from home visits.",
       "body": [
-        "AZ Alkmaar overwhelmed PSV Eindhoven 4-0 to claim the Johan Cruyff Shield, the annual curtain-raiser between the league champions and cup winners. PSV were reduced to 10 men in a one-sided contest.",
-        "The commanding win handed AZ the Shield and set an early marker before the new Eredivisie season. It was a chastening start for PSV.",
-        "The result gave Dutch football fans an emphatic opening statement."
+        "The number of home visits by family doctors has dropped by half in a decade and a half, reflecting workload pressures and changing practice models. Patient groups worry the trend leaves frail and elderly people with less at-home care.",
+        "The finding feeds a broader debate about strain on Dutch primary care and access for those who cannot easily travel to a surgery."
       ],
       "sources": [
-        ["NL Times", "https://nltimes.nl/"],
-        ["NL Times", "https://nltimes.nl/top-stories"]
+        [
+          "NL Times",
+          "https://nltimes.nl/"
+        ],
+        [
+          "DutchNews.nl",
+          "https://www.dutchnews.nl/category/society/"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Society & Culture",
-      "h3": "Nine-meter Lenin statue relocated in Groningen",
-      "summary": "A towering nine-meter Lenin statue was moved to another town in the northern province of Groningen.",
+      "h3": "WorldPride fills Amsterdam through early August",
+      "summary": "Amsterdam is hosting WorldPride from late July into August, a global celebration of LGBTQIA+ rights and visibility.",
       "body": [
-        "A nine-meter high statue of Vladimir Lenin was relocated to a different town in Groningen, an unusual bit of local news that drew attention to the province. The oversized monument has an eccentric backstory in the region.",
-        "Its move sparked curiosity and comment among residents. Such relics of Soviet-era iconography are a rare sight in the Dutch landscape.",
-        "The relocation offered a lighter note amid a heavy news cycle."
+        "The two-week festival running to August 8 has drawn crowds and events across the city as Amsterdam takes its turn hosting the international Pride gathering. Organisers framed it as a show of solidarity and visibility at a time of political pushback in some countries.",
+        "The celebration coincides with a busy summer cultural calendar in the capital, from comedy to community festivals."
       ],
       "sources": [
-        ["NL Times", "https://nltimes.nl/categories/culture"],
-        ["NL Times", "https://nltimes.nl/"]
+        [
+          "I amsterdam",
+          "https://www.iamsterdam.com/en/whats-on/culture-guide"
+        ],
+        [
+          "NL Times",
+          "https://nltimes.nl/categories/culture"
+        ]
       ]
     },
     {
       "hero": false,
       "sub": "Society & Culture",
-      "h3": "Resident rescued from Apeldoorn apartment blast",
-      "summary": "An explosion and fire tore through an apartment in Apeldoorn, and one resident was rescued and taken to hospital.",
+      "h3": "EU AI Act's next stage brings content labelling rules",
+      "summary": "A new phase of the EU AI Act took effect on August 2, requiring firms to label content mainly generated by AI.",
       "body": [
-        "Emergency services responded to an explosion and fire at an apartment in Apeldoorn, pulling one resident from the building and taking them to hospital. The blast caused significant damage to the property.",
-        "Investigators worked to establish the cause of the explosion. Neighbors were affected by the disruption in the immediate area.",
-        "The incident was among several emergencies reported across the country in recent days."
+        "Under the second stage of the bloc's landmark AI law, companies including those in the Netherlands must flag content primarily created with artificial intelligence. The rollout marks the world's first comprehensive legal framework for the technology.",
+        "Businesses are adjusting compliance as obligations phase in, part of a wider push to bring transparency to AI-generated media."
       ],
       "sources": [
-        ["NL Times", "https://nltimes.nl/"],
-        ["NL Times", "https://nltimes.nl/top-stories"]
+        [
+          "IamExpat",
+          "https://www.iamexpat.nl/expat-info/dutch-news/august-2026-9-changes-expats-netherlands-need-know-about"
+        ],
+        [
+          "DutchNews.nl",
+          "https://www.dutchnews.nl/"
+        ]
       ]
     }
   ],
   "mood": {
     "h3": "Sfeer vandaag",
-    "p": "Het is opnieuw een snikhete dinsdag, met temperaturen die richting 35 graden kruipen en een gele KNMI-waarschuwing die het hele land bedekt. De aanhoudende hitte drukt op de stemming, terwijl velen reikhalzend uitkijken naar de koelte die vanaf woensdag wordt verwacht. Ondertussen houdt het nieuws over vandalisme aan het Nationaal Monument op de Dam de gemoederen bezig, en blijft de wooncrisis het gesprek van de dag. Toch overheerst een zomerse, licht loome sfeer op terrassen en aan het water."
+    "p": "Nederland wordt vandaag wakker in een broeierige, kurkdroge zomer, met veel zon en temperaturen die in het zuidoosten oplopen tot boven de 30 graden. Het neerslagtekort nadert het record van 1976, rivieren staan laag en de brandweer waarschuwt voor natuurbranden na de snel om zich heen grijpende brand in Limburg. Tegelijk hangt er een feestelijke stemming in Amsterdam, waar WorldPride de stad kleurt en de vakantie langzaam ten einde loopt."
   }
 }
