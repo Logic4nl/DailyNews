@@ -1,351 +1,278 @@
 {
-  "sports": [
-    {
-      "hero": true,
-      "sub": "Tennis",
-      "h3": "Sinner opens Montreal title defense after illness scare",
-      "summary": "Top ranked Jannik Sinner shook off a bout of tonsillitis to beat Borna Coric and launch his National Bank Open defense in Montreal.",
-      "body": [
-        "Sinner returned from a short illness layoff to dispatch Borna Coric 6-2, 6-4 in the second round of the National Bank Open in Montreal. The world number one is defending the title he won last year and arrived without direct rivals Carlos Alcaraz and Novak Djokovic, both of whom skipped the Masters 1000 event.",
-        "The tournament runs August 2 to 13 with the men in Montreal and the women in Toronto. Second seed Alexander Zverev is the highest ranked player in the Montreal draw and Canadian hope Felix Auger-Aliassime is carrying home support deep into the week."
-      ],
-      "sources": [
-        ["AOL / AP", "https://aol.com/news/top-ranked-jannik-sinner-beats-225130487.html"],
-        ["ATP Tour", "https://www.atptour.com/en/news/montreal-2026-results"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Tennis",
-      "h3": "Zverev rolls in Montreal as seeds tumble",
-      "summary": "Alexander Zverev crushed Jordan Thompson for his tour leading 48th win of the year while Medvedev and Tsitsipas both crashed out early.",
-      "body": [
-        "Second seed Zverev needed barely an hour to beat Jordan Thompson 6-1, 6-1 in Montreal, banking his 48th match win of the season and the most on the ATP Tour. The German looks a genuine threat in a draw thinned by absences at the top.",
-        "The upsets came fast underneath him. Alejandro Davidovich Fokina knocked out third seed Daniil Medvedev 6-4, 1-6, 6-2 and Kei Nishikori turned back the clock to beat eighth seed Stefanos Tsitsipas 6-4, 6-4."
-      ],
-      "sources": [
-        ["Perfect Tennis", "https://www.perfect-tennis.com/national-bank-open-montreal-day-one-two-recap/"],
-        ["ATP Tour", "https://www.atptour.com/en/news/montreal-2026-results"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Tennis",
-      "h3": "Sabalenka and Swiatek open Toronto with No. 1 on the line",
-      "summary": "Top seed Aryna Sabalenka began her Toronto campaign against qualifier Moyuka Uchijima with the world number one ranking under threat from Elena Rybakina.",
-      "body": [
-        "Sabalenka opened the night session in Toronto against Japanese qualifier Moyuka Uchijima, arriving with an 8,550 to 8,056 points lead over Elena Rybakina at the top of the rankings. A slip this week could hand the number one spot to her rival.",
-        "Iga Swiatek and Coco Gauff are also chasing the title in a stacked field that features 72 of the WTA top 75. Amanda Anisimova headlined the late slate against Thai qualifier Lanlana Tararudee."
-      ],
-      "sources": [
-        ["National Bank Open", "https://nationalbankopen.com/news/read/2026/nbo-toronto-results-day-4-swiatek-kostyuk-sebov-sabalenka-anisimova"],
-        ["WTA", "https://www.wtatennis.com/tournaments/806/toronto/2026"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Tennis",
-      "h3": "Auger-Aliassime carries home hopes in Montreal",
-      "summary": "Felix Auger-Aliassime is the leading Canadian in a Montreal draw that could set up a quarterfinal against a recent Roland-Garros finalist.",
-      "body": [
-        "With Sinner and Zverev anchoring the top half, Auger-Aliassime is Canada's best bet for a deep run on home soil. The draw projects a possible quarterfinal against a French Open finalist and a later collision with defending Masters names.",
-        "Ben Shelton and Daniil Medvedev had been penciled in as a possible quarterfinal, but Medvedev's early exit reshaped the bottom half and opened the door for others."
-      ],
-      "sources": [
-        ["CBC Sports", "https://www.cbc.ca/sports/tennis/national-bank-open-montreal-draw-9.7293442"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Sailing",
-      "h3": "Spain make it two in a row at SailGP Portsmouth",
-      "summary": "Diego Botin steered Spain's Los Gallos to a second straight SailGP event win in Portsmouth, beating Sweden, Switzerland and Canada in the final.",
-      "body": [
-        "Spain's Los Gallos claimed back to back SailGP victories at the Portsmouth Sail Grand Prix on July 25 and 26. Skipper Diego Botin led the crew past Artemis of Sweden, Switzerland's Explora and Canada's Northstar in a four boat final.",
-        "The result tightens the 2026 championship, which is being contested across thirteen grands prix worldwide. The fleet next races at the ROCKWOOL Germany Sail Grand Prix in Sassnitz on August 22 and 23."
-      ],
-      "sources": [
-        ["Scuttlebutt Sailing News", "https://www.sailingscuttlebutt.com/2026/07/26/spain-win-at-sailgp-portsmouth/"],
-        ["SailGP", "https://sailgp.com/results/all-seasons/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Sailing",
-      "h3": "Team USA joins swelling America's Cup field for Naples",
-      "summary": "American Racing confirmed its entry for the 2027 America's Cup after buying American Magic's AC75 and training boats as the fleet grows.",
-      "body": [
-        "The Louis Vuitton 38th America's Cup will be sailed off Naples in the Italian summer of 2027 with the match starting July 10. Five founding teams from New Zealand, Britain, Italy, Switzerland and France have formed an alliance to shape the event's future.",
-        "American Racing, representing Sail Newport, confirmed its challenge after purchasing American Magic's key hardware including the AC75 Patriot and two AC40 platforms. A backed Australian challenge has also entered, filling out the road to Naples."
-      ],
-      "sources": [
-        ["America's Cup", "https://www.americascup.com/news/3867_FIVE-TEAMS-ENTER-HISTORIC-AMERICAS-CUP-ALLIANCE-TO-SUPERCHARGE-FUTURE-OF-SPORTS-OLDEST-TROPHY"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Formula 1",
-      "h3": "Norris wins dramatic Hungarian GP into summer break",
-      "summary": "Lando Norris held off Max Verstappen and Kimi Antonelli to win the Hungarian Grand Prix and take his first victory of his title defense.",
-      "body": [
-        "Norris converted pole into victory at the Hungaroring on July 26 despite losing the early lead to Oscar Piastri, who retired with a gearbox failure. It was the first win of the reigning champion's title defense as the paddock headed into the summer shutdown.",
-        "Verstappen finished second ahead of Antonelli in third. Lewis Hamilton crossed fourth but a five second pit lane penalty dropped him to fifth and promoted Charles Leclerc to fourth."
-      ],
-      "sources": [
-        ["Formula 1", "https://www.formula1.com/en/latest/article/norris-beats-verstappen-and-antonelli-to-victory-in-dramatic-hungarian-gp.5JQmohRAKABD2asRsMWogj"],
-        ["The Race", "https://www.the-race.com/formula-1/f1-2026-hungarian-grand-prix-results/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Formula 1",
-      "h3": "Verstappen exit clause fuels summer silly season",
-      "summary": "With Max Verstappen outside the top two at the break, his Red Bull exit clause is in play and McLaren has emerged as a favored landing spot.",
-      "body": [
-        "Verstappen sits seventh at the summer break, best of the rest behind Mercedes, Ferrari and McLaren with just two podiums all year. That leaves him below the top two threshold that reportedly unlocks an exit clause in his Red Bull contract.",
-        "Mercedes has long courted the Dutchman, but reports now cast McLaren as the frontrunner. Any move would trigger a grid wide domino effect, with Red Bull said to be eyeing Oscar Piastri if Verstappen departs."
-      ],
-      "sources": [
-        ["GPFans", "https://www.gpfans.com/en/f1-news/1087455/max-verstappen-signs-mclaren-red-bull-f1-silly-season-oscar-piastri/"],
-        ["ESPN", "https://www.espn.com/racing/f1/story/_/id/45965617/state-silly-season-drive-where-f1-2026"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Football",
-      "h3": "Eredivisie kicks off Friday with PSV chasing four in a row",
-      "summary": "The 2026-27 Eredivisie season opens August 7 with Cambuur hosting Excelsior as three-time champions PSV and a rebuilt Ajax lead the title race.",
-      "body": [
-        "The new Dutch top flight season begins the weekend of August 7 to 9, with SC Cambuur versus Excelsior Rotterdam as the curtain raiser and PSV facing Fortuna Sittard the next day. PSV go for a fourth straight crown.",
-        "Ajax are the biggest threat after signing Marcos Leonardo from Al-Hilal to boost their attack under coach Michel, with Davy Klaassen as captain. The full schedule is already set through matchweek 12 in November."
-      ],
-      "sources": [
-        ["365Scores", "https://www.365scores.com/news/the-dutch-renaissance-a-complete-preview-of-the-2026-27-eredivisie-season"],
-        ["Groundhopper Guides", "https://groundhopperguides.com/2026-27-eredivisie-start-date-fixtures-release-date/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Combat Sports",
-      "h3": "ADCC 2026 card shifts as champions pulled for UFC BJJ",
-      "summary": "The ADCC World Championship in Krakow lost multiple titleholders to the UFC's rival grappling series as the September event's lineup reshuffles.",
-      "body": [
-        "The ADCC World Championship returns September 12 and 13 at Tauron Arena in Krakow, but the invite list keeps moving. Several past champions have been withdrawn, with the UFC BJJ series pulling contracted talent away from the biennial showcase.",
-        "The reshuffle has reopened brackets across weight classes and sparked debate over which grappling promotion holds the sport's top names. UFC BJJ 10 is set for August 20, adding to a crowded late summer calendar."
-      ],
-      "sources": [
-        ["MMA Mania", "https://www.mmamania.com/bjj-news/459197/adcc-2026-loses-double-champ-to-ufc-bjj-fugitive-izaak-michell-also-removed"],
-        ["FloGrappling", "https://www.flograppling.com/articles/14420362-grappling-bulletin-mica-in-cji-wno-29-adcc-2026-bjj-stars-16-more"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Combat Sports",
-      "h3": "Craig Jones leaves CJI 3 on ice after cancellation",
-      "summary": "Craig Jones scrapped a third edition of his big money Craig Jones Invitational in May, and July talk of a return produced no confirmed event.",
-      "body": [
-        "Jones confirmed in May that CJI 3 was cancelled, saying the economics no longer added up after the first two editions failed to turn a profit. CJI 2 broke even at best despite its headline million dollar purses.",
-        "By July there was renewed chatter about a scaled back return without the huge prize pool, but no venue, card or date has been verified. Jones has also said his event will not clash with ADCC in 2026."
-      ],
-      "sources": [
-        ["Jits Magazine", "https://jitsmagazine.com/craig-jones-confirms-that-cji-3-will-take-place-in-2026-in-original-format/"],
-        ["BJJEE", "https://www.bjjee.com/bjj-news/craig-jones-confirms-there-will-be-no-cji-vs-adcc-clash-in-2026-we-can-coexist/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Combat Sports",
-      "h3": "IBJJF Brasileiro draws nearly 8,000 grapplers",
-      "summary": "The IBJJF Brazilian National Championship ran across ten days in Barueri near Sao Paulo with close to 8,000 competitors on the mats.",
-      "body": [
-        "The IBJJF Brasileiro packed the Ginasio Poliesportivo Jose Correa in Barueri, part of greater Sao Paulo, with roughly 8,000 athletes over ten days of competition. It remains one of the largest gi tournaments on the calendar.",
-        "The federation's summer schedule stays busy, with international opens and the World Master championship lined up through August as the grappling season builds toward ADCC in September."
-      ],
-      "sources": [
-        ["Yahoo Sports", "https://sports.yahoo.com/articles/ibjjf-brasileiro-2026-results-175844113.html"],
-        ["IBJJF", "https://ibjjf.com/events/calendar"]
-      ]
-    }
-  ],
-  "consumer-tech": [
-    {
-      "hero": true,
-      "sub": "EVs & Mobility",
-      "h3": "Tesla ships summer update as robotaxi push widens",
-      "summary": "Tesla's 2026.26 summer update is rolling out with a live self-driving indicator in the app, days after the company built its 10-millionth EV.",
-      "body": [
-        "Tesla began pushing software update 2026.26 to vehicles worldwide, bundling new features, visual overhauls and usability fixes. A headline addition is a live app indicator showing when a car is actively driving itself, aimed squarely at owners who put vehicles into the expanding robotaxi fleet.",
-        "The rollout follows Tesla building its 10-millionth EV at the Fremont factory on August 2. FSD v14 Lite has gone to wide release and the company confirmed Starlink V5 integration in its Cybercab robotaxi vehicles, though critics note the robotaxi service is still scaling slowly."
-      ],
-      "sources": [
-        ["Not a Tesla App", "https://www.notateslaapp.com/news/4517/tesla-202626-summer-update-what-each-model-and-hardware-gets"],
-        ["Tesla Oracle", "https://www.teslaoracle.com/2026/08/04/tesla-summer-update-2026-26-features-release-notes-and-rollout-status/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "EVs & Mobility",
-      "h3": "Rivian pushes cheaper R2 trims back to 2027",
-      "summary": "CEO RJ Scaringe confirmed Rivian's more affordable R2 trims will slip to early 2027 as the company reported second quarter revenue of $1.66 billion.",
-      "body": [
-        "Rivian retreated from a late 2026 target and now expects the lower priced R2 trims in early 2027. The line is running a single shift at roughly 600 units a week, with a second shift due by the end of the third quarter to nearly double output.",
-        "The company guided to 20,000 to 25,000 R2 deliveries this year and posted $1.66 billion in second quarter revenue as R2 shipments began. Management reaffirmed plans for point-to-point hands off driving by year end."
-      ],
-      "sources": [
-        ["Tech Times", "https://www.techtimes.com/articles/322462/20260731/rivian-r2-timeline-slips-cheaper-trims-land-2027-quality-reports-mount.htm"],
-        ["The Motley Fool", "https://www.fool.com/earnings/call-transcripts/2026/08/03/rivian-rivn-q2-2026-earnings-call-transcript/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "EVs & Mobility",
-      "h3": "European EV sales jump as BYD keeps climbing",
-      "summary": "Battery electric sales across Europe leapt 50 percent to a 26 percent market share, with BYD's Atto 2 setting a registration record.",
-      "body": [
-        "Fully electric car sales in Europe surged around 50 percent year over year to reach a 26 percent market share, according to the latest regional data. The growth reflects both new models and stronger charging confidence among buyers.",
-        "Chinese maker BYD kept gaining ground, with the Atto 2 posting a record 13,100 registrations in July on the back of a new plug-in hybrid variant. BYD is expanding its European sales network aggressively as it targets thousands of points of sale."
-      ],
-      "sources": [
-        ["CleanTechnica", "https://cleantechnica.com/2026/08/02/europe-ev-sales-report-bevs-jump-50-reach-26-market-share/"],
-        ["Electrek", "https://electrek.co/2026/05/13/byd-eyes-stellantis-eu-plant-ev-sales-surge-others-too/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "EVs & Mobility",
-      "h3": "Tesla robotaxi rollout draws scrutiny over pace",
-      "summary": "Reports say Tesla's driverless robotaxi operation is expanding cautiously, with limited coverage and safety monitors still in the loop.",
-      "body": [
-        "Even as Tesla touts autonomy milestones, analysts and reporters flagged that its robotaxi service remains small and heavily supervised. Coverage areas are limited and human oversight persists, tempering the company's marketing.",
-        "The new app indicator showing when a vehicle is driving itself is partly aimed at robotaxi owners who have a financial and safety stake in knowing their car's status. Tesla continues to frame the effort as its next major growth driver."
-      ],
-      "sources": [
-        ["TechCrunch", "https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Software & Services",
-      "h3": "ChatGPT returns to WhatsApp across Europe",
-      "summary": "OpenAI brought ChatGPT back to WhatsApp in the European Economic Area with image, voice and multilingual chat plus optional account linking.",
-      "body": [
-        "ChatGPT is available again on WhatsApp in the EEA, letting users message the verified 1-800-CHATGPT contact without an account. People can send text, upload images, share voice notes, generate images and chat in many languages, with account linking unlocking higher usage limits.",
-        "OpenAI also expanded its Sign in with ChatGPT beta across partner sites and tools including Airtable, GitLab, HubSpot, Notion, Supabase and Vercel, pushing its login into more third-party workflows."
-      ],
-      "sources": [
-        ["Releasebot", "https://releasebot.io/updates/openai/chatgpt"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Software & Services",
-      "h3": "Instagram adds built-in AI image generation",
-      "summary": "Instagram rolled out a first-party image model that lets users transform photos with preset styles or fully custom text prompts inside the app.",
-      "body": [
-        "Instagram introduced its own image generation model, giving users a way to remix and transform photos using built-in presets or free-form prompts without leaving the app. The move brings generative editing directly into the main creation flow.",
-        "The feature lands as Meta pushes AI tools deeper across its apps, betting that in-app generation keeps creators from turning to standalone tools for edits and effects."
-      ],
-      "sources": [
-        ["EmbedSocial", "https://embedsocial.com/blog/new-instagram-features-2026/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Software & Services",
-      "h3": "WhatsApp usernames near launch to hide phone numbers",
-      "summary": "WhatsApp is preparing usernames so people can message without exposing their phone numbers, alongside iPad registration and CarPlay upgrades.",
-      "body": [
-        "WhatsApp is rolling toward a long requested usernames feature. Once live, users who opt in will no longer have to reveal their phone number when they first message a person or business, and can reserve a unique handle.",
-        "The update also brings direct account registration on iPads, a revamped Apple CarPlay and Android Auto experience, better PDF collaboration and music sharing through Status."
-      ],
-      "sources": [
-        ["AOL", "https://www.aol.com/whatsapp-unveils-major-number-one-113910754.html"],
-        ["Gulf Business", "https://gulfbusiness.com/en/2026/application/whatsapps-latest-update-changes-how-you-chat-heres-whats-new/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Software & Services",
-      "h3": "Android 17 spreads Gemini and focus tools",
-      "summary": "Android 17 is reaching more devices with Gemini integration, floating app Bubbles and a Pause Point screen for distracting apps.",
-      "body": [
-        "Android 17 launched stable in June alongside the Pixel Drop and is now expanding to more phones. Highlights include deeper Gemini integration arriving this summer, Bubbles that turn any app into a floating window and Metric Style Live Update notifications.",
-        "A new Pause Point tool in Digital Wellbeing inserts a ten second pause screen before flagged distracting apps, offering a breathing exercise, a timer or a favorite photo. Advanced Protection also tightens accessibility and scam defenses."
-      ],
-      "sources": [
-        ["Google", "https://blog.google/products-and-platforms/platforms/android/android-17-features/"],
-        ["Android Authority", "https://www.androidauthority.com/android-17-3561251/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Devices & Launches",
-      "h3": "Apple signals September event for iPhone 18 Pro",
-      "summary": "Reports point to a September 9 Apple event for the iPhone 18 Pro and Pro Max, with the standard iPhone 18 held back to spring 2027.",
-      "body": [
-        "Apple is expected to hold its iPhone 18 Pro event around September 9, with pre-orders for the Pro and Pro Max plus new Apple Watches on September 11 and sales on September 18. The company is breaking from tradition by delaying the standard iPhone 18 to spring 2027.",
-        "The fall lineup is tipped to include Apple's first foldable, possibly branded iPhone Ultra, which could start at $2,000 or more. Analysts warn of $100 to $200 price hikes on the new Pro models tied to chip and camera costs."
-      ],
-      "sources": [
-        ["MacRumors", "https://www.macrumors.com/2026/07/30/when-will-apple-announce-iphone-18-pro-event/"],
-        ["Forbes", "https://www.forbes.com/sites/davidphelan/2026/08/03/apple-iphone-18-pro-september-release-date-signaled-in-keynote-update/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Devices & Launches",
-      "h3": "Samsung Galaxy Z Fold 8 goes on sale",
-      "summary": "Samsung's shorter wider Galaxy Z Fold 8 reaches general availability August 7 at $1,899, sitting below the new Z Fold 8 Ultra.",
-      "body": [
-        "Unveiled at Unpacked in London in July, the Galaxy Z Fold 8 becomes broadly available August 7 starting at $1,899 for 256GB. It is a wider, shorter book style foldable aimed at first time buyers, with a 5.5 inch cover screen and a 7.6 inch inner display.",
-        "Samsung positioned it beneath the more premium Galaxy Z Fold 8 Ultra and alongside the Galaxy Z Flip 8, using new Flex Titanium construction for the main panel."
-      ],
-      "sources": [
-        ["SamMobile", "https://www.sammobile.com/news/samsung-galaxy-z-fold-8-everything-to-know/"],
-        ["TechRepublic", "https://www.techrepublic.com/article/news-samsung-fold8-ultra-fold8/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Devices & Launches",
-      "h3": "Google sets August 12 stage for Pixel 11",
-      "summary": "Google confirmed a Made by Google event on August 12 in New York for the Pixel 11 line, Pixel Watch 5 and a new 2nm Tensor G6 chip.",
-      "body": [
-        "Google will unveil the Pixel 11 series at a Made by Google event on August 12 in New York, with retail availability starting August 20 and pre-orders opening on announcement day. The phones ship with Android 17 out of the box.",
-        "The lineup is expected to debut a 2nm Tensor G6 processor and a new Pixel Watch 5, with price increases anticipated across the range."
-      ],
-      "sources": [
-        ["TechRadar", "https://www.techradar.com/phones/google-pixel-phones/google-sets-pixel-11-launch-for-august-12-here-are-5-things-to-expect"],
-        ["Digital Trends", "https://www.digitaltrends.com/phones/made-by-google-august-2026-everything-we-expect-from-the-pixel-11-launch-event/"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Devices & Launches",
-      "h3": "Garmin teases Fenix 8 reveal for late August",
-      "summary": "Garmin scheduled a virtual launch event for August 27 where the next Fenix flagship smartwatch is expected to headline.",
-      "body": [
-        "Garmin is holding a virtual launch on August 27 that is widely expected to introduce a new Fenix flagship, which the company has teased as the future of its wearables. The event caps a busy 2026 for the brand.",
-        "Garmin has already expanded its entry level running lineup this year with the Forerunner 70 and Forerunner 170, broadening its appeal beyond hardcore athletes."
-      ],
-      "sources": [
-        ["Notebookcheck", "https://www.notebookcheck.net/Three-new-Garmin-wearables-could-launch-in-2026.1272460.0.html"],
-        ["TechRadar", "https://www.techradar.com/health-fitness/smartwatches/garmin-just-teased-a-new-device-its-calling-the-future-of-wearables-and-its-coming-soon"]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Devices & Launches",
-      "h3": "Bose targets Sonos with new Atmos soundbar",
-      "summary": "Bose launched the Lifestyle Ultra Soundbar at $1,099 as a direct challenger to Sonos's flagship Arc Ultra in the Dolby Atmos market.",
-      "body": [
-        "The Bose Lifestyle Ultra Soundbar arrives as the company's new flagship Dolby Atmos bar, priced at $1,099 to match Sonos's Arc Ultra head to head. The launch sharpens competition at the top of the premium soundbar segment.",
-        "Rivals are crowding in too, with the WiiM Bar offering a custom eight driver array and up-firing speakers for immersive Atmos at a lower price. Sonos is expected to ramp its own hardware launches through the back half of its fiscal year."
-      ],
-      "sources": [
-        ["Gear Patrol", "https://www.gearpatrol.com/audio/best-tech-audio-hi-fi-releases-2026-july-week-4/"],
-        ["What Hi-Fi?", "https://www.whathifi.com/speakers/wireless-speakers/sonos-will-ramp-up-its-launches-in-2026-these-are-the-products-we-want-to-see-next"]
-      ]
-    }
-  ]
+ "sports": [
+  {
+   "hero": true,
+   "sub": "Formula 1",
+   "h3": "Verstappen weighs his future during F1's summer break",
+   "summary": "Red Bull heads into the shutdown winless and fourth, and Max Verstappen says he could walk away but still loves racing.",
+   "body": [
+    "Formula 1's summer break, which began after the Hungarian Grand Prix, has Red Bull winless and fourth in the standings, a slump that could see Max Verstappen weigh get-out clauses in his deal. Verstappen said he could easily stop if he wanted, but insisted he remains keen to keep racing.",
+    "He was spotted in Sardinia with Mercedes principal Toto Wolff during the break, fuelling silly-season speculation. The season resumes August 21-23 at the Dutch Grand Prix in Zandvoort."
+   ],
+   "sources": [
+    [
+     "Motorsport",
+     "https://www.motorsport.com/f1/news/max-verstappen-gives-future-update-going-into-the-f1-summer-break-of-course-i-can-easily-stop-but-i/10843532/"
+    ],
+    [
+     "Formula 1",
+     "https://www.formula1.com/en/latest/article/antonellis-title-push-verstappens-next-move-and-the-return-of-sepang-what-to-look-forward-to-when-f1-returns.4kP1JfFCMWU1tu0CnhmXVL"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Formula 1",
+   "h3": "Antonelli's title push headlines the F1 restart",
+   "summary": "The championship picture, Verstappen's next move and the return of Sepang top the storylines when F1 resumes.",
+   "body": [
+    "With racing paused, attention has turned to Kimi Antonelli's title push, Verstappen's contract situation and the return of the Sepang circuit to the calendar as the marquee threads for the second half of the season.",
+    "The Zandvoort round will set the tone for a run-in that could reshape both the drivers' and constructors' battles."
+   ],
+   "sources": [
+    [
+     "Formula 1",
+     "https://www.formula1.com/en/latest/article/antonellis-title-push-verstappens-next-move-and-the-return-of-sepang-what-to-look-forward-to-when-f1-returns.4kP1JfFCMWU1tu0CnhmXVL"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Tennis",
+   "h3": "Cincinnati Open looms as hard-court swing intensifies",
+   "summary": "The combined Masters 1000 and WTA 1000 event runs August 13-23, a key US Open tune-up.",
+   "body": [
+    "The 2026 Cincinnati Open, a combined ATP Masters 1000 and WTA 1000 tournament on outdoor hard courts, is set for August 13-23, giving the sport's top players a final big test before the US Open.",
+    "Draws and player lists are firming up as the North American hard-court swing builds toward the season's last major."
+   ],
+   "sources": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/2026_Cincinnati_Open"
+    ],
+    [
+     "WTA",
+     "https://www.wtatennis.com/tournaments/cincinnati-open"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Football",
+   "h3": "Eredivisie clubs race the clock before September 2 deadline",
+   "summary": "Ajax, PSV and Feyenoord reshape squads as the Dutch transfer window stays open until September 2.",
+   "body": [
+    "The Eredivisie transfer window, open since June 22, runs until September 2, and the big three have been busy. PSV added midfielder Sven Mijnans and made goalkeeper Matej Kovar's move permanent, while Ismael Saibari left for Bayern Munich.",
+    "Feyenoord signed goalkeeper Tjark Ernst and striker Nacho Ferri, and Ajax saw Sean Steur depart for Newcastle. All three missed out on striker Alvaro Rodriguez, who chose Bournemouth for about 30 million euros."
+   ],
+   "sources": [
+    [
+     "FootballTransfers",
+     "https://www.footballtransfers.com/nl/transfernieuws/nl-eredivisie/2026/07/feyenoord-ajax-en-psv-zien-spits-afhaken-door-transfer-van-30-miljoen"
+    ],
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/List_of_Dutch_football_transfers_summer_2026"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Grappling & Judo",
+   "h3": "ADCC trials and opens fill the early-August grappling calendar",
+   "summary": "Submission grappling ramps up with ADCC Austin and youth events as the road to the world championship continues.",
+   "body": [
+    "The early-August grappling calendar is packed, with the ADCC Austin Open on August 9 and the ADCC Youth Championship on August 11 among the events keeping competitors active on the road toward ADCC's marquee championship.",
+    "Regional trials and opens continue to shape the qualification picture across weight classes."
+   ],
+   "sources": [
+    [
+     "MMA Mania",
+     "https://www.mmamania.com/bjj-news/437236/2026-adcc-west-coast-trials-live-video-stream-results-highlights"
+    ],
+    [
+     "MartialMatch",
+     "https://martialmatch.com/en/events?type=ADCC"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Basketball",
+   "h3": "WNBA names Cleveland expansion team the Sirens",
+   "summary": "The league's incoming Cleveland franchise will be called the Sirens and debut in 2028.",
+   "body": [
+    "The WNBA announced that its expansion team in Cleveland will be called the Sirens, with the franchise set to debut in 2028 as the league continues its growth push.",
+    "The naming is the latest step in a wave of WNBA expansion amid rising attendance and media interest."
+   ],
+   "sources": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/Portal:Current_events/August_2026"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Grappling & Judo",
+   "h3": "IBJJF Worlds champions crowned across every division",
+   "summary": "The season's biggest gi tournament produced a fresh set of division champions.",
+   "body": [
+    "The 2026 IBJJF World Championship crowned champions across every division, refreshing the sport's pecking order ahead of the busy late-summer competition stretch.",
+    "The results feed into rankings and seedings that will shape the marquee events to come."
+   ],
+   "sources": [
+    [
+     "FloGrappling",
+     "https://www.flograppling.com/articles/15951418-ibjjf-worlds-2026-results-heres-every-division-champion"
+    ]
+   ]
+  }
+ ],
+ "consumer-tech": [
+  {
+   "hero": true,
+   "sub": "Devices & Launches",
+   "h3": "Google's Pixel 11 lineup lands August 12 in New York",
+   "summary": "Made by Google will unveil the Pixel 11, Pro, Pro XL and Pro Fold, plus the Pixel Watch 5, with prices starting at $899.",
+   "body": [
+    "Google's Made by Google event on August 12 in New York is set to reveal the Pixel 11, Pixel 11 Pro, Pixel 11 Pro XL and Pixel 11 Pro Fold, alongside the Pixel Watch 5. The base Pixel 11 is expected to start at $899 for 256GB, with the 128GB tier dropped.",
+    "Early commentary has been mixed, with reports suggesting the Pixel 11 lacks major hardware upgrades compared with last year's jump to Qi2 charging and a dedicated telephoto lens on the Pixel 10."
+   ],
+   "sources": [
+    [
+     "Tom's Guide",
+     "https://www.tomsguide.com/phones/google-pixel-phones/made-by-google-2026-preview-pixel-11-pixel-watch-5-pixel-tag-and-more"
+    ],
+    [
+     "tech-ish",
+     "https://tech-ish.com/2026/07/28/pixel-11-made-by-google-event-12-august/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Devices & Launches",
+   "h3": "Apple readies a foldable iPhone for September",
+   "summary": "Reports say Apple is ordering components for its first foldable, to debut alongside the iPhone 18 Pro.",
+   "body": [
+    "Apple is expected to debut its first foldable iPhone at its September event, with supply-chain analyst Ming-Chi Kuo reporting component orders underway. The launch would mark Apple's entry into a category Samsung has long led.",
+    "Apple is also said to face supply pressures that could push up prices on the iPhone 18 Pro and Pro Max."
+   ],
+   "sources": [
+    [
+     "CNN",
+     "https://edition.cnn.com/2026/07/22/tech/samsung-galaxy-z-fold-8-apple-foldable-iphone"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "EVs & Mobility",
+   "h3": "Apple Car slips to 2028 with a scaled-back design",
+   "summary": "Apple has pushed its EV to a potential 2028 launch and dropped plans for a fully driverless vehicle.",
+   "body": [
+    "Apple has set a potential 2028 release for its car, later than the once-rumoured 2026, and pivoted to a less ambitious, Tesla-like EV after abandoning plans for a completely driverless design.",
+    "The reset caps years of shifting ambitions for a project that has repeatedly changed scope and leadership."
+   ],
+   "sources": [
+    [
+     "Nasdaq",
+     "https://www.nasdaq.com/articles/apple-car-capabilities-scaled-down-tesla-like-ev-launch-expected-in-2028"
+    ],
+    [
+     "KBB",
+     "https://www.kbb.com/car-news/report-scaled-back-tech-plans-could-mean-apple-car-in-2028"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Devices & Launches",
+   "h3": "Samsung leans on foldables to challenge Apple's cool factor",
+   "summary": "With the Galaxy Z Fold 8, Samsung is betting maturing foldables can blunt Apple's brand appeal.",
+   "body": [
+    "Samsung is pressing its foldable lead with the Galaxy Z Fold 8 as Apple prepares its own folding phone, setting up a direct showdown in a category Samsung pioneered.",
+    "The company is also framing health and fitness, personalised by AI, as central to its device strategy."
+   ],
+   "sources": [
+    [
+     "CNN",
+     "https://edition.cnn.com/2026/07/22/tech/samsung-galaxy-z-fold-8-apple-foldable-iphone"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Software & Services",
+   "h3": "AI-content labelling arrives for European users",
+   "summary": "New EU rules require flagging of mainly AI-generated content, changing how apps and platforms present media.",
+   "body": [
+    "A new stage of the EU AI Act took effect August 2, requiring services that distribute mainly AI-generated content to label it, a change users across Europe will start to notice in feeds and media.",
+    "The rules push platforms toward clearer provenance signals as synthetic media proliferates."
+   ],
+   "sources": [
+    [
+     "IamExpat",
+     "https://www.iamexpat.nl/expat-info/dutch-news/august-2026-9-changes-expats-netherlands-need-know-about"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Devices & Launches",
+   "h3": "Pixel Watch 5 and wearables share the Made by Google stage",
+   "summary": "Google's August event pairs new phones with refreshed wearables and accessories.",
+   "body": [
+    "Alongside the Pixel 11 phones, Google is expected to introduce the Pixel Watch 5 and other accessories at its August 12 event, rounding out its hardware lineup ahead of the holiday season.",
+    "The wearables refresh continues Google's push to build a fuller device ecosystem around its Tensor silicon and AI features."
+   ],
+   "sources": [
+    [
+     "Tom's Guide",
+     "https://www.tomsguide.com/phones/google-pixel-phones/made-by-google-2026-preview-pixel-11-pixel-watch-5-pixel-tag-and-more"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "EVs & Mobility",
+   "h3": "EV makers navigate a tariff-scrambled supply chain",
+   "summary": "Shifting US tariffs are reshaping where automakers and suppliers source components, adding cost pressure.",
+   "body": [
+    "Automakers and EV suppliers are recalibrating sourcing as US tariffs shift, with some firms finding that duties raise costs without delivering the intended reshoring, a dynamic playing out across the wider manufacturing base.",
+    "The uncertainty complicates pricing and product timing for EVs already competing on thin margins."
+   ],
+   "sources": [
+    [
+     "Fortune",
+     "https://fortune.com/2026/08/05/trump-tariffs-american-manufacturing-reshoring-china-imports/"
+    ],
+    [
+     "InsideEVs",
+     "https://insideevs.com/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Devices & Launches",
+   "h3": "Foldables move to center stage across the industry",
+   "summary": "With Apple, Samsung and Google all shipping or teasing folding phones, the form factor is going mainstream.",
+   "body": [
+    "The second half of 2026 is shaping up as a foldable showdown, with Google's Pixel 11 Pro Fold, Samsung's Galaxy Z Fold 8 and Apple's rumoured entrant all in play, signalling the form factor's move from niche to mainstream.",
+    "Buyers can expect more competition on price, durability and software optimised for larger folding displays."
+   ],
+   "sources": [
+    [
+     "Tom's Guide",
+     "https://www.tomsguide.com/phones/google-pixel-phones/made-by-google-2026-preview-pixel-11-pixel-watch-5-pixel-tag-and-more"
+    ],
+    [
+     "CNN",
+     "https://edition.cnn.com/2026/07/22/tech/samsung-galaxy-z-fold-8-apple-foldable-iphone"
+    ]
+   ]
+  }
+ ]
 }
