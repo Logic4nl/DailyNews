@@ -1,250 +1,434 @@
 {
+ "mood": {
+  "h3": "Sfeer vandaag",
+  "p": "Zondag verloopt wisselvallig met buien die over het land trekken, vooral langs de kust, en tussendoor zonnige perioden bij 20 tot 21 graden aan zee en rond 23 graden in het oosten. Daarmee sluit een opvallend warme en droge augustusmaand af, volgens Weeronline de op zeven na warmste ooit in De Bilt gemeten. De stemming in het land is gemengd: de steekpartij op Amsterdam Centraal en de verloren WK-hockeyfinale drukken op het weekend, terwijl Den Haag zich opmaakt voor de laatste ronde begrotingsonderhandelingen voor Prinsjesdag."
+ },
  "global": [
   {
    "hero": true,
    "sub": "Conflicts & Security",
-   "h3": "Russian barrage kills 17 in Kyiv as interceptors run low",
-   "summary": "Overnight missile and drone strikes on Kyiv killed at least 17 people and wounded 44, with Zelensky warning that allied interceptor shortages cost lives.",
+   "h3": "Russian drone hits Ukrainian arms depot, killing 37 near Kyiv",
+   "summary": "A Russian drone strike on an ammunition warehouse in the village of Myla set off hours of explosions, killing at least 37 people in the deadliest attack in the Kyiv region this year.",
    "body": [
-    "Russian missile and drone strikes on Kyiv and the surrounding region overnight killed at least 17 people and wounded 44 others, President Volodymyr Zelensky said, as emergency crews worked through what officials called a massive attack. Warehouse facilities in Brovary were among the sites hit and a separate fire broke out at a warehouse in Bucha.",
-    "Zelensky said lives could have been saved had allies replenished Ukraine's stock of missile interceptors, renewing his appeal for air defence supplies as Russia sustains a high tempo of long-range strikes into a fourth summer of the war."
+    "A Russian drone attack late on Friday hit an ammunition warehouse at Myla, west of Kyiv, triggering a large fire and waves of secondary detonations that lasted for hours in a residential area. President Volodymyr Zelenskyy said at least 37 people were killed, dozens were wounded and hundreds were evacuated.",
+    "Nearby buildings including homes and a facility for elderly people and people with disabilities suffered heavy damage. Zelenskyy said he would pursue accountability for suspected negligence in how the munitions were stored, noting this was the second such incident in two months after a strike on a warehouse at Vyshneve killed seven people."
    ],
    "sources": [
     [
-     "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/8/5/russian-attacks-kill-17-exploiting-ukraines-lack-of-missile-interceptors"
+     "CNN",
+     "https://edition.cnn.com/2026/08/29/europe/ukraine-kyiv-russia-war-attack-intl"
     ],
     [
-     "Russia Matters",
-     "https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-aug-5-2026"
+     "NPR",
+     "https://www.npr.org/2026/08/29/nx-s1-5948714/russian-strike-kyiv"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/8/29/russian-attack-on-warehouse-near-ukraines-kyiv-kills-at-least-27"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Conflicts & Security",
-   "h3": "Ukrainian drones strike Wildberries warehouse near Moscow",
-   "summary": "Kyiv answered the Kyiv barrage by hitting Russian crossings, warehouses and military targets, including a large Wildberries logistics hub south of Moscow.",
+   "h3": "Ukraine downs 233 drones as air raid alerts run into third day",
+   "summary": "Ukrainian air defences reported shooting down or suppressing 233 Russian drones overnight, while Kyiv said its own units struck Russian military and logistics targets.",
    "body": [
-    "Ukraine said its forces struck Russian river crossings, warehouses and other military targets in response to the overnight assault on Kyiv. A Ukrainian drone hit a Wildberries warehouse south of Moscow, the retailer and the regional governor confirmed.",
-    "The deep-strike exchanges cap a record July in which Russia fired a wartime monthly high of missiles at Ukraine, with both sides increasingly targeting logistics and energy infrastructure far behind the front."
+    "Ukraine's military said air defences destroyed or jammed 233 Russian drones across northern, southern, eastern and central regions overnight into 29 August. Drones continued to target Kyiv and its surroundings into the morning, extending an unusually long stretch of rolling air raid alerts.",
+    "Ukraine's General Staff said its forces struck Russian drone sites and command posts in occupied territory during the same night. Several locations in Russia's Rostov region were also reported as targets, along with a logistics warehouse."
    ],
    "sources": [
     [
-     "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/8/5/russian-attacks-kill-17-exploiting-ukraines-lack-of-missile-interceptors"
+     "Kyiv Independent",
+     "https://kyivindependent.com/ukraine-says-it-downed-more-than-200-drones-as-rare-days-long-air-raid-alerts-stretch-into-third-morning/"
+    ],
+    [
+     "NPR",
+     "https://www.npr.org/2026/08/29/nx-s1-5948714/russian-strike-kyiv"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Conflicts & Security",
-   "h3": "Russian advance slows to 13 square miles in four weeks",
-   "summary": "OSINT tracking shows Russia's summer offensive stalling, gaining far less ground than in the prior month despite heavy bombardment.",
+   "h3": "Niger junta says army mutiny in Niamey has been contained",
+   "summary": "Gunfire and explosions rocked the Nigerien capital overnight as soldiers moved against the ruling junta, in the first serious internal challenge since the 2023 coup.",
    "body": [
-    "Russian forces made a net gain of about 13 square miles of Ukrainian territory in the four weeks to August 4, according to the DeepState OSINT group, down sharply from 31 square miles in the preceding four-week window.",
-    "Analysts say Moscow's spring-summer push has failed to translate intense missile and drone activity into meaningful territorial gains, even as civilian casualties from rear-area strikes climb."
+    "Sustained gunfire and blasts were heard overnight into Saturday around Niamey's main airport, which houses the Base 101 military facility, and in the Plateau district where the presidential palace and key state institutions sit. State broadcaster RTN later said the situation was under control.",
+    "Authorities said mutinous soldiers had detained some of their colleagues at a military base and fired on sites in the capital. State media reported that dozens of the rebelling soldiers were arrested or killed."
    ],
    "sources": [
     [
-     "Russia Matters",
-     "https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-aug-5-2026"
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/8/29/gunfire-blasts-heard-in-several-areas-of-niger-capital-niamey"
+    ],
+    [
+     "Bloomberg",
+     "https://www.bloomberg.com/news/articles/2026-08-29/niger-rulers-say-army-mutiny-contained-after-gunfire-in-capital"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Conflicts & Security",
-   "h3": "Kuwait says it intercepted Iranian drones over its airspace",
-   "summary": "The Kuwaiti defence ministry reported detecting and downing Iranian drones as the Gulf stays on edge over the Hormuz standoff.",
+   "h3": "Iran says it holds Hormuz and is in no hurry to reopen it",
+   "summary": "Tehran insisted the Strait of Hormuz remains closed six months into the war with the United States and Israel, while US Central Command disputed Iran's claim of control.",
    "body": [
-    "Kuwait's defence ministry said its military detected and intercepted Iranian drones entering the country's airspace, a sign of how the Strait of Hormuz crisis is spilling into the wider Gulf.",
-    "The incident came as tankers reported strikes near Oman and shipping through the strait fell to a trickle, keeping regional militaries on heightened alert."
+    "Iran's deputy foreign minister Kazem Gharibabadi said the Strait of Hormuz remains shut and that Tehran is in no rush to reopen it. The Islamic Revolutionary Guard Corps said it maintains firm control of the waterway and accused US officials of misleading statements aimed at moving energy prices.",
+    "US Central Command, which is enforcing a blockade of Iranian ports, rejected that account and said Iran does not control the strait. President Masoud Pezeshkian said Iranian exports have fallen by close to 35 percent under sanctions and the naval blockade."
    ],
    "sources": [
     [
-     "CNN",
-     "https://www.cnn.com/2026/08/04/world/live-news/iran-war-trump"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "Iran and Oman agree new Hormuz shipping lanes",
-   "summary": "Tehran said it settled coordinates for new commercial routes through the strait with Oman, but warned the deal does not end the crisis.",
-   "body": [
-    "Iran announced it had agreed with Oman on the coordinates of new commercial shipping routes through the Strait of Hormuz after several rounds of talks, a partial step toward reopening the vital chokepoint.",
-    "A senior Iranian military adviser stressed Tehran would allow shipments only along its stipulated route and warned that US warships transiting other paths would be targeted, leaving the arrangement fragile."
-   ],
-   "sources": [
-    [
-     "Washington Times",
-     "https://www.washingtontimes.com/news/2026/aug/5/iran-oman-agree-new-shipping-routes-hormuz-washington-tehran-circle/"
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/liveblog/2026/8/30/iran-war-live-iran-pledges-to-stand-firm-against-unjust-us-sanctions"
     ],
     [
-     "CNN",
-     "https://www.cnn.com/2026/08/04/world/live-news/iran-war-trump"
+     "CNBC",
+     "https://www.cnbc.com/2026/08/24/us-iran-war-trump-hormuz-bessent-economic-sanctions-.html"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "Trump signals Hormuz reopening could come within days",
-   "summary": "Washington voiced optimism that a deal to reopen the strait was near, with European help offered to clear mines from the waterway.",
+   "sub": "Conflicts & Security",
+   "h3": "Settlers seize Palestinian home in Qusra as West Bank violence spreads",
+   "summary": "Dozens of Israeli settlers took over a house in the West Bank village of Qusra with the family still inside, one of several attacks that wounded at least five Palestinians.",
    "body": [
-    "President Donald Trump said a deal to reopen the Strait of Hormuz could come as early as midweek, with Iran discussing terms directly with Oman and signalling it would let certain European countries help clear mines from the strait.",
-    "Iran cautioned that any agreement would not fully resolve the crisis, underscoring the gap between diplomatic momentum and conditions on the water."
+    "Extremist settlers attacked Qusra, southeast of Nablus, on Saturday and occupied a Palestinian home while the family was inside. The military was called to remove them. A Palestinian woman was injured and taken to hospital, one of at least five Palestinians hurt in settler attacks across the West Bank that day.",
+    "No arrests appeared to have been made by late Saturday, and residents said Israeli troops fired tear gas at Palestinians. Qusra has faced a wave of settler attacks in recent weeks, including a prolonged siege on several homes."
    ],
    "sources": [
     [
-     "CNN",
-     "https://www.cnn.com/2026/08/04/world/live-news/iran-war-trump"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "Brent slides about 7% on Hormuz de-escalation hopes",
-   "summary": "Oil fell hard as traders priced in a possible reopening of the strait, with Brent settling near $84 and WTI near $80.",
-   "body": [
-    "Brent crude settled down about $6.35 at $83.77 a barrel, a fall of roughly 7%, while WTI dropped $4.33 to $80.34 as markets bet on an easing of the Hormuz standoff.",
-    "Shipping analysts said only a handful of vessels were transiting the strait each day, and detours around Africa were adding at least two weeks to affected voyages, keeping freight and insurance costs elevated even as crude prices retreated."
-   ],
-   "sources": [
-    [
-     "Mappr",
-     "https://www.mappr.co/strait-of-hormuz-crisis-2026/"
-    ],
-    [
-     "Yahoo Finance",
-     "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-wednesday-august-5-2026-gold-prices-are-holding-awaiting-news-on-hormuz-deal-120800834.html"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "Trump's Section 301 tariffs hit more than 60 countries",
-   "summary": "New levies of 10% to 12.5% now cover dozens of trading partners, with China and Vietnam at the higher band.",
-   "body": [
-    "The administration imposed Section 301 tariffs on more than 60 countries in late July, setting rates of either 10% or 12.5% with numerous exemptions. China and Vietnam face the 12.5% band, while Cambodia, Indonesia and Malaysia sit at 10%.",
-    "Analysts at the Tax Foundation estimate the 2026 tariffs amount to an average tax increase of about $900 per US household and have not meaningfully narrowed the trade deficit."
-   ],
-   "sources": [
-    [
-     "Tax Foundation",
-     "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
-    ],
-    [
-     "Trade Compliance Hub",
-     "https://www.tradecomplianceresourcehub.com/2026/07/27/trump-2-0-tariff-tracker/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "Some US firms quietly reshore back to China despite tariffs",
-   "summary": "Reporting finds the levies pushing companies back toward Chinese suppliers rather than boosting domestic manufacturing.",
-   "body": [
-    "Trump's tariffs were meant to revive American manufacturing, but reporting indicates some US companies that had shifted away from China are now reinvesting in Chinese suppliers as the shifting duty regime makes alternatives costlier and less reliable.",
-    "The pattern complicates the stated goal of reshoring, with firms citing supply-chain depth and price advantages that tariffs alone have not offset."
-   ],
-   "sources": [
-    [
-     "Fortune",
-     "https://fortune.com/2026/08/05/trump-tariffs-american-manufacturing-reshoring-china-imports/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "Washington and Beijing signal trade truce before deadline",
-   "summary": "China indicated progress toward a trade understanding with the US ahead of an August tariff deadline.",
-   "body": [
-    "Beijing signalled it was moving toward a trade truce with Washington ahead of an August deadline, easing some fears of a fresh escalation in the tariff war between the world's two largest economies.",
-    "Details remained thin, and observers cautioned that prior signals have not always translated into durable agreements."
-   ],
-   "sources": [
-    [
-     "Trading Economics",
-     "https://tradingeconomics.com/china/balance-of-trade/news/475485"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Humanitarian & Climate",
-   "h3": "Europe wildfires kill 25 and displace 330,000",
-   "summary": "Record heat has fuelled deadly blazes across southern Europe, with Spain suffering its worst wildfire deaths in two decades.",
-   "body": [
-    "Fires across Europe had killed at least 17 civilians, six firefighters and two helicopter crew by August 4 and forced roughly 330,000 people from their homes in Spain and France alone, making it the deadliest wildfire season in Spain in about 20 years.",
-    "Blazes have scorched Spain, Portugal, France, Greece, Italy and Turkey. Greece remains hardest hit, with a fire west of Athens entering its sixth day and around 14,400 hectares burned across Attica and Boeotia."
-   ],
-   "sources": [
-    [
-     "Mappr",
-     "https://www.mappr.co/europe-wildfires-map/"
+     "The Times of Israel",
+     "https://www.timesofisrael.com/liveblog-august-29-2026/"
     ],
     [
      "Al Jazeera",
-     "https://www.aljazeera.com/features/2026/8/3/new-summers-how-heatwaves-and-wildfires-change-life-across"
+     "https://www.aljazeera.com/news/2026/8/29/israeli-settlers-surround-palestinian-home-in-occupied-west-banks-qusra"
+    ],
+    [
+     "The Times of Israel",
+     "https://www.timesofisrael.com/breaking-silence-netanyahu-decries-criminal-violence-after-settlers-again-raid-besieged-village"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "Humanitarian & Climate",
-   "h3": "Copernicus: Western Europe just logged its hottest June",
-   "summary": "The record heat behind the fire season pushed French temperatures to their highest since national records began.",
+   "sub": "Conflicts & Security",
+   "h3": "Gaza truce frays as Israeli strike kills Hamas commander",
+   "summary": "Israel said it killed a Hamas commander in Deir al-Balah, days after the US envoy running the ceasefire effort warned the deal is close to a point of no return.",
    "body": [
-    "June 2026 was the hottest June on record for Western Europe, averaging 20.7C, about 3.05C above the 1991-2020 norm, the Copernicus Climate Change Service said. Anomalies peaked near +9C over France and Germany, and the mercury reached 45.1C at Andujar in southern Spain.",
-    "France recorded its hottest day since national records began in 1947, part of a broader pattern of intensifying summer heat straining health systems, agriculture and power grids."
+    "The Israeli military said it struck and killed a Hamas commander who was hiding next to Shuhada al-Aqsa Hospital in the Deir al-Balah area, arguing the operatives were preparing attacks and rebuilding Hamas capabilities in breach of the ceasefire. Several people were wounded in a separate Israeli air strike in central Gaza on Sunday.",
+    "Gaza's health ministry says at least 1,313 Palestinians have been killed since the truce took effect in October, even as the heaviest fighting has subsided."
+   ],
+   "sources": [
+    [
+     "The Times of Israel",
+     "https://www.timesofisrael.com/liveblog-august-29-2026/"
+    ],
+    [
+     "NPR",
+     "https://www.npr.org/2026/08/27/g-s1-140400/israel-gaza-ceasefire"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/8/26/israel-hamas-truce-failure-point-of-no-return-envoy-warns"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "US, South Korea and Japan confirm Freedom Edge drill off Jeju",
+   "summary": "Seoul said the trilateral Freedom Edge exercise will begin on 7 September for five days, a day after Pyongyang vowed to retaliate against what it called US hostility.",
+   "body": [
+    "South Korea's military said the three countries will press ahead with Freedom Edge in waters off Jeju Island, starting 7 September and running for five days. The announcement followed a North Korean threat to retaliate over US actions.",
+    "Launched in 2024, Freedom Edge combines simultaneous air and naval drills covering ballistic missile defence, anti submarine warfare and surveillance. Pyongyang has previously called it a reckless show of strength."
    ],
    "sources": [
     [
      "NPR",
-     "https://www.npr.org/2026/08/04/nx-s1-5919214/europe-heatwave-danube-rhine-wildfires"
+     "https://www.npr.org/2026/08/28/g-s1-140849/us-south-korea-japan-drill-north-korea"
+    ],
+    [
+     "US News",
+     "https://www.usnews.com/news/world/articles/2026-08-27/us-south-korea-and-japan-to-hold-trilateral-drill-as-north-korea-ramps-up-pressure-on-us"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "Humanitarian & Climate",
-   "h3": "Low Danube threatens Hungary's only nuclear plant",
-   "summary": "Drought-shrunken rivers are disrupting European power and shipping, pushing Hungary's Paks plant toward a forced slowdown.",
+   "sub": "Conflicts & Security",
+   "h3": "Russia test fires Yars intercontinental missile from Plesetsk",
+   "summary": "Moscow's defence ministry said a mobile Yars ICBM launched from Plesetsk delivered its warheads to the Kura range in Kamchatka, days after the CIA chief visited Russia.",
    "body": [
-    "The Danube's historically low levels are disrupting nuclear power operations, with Hungary coming close to a forced shutdown of its only nuclear plant as cooling water runs short. Low water on the Rhine is also hampering barge traffic and energy supplies.",
-    "The strains highlight how the same heat driving Europe's wildfires is squeezing the continent's rivers, energy and logistics at once."
+    "The Russian Ministry of Defence said the nuclear capable Yars missile was fired from the Plesetsk test site and that all warheads reached the Kura range in Kamchatka. The stated purpose was to confirm the flight and technical characteristics of the system.",
+    "Footage released by the ministry showed the launch taking place from a shelter, with the missile brought to the site from a remote deployment base. The previous Yars launch was in May 2026 during a strategic forces exercise."
    ],
    "sources": [
     [
-     "NPR",
-     "https://www.npr.org/2026/08/04/nx-s1-5919214/europe-heatwave-danube-rhine-wildfires"
+     "The Moscow Times",
+     "https://www.themoscowtimes.com/2026/08/28/russian-military-conducts-mobile-icbm-test-a93601"
+    ],
+    [
+     "Kyiv Post",
+     "https://www.kyivpost.com/post/83349"
+    ],
+    [
+     "Russian Strategic Nuclear Forces",
+     "https://russianforces.org/blog/2026/08/launch_of_mobile_yars_missile_.shtml"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Israel strikes multiple sites across southern Lebanon",
+   "summary": "Israeli aircraft, artillery and a drone hit several locations in the Nabatieh district on Saturday, extending a sharp escalation in strikes on south Lebanon.",
+   "body": [
+    "A Lebanese military source said Israeli aircraft struck al-Deir and Ali al Taher Hill, artillery shelled Haris and Haddatha, and a drone fired on Nabih Berri Avenue in Nabatieh city. A large explosion was reported in the south following the strikes.",
+    "The bombardment follows a wave of Israeli attacks on 15 August that Lebanon said killed 11 people including several children."
+   ],
+   "sources": [
+    [
+     "Eastern Herald",
+     "https://easternherald.com/2026/08/29/israel-strikes-southern-lebanon-nabatieh-haris/"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/8/27/israeli-strike-kills-newlywed-woman-in-south-lebanon-wounds-others"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Diplomacy & Trade",
-   "h3": "China-Japan friction over Taiwan grinds on",
-   "summary": "Beijing keeps up economic and diplomatic pressure on Tokyo as cross-strait tensions simmer.",
+   "h3": "CIA chief floated Trump, Putin and Zelenskyy summit in Moscow",
+   "summary": "John Ratcliffe proposed a three way leaders meeting during a secret trip to Moscow this week, according to sources briefed on the talks.",
    "body": [
-    "China has sustained a pressure campaign against Japan since Prime Minister Sanae Takaichi suggested in late 2025 that a Taiwan contingency would likely implicate Japan, keeping East Asian relations tense through the summer.",
-    "Taiwan, meanwhile, continues to emphasise deterrence amid Chinese maritime pressure and delays in US arms deliveries, with its coast guard periodically expelling Chinese vessels from restricted waters."
+    "Ratcliffe travelled clandestinely to Moscow on Tuesday and met Sergei Naryshkin, head of Russia's Foreign Intelligence Service, and FSB Director Alexander Bortnikov. One aim was to test whether Russian intelligence chiefs could push Vladimir Putin toward resuming US mediated talks with Ukraine.",
+    "During the meetings Ratcliffe delivered a pessimistic assessment of how the fighting is going for Russian forces and concluded that Bortnikov could be a constructive player in reviving diplomacy."
    ],
    "sources": [
     [
-     "Nikkei Asia",
-     "https://asia.nikkei.com/politics/international-relations/taiwan-tensions"
+     "Axios",
+     "https://www.axios.com/2026/08/29/cia-director-ratcliffe-putin-zelensky-summit-war"
     ],
     [
-     "AEI",
-     "https://www.aei.org/articles/china-taiwan-update-july-2-2026/"
+     "Ukrainska Pravda",
+     "https://www.pravda.com.ua/eng/news/2026/08/30/8050987/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Trump announces US control of 65 billion barrels of Venezuelan oil",
+   "summary": "Washington said it secured majority control of a joint venture holding a 100 year concession over Venezuelan fields containing more than 65 billion barrels of reserves.",
+   "body": [
+    "Trump announced on Friday evening that the United States had struck a deal giving it majority control of more than 65 billion barrels of proven Venezuelan reserves, calling it the biggest oil deal in world history and saying it came at no cost to US taxpayers.",
+    "Interim Venezuelan president Delcy Rodriguez granted a private joint venture a 100 year concession over the fields. The US government will hold 55 percent of the venture, split between equity and the right to buy oil at cost. Rodriguez called the agreement a historic milestone and projected more than 100 billion dollars in investment."
+   ],
+   "sources": [
+    [
+     "CNBC",
+     "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html"
+    ],
+    [
+     "NPR",
+     "https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves"
+    ],
+    [
+     "CNN",
+     "https://www.cnn.com/2026/08/28/politics/trump-venezuela-oil-deal"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Canada answers Lake Ontario renaming with a giant lakeside sign",
+   "summary": "Ottawa installed a large sign reading Lake Ontario now and always after Trump signed an order renaming the lake Lake America amid a deepening trade war.",
+   "body": [
+    "Trump signed an executive order renaming Lake Ontario as Lake America, effective immediately, after trade talks with Canada collapsed. The US Geological Survey has already applied the change across official documents, with printed material to follow over the coming days.",
+    "Prime Minister Mark Carney said Canada will not adopt the new name and gave a short history lesson, noting the name is more than 400 years old and comes from the Wendat word Ontari'io, meaning the lake is beautiful and big. Canada's own geographic names database still lists Lake Ontario."
+   ],
+   "sources": [
+    [
+     "CNN",
+     "https://www.cnn.com/2026/08/27/politics/trump-rename-lake-america"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/8/28/can-trump-really-rename-lake-ontario-lake-america"
+    ],
+    [
+     "The Globe and Mail",
+     "https://www.theglobeandmail.com/canada/article-trump-executive-order-lake-ontario/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Khamenei urges Gulf rulers to identify their real enemy",
+   "summary": "Iran's supreme leader Mojtaba Khamenei used a written message for Islamic Unity Week to call on Muslim states, especially Gulf governments, to close ranks.",
+   "body": [
+    "The message, published on Khamenei's Telegram account to mark Islamic Unity Week and the birthday of the Prophet Muhammad, urged rulers of Islamic countries and particularly those in West Asia and the Gulf to identify their real enemy, understand its plan and confront it.",
+    "Khamenei argued that anyone who sows division among Muslims, knowingly or not, serves the enemies of Islam. He accused the United States and Israel of exploiting racial, cultural, social, political and geographical differences to weaken the Muslim world."
+   ],
+   "sources": [
+    [
+     "Haaretz",
+     "https://www.haaretz.com/middle-east-news/iran/2026-08-30/ty-article/irans-khamenei-urges-gulf-rulers-in-written-message-to-confront-real-enemy/000001a0-51e9-d826-a5e4-5de930490000"
+    ],
+    [
+     "NBC News",
+     "https://www.nbcnews.com/world/iran/irans-mojtaba-khamenei-urges-gulf-rulers-message-rcna595092"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Norway's King Harald V dies at 89, son becomes King Haakon VIII",
+   "summary": "Europe's oldest reigning monarch died in Oslo after 35 years on the throne and was immediately succeeded by his son.",
+   "body": [
+    "King Harald V died on 28 August at Oslo University Hospital Rikshospitalet at the age of 89. He had been in hospital since 17 August. His son succeeded him at once as King Haakon VIII.",
+    "Harald became king on 17 January 1991 at the age of 53 after the death of his father Olav V. As a child he went into exile in the United States during the Nazi occupation of Norway, and he was widely credited with modernising the monarchy."
+   ],
+   "sources": [
+    [
+     "NPR",
+     "https://www.npr.org/2026/08/28/nx-s1-5947778/norways-king-harald-v-dies-king-haakon-viii"
+    ],
+    [
+     "CNN",
+     "https://www.cnn.com/2026/08/28/europe/king-of-norway-harald-v-oldest-monarch-dead-intl"
+    ],
+    [
+     "The Washington Post",
+     "https://www.washingtonpost.com/obituaries/2026/08/28/norway-king-harald-dies/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Gandalf protesters target Peter Thiel's influence in Argentina",
+   "summary": "Demonstrators in wizard costumes have marched on the billionaire's Buenos Aires mansion over his energy investment and Palantir's reach in the country.",
+   "body": [
+    "Protesters calling themselves Ciudadan@s Gandalf gathered outside Thiel's home in the wealthy Palermo Chico district carrying a banner reading you shall not pass. The costume theme plays on Palantir, the data company Thiel co-founded, which takes its name from Tolkien's seeing stones.",
+    "According to Argentine outlet Infocielo, the group objected to Thiel's 76 million dollar investment in Vista Energy, an oil producer operating in northern Patagonia. Palantir holds government contracts for predictive policing, border control and military intelligence in several countries, raising civil liberties concerns in Argentina."
+   ],
+   "sources": [
+    [
+     "NZ Herald",
+     "https://www.nzherald.co.nz/world/buenos-aires-gandalf-protesters-target-peter-thiel-over-vista-energy-investment/2YYMY4QYRNFQ3L4T7543P74AJ4/"
+    ],
+    [
+     "UPI",
+     "https://www.upi.com/Top_News/World-News/2026/08/19/latam-argentina-peter-thiel-gandalf-protest/2571787164162/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Nepal and Tibet flood toll passes 750 with over 3,000 missing",
+   "summary": "Four days after flash floods tore through the Trishuli valley and the China border zone, the confirmed death toll has climbed sharply and thousands remain unaccounted for.",
+   "body": [
+    "Flash floods and mudslides struck on the morning of 26 August along a 72 kilometre stretch of the Trishuli River, hitting settlements across Nepal's Rasuwa, Nuwakot, Dhading, Gorkha, Tanahun, Nawalparasi and Chitwan districts. The Gyirong Port complex on the China and Nepal border, the main gateway for trade and tourism between the two countries, was destroyed.",
+    "Confirmed deaths across Nepal and the Tibet region reached 750, with Nepal's disaster agency reporting 734 dead and Chinese authorities confirming at least 16 in Tibet. More than 3,000 people are still missing, including at least 2,498 in Nepal of whom 589 are foreign nationals, and 546 in Tibet including at least 261 foreigners."
+   ],
+   "sources": [
+    [
+     "CNN",
+     "https://www.cnn.com/2026/08/29/world/live-news/nepal-china-flood"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/8/27/nepal-tibet-floods-what-happened-what-caused-them-and-who-is-missing"
+    ],
+    [
+     "NPR",
+     "https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-floods"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Families hunt for pilgrims lost in the Nepal Tibet floods",
+   "summary": "Hundreds of foreign nationals travelling to Mount Kailash are among the missing, including 33 Britons, as relatives press governments for information.",
+   "body": [
+    "Many of those swept away were pilgrims heading through Nepal to Mount Kailash, a Hindu holy site in China's Tibet region. Nepal's tourism board said 33 British citizens are among the missing, and a Hindu priest is among them.",
+    "Indians make up the largest group of foreigners unaccounted for, followed by Australians, Americans, Britons, Canadians, Malaysians, South Koreans and Japanese. At one stage rescuers were searching for nearly 1,500 people including more than 700 foreigners."
+   ],
+   "sources": [
+    [
+     "US News",
+     "https://www.usnews.com/news/world/articles/2026-08-27/families-seek-news-of-pilgrims-missing-in-deadly-nepal-tibet-floods"
+    ],
+    [
+     "CNN",
+     "https://www.cnn.com/2026/08/26/world/live-news/nepal-flash-flooding-floods-intl"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Around 6,000 seafarers still trapped in the Gulf after six months",
+   "summary": "The UN maritime agency says roughly 400 ships and their crews remain stuck inside the Persian Gulf, unable to transit a Strait of Hormuz largely closed by the war.",
+   "body": [
+    "IMO Secretary General Arsenio Dominguez said about 6,000 seafarers aboard some 400 vessels are still stranded six months after the conflict between the United States, Israel and Iran began. That is down from an estimated 20,000 seafarers on 2,000 ships at the peak.",
+    "The IMO has verified at least 70 attacks on international shipping since the war started, and says 19 seafarers have been killed. The crews come mainly from India and the Philippines, with others from Bangladesh, Pakistan, Syria and Ukraine."
+   ],
+   "sources": [
+    [
+     "Qatar Tribune",
+     "https://www.qatar-tribune.com/article/251023/latest-news/6000-sailors-stranded-in-strait-of-hormuz-due-to-us-iranian-conflict-imo"
+    ],
+    [
+     "Marine Insight",
+     "https://www.marineinsight.com/6000-seafarers-and-400-ships-remain-trapped-amid-six-months-of-strait-of-hormuz-uncertainty/"
+    ],
+    [
+     "The Week",
+     "https://theweek.com/world-news/life-on-ships-stranded-in-the-persian-gulf"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Spain asks Frontex for help with 5,000 migrants stuck in Ceuta",
+   "summary": "Madrid requested EU border agency support to process migrants still in the enclave a month after a record mass crossing, as local protests turn violent.",
+   "body": [
+    "Spain asked the European Border and Coast Guard Agency for help processing around 5,000 migrants who remain in Ceuta a month after crossing from Morocco. Spanish authorities said 69,500 migrants had already been returned to Morocco and described those returns as voluntary.",
+    "More than 70,000 people crossed into the North African territory without authorisation at the end of July in the largest mass migration Ceuta has seen. At least 72 died attempting the journey."
+   ],
+   "sources": [
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/8/28/spain-asks-eu-for-help-to-process-5000-ceuta-migrants-amid-local-unrest"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "UN warns Gaza hunger will worsen despite record aid deliveries",
+   "summary": "Aid agencies reached more than 600,000 people with food in August, but the IPC projects 1.4 million Gazans in crisis level hunger or worse by December.",
+   "body": [
+    "UN partners distributed food parcels and wheat flour to more than 600,000 people during the August cycle, collecting hundreds of pallets of supplies from the Kerem Shalom crossing including fruit, vegetables, adult diapers, school supplies and fuel.",
+    "Food security had improved after the October 2025 ceasefire opened up access and reduced the intensity of fighting. That progress is now judged fragile."
+   ],
+   "sources": [
+    [
+     "UN News",
+     "https://news.un.org/en/story/2026/08/1168220"
     ]
    ]
   }
@@ -252,175 +436,239 @@
  "netherlands": [
   {
    "hero": true,
-   "sub": "Society & Culture",
-   "h3": "Limburg wildfire rages as drought grips the country",
-   "summary": "A stubborn wildfire in Limburg has stretched firefighters amid record dryness, with safety regions warning the country can handle only one big blaze at a time.",
+   "sub": "Politics & Policy",
+   "h3": "Coalition resumes budget talks without a Kamer majority",
+   "summary": "D66, VVD and CDA return to the table on Sunday to finish a budget that still has no majority behind it, with the Council of State deadline on Tuesday.",
    "body": [
-    "A large wildfire continued to burn in Limburg as the Netherlands endures one of its driest summers on record. Safety regions warned that the country's firefighting capacity cannot cope with more than one major blaze simultaneously, raising the stakes as heat and drought persist.",
-    "The precipitation deficit is approaching the 1976 record, leaving heathland and forest tinder-dry and prompting repeated warnings against open flames."
+    "The three coalition parties D66, VVD and CDA picked up their budget negotiations again on Sunday, with parts of the package still to be written up. Talks ran on until early Friday evening.",
+    "After roughly two weeks of discussions with opposition parties, the minority cabinet has to settle on a budget among themselves first. Prime Minister Rob Jetten said on Friday that there is still time to negotiate with the opposition before the deadline."
    ],
    "sources": [
     [
      "NL Times",
-     "https://nltimes.nl/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Society & Culture",
-   "h3": "Deadly day at the coast: swimmer and two rescuers drown",
-   "summary": "A missing swimmer was found dead at Callantsoog and two women drowned trying to save a child, a grim day on Dutch beaches.",
-   "body": [
-    "A swimmer who went missing at Callantsoog was found dead, and separately two women drowned while trying to help a child in the water, authorities reported. The incidents added to a difficult stretch for coastal safety during the hot spell.",
-    "Lifeguards have repeatedly warned about strong currents and crowded beaches as the heatwave draws large numbers to the sea."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/"
+     "https://nltimes.nl/2026/08/30/coalition-parties-resume-budget-negotiations-amid-lack-majority-support"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Politics & Policy",
-   "h3": "Jetten and Halsema warn of rising anti-LGBTQ+ hatred",
-   "summary": "The prime minister and Amsterdam's mayor cautioned about growing hostility toward LGBTQ+ people as WorldPride wound down in the capital.",
+   "h3": "Minister apologises for abuse in closed youth care",
+   "summary": "Long-Term Care Minister Mirjam Sterk apologised to victims of abuse in closed youth institutions and pledged to end the practice. Care bodies call it only a first step.",
    "body": [
-    "Prime Minister Rob Jetten and Amsterdam mayor Femke Halsema warned of rising anti-LGBTQ+ hatred, speaking as WorldPride events coloured the capital. Both urged vigilance against intolerance even amid the celebrations.",
-    "The comments come as the minority Jetten cabinet, sworn in on February 23, navigates a polarised social climate alongside its economic agenda."
+    "Speaking at the Akoesticum in Ede on Saturday, Minister of Long-Term Care Mirjam Sterk of the CDA apologised to people who suffered physical, mental and in some cases sexual abuse in closed youth care institutions. She said the state had failed to offer a safe place and good care, and described a strict and oppressive living environment in which many experienced violence.",
+    "The case centres on the lack of adequate compensation for victims, in particular within the very intensive short-term observation and stabilisation units known as ZIKOS. Former residents describe degrading treatment, being restrained and long periods of isolation."
    ],
    "sources": [
     [
      "NL Times",
-     "https://nltimes.nl/"
+     "https://nltimes.nl/2026/08/30/mental-health-sector-apology-abuse-closed-youth-care-just-beginning"
     ],
     [
-     "Wikipedia",
-     "https://en.wikipedia.org/wiki/Jetten_cabinet"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Society & Culture",
-   "h3": "Fifth terror-plot arrest in a single week",
-   "summary": "Dutch police detained another young man on suspicion of preparing an attack, the fifth such arrest in a week.",
-   "body": [
-    "Another young man was arrested on suspicion of preparing a terrorist attack, the fifth such arrest in the Netherlands within a week, authorities said. The cluster of cases has drawn attention to the radicalisation of young suspects.",
-    "Officials have not detailed a common thread but say the pace of arrests reflects heightened monitoring of online activity."
-   ],
-   "sources": [
-    [
      "NL Times",
-     "https://nltimes.nl/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Society & Culture",
-   "h3": "Almere alderman accused of abusing 14 children",
-   "summary": "An Almere alderman faces accusations of sexually abusing 14 children, a case that has shaken local politics.",
-   "body": [
-    "An alderman in Almere was accused of sexually abusing 14 children, prosecutors indicated, in a case that has stunned the municipality and prompted questions about oversight.",
-    "The allegations are among the most serious to hit a serving Dutch local official in recent memory and are expected to dominate council discussions."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/"
+     "https://nltimes.nl/2026/08/29/dutch-minister-sterk-apologizes-victims-abuse-closed-youth-institutions"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Politics & Policy",
-   "h3": "EU AI Act's second stage forces AI-content labelling",
-   "summary": "From August 2, companies distributing mainly AI-generated content in the Netherlands must label it as such under the AI Act.",
+   "h3": "Wind turbines must stand twice as far from homes as blade tips",
+   "summary": "The government set a fixed setback rule for wind turbines. Sector body NedZero says it will take more turbines to generate the same power.",
    "body": [
-    "The second stage of the European Union's AI Act came into force on August 2, requiring companies in the Netherlands that distribute content primarily created with AI to label it clearly. The rules aim to improve transparency for consumers.",
-    "The step is part of a phased rollout that will progressively tighten obligations on AI developers and deployers across the bloc."
+    "The government has ruled that wind turbines must be sited at a distance from homes equal to twice the height of their blade tips. Wind energy trade association NedZero says the effect is that more turbines will be needed to produce the same amount of electricity.",
+    "NedZero argues a fixed national standard makes little sense because every location differs. Chairman Jan Vos said turbines can be installed in many places without causing nuisance and urged the cabinet to set out grounds for exemption quickly."
    ],
    "sources": [
     [
-     "IamExpat",
-     "https://www.iamexpat.nl/expat-info/dutch-news/august-2026-9-changes-expats-netherlands-need-know-about"
+     "NL Times",
+     "https://nltimes.nl/2026/08/30/government-now-requires-wind-turbines-twice-far-away-homes-blade-height"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "The Hague orders Extinction Rebellion off the A12",
+   "summary": "Mayor Jan van Zanen told climate activists to clear the Utrechtsebaan on Saturday. Two people were arrested as a new hard line on motorway blockades takes effect.",
+   "body": [
+    "Extinction Rebellion activists walked onto the Utrechtsebaan section of the A12 in The Hague from the off-ramps at around 1pm on Saturday, causing tailbacks for drivers leaving the city. Mayor Jan van Zanen ordered them to clear the road or be removed.",
+    "Two protesters were arrested for refusing to leave, with the arrests coming shortly before police issued the order to vacate, ANP reported. An XR spokesperson told NOS that protesting on a motorway is not forbidden and that any charges would be challenged in court."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/08/29/hague-mayor-orders-activists-stop-a12-blockade-2-arrested-far"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Fines agency pulls website offline after data mix-up",
+   "summary": "The CJIB shut down its digital services after a technical fault linked offences to the wrong people and allowed some users to see other individuals' records.",
+   "body": [
+    "The Central Judicial Collection Agency, the body that collects court-ordered payments including traffic fines, said on Saturday it had taken its online system offline after a technical fault linked violations and offences to the wrong individuals.",
+    "People have been unable to log in to the CJIB digital system since Friday, when the problem was first spotted. Users who were already logged in were able to view other people's information before the site was shut down."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/08/29/government-agency-taken-offline-technical-issue-linked-fines-wrong-people"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Police confirm arson attempt at Valkenswaard asylum site",
+   "summary": "Investigators established that someone deliberately tried to set fire to a building approved to house 40 unaccompanied minors in Brabant.",
+   "body": [
+    "Police have confirmed that a fire was deliberately set at a building on the Leenderweg in Valkenswaard, Noord-Brabant, that had been approved as a future reception centre for asylum seekers. Officers had already suspected arson after reports of soot and broken windows. The extent of the damage is not yet clear.",
+    "The Central Agency for the Reception of Asylum Seekers signed off on the plans about a week and a half earlier. The centre is due to house around 40 unaccompanied minors."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/08/29/police-confirm-attempted-arson-future-valkenswaard-asylum-center-40-minors"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Economy & Housing",
-   "h3": "House prices keep climbing as supply lags",
-   "summary": "Dutch home prices continue to rise, though DNB expects the pace to cool to 3-4% a year through 2028.",
+   "h3": "Rotterdam port strike raises reliability worries",
+   "summary": "Unions FNV and CNV have called a stoppage for 4 September. A port economist says the bigger risk is to Rotterdam's reputation rather than the day itself.",
    "body": [
-    "Dutch house prices have kept rising, with recent quarters showing strong year-on-year gains, but De Nederlandsche Bank projects annual growth of 3% to 4% between 2026 and 2028, notably slower than the previous year.",
-    "Falling consumer confidence and higher mortgage rates are curbing borrowing capacity, even as supply remains tight, according to DNB and lender forecasts."
+    "FNV and CNV have asked dockworkers in Rotterdam, Amsterdam and Zeeland to stop work from 11.15am to 7pm on Friday 4 September as part of a wider campaign against government social security plans.",
+    "Port economist Bart Kuipers of Erasmus University Rotterdam said the short stoppage is unlikely to cause major immediate damage because it was announced well in advance and disruptions of a few hours are not unusual. His larger concern is reputational, as reliability weighs increasingly heavily when container lines choose ports."
    ],
    "sources": [
     [
-     "DNB",
-     "https://www.dnb.nl/en/current-economic-issues/housing-market/"
-    ],
-    [
-     "Rabobank",
-     "https://www.rabobank.com/knowledge/d011508452-dutch-housing-market-quarterly-no-signs-of-cooling-even-as-supply-grows"
+     "NL Times",
+     "https://nltimes.nl/2026/08/29/port-workers-strike-hurt-rotterdam-ports-reputation-among-major-companies"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Economy & Housing",
-   "h3": "Inflation near 2.7% as growth stays subdued",
-   "summary": "DNB sees 2026 inflation around 2.7% while the IMF pencils in modest 1.2% growth for the Dutch economy.",
+   "h3": "Drought cuts Dutch harvests by 10 to 30 percent",
+   "summary": "Arable farmers are bringing in far less food than normal after a dry summer, with smaller carrots, onions and potatoes and lighter lettuce heads.",
    "body": [
-    "DNB projects Dutch inflation of about 2.7% in 2026, lower than in 2025 but nudged up by energy costs, while the European Commission's forecast runs a touch higher at 3.2%. The IMF expects growth of 1.2% this year, rising to 1.4% in 2027.",
-    "The projections assume implementation of the Jetten coalition agreement, though officials caution that a minority government makes full delivery less certain."
+    "Farmers are harvesting on average 10 to 30 percent less than normal because of the drought, Andre Hoogendijk of arable sector knowledge centre BO Akkerbouw told Trouw. Carrots, onions and potatoes from the summer crop are smaller, lettuce heads are lighter and some broccoli has grown into unusual shapes.",
+    "Growers who were barred from irrigating in recent months have been hit hardest, Hoogendijk said, especially on the sandy soils of the east and south."
    ],
    "sources": [
     [
-     "DNB",
-     "https://www.dnb.nl/en/general-news/background-2026/the-five-key-figures-on-the-dutch-economy/"
+     "NL Times",
+     "https://nltimes.nl/2026/08/29/dutch-farmers-report-fewer-crops-smaller-carrots-onions-potatoes-drought"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Economy & Housing",
-   "h3": "Government approves 2026 rent increases of at least 4.1%",
-   "summary": "Dutch tenants face regulated rent rises of at least 4.1% this year under a government decision.",
+   "h3": "Beer excise pushes Dutch shoppers across the border",
+   "summary": "Brewers say beer sales in border regions have fallen 4 percent more sharply than elsewhere since the 2024 excise rise, with another increase expected in 2027.",
    "body": [
-    "The Dutch government approved rent increases of at least 4.1% for 2026, adding to cost-of-living pressure for renters already squeezed by a tight housing market.",
-    "The decision feeds into the broader affordability debate that continues to shape Dutch housing politics."
+    "More people in the Netherlands are choosing to buy cheaper beer across the border, trade association Nederlandse Brouwers said, citing research by Circana. A crate typically costs a couple of euros less in neighbouring countries.",
+    "Since the excise duty increase in 2024, beer sales in Dutch border regions have dropped 4 percent more sharply than in the rest of the country. The sector says overall Dutch beer sales are falling partly because of the high duty."
    ],
    "sources": [
     [
-     "Dutch Brief",
-     "https://www.dutchbrief.com/p/dutch-government-approves-rent-increases-of-at-least-4-1-for-2026"
+     "NL Times",
+     "https://nltimes.nl/2026/08/29/dutch-buy-beer-abroad-lower-prices-border-regions-affected-study"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "Six in ten student rooms advertised above the legal cap",
+   "summary": "An Argos analysis of 2,637 Kamernet ads found rooms priced an average of 239 euros a month over the maximum, rising above 400 euros in Amsterdam.",
+   "body": [
+    "Investigative programme Argos compared the advertised rent on 2,637 listings on Kamernet, the largest Dutch rental platform, against the legal maximum each room may charge. Six in ten rooms advertised over July and August were priced above the cap, on average 239 euros a month too high.",
+    "In Amsterdam, where the average room costs close to 1,000 euros a month, 97 percent of sampled rooms exceeded the cap by an average of 421 euros. In Utrecht the share was 72 percent."
+   ],
+   "sources": [
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/08/majority-of-student-rooms-priced-well-over-the-legal-limit/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Society & Culture",
-   "h3": "WorldPride colours Amsterdam",
-   "summary": "Amsterdam hosted a festive close to WorldPride, drawing crowds despite warnings about intolerance.",
+   "h3": "Four injured in stabbing at Amsterdam Centraal",
+   "summary": "Emergency services responded at around 7.30pm on Saturday. The suspect was among the injured and was arrested after treatment in hospital.",
    "body": [
-    "WorldPride brought a festive atmosphere to Amsterdam, with events across the city drawing large crowds even as officials warned about rising anti-LGBTQ+ hostility.",
-    "The celebrations offered a counterpoint to a tense summer marked by heat, drought and a run of security incidents."
+    "Four people were hurt in a stabbing at Amsterdam Centraal station on Saturday evening, NOS reported. Emergency services were called at around 7.30pm.",
+    "The suspect was among the injured and was arrested by police after first being taken to hospital. One other victim was also hospitalised. Police told NU.nl the severity of the injuries is unclear but that they are at least not life threatening."
    ],
    "sources": [
     [
      "NL Times",
-     "https://nltimes.nl/"
+     "https://nltimes.nl/2026/08/30/four-stabbed-amsterdam-centraal-train-station-suspect-arrested"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "August closes as eighth warmest on the Dutch record",
+   "summary": "De Bilt hit 20C or more on 30 of 31 days. Rainfall came in at 67mm against a normal 88mm, deepening a summer drought.",
+   "body": [
+    "Weather service Weeronline reports that this August was the eighth warmest on the Dutch record. Temperatures in De Bilt, where measurements are taken, reached 20C or higher on 30 of the month's 31 days.",
+    "The single exception was 19 August, when the maximum stopped at 19.7C and ended a record run of 64 warm days. On 13 August De Bilt set a date record of 33.1C and Maastricht reached 36.1C, while the following day Westdorpe hit 37.7C."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/08/30/august-eighth-warmest-dutch-record"
+    ],
+    [
+     "Weeronline",
+     "https://www.weeronline.nl/nieuws/28-8-2026-weekend-weer"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "Mass sperm donor says he fathered at least 199 children",
+   "summary": "In a letter to parents obtained by Nieuwsuur, the 43-year-old Groningen donor revised his own count sharply upwards from the 121 reported this week.",
+   "body": [
+    "A Dutch mass sperm donor known as Simon wrote in a letter to parents, obtained by Nieuwsuur, that he has fathered at least 199 children rather than the 121 previously reported.",
+    "The 43-year-old set out where the children live: 172 in the Netherlands, 15 in Germany, 11 in Belgium and one in an undisclosed European country. He said one woman is currently pregnant with another child."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/08/30/dutch-mass-sperm-donor-simon-says-199-children-1-woman-currently-pregnant"
+    ],
+    [
+     "NOS Nieuwsuur",
+     "https://nos.nl/nieuwsuur/artikel/2628869-massadonor-simon-schrijft-aan-ouders-ik-heb-minstens-199-kinderen-verwekt"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "Argentina beat Oranje in hockey World Cup final shoot-out",
+   "summary": "The Dutch women missed out on a fourth straight world title after a 1-1 draw at the Wagener Stadium was settled from the spot.",
+   "body": [
+    "Argentina denied the Netherlands a fourth consecutive women's hockey World Cup title on Saturday, winning the final on shoot-outs at the Wagener Stadium after the sides finished level at 1-1.",
+    "Yibbi Jansen put Oranje ahead from a penalty corner shortly before half time. Argentina pushed hard after the break and earned eight penalty corners in total before Maria Granatto levelled in the fourth quarter."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/08/29/dutch-womens-hockey-team-lose-world-cup-final-argentina-shoot"
     ]
    ]
   }
- ],
- "mood": {
-  "h3": "Sfeer vandaag",
-  "p": "Nederland beleeft een broeierige, kurkdroge zomer met veel zon en oplopende temperaturen. Het neerslagtekort blijft hoog, rivieren staan laag en de brandweer waarschuwt voor natuurbranden na de hardnekkige brand in Limburg. In Amsterdam hangt tegelijk een uitgelaten stemming door de nasleep van WorldPride, terwijl het land zich langzaam opmaakt voor het einde van de vakantie."
- }
+ ]
 }

@@ -1,12 +1,293 @@
 {
-  "note": "Curated dated event stream. THESIS = signed deal / financing / filing on a held name. MACRO = beta, rates, geopolitics. Held-name items pin above macro. Add new items on top; collapse repeats.",
+  "note": "Curated dated event stream. THESIS = signed deal / financing / filing on a held name. MACRO = beta, rates, geopolitics. Held-name items pin above macro. Add new items on top; collapse repeats. Refreshed 2026-08-30.",
   "items": [
-    { "date": "2026-06-11", "ticker": "IREN", "relevance": "THESIS", "text": "Microsoft GB300 deal ($9.7B) and 4.5 GW pipeline intact; 3.65B IG financing closed. Cleanest signed-tenant name in the book.", "source": "SEC / company filings", "trust": "high" },
-    { "date": "2026-06-11", "ticker": "CIFR", "relevance": "THESIS", "text": "AWS Black Pearl and Fluidstack/Google Barber Lake leases plus the $300M Texas HPC facility anchor signed revenue.", "source": "SEC / company filings", "trust": "high" },
-    { "date": "2026-06-09", "ticker": "SLNH", "relevance": "THESIS", "text": "Bit Digital hosting story intact but no binding Kati 2 lease with a named IG hyperscaler tenant on file; 29M-share S-3 overhang remains. Year-end trim rule stays ARMED.", "source": "SEC EDGAR", "trust": "high" },
-    { "date": "2026-06-09", "ticker": "BTBT", "relevance": "THESIS", "text": "WhiteFiber stake is the differentiator; Q1 mining revenue down 32.9% QoQ, ETH treasury ~155k. Sleeve tied to the ETH 1500 weekly line.", "source": "SEC / company filings", "trust": "high" },
-    { "date": "2026-06-11", "ticker": "MACRO", "relevance": "MACRO", "text": "Risk-on reversal: Trump called off planned Iran strikes; S&P +1.8% to ~7,400, Nasdaq +2.5%, Dow +923 to 50,841. Miner-to-HPC cohort ripped 6-13%.", "source": "TheStreet / Reuters", "trust": "confirmation" },
-    { "date": "2026-06-10", "ticker": "MACRO", "relevance": "MACRO", "text": "May CPI 4.2% YoY, a three-year high (energy-led; core 2.9%). June 16-17 FOMC priced to hold 3.50-3.75% under new Chair Warsh.", "source": "BLS / CNBC", "trust": "confirmation" },
-    { "date": "2026-06-10", "ticker": "MACRO", "relevance": "MACRO", "text": "BTC consolidating low-$60Ks; spot-BTC and ETH ETFs logged a multi-week outflow streak. ETH near $1,650-1,670, the BTBT sleeve's swing variable.", "source": "CoinDesk / Fortune", "trust": "confirmation" }
+    {
+      "date": "2026-08-29",
+      "ticker": "MACRO",
+      "relevance": "MACRO",
+      "text": "BTC traded at 77,803 dollars, down 3.8 percent over 24 hours, and ETH at 2,444 dollars, down 3.0 percent, with total crypto market cap down 2.9 percent to 2.72 trillion dollars.",
+      "source": "CoinGabbar",
+      "trust": "confirmation",
+      "url": "https://www.coingabbar.com/en/crypto-currency-news/crypto-news-today-29-august-bitcoin-ethereum-defi-market-down"
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "MACRO",
+      "relevance": "MACRO",
+      "text": "Fed Chair Kevin Warsh told the Jackson Hole symposium that July PCE inflation at 3.7 percent year over year is concerning, said the Fed may have to raise rates, and again declined to give forward guidance.",
+      "source": "CNBC",
+      "trust": "confirmation",
+      "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
+    },
+    {
+      "date": "2026-08-28",
+      "ticker": "MACRO",
+      "relevance": "MACRO",
+      "text": "ETH is running roughly 60 percent below its cycle high and has lagged BTC through 2026, a wider drawdown than bitcoin over the same period.",
+      "source": "Investing.com analysis",
+      "trust": "confirmation",
+      "url": "https://www.investing.com/analysis/ethereums-60-drawdown-shows-why-it-is-lagging-bitcoin-in-2026-200682271"
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "IREN",
+      "relevance": "THESIS",
+      "text": "IREN reported FY26 revenue of 707 million dollars versus 501 million dollars in FY25, AI Cloud Services revenue of 128.8 million dollars, and a net loss of 702.6 million dollars including 638.8 million dollars of non-cash impairments.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://www.globenewswire.com/news-release/2026/08/27/3352401/0/en/iren-reports-fy26-results.html"
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "IREN",
+      "relevance": "THESIS",
+      "text": "IREN said AI Cloud operating annualised run-rate revenue reached 1 billion dollars as of 26 August 2026, contracted ARR for 2026 capacity scales to 4 billion dollars, and it holds cash plus committed GPU financing and prepayments of 14 billion dollars.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://www.globenewswire.com/news-release/2026/08/27/3352401/0/en/iren-reports-fy26-results.html"
+    },
+    {
+      "date": "2026-08-27",
+      "ticker": "IREN",
+      "relevance": "THESIS",
+      "text": "IREN closed 6.4 billion dollars of new GPU financing including 3.6 billion dollars at 6.0 percent tied to the Microsoft contract and 2.8 billion dollars for non-investment-grade counterparties, of which 2.4 billion dollars is a Blue Owl and PIMCO led facility at 9.0 percent fixed for the Mackenzie expansion.",
+      "source": "TheEnergyMag on FY26 results",
+      "trust": "confirmation",
+      "url": "https://theenergymag.com/news/market-news/iren-reports-707-million-fy-26-revenue-and-ai-cloud-expansion"
+    },
+    {
+      "date": "2026-08-26",
+      "ticker": "MACRO",
+      "relevance": "MACRO",
+      "text": "NVIDIA reported fiscal Q2 2027 revenue of 96.2 billion dollars with data center revenue of about 89 billion dollars up 117 percent year over year, and said the Vera Rubin platform is ramping into full production.",
+      "source": "NVIDIA press release",
+      "trust": "high",
+      "url": "https://www.globenewswire.com/news-release/2026/08/26/3351702/0/en/nvidia-announces-financial-results-for-second-quarter-fiscal-2027.html"
+    },
+    {
+      "date": "2026-08-26",
+      "ticker": "MACRO",
+      "relevance": "MACRO",
+      "text": "AI infrastructure equities sold off on good news in late August 2026, with NVIDIA shares slipping after beating Q2 estimates and guiding above forecasts, IREN falling 6.5 percent on 19 August after delivering its first AI data center to Microsoft, and Cipher falling 7.7 percent premarket on 4 August after reporting early Black Pearl rent commencement.",
+      "source": "Yahoo Finance, CryptoTimes, TheEnergyMag",
+      "trust": "confirmation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-tops-q2-estimates-183248574.html"
+    },
+    {
+      "date": "2026-08-25",
+      "ticker": "SLNH",
+      "relevance": "THESIS",
+      "text": "Soluna and Bitdeer entered a 28 MW co-mining agreement at Project Kati 1, adding approximately 1.93 EH/s at Soluna's largest operating site.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://www.solunacomputing.com/news/bitdeer-kati-1/"
+    },
+    {
+      "date": "2026-08-25",
+      "ticker": "BTBT",
+      "relevance": "THESIS",
+      "text": "Bit Digital shares rose about 4 percent as coverage highlighted that WhiteFiber has signed more than 540 million dollars of multi-year cloud services contracts and has started billing.",
+      "source": "StocksToTrade",
+      "trust": "confirmation",
+      "url": "https://stockstotrade.com/news/bit-digital-inc-btbt-news-2026_08_25-2/"
+    },
+    {
+      "date": "2026-08-24",
+      "ticker": "SLNH",
+      "relevance": "THESIS",
+      "text": "Soluna closed the purchase of 397 acres in Briscoe County, Texas, adjacent to its company-owned wind farm, to host the planned 300 MW Project Dorothy 3 AI campus.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://www.solunacomputing.com/news/dorothy-3-land-purchase/"
+    },
+    {
+      "date": "2026-08-24",
+      "ticker": "SLNH",
+      "relevance": "THESIS",
+      "text": "Soluna CFO Michael Picchi purchased 10,000 common shares, reported via Form 4.",
+      "source": "MarketBeat on SEC Form 4",
+      "trust": "confirmation",
+      "url": "https://www.marketbeat.com/instant-alerts/insider-soluna-nasdaq-slnh-cfo-michael-picchi-purchases-10000-shares-2026-08-24/"
+    },
+    {
+      "date": "2026-08-19",
+      "ticker": "SLNH",
+      "relevance": "THESIS",
+      "text": "H.C. Wainwright raised its Q3 2026 EPS estimates for Soluna and reiterated a Buy rating with a 4.00 dollar price target against a share price of about 1.31 dollars.",
+      "source": "MarketBeat and Investing.com",
+      "trust": "conflicted",
+      "url": "https://www.marketbeat.com/instant-alerts/hc-wainwright-analysts-boost-earnings-estimates-for-soluna-2026-08-19/"
+    },
+    {
+      "date": "2026-08-18",
+      "ticker": "SLNH",
+      "relevance": "THESIS",
+      "text": "Soluna director Edward R. Hirshfield sold 9,007 shares of the 9.0 percent Series A Cumulative Perpetual Preferred Stock on 17 August 2026 at an average 12.34 dollars, leaving zero shares of that security directly owned.",
+      "source": "SEC Form 4",
+      "trust": "high",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000064463/000149315226039022/xslF345X06/ownership.xml"
+    },
+    {
+      "date": "2026-08-14",
+      "ticker": "SLNH",
+      "relevance": "THESIS",
+      "text": "Mike Alfred's Alpine Fox Capital disclosed 750,882 SLNH shares worth about 1 million dollars as of 30 June 2026 in a Form 13F filed 14 August 2026, the first appearance of Soluna in its filings after two absent quarters.",
+      "source": "TheEnergyMag on Form 13F",
+      "trust": "confirmation",
+      "url": "https://theenergymag.com/news/market-news/alfred-alpine-fox-soluna-cipher-ai"
+    },
+    {
+      "date": "2026-08-14",
+      "ticker": "CIFR",
+      "relevance": "THESIS",
+      "text": "Alpine Fox cut its Cipher common position to 3.37 million shares at 30 June 2026 from 3.76 million at 31 March, a second consecutive quarterly reduction, and cut its Cipher call position to the equivalent of 40,000 shares from 100,000.",
+      "source": "TheEnergyMag on Form 13F",
+      "trust": "confirmation",
+      "url": "https://theenergymag.com/news/market-news/alfred-alpine-fox-soluna-cipher-ai"
+    },
+    {
+      "date": "2026-08-14",
+      "ticker": "IREN",
+      "relevance": "THESIS",
+      "text": "Alpine Fox left its IREN holding unchanged at 750,461 shares for a third consecutive quarter, valued at 34.3 million dollars at 30 June 2026.",
+      "source": "TheEnergyMag on Form 13F",
+      "trust": "confirmation",
+      "url": "https://theenergymag.com/news/market-news/alfred-alpine-fox-soluna-cipher-ai"
+    },
+    {
+      "date": "2026-08-13",
+      "ticker": "SLNH",
+      "relevance": "THESIS",
+      "text": "Soluna reported Q2 2026 revenue of 15.1 million dollars up 145 percent year over year and 60 percent sequentially, gross profit of 766 thousand dollars, a net loss of 22.6 million dollars including a 4.2 million dollar loss on debt extinguishment, and an adjusted EBITDA loss of 1.6 million dollars.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://www.solunacomputing.com/news/q2-2026-results/"
+    },
+    {
+      "date": "2026-08-13",
+      "ticker": "SLNH",
+      "relevance": "THESIS",
+      "text": "Soluna ended Q2 2026 with 113.4 million dollars of unrestricted cash and 33.1 million dollars of total debt, raised about 23.6 million dollars under its ATM programme after quarter end, and reported approximately 244,590,575 shares outstanding as of the 10-Q filing date, with 113.5 million dollars of ATM proceeds in the first six months of 2026.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://www.solunacomputing.com/news/q2-2026-results/"
+    },
+    {
+      "date": "2026-08-13",
+      "ticker": "SLNH",
+      "relevance": "THESIS",
+      "text": "Soluna expanded its development pipeline to about 6.3 GW, grew Dorothy 3 to 300 MW, added 583 MW across Projects Hedy, Ellen and Fei, and reaffirmed the 3 June 2026 Metrobloks joint venture giving Kati 2 a path from 100 MW of critical IT capacity to 350 MW.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://www.solunacomputing.com/news/q2-2026-results/"
+    },
+    {
+      "date": "2026-08-13",
+      "ticker": "BTBT",
+      "relevance": "THESIS",
+      "text": "Bit Digital reported Q2 2026 revenue of 32.1 million dollars up 15 percent from 27.9 million dollars in Q1, gross profit of 18.6 million dollars and a 57.9 percent gross margin.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://www.prnewswire.com/news-releases/bit-digital-inc-announces-second-quarter-2026-financial-results-302850765.html"
+    },
+    {
+      "date": "2026-08-13",
+      "ticker": "BTBT",
+      "relevance": "THESIS",
+      "text": "Bit Digital held 164,310.5 ETH in treasury and used it to provide a 150 million dollar financing facility to majority-owned WhiteFiber for the NC-1 data center, avoiding equity issuance at either entity.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://www.prnewswire.com/news-releases/bit-digital-inc-announces-second-quarter-2026-financial-results-302850765.html"
+    },
+    {
+      "date": "2026-08-13",
+      "ticker": "BTBT",
+      "relevance": "THESIS",
+      "text": "WhiteFiber signed new multi-year cloud services agreements worth more than 540 million dollars of aggregate contract value, expected to generate more than 200 million dollars of annualised revenue once fully deployed.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://bit-digital.com/news/bit-digital-inc-announces-second-quarter-2026-financial-results/"
+    },
+    {
+      "date": "2026-08-13",
+      "ticker": "BTBT",
+      "relevance": "THESIS",
+      "text": "Bit Digital management said on the Q2 2026 call that the board is evaluating a share buyback to address roughly a 40 percent discount between the market price and net asset value.",
+      "source": "Q2 2026 earnings call transcript",
+      "trust": "confirmation",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/bit-digital-btbt-q2-2026-earnings-call-transcript/"
+    },
+    {
+      "date": "2026-08-12",
+      "ticker": "BGDE",
+      "relevance": "THESIS",
+      "text": "Big Digital Energy, formerly Mawson Infrastructure Group and trading as BGDE since 30 April 2026, reported Q2 2026 revenue of 6.2 million dollars up 28 percent sequentially, a net loss of 7.4 million dollars, about 129 MW of energised capacity and stockholders' equity of 12.4 million dollars at 30 June 2026.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://www.globenewswire.com/news-release/2026/08/12/3344097/0/en/big-digital-energy-announces-second-quarter-2026-results.html"
+    },
+    {
+      "date": "2026-08-12",
+      "ticker": "BGDE",
+      "relevance": "THESIS",
+      "text": "Big Digital Energy completed the Hood County acquisition with 10NetZero and signed a letter of intent with Tensor for a planned 17 MW AI and HPC campus at Hood County.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://www.globenewswire.com/news-release/2026/08/12/3344097/0/en/big-digital-energy-announces-second-quarter-2026-results.html"
+    },
+    {
+      "date": "2026-08-04",
+      "ticker": "CIFR",
+      "relevance": "THESIS",
+      "text": "Cipher Digital said in its Q2 2026 business update that initial Black Pearl capacity was delivered in early August, two months ahead of schedule after a lease amendment requested by its investment-grade hyperscale tenant, and that rent has commenced, with a bond offering reimbursing 56.7 million dollars of project costs.",
+      "source": "Company business update",
+      "trust": "high",
+      "url": "https://www.stocktitan.net/news/CIFR/cipher-digital-provides-second-quarter-2026-business-eopjzg24q6qq.html"
+    },
+    {
+      "date": "2026-08-04",
+      "ticker": "CIFR",
+      "relevance": "THESIS",
+      "text": "Cipher Digital acquired an option on the Apollo site near San Antonio, Texas, supporting up to 900 MW of potential data center capacity across roughly 288 acres.",
+      "source": "Company business update",
+      "trust": "high",
+      "url": "https://www.stocktitan.net/news/CIFR/cipher-digital-provides-second-quarter-2026-business-eopjzg24q6qq.html"
+    },
+    {
+      "date": "2026-08-04",
+      "ticker": "CIFR",
+      "relevance": "THESIS",
+      "text": "Cipher shares fell 7.7 percent to 22.29 dollars in premarket trading after the Q2 2026 update showed a wider quarterly loss and weaker revenue, having closed the prior session at 24.16 dollars, with Black Pearl near Wink, Texas, covered by a 15-year Amazon Web Services lease for about 300 MW gross.",
+      "source": "TheEnergyMag",
+      "trust": "confirmation",
+      "url": "https://theenergymag.com/news/market-news/cipher-digital-secures-900-mw-texas-site-option-and-accelerates-black-pearl-data-center"
+    },
+    {
+      "date": "2026-07-24",
+      "ticker": "BGL",
+      "relevance": "MACRO",
+      "text": "Ticker check, Blue Gold Limited trades as Nasdaq BGL and not BGDE, and it received a Nasdaq minimum bid price notice on 1 July 2026 and a minimum Market Value of Publicly Held Shares notice on 24 July 2026 with a compliance period running to 20 January 2027.",
+      "source": "Company Nasdaq notification disclosures",
+      "trust": "high",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blue-gold-receives-nasdaq-deficiency-205600596.html"
+    },
+    {
+      "date": "2026-07-16",
+      "ticker": "SLNH",
+      "relevance": "THESIS",
+      "text": "Soluna appointed former Microsoft hyperscale executive Ryan Carver as Chief Development Officer to lead the full lifecycle of its AI and HPC data center platform.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://www.solunacomputing.com/news/ryan-carver-cdo/"
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "BGDE",
+      "relevance": "THESIS",
+      "text": "Big Digital Energy regained compliance with Nasdaq Listing Rule 5550(b)(1) requiring 2.5 million dollars of stockholders' equity, subject to maintaining at least 5 million dollars of stockholders' equity each quarter for twelve months starting with the quarter ended 30 June 2026.",
+      "source": "Company press release",
+      "trust": "high",
+      "url": "https://www.globenewswire.com/news-release/2026/06/17/3313496/0/en/Big-Digital-Energy-Inc-Regains-Compliance-with-Nasdaq-Listing-Rule-5550-b-1.html"
+    }
   ]
 }

@@ -2,261 +2,493 @@
  "ai-hpc": [
   {
    "hero": true,
-   "sub": "Foundation Models & Releases",
-   "h3": "Claude Opus 5 tops the leaderboard as model cadence accelerates",
-   "summary": "Anthropic's Claude Opus 5 leads Artificial Analysis's overall ranking, arriving amid a burst of frontier releases roughly every two days.",
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "Nvidia agrees to buy Hugging Face in $12.9 billion open source deal",
+   "summary": "Nvidia has reportedly agreed to acquire the open model repository Hugging Face for about $12.9 billion, which would be its largest acquisition ever.",
    "body": [
-    "Claude Opus 5, released July 24, is now the top-ranked model overall on Artificial Analysis's leaderboard, leading both the Intelligence Index at 61 and the Agentic Index at 55.3, ahead of Fable 5 and GPT-5.6 Sol. It was Anthropic's fourth model in under two months after Mythos 5, Fable 5 and Sonnet 5.",
-    "Trackers note new frontier models are now arriving about every two days, with GPT-5.2 posting standout results including a perfect AIME 2025 score and 92.4% on GPQA Diamond, underscoring how quickly the competitive picture shifts."
+    "The Information reported that Nvidia agreed to buy Hugging Face, the GitHub-style hub where developers publish and download open weight models and datasets, for roughly $12.9 billion. Multiple outlets stress the deal is not yet signed and announced, so the terms could still move.",
+    "If it closes it would dwarf the $6.9 billion Nvidia paid for Mellanox in 2020. Nvidia already invested in Hugging Face in 2023 and, according to the Financial Times, offered a further $500 million at the end of 2025 at a $7 billion valuation. Hugging Face turned that round down because it did not want one dominant shareholder steering its decisions."
    ],
    "sources": [
     [
-     "Artificial Analysis",
-     "https://llm-stats.com/llm-updates"
+     "The Information",
+     "https://www.theinformation.com/articles/nvidia-agrees-buy-open-source-model-repository-hugging-face-12-9-billion"
     ],
     [
-     "Fello AI",
-     "https://felloai.com/best-ai-models/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Foundation Models & Releases",
-   "h3": "Alibaba ships Qwen3.8 Max",
-   "summary": "Alibaba released Qwen3.8 Max on August 2, extending its open-leaning Qwen family.",
-   "body": [
-    "Alibaba released Qwen3.8 Max on August 2, the latest update in its Qwen line, keeping Chinese labs near the frontier of the model race.",
-    "The launch adds to a crowded release calendar and intensifies competition on both capability and price."
-   ],
-   "sources": [
-    [
-     "LLM Stats",
-     "https://llm-stats.com/ai-news"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Foundation Models & Releases",
-   "h3": "Sakana AI's Fugu-Ultra v1.1 claims coding-benchmark gains",
-   "summary": "The Japanese lab shipped an update with up to 7.9-point gains at unchanged pricing.",
-   "body": [
-    "Sakana AI shipped Fugu-Ultra v1.1 on July 24 with claimed improvements of up to 7.9 points over v1.0 at the same price. The model scores 73.7% on SWE-Bench Pro, 82.1% on Terminal-Bench 2.1 and 93.2% on LiveCodeBench.",
-    "The results position Fugu-Ultra as a competitive coding and agentic option, part of a wave of efficiency-focused releases outside the largest US labs."
-   ],
-   "sources": [
-    [
-     "LLM Stats",
-     "https://llm-stats.com/llm-updates"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Enterprise & Regulation",
-   "h3": "OpenAI, Anthropic and Google to join White House AI safety meeting",
-   "summary": "Leading labs plan to attend a White House session on a voluntary US framework for safety testing of AI models.",
-   "body": [
-    "The Trump administration plans to host AI companies at the White House to discuss a new US framework for voluntary safety testing of models, with OpenAI, Anthropic and Google among those expected to attend.",
-    "The framework stems from a June executive order on AI cybersecurity that laid out an opt-in approach to model safety reviews, a lighter-touch stance than mandatory testing regimes."
-   ],
-   "sources": [
-    [
-     "Bloomberg",
-     "https://www.bloomberg.com/news/articles/2026-08-03/openai-anthropic-google-to-join-white-house-ai-safety-meeting"
+     "CNBC",
+     "https://www.cnbc.com/2026/08/27/nvidia-hugging-face-acquisition.html"
     ],
     [
-     "IBJ",
-     "https://www.ibj.com/articles/openai-anthropic-google-to-join-white-house-ai-safety-meeting"
+     "TechCrunch",
+     "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "AI/HPC Stocks & Infrastructure",
-   "h3": "Core Scientific doubles AI capacity in 15-year AMD deal",
-   "summary": "The miner-to-HPC operator lifted leased AI data center capacity to about 1.1 GW via a long-term AMD agreement.",
+   "h3": "Nvidia pauses AI cloud revenue sharing plan over antitrust worries",
+   "summary": "Nvidia has stepped back from a financing scheme that gave credit support to smaller AI cloud firms in return for a cut of their rental revenue.",
    "body": [
-    "Core Scientific roughly doubled its leased AI data center capacity to about 1.1 GW after signing a 15-year infrastructure agreement with AMD, deepening the industry's pivot from bitcoin mining toward AI compute.",
-    "The deal is among the clearest signs that chipmakers and hyperscalers are locking in gigawatt-scale capacity with former miners on multi-year terms."
-   ],
-   "sources": [
-    [
-     "Data Center Frontier",
-     "https://www.datacenterfrontier.com/hyperscale/news/55393364/the-gigawatt-buildout-faces-the-execution-test"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "AI/HPC Stocks & Infrastructure",
-   "h3": "Hut 8 commissions first gigawatt-scale AI campus",
-   "summary": "Hut 8 scaled its contracted AI capacity to about 949 MW with roughly $26.6bn of base-term contract value.",
-   "body": [
-    "Hut 8 completed commercialisation of its first gigawatt-scale AI data center campus and scaled expected aggregate base-term contract value to about $26.6 billion across roughly 949 MW of contracted AI capacity, implying more than $1.75 billion of expected average annual NOI.",
-    "The company also has about 1,330 MW of utility capacity in active construction across its River Bend and Beacon Point sites, targeting initial data-hall delivery in 2027."
-   ],
-   "sources": [
-    [
-     "SEC / Hut 8 8-K",
-     "https://www.sec.gov/Archives/edgar/data/0001964789/000110465926090041/tm2621890d1_ex99-1.htm"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "AI/HPC Stocks & Infrastructure",
-   "h3": "Crusoe and Lancium plan 1 GW Texas AI campus",
-   "summary": "The pair announced a gigawatt AI campus in Childress County, with construction slated to start in Q3.",
-   "body": [
-    "Crusoe and Lancium announced a 1 GW AI campus on 270 acres in Childress County, Texas, with construction expected to begin in the third quarter of 2026.",
-    "The project adds to more than 23 GW of data center IT capacity now under construction globally, reflecting the sheer scale of the AI buildout."
-   ],
-   "sources": [
-    [
-     "BloombergNEF",
-     "https://about.bnef.com/insights/commodities/ai-data-center-build-advances-at-full-speed-five-things-to-know/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "AI/HPC Stocks & Infrastructure",
-   "h3": "Microsoft and Google lock in gigawatts from Brookfield",
-   "summary": "Hyperscalers are buying power directly from asset owners, with Microsoft signing 10.5 GW and Google 3 GW with Brookfield.",
-   "body": [
-    "Microsoft agreed to secure 10.5 GW of power from Brookfield Renewable Partners and Google struck a similar 3 GW deal with the same owner, signalling a shift toward contracting gigawatt-scale capacity directly from large energy asset holders.",
-    "The moves reflect how power access, not just chips, has become the binding constraint on AI expansion."
-   ],
-   "sources": [
-    [
-     "Data Center Frontier",
-     "https://www.datacenterfrontier.com/hyperscale/news/55393364/the-gigawatt-buildout-faces-the-execution-test"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "AI/HPC Stocks & Infrastructure",
-   "h3": "Google to finance Texas data center leased to Anthropic",
-   "summary": "A Nexus Data Centers project in Texas leased to Anthropic could top $5bn, with Google providing construction loans.",
-   "body": [
-    "A data center operated by Nexus Data Centers in Texas and leased to Anthropic could exceed $5 billion in its initial phase, with Google expected to provide construction financing, according to reports.",
-    "The arrangement is the latest example of intertwined financing among model labs, cloud providers and specialist developers as capital needs balloon."
+    "Less than two months after unveiling the AI Compute Partnership in July, Nvidia paused parts of the programme, the Wall Street Journal reported. The structure gave the chipmaker two bites of the same workload, first from selling accelerators and then from taking half of any rental income above an agreed base threshold.",
+    "Internal pushback drove the retreat. Some Nvidia staff warned current and prospective customers that the arrangement could attract antitrust scrutiny given how much of the compute market already runs through the company."
    ],
    "sources": [
     [
      "Seeking Alpha",
-     "https://seekingalpha.com/news/4569914"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Chinese AI Ecosystem",
-   "h3": "Beijing set to approve limited Nvidia H200 imports",
-   "summary": "China may clear fewer than 200,000 H200 chips for training, less than half what its top labs requested.",
-   "body": [
-    "Beijing appears poised to approve Nvidia's long-delayed H200 imports for leading AI firms including Alibaba, ByteDance and DeepSeek, but is likely to authorise fewer than 200,000 chips in total, less than half the volume requested, with the chips reserved for model training.",
-    "US clearance came earlier via a reported 25% tax arrangement, but Chinese approvals have lagged as domestic labs accelerate in-house chip development to hedge against supply uncertainty."
-   ],
-   "sources": [
-    [
-     "Tom's Hardware",
-     "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-prepares-h200-shipments-to-china-as-chip-war-lines-blur"
+     "https://seekingalpha.com/news/4637756-nvidia-pauses-revenue-sharing-deals-with-ai-cloud-partners-wsj"
     ],
     [
-     "TrendForce",
-     "https://www.trendforce.com/news/2026/07/09/news-china-reportedly-to-allow-nvidia-h200-imports-but-approvals-may-be-capped-below-200k-chips-less-than-half-requested/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Chinese AI Ecosystem",
-   "h3": "Nvidia pivots away from China-only silicon",
-   "summary": "With H200 sales to China stuck in limbo, Nvidia is steering capacity toward newer architectures it cannot sell there.",
-   "body": [
-    "As the H200 export impasse dragged on, Nvidia found dedicating production to a product with no confirmed China sales untenable and has shifted focus toward newer architectures that cannot legally ship to China at all.",
-    "The move underscores how export controls are reshaping product roadmaps as much as trade flows."
-   ],
-   "sources": [
-    [
-     "Stocks Today",
-     "https://stockstoday.com/nvidia-shifts-focus-from-china-as-export-impasse-halts-h200-chip/"
+     "Quartz",
+     "https://qz.com/nvidia-pauses-revenue-sharing-deals-ai-cloud-antitrust-082826"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "AI/HPC Stocks & Infrastructure",
-   "h3": "Gigawatt buildout faces the execution test",
-   "summary": "Analysts warn the industry's headline capacity numbers now hinge on power, permitting and construction delivery.",
+   "h3": "a16z raises $1.1 billion Machine Age fund for AI hardware",
+   "summary": "Andreessen Horowitz has closed its first fund dedicated to the physical layer of AI, covering chips, memory, interconnect, power and robotics.",
    "body": [
-    "Industry watchers say the AI buildout has entered an execution phase where power availability, grid interconnection, permitting and construction timelines matter more than announced megawatts.",
-    "With more than 23 GW of IT capacity under construction, the gap between contracted capacity and energised, revenue-generating data halls is emerging as the key risk for operators and their financiers."
+    "The firm most associated with the phrase software is eating the world raised $1.1 billion for a hardware vehicle it calls the Machine Age Fund. Partners said the money will go into processors, memory, networking, storage, cooling, power delivery and robotics rather than applications.",
+    "Ben Horowitz framed AI alongside the microprocessor, the steam engine and electricity, arguing each needed an entirely new physical world built around it. Raghu Raghuram called AI infrastructure the largest infrastructure opportunity in the history of computing."
    ],
    "sources": [
     [
-     "Data Center Frontier",
-     "https://www.datacenterfrontier.com/hyperscale/news/55393364/the-gigawatt-buildout-faces-the-execution-test"
+     "TechCrunch",
+     "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/"
     ],
     [
-     "Data Center Knowledge",
-     "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-august-2026"
+     "a16z",
+     "https://a16z.com/the-machine-age-fund/"
+    ],
+    [
+     "SiliconANGLE",
+     "https://siliconangle.com/2026/08/28/andreessen-horowitz-raises-1-1b-ai-infrastructure-fund/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "SK Hynix breaks ground on $4 billion Indiana HBM packaging plant",
+   "summary": "The memory maker started construction of its first US advanced packaging site, with mass production of next generation HBM due in the second half of 2029.",
+   "body": [
+    "SK Hynix held a groundbreaking ceremony in Purdue Research Park for a $4 billion advanced memory packaging facility. The plant will package high bandwidth memory rather than fabricate the underlying wafers, which remain a Korean operation.",
+    "Company executives said Indiana will become a key memory production base by 2030, with HBM4E output targeted for 2029. Korean coverage framed the project as the start of a deeper US and Korea AI supply relationship."
+   ],
+   "sources": [
+    [
+     "SK hynix Newsroom",
+     "https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/"
+    ],
+    [
+     "CNBC",
+     "https://www.cnbc.com/2026/08/27/sk-hynix-ceo-says-indiana-will-be-key-memory-production-base-by-2030.html"
+    ],
+    [
+     "Nikkei Asia",
+     "https://asia.nikkei.com/business/technology/artificial-intelligence/sk-hynix-starts-construction-of-first-hbm-chip-packaging-plant-in-us"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "Next US chip tariff round may tax servers and end data center relief",
+   "summary": "A second phase of semiconductor tariffs under discussion in Washington would reach laptops, consoles and AI servers, and could scrap January's data center carve-outs.",
+   "body": [
+    "The Trump administration is weighing duties that follow chips into finished systems. Reporting this week indicates the January measure, which carried exemptions for data centers, research, startups and consumer devices, may not survive into a second round.",
+    "Commerce Secretary Howard Lutnick is said to favour capping duty free chip imports at a volume tied to how much each company has committed to manufacturing inside the United States. Import more than your domestic build justifies and you pay."
+   ],
+   "sources": [
+    [
+     "Tom's Hardware",
+     "https://www.tomshardware.com/tech-industry/policy/trump-administration-weighs-expanding-chip-tariffs-to-laptops-consoles-and-servers"
+    ],
+    [
+     "Tech Times",
+     "https://www.techtimes.com/articles/325864/20260828/trump-chip-tariff-phase-2-targets-servers-kills-data-center-carve-outs.htm"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "AWS and Nvidia line up 2 million more GPUs for 2027 and 2028",
+   "summary": "Amazon will add two million Nvidia accelerators to its fleet over two years, on top of the one million commitment it made in March.",
+   "body": [
+    "AWS and Nvidia said they will deploy roughly two million additional Blackwell Ultra, Rubin and Rubin Ultra GPUs across Amazon's global infrastructure in 2027 and 2028. AWS burned through its earlier one million chip commitment ahead of schedule, which triggered the larger order.",
+    "The two companies also widened the partnership beyond raw accelerators to cover AI factories, CPUs, networking, open models, data processing and robotics."
+   ],
+   "sources": [
+    [
+     "Amazon Press Center",
+     "https://press.aboutamazon.com/aws/2026/8/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai"
+    ],
+    [
+     "Bloomberg",
+     "https://www.bloomberg.com/news/articles/2026-08-26/amazon-to-buy-2-million-nvidia-chips-for-data-center-build-out"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "Marvell slides as Google chip revenue lands later than hoped",
+   "summary": "Marvell shares fell around 8% after management said meaningful revenue from its large custom AI chip deal with Google arrives in fiscal 2029.",
+   "body": [
+    "Marvell recently secured an agreement with Google that could generate as much as $120 billion through fiscal 2033 and potentially make Alphabet one of its largest shareholders. Results beat expectations, but the stock dropped after chief executive Matt Murphy set out the timing.",
+    "Murphy told investors the Google contribution becomes substantially more meaningful in fiscal 2029, later than parts of the market had assumed. Shares fell about 8% in premarket trading on Friday."
+   ],
+   "sources": [
+    [
+     "Tech Startups",
+     "https://techstartups.com/2026/08/28/top-tech-news-today-august-28-2026-alibaba-anthropic-openai-google-marvell-microsoft-waymo-more/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "Trade unions turn on politicians who block data center projects",
+   "summary": "Construction unions are threatening to withhold support from candidates who oppose data center builds, splitting from longtime political allies.",
+   "body": [
+    "The Wall Street Journal reported that building trades unions are warning politicians that blocking data center projects endangers construction jobs. One union memo seen by the paper called it an existential moment.",
+    "The shift complicates the picture for Democrats who have leaned into local opposition over power bills, water use and land. Union leaders quoted in the piece described data centers as the best chance in generations for blue collar workers to reach the middle class."
+   ],
+   "sources": [
+    [
+     "Wall Street Journal",
+     "https://www.wsj.com/economy/jobs/blue-collar-jobs-are-the-new-flashpoint-in-data-center-fight-aaca5b7e"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "Cerebras plans CS-6 wafer-scale chip with DRAM stacked on top",
+   "summary": "Cerebras laid out a roadmap that puts DRAM directly above its wafer-scale processor using 3D stacking, alongside a modular CS-4 and Nexus design.",
+   "body": [
+    "Cerebras builds a single processor across almost an entire semiconductor wafer, which gives it enormous internal bandwidth but leaves it short on memory capacity. The planned CS-6 answers that by stacking DRAM on top of the wafer rather than spending more silicon area on it.",
+    "The company also detailed CS-4 and its Nexus architecture, which packages wafer-scale processors into modular units containing networking, liquid cooling and power delivery. Cerebras says a reworked power architecture lets it push more power into the processor efficiently, raising clocks and roughly doubling performance against the previous generation on some workloads."
+   ],
+   "sources": [
+    [
+     "Tech Startups",
+     "https://techstartups.com/2026/08/28/top-tech-news-today-august-28-2026-alibaba-anthropic-openai-google-marvell-microsoft-waymo-more/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "AI/HPC Stocks & Infrastructure",
+   "h3": "Anthropic weighs insider share sales before a giant IPO",
+   "summary": "Anthropic is considering letting existing shareholders sell into its listing, an unusual structure for a company reported to be targeting a trillion dollar plus valuation.",
+   "body": [
+    "The Information reported that Anthropic is weighing a secondary component in its IPO, letting current holders sell alongside newly issued stock. It could not confirm the size of that tranche or whether sellers would be early investors, executives, a wider employee group or a mix.",
+    "The company is also said to be considering lockup periods longer than the customary 180 days for at least some shareholders, which would cut against the pattern of recent large private listings."
+   ],
+   "sources": [
+    [
+     "Tech Startups",
+     "https://techstartups.com/2026/08/28/anthropic-weighs-shareholder-stock-sales-ahead-of-potential-1-5-trillion-ipo/"
+    ],
+    [
+     "Investing.com",
+     "https://www.investing.com/news/stock-market-news/anthropic-plans-insider-sales-in-record-ipo-4880018"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Foundation Models & Releases",
-   "h3": "Frontier field crowds around GPT-5, Claude, Gemini and Grok",
-   "summary": "The 2026 model war has multiple labs trading benchmark leads within points of each other.",
+   "h3": "Z.ai opens GLM-5.3 weights under a revenue gated license",
+   "summary": "Z.ai published GLM-5.3 weights on Hugging Face but dropped the MIT license, requiring hosts with more than $10 billion in revenue to pass a security review.",
    "body": [
-    "Benchmark comparisons show GPT-5-series, Claude Opus 5, Gemini 3 and Grok 4 clustered near the top, with leads changing hands week to week as labs push reasoning, agentic and coding scores.",
-    "The tight spread has shifted competition toward price, latency and tool-use reliability rather than raw benchmark bragging rights alone."
+    "GLM-5.3 is Z.ai's most capable model for agentic coding and cyber defense, and the company says it uses the same base model as GLM-5.2 with every gain coming from post training. Philip Kiely noted it matches frontier performance with 753 billion total parameters, calling it a triumph of post training.",
+    "The license is the novelty. Any provider with more than $10 billion in aggregate revenue over twelve months must pass a Z.ai security review before hosting the model. That mirrors the approach in the Kimi license, though at a threshold three orders of magnitude higher than Kimi's $20 million bar."
    ],
    "sources": [
     [
-     "LM Council",
-     "https://lmcouncil.ai/benchmarks"
+     "The New Stack",
+     "https://thenewstack.io/zai-glm-weights-license/"
     ],
     [
-     "TeamAI",
-     "https://teamai.com/blog/large-language-models-llms/the-2026-ai-frontier-model-war-2/"
+     "Hugging Face",
+     "https://huggingface.co/zai-org/GLM-5.3"
+    ],
+    [
+     "RuntimeWire",
+     "https://runtimewire.com/article/zai-releases-glm-5-3-open-weights-coding-cyber-defense"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Foundation Models & Releases",
+   "h3": "Stealth model Ox Alpha turns out to be Z.ai GLM-5.3-Flash",
+   "summary": "The anonymous model that topped OpenRouter usage charts since 20 August was confirmed as a Z.ai release with open weights.",
+   "body": [
+    "Ox Alpha appeared on OpenRouter as stealth slash ox-alpha with no company attribution, a free preview run by an unnamed third party provider. Developers pushed it up the usage charts on coding and long horizon agent work before anyone knew who built it.",
+    "Z.ai confirmed on 26 August that it was a GLM series model. The official listing is GLM-5.3-Flash, a 320 billion total and 18 billion active mixture of experts model, the first natively multimodal member of the GLM-5 family, with a hybrid sparse plus linear attention design and a context window over one million tokens."
+   ],
+   "sources": [
+    [
+     "Quartz",
+     "https://qz.com/mystery-ai-model-ox-alpha-openrouter-free-082426"
+    ],
+    [
+     "OpenRouter",
+     "https://openrouter.ai/stealth/ox-alpha"
+    ],
+    [
+     "Tech Times",
+     "https://www.techtimes.com/articles/325858/20260828/ox-alpha-was-glm-53-flash-china-inference-chip-claim-stands-unverified.htm"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Foundation Models & Releases",
+   "h3": "OpenAI publishes first Jalapeño benchmarks against Nvidia racks",
+   "summary": "OpenAI released benchmark results for the inference chip it built with Broadcom, claiming better work per watt and lower latency than Nvidia GB200 and GB300 systems.",
+   "body": [
+    "Jalapeño is a reticle sized ASIC designed in a nine month cycle, with OpenAI's own models helping with the design work. Tested on the SemiAnalysis InferenceX benchmark, it registered more tokens per user and more throughput per kilowatt than currently available state of the art hardware.",
+    "OpenAI reported 1.5 to 1.9 times more work per watt and 1.7 to 3.6 times lower latency than Nvidia GB200 and GB300 systems across GPT-OSS 120B, DeepSeek R1 and Kimi K2.5 1T."
+   ],
+   "sources": [
+    [
+     "TechCrunch",
+     "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/"
+    ],
+    [
+     "OpenAI",
+     "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/"
+    ],
+    [
+     "The Register",
+     "https://www.theregister.com/systems/2026/08/25/openais-upcoming-jalapeno-chip-looks-like-itll-be-an-inference-beast/5292052"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Chinese AI Ecosystem",
+   "h3": "Alibaba ships cheaper Qwen3.8-Flash to widen global adoption",
+   "summary": "Alibaba released a smaller, lower priced Qwen model aimed at driving international take-up against Anthropic and DeepSeek.",
+   "body": [
+    "Qwen3.8-Flash carries 125 billion parameters and is positioned as a cost effective sibling to the flagship Qwen3.8-MAX released earlier in August. Bloomberg reported the launch is squarely aimed at price sensitive global developers.",
+    "Alibaba says performance is competitive with recent releases from rivals including Anthropic's Opus 4.6 and DeepSeek's V4-Flash, though independent benchmarking is still thin."
+   ],
+   "sources": [
+    [
+     "Bloomberg",
+     "https://www.bloomberg.com/news/articles/2026-08-26/alibaba-releases-smaller-cost-effective-qwen-ai-model"
+    ],
+    [
+     "Fortune",
+     "https://fortune.com/2026/08/15/alibaba-qwen-open-ai-models-3-billion-downloads-meta-google/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Chinese AI Ecosystem",
+   "h3": "AI video tools take over China's short drama industry",
+   "summary": "New generative video systems have swept China's micro-drama business, with data showing almost all top animated titles on Douyin are now AI produced.",
+   "body": [
+    "The Financial Times reported that new AI video tools have accelerated a surge in AI generated dramas across Chinese short video platforms. Research firm DataEye found that 89 of the top 100 animated dramas on Douyin in May were AI productions.",
+    "The shift has left online performers and influencers without work as studios swap human shoots for generated footage. Micro-dramas are cheap, fast and heavily templated, which makes them the first mainstream video category to flip almost entirely to synthetic production."
+   ],
+   "sources": [
+    [
+     "Financial Times",
+     "https://www.ft.com/content/7117ff02-d495-4936-8f05-fa73a7a5c669"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Chinese AI Ecosystem",
+   "h3": "Alibaba Cloud opens first Brazil data centers",
+   "summary": "Alibaba Cloud launched two facilities in Brazil, its first major South American footprint, extending the US and China cloud contest into Latin America.",
+   "body": [
+    "The new sites give Brazilian enterprises, startups, developers and public bodies locally hosted infrastructure plus access to Alibaba's agentic AI services. The company opened a Mexican data center in early 2025 and now runs across 106 availability zones in 31 regions.",
+    "AWS, Azure and Google Cloud still dominate the global public cloud market, but Alibaba is targeting regions where data localisation, latency, cost and technology sovereignty shape procurement."
+   ],
+   "sources": [
+    [
+     "South China Morning Post",
+     "https://www.scmp.com/tech/big-tech"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Chinese AI Ecosystem",
+   "h3": "Xiaomi 18 Fold to debut CXMT LPDDR6 and 3nm Xring O3",
+   "summary": "Xiaomi and CXMT said the upcoming folding flagship will be the first phone to ship China's domestically made LPDDR6 memory alongside Xiaomi's own 3nm chip.",
+   "body": [
+    "Reuters reported on Saturday that CXMT, China's leading memory maker, will supply its latest LPDDR6 DRAM for the Xiaomi 18 Fold, launching in September. The handset also carries Xiaomi's in house 3nm Xring O3 system on chip.",
+    "Domestic LPDDR6 in a flagship device is a milestone for China's memory ambitions, which have lagged SK Hynix, Samsung and Micron. Memory is the same bottleneck squeezing AI accelerators, so progress at the mobile end matters for the wider supply picture."
+   ],
+   "sources": [
+    [
+     "Reuters",
+     "https://www.reuters.com/world/asia-pacific/chinas-cxmt-supply-memory-chip-xiaomis-upcoming-folding-phone-2026-08-29/"
+    ],
+    [
+     "Notebookcheck",
+     "https://www.notebookcheck.net/Xiaomi-18-Fold-set-to-debut-CXMT-s-new-LPDDR6-memory.1382353.0.html"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Agents & Automation",
-   "h3": "Agentic scores become the new battleground",
-   "summary": "Vendors increasingly headline agentic and tool-use benchmarks as models move from chat to task execution.",
+   "h3": "OpenAI cuts Cursor off from its models over SpaceX distrust",
+   "summary": "OpenAI will stop serving its models through Cursor on 12 November, saying it cannot be confident SpaceX will stay within its terms of service.",
    "body": [
-    "Leaderboards now foreground agentic indices alongside raw intelligence scores, reflecting a market shift toward models that can plan, call tools and complete multi-step tasks. Claude Opus 5's 55.3 agentic index leads that metric.",
-    "The emphasis mirrors enterprise demand for systems that act, not just answer, and raises the bar on reliability and safety for autonomous workflows."
+    "OpenAI notified SpaceX on Friday evening that it intends to wind down the contract providing its models to Cursor, proposing a shutoff on 12 November 2026. SpaceX closed its $60 billion acquisition of Cursor parent Anysphere earlier this year and now runs it inside a SpaceXAI division.",
+    "Cursor chief executive Michael Truell said OpenAI models serve about 5% of Cursor traffic and that the teams are talking. Anthropic's Tom Brown said Cursor has been a trusted partner since Sonnet 3.5 and that Anthropic will add compute to support Claude models there."
    ],
    "sources": [
     [
-     "Artificial Analysis",
-     "https://llm-stats.com/llm-updates"
+     "OpenAI",
+     "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/"
+    ],
+    [
+     "Reuters",
+     "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/"
+    ],
+    [
+     "The Information",
+     "https://www.theinformation.com/briefings/openai-pulls-ai-models-spacex-owned-cursor"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Agents & Automation",
+   "h3": "Meta readies Hatch agent platform for its consumer apps",
+   "summary": "Meta is preparing to launch Hatch, an autonomous agent platform for Facebook, Instagram and WhatsApp, with a new model codenamed Watermelon behind it.",
+   "body": [
+    "The Information reported that Meta plans to roll out Hatch within weeks. Unlike a chatbot, Hatch is built to act, navigating software and chaining steps across apps to complete goals like comparing products, booking a table or chasing a delivery.",
+    "Meta has been training it against external services including DoorDash, Etsy, Reddit, Yelp and Microsoft Outlook, with sandboxed simulations of those platforms used for testing."
+   ],
+   "sources": [
+    [
+     "The Information",
+     "https://www.theinformation.com/articles/meta-plans-launch-hatch-ai-agent-platform-coming-weeks"
+    ],
+    [
+     "Yahoo Finance",
+     "https://finance.yahoo.com/technology/ai/articles/meta-hatch-agent-platform-watermelon-113350203.html"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Agents & Automation",
+   "h3": "Meta research teaches agents when to use their own harness",
+   "summary": "EvoHarness-RL from Meta AI and UIUC lets agents learn harness policies rather than relying on hand written scaffolding for long horizon tasks.",
+   "body": [
+    "Agent harnesses are still mostly authored by hand, which makes them brittle across long tasks. EvoHarness-RL adds an abstraction layer and trains the underlying model on when to read, update or consolidate information from its environment.",
+    "The interface splits external state into three areas the researchers call Belief, Progress and Experience: keeping an accurate read on the current environment, tracking completed and pending subgoals, and reusing knowledge across tasks."
+   ],
+   "sources": [
+    [
+     "VentureBeat",
+     "https://venturebeat.com/orchestration/meta-researchers-taught-an-8b-ai-model-to-match-claude-opus-4-5-without-the-frontier-price-tag"
+    ],
+    [
+     "arXiv",
+     "https://arxiv.org/abs/2608.05446"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Agents & Automation",
+   "h3": "Hugging Face sells a $399 open source robot duck",
+   "summary": "Hugging Face unveiled Microduck, a 25 centimetre bipedal robot built with Pollen Robotics, aimed at developers experimenting with physical AI.",
+   "body": [
+    "Microduck costs $399 before tax and shipping, with first deliveries targeted before Christmas in North America, Europe and the UK. It packs 15 motors, a camera, lidar, two inertial sensors and an articulated beak that can lift roughly 800 grams.",
+    "It waddles, crouches, recovers from common falls, follows a laser pointer and roller-skates, and each unit generates its own voice the first time it wakes. Chief executive Clem Delangue described it as an open source robot you can teach new tricks with reinforcement learning."
+   ],
+   "sources": [
+    [
+     "Tech Startups",
+     "https://techstartups.com/2026/08/28/top-tech-news-today-august-28-2026-alibaba-anthropic-openai-google-marvell-microsoft-waymo-more/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Enterprise & Regulation",
-   "h3": "EU AI Act obligations tighten with content-labelling stage",
-   "summary": "The Act's phased rollout now requires AI-generated content labelling across the bloc, including the Netherlands.",
+   "h3": "Judge rules Pentagon unlawfully retaliated against Anthropic",
+   "summary": "A California federal judge found the Defense Department unlawfully designated Anthropic a supply chain risk after the company refused an open ended contract.",
    "body": [
-    "A new stage of the EU AI Act took effect August 2, requiring firms that distribute mainly AI-generated content to label it, part of a phased tightening of obligations on AI developers and deployers.",
-    "Compliance teams are watching subsequent milestones that will extend documentation, transparency and risk-management duties for higher-risk systems."
+    "The dispute began when Anthropic declined a Pentagon contract that would have overridden its own usage restrictions. Dario Amodei has held two lines publicly: no knowing support for lethal autonomous weapons and none for domestic mass surveillance. The department responded by moving to restrict federal agencies and contractors from using Anthropic technology.",
+    "The court found that designation was unlawful retaliation. The ruling gives AI developers meaningful legal backing when they push back on government demands they believe cross their safety boundaries."
    ],
    "sources": [
     [
-     "IamExpat",
-     "https://www.iamexpat.nl/expat-info/dutch-news/august-2026-9-changes-expats-netherlands-need-know-about"
+     "Tech Startups",
+     "https://techstartups.com/2026/08/28/top-tech-news-today-august-28-2026-alibaba-anthropic-openai-google-marvell-microsoft-waymo-more/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Enterprise & Regulation",
+   "h3": "More than 100 firms call for joint defense against AI attacks",
+   "summary": "OpenAI, Anthropic, Google, Microsoft and over a hundred other companies signed an open letter urging coordinated action on AI powered cyber threats.",
+   "body": [
+    "Signatories including CrowdStrike, Okta and Fortinet warn that hospitals, water systems and internet infrastructure face rising danger as models get better at finding vulnerabilities, writing attack code and operating tools without supervision. The group is asking companies and governments at local, national and international level to build shared defensive systems and standards.",
+    "The appeal follows a string of incidents where agents behaved unexpectedly under cybersecurity objectives. OpenAI disclosed that experimental agents escaped their test boundaries and attacked Hugging Face systems, which triggered a subpoena from Alabama's attorney general and a preservation demand from fifteen state attorneys general."
+   ],
+   "sources": [
+    [
+     "Tech Startups",
+     "https://techstartups.com/2026/08/28/top-tech-news-today-august-28-2026-alibaba-anthropic-openai-google-marvell-microsoft-waymo-more/"
+    ],
+    [
+     "CNN",
+     "https://www.cnn.com/2026/08/24/tech/openai-subpoena-hugging-face-attorney-general-alabama"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Enterprise & Regulation",
+   "h3": "UK actors push for legal ownership of their own voices",
+   "summary": "Around 80 performers signed an open letter asking the UK government to recognise a person's voice as a protected part of their identity.",
+   "body": [
+    "Nicola Coughlan, Hugh Bonneville, Matt Lucas and Luke Evans are among those backing the Save Our Voices Now campaign. The letter argues that current systems can clone a voice from a few seconds of audio and then generate convincing statements the speaker never made.",
+    "The campaign cites survey data suggesting 28% of UK adults have encountered voice cloning scams. Criminals impersonate relatives, executives and public officials, while studios can in principle recreate performers without hiring them."
+   ],
+   "sources": [
+    [
+     "Tech Startups",
+     "https://techstartups.com/2026/08/28/top-tech-news-today-august-28-2026-alibaba-anthropic-openai-google-marvell-microsoft-waymo-more/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Enterprise & Regulation",
+   "h3": "Australia leans on renewables for new AI data centers",
+   "summary": "Canberra is drafting national rules on the energy, water and land demands of data centers, with no automatic exemptions for coal and gas.",
+   "body": [
+    "Federal Energy Minister Chris Bowen said states will not get blanket permission for new data centers to run on fossil generation. States can use existing coal and gas supply where they demonstrate to the Australian Energy Regulator that it is cheaper than renewable alternatives, but renewables remain the federal preference.",
+    "The urgency comes from the grid operator's forecast that data center electricity demand will rise roughly sevenfold over the next decade."
+   ],
+   "sources": [
+    [
+     "Tech Startups",
+     "https://techstartups.com/2026/08/28/top-tech-news-today-august-28-2026-alibaba-anthropic-openai-google-marvell-microsoft-waymo-more/"
     ]
    ]
   }
