@@ -1,562 +1,411 @@
 {
- "sports": [
-  {
-   "hero": true,
-   "sub": "Tennis",
-   "h3": "Federer in tears as Newport welcomes him to the Hall of Fame",
-   "summary": "Roger Federer was inducted into the International Tennis Hall of Fame in Newport on Saturday, repeatedly breaking down during a speech delivered to a room full of former rivals.",
-   "body": [
-    "Roger Federer was formally inducted into the International Tennis Hall of Fame on Saturday evening in Newport, Rhode Island, in his first year of eligibility. The 45 year old Swiss, who retired with 20 major singles titles, was overcome with emotion several times as he addressed the room.",
-    "He entered alongside Mary Carillo, the former player turned broadcaster who was recognised in the contributor category. The pair headline the Class of 2026."
-   ],
-   "sources": [
-    [
-     "Yahoo Sports",
-     "https://sports.yahoo.com/articles/tennis-royalty-flocks-newport-roger-165937654.html"
-    ],
-    [
-     "International Tennis Hall of Fame",
-     "https://www.tennisfame.com/induction"
-    ],
-    [
-     "ATP Tour",
-     "https://www.atptour.com/en/news/roger-federer-hall-of-fame-celebration-announcement-february-2026"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Tennis",
-   "h3": "US Open main draw opens with Sinner out and Zverev top seed",
-   "summary": "Singles play begins at Flushing Meadows on Sunday without world number one Jannik Sinner, who withdrew with a right knee problem that has kept him off court since Wimbledon.",
-   "body": [
-    "The 2026 US Open singles competition starts on Sunday 30 August at the USTA Billie Jean King National Tennis Center. The tournament has already lost its biggest name.",
-    "Jannik Sinner pulled out with an ongoing right knee injury, saying he was sad and disappointed and needed more recovery time. The Italian has not played since defending his Wimbledon title in July and had already skipped the Montreal and Cincinnati hard court swing."
-   ],
-   "sources": [
-    [
-     "ESPN",
-     "https://www.espn.com/tennis/story/_/id/49681192/jannik-sinner-withdraws-us-open-due-knee-injury"
-    ],
-    [
-     "Al Jazeera",
-     "https://www.aljazeera.com/sports/2026/8/28/us-open-2026-all-to-know-about-the-schedule-top-seeds-and-favourites"
-    ],
-    [
-     "Tennis365",
-     "https://www.tennis365.com/tennis-features/2026-us-open-draw-date-prize-money-zverev-alcaraz-sabalenka-gauff-headline-eala-seeded"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Tennis",
-   "h3": "Alcaraz opens title defence against Safiullin after four months out",
-   "summary": "The defending champion returns from a wrist injury that cost him Roland Garros and Wimbledon, drawn against Roman Safiullin and placed in the same half as Novak Djokovic.",
-   "body": [
-    "Carlos Alcaraz plays his first singles match in more than four months when he faces Roman Safiullin in the opening round at Flushing Meadows. A right wrist injury forced the Spaniard to miss both the French Open and Wimbledon.",
-    "The draw put Alcaraz in the bottom half alongside Novak Djokovic, meaning the two could meet in the semi finals. Djokovic has won the title in New York five times."
-   ],
-   "sources": [
-    [
-     "ESPN",
-     "https://www.espn.com/tennis/story/_/id/49743262/carlos-alcaraz-opens-us-open-title-defense-vs-roman-safiullin"
-    ],
-    [
-     "Olympics.com",
-     "https://www.olympics.com/en/news/us-open-2026-carlos-alcaraz-title-defence-roman-safiullin-coco-gauff-zeynep-sonmez"
-    ],
-    [
-     "ATP Tour",
-     "https://www.atptour.com/en/news/alcaraz-us-open-2026-r1-schedule"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Tennis",
-   "h3": "Muchova and Mensik take the US Open mixed doubles crown",
-   "summary": "The all Czech pairing beat Belinda Bencic and Flavio Cobolli in the revamped mixed doubles event staged before the main draw at Flushing Meadows.",
-   "body": [
-    "Karolina Muchova and Jakub Mensik won the 2026 US Open mixed doubles title, beating Belinda Bencic and Flavio Cobolli 6-3, 1-6, 10-6 in the final.",
-    "The event again ran in the week before the singles draw, a slot the USTA introduced to draw singles specialists into the mixed competition."
-   ],
-   "sources": [
-    [
-     "US Open",
-     "https://www.usopen.org/en_US/news/articles/2026-08-26/muchova-mensik_win_2026_us_open_mixed_doubles_title.html"
-    ],
-    [
-     "ATP Tour",
-     "https://www.atptour.com/en/news/us-open-2026-mixed-doubles-resource-page"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Grappling & Judo",
-   "h3": "ADCC reshuffles Krakow roster as Pessanha replaces Guedes",
-   "summary": "With two weeks to go before the ADCC World Championship in Poland, organisers have pulled several invited names and handed slots to replacements including Gabi Pessanha.",
-   "body": [
-    "The ADCC World Championship runs on 12 and 13 September at the Tauron Arena in Krakow, and the competitor list has been churning through August.",
-    "Reigning champion Rafaela Guedes was removed from the roster and replaced by Gabi Pessanha, who has already won every major IBJJF title in the gi and now has a route towards a rare grand slam across rule sets."
-   ],
-   "sources": [
-    [
-     "MMA Mania",
-     "https://www.mmamania.com/bjj-news/459197/adcc-2026-loses-double-champ-to-ufc-bjj-fugitive-izaak-michell-also-removed"
-    ],
-    [
-     "FloGrappling",
-     "https://www.flograppling.com/articles/14526784-every-athlete-officially-invited-to-adcc-world-championship-2026"
-    ],
-    [
-     "ADCC 2026",
-     "https://www.adcc2026.com/competitors"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Grappling & Judo",
-   "h3": "Ciupek and Reinhold strike gold at Cadet Worlds in Guayaquil",
-   "summary": "The World Cadet Judo Championships in Ecuador drew 457 judoka from 59 nations, with Poland, Germany and Azerbaijan among the countries taking individual titles.",
-   "body": [
-    "The 2026 World Cadet Judo Championships were held in Guayaquil, Ecuador, with individual competition running from 20 to 22 August and the team event closing the week.",
-    "Poland's Jagoda Ciupek won the under 57kg title and Germany's Jolina Reinhold took gold at under 63kg on the same day. Azerbaijan's Farid Rzazade won the men's under 50kg category."
-   ],
-   "sources": [
-    [
-     "European Judo Union",
-     "https://eju.net/news/10384/2026-judo-world-championships-cadets-ciupek-reinhold-day-two"
-    ],
-    [
-     "IJF.org",
-     "https://www.ijf.org/competition/3324"
-    ],
-    [
-     "Ukrinform",
-     "https://www.ukrinform.net/rubric-sports/4156565-ukrainian-kyrylchuk-wins-silver-at-2026-judo-world-championships-cadets-in-ecuador.html"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Sailing",
-   "h3": "Hanson leads ILCA 7 Worlds into the medal races on Dublin Bay",
-   "summary": "Britain's Elliot Hanson took over at the top of the ILCA 7 World Championship in Dun Laoghaire as the elimination series closed and the top ten were locked in.",
-   "body": [
-    "The ILCA 7 World Championship in Dun Laoghaire has reached its decisive stage, with 141 sailors from 45 nations whittled down to a ten boat medal series.",
-    "Elliot Hanson of Great Britain heads the standings on 62 points after eleven races, two clear of Singapore's Ryan Lo on 64. Michael Beckett is third on 72, giving Britain two boats in the medal fight."
-   ],
-   "sources": [
-    [
-     "Boating New Zealand",
-     "https://www.boatingnz.co.nz/2026/08/2026-ilca-7-world-championship-day-4-new-zealands-tom-saunders-charges-medal-series-contention/"
-    ],
-    [
-     "Afloat",
-     "https://afloat.ie/sail/events/ilca-worlds-2026"
-    ],
-    [
-     "Sailwave results",
-     "https://www.sailwave.com/results/2026_ILCA_Men_Worlds.htm"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Sailing",
-   "h3": "Kiwi base rises in Bagnoli as Naples regatta drops delay cards",
-   "summary": "Emirates Team New Zealand has broken ground on its Naples base for the 2027 America's Cup defence, and organisers have stripped the delay card from fleet racing at the September regatta.",
-   "body": [
-    "Preparations for the Louis Vuitton 38th America's Cup moved from paperwork to concrete this month. Emirates Team New Zealand has begun putting up its 1750 square metre boatshed in Bagnoli, just under 10km from central Naples, using the same Mar-Key design that housed Taihoro in Barcelona.",
-    "Base manager Andy Nottage said the build had come together without the usual planning and logistical grind. The shed should be finished in around three months, with offices following from September to December ahead of the squad arriving in early 2027."
-   ],
-   "sources": [
-    [
-     "Boating New Zealand",
-     "https://www.boatingnz.co.nz/2026/08/americas-cup-week-in-review-as-naples-build-takes-shape/"
-    ],
-    [
-     "America's Cup",
-     "https://www.americascup.com/host-venue"
-    ],
-    [
-     "Boating New Zealand",
-     "https://www.boatingnz.co.nz/2026/08/luna-rossa-aim-for-the-moon/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Formula 1",
-   "h3": "Norris signs with McLaren through 2030 in record chasing deal",
-   "summary": "The reigning world champion committed his long term future to McLaren on Saturday, with a contract running to at least the end of 2030 and a multi year option beyond that.",
-   "body": [
-    "McLaren confirmed on Saturday that Lando Norris has extended his contract until at least the end of 2030. The deal carries a multi year option to run further.",
-    "Norris broke the news himself to staff at the Woking factory during the team's annual family and friends open day. The Press Association reported the contract could be worth up to 35 million dollars a year, and that one of his title winning cars forms part of the package."
-   ],
-   "sources": [
-    [
-     "Formula 1",
-     "https://www.formula1.com/en/latest/article/lando-norris-commits-future-to-mclaren-as-he-signs-new-deal-until-the-end-of-2030.7ErHTktjoW2mAo5zEEtuA0"
-    ],
-    [
-     "McLaren",
-     "https://www.mclaren.com/racing/formula-1/2026/lando-norris-contract-extension-2030/"
-    ],
-    [
-     "ESPN",
-     "https://www.espn.com/f1/story/_/id/49755604/lando-norris-signs-new-contract-stay-mclaren-least-2030"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Formula 1",
-   "h3": "Antonelli faces a Monza grid penalty as the title race tightens",
-   "summary": "Mercedes has confirmed championship leader Kimi Antonelli will take a new power unit and an accompanying grid drop at his home race next weekend.",
-   "body": [
-    "Kimi Antonelli goes into his home grand prix at Monza carrying a grid penalty after Mercedes elected to fit an all new power unit. The Italian Grand Prix runs from 4 to 6 September.",
-    "Antonelli leads the drivers' standings on 242 points after finishing second at Zandvoort, 59 clear of team mate George Russell and Lewis Hamilton, who are tied on 183. Lando Norris is fourth on 159 and Charles Leclerc fifth on 155."
-   ],
-   "sources": [
-    [
-     "ESPN",
-     "https://www.espn.com/f1/story/_/id/49679229/mercedes-kimi-antonelli-take-grid-penalty-italian-grand-prix-new-engine"
-    ],
-    [
-     "Sports Illustrated",
-     "https://www.si.com/onsi/f1/news/f1-results-and-standings-at-the-2026-dutch-grand-prix"
-    ],
-    [
-     "Sky Sports",
-     "https://www.skysports.com/f1/grandprix/italy"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Football",
-   "h3": "AZ hammer Go Ahead Eagles as NEC win away at Zwolle",
-   "summary": "Saturday's Eredivisie programme produced eleven goals across three matches, with AZ Alkmaar the heaviest scorers at the AFAS Stadion.",
-   "body": [
-    "AZ Alkmaar beat Go Ahead Eagles 5-2 in Alkmaar, with Ro-Zangelo Daal among the scorers from a Calvin Stengs assist and Mathis Suray replying for the visitors.",
-    "In the Rotterdam derby of the day at the Van Donge and De Roo Stadion, Excelsior edged Sparta 2-1. NEC Nijmegen won 3-1 at the Mac3Park Stadion against PEC Zwolle."
-   ],
-   "sources": [
-    [
-     "FOX Sports",
-     "https://www.foxsports.com/soccer/eredivisie/schedule?date=2026-08-29"
-    ],
-    [
-     "ESPN",
-     "https://www.espn.com/soccer/match/_/gameId/401875628/go-ahead-eagles-az-alkmaar"
-    ],
-    [
-     "Sky Sports",
-     "https://www.skysports.com/football/az-alkmaar-vs-go-ahead-eagles/556716"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Football",
-   "h3": "Ajax travel to Telstar as PSV visit Utrecht on Eredivisie Sunday",
-   "summary": "Five matches complete the Eredivisie round on Sunday, headed by PSV at Stadion Galgenwaard and Ajax making the short trip to Velsen.",
-   "body": [
-    "PSV Eindhoven open the Sunday programme away at FC Utrecht, having beaten Groningen 5-1 at home last weekend. Utrecht come in off a 3-3 draw at Sparta and have conceded three goals a game on average so far.",
-    "Feyenoord host ADO Den Haag at Stadion Feijenoord and Willem II take on Heerenveen in Tilburg. Ajax visit promoted Telstar at the Rabobank IJmond Stadion in Velsen, and Cambuur close the round against FC Twente in Leeuwarden."
-   ],
-   "sources": [
-    [
-     "FOX Sports",
-     "https://www.foxsports.com/soccer/eredivisie/schedule?date=2026-08-30"
-    ],
-    [
-     "Flashscore",
-     "https://www.flashscore.com/match/football/psv-M9UEHJWi/utrecht-p6QXMgOj/"
-    ],
-    [
-     "Soccerway",
-     "https://www.soccerway.com/netherlands/eredivisie/"
-    ]
-   ]
-  }
- ],
- "consumer-tech": [
-  {
-   "hero": true,
-   "sub": "Devices & Launches",
-   "h3": "Apple sets September 9 event for iPhone 18 Pro and first foldable",
-   "summary": "Apple has confirmed a September 9 keynote at Apple Park under the tagline Surprise and Shine, with the iPhone 18 Pro, iPhone 18 Pro Max and its first book style foldable all expected.",
-   "body": [
-    "Marketing chief Greg Joswiak posted the invitation on August 26, setting the keynote for 10am Pacific at Apple Park with a limited press audience and a livestream on Apple's site, YouTube and the Apple TV app. It is the first Apple event of the autumn and the busiest one on the calendar.",
-    "There is no standard iPhone 18 this year. Apple has split its release cycle so the cheaper models slip to spring 2027, leaving the September slot to the two Pro handsets and the foldable, which reporting suggests may carry the Ultra name. All three are expected to run the A20 Pro chip built on a 2nm process."
-   ],
-   "sources": [
-    [
-     "MacRumors",
-     "https://www.macrumors.com/2026/08/26/apple-iphone-event-2026/"
-    ],
-    [
-     "9to5Mac",
-     "https://9to5mac.com/2026/08/28/iphone-18-pro-pre-orders-could-kick-off-slightly-later-than-usual/"
-    ],
-    [
-     "GSMArena",
-     "https://www.gsmarena.com/heres_when_the_iphone_18_pro_and_iphone_18_pro_max_are_rumored_to_go_on_preorder-news-74398.php"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "New Mac mini drops to $899 with Apple's M6 chip",
-   "summary": "Apple refreshed the Mac mini and Mac Studio without an event, putting the all new M6 in the small desktop and an M5 Ultra in the top Studio. Both ship on September 22.",
-   "body": [
-    "The Mac mini now starts at $899 with the M6, which Apple says delivers roughly four times the AI performance, twice the graphics and storage speed and about 40 percent more CPU performance than the chip it replaces. An M5 Pro option sits above it for people who need more headroom in the same tiny enclosure.",
-    "The Mac Studio moves to M5 Max at $2,499 and a new M5 Ultra at $5,499. Apple quotes up to 4.3 times faster AI performance, up to twice the storage throughput, up to 1.8 times faster graphics and higher memory bandwidth, which matters most for video work and running large models locally."
-   ],
-   "sources": [
-    [
-     "Apple Newsroom",
-     "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/"
-    ],
-    [
-     "The Verge",
-     "https://www.theverge.com/tech/986280/mac-mini-studio-star-wars-zero-company-wyze-camera"
-    ],
-    [
-     "Macworld",
-     "https://www.macworld.com/article/2964754/2026-mac-mini-m5-pro-design-specs-release-date.html"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "Huawei teases inward-folding Mate XT 2 for September 7 launch",
-   "summary": "A new Huawei video confirms the Mate XT 2 tri-fold abandons the Z-shaped hinge of its predecessor for an inward U-shaped fold, ahead of a China launch alongside HarmonyOS 7.",
-   "body": [
-    "Huawei has scheduled a China event for September 7 to show the Mate XT 2 and HarmonyOS 7. The teaser video is the clearest look so far and settles the question of the hinge, showing a U-shaped inward fold rather than the Z-shape used on the original Mate XT and the Mate XTs.",
-    "The company has not published a spec sheet. Leaks point to a 6,000 mAh battery and a Kirin 9050 Pro processor, although some reports still suggest a Kirin 9030S, and the camera array is rumoured to be close to what the Mate X7 uses."
-   ],
-   "sources": [
-    [
-     "GSMArena",
-     "https://www.gsmarena.com/huawei_mate_xt_2_design-news-74403.php"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "Samsung's Galaxy S26 FE arrives at $699 with Exynos 2500",
-   "summary": "Samsung unveiled the Galaxy S26 FE this week at $699.99, with a 6.7 inch 120Hz AMOLED panel, Exynos 2500 silicon and six years of Android updates. It goes on sale September 4.",
-   "body": [
-    "The FE line has always been about trimming the flagship to a friendlier price, and this year that means a 6.7 inch FHD+ AMOLED display running at 120Hz with peak brightness around 1,900 nits, 8GB of RAM, a 4,900 mAh battery with 45W charging and IP68 protection.",
-    "Cameras are a 50MP main sensor, a 12MP ultrawide and an 8MP 3x telephoto. The phone ships with Android 17 and One UI 9, adds a My FanCam subject tracking mode for video and leans on Gemini Omni for its AI features. Samsung is promising six years of OS and security updates, which runs to 2033."
-   ],
-   "sources": [
-    [
-     "9to5Google",
-     "https://9to5google.com/2026/08/27/samsung-galaxy-s26-fe-release-price/"
-    ],
-    [
-     "GSMArena",
-     "https://www.gsmarena.com/samsung_galaxy_s26_fe_in_for_review-news-74391.php"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "IFA opens in Berlin on Friday with Xiaomi in and Samsung out",
-   "summary": "Europe's biggest consumer tech show runs September 4 to 8 at Messe Berlin. Xiaomi is exhibiting for the first time while Samsung skips a full booth for the first time since 1991.",
-   "body": [
-    "IFA drew roughly 220,000 visitors last year and remains one of the few large tech shows open to the general public, with advance adult tickets at 21.50 euros. This year's line-up leans heavily on AI PCs, home robotics and displays.",
-    "Xiaomi confirmed its IFA debut at the show's kick-off in June. Samsung, by contrast, is not staging a large product exhibition at Messe Berlin for the first time since it started attending in 1991, and is instead sponsoring an IFA Creator Hub aimed at influencers and streamers at Palais am Funkturm."
-   ],
-   "sources": [
-    [
-     "Android Authority",
-     "https://www.androidauthority.com/what-to-expect-ifa-2026-3701444/"
-    ],
-    [
-     "IFA Berlin",
-     "https://www.ifa-berlin.com/press-releases"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Software & Services",
-   "h3": "Apple TV and Apple One get another price rise",
-   "summary": "Apple lifted Apple TV to $15 a month and $119 a year, and pushed the individual Apple One bundle from $20 to $22. It is the streaming service's fourth increase since 2022.",
-   "body": [
-    "The monthly Apple TV subscription goes up by $2 to $15, while the annual plan climbs 20 percent from $99 to $119. Existing subscribers get a month's notice before the new rate applies. Apple last raised the price in August 2025, when it moved from $10 to $13.",
-    "Apple One's individual tier rises from $20 to $22, following last month's increases to the Family plan from $26 to $28 and Premier from $38 to $40. Apple Music also went from $11 to $13 last month, so the bundle change largely tracks its components."
-   ],
-   "sources": [
-    [
-     "Ars Technica",
-     "https://arstechnica.com/gadgets/2026/08/apple-one-and-apple-tv-subscription-prices-increase-by-up-to-20-percent/"
-    ],
-    [
-     "TechCrunch",
-     "https://techcrunch.com/2026/08/28/apple-tv-is-raising-its-subscription-prices-again/"
-    ],
-    [
-     "9to5Mac",
-     "https://9to5mac.com/2026/08/28/apple-announces-price-increase-for-apple-tv-and-apple-one-subscriptions/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Software & Services",
-   "h3": "Google starts auto-expanding AI Overviews, pushing links down",
-   "summary": "For some queries Google now shows a fully expanded AI summary plus an Ask anything box before any blue links, removing the Show more button that used to keep results visible.",
-   "body": [
-    "The change was spotted by Search Engine Roundtable and confirmed by Google to The Verge. Where an AI Overview previously appeared as a truncated block with a Show more control, some searches now open the full summary automatically and stack an Ask anything prompt beneath it, so the traditional list of links sits well below the fold.",
-    "Google has not explained which queries trigger the behaviour. A spokesperson said overviews may dynamically expand for topics where its systems judge it most useful, and claimed users engage more deeply in follow up exploration as a result. Google also said expansion is cancelled if a user has already started scrolling past the overview."
-   ],
-   "sources": [
-    [
-     "The Verge",
-     "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Software & Services",
-   "h3": "Meta closes the sticker loophole on Ray-Ban recording lights",
-   "summary": "An update will stop Meta's smart glasses recording if the capture LED is covered mid-session, closing a workaround that let wearers film people without the warning light showing.",
-   "body": [
-    "Meta already blocked recording if a user tried to start capture with a sticker over the LED. People quickly worked out they could reverse the order, start recording first and then cover the light. Wearables lead Alex Himel said on Threads that an update will now cut the camera off if the light is obscured at any point during a recording.",
-    "Himel argued that only a small minority of users attempt the bypass and that the effort involved shows the existing protections work. Researchers are less convinced. Hardware tampering is still possible, and it is unclear whether semi-transparent stickers that simply dim the LED would trip the new safeguard."
-   ],
-   "sources": [
-    [
-     "Ars Technica",
-     "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/"
-    ],
-    [
-     "9to5Google",
-     "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Software & Services",
-   "h3": "WhatsApp scam alerts reach Android beta testers",
-   "summary": "WhatsApp's on-device Scam Alert feature has started appearing for beta users on Android, flagging suspicious messages from unknown senders without telling the sender it is running.",
-   "body": [
-    "WABetaInfo found the feature live in WhatsApp for Android beta build 2.26.34.1. Scam Alert warns a user when an incoming message from an unknown number looks like a scam and gives the option to mark the sender as trusted or to block and report them.",
-    "Meta describes it as an optional feature running a machine learning model entirely on the handset. No message content leaves the device for classification and nothing is auto-reported back to WhatsApp or Meta, which is how the feature coexists with end to end encryption. Users have to switch it on themselves under Settings and Account."
-   ],
-   "sources": [
-    [
-     "GSMArena",
-     "https://www.gsmarena.com/whatsapp_scam_alert_feature_android_beta_users-news-74404.php"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Software & Services",
-   "h3": "Brave builds email aliases into its browser",
-   "summary": "Brave now offers built-in disposable email addresses that forward to your real inbox, a privacy feature Chrome does not match. Free accounts get five aliases to start.",
-   "body": [
-    "Once signed into a Brave account, clicking an email field on a site brings up an offer to fill in an alias instead of the real address, with a right click fallback if the prompt does not appear. Mail sent to the alias is forwarded on to the primary inbox.",
-    "The pitch is that email addresses work as persistent identifiers. Ad networks can match the address you hand a retailer with the one they already hold, and any breach of that retailer exposes your main address to data brokers. Aliases break both chains."
-   ],
-   "sources": [
-    [
-     "TechCrunch",
-     "https://techcrunch.com/2026/08/28/braves-browser-one-ups-chrome-with-its-new-support-for-email-aliases/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "EVs & Mobility",
-   "h3": "Tesla sets September 3 Cybercab launch event in Austin",
-   "summary": "Tesla has teased an invite-only Cybercab Launch Event in Austin on September 3, with rides expected to appear in its existing Robotaxi app shortly afterwards.",
-   "body": [
-    "The two-seat Cybercab has no steering wheel and no pedals, and has been in low volume production at Gigafactory Texas since earlier this year. The September 3 event is invitation only but will be livestreamed, and Tesla is promising attendees a chance to experience full autonomy.",
-    "Regulatory filings with the EPA give the clearest picture of the hardware yet. Curb weight is listed at 3,113 pounds, roughly 700 pounds lighter than the lightest Model 3, with a single 219 horsepower front motor, a 48 kWh pack and an unadjusted 418 mile range. Real world range is expected nearer 290 to 300 miles, and its 165 watt-hours per mile rating would rank among the most efficient EVs ever certified."
-   ],
-   "sources": [
-    [
-     "Gizmodo",
-     "https://gizmodo.com/tesla-finally-sets-a-launch-date-for-the-cybercab-2000802484"
-    ],
-    [
-     "Electrek",
-     "https://electrek.co/2026/08/28/tesla-cybercab-launch-predictions/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "EVs & Mobility",
-   "h3": "Volkswagen unveils ID. California Cruise electric camper",
-   "summary": "VW showed its first fully electric California camper at Caravan Salon, built on the ID. Buzz Pro. It starts at 60,761 euros in Germany with deliveries in early 2027.",
-   "body": [
-    "The ID. California Cruise is the first of a planned family of electric California campers. It sleeps two on a bed measuring 2.03 by 1.20 metres with a new 9cm folding mattress, blackout blinds on every window, ventilation grilles in the front side windows and a pair of camping chairs and a table included.",
-    "Volkswagen Commercial Vehicles worked with Stuff Bubble, best known for an inflatable camping kitchen, on gear that converts the van in minutes and stows inside the vehicle. A dedicated California mode keeps selected lights, USB ports and comfort functions running overnight or for up to 48 hours, and vehicle to load output runs to 2,000 watts continuous with a 3.6 kW peak."
-   ],
-   "sources": [
-    [
-     "Electrek",
-     "https://electrek.co/2026/08/28/volkswagen-unveils-first-california-ev-camper-images/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "EVs & Mobility",
-   "h3": "BYD hits 10,000 megawatt flash charging stations in China",
-   "summary": "BYD has doubled its 1,500kW flash charging network in five months to 10,000 stations across 325 Chinese cities, but its 20,000 target by year end now looks very tight.",
-   "body": [
-    "The chargers deliver up to 1,500kW, enough to take a compatible pack from 10 to 70 percent in around five minutes. The network has now delivered roughly 210 million kWh and serves about 1.83 million users, with drivers of non-BYD vehicles making up close to a third of them.",
-    "Hitting 20,000 stations by the end of 2026 would require roughly 80 new sites a day from late August onwards, more than double the pace BYD managed over the past five months. The company has partnered with oil major Sinopec to help with siting."
-   ],
-   "sources": [
-    [
-     "Electrek",
-     "https://electrek.co/2026/08/27/byd-installed-10000-hyper-fast-1500kw-chargers-in-just-5-months/"
-    ],
-    [
-     "CnEVPost",
-     "https://cnevpost.com/2026/08/28/byd-flash-charging-10000-stations/"
-    ],
-    [
-     "InsideEVs",
-     "https://insideevs.com/news/806454/byd-10000-ev-flash-chargers/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "EVs & Mobility",
-   "h3": "Kia recalls 21,290 EV9 SUVs over child seat airbag fault",
-   "summary": "Kia is recalling 2025 and some 2026 EV9 SUVs built in Georgia because a pinched sensor tube can stop the front airbag deactivating when a child or child seat is present.",
-   "body": [
-    "In a filing with the NHTSA, Kia said a supplier routed the Occupant Detection System mat bladder tube incorrectly. Repeated adjustment of the front seat can pinch the tube, at which point the system may fail to switch off the passenger airbag for a child or child seat.",
-    "Kia estimates only about 6 percent of the recalled vehicles actually carry the defect, but the whole population fails to meet federal safety requirements. Affected owners may notice an airbag warning light or a seatbelt chime sounding with nobody in the front seat."
-   ],
-   "sources": [
-    [
-     "Electrek",
-     "https://electrek.co/2026/08/28/kia-is-recalling-over-21000-ev9-suvs-over-a-faulty-airbag-issue/"
-    ]
-   ]
-  }
- ]
+  "sports": [
+    {
+      "hero": true,
+      "sub": "Tennis",
+      "h3": "US Open opens without Sinner as Alcaraz returns from injury",
+      "summary": "The 2026 US Open began on Sunday at Flushing Meadows with world number one Jannik Sinner absent through a knee injury and defending champion Carlos Alcaraz back after four months out.",
+      "body": [
+        "Play started on 30 August and runs to 13 September. Sinner withdrew with a knee problem picked up during his break before the North American swing, ending a run of appearances at every Grand Slam since Wimbledon 2019. Jack Draper also pulled out injured.",
+        "Alcaraz opens his title defence against Roman Safiullin after a four month layoff with a wrist problem. He has spoken about the intrusive thoughts that came with the uncertainty over his recovery, and the draw hands him a demanding route with Novak Djokovic in the same half.",
+        "On the women's side Aryna Sabalenka begins against Camila Osorio with her top ranking under threat. Coco Gauff arrives in better form after beating Jessica Pegula to win the Cincinnati Open, her first title of 2026."
+      ],
+      "sources": [
+        ["BBC Sport", "https://www.bbc.com/sport/tennis/articles/c4glzvq3pzno"],
+        ["ESPN", "https://www.espn.com/tennis/story/_/page/w2w4*/us-open-2026-storylines-carlos-alcaraz-coco-gauff-aryna-sabalenka-novak-djokovic"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Tennis",
+      "h3": "Tearful Federer inducted into International Tennis Hall of Fame",
+      "summary": "Roger Federer was inducted into the International Tennis Hall of Fame in Newport, calling it one of the greatest honours of his life.",
+      "body": [
+        "The 20 time Grand Slam singles champion, who retired in 2022, wiped away tears at the ceremony in Rhode Island in front of tennis greats including Billie Jean King and John McEnroe. Federer is 45 and made his tour debut in 1998 at the age of 16.",
+        "His record includes a men's record eight Wimbledon titles, six Australian Opens, five US Opens and one French Open, plus 310 weeks at world number one. Only Rafael Nadal on 22 majors and Novak Djokovic on 24 have won more men's singles Grand Slams.",
+        "Federer used his speech to thank his wife Mirka, his idol Stefan Edberg and the ball kids who worked his matches, joking that he had worn more than 5,000 headbands and over 7,000 pairs of socks across his career."
+      ],
+      "sources": [
+        ["BBC Sport", "https://www.bbc.com/sport/tennis/articles/cvgy6zzgwlgo"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Tennis",
+      "h3": "Norrie falls in four sets to Van Assche on US Open day one",
+      "summary": "Cameron Norrie was beaten 6-7 (6-8) 6-2 6-2 6-3 by France's Luca Van Assche in the first round at Flushing Meadows.",
+      "body": [
+        "Norrie took a tight opening set on a tie break but lost the next three as Van Assche took control. The result removed one of Britain's more experienced men from the draw on the opening day of the tournament.",
+        "There was better news elsewhere for British players. Qualifier Toby Samuel came through on his New York main draw debut, while Katie Boulter was taken to a deciding set by American wildcard Carol Young Suh Lee.",
+        "Novak Djokovic and Venus Williams were also scheduled on day one, with Djokovic drawn against Mariano Navone in the first round."
+      ],
+      "sources": [
+        ["Sky Sports", "https://www.skysports.com/tennis/live-blog/12110/13578915/us-open-live-scores-updates-news-commentary-and-results-from-flushing-meadows-new-york"],
+        ["BBC Sport", "https://www.bbc.com/sport/tennis"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Tennis",
+      "h3": "Muchova and Mensik take US Open mixed doubles crown",
+      "summary": "Karolina Muchova and Jakub Mensik saved two match points to beat Belinda Bencic and Flavio Cobolli and win the US Open mixed doubles title and its $1m prize.",
+      "body": [
+        "The all Czech pairing came through a final set tie break thriller to claim the revamped event, which was played in the week before the main draw and drew a field of singles stars.",
+        "Bencic and Cobolli had reached the final by knocking out Carlos Alcaraz and Serena Williams in the quarter finals, one of the most watched pairings of the week. Top seeds Novak Djokovic and Aryna Sabalenka went out in the first round to Katerina Siniakova and Henry Patten.",
+        "The format again turned the mixed competition into a marquee opening act rather than a sideshow, with $1m going to the winning pair."
+      ],
+      "sources": [
+        ["BBC Sport", "https://www.bbc.com/sport/tennis/articles/c8xken9v4xno"],
+        ["Tennis Majors", "https://www.tennismajors.com/us-open-news/karolina-muchova-and-jakub-mensik-win-us-open-mixed-doubles-title-beating-bencic-and-cobolli-in-final-set-tiebreak-thriller-859542.html"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "BJJ & Judo",
+      "h3": "Lausanne closes first Grand Slam and lands 2028 Worlds",
+      "summary": "The inaugural Ecole Mont-Olivet Lausanne Grand Slam ended on Sunday with 513 judoka from 77 nations competing, and the city confirmed as host of the 2028 World Judo Championships.",
+      "body": [
+        "Russia finished top of the medal table ahead of Japan and Germany, with Georgia, France, Uzbekistan, Brazil, Israel, Kazakhstan and Poland all taking gold across the three days at the Vaudoise Arena.",
+        "Organisers sold more than 12,500 of the 15,000 available tickets. Swiss Judo president Sergei Aschwanden called the first edition a real success and pointed to strong local and international media interest.",
+        "Lausanne will stage the World Judo Championships in 2028, 55 years after it last hosted the event in 1973. The grand slam ran alongside adapted judo and deaf judo competitions in the same arena."
+      ],
+      "sources": [
+        ["IJF.org", "https://www.ijf.org/news/show/lausanne-closes-an-historic-first-chapter"],
+        ["IJF.org", "https://www.ijf.org/news/show/switzerland-to-host-the-2028-world-judo-championships"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "BJJ & Judo",
+      "h3": "Tasoev and Fontaine headline final day golds in Lausanne",
+      "summary": "Inal Tasoev won the +100kg title and an all French +78kg final went to Romane Fontaine on the closing day of the Lausanne Grand Slam.",
+      "body": [
+        "Tasoev closed the final block with explosive judo in the heaviest men's category. At -100kg Georgia's Ilia Sulamanidze claimed his sixth grand slam title, beating Simeon Catharina of the Netherlands in the final.",
+        "Uzbekistan took -90kg gold through Bozorov in an all Uzbek showdown, while Germany's Anna Monta Olek won -78kg with a tactical display against Yelyzaveta Lytvynenko.",
+        "Earlier in the week Yamato Fukuda beat Lee Harim in a Japan against Republic of Korea -60kg final, and Kazakhstan's Abylaikhan Zhubanazar took -81kg gold over Uzbekistan's Arslonbek Tojiev. Attention now turns to the World Championships in Baku."
+      ],
+      "sources": [
+        ["IJF.org", "https://www.ijf.org/news/show/100-kg-tasoev-s-explosive-judo-prevails"],
+        ["IJF.org", "https://www.ijf.org/news/show/78-kg-fontaine-delivers-a-french-heavyweight-masterclass"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "BJJ & Judo",
+      "h3": "Gabi Pessanha enters ADCC as three divisions reshuffle",
+      "summary": "Twelve time IBJJF champion Gabi Pessanha has entered the +65kg division at the ADCC World Championship after returning champion Rafaela Guedes withdrew.",
+      "body": [
+        "ADCC Worlds run on 12 and 13 September, with the bracket reveal show on 11 September and the amateur world championships on the same day. Athletes have dropped out of the -66kg, -88kg and +65kg divisions, with Pessanha's entry the biggest change.",
+        "New no gi world rankings landed the same week, putting Andrew Tackett at number one at men's 170lbs, Helena Crevar at women's heavyweight and Elisabeth Clay at women's 145lbs.",
+        "UFC BJJ 10 took place in Las Vegas, where Tackett and Brianna Ste-Marie both won their promotional title matches by submission."
+      ],
+      "sources": [
+        ["FloGrappling", "https://www.flograppling.com/articles/16143104-grappling-bulletin-gabi-at-adcc-jiu-jitsu-con-ufc-bjj-more"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Sailing",
+      "h3": "Vadnai wins ILCA 7 Worlds in first Hungarian triumph",
+      "summary": "Jonatan Vadnai sealed the ILCA 7 Men's World Championship in Dun Laoghaire on Sunday, the first time a Hungarian sailor has won the title.",
+      "body": [
+        "Vadnai closed with a fourth and a first in the Final Series races to finish on 47 points. The format sent the top ten sailors into a medal shootout after eleven races of the Elimination Series.",
+        "Britain's Elliot Hanson had led going into the final day after the Elimination Series concluded on Saturday, with Greece's Athanasios Kyfidis and Singapore's Ryan Lo among the other leaders through the week.",
+        "The championship was sailed in mixed conditions on Dublin Bay, including light nine knot breezes and rain during the middle days."
+      ],
+      "sources": [
+        ["Sail-World", "https://www.sail-world.com/news/299306/2026-ILCA-7-Mens-Worlds-overall"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Sailing",
+      "h3": "Platoon Aviation take fourth Royal Cup in Lanzarote",
+      "summary": "Harm Muller-Spreer's Platoon Aviation won the 52 Super Series Royal Cup at Puerto Calero for the fourth time, with Brazil's Crioula second.",
+      "body": [
+        "The German flagged three time world champions built a seven point lead by day three and never looked back, adding a first and a fourth on the breeziest day of the regatta.",
+        "The result was Platoon Aviation's first regatta win since the Royal Cup in 2024. Eduardo and Renato Plass and their Crioula crew from Valeros do Sul Yacht Club in Porto Alegre secured a first podium of this level.",
+        "The 52 Super Series circuit heads on with Valencia among the venues lining up major events later in the season."
+      ],
+      "sources": [
+        ["Sail-World", "https://www.sail-world.com/news/299285/52-Super-Series-Royal-Cup-Puerto-Calero-overall"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Sailing",
+      "h3": "Scheidt and Sperry crowned Star European champions",
+      "summary": "Five time Olympic medallist Robert Scheidt and 2008 Olympian Austin Sperry won the Star European Championship at Medemblik after a flawless final day.",
+      "body": [
+        "The Brazilian and American pairing closed out one of the most prestigious titles in international keelboat sailing on the IJsselmeer. They had been chasing after Negri and Lambertenghi struck earlier in the series.",
+        "Severe weather across western Europe disrupted the regatta, with only one race completed on day three before storms arrived and further racing was affected.",
+        "Medemblik delivered a mix of grey skies and fresh easterly breeze across the week, conditions the Dutch venue is known for."
+      ],
+      "sources": [
+        ["Sail-World", "https://www.sail-world.com/news/299283/2026-Star-Europeans-at-Medemblik-overall"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Formula 1",
+      "h3": "Norris signs McLaren extension through to 2030",
+      "summary": "Lando Norris has committed his long term future to McLaren with a multi year contract extension that runs to 2030.",
+      "body": [
+        "The reigning world champion has already started a team record 163 grands prix for McLaren. He said the target of the new deal is more world championships rather than simply seeing out his career in papaya.",
+        "The announcement came in the fortnight between the Dutch Grand Prix and Monza, where Formula 1 returns on 4 to 6 September for Ferrari's home race.",
+        "Norris won at Zandvoort in the last round for back to back victories, although Kimi Antonelli still leads the drivers' standings and Mercedes hold a clear constructors' advantage."
+      ],
+      "sources": [
+        ["Sky Sports", "https://www.skysports.com/f1/news/12433/13577711/lando-norris-mclaren-driver-signs-contract-extension-until-2030-with-target-of-more-world-championships"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Formula 1",
+      "h3": "Red Bull weigh Lawson against recovering Hadjar for Monza",
+      "summary": "Liam Lawson could keep the second Red Bull seat at the Italian Grand Prix as Isack Hadjar works to prove his fitness after a summer shutdown injury.",
+      "body": [
+        "Hadjar picked up the injury during the shutdown and missed Zandvoort. He says he is healing fast and is targeting a return at Monza, but there are no guarantees either way and he will be given as long as possible to prove his fitness.",
+        "Lawson stepped in at Zandvoort and now waits on the team's call. Red Bull have not set a public deadline for the decision.",
+        "Elsewhere on the driver market, Alpine confirmed Franco Colapinto alongside Pierre Gasly for 2027, while Yuki Tsunoda's route back to a full time seat looks increasingly narrow despite an impressive showing at Zandvoort."
+      ],
+      "sources": [
+        ["NZ Herald", "https://www.nzherald.co.nz/sport/motorsport/formula-1/formula-1-liam-lawson-waits-on-red-bull-opportunity-as-isack-hadjar-recovers/CR65IZ6OL5AB5C2TQQNITTGSWM/"],
+        ["Motorsport.com", "https://cn.motorsport.com/f1/news/isack-hadjar-shares-injury-update-as-he-targets-italian-gp-red-bull-return/10850494/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Football",
+      "h3": "PSV hammer Utrecht 6-1 as Feyenoord stay winless at home",
+      "summary": "Champions PSV tore Utrecht apart 6-1 at Stadion Galgenwaard while Feyenoord were held 2-2 by bottom side ADO Den Haag in Eredivisie round four.",
+      "body": [
+        "PSV's win was one sided from early on and pushed Utrecht deeper into trouble at the wrong end of the table. It was the standout scoreline of a goal heavy Sunday programme.",
+        "Feyenoord remain without a home league win after four rounds. ADO Den Haag grabbed their first point of the season in Rotterdam, an outcome few had predicted given their start.",
+        "Feyenoord also face a squad change, with Eredivisie top scorer Ayase Ueda set to join Lille before the transfer deadline."
+      ],
+      "sources": [
+        ["Flashscore", "https://www.flashscore.co.za/news/eredivisie-roundup-feyenoord-falter-as-ajax-psv-twente-win-comfortably/vBibW2Ug/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Football",
+      "h3": "Ajax win 4-0 at Telstar as Twente sink Cambuur",
+      "summary": "Ajax cruised to a 4-0 win at Telstar and FC Twente beat Cambuur 4-1 in Leeuwarden to complete a comfortable weekend for the chasing pack.",
+      "body": [
+        "Ajax had a stress free afternoon in Velsen-Zuid, with the visitors in control throughout against a Telstar side already facing a relegation fight.",
+        "At Cambuur, Barcelona target Ruud Nijstad opened the scoring with a strike from distance before Wout Weghorst quickly doubled the lead. Marko Pjaca made it three shortly after half time after a nutmegged assist from Sondre Orjasaeter, and Younes Taha added a fourth.",
+        "Cambuur pulled one back in the 88th minute but stay pointless at the foot of the table. Willem II and Heerenveen drew 2-2 in Tilburg, where Devin Haen saved a point in the 83rd minute."
+      ],
+      "sources": [
+        ["Flashscore", "https://www.flashscore.co.za/news/eredivisie-roundup-feyenoord-falter-as-ajax-psv-twente-win-comfortably/vBibW2Ug/"]
+      ]
+    }
+  ],
+  "consumer-tech": [
+    {
+      "hero": true,
+      "sub": "Devices & Launches",
+      "h3": "Apple sets 9 September event for iPhone 18 Pro and foldable",
+      "summary": "Apple has sent invitations for a Surprise and shine event on Wednesday 9 September, expected to bring the iPhone 18 Pro and the company's first folding iPhone.",
+      "body": [
+        "The keynote starts at 10am Pacific at Apple Park. It is the company's biggest consumer hardware moment of the year and the first under incoming chief executive John Ternus.",
+        "Alongside the iPhone 18 Pro, reporting points to a foldable model positioned above the Pro line, a new Apple Watch Ultra and further smart home hardware. Analysts have counted as many as eight possible product reveals.",
+        "Pre-orders may start later than usual this year, with some reports suggesting the gap between announcement and on sale date will stretch beyond the normal pattern."
+      ],
+      "sources": [
+        ["9to5Mac", "https://9to5mac.com/2026/08/26/apple-officially-announces-iphone-18-pro-foldable-event/"],
+        ["TechCrunch", "https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "Galaxy S26 FE ships with One UI 9 before the flagships",
+      "summary": "Samsung launched the Galaxy S26 FE with a 6.7 inch display and One UI 9 based on Android 17, beating the rest of the S26 line to the newest software.",
+      "body": [
+        "The FE model traditionally arrives after the flagships and cuts specification to hit a lower price, so shipping the newest software first is a reversal of the usual order.",
+        "One UI 9 is built on Android 17. Putting it on the FE now gives Samsung a live test bed ahead of a wider rollout across the S26 series.",
+        "The launch sets up a busy September for Samsung, which is also expected to push its Galaxy Glasses effort on the Android XR platform."
+      ],
+      "sources": [
+        ["Android Central", "https://www.androidcentral.com/phones/samsung-galaxy/samsung-galaxy-s26-fe-launch"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "IFA Berlin lines up AI, robots and smart glasses",
+      "summary": "IFA 2026 opens in Berlin next week with AI hardware, humanoid robots, smart glasses and reworked laptops set to dominate the show floor.",
+      "body": [
+        "Preview coverage points to AI running through almost every category rather than sitting in a single product class, from home appliances to notebooks. Robotics has a larger presence than in previous years.",
+        "Smart glasses are the other headline theme. The category has grown quickly around camera and audio frames, with display equipped models arriving alongside them.",
+        "Smaller vendors are using the show to stake out ground too. Ninkear and GEEKOM are both bringing local AI mini PCs and laptops to Berlin."
+      ],
+      "sources": [
+        ["Tom's Guide", "https://www.tomsguide.com/tech-events/ifa-2026-what-to-expect"],
+        ["Android Authority", "https://www.androidauthority.com/what-to-expect-ifa-2026-3701444/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "Plaud One rethinks headphones for AI note taking",
+      "summary": "Plaud has revealed the One, a set of AI headphones built around recording, transcription and summarising, which will be shown at IFA in Berlin.",
+      "body": [
+        "The device is pitched as a reinvention of headphones for the AI note taking era rather than an audio product with software bolted on. Capture and summarisation sit at the centre of the design.",
+        "Plaud has also introduced AI earbuds with built in 4G connectivity, letting them record, transcribe and summarise conversations without a smartphone nearby.",
+        "The company has built its business around dedicated recording hardware, and the move into worn audio puts it against far larger earbud makers."
+      ],
+      "sources": [
+        ["CNET", "https://www.cnet.com/tech/mobile/plaud-one-note-taking-ai-headphones-ifa-2026/"],
+        ["IBTimes", "https://www.ibtimes.com.au/plaud-ai-earbuds-standalone-connectivity-1874673"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "GMKtec mini PC packs 16 cores and 192GB of DDR5",
+      "summary": "GMKtec confirmed the Evo X5 Pro mini PC, built on the 16 core Ryzen AI Max Plus Pro 495 and configurable with up to 192GB of DDR5 memory.",
+      "body": [
+        "The machine is due to be unveiled early next month. The memory ceiling is the headline number and puts the box in range of local AI workloads that normally need a workstation.",
+        "Mini PCs have become one of the more interesting corners of the desktop market as AMD's APU line closed much of the gap to discrete graphics for everyday and light creative work.",
+        "It arrives into a crowded field, with several rivals bringing local AI focused small form factor machines to IFA in Berlin."
+      ],
+      "sources": [
+        ["NotebookCheck", "https://www.notebookcheck.net/Gaming-mini-PC-with-up-to-192-GB-DDR5-RAM-and-16-core-AMD-APU-to-arrive-early-next-month.1381896.0.html"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "DLSS 5 leaks early and modders bolt it onto everything",
+      "summary": "Code for Nvidia's unreleased DLSS 5 appeared in an early access build of NBA 2K27, and modders have since forced it into Control, Skyrim, Cyberpunk 2077 and GTA V.",
+      "body": [
+        "Members of the RenoDX modding channel extracted the DLSS Neural Rendering file and applied it to Control first before the technique spread to other titles. Videos show the AI filter reshaping character faces, adding laugh lines and shifting scene lighting.",
+        "Performance is the bigger problem. Modders report roughly a 50 percent frame rate loss, with one Blackwell test dropping an RTX 5070 Ti from 71 frames per second to 35 at 4K in Control.",
+        "This is an unfinished build being forced into games that were never meant to support it. Nvidia is not expected to ship DLSS 5 officially until the autumn."
+      ],
+      "sources": [
+        ["The Verge", "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai"],
+        ["Tom's Hardware", "https://www.tomshardware.com/pc-components/gpus/modders-get-leaked-dlss-5-running-in-control-early-blackwell-test-drops-rtx-5070-ti-from-71-to-35-fps-at-4k"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "Windows 11 26H2 reaches Release Preview ahead of autumn",
+      "summary": "Microsoft pushed Windows 11 version 26H2, build 26300.9278, to the Release Preview Channel on 27 August ahead of general availability later this year.",
+      "body": [
+        "The build gives Insiders and enterprise IT teams first hands on access to this year's annual feature update. It does not install on its own and has to be picked up through the seeker experience in Windows Update.",
+        "Most of the changes will already be familiar because Microsoft folded them into monthly updates across the year. Testing suggests 26H2 brings little that is not already available in the August optional update.",
+        "The practical effect for most users is a fresh support period without a major operating system upgrade."
+      ],
+      "sources": [
+        ["BetaNews", "https://betanews.com/article/windows-11-26h2-release-preview/"],
+        ["NotebookCheck", "https://www.notebookcheck.net/Windows-11-s-next-major-update-almost-ready-for-release.1381987.0.html"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "Windows 11 update brings movable taskbar and 35 fixes",
+      "summary": "The KB5120998 update for Windows 11 ships 35 changes and fixes, including taskbar repositioning, a resizable Start menu and a new administrator protection feature.",
+      "body": [
+        "Once the staged feature activation lands, users can place the taskbar at the bottom, top, left or right of the screen and choose a smaller layout. The Start menu can be resized and search has been redesigned.",
+        "Administrator protection lets users carry out admin tasks with just in time privileges rather than running with elevated rights all the time.",
+        "The rollout has not been entirely clean. Reports point to the update breaking cursor styling and resetting wallpapers for some users."
+      ],
+      "sources": [
+        ["BleepingComputer", "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/"],
+        ["Guru3D", "https://www.guru3d.com/story/windows-11-gains-smaller-taskbar-and-resizable-start-menu/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "Edge adds Apple sign-in and scam protection, drops Edge Drop",
+      "summary": "The latest Microsoft Edge update lets users sign in with an Apple account and adds automatic scam protection, while retiring Edge Drop and real time video translation.",
+      "body": [
+        "Apple account sign-in widens the options for syncing browser data across devices. The scam protection feature warns users automatically rather than waiting for them to enable it.",
+        "The removals are the sting. Edge Drop offered quick file and note transfer between a user's own devices through the browser, and real time video translation was one of the more distinctive Edge features.",
+        "The update also brings new admin controls for organisations managing Edge deployments."
+      ],
+      "sources": [
+        ["Windows Central", "https://www.windowscentral.com/software-apps/microsoft-edge-update-adds-apple-sign-in-and-scam-protection-but-officially-ends-edge-drop-and-real-time-video-translation"],
+        ["gHacks", "https://www.ghacks.net/2026/08/29/microsoft-edge-update-adds-apple-sign-in-and-scam-protection-while-retiring-edge-drop-and-video-translation/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "Meta closes another covert recording loophole on its glasses",
+      "summary": "Meta is rolling out an update that stops video recording on its smart glasses if the capture LED is covered after recording has already started.",
+      "body": [
+        "The capture light is the main signal to bystanders that a wearer is filming. Covering it with tape or a finger had been a known way to keep recording without the indicator showing.",
+        "The change now halts the recording rather than simply warning the wearer, closing a gap that privacy researchers had repeatedly flagged.",
+        "Meta has expanded its glasses line steadily, with the Meta Glasses range now on sale in Japan alongside the earlier Ray-Ban Meta and Oakley Meta models."
+      ],
+      "sources": [
+        ["Android Central", "https://www.androidcentral.com/apps-software/meta/meta-just-closed-another-loophole-that-could-let-its-smart-glasses-record-discreetly"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "Windows 11 starts rolling out Emoji 17.0 support",
+      "summary": "Microsoft has begun delivering Emoji 17.0 support to selected Windows 11 users through a Release Preview update, available now in some regions.",
+      "body": [
+        "Emoji updates land unevenly across platforms, so Windows users often wait months after a new set is ratified before the glyphs render properly rather than showing as boxes.",
+        "The rollout is limited to select users and regions for now and arrives through the Release Preview channel rather than general availability.",
+        "Wider distribution is expected to follow as the update graduates through Microsoft's usual servicing channels."
+      ],
+      "sources": [
+        ["Emojipedia", "https://blog.emojipedia.org/windows-11-now-supports-emoji-17-0/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "Tesla base Model 3 sold out for 2026, deliveries slip to 2027",
+      "summary": "Tesla has pushed delivery of the base Model 3 into 2027 after selling out this year's allocation, a rare supply squeeze in a contracting US EV market.",
+      "body": [
+        "The cheapest Model 3 configuration is no longer available with a 2026 delivery date. Buyers ordering now are being quoted next year.",
+        "Tesla and every other US EV maker are still working through the fallout of the $7,500 federal tax credit ending in September 2025, which created a boom and bust cycle across the industry.",
+        "US EV sales fell sharply after the credit expired, yet Tesla has kept a majority share of the market even as its own volumes dropped."
+      ],
+      "sources": [
+        ["Forbes", "https://www.forbes.com/sites/brookecrothers/2026/08/26/tesla-base-model-3-sold-out-for-2026/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "Ford tries again on the electric truck America rejected",
+      "summary": "Ford says its upcoming affordable electric truck has to be a great vehicle first, with the electric part almost beside the point after a run of failed US electric pickups.",
+      "body": [
+        "Electric trucks have sold far below expectations in the United States. Ford's skunkworks team, led by Alan Clarke, is building the new model around cost and everyday usefulness rather than range headlines and towing records.",
+        "The pitch is that buyers were never shopping for an electric truck as a category. They were shopping for a truck, and the previous wave asked them to accept compromises for the powertrain.",
+        "The project matters for Ford's wider electric plans, which have been reset since federal incentives lapsed and clean car rules eased."
+      ],
+      "sources": [
+        ["InsideEVs", "https://insideevs.com/news/797757/alan-clarke-ford-skunkworks-affordable-ev-truck/"]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "Uber puts $100m into charging with robotaxis in mind",
+      "summary": "Uber is committing $100m to electric vehicle charging, a bet driven as much by its autonomous vehicle plans as by drivers switching to EVs.",
+      "body": [
+        "Uber's autonomous fleet is mostly electric and will need fast, reliable charging near the areas where those vehicles operate. Charging availability becomes an operating constraint rather than a driver convenience.",
+        "The investment lands with EV sales cooled in the United States after the federal tax credit expired, leaving charging network buildout more dependent on commercial fleets than on private buyers.",
+        "For drivers on the platform the practical effect is more accessible fast charging, which has been one of the biggest barriers to switching."
+      ],
+      "sources": [
+        ["InsideEVs", "https://insideevs.com/news/787672/uber-investment-ev-charging-robotaxis/"]
+      ]
+    }
+  ]
 }

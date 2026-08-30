@@ -1,434 +1,446 @@
 {
  "mood": {
   "h3": "Sfeer vandaag",
-  "p": "Zondag verloopt wisselvallig met buien die over het land trekken, vooral langs de kust, en tussendoor zonnige perioden bij 20 tot 21 graden aan zee en rond 23 graden in het oosten. Daarmee sluit een opvallend warme en droge augustusmaand af, volgens Weeronline de op zeven na warmste ooit in De Bilt gemeten. De stemming in het land is gemengd: de steekpartij op Amsterdam Centraal en de verloren WK-hockeyfinale drukken op het weekend, terwijl Den Haag zich opmaakt voor de laatste ronde begrotingsonderhandelingen voor Prinsjesdag."
+  "p": "De laatste dag van de meteorologische zomer voelt eerder als herfst. Het is sterk wisselvallig met maar af en toe zon, verspreide buien en kans op onweer, kleine hagel en windstoten tot 75 kilometer per uur. Vooral in het noordwesten kan lokaal veel neerslag vallen, tot zo'n 60 millimeter, bij een maximum van ongeveer 20 graden en een matige tot krachtige zuidwestenwind. Politiek is de spanning minstens zo groot: de coalitie onderhandelde de hele nacht door over de begroting zonder akkoord, terwijl Amsterdam bijkomt van de steekpartij op Centraal en in Groningen een hoogspanningsstation nog dagen zal branden."
  },
  "global": [
   {
    "hero": true,
    "sub": "Conflicts & Security",
-   "h3": "Russian drone hits Ukrainian arms depot, killing 37 near Kyiv",
-   "summary": "A Russian drone strike on an ammunition warehouse in the village of Myla set off hours of explosions, killing at least 37 people in the deadliest attack in the Kyiv region this year.",
+   "h3": "US strikes Iranian launchers on Larak Island",
+   "summary": "American forces hit Revolutionary Guard positions on Larak Island, the first US attack on Iranian targets in weeks.",
    "body": [
-    "A Russian drone attack late on Friday hit an ammunition warehouse at Myla, west of Kyiv, triggering a large fire and waves of secondary detonations that lasted for hours in a residential area. President Volodymyr Zelenskyy said at least 37 people were killed, dozens were wounded and hundreds were evacuated.",
-    "Nearby buildings including homes and a facility for elderly people and people with disabilities suffered heavy damage. Zelenskyy said he would pursue accountability for suspected negligence in how the munitions were stored, noting this was the second such incident in two months after a strike on a warehouse at Vyshneve killed seven people."
+    "US forces struck Iranian rocket launchers on Larak Island near the Strait of Hormuz, ending a lull of several weeks in direct attacks. Washington said Revolutionary Guard units had been observed preparing to fire rockets carrying sea mines into the shipping lane.",
+    "The strait remains the flashpoint of the wider conflict. Iran has claimed control over the waterway and roughly 400 vessels with about 6,000 crew are still stuck inside the Persian Gulf, according to the International Maritime Organization.",
+    "The disruption is feeding through to fuel markets and has pushed pump prices higher in the United States, adding domestic political pressure to an already volatile military standoff."
    ],
    "sources": [
     [
-     "CNN",
-     "https://edition.cnn.com/2026/08/29/europe/ukraine-kyiv-russia-war-attack-intl"
-    ],
-    [
-     "NPR",
-     "https://www.npr.org/2026/08/29/nx-s1-5948714/russian-strike-kyiv"
+     "The Guardian",
+     "https://www.theguardian.com/world/2026/aug/30/us-strikes-iranian-launchers-on-larak-island-amid-strait-of-hormuz-tensions"
     ],
     [
      "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/8/29/russian-attack-on-warehouse-near-ukraines-kyiv-kills-at-least-27"
+     "https://www.aljazeera.com/news/2026/8/30/us-strikes-irans-lark-island-in-first-attack-in-weeks"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Conflicts & Security",
-   "h3": "Ukraine downs 233 drones as air raid alerts run into third day",
-   "summary": "Ukrainian air defences reported shooting down or suppressing 233 Russian drones overnight, while Kyiv said its own units struck Russian military and logistics targets.",
+   "h3": "400 ships still trapped in the Persian Gulf",
+   "summary": "Roughly 6,000 crew remain stranded aboard vessels unable to leave the Gulf as Iran asserts control over the Strait of Hormuz.",
    "body": [
-    "Ukraine's military said air defences destroyed or jammed 233 Russian drones across northern, southern, eastern and central regions overnight into 29 August. Drones continued to target Kyiv and its surroundings into the morning, extending an unusually long stretch of rolling air raid alerts.",
-    "Ukraine's General Staff said its forces struck Russian drone sites and command posts in occupied territory during the same night. Several locations in Russia's Rostov region were also reported as targets, along with a logistics warehouse."
+    "The International Maritime Organization says around 400 ships are still unable to transit the Strait of Hormuz, leaving about 6,000 seafarers stuck on board. Iran has publicly claimed control over the waterway.",
+    "The blockade has become one of the most consequential economic effects of the conflict, choking a route that normally carries a large share of the world's seaborne crude and refined products.",
+    "Shipowners face mounting insurance costs and crews are facing extended stays at sea with no clear timetable for release."
    ],
    "sources": [
     [
-     "Kyiv Independent",
-     "https://kyivindependent.com/ukraine-says-it-downed-more-than-200-drones-as-rare-days-long-air-raid-alerts-stretch-into-third-morning/"
-    ],
-    [
-     "NPR",
-     "https://www.npr.org/2026/08/29/nx-s1-5948714/russian-strike-kyiv"
+     "NOS",
+     "https://nos.nl/artikel/2628772-nog-400-schepen-vast-in-perzische-golf-iran-claimt-controle-over-straat-van-hormuz"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Conflicts & Security",
-   "h3": "Niger junta says army mutiny in Niamey has been contained",
-   "summary": "Gunfire and explosions rocked the Nigerien capital overnight as soldiers moved against the ruling junta, in the first serious internal challenge since the 2023 coup.",
+   "h3": "37 dead in Russian airstrike on Ukraine",
+   "summary": "At least 37 people were killed and dozens injured when a Russian strike triggered a large secondary explosion.",
    "body": [
-    "Sustained gunfire and blasts were heard overnight into Saturday around Niamey's main airport, which houses the Base 101 military facility, and in the Plateau district where the presidential palace and key state institutions sit. State broadcaster RTN later said the situation was under control.",
-    "Authorities said mutinous soldiers had detained some of their colleagues at a military base and fired on sites in the capital. State media reported that dozens of the rebelling soldiers were arrested or killed."
+    "Ukrainian authorities reported at least 37 dead and dozens wounded after a Russian air attack on a building that appears to have contained explosives. The secondary blast greatly amplified the damage.",
+    "The strike came during a renewed round of long range exchanges. Ukraine is reported to have hit an oil refinery deep inside Russia while Russian drones targeted Kyiv.",
+    "Casualty figures were still being revised as rescue teams worked through the debris."
+   ],
+   "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628754-grote-explosie-na-russische-luchtaanval-zeker-37-doden-gemeld"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "IAEA reports drone attacks near Zaporizhzhia plant",
+   "summary": "The UN nuclear watchdog says drones struck close to Europe's largest nuclear power station and urged both sides to hold back.",
+   "body": [
+    "The International Atomic Energy Agency confirmed drone attacks in the immediate area of the Zaporizhzhia nuclear plant. Agency chief Rafael Grossi called on Russia and Ukraine to exercise restraint around the site.",
+    "The plant has repeatedly been caught in the fighting since the start of the war and inspectors have warned that repeated strikes near cooling and power infrastructure raise the risk of a serious incident.",
+    "No radiological release was reported."
+   ],
+   "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628672-atoomagentschap-vn-meldt-drone-aanvallen-bij-kerncentrale-zaporizja"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Mutinying soldiers spark explosions in Niger capital",
+   "summary": "Fighting broke out around Niamey including near the international airport as mutinous troops moved against the government.",
+   "body": [
+    "Explosions and gunfire were reported across Niamey as mutinying soldiers clashed with loyalist forces. Some of the fighting took place near the city's international airport.",
+    "Niger has been under military rule since the 2023 coup and the latest unrest points to fractures within the security apparatus that installed the current leadership.",
+    "The situation remained unclear with communications disrupted and no immediate confirmation of who controls key installations."
+   ],
+   "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628804-muitende-militairen-in-niger-explosies-gehoord-bij-hoofdstad"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Israeli settlers attack West Bank village",
+   "summary": "Palestinians were injured when settlers raided a West Bank village, and an NBC News crew was reportedly assaulted in a separate incident.",
+   "body": [
+    "Israeli settlers attacked a village in the occupied West Bank, wounding Palestinians before the army removed them from a house and the surrounding area. Vehicles used in the raid were seized and troops remained nearby.",
+    "In a separate reported incident, a Palestinian woman and an NBC News team were attacked while working in the territory.",
+    "Settler violence has climbed sharply over the past two years and rights groups say prosecutions remain rare."
+   ],
+   "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628835-palestijnen-gewond-bij-aanval-israelische-kolonisten-op-dorp-westoever"
+    ],
+    [
+     "The Guardian",
+     "https://www.theguardian.com/world/2026/aug/29/nbc-news-team-attacked-west-bank"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Israeli strike kills 3-year-old child in Gaza",
+   "summary": "A young child was killed in an Israeli strike in Gaza as aid groups renewed calls for accountability over earlier attacks.",
+   "body": [
+    "Al Jazeera reported that a 3-year-old child was killed in an Israeli strike in Gaza, one of a continuing series of casualties among the youngest of the territory's population.",
+    "Separately, chef Jose Andres renewed his call for a full investigation into the killing of World Central Kitchen staff in Gaza, saying the case remains unresolved.",
+    "Humanitarian access into the territory remains heavily constrained."
    ],
    "sources": [
     [
      "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/8/29/gunfire-blasts-heard-in-several-areas-of-niger-capital-niamey"
+     "https://www.aljazeera.com/video/newsfeed/2026/8/30/israeli-strike-kills-3-year-old-child-in-gaza"
     ],
     [
-     "Bloomberg",
-     "https://www.bloomberg.com/news/articles/2026-08-29/niger-rulers-say-army-mutiny-contained-after-gunfire-in-capital"
+     "Al Jazeera",
+     "https://www.aljazeera.com/video/newsfeed/2026/8/30/jose-andres-renews-call-for-investigation-into-wck-gaza-staff-killings"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Conflicts & Security",
-   "h3": "Iran says it holds Hormuz and is in no hurry to reopen it",
-   "summary": "Tehran insisted the Strait of Hormuz remains closed six months into the war with the United States and Israel, while US Central Command disputed Iran's claim of control.",
+   "h3": "Zambia opposition leader charged with treason",
+   "summary": "Brian Mundubile and his running mate Makebi Zulu have been charged with treason ahead of a contested political season.",
    "body": [
-    "Iran's deputy foreign minister Kazem Gharibabadi said the Strait of Hormuz remains shut and that Tehran is in no rush to reopen it. The Islamic Revolutionary Guard Corps said it maintains firm control of the waterway and accused US officials of misleading statements aimed at moving energy prices.",
-    "US Central Command, which is enforcing a blockade of Iranian ports, rejected that account and said Iran does not control the strait. President Masoud Pezeshkian said Iranian exports have fallen by close to 35 percent under sanctions and the naval blockade."
+    "Zambian opposition leader Brian Mundubile and his running mate Makebi Zulu were charged with treason, a capital offence under Zambian law.",
+    "The charges land in the middle of an increasingly tense political period and opposition figures argue the case is designed to remove a credible challenger from the field.",
+    "Prosecutors have not made the full evidentiary basis public."
    ],
    "sources": [
     [
      "Al Jazeera",
-     "https://www.aljazeera.com/news/liveblog/2026/8/30/iran-war-live-iran-pledges-to-stand-firm-against-unjust-us-sanctions"
-    ],
-    [
-     "CNBC",
-     "https://www.cnbc.com/2026/08/24/us-iran-war-trump-hormuz-bessent-economic-sanctions-.html"
+     "https://www.aljazeera.com/video/newsfeed/2026/8/30/zambia-opposition-leader-brian-mundubile-charged-with-treason"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Conflicts & Security",
-   "h3": "Settlers seize Palestinian home in Qusra as West Bank violence spreads",
-   "summary": "Dozens of Israeli settlers took over a house in the West Bank village of Qusra with the family still inside, one of several attacks that wounded at least five Palestinians.",
+   "h3": "US pushes 18-nation anti-cartel military coalition",
+   "summary": "Washington wants a coalition with 18 Latin American countries to run joint military operations against drug cartels.",
    "body": [
-    "Extremist settlers attacked Qusra, southeast of Nablus, on Saturday and occupied a Palestinian home while the family was inside. The military was called to remove them. A Palestinian woman was injured and taken to hospital, one of at least five Palestinians hurt in settler attacks across the West Bank that day.",
-    "No arrests appeared to have been made by late Saturday, and residents said Israeli troops fired tear gas at Palestinians. Qusra has faced a wave of settler attacks in recent weeks, including a prolonged siege on several homes."
+    "The United States is proposing an anti-cartel coalition bringing together 18 Latin American countries for coordinated military operations against trafficking networks.",
+    "The plan represents a significant escalation of the militarised approach to narcotics and raises sovereignty questions for participating governments.",
+    "Details on command structures, rules of engagement and funding have not been released."
    ],
    "sources": [
     [
-     "The Times of Israel",
-     "https://www.timesofisrael.com/liveblog-august-29-2026/"
-    ],
-    [
-     "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/8/29/israeli-settlers-surround-palestinian-home-in-occupied-west-banks-qusra"
-    ],
-    [
-     "The Times of Israel",
-     "https://www.timesofisrael.com/breaking-silence-netanyahu-decries-criminal-violence-after-settlers-again-raid-besieged-village"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "Gaza truce frays as Israeli strike kills Hamas commander",
-   "summary": "Israel said it killed a Hamas commander in Deir al-Balah, days after the US envoy running the ceasefire effort warned the deal is close to a point of no return.",
-   "body": [
-    "The Israeli military said it struck and killed a Hamas commander who was hiding next to Shuhada al-Aqsa Hospital in the Deir al-Balah area, arguing the operatives were preparing attacks and rebuilding Hamas capabilities in breach of the ceasefire. Several people were wounded in a separate Israeli air strike in central Gaza on Sunday.",
-    "Gaza's health ministry says at least 1,313 Palestinians have been killed since the truce took effect in October, even as the heaviest fighting has subsided."
-   ],
-   "sources": [
-    [
-     "The Times of Israel",
-     "https://www.timesofisrael.com/liveblog-august-29-2026/"
-    ],
-    [
-     "NPR",
-     "https://www.npr.org/2026/08/27/g-s1-140400/israel-gaza-ceasefire"
-    ],
-    [
-     "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/8/26/israel-hamas-truce-failure-point-of-no-return-envoy-warns"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "US, South Korea and Japan confirm Freedom Edge drill off Jeju",
-   "summary": "Seoul said the trilateral Freedom Edge exercise will begin on 7 September for five days, a day after Pyongyang vowed to retaliate against what it called US hostility.",
-   "body": [
-    "South Korea's military said the three countries will press ahead with Freedom Edge in waters off Jeju Island, starting 7 September and running for five days. The announcement followed a North Korean threat to retaliate over US actions.",
-    "Launched in 2024, Freedom Edge combines simultaneous air and naval drills covering ballistic missile defence, anti submarine warfare and surveillance. Pyongyang has previously called it a reckless show of strength."
-   ],
-   "sources": [
-    [
-     "NPR",
-     "https://www.npr.org/2026/08/28/g-s1-140849/us-south-korea-japan-drill-north-korea"
-    ],
-    [
-     "US News",
-     "https://www.usnews.com/news/world/articles/2026-08-27/us-south-korea-and-japan-to-hold-trilateral-drill-as-north-korea-ramps-up-pressure-on-us"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "Russia test fires Yars intercontinental missile from Plesetsk",
-   "summary": "Moscow's defence ministry said a mobile Yars ICBM launched from Plesetsk delivered its warheads to the Kura range in Kamchatka, days after the CIA chief visited Russia.",
-   "body": [
-    "The Russian Ministry of Defence said the nuclear capable Yars missile was fired from the Plesetsk test site and that all warheads reached the Kura range in Kamchatka. The stated purpose was to confirm the flight and technical characteristics of the system.",
-    "Footage released by the ministry showed the launch taking place from a shelter, with the missile brought to the site from a remote deployment base. The previous Yars launch was in May 2026 during a strategic forces exercise."
-   ],
-   "sources": [
-    [
-     "The Moscow Times",
-     "https://www.themoscowtimes.com/2026/08/28/russian-military-conducts-mobile-icbm-test-a93601"
-    ],
-    [
-     "Kyiv Post",
-     "https://www.kyivpost.com/post/83349"
-    ],
-    [
-     "Russian Strategic Nuclear Forces",
-     "https://russianforces.org/blog/2026/08/launch_of_mobile_yars_missile_.shtml"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "Israel strikes multiple sites across southern Lebanon",
-   "summary": "Israeli aircraft, artillery and a drone hit several locations in the Nabatieh district on Saturday, extending a sharp escalation in strikes on south Lebanon.",
-   "body": [
-    "A Lebanese military source said Israeli aircraft struck al-Deir and Ali al Taher Hill, artillery shelled Haris and Haddatha, and a drone fired on Nabih Berri Avenue in Nabatieh city. A large explosion was reported in the south following the strikes.",
-    "The bombardment follows a wave of Israeli attacks on 15 August that Lebanon said killed 11 people including several children."
-   ],
-   "sources": [
-    [
-     "Eastern Herald",
-     "https://easternherald.com/2026/08/29/israel-strikes-southern-lebanon-nabatieh-haris/"
-    ],
-    [
-     "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/8/27/israeli-strike-kills-newlywed-woman-in-south-lebanon-wounds-others"
+     "NOS",
+     "https://nos.nl/artikel/2628880-vs-wil-met-een-antikartelcoalitie-militaire-operaties-in-latijns-amerika"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Diplomacy & Trade",
-   "h3": "CIA chief floated Trump, Putin and Zelenskyy summit in Moscow",
-   "summary": "John Ratcliffe proposed a three way leaders meeting during a secret trip to Moscow this week, according to sources briefed on the talks.",
+   "h3": "Iceland votes 52.8% against reopening EU talks",
+   "summary": "Icelanders narrowly rejected restarting accession negotiations with the European Union after a bitter campaign.",
    "body": [
-    "Ratcliffe travelled clandestinely to Moscow on Tuesday and met Sergei Naryshkin, head of Russia's Foreign Intelligence Service, and FSB Director Alexander Bortnikov. One aim was to test whether Russian intelligence chiefs could push Vladimir Putin toward resuming US mediated talks with Ukraine.",
-    "During the meetings Ratcliffe delivered a pessimistic assessment of how the fighting is going for Russian forces and concluded that Bortnikov could be a constructive player in reviving diplomacy."
+    "Iceland voted against resuming European Union accession talks, with 52.8 percent opposed and 47.2 percent in favour according to public broadcaster RUV. Turnout and regional splits shaped a very tight result.",
+    "The sitting government had pushed to restart the process it froze years ago, arguing that geopolitical instability made closer European integration more attractive.",
+    "The outcome closes off the accession route for the current parliamentary term and hands a win to the fisheries and sovereignty campaigners who dominated the no side."
    ],
    "sources": [
     [
-     "Axios",
-     "https://www.axios.com/2026/08/29/cia-director-ratcliffe-putin-zelensky-summit-war"
+     "The Guardian",
+     "https://www.theguardian.com/world/2026/aug/30/iceland-eu-accession-talks-referendum-result"
     ],
     [
-     "Ukrainska Pravda",
-     "https://www.pravda.com.ua/eng/news/2026/08/30/8050987/"
+     "NOS",
+     "https://nos.nl/artikel/2628870-ijslanders-stemmen-tegen-hervatting-eu-onderhandelingen"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Diplomacy & Trade",
-   "h3": "Trump announces US control of 65 billion barrels of Venezuelan oil",
-   "summary": "Washington said it secured majority control of a joint venture holding a 100 year concession over Venezuelan fields containing more than 65 billion barrels of reserves.",
+   "h3": "Rival Libyan factions agree elections within two years",
+   "summary": "A deal signed at the UN mission in Tripoli commits Libya's competing power centres to national elections inside two years.",
    "body": [
-    "Trump announced on Friday evening that the United States had struck a deal giving it majority control of more than 65 billion barrels of proven Venezuelan reserves, calling it the biggest oil deal in world history and saying it came at no cost to US taxpayers.",
-    "Interim Venezuelan president Delcy Rodriguez granted a private joint venture a 100 year concession over the fields. The US government will hold 55 percent of the venture, split between equity and the right to buy oil at cost. Rodriguez called the agreement a historic milestone and projected more than 100 billion dollars in investment."
+    "Libya's rival factions signed an agreement at the United Nations mission in Tripoli committing to hold national elections within two years. An initial draft was produced by a UN backed committee meeting in Tunis on 20 August.",
+    "Libya has not held a successful national vote since the postponed 2021 presidential election and remains split between rival administrations in the west and east.",
+    "Previous timetables have slipped repeatedly, so implementation rather than signature will determine whether this round is different."
    ],
    "sources": [
     [
-     "CNBC",
-     "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html"
-    ],
-    [
-     "NPR",
-     "https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves"
-    ],
-    [
-     "CNN",
-     "https://www.cnn.com/2026/08/28/politics/trump-venezuela-oil-deal"
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/8/30/rival-libya-factions-sign-deal-to-hold-national-elections-within-two-years"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Diplomacy & Trade",
-   "h3": "Canada answers Lake Ontario renaming with a giant lakeside sign",
-   "summary": "Ottawa installed a large sign reading Lake Ontario now and always after Trump signed an order renaming the lake Lake America amid a deepening trade war.",
+   "h3": "Syria reopens its embassy in Libya",
+   "summary": "Damascus is restoring diplomatic representation in Tripoli after talks between the two foreign ministries.",
    "body": [
-    "Trump signed an executive order renaming Lake Ontario as Lake America, effective immediately, after trade talks with Canada collapsed. The US Geological Survey has already applied the change across official documents, with printed material to follow over the coming days.",
-    "Prime Minister Mark Carney said Canada will not adopt the new name and gave a short history lesson, noting the name is more than 400 years old and comes from the Wendat word Ontari'io, meaning the lake is beautiful and big. Canada's own geographic names database still lists Lake Ontario."
+    "Syria will reopen its embassy in Libya following talks in Tripoli between Syria's interim foreign minister Asaad Shaibani and Libyan counterpart Taher al-Baour.",
+    "The move is part of a broader push by Syria's post-Assad leadership to rebuild diplomatic ties across the Arab world and normalise its international position.",
+    "Officials framed the reopening as the start of a new phase in relations between the two states."
    ],
    "sources": [
     [
-     "CNN",
-     "https://www.cnn.com/2026/08/27/politics/trump-rename-lake-america"
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/8/30/opening-a-new-chapter-syria-to-reopen-embassy-in-libya-after-talks"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Turkiye, Saudi Arabia and Pakistan to meet in Istanbul",
+   "summary": "Foreign and defence ministers plus military chiefs from the three states gather for the first time since signing the Mecca pact.",
+   "body": [
+    "Senior officials from Turkiye, Saudi Arabia and Pakistan will meet in Istanbul, their first joint gathering since the three signed the Mecca pact. Foreign ministers, defence ministers and military chiefs are all expected.",
+    "The alignment links a NATO member, the Gulf's largest economy and a nuclear armed South Asian state, and is being watched closely by regional rivals.",
+    "The agenda is expected to cover defence coordination and the wider fallout from the conflict with Iran."
+   ],
+   "sources": [
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/8/30/top-officials-from-turkiye-saudi-arabia-pakistan-to-meet-in-istanbul"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Venezuela defends oil deal handing US 65bn barrels",
+   "summary": "Delcy Rodriguez says the agreement with Trump brings endless benefits as critics call it a giveaway of national resources.",
+   "body": [
+    "Venezuelan vice president Delcy Rodriguez publicly defended the oil agreement struck with Donald Trump, describing the benefits for Venezuela as endless. Trump has said the United States gains control over more than 65 billion barrels of Venezuelan reserves.",
+    "Trump is under domestic pressure over petrol prices that have risen sharply since the war with Iran began, and the deal is being sold at home as a supply fix.",
+    "The Venezuelan opposition has objected strongly to reports that Washington sought a large stake in the country's oil and gas sector."
+   ],
+   "sources": [
+    [
+     "The Guardian",
+     "https://www.theguardian.com/world/2026/aug/30/venezuela-delcy-rodriguez-says-oil-deal-with-trump-has-endless-benefits"
+    ],
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628729-trump-vs-krijgt-controle-over-65-miljard-vaten-venezolaanse-olie"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Canada erects giant Lake Ontario sign in Trump spat",
+   "summary": "Ontario's premier unveiled a defiant sign after Trump ordered the lake renamed Lake America and Google Maps followed suit.",
+   "body": [
+    "Ontario premier Doug Ford unveiled a large sign reading Lake Ontario, Now and Always at a conservation area near Grimsby, a direct answer to Trump's executive order renaming the lake as Lake America. Trump then posted video of himself kicking over a Lake Ontario sign.",
+    "Google Maps has adopted the new name for United States users while keeping Lake Ontario for Canadian users, saying it follows the naming decision of the relevant US government agency.",
+    "The row is the latest flashpoint in a deteriorating relationship between Washington and Ottawa."
+   ],
+   "sources": [
+    [
+     "The Guardian",
+     "https://www.theguardian.com/us-news/2026/aug/30/canada-trump-lake-ontario-name"
     ],
     [
      "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/8/28/can-trump-really-rename-lake-ontario-lake-america"
-    ],
-    [
-     "The Globe and Mail",
-     "https://www.theglobeandmail.com/canada/article-trump-executive-order-lake-ontario/"
+     "https://www.aljazeera.com/news/2026/8/30/google-maps-renames-lake-ontario-after-trumps-decree-on-lake-america"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Diplomacy & Trade",
-   "h3": "Khamenei urges Gulf rulers to identify their real enemy",
-   "summary": "Iran's supreme leader Mojtaba Khamenei used a written message for Islamic Unity Week to call on Muslim states, especially Gulf governments, to close ranks.",
+   "h3": "Pacific Islands Forum in turmoil as leaders pull out",
+   "summary": "Several heads of government withdrew from the 55th leaders meeting in Palau, throwing the summit into disarray.",
    "body": [
-    "The message, published on Khamenei's Telegram account to mark Islamic Unity Week and the birthday of the Prophet Muhammad, urged rulers of Islamic countries and particularly those in West Asia and the Gulf to identify their real enemy, understand its plan and confront it.",
-    "Khamenei argued that anyone who sows division among Muslims, knowingly or not, serves the enemies of Islam. He accused the United States and Israel of exploiting racial, cultural, social, political and geographical differences to weaken the Muslim world."
+    "The 55th Pacific Islands Forum Leaders Meeting in Palau was thrown into confusion after several leaders pulled out, undercutting the region's main political gathering.",
+    "The forum has been strained by competition between the United States, Australia and China for influence across the Pacific, and by disputes over membership and agenda setting.",
+    "Delegates had already arrived in Koror when the withdrawals became clear."
    ],
    "sources": [
     [
-     "Haaretz",
-     "https://www.haaretz.com/middle-east-news/iran/2026-08-30/ty-article/irans-khamenei-urges-gulf-rulers-in-written-message-to-confront-real-enemy/000001a0-51e9-d826-a5e4-5de930490000"
-    ],
-    [
-     "NBC News",
-     "https://www.nbcnews.com/world/iran/irans-mojtaba-khamenei-urges-gulf-rulers-message-rcna595092"
+     "The Guardian",
+     "https://www.theguardian.com/world/2026/aug/30/pacific-islands-forum-meeting-in-turmoil-after-several-leaders-pull-out-of-palau-summit"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Diplomacy & Trade",
-   "h3": "Norway's King Harald V dies at 89, son becomes King Haakon VIII",
-   "summary": "Europe's oldest reigning monarch died in Oslo after 35 years on the throne and was immediately succeeded by his son.",
+   "h3": "Fed chair signals rate rises are back on the table",
+   "summary": "The US central bank chief voiced concern about inflation while keeping options open on the next policy move.",
    "body": [
-    "King Harald V died on 28 August at Oslo University Hospital Rikshospitalet at the age of 89. He had been in hospital since 17 August. His son succeeded him at once as King Haakon VIII.",
-    "Harald became king on 17 January 1991 at the age of 53 after the death of his father Olav V. As a child he went into exile in the United States during the Nazi occupation of Norway, and he was widely credited with modernising the monarchy."
+    "The chair of the US Federal Reserve expressed concern about the inflation outlook and declined to rule out interest rate increases in the coming months.",
+    "Energy costs driven by the Gulf conflict are the main new pressure, feeding into transport and production prices across the economy.",
+    "Markets had been positioned for a steady or easing path, so the shift in tone matters for borrowing costs well beyond the United States."
    ],
    "sources": [
     [
-     "NPR",
-     "https://www.npr.org/2026/08/28/nx-s1-5947778/norways-king-harald-v-dies-king-haakon-viii"
-    ],
-    [
-     "CNN",
-     "https://www.cnn.com/2026/08/28/europe/king-of-norway-harald-v-oldest-monarch-dead-intl"
-    ],
-    [
-     "The Washington Post",
-     "https://www.washingtonpost.com/obituaries/2026/08/28/norway-king-harald-dies/"
+     "NOS",
+     "https://nos.nl/artikel/2628666-voorzitter-amerikaanse-centrale-bank-bezorgd-over-inflatie-maar-houdt-opties-open"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Diplomacy & Trade",
-   "h3": "Gandalf protesters target Peter Thiel's influence in Argentina",
-   "summary": "Demonstrators in wizard costumes have marched on the billionaire's Buenos Aires mansion over his energy investment and Palantir's reach in the country.",
+   "h3": "Spain asks Frontex for help with migrants in Ceuta",
+   "summary": "Thousands of migrants remain in the Spanish enclave a month after tens of thousands stormed the border.",
    "body": [
-    "Protesters calling themselves Ciudadan@s Gandalf gathered outside Thiel's home in the wealthy Palermo Chico district carrying a banner reading you shall not pass. The costume theme plays on Palantir, the data company Thiel co-founded, which takes its name from Tolkien's seeing stones.",
-    "According to Argentine outlet Infocielo, the group objected to Thiel's 76 million dollar investment in Vista Energy, an oil producer operating in northern Patagonia. Palantir holds government contracts for predictive policing, border control and military intelligence in several countries, raising civil liberties concerns in Argentina."
+    "Spain has requested assistance from the European border agency Frontex to manage the situation in Ceuta. Thousands of people remain in the North African enclave without legal status after last month's mass crossing.",
+    "The July surge saw tens of thousands attempt to enter at once, overwhelming local reception capacity in a territory of limited size.",
+    "The request pulls the European Union directly into a situation Madrid has so far handled largely on its own."
    ],
    "sources": [
     [
-     "NZ Herald",
-     "https://www.nzherald.co.nz/world/buenos-aires-gandalf-protesters-target-peter-thiel-over-vista-energy-investment/2YYMY4QYRNFQ3L4T7543P74AJ4/"
-    ],
-    [
-     "UPI",
-     "https://www.upi.com/Top_News/World-News/2026/08/19/latam-argentina-peter-thiel-gandalf-protest/2571787164162/"
+     "NOS",
+     "https://nos.nl/artikel/2628716-spanje-vraagt-europese-grenswacht-frontex-om-hulp-met-migranten-in-ceuta"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Humanitarian & Climate",
-   "h3": "Nepal and Tibet flood toll passes 750 with over 3,000 missing",
-   "summary": "Four days after flash floods tore through the Trishuli valley and the China border zone, the confirmed death toll has climbed sharply and thousands remain unaccounted for.",
+   "h3": "804 dead and 3,000 missing in Nepal-Tibet floods",
+   "summary": "The confirmed toll from the Himalayan glacier collapse keeps climbing as rescuers race to free workers trapped in a tunnel.",
    "body": [
-    "Flash floods and mudslides struck on the morning of 26 August along a 72 kilometre stretch of the Trishuli River, hitting settlements across Nepal's Rasuwa, Nuwakot, Dhading, Gorkha, Tanahun, Nawalparasi and Chitwan districts. The Gyirong Port complex on the China and Nepal border, the main gateway for trade and tourism between the two countries, was destroyed.",
-    "Confirmed deaths across Nepal and the Tibet region reached 750, with Nepal's disaster agency reporting 734 dead and Chinese authorities confirming at least 16 in Tibet. More than 3,000 people are still missing, including at least 2,498 in Nepal of whom 589 are foreign nationals, and 546 in Tibet including at least 261 foreigners."
+    "The death toll from the flash floods triggered by a Himalayan glacier collapse has reached 804, with 788 bodies recovered in Nepal and 16 in Tibet. More than 3,000 people are still missing across the disaster zone.",
+    "Rescue teams are working to reach workers trapped in a flooded tunnel at the Trishuli 3A hydropower project in Rasuwa district, while fresh flooding alerts have been issued on both sides of the border. The Red Cross estimates at least 93,000 people are in great need.",
+    "Foreign nationals are among the missing, including 261 people unaccounted for on the Chinese side, and mass burials have begun in Chitwan district as morgues fill."
    ],
    "sources": [
     [
-     "CNN",
-     "https://www.cnn.com/2026/08/29/world/live-news/nepal-china-flood"
+     "The Guardian",
+     "https://www.theguardian.com/world/2026/aug/30/nepal-tibet-floods-china-search-rescue-operations-looking-for-survivors"
     ],
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628893-waarschuwingen-voor-nieuwe-overstromingen-nepal-dodental-gestegen-tot-804"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Ferry captain arrested after 8 die off northern Cyprus",
+   "summary": "A passenger vessel capsized shortly after leaving Girne, killing at least eight people with 18 still missing.",
+   "body": [
+    "A ferry capsized off the coast of northern Cyprus shortly after departing the port of Girne, killing at least eight people. An estimated 237 passengers were rescued and 18 remained missing.",
+    "The captain and crew have been arrested. A witness on board said crew members fled the vessel before passengers had been brought to safety.",
+    "The cause of the capsizing has not been established."
+   ],
+   "sources": [
+    [
+     "The Guardian",
+     "https://www.theguardian.com/world/2026/aug/30/ferry-capsizes-northern-cyprus"
+    ],
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628996-bemanning-van-bij-cyprus-gezonken-veerboot-gearresteerd"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Sudan war refugees face dire conditions in El Obeid",
+   "summary": "Civilians fleeing the civil war are arriving daily at a shockingly overcrowded refuge city with collapsing services.",
+   "body": [
+    "Aid workers describe conditions in El Obeid and the camps on its outskirts as dire and deteriorating, with traumatised civilians arriving every day from the front lines of Sudan's civil war.",
+    "The city has become a primary refuge point but shelter, water and medical capacity are far below what the caseload requires.",
+    "Sudan's conflict remains one of the largest displacement crises in the world and continues to receive a fraction of the funding requested by relief agencies."
+   ],
+   "sources": [
+    [
+     "The Guardian",
+     "https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refuge-civilians-sudan-el-obeid"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "UN says 200,000 forced back into gang-ruled Haiti",
+   "summary": "Deportations to Haiti keep rising even as the UN records more than 1,400 killings in a single quarter.",
+   "body": [
+    "The United Nations says 200,000 people have been forcibly returned to Haiti, a country where armed gangs control large parts of the territory. Deportation numbers have continued to rise.",
+    "Between April and June 2026 alone the UN registered 1,408 deaths and 656 injuries linked to the violence.",
+    "Returnees are being sent into areas where state authority is minimal and humanitarian access is severely restricted."
+   ],
+   "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628743-vn-200-000-mensen-gedwongen-terug-naar-haiti-waar-bendes-heersen"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Floodwaters sweep away lorry in the Philippines",
+   "summary": "Video from the Philippines shows a heavy goods vehicle carried off by raging floodwater during severe seasonal flooding.",
+   "body": [
+    "Footage circulating from the Philippines shows a lorry being swept away by fast moving floodwater, a stark illustration of the force of the current flooding.",
+    "The country is in the middle of its wet season and repeated storm systems have overwhelmed drainage and river defences in several provinces.",
+    "Authorities have been issuing evacuation advisories in the worst affected areas."
+   ],
+   "sources": [
     [
      "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/8/27/nepal-tibet-floods-what-happened-what-caused-them-and-who-is-missing"
-    ],
-    [
-     "NPR",
-     "https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-floods"
+     "https://www.aljazeera.com/video/newsfeed/2026/8/30/video-raging-floodwaters-sweep-away-lorry-in-the-philippines"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Humanitarian & Climate",
-   "h3": "Families hunt for pilgrims lost in the Nepal Tibet floods",
-   "summary": "Hundreds of foreign nationals travelling to Mount Kailash are among the missing, including 33 Britons, as relatives press governments for information.",
+   "h3": "Storms leave trail of destruction across northern Italy",
+   "summary": "Dozens were injured in Cremona and tens of thousands of vehicles were damaged by severe weather.",
    "body": [
-    "Many of those swept away were pilgrims heading through Nepal to Mount Kailash, a Hindu holy site in China's Tibet region. Nepal's tourism board said 33 British citizens are among the missing, and a Hindu priest is among them.",
-    "Indians make up the largest group of foreigners unaccounted for, followed by Australians, Americans, Britons, Canadians, Malaysians, South Koreans and Japanese. At one stage rescuers were searching for nearly 1,500 people including more than 700 foreigners."
+    "Violent storms tore through northern Italy, injuring dozens of people in Cremona and damaging tens of thousands of cars along with homes and other buildings.",
+    "Hail and high winds accounted for most of the vehicle damage, and insurers face a large claims volume across the affected provinces.",
+    "The event adds to a summer of destructive convective storms across the Po valley."
    ],
    "sources": [
     [
-     "US News",
-     "https://www.usnews.com/news/world/articles/2026-08-27/families-seek-news-of-pilgrims-missing-in-deadly-nepal-tibet-floods"
-    ],
-    [
-     "CNN",
-     "https://www.cnn.com/2026/08/26/world/live-news/nepal-flash-flooding-floods-intl"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Humanitarian & Climate",
-   "h3": "Around 6,000 seafarers still trapped in the Gulf after six months",
-   "summary": "The UN maritime agency says roughly 400 ships and their crews remain stuck inside the Persian Gulf, unable to transit a Strait of Hormuz largely closed by the war.",
-   "body": [
-    "IMO Secretary General Arsenio Dominguez said about 6,000 seafarers aboard some 400 vessels are still stranded six months after the conflict between the United States, Israel and Iran began. That is down from an estimated 20,000 seafarers on 2,000 ships at the peak.",
-    "The IMO has verified at least 70 attacks on international shipping since the war started, and says 19 seafarers have been killed. The crews come mainly from India and the Philippines, with others from Bangladesh, Pakistan, Syria and Ukraine."
-   ],
-   "sources": [
-    [
-     "Qatar Tribune",
-     "https://www.qatar-tribune.com/article/251023/latest-news/6000-sailors-stranded-in-strait-of-hormuz-due-to-us-iranian-conflict-imo"
-    ],
-    [
-     "Marine Insight",
-     "https://www.marineinsight.com/6000-seafarers-and-400-ships-remain-trapped-amid-six-months-of-strait-of-hormuz-uncertainty/"
-    ],
-    [
-     "The Week",
-     "https://theweek.com/world-news/life-on-ships-stranded-in-the-persian-gulf"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Humanitarian & Climate",
-   "h3": "Spain asks Frontex for help with 5,000 migrants stuck in Ceuta",
-   "summary": "Madrid requested EU border agency support to process migrants still in the enclave a month after a record mass crossing, as local protests turn violent.",
-   "body": [
-    "Spain asked the European Border and Coast Guard Agency for help processing around 5,000 migrants who remain in Ceuta a month after crossing from Morocco. Spanish authorities said 69,500 migrants had already been returned to Morocco and described those returns as voluntary.",
-    "More than 70,000 people crossed into the North African territory without authorisation at the end of July in the largest mass migration Ceuta has seen. At least 72 died attempting the journey."
-   ],
-   "sources": [
-    [
-     "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/8/28/spain-asks-eu-for-help-to-process-5000-ceuta-migrants-amid-local-unrest"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Humanitarian & Climate",
-   "h3": "UN warns Gaza hunger will worsen despite record aid deliveries",
-   "summary": "Aid agencies reached more than 600,000 people with food in August, but the IPC projects 1.4 million Gazans in crisis level hunger or worse by December.",
-   "body": [
-    "UN partners distributed food parcels and wheat flour to more than 600,000 people during the August cycle, collecting hundreds of pallets of supplies from the Kerem Shalom crossing including fruit, vegetables, adult diapers, school supplies and fuel.",
-    "Food security had improved after the October 2025 ceasefire opened up access and reduced the intensity of fighting. That progress is now judged fragile."
-   ],
-   "sources": [
-    [
-     "UN News",
-     "https://news.un.org/en/story/2026/08/1168220"
+     "NOS",
+     "https://nos.nl/artikel/2628803-noodweer-laat-spoor-van-verwoesting-achter-in-noord-italie"
     ]
    ]
   }
@@ -437,13 +449,18 @@
   {
    "hero": true,
    "sub": "Politics & Policy",
-   "h3": "Coalition resumes budget talks without a Kamer majority",
-   "summary": "D66, VVD and CDA return to the table on Sunday to finish a budget that still has no majority behind it, with the Council of State deadline on Tuesday.",
+   "h3": "Coalition still has no budget deal as deadline bites",
+   "summary": "Talks at the finance ministry ran through the night with no agreement, days before the Prinsjesdag deadline.",
    "body": [
-    "The three coalition parties D66, VVD and CDA picked up their budget negotiations again on Sunday, with parts of the package still to be written up. Talks ran on until early Friday evening.",
-    "After roughly two weeks of discussions with opposition parties, the minority cabinet has to settle on a budget among themselves first. Prime Minister Rob Jetten said on Friday that there is still time to negotiate with the opposition before the deadline."
+    "Coalition parties spent a full day negotiating at the ministry of finance without reaching a budget agreement, and talks continued overnight. The minority cabinet has to settle its internal differences after weeks of separate conversations with opposition parties.",
+    "The government lacks a majority and needs opposition votes to get its plans through parliament. D66, VVD and CDA are reported to disagree over what to concede to Pro on social security cuts.",
+    "The Prinsjesdag deadline leaves very little room to manoeuvre, and a failure to land a package would turn a budget dispute into a political crisis."
    ],
    "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2629016-coalitie-heeft-nog-geen-begrotingsakkoord-onderhandelingen-gaan-vannacht-door"
+    ],
     [
      "NL Times",
      "https://nltimes.nl/2026/08/30/coalition-parties-resume-budget-negotiations-amid-lack-majority-support"
@@ -453,161 +470,224 @@
   {
    "hero": false,
    "sub": "Politics & Policy",
-   "h3": "Minister apologises for abuse in closed youth care",
-   "summary": "Long-Term Care Minister Mirjam Sterk apologised to victims of abuse in closed youth institutions and pledged to end the practice. Care bodies call it only a first step.",
+   "h3": "Klaver warns coalition it is manufacturing a crisis",
+   "summary": "The Pro leader says the planned social security cuts must go and accuses D66, VVD and CDA of driving toward breakdown.",
    "body": [
-    "Speaking at the Akoesticum in Ede on Saturday, Minister of Long-Term Care Mirjam Sterk of the CDA apologised to people who suffered physical, mental and in some cases sexual abuse in closed youth care institutions. She said the state had failed to offer a safe place and good care, and described a strict and oppressive living environment in which many experienced violence.",
-    "The case centres on the lack of adequate compensation for victims, in particular within the very intensive short-term observation and stabilisation units known as ZIKOS. Former residents describe degrading treatment, being restrained and long periods of isolation."
+    "Pro leader Jesse Klaver told D66, VVD and CDA that they are turning the budget standoff into a crisis and insisted his party must be listened to. He wants the planned cuts to social security withdrawn entirely.",
+    "Coalition parties are still weighing which opposition partner to build a majority with as the deadline approaches, and Pro's votes are one of the few available routes.",
+    "The dispute is as much about who gets credit and blame in the run up to the Senate elections as it is about the numbers."
    ],
    "sources": [
     [
-     "NL Times",
-     "https://nltimes.nl/2026/08/30/mental-health-sector-apology-abuse-closed-youth-care-just-beginning"
+     "NOS",
+     "https://nos.nl/artikel/2628664-klaver-waarschuwt-d66-vvd-en-cda-jullie-maken-er-een-crisis-van"
     ],
     [
      "NL Times",
-     "https://nltimes.nl/2026/08/29/dutch-minister-sterk-apologizes-victims-abuse-closed-youth-institutions"
+     "https://nltimes.nl/2026/08/30/coalition-parties-continue-weighing-opposition-partners-deadline-approaches"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Politics & Policy",
-   "h3": "Wind turbines must stand twice as far from homes as blade tips",
-   "summary": "The government set a fixed setback rule for wind turbines. Sector body NedZero says it will take more turbines to generate the same power.",
+   "h3": "AIVD and MIVD get broader powers, oversight trimmed",
+   "summary": "New rules let the intelligence services act faster without prior approval, citing threats from Russia, China and Iran.",
    "body": [
-    "The government has ruled that wind turbines must be sited at a distance from homes equal to twice the height of their blade tips. Wind energy trade association NedZero says the effect is that more turbines will be needed to produce the same amount of electricity.",
-    "NedZero argues a fixed national standard makes little sense because every location differs. Chairman Jan Vos said turbines can be installed in many places without causing nuisance and urged the cabinet to set out grounds for exemption quickly."
+    "The cabinet is expanding the powers of the AIVD and MIVD, allowing the services to intervene more easily without prior authorisation. Ministers point to intelligence threats from Russia, China and Iran as the justification.",
+    "The oversight body will continue to review activity, but experts warn that scaling back prior checks weakens the safeguards that made the Dutch system defensible.",
+    "Critics accept the law needed updating while arguing that modernisation does not require reducing supervision."
+   ],
+   "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628638-meer-bevoegdheden-veiligheidsdiensten-vanwege-rusland-china-en-iran"
+    ],
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/08/dutch-spy-agencies-to-get-more-powers-against-foreign-enemies/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Cabinet apologises to 20,000 closed youth care survivors",
+   "summary": "The state, municipalities and the sector jointly apologised for abuse in closed youth care and freed up 12 million euros.",
+   "body": [
+    "The cabinet, municipalities and the youth care sector issued a joint apology to more than 20,000 young people who were held in closed youth care institutions. A budget of 12 million euros has been set aside for recovery activities.",
+    "Mental health organisations say the apology is only a starting point and that the structural issues that produced the abuse have not been resolved.",
+    "Survivors have campaigned for years for recognition, compensation and an end to isolation practices in the sector."
+   ],
+   "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628786-excuses-van-kabinet-aan-ruim-20-000-jongeren-die-in-gesloten-jeugdzorg-zaten"
+    ],
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/08/30/mental-health-sector-apology-abuse-closed-youth-care-just-beginning"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Wind turbines must stand twice their blade height from homes",
+   "summary": "A 200 metre turbine will now need to be at least 400 metres from the nearest house under the new national standard.",
+   "body": [
+    "The cabinet has set a national distance rule requiring wind turbines to be positioned at least twice their tip height away from homes. A turbine measuring 200 metres therefore needs 400 metres of clearance.",
+    "The standard ends years of legal uncertainty after courts struck down earlier national norms, but developers say it will shrink the number of viable onshore sites.",
+    "Separately the cabinet is trying to prevent further delays to offshore wind by restoring subsidies and opening talks with firms that took on contracts without them."
    ],
    "sources": [
     [
      "NL Times",
      "https://nltimes.nl/2026/08/30/government-now-requires-wind-turbines-twice-far-away-homes-blade-height"
+    ],
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628667-kabinet-komt-met-afstandsnorm-voor-windmolens"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Politics & Policy",
-   "h3": "The Hague orders Extinction Rebellion off the A12",
-   "summary": "Mayor Jan van Zanen told climate activists to clear the Utrechtsebaan on Saturday. Two people were arrested as a new hard line on motorway blockades takes effect.",
+   "h3": "Cabinet weighs removing ON from the broadcasting system",
+   "summary": "A decision on the far-right broadcaster is due very soon after an item claiming Hitler was right.",
    "body": [
-    "Extinction Rebellion activists walked onto the Utrechtsebaan section of the A12 in The Hague from the off-ramps at around 1pm on Saturday, causing tailbacks for drivers leaving the city. Mayor Jan van Zanen ordered them to clear the road or be removed.",
-    "Two protesters were arrested for refusing to leave, with the arrests coming shortly before police issued the order to vacate, ANP reported. An XR spokesperson told NOS that protesting on a motorway is not forbidden and that any charges would be challenged in court."
+    "Minister Letschert said a decision on whether the far-right broadcaster ON can be removed from the public broadcasting system will come very soon. The cabinet is examining the legal options.",
+    "The row was triggered by a programme item asserting that Hitler was right, and MPs have called for the show to be scrapped.",
+    "Removing a broadcaster from the system would be an exceptional step in a framework designed to protect pluralism."
    ],
    "sources": [
     [
-     "NL Times",
-     "https://nltimes.nl/2026/08/29/hague-mayor-orders-activists-stop-a12-blockade-2-arrested-far"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Politics & Policy",
-   "h3": "Fines agency pulls website offline after data mix-up",
-   "summary": "The CJIB shut down its digital services after a technical fault linked offences to the wrong people and allowed some users to see other individuals' records.",
-   "body": [
-    "The Central Judicial Collection Agency, the body that collects court-ordered payments including traffic fines, said on Saturday it had taken its online system offline after a technical fault linked violations and offences to the wrong individuals.",
-    "People have been unable to log in to the CJIB digital system since Friday, when the problem was first spotted. Users who were already logged in were able to view other people's information before the site was shut down."
-   ],
-   "sources": [
+     "NOS",
+     "https://nos.nl/artikel/2628626-kabinet-onderzoekt-mogelijkheid-on-te-weren-uit-bestel-na-hitler-rel"
+    ],
     [
-     "NL Times",
-     "https://nltimes.nl/2026/08/29/government-agency-taken-offline-technical-issue-linked-fines-wrong-people"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Politics & Policy",
-   "h3": "Police confirm arson attempt at Valkenswaard asylum site",
-   "summary": "Investigators established that someone deliberately tried to set fire to a building approved to house 40 unaccompanied minors in Brabant.",
-   "body": [
-    "Police have confirmed that a fire was deliberately set at a building on the Leenderweg in Valkenswaard, Noord-Brabant, that had been approved as a future reception centre for asylum seekers. Officers had already suspected arson after reports of soot and broken windows. The extent of the damage is not yet clear.",
-    "The Central Agency for the Reception of Asylum Seekers signed off on the plans about a week and a half earlier. The centre is due to house around 40 unaccompanied minors."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/08/29/police-confirm-attempted-arson-future-valkenswaard-asylum-center-40-minors"
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/08/mps-want-to-scrap-far-right-tv-show-over-hitler-was-right-item/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Economy & Housing",
-   "h3": "Rotterdam port strike raises reliability worries",
-   "summary": "Unions FNV and CNV have called a stoppage for 4 September. A port economist says the bigger risk is to Rotterdam's reputation rather than the day itself.",
+   "h3": "TenneT substation fire in Groningen to burn for days",
+   "summary": "Six cellars each holding 140,000 litres of cooling oil are alight at the Meeden high-voltage station and cannot be doused with water.",
    "body": [
-    "FNV and CNV have asked dockworkers in Rotterdam, Amsterdam and Zeeland to stop work from 11.15am to 7pm on Friday 4 September as part of a wider campaign against government social security plans.",
-    "Port economist Bart Kuipers of Erasmus University Rotterdam said the short stoppage is unlikely to cause major immediate damage because it was announced well in advance and disruptions of a few hours are not unusual. His larger concern is reputational, as reliability weighs increasingly heavily when container lines choose ports."
+    "A fire at the TenneT high-voltage substation in Meeden is expected to burn for several more days. The blaze is in six cellars each containing 140,000 litres of cooling oil.",
+    "Firefighters cannot use water because it would spread the burning oil, and the storage cellars are not safely accessible.",
+    "The site is a significant node in the northern grid and the outage risk is being watched closely as the fire continues."
    ],
    "sources": [
     [
+     "NOS",
+     "https://nos.nl/artikel/2629003-brand-hoogspanningsstation-in-groningen-houdt-nog-dagen-aan"
+    ],
+    [
      "NL Times",
-     "https://nltimes.nl/2026/08/29/port-workers-strike-hurt-rotterdam-ports-reputation-among-major-companies"
+     "https://nltimes.nl/2026/08/30/large-fire-tennet-high-voltage-substation-meeden-proving-difficult-contain"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Economy & Housing",
-   "h3": "Drought cuts Dutch harvests by 10 to 30 percent",
-   "summary": "Arable farmers are bringing in far less food than normal after a dry summer, with smaller carrots, onions and potatoes and lighter lettuce heads.",
+   "h3": "Most student rooms are priced above the legal limit",
+   "summary": "A majority of student rooms breach the statutory rent cap while cities hand out almost no fines.",
    "body": [
-    "Farmers are harvesting on average 10 to 30 percent less than normal because of the drought, Andre Hoogendijk of arable sector knowledge centre BO Akkerbouw told Trouw. Carrots, onions and potatoes from the summer crop are smaller, lettuce heads are lighter and some broccoli has grown into unusual shapes.",
-    "Growers who were barred from irrigating in recent months have been hit hardest, Hoogendijk said, especially on the sandy soils of the east and south."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/08/29/dutch-farmers-report-fewer-crops-smaller-carrots-onions-potatoes-drought"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Economy & Housing",
-   "h3": "Beer excise pushes Dutch shoppers across the border",
-   "summary": "Brewers say beer sales in border regions have fallen 4 percent more sharply than elsewhere since the 2024 excise rise, with another increase expected in 2027.",
-   "body": [
-    "More people in the Netherlands are choosing to buy cheaper beer across the border, trade association Nederlandse Brouwers said, citing research by Circana. A crate typically costs a couple of euros less in neighbouring countries.",
-    "Since the excise duty increase in 2024, beer sales in Dutch border regions have dropped 4 percent more sharply than in the rest of the country. The sector says overall Dutch beer sales are falling partly because of the high duty."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/08/29/dutch-buy-beer-abroad-lower-prices-border-regions-affected-study"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Economy & Housing",
-   "h3": "Six in ten student rooms advertised above the legal cap",
-   "summary": "An Argos analysis of 2,637 Kamernet ads found rooms priced an average of 239 euros a month over the maximum, rising above 400 euros in Amsterdam.",
-   "body": [
-    "Investigative programme Argos compared the advertised rent on 2,637 listings on Kamernet, the largest Dutch rental platform, against the legal maximum each room may charge. Six in ten rooms advertised over July and August were priced above the cap, on average 239 euros a month too high.",
-    "In Amsterdam, where the average room costs close to 1,000 euros a month, 97 percent of sampled rooms exceeded the cap by an average of 421 euros. In Utrecht the share was 72 percent."
+    "Research shows the majority of student rooms in the Netherlands are let at rents well above the legal maximum. Enforcement is close to non-existent in several of the biggest student cities.",
+    "Utrecht and Nijmegen issued no fines at all, and Amsterdam declined to share current figures with investigative programme Argos.",
+    "The findings land as students return for the new academic year into a rental market with almost no slack."
    ],
    "sources": [
     [
      "DutchNews.nl",
      "https://www.dutchnews.nl/2026/08/majority-of-student-rooms-priced-well-over-the-legal-limit/"
+    ],
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628611-veel-steden-doen-te-weinig-tegen-te-dure-studentenkamers"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "Dutch chip industry turnover doubles to 46bn euros",
+   "summary": "Semiconductor revenue in the Netherlands has doubled in six years, cementing the sector as a national economic anchor.",
+   "body": [
+    "Turnover in the Dutch semiconductor industry has reached 46 billion euros, double the level of six years ago. The growth reflects sustained global demand for advanced lithography and chip equipment.",
+    "The cluster around Eindhoven and Veldhoven remains the centre of gravity, drawing suppliers, researchers and international staff.",
+    "The sector's weight also increases the country's exposure to export controls and geopolitical friction over chip technology."
+   ],
+   "sources": [
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/08/dutch-chip-industry-turnover-doubles-to-e46bn-in-six-years/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "Drought cuts harvests 10 to 30% but prices cushion farmers",
+   "summary": "Yields are well down after the driest spell in centuries, though higher market prices leave most growers roughly even.",
+   "body": [
+    "Dutch harvests are coming in 10 to 30 percent below normal because of the prolonged drought. Higher prices for the reduced volumes mean the average farmer comes out reasonably well.",
+    "The dry summer has had wider effects on inland shipping, with the Twentekanaal only partially reopening after low water levels closed a lock since late July.",
+    "Conservationists report that the worst drought in 700 years has turned some wetland areas into fish kill zones."
+   ],
+   "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628767-minder-oogst-door-de-droogte-maar-compensatie-door-hogere-prijzen"
+    ],
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/08/worst-drought-in-700-years-turns-wetland-into-graveyard-for-fish/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "900 complaints filed over estate agents and unfair bidding",
+   "summary": "Homeowners association Vereniging Eigen Huis has logged more than 900 reports since reopening its complaints desk.",
+   "body": [
+    "Vereniging Eigen Huis says it has received more than 900 reports since reopening its estate agent complaints desk, pointing to widespread problems with unfair bidding practices in the housing market.",
+    "Buyers describe closed bidding processes, shifting deadlines and offers that appear to be steered toward preferred parties.",
+    "The complaints add to pressure for tighter regulation of the brokerage sector in a market where buyers have almost no leverage."
+   ],
+   "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628595-vereniging-eigen-huis-te-veel-klachten-over-makelaars-en-oneerlijke-huizenverkoop"
+    ],
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/08/home-buyers-file-nearly-1000-complaints-over-unfair-bidding/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Society & Culture",
-   "h3": "Four injured in stabbing at Amsterdam Centraal",
-   "summary": "Emergency services responded at around 7.30pm on Saturday. The suspect was among the injured and was arrested after treatment in hospital.",
+   "h3": "4 injured in Amsterdam Centraal stabbing streamed live",
+   "summary": "The attack at the north side of the station was broadcast on social media, and a suspect has been identified.",
    "body": [
-    "Four people were hurt in a stabbing at Amsterdam Centraal station on Saturday evening, NOS reported. Emergency services were called at around 7.30pm.",
-    "The suspect was among the injured and was arrested by police after first being taken to hospital. One other victim was also hospitalised. Police told NU.nl the severity of the injuries is unclear but that they are at least not life threatening."
+    "Four people were injured in a stabbing at the north side of Amsterdam Centraal station, reported at 19:30. One of the injured is the suspect, who has since been identified and arrested.",
+    "Parts of the incident were livestreamed on social media, which police are now using as evidence.",
+    "Investigators believe a fight preceded the stabbing."
    ],
    "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628894-steekpartij-bij-station-amsterdam-centraal-werd-gelivestreamd-op-sociale-media"
+    ],
     [
      "NL Times",
      "https://nltimes.nl/2026/08/30/four-stabbed-amsterdam-centraal-train-station-suspect-arrested"
@@ -617,31 +697,12 @@
   {
    "hero": false,
    "sub": "Society & Culture",
-   "h3": "August closes as eighth warmest on the Dutch record",
-   "summary": "De Bilt hit 20C or more on 30 of 31 days. Rainfall came in at 67mm against a normal 88mm, deepening a summer drought.",
+   "h3": "Mass sperm donor says he has fathered 199 children",
+   "summary": "Donor Simon wrote to mothers claiming a far higher total than the 121 children reported this week, with another pregnancy under way.",
    "body": [
-    "Weather service Weeronline reports that this August was the eighth warmest on the Dutch record. Temperatures in De Bilt, where measurements are taken, reached 20C or higher on 30 of the month's 31 days.",
-    "The single exception was 19 August, when the maximum stopped at 19.7C and ended a record run of 64 warm days. On 13 August De Bilt set a date record of 33.1C and Maastricht reached 36.1C, while the following day Westdorpe hit 37.7C."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/08/30/august-eighth-warmest-dutch-record"
-    ],
-    [
-     "Weeronline",
-     "https://www.weeronline.nl/nieuws/28-8-2026-weekend-weer"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Society & Culture",
-   "h3": "Mass sperm donor says he fathered at least 199 children",
-   "summary": "In a letter to parents obtained by Nieuwsuur, the 43-year-old Groningen donor revised his own count sharply upwards from the 121 reported this week.",
-   "body": [
-    "A Dutch mass sperm donor known as Simon wrote in a letter to parents, obtained by Nieuwsuur, that he has fathered at least 199 children rather than the 121 previously reported.",
-    "The 43-year-old set out where the children live: 172 in the Netherlands, 15 in Germany, 11 in Belgium and one in an undisclosed European country. He said one woman is currently pregnant with another child."
+    "Dutch mass sperm donor known as Simon has written to some of the mothers saying he has fathered 199 children, far above the 121 figure that emerged earlier in the week. One woman is currently pregnant.",
+    "UMC Groningen confirmed it had already reprimanded him years ago, raising questions about why the practice was allowed to continue.",
+    "Dutch guidelines cap a donor at a small number of families to limit the risk of unknowing consanguinity, and repeated breaches have exposed the weakness of enforcement."
    ],
    "sources": [
     [
@@ -649,24 +710,63 @@
      "https://nltimes.nl/2026/08/30/dutch-mass-sperm-donor-simon-says-199-children-1-woman-currently-pregnant"
     ],
     [
-     "NOS Nieuwsuur",
-     "https://nos.nl/nieuwsuur/artikel/2628869-massadonor-simon-schrijft-aan-ouders-ik-heb-minstens-199-kinderen-verwekt"
+     "NOS",
+     "https://nos.nl/artikel/2628987-umc-groningen-tikte-massadonor-simon-jaren-geleden-al-op-de-vingers"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Society & Culture",
-   "h3": "Argentina beat Oranje in hockey World Cup final shoot-out",
-   "summary": "The Dutch women missed out on a fourth straight world title after a 1-1 draw at the Wagener Stadium was settled from the spot.",
+   "h3": "August ranks as eighth warmest in Dutch records",
+   "summary": "The month closes as the eighth warmest August ever measured in the Netherlands.",
    "body": [
-    "Argentina denied the Netherlands a fourth consecutive women's hockey World Cup title on Saturday, winning the final on shoot-outs at the Wagener Stadium after the sides finished level at 1-1.",
-    "Yibbi Jansen put Oranje ahead from a penalty corner shortly before half time. Argentina pushed hard after the break and earned eight penalty corners in total before Maria Granatto levelled in the fourth quarter."
+    "This August will go into the books as the eighth warmest on the Dutch record, capping a summer marked by heat and an exceptional drought.",
+    "The warmth followed a season in which swimming spots and open water saw heavy use well into the late summer.",
+    "The meteorological summer ends on 31 August with a distinctly autumnal day of showers and wind."
    ],
    "sources": [
     [
      "NL Times",
-     "https://nltimes.nl/2026/08/29/dutch-womens-hockey-team-lose-world-cup-final-argentina-shoot"
+     "https://nltimes.nl/2026/08/30/august-eighth-warmest-dutch-record"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "Halsema says city liveability is buckling under strain",
+   "summary": "Amsterdam's mayor says homelessness and drug use in the big cities now require major intervention from The Hague.",
+   "body": [
+    "Amsterdam mayor Femke Halsema warned that liveability in the big Dutch cities is under severe pressure from homelessness and drug use. She said the problems are gradually overwhelming municipal capacity.",
+    "Halsema argued that major measures from central government are needed to bring the nuisance down, framing it as beyond what individual cities can solve.",
+    "Her comments arrive as the cabinet is locked in budget talks with limited room for new spending commitments."
+   ],
+   "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2628973-halsema-leefbaarheid-in-steden-onder-druk-door-dakloosheid-en-drugsgebruik"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "Dutch men's eight wins second straight rowing world title",
+   "summary": "The Holland Acht defended its world championship crown with a crew including Finn Florijn and Ralf Rienks.",
+   "body": [
+    "The Dutch men's eight won the world championship title for the second year running. The crew included Ralf Rienks, Finn Florijn, Wibout Rustenburg, Jorn Salverda, Sander de Graaf, Pieter van Veen, Jan van der Bij and Mick Makker with cox Jonna de Vries.",
+    "The result confirms the boat as the benchmark in the event heading toward the next Olympic cycle.",
+    "It was a mixed sporting weekend for the Netherlands, with the women's hockey team losing the World Cup final to Argentina on a shoot-out."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/08/30/dutch-eight-mens-rowing-team-win-second-row-world-championship-title"
+    ],
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/08/dutch-women-lose-hockey-world-cup-final-to-argentina/"
     ]
    ]
   }
