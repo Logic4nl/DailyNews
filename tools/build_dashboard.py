@@ -132,7 +132,7 @@ def yf_data(tickers):
     try:
         import yfinance as yf
         data = yf.download(tickers, period="1y", interval="1d", group_by="ticker",
-                           progress=False, threads=True)
+                           progress=False, threads=False)
     except Exception:
         return {t: {} for t in tickers}
     for t in tickers:
