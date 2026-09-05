@@ -1,458 +1,338 @@
 {
  "mood": {
   "h3": "Sfeer vandaag",
-  "p": "Zaterdag 5 september brengt een afwisseling van stapelwolken en zon, met in de noordelijke helft van het land misschien een enkele bui. Door een westenwind is het iets frisser dan vrijdag, met maxima tussen 20 en 22 graden, terwijl de code geel voor harde windstoten aan de kust is opgeheven. Zondag en maandag draait de wind naar het zuiden en wordt het zomers warm, met 27 tot 28 graden en in het zuiden mogelijk zelfs 30. De stemming in het land is dit weekend gemengd: de schok van het geweld in Overasselt werkt nog na, nu 32 verdachten vastzitten en minister Van Weel benadrukt dat Nederland geen narcostaat is. In Den Haag maakt het kabinet-Jetten zich op voor Prinsjesdag op 15 september, terwijl een peiling van Ipsos I&O laat zien dat nog maar 18 procent van de kiezers tevreden is. Havenwerkers legden vrijdag het werk neer en woensdag dreigt een landelijke ov-staking, dus veel Nederlanders plannen hun week met een schuin oog op de nieuwsapp. Het nazomerweer nodigt intussen uit tot een laatste strandbezoek of terrasje."
+  "p": "Zondag 6 september wordt een echte nazomerdag. Na een frisse nacht van 7 tot 11 graden voert een zuidoostenwind warme lucht aan en loopt het kwik op naar 21 graden in het noorden tot 24 in het zuiden, met zon, wolkenvelden en vrijwel overal droog weer. Maandag wordt het 23 tot 27 graden, maar dinsdag draait de wind naar het westen en woensdag, de dag van de landelijke ov-staking, is het wisselvallig met buien en zo'n 16 graden. De stemming in het land is gemengd. Ipsos I&O meet een record van 70 procent ontevreden kiezers over het kabinet-Jetten, negen dagen voor Prinsjesdag. Het geweld in Overasselt en de twee doden bij een bedrijfsongeval in Zwaag drukken op het gemoed, terwijl families van vermiste Nederlanders in Nepal nog wachten op nieuws. Voetbalfans hadden zaterdagavond wel iets te vieren of te betreuren: PSV won de topper in Amsterdam met 3-1 van Ajax. Voor velen is dit het weekend voor een laatste terrasje voordat de herfst zich meldt."
  },
  "global": [
   {
    "hero": true,
    "sub": "Conflicts & Security",
-   "h3": "Trump calls Iran war 'small potatoes' as US and Iran trade Hormuz strikes",
-   "summary": "Trump called the Iran war 'small potatoes' on 4 September, a day after Vance stopped short of calling it a war. Eighteen US troops have died as Hormuz strikes continue.",
+   "h3": "US destroys three Iranian tankers after missiles fired at Navy warships",
+   "summary": "CENTCOM said on 5 September it disabled two Iranian crude carriers and destroyed a third after the Revolutionary Guard launched ballistic missiles at a US carrier and destroyer in the Gulf.",
    "body": [
-    "Speaking on Friday 4 September, President Trump described the Iran conflict as a military operation rather than a war, calling it 'small potatoes' and comparing it favourably with Vietnam and Afghanistan. Vice President Vance had said a day earlier that major combat operations lasted only six weeks.",
-    "The war began on 28 February 2026 with joint US-Israeli strikes on Iran. CNN reports 18 US service members have died and hundreds are injured at a cost of more than 37.5 billion dollars, as US strikes resumed near the Strait of Hormuz this week and Iran hit bases in Kuwait and the UAE in retaliation."
+    "US Central Command reported on Saturday 5 September that its forces had permanently disabled the tankers Downy, off Kharg Island, and Stark 1, near Jask, and destroyed the Kylo in the Gulf of Oman. The action came hours after Iran's Revolutionary Guard fired ballistic missiles toward an American aircraft carrier and a guided-missile destroyer, both of which evaded the attacks without casualties.",
+    "CENTCOM commander Admiral Brad Cooper framed the response as a deliberate exchange rate, warning that firing on two US ships would cost Iran three of its own and that Washington would destroy Iran's exposed oil fleet if necessary. Iran's military command replied that its strikes on US vessels would become more severe and could expand. The confrontation over the Strait of Hormuz has continued despite a ceasefire memorandum signed in June."
    ],
    "sources": [
     [
      "CNN",
-     "https://www.cnn.com/2026/09/04/politics/small-potatoes-trump-iran"
+     "https://www.cnn.com/2026/09/05/middleeast/iran-us-tanker-kharg-intl"
     ],
     [
-     "The Guardian",
-     "https://theguardian.com/us-news/live/2026/sep/04/missouri-supreme-court-congressional-district-map-mail-in-voting-us-canada-trade-war-executive-orders-latest-news-updates"
+     "NBC News",
+     "https://www.nbcnews.com/world/iran/us-strikes-3-iranian-oil-tankers-iran-targets-rcna596222"
     ],
     [
-     "USNI News",
-     "https://news.usni.org/2026/09/04/u-s-iran-trade-strikes-in-strait-of-hormuz-as-both-battle-on-social-media"
-    ],
-    [
-     "Reuters",
-     "https://www.reuters.com/world/americas/lutnick-apologizes-saying-no-americans-have-died-iran-war-2026-09-03/"
+     "CNBC",
+     "https://www.cnbc.com/2026/09/05/us-iran-oil-tankers-navy-missile-attack.html"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Conflicts & Security",
-   "h3": "US probes deadly wedding strike in Iran as analysis points to American missile",
-   "summary": "Washington is investigating a 1 September strike on an Iran wedding that killed at least four. Experts told Reuters the damage matched a direct US missile hit.",
+   "h3": "Trump calls Iran conflict 'small potatoes' as Vance says it is not a war",
+   "summary": "The president said on 4 September that the US has essentially taken over Iran, a day after his vice president refused to call the six-month conflict a war.",
    "body": [
-    "A missile hit a wedding in Kuhestak, Hormozgan province, on the night of 1 September. Iran's Red Crescent said four people died, including a four year old boy and a 16 year old, and 67 were injured, though Iranian media later put the toll at five.",
-    "Weapons experts reviewing footage for Reuters and the New York Times said on 3 September the blast likely came from a direct US hit, with fragments resembling a SLAM-ER missile. Vance confirmed the US is investigating, and the Red Crescent asked the ICC to act."
-   ],
-   "sources": [
-    [
-     "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/9/4/things-happen-how-vances-comment-on-iran-wedding-strike-fits-us-pattern"
-    ],
-    [
-     "Reuters",
-     "https://www.reuters.com/world/middle-east/us-probes-iran-wedding-strike-that-analysis-shows-was-likely-direct-hit-by-us-2026-09-03/"
-    ],
-    [
-     "Time",
-     "https://time.com/article/2026/09/04/did-the-u-s-strike-an-iranian-wedding-/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "Iran hits US bases in Kuwait and UAE in retaliation for bombardments",
-   "summary": "Iran said it struck US bases in Kuwait and the UAE on 3 September, calling it retaliation for the Kuhestak strike. Israel warned economic strain could push Iran further.",
-   "body": [
-    "Iran said on 3 September it struck bases used by US forces in Kuwait and the UAE, calling it retaliation for bombardments including the Kuhestak wedding strike. Iranian media also reported six navy personnel killed near the Strait of Hormuz.",
-    "The exchanges mark the worst escalation since June's truce framework, with Iran also claiming strikes on US-linked sites in Bahrain, Jordan and Iraq. Israel's defence minister said Iran's leadership fears economic collapse, which could push Tehran toward reckless action."
-   ],
-   "sources": [
-    [
-     "The Guardian",
-     "https://theguardian.com/world/2026/sep/03/iran-targets-us-bases-as-israel-warns-sanctions-could-drive-tehran-to-desperate-steps"
-    ],
-    [
-     "AP News",
-     "https://apnews.com/article/mideast-iran-hormuz-washington-september-3-2026-6b5f8c2e6153fa199cbdb567acef6806"
-    ],
-    [
-     "Euronews",
-     "https://euronews.com/2026/09/04/iran-hits-us-military-targets-in-the-region-as-washington-probes-deadly-wedding-strike"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "Putin sees chance of Ukraine deal as Belgorod strike kills four",
-   "summary": "Putin said on 3 September a Ukraine deal is possible, with the US and China ready to back a settlement. A Ukrainian strike on Belgorod killed four the same day.",
-   "body": [
-    "Vladimir Putin told reporters on 3 September he saw a chance of an agreement to end the war in Ukraine, saying the United States and China were prepared to support a settlement. He said a Ukrainian warning to civil aviation had complicated matters, Reuters reported.",
-    "Fighting continued regardless. Regional officials said a Ukrainian strike on Belgorod killed four people including two medical workers, while Russia Matters found Russian forces gained about 40 square miles of Ukrainian territory in the four weeks to 1 September."
-   ],
-   "sources": [
-    [
-     "Reuters",
-     "https://www.reuters.com/world/europe/putin-cites-chance-peace-deal-says-ukrainian-aviation-warning-makes-it-harder-2026-09-03/"
-    ],
-    [
-     "Reuters",
-     "https://www.reuters.com/world/four-dead-ukrainian-attack-russias-border-belgorod-region-officials-say-2026-09-03/"
-    ],
-    [
-     "Russia Matters",
-     "https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-sept-2-2026"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "Trump wants Europe to repay US for Ukraine weapons",
-   "summary": "Trump said on 3 September he will ask Europe to repay the US for Ukraine weapons and hinted at pausing arms sales as US stockpiles run low after the Iran war.",
-   "body": [
-    "In a social media post on 3 September, Donald Trump said he would ask European nations to repay the United States for weapons and ammunition sent to Ukraine, and signalled a possible halt to arms sales to allies. Reuters said the administration has not explained how repayment would work.",
-    "The demand follows Trump's complaints that six months of operations against Iran have depleted US munitions stocks. It lands as the EU struggles with its own Russia policy after Slovakia blocked a 12 month extension of the bloc's sanctions this week."
-   ],
-   "sources": [
-    [
-     "Reuters",
-     "https://www.reuters.com/business/aerospace-defense/us-seek-back-payment-europe-ukraine-aid-trump-says-2026-09-03/"
-    ],
-    [
-     "Just Security",
-     "https://www.justsecurity.org/156310/early-edition-september-4-2026/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "Zelensky orders probe into shootout between Ukrainian security agencies",
-   "summary": "Zelensky said on 3 September an investigation is under way after a dispute between two Ukrainian security agencies turned into a shootout.",
-   "body": [
-    "Volodymyr Zelensky said on 3 September that investigators are trying to establish how a dispute between two Ukrainian security agencies escalated into gunfire. The incident has embarrassed Kyiv as it tries to show unity to Western backers.",
-    "Reuters reported the row centres on the nine day disappearance of a Russian nationalist activist fighting for Ukraine, who says the SBU detained him and pressured him into a confession he later withdrew. Zelensky did not name the second agency, and officials promise findings once the inquiry ends."
-   ],
-   "sources": [
-    [
-     "Reuters",
-     "https://www.reuters.com/world/ukraines-zelenskiy-says-investigation-underway-after-clash-between-two-security-2026-09-03/"
-    ],
-    [
-     "Just Security",
-     "https://www.justsecurity.org/156310/early-edition-september-4-2026/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "Israel clears Hezbollah tunnels on Ali al-Taher ridge, frees five Lebanese",
-   "summary": "Israel said on 3 September it cleared Hezbollah fighters from tunnels on Lebanon's Ali al-Taher ridge and will destroy the complex, while freeing five Lebanese detainees.",
-   "body": [
-    "The Israel Defense Forces said on 3 September that troops cleared Hezbollah militants from tunnels inside the Ali al-Taher ridge in southern Lebanon and intend to neutralise the complex. The ridge has been repeatedly struck since Lebanon was drawn into the wider war in March.",
-    "Separately, Netanyahu's office said Israel would free five Lebanese citizens found to have no ties to armed groups. Reuters says 35 Lebanese detainees remain in Israeli custody, including about 20 civilians, as indirect talks continue."
-   ],
-   "sources": [
-    [
-     "New York Times",
-     "https://www.nytimes.com/2026/09/03/world/middleeast/israeli-hezbollah-lebanon.html"
-    ],
-    [
-     "Reuters",
-     "https://www.reuters.com/world/middle-east/israel-release-five-lebanese-detainees-amid-talks-with-lebanon-2026-09-03/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "German police probe fresh sabotage attempts on power grid",
-   "summary": "German police responded on 4 September to two suspected attacks on the power grid, including one in Dormagen with a claim letter, Bild reported.",
-   "body": [
-    "German police reacted on 4 September to two fresh suspected attempts to sabotage the electricity grid, Bild reported. A letter claiming responsibility was received for one attempt in Dormagen, near Cologne, though its authenticity is still being checked.",
-    "The incidents follow a string of attacks on energy and defence sites this year, including a suspected arson attack in Munich on Thursday outside a defence technology firm that led to two arrests. Authorities have repeatedly warned about hybrid threats to critical infrastructure."
-   ],
-   "sources": [
-    [
-     "Reuters",
-     "https://www.reuters.com/business/energy/german-police-react-new-sabotage-attempts-power-grids-bild-reports-2026-09-04/"
-    ],
-    [
-     "Reuters",
-     "https://www.reuters.com/world/german-police-probe-arson-attack-defence-tech-firm-munich-2026-09-03/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "Syria begins destroying Assad-era chemical weapons remnants",
-   "summary": "A Syrian envoy and a UN representative confirmed on 3 September that Damascus has begun destroying chemical weapons material recovered in May from the former regime.",
-   "body": [
-    "Syria has begun destroying remnants of the chemical weapons programme built under Bashar al-Assad, a Syrian envoy and a UN representative confirmed on 3 September. The material was recovered in May after new authorities gained access to previously hidden sites.",
-    "The destruction is being carried out with international oversight, and Reuters says the process will take time given the volume and condition of the recovered stocks. Western governments have made verified disarmament a condition for further sanctions relief and reconstruction support."
-   ],
-   "sources": [
-    [
-     "Reuters",
-     "https://www.reuters.com/world/syria-begins-destroying-assad-era-chemical-weapons-2026-09-03/"
-    ],
-    [
-     "Just Security",
-     "https://www.justsecurity.org/156310/early-edition-september-4-2026/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "US rejects Israeli calls to remove Palestinians from Gaza",
-   "summary": "The State Department told Al Jazeera on 4 September that Washington opposes any forced displacement from Gaza, after Israel's Katz said emigration was the only solution.",
-   "body": [
-    "The US State Department said on 4 September it opposes forced displacement, expulsion or transfer of Gaza's population, citing Point 12 of Trump's peace plan. This followed Israeli Defence Minister Katz saying Israel was ready to move Palestinians out by sea, air or other means.",
-    "National Security Minister Ben-Gvir echoed the call a day later. The October 2025 ceasefire remains formally in place, but Israeli strikes killed at least three people in Gaza on Thursday, and Arab governments have rejected any relocation scheme."
-   ],
-   "sources": [
-    [
-     "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/9/4/us-rejects-israeli-suggestions-of-removing-palestinians-from-gaza"
-    ],
-    [
-     "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/9/3/israel-kills-3-in-gaza-as-far-right-minister-plans-for-palestinian-removals"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "Slovakia blocks 12-month extension of EU sanctions on Russia",
-   "summary": "Slovakia was the lone holdout on 2 September as EU governments tried to extend the bloc's individual sanctions on Russia to a full year, diplomats told Politico.",
-   "body": [
-    "The Slovak government rejected a proposal on 2 September to extend the EU's individual sanctions package on Russia to 12 months instead of the usual six, three diplomats told Politico. Slovakia was the only member state to object.",
-    "The longer renewal was meant to shield sanctions from repeated veto threats and any shift in US policy, but without unanimity listings will keep coming up for renewal every six months. Robert Fico's government has repeatedly used sanctions rounds to extract energy concessions."
-   ],
-   "sources": [
-    [
-     "Politico Europe",
-     "https://www.politico.eu/article/slovakia-rejects-eu-plan-lock-in-russia-sanctions-12-months/"
-    ],
-    [
-     "Just Security",
-     "https://www.justsecurity.org/156310/early-edition-september-4-2026/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "Milei threatens sanctions on oil firms drilling off the Falklands",
-   "summary": "Milei said on 3 September Argentina will sanction oil firms drilling near the Falklands. London replied that islanders have the right to their own resources.",
-   "body": [
-    "Javier Milei said on 3 September that Argentina would sanction oil companies drilling in waters around the Falkland Islands, which Buenos Aires calls the Malvinas and claims as its own. He called the exploration plans of two firms a pressing threat and promised a tougher defence posture.",
-    "Downing Street responded on 4 September that the Falkland Islanders' right of self-determination extends to their natural resources, the BBC reported. Analysts told Reuters the move plays to domestic nationalism ahead of a difficult economic period for Argentina."
-   ],
-   "sources": [
-    [
-     "Reuters",
-     "https://www.reuters.com/world/americas/milei-vows-tougher-sanctions-defense-push-over-falklands-oil-drilling-2026-09-04/"
-    ],
-    [
-     "BBC News",
-     "https://www.bbc.co.uk/news/articles/clyk18g1l8ko"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "Philippine court orders arrest of Vice President Sara Duterte",
-   "summary": "A Quezon City court issued a warrant on 4 September for Vice President Sara Duterte over her 2025 remark about arranging a hitman to kill President Marcos.",
-   "body": [
-    "The Quezon City court issued an arrest warrant on 4 September for VP Sara Duterte on three counts of grave threats, lawyer Paul Lawrence Lim said, with bail set at 120,000 pesos per count. The case stems from a November 2025 press conference where Duterte said she told an assassin to kill President Marcos and First Lady Liza Araneta Marcos if she were killed.",
-    "She later said the comment was not literal. Lim said Duterte disputes the court's jurisdiction but will not evade the law, deepening the feud between the Marcos and Duterte families."
-   ],
-   "sources": [
-    [
-     "Reuters",
-     "https://www.reuters.com/world/asia-pacific/philippine-court-issues-warrant-vp-dutertes-arrest-in-grave-threats-case-2026-09-04/"
-    ],
-    [
-     "Philstar",
-     "https://www.philstar.com/headlines/2026/09/04/2554030/warrant-out-sara-duterte-facing-arrest-grave-threats-case"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "Pacific leaders voice concern over China missile test, Nauru dissents",
-   "summary": "Pacific Island leaders issued a statement on 3 September on China's July missile test over the region, with Nauru formally dissenting.",
-   "body": [
-    "Leaders at the Pacific Islands Forum summit adopted a statement on 3 September expressing concern about China's intercontinental ballistic missile test in July, which passed over several island nations without adequate notice. Nauru, one of Beijing's closest regional partners, formally dissented.",
-    "China's Foreign Ministry said the country remains committed to peaceful development and called the test routine. Reuters said the disagreement shows how Beijing, Washington and Canberra competition is straining the forum's tradition of consensus."
-   ],
-   "sources": [
-    [
-     "Reuters",
-     "https://www.reuters.com/world/china/pacific-summit-backs-concerns-over-china-missile-test-despite-nauru-dissent-2026-09-04/"
-    ],
-    [
-     "Just Security",
-     "https://www.justsecurity.org/156310/early-edition-september-4-2026/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "US sanctions Raul Castro's grandson and five Cuban companies",
-   "summary": "The State Department sanctioned Raul Castro's grandson and five Cuban firms on 3 September, tightening pressure on Havana.",
-   "body": [
-    "The US State Department announced sanctions on 3 September against five Cuban companies and Fidel Ernesto Castro, a grandson of former leader Raul Castro, designated as an adult family member of other sanctioned Castros. The targets include a state bank, two nickel mining firms and two energy companies, Reuters reported.",
-    "The measures freeze any US-linked assets and bar American firms from dealing with them. The move continues the Trump administration's hard line on Havana as Cuba faces severe power shortages and record emigration."
-   ],
-   "sources": [
-    [
-     "Reuters",
-     "https://www.reuters.com/world/americas/us-slaps-new-sanctions-raul-castros-grandson-cuban-companies-2026-09-03/"
-    ],
-    [
-     "Just Security",
-     "https://www.justsecurity.org/156310/early-edition-september-4-2026/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Humanitarian & Climate",
-   "h3": "Nepal flood toll passes 1,250 as thousands remain missing",
-   "summary": "Nepal's flood death toll rose to 1,252 by 3 September, with more than 4,000 still missing. PM Balendra Shah says focus is shifting to rehabilitation.",
-   "body": [
-    "Nepal's disaster authority said 1,252 bodies had been recovered as of 3 September from floods that hit Rasuwa, Nuwakot and Dhading a week earlier, up from 1,114, with 4,216 still missing. More than 84,000 people are affected, while China reported 16 deaths and about 546 missing in Tibet.",
-    "More than 21,000 Nepali soldiers and police have deployed and the government released about 6.5 million dollars for reconstruction, with 48 bridges damaged. The US is tracking 75 unaccounted Americans, and three Dutch nationals remain missing."
+    "Speaking at the White House on Friday 4 September, President Trump dismissed the Iran conflict as small potatoes and said it did not matter whether it was labelled a war or a military conflict. He backed Vice President JD Vance, who told reporters on Thursday that major combat operations had lasted only six weeks and that there was no active shooting at the moment.",
+    "The Pentagon's casualty database now lists 767 US troops wounded since strikes began on 28 February, up from 758 on 28 August. Iran's foreign ministry spokesman Esmaeil Baqaei accused Washington of deliberately hitting civilian targets including schools, hospitals and a wedding, an incident Vance said was being investigated while he expressed scepticism about Iranian claims."
    ],
    "sources": [
     [
      "ABC News",
-     "https://abcnews.com/International/nepal-tibet-flood-death-toll-tops-1100-tens/story?id=136136947"
+     "https://abcnews.com/International/live-updates/iran-live-updates-centcom-targeted-iranian-forces-posed/?id=136080582"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Putin orders 72-hour pause on Kyiv strikes as US envoys land in Moscow",
+   "summary": "The Kremlin announced a three-day halt to attacks on Kyiv from midnight Saturday, hours after Russian missiles and about 167 drones hit the city's two airports.",
+   "body": [
+    "Steve Witkoff and Jared Kushner arrived at Moscow's Vnukovo airport on Saturday 5 September, met by Kremlin negotiator Kirill Dmitriev, carrying what President Trump has called a fresh concrete proposal to end the war. Shortly afterwards the Kremlin said Vladimir Putin had ordered a 72-hour pause in strikes on Kyiv, tied to the envoys' planned visit to the Ukrainian capital on Sunday.",
+    "The pause followed one of the heaviest nights in months. A Russian drone struck the headquarters of Ukraine's Security Service in central Kyiv on Friday afternoon, the first hit on that building in the war, and an overnight barrage targeted Boryspil and Zhuliany airports, killing at least seven people nationwide. Zelensky called the airport strikes deliberate and had earlier offered a reciprocal halt to Ukrainian long-range strikes for the duration of the visit."
+   ],
+   "sources": [
+    [
+     "ABC News / AP",
+     "https://abcnews.com/International/wireStory/us-envoys-witkoff-kushner-moscow-new-push-peace-136222187"
+    ],
+    [
+     "Time",
+     "https://time.com/article/2026/09/05/putin-pauses-strikes-kyiv-trump-envoys-visit-russia-ukraine/"
+    ],
+    [
+     "Kyiv Post",
+     "https://www.kyivpost.com/post/83804"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Zelensky approves retaliation plans and promises to pick the moment",
+   "summary": "Ukraine's president said on 4 September he had signed off on SBU and military proposals to answer Russian strikes on cities, while Trump blamed stalled talks on personal animosity.",
+   "body": [
+    "In his evening address on Friday 4 September, Volodymyr Zelensky said he had approved proposals from the Security Service and the Armed Forces for responses to Russia's continuing attacks on Ukrainian cities, adding that Kyiv would choose its own time to act. The statement came as a Russian strike set fire to the roof of a nine-storey apartment block in Boryspil, 29 kilometres east of Kyiv, injuring two women.",
+    "At a White House press conference the same day, President Trump confirmed that Witkoff and Kushner would visit both Moscow and Kyiv and attributed the diplomatic stalemate to bad blood between Zelensky and Putin. Ukraine's General Staff put Russian losses at 1,495,050 troops since February 2022, including 1,260 in the past day."
+   ],
+   "sources": [
+    [
+     "Kyiv Post",
+     "https://www.kyivpost.com/post/83801"
+    ],
+    [
+     "Kyiv Post",
+     "https://www.kyivpost.com/post/83797"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Ukraine anti-graft agencies raid Prosecutor General's office",
+   "summary": "NABU and SAPO searched premises linked to a deputy prosecutor general and the Odesa governor on 4 September, targeting an alleged criminal organisation inside the prosecution service.",
+   "body": [
+    "Ukraine's National Anti-Corruption Bureau and the Specialised Anti-Corruption Prosecutor's Office launched a large operation at the Prosecutor General's Office on Friday 4 September. The agencies said they were investigating an alleged criminal organisation headed by an official of the office, with searches reported at addresses tied to a deputy prosecutor general and to the governor of Odesa Oblast.",
+    "The Prosecutor General's Office denied that Ruslan Kravchenko himself had been searched. The raids land at a sensitive moment, with US envoys due in Kyiv on Sunday and Western partners watching Ukraine's handling of corruption cases as a condition for continued support and EU accession progress."
+   ],
+   "sources": [
+    [
+     "Kyiv Post",
+     "https://www.kyivpost.com/post/83800"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Memorial chief warns Russia will jail more people after September vote",
+   "summary": "Elena Zhemkova told AFP in Amsterdam that repression could intensify sharply after Russia's legislative elections, with more detainees sent to fight in Ukraine.",
+   "body": [
+    "The executive director of Memorial, the Nobel Peace Prize-winning rights group outlawed in Russia, said she fears a new crackdown once the September Duma elections are out of the way. Speaking to AFP in Amsterdam, where she now lives in exile, Zhemkova said more people were likely to be arrested and pushed to the front in Ukraine.",
+    "Memorial was liquidated by Russian courts in late 2021 and later declared illegal, but Zhemkova said the organisation would keep documenting political prisoners from abroad. Her warning comes as the Kremlin negotiates with US envoys while simultaneously escalating air attacks on Ukrainian cities."
+   ],
+   "sources": [
+    [
+     "Kyiv Post / AFP",
+     "https://www.kyivpost.com/post/83802"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "AfD on the brink of a first far-right state win in Saxony-Anhalt",
+   "summary": "Voters in the eastern German state go to the polls on Sunday 6 September with the AfD polling around 40 to 42 percent, roughly double the governing CDU.",
+   "body": [
+    "Saxony-Anhalt elects a new state parliament on Sunday with Alternative fuer Deutschland projected at 41 to 42 percent by Infratest dimap, far ahead of Chancellor Friedrich Merz's CDU at about 23 percent. The AfD's 35-year-old lead candidate Ulrich Siegmund has built a TikTok following close to the size of the state's electorate, while CDU incumbent Sven Schulze has only held the minister-presidency since January.",
+    "Every mainstream party maintains a firewall against governing with the AfD, so even a clear plurality would not hand Siegmund power outright and could instead leave the state unable to form a government. Berlin and Mecklenburg-Vorpommern vote in two weeks with the AfD leading or close to leading in both, making Sunday's result a template the party hopes to repeat."
+   ],
+   "sources": [
+    [
+     "CNN",
+     "https://www.cnn.com/2026/09/05/europe/germany-state-election-afd-trump-russia-intl"
     ],
     [
      "Al Jazeera",
-     "https://www.aljazeera.com/news/liveblog/2026/9/1/nepal-tibet-floods-live-rescue-efforts-under-way-death-toll-crosses-1000"
-    ],
-    [
-     "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/three-dutch-nationals-remain-missing-after-deadly-nepal-floods/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Humanitarian & Climate",
-   "h3": "France counts 7,000 excess deaths from summer heatwaves",
-   "summary": "French Health Minister Rist said on 4 September that about 7,000 excess deaths were recorded during this summer's heatwaves, a day after Belgium reported roughly 3,000.",
-   "body": [
-    "France recorded about 7,000 excess deaths during this summer's heatwaves, Health Minister Stephanie Rist said on 4 September, one of the highest figures since the 2003 heatwave that killed some 15,000 people. Belgium announced on Thursday roughly 3,000 excess deaths from summer heat.",
-    "Both governments said the elderly and people with chronic illness accounted for most deaths. The figures add to evidence that repeated heat extremes are now a leading cause of weather-related mortality across Western Europe."
-   ],
-   "sources": [
-    [
-     "Reuters",
-     "https://www.reuters.com/business/environment/france-saw-7000-excess-deaths-during-heatwaves-until-late-july-minister-says-2026-09-04/"
-    ],
-    [
-     "Reuters",
-     "https://www.reuters.com/business/environment/belgium-reports-about-3000-excess-deaths-over-summer-due-heat-2026-09-03/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Humanitarian & Climate",
-   "h3": "Haiti urges UN to renew anti-gang force before December election",
-   "summary": "Haiti's foreign minister asked the UN Security Council on 3 September to renew the anti-gang force's mandate ahead of the country's first election in a decade.",
-   "body": [
-    "Foreign Minister Raina Forbin urged the UN Security Council on 3 September to renew the 12 month mandate of the international force backing Haiti's police against armed gangs, saying stronger support is needed for December's election. Gangs still control large parts of Port-au-Prince and key roads.",
-    "Reuters said council members broadly support renewal but differ on financing. The plea came as the US deported more than 100 people to Haiti on Thursday, the third consecutive weekly flight, despite warnings from rights groups."
-   ],
-   "sources": [
-    [
-     "Reuters",
-     "https://www.reuters.com/world/americas/haiti-urges-un-renew-anti-gang-force-mandate-ahead-planned-election-2026-09-03/"
-    ],
-    [
-     "AP News",
-     "https://apnews.com/article/haiti-us-deported-renan-b2e6e60d016de7b015992477a7e01b8d"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Politics & Society",
-   "h3": "Saxony-Anhalt votes Sunday with AfD poised for first state victory",
-   "summary": "Saxony-Anhalt votes on Sunday 6 September with the AfD polling above 40 percent, raising the prospect of its first state governorship since the war.",
-   "body": [
-    "Saxony-Anhalt holds its state election on 6 September, with the AfD leading polls at around 41.7 percent, projected to win 39 seats ahead of the CDU on 21 and Die Linke on 11. A majority could let it govern alone despite the firewall policy under which other parties refuse to cooperate with it.",
-    "NPR said the party's rise has been fuelled by a strong TikTok presence among younger voters. Tactical voting drives are urging support for smaller parties to keep the AfD from power, and the result will be watched in Berlin and Brussels."
-   ],
-   "sources": [
-    [
-     "Brookings",
-     "https://www.brookings.edu/articles/could-the-right-wing-extremist-afd-govern-a-german-state-for-the-first-time/"
-    ],
-    [
-     "PolitPro",
-     "https://politpro.eu/en/saxony-anhalt/election/parliament/2026"
+     "https://www.aljazeera.com/news/2026/9/4/germanys-far-right-eyes-election-breakthrough-as-afd-surges-in-saxony-anhalt"
     ],
     [
      "NPR",
-     "https://www.npr.org/sections/world/"
+     "https://www.npr.org/2026/09/04/nx-s1-5946404/germany-far-right-election"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "Politics & Society",
-   "h3": "Judge extends block on Trump order limiting mail-in voting",
-   "summary": "A federal judge extended her block on Trump's mail voting restrictions on 4 September, a day after the Justice Department asked the Supreme Court to intervene.",
+   "sub": "Diplomacy & Trade",
+   "h3": "Belgrade honours Mladic without state ceremony as EU commissioner stays away",
+   "summary": "A commemoration for the convicted Srebrenica genocide commander was held on 5 September at the Home of the Army of Serbia, while Marta Kos cancelled her Serbia trip.",
    "body": [
-    "A federal judge on 4 September extended her order stopping the US Postal Service from enforcing Trump's executive order limiting mail voting in November's midterms, the AP reported. The ruling keeps the status quo while litigation continues.",
-    "The Justice Department had filed an emergency request on Thursday asking the Supreme Court to lift the block, arguing it conflicts with the court's earlier decision to lift a separate injunction in June. Election officials say they need certainty soon because overseas and military ballots must go out in September."
+    "Ratko Mladic, who died in UN custody in The Hague on 27 August at 84, was commemorated on Saturday 5 September at the Home of the Army of Serbia in central Belgrade, organised by an association of retired generals. President Aleksandar Vucic said there would be no state or military honours and that he would not attend, citing a long-scheduled visit by the president of Uzbekistan. Burial follows on Monday.",
+    "EU enlargement commissioner Marta Kos scrapped a planned Belgrade visit, saying the glorification around Mladic's death is incompatible with the values underpinning Serbia's EU path and calling the funeral an important test. Vucic dismissed the criticism as stupid. UEFA had already fined Red Star Belgrade for fan chants honouring Mladic days earlier."
    ],
    "sources": [
     [
-     "AP News",
-     "https://apnews.com/live/trump-iran-economy-news-updates-09-04-2026"
+     "Euronews",
+     "https://www.euronews.com/2026/09/05/bosnian-serb-war-criminal-mladic-commemorated-in-belgrade-but-no-state-honours"
     ],
     [
-     "Reuters",
-     "https://www.reuters.com/world/trump-administration-takes-mail-in-ballot-fight-us-supreme-court-2026-09-03/"
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/9/5/senior-eu-official-cancels-serbia-trip-over-planned-tribute-to-mladic"
+    ],
+    [
+     "Balkan Insight",
+     "https://balkaninsight.com/2026/09/04/serbias-vucic-slates-eu-condemnation-of-mladic-tributes-as-stupid/btj/"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "Politics & Society",
-   "h3": "Pentagon still labels Anthropic a supply chain risk, contradicting Lutnick",
-   "summary": "Pentagon official Emil Michael said on 3 September Anthropic remains on its risk list, contradicting Commerce Secretary Lutnick's claim a day earlier.",
+   "sub": "Diplomacy & Trade",
+   "h3": "Five EU states, including the Netherlands, push 'return hubs' deal for 2027",
+   "summary": "Germany, Austria, Greece, Denmark and the Netherlands want to send rejected asylum seekers to hubs outside the EU by 2027 but have not named a host country.",
    "body": [
-    "Emil Michael, the Pentagon's top technology official, said on 3 September Anthropic is still a supply chain risk, Axios reported, contradicting Lutnick's claim a day earlier that it was back in good standing. Politico reported Meta's Zuckerberg told Trump in an undisclosed call that a national AI regulator was a flawed idea.",
-    "The mixed messages reflect a wider administration struggle over regulating AI. Separately, the Los Angeles school district said it will heavily restrict student use of AI chatbots, including Google's Gemini, across all grades."
+    "The five governments are working toward a joint agreement to deport migrants who exhaust their asylum claims to processing and removal centres in partner countries outside the European Union. German interior minister Alexander Dobrindt said he aims to sign with a host nation this year, and Denmark's Morten Bodskov expects a common understanding around the new year. The group reconvenes in Munich later in September.",
+    "No candidate host has been publicly identified. The Council of Europe has warned the model carries considerable human rights risks, and the Danish Refugee Council argues hubs will not stop irregular routes such as the Ceuta crossing that Spain is still investigating. For the Dutch cabinet the plan is a chance to show progress on migration ahead of Prinsjesdag."
    ],
    "sources": [
     [
-     "Axios",
-     "https://www.axios.com/2026/09/03/pentagon-reaffirms-anthropic-blacklist"
+     "The Rio Times",
+     "https://www.riotimesonline.com/europe-intelligence-brief-saturday-september-5-2026/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Trump says Europe must repay 'hundreds of billions' in Ukraine aid",
+   "summary": "In a Truth Social post this week the president said Washington would seek reimbursement from European governments for aid sent under Biden, naming no country or mechanism.",
+   "body": [
+    "Donald Trump wrote that the United States would be asking European governments, somewhat belatedly, to repay hundreds of billions of dollars in assistance sent to Ukraine and NATO during the Biden administration. He gave no figure per country and no legal route, but the demand landed in the same week his envoys flew to Moscow to seek a peace deal.",
+    "European capitals have not responded on the record, partly because the request lacks specifics. Estimates of total US aid to Ukraine since 2022 range from Kyiv's count of roughly 100 billion dollars to the far larger and disputed numbers Trump has cited before. Finance ministries describe the mood as fatigue rather than defiance."
+   ],
+   "sources": [
+    [
+     "The Rio Times",
+     "https://www.riotimesonline.com/europe-intelligence-brief-saturday-september-5-2026/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Canada's C$27.6 billion retaliatory tariffs bite on Monday with no talks",
+   "summary": "Ottawa's counter-tariffs on US steel, aluminium and about 700 other products take effect on 8 September, two weeks after negotiations collapsed.",
+   "body": [
+    "Canada's retaliatory package, announced by Prime Minister Mark Carney on 22 August after trade talks with Washington broke down, takes effect on Monday 8 September. It doubles tariffs on American steel and aluminium to 50 percent and adds duties on roughly 700 goods from dairy and appliances to pulp, paper and electronics, matching the 50 percent US levies dollar for dollar.",
+    "Nothing reported this week suggests the negotiations have resumed. Carney complained the American position had softened only in tone, while Commerce Secretary Howard Lutnick accused Ottawa of playing politics. Mexico is watching closely, with the fourth round of USMCA automotive talks opening this month."
+   ],
+   "sources": [
+    [
+     "CNBC",
+     "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html"
     ],
     [
-     "Politico",
-     "https://www.politico.com/news/2026/09/03/mark-zuckerberg-said-a-national-ai-regulator-was-a-flawed-idea-in-a-secret-call-with-president-trump-01063843"
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/8/22/carney-canada-will-enact-retaliatory-us-tariffs-starting-september-8"
     ],
     [
-     "New York Times",
-     "https://www.nytimes.com/2026/09/03/us/lausd-schools-ban-ai-artificial-intelligence.html"
+     "The Rio Times",
+     "https://www.riotimesonline.com/usa-canada-intelligence-brief-saturday-september-5-2026/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Pentagon holds free 35 percent stake in Venezuela oil venture, reports show",
+   "summary": "Details of the 1 September deal granting 100-year rights to 65 billion barrels reveal the Office of Strategic Capital as a no-cost equity partner. Senator Reed called it an abuse of power.",
+   "body": [
+    "The agreement signed by Defense Secretary Pete Hegseth and Secretary of State Marco Rubio on 1 September gives North American Blue Energy Partners, owned by Venezuelan businessman Alejandro Betancourt, century-long rights over 17 fields. Reporting this week showed the Pentagon's Office of Strategic Capital holds 35 percent of the firm at no cost, while the State Department can buy a fifth of output at cost, free of Venezuelan tax, with a veto over board seats.",
+    "Senator Jack Reed, top Democrat on the Armed Services Committee, said the arrangement turns the US military into an investor in Venezuelan oil and abuses taxpayer dollars. Opposition figures around Maria Corina Machado object that an unelected government in Caracas has signed away a resource no future elected one may be able to reclaim."
+   ],
+   "sources": [
+    [
+     "The Rio Times",
+     "https://www.riotimesonline.com/usa-canada-intelligence-brief-saturday-september-5-2026/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Strong US jobs report lifts odds of a Fed rate hike, stocks slip",
+   "summary": "Employers added 162,000 jobs in August against forecasts of 55,000, pushing the 10-year yield to 4.789 percent and the S&P 500 down 0.38 percent to 7,719.",
+   "body": [
+    "The August payrolls report released on Friday 4 September showed 162,000 new jobs, nearly three times the consensus, with unemployment steady at 4.1 percent. Traders now price roughly even odds that the Federal Reserve raises rates at its meeting this month, a sharp turn from expectations of further cuts only weeks ago.",
+    "The S&P 500 fell to 7,719, the Dow lost 0.51 percent to 53,414 and the Nasdaq slipped 0.29 percent to 26,507. The dollar index rose to 99.157 and gold dropped 1.14 percent to 4,429 dollars an ounce. Next week's US consumer price index is the next test, with OPEC meeting on Saturday and Brent closing the week at 96.28 dollars."
+   ],
+   "sources": [
+    [
+     "The Rio Times",
+     "https://www.riotimesonline.com/global-economy-briefing-september-5-2026/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "US diesel hits record 5.85 dollars as Gulf strikes push Brent to 96",
+   "summary": "AAA's national diesel average passed the June 2022 record on 4 September while regular petrol averaged 4.15 dollars, nearly a dollar above a year ago.",
+   "body": [
+    "AAA reported a national average diesel price of 5.85 dollars a gallon on Friday, edging past the 5.82 dollar record set in June 2022, as Brent crude closed the week at 96.28 dollars, its highest since 24 July. Regular petrol averaged 4.15 dollars against 3.20 a year earlier, even as the TSA expected to screen more than 17 million passengers over the Labor Day travel period.",
+    "Vice President Vance said prices could have been much higher without the administration's efforts but would not say whether 3-dollar petrol remains a promise. Democratic Senator Mark Kelly warned that diesel costs feed straight into grocery bills through farms and freight, a politically sensitive line in a midterm year."
+   ],
+   "sources": [
+    [
+     "The Rio Times",
+     "https://www.riotimesonline.com/usa-canada-intelligence-brief-saturday-september-5-2026/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Nepal glacier disaster toll reaches 1,342 dead with nearly 4,900 missing",
+   "summary": "Police in Nepal confirmed 1,342 deaths as of Saturday morning from the 26 August Langtang Lirung collapse, as scientists say the failure was decades in the making.",
+   "body": [
+    "A section of the Langtang Lirung glacier gave way above Rasuwa district on 26 August, sending a wall of ice, rock and water some 100 kilometres down the Trishuli valley into Tibet. Nepal's police put confirmed deaths at 1,342 as of the morning of 5 September, with nearly 4,900 people still missing, among them hundreds of foreign trekkers and pilgrims. Chinese authorities have confirmed 21 deaths and 541 missing on the Tibetan side.",
+    "The surge buried whole villages, blocked hydropower tunnels, destroyed bridges and swept away the Gyirong border port. The UN Development Programme estimates at least 2.2 million tonnes of debris. Scientists told reporters the glacier had been destabilising for decades as the Himalayas warm, and a CNN report found warning signs were visible before the collapse."
+   ],
+   "sources": [
+    [
+     "CNN",
+     "https://www.cnn.com/2026/09/01/world/live-news/nepal-china-flood"
+    ],
+    [
+     "Time",
+     "https://time.com/article/2026/09/01/flood-deaths-trishuli-tibet-himalayas-china-nepal/"
+    ],
+    [
+     "The Rio Times",
+     "https://www.riotimesonline.com/asia-intelligence-brief-saturday-september-5-2026/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "World food prices climb to highest level since 2022, FAO says",
+   "summary": "The FAO Food Price Index averaged 133.3 points in August, up from 130.8 in July, as Black Sea strikes, European drought and El Nino fears pushed grains to three-year highs.",
+   "body": [
+    "The UN Food and Agriculture Organization reported on 4 September that its index rose to 133.3 points in August, the highest reading since late 2022 though still about 17 percent below the March 2022 peak that followed Russia's invasion of Ukraine. Cereals, vegetable oils, sugar, meat and dairy all rose, with grains up 2.5 points on uncertainty over Black Sea export flows.",
+    "Sugar jumped 11.9 percent to its highest since June 2025 on weaker output in Brazil's centre-south. The FAO cited extreme heat and drought in Europe, the risk of a severe El Nino and trade disruption from the Ukraine and Iran wars. Corn futures surged 10 percent on Friday alone."
+   ],
+   "sources": [
+    [
+     "Kyiv Independent",
+     "https://kyivindependent.com/global-food-prices-climb-to-highest-level-since-2022-amid-black-sea-strikes-un-reports/"
+    ],
+    [
+     "FAO",
+     "https://www.fao.org/newsroom/detail/supply-concerns-drive-fao-food-price-index-higher/en"
+    ],
+    [
+     "BNN Bloomberg",
+     "https://www.bnnbloomberg.ca/business/international/2026/09/04/world-food-prices-at-highest-since-2022-as-supply-risks-mount-fao-says/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Alberta referendum ballots arrive incomplete as 290,000 request mail votes",
+   "summary": "Elections Alberta confirmed some packages mailed from 1 September were missing questions and moved its application deadline forward to 25 September.",
+   "body": [
+    "Elections Alberta said this week that some special ballot packages for the 19 October referendum arrived without one or more of the ten questions voters must answer, including the question on separation from Canada. Deputy chief electoral officer Dallas Stoesz said the glued packages separated in transit like notepads. Roughly 290,000 mail-ballot applications, an unprecedented volume, forced the agency to bring its deadline forward two weeks.",
+    "Officials plan to count all ten questions by hand under a strict 48-hour rule, with the separation question tallied first and results not expected before 1 to 4 am on 20 October. The episode adds administrative strain to a vote already testing Canada's unity during a trade war with Washington."
+   ],
+   "sources": [
+    [
+     "The Rio Times",
+     "https://www.riotimesonline.com/usa-canada-intelligence-brief-saturday-september-5-2026/"
     ]
    ]
   }
@@ -461,248 +341,32 @@
   {
    "hero": true,
    "sub": "Politics & Policy",
-   "h3": "32 held over Overasselt attack, Van Weel says Netherlands is no narco state",
-   "summary": "32 suspects were remanded on 4 September over the Overasselt shooting that killed guard Berry Leenders. Van Weel vowed to catch fugitive Leijdekkers.",
+   "h3": "Record 70 percent of voters dissatisfied with Jetten cabinet before Prinsjesdag",
+   "summary": "An Ipsos I&O poll published 5 September puts dissatisfaction at 70 percent, up from 63 in July, with only 18 percent approving the cabinet's policies ten days before the budget.",
    "body": [
-    "An examining magistrate ordered 32 suspects to remain in custody on 4 September over the armed raid on a home in Overasselt on 1 September, prosecutors confirmed. The group includes 16 French, 11 Dutch, two Algerian, one Libyan, one Ukrainian and one Belgian national, aged 18 to 32 apart from two French boys of 16 and 17.",
-    "All face charges including the murder of security guard Berry Leenders, 51, attempted murder of two wounded officers and weapons possession, in an attack targeting alleged trafficker Jan G Junior over a missing 1,900 kilogram cocaine shipment. Justice Minister David van Weel said the Netherlands is not a narco state and vowed to pursue fugitive Jos 'Bolle Jos' Leijdekkers."
+    "Satisfaction with the Jetten I cabinet has fallen to its lowest point since Rob Jetten took office in February, according to Ipsos I&O. Seventy percent of voters are now dissatisfied, against 63 percent in July, and only 9 percent believe the government can solve the country's problems. Researchers blame the drawn-out budget negotiations, which produced a deal the coalition still cannot pass without opposition votes in either chamber.",
+    "Support has slipped across the coalition, with just over half of D66 voters, 43 percent of CDA voters and 23 percent of VVD voters still satisfied. If elections were held now, PRO would become the largest party with a projected 26 seats, matching what D66 and VVD each won last year, while D66 would fall to 20 and VVD to 17. JA21 and Forum voor Democratie would gain."
    ],
    "sources": [
     [
      "NL Times",
-     "https://nltimes.nl/2026/09/04/fatal-overasselt-shootout-32-suspects-remanded-custody-incl-16-french-11-dutch"
-    ],
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/04/justice-min-says-netherlands-narco-state-vows-catch-wanted-drug-trafficker"
-    ],
-    [
-     "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/prosecutors-hold-32-over-overasselt-attack-including-two-minors/"
+     "https://nltimes.nl/2026/09/05/record-7-10-dutch-dissatisfied-jetten-cabinet-ahead-budget-day"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Politics & Policy",
-   "h3": "Only 18 percent of voters satisfied with Jetten cabinet, Ipsos I&O finds",
-   "summary": "An Ipsos I&O poll published on 4 September found cabinet satisfaction at its lowest since February, with seven in ten voters dissatisfied and PRO the largest party.",
+   "h3": "Public officials among thousands posting homophobic abuse at Jetten",
+   "summary": "An AD analysis of 45,860 replies to the prime minister's X posts found 2,293 homophobic responses, with a council official, a police employee and an air force member among repeat posters.",
    "body": [
-    "An Ipsos I&O survey for WNL, published on 4 September, found just 18 percent approve of the cabinet's policies, down from 26 percent in July, with 70 percent dissatisfied. D66, CDA and VVD voters are cooling too, at 51, 43 and 32 percent satisfied.",
-    "Researchers link the slump to fraught budget talks, with voters mostly blaming the VVD, and only 9 percent trust the cabinet to solve problems. If elections were held now, PRO would be largest with 26 seats and D66 would fall to 20, in a survey of 2,100 people."
-   ],
-   "sources": [
-    [
-     "Nieuws.nl / ANP",
-     "https://nieuws.nl/politiek/veel-kiezers-ontevreden-over-kabinet-meet-ipsos-io-wGGqmD"
-    ],
-    [
-     "Ipsos I&O",
-     "https://www.ipsos-publiek.nl/actueel/ipsos-io-zetelpeiling-lichtpuntjes-voor-kabinet-jetten-plusje-voor-d66/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Politics & Policy",
-   "h3": "Jetten files police complaint over leaked budget documents",
-   "summary": "Jetten said on 4 September the cabinet will report the leak of confidential Prinsjesdag budget documents to police, while admitting such probes rarely succeed.",
-   "body": [
-    "At his weekly press conference on 4 September, Prime Minister Rob Jetten said the government will file a criminal complaint over the leaking of confidential budget papers to the media, calling it a matter of principle. He conceded such investigations often lead nowhere.",
-    "He also wants clearer agreements with the Tweede Kamer on handling embargoed documents so everyone receives them at the same time. RTL Nieuws reported leaked 2027 budget details this week, ahead of Finance Minister Eelco Heinen's Prinsjesdag presentation on Tuesday 15 September."
-   ],
-   "sources": [
-    [
-     "Hart van Nederland",
-     "https://www.hartvannederland.nl/politiek/beleid/videos/rob-jetten-doet-aangifte-na-lekken-vertrouwelijke-begrotingsstukken"
-    ],
-    [
-     "Transport Online / ANP",
-     "https://www.transport-online.nl/137310/jetten-doet-zonder-illusies-aangifte-van-lekken-begrotingsstukken/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Politics & Policy",
-   "h3": "Cabinet drops welfare cuts and delays asset tax reform to 2029",
-   "summary": "Leaked plans show the coalition dropped most of its 6.5 billion euro welfare cuts and will spend 1.5 billion euros on purchasing power, while box 3 reform slips to 2029.",
-   "body": [
-    "The Jetten cabinet has scrapped most planned cuts to unemployment and incapacity benefits to win opposition support for the 2027 budget, RTL Nieuws reported, and will delay a health excess rise while spending 1.5 billion euros offsetting inflation. This is a setback for the VVD, which resisted compromise.",
-    "The coalition is ten seats short in the lower house and 16 short in the Senate, and opposition talks ended without a deal. DutchNews.nl reports box 3 tax reform is likely delayed to 2029, as the interim refund system costs about 2 billion euros a year."
+    "The Algemeen Dagblad analysed replies to 323 posts from Rob Jetten's official account during his first six months in office and found one in 20 was homophobic. The abuse appeared under routine messages, from congratulations to Queen Maxima to a post on Amsterdam Pride, and mostly took the form of a single insinuating question repeated hundreds of times rather than open slurs.",
+    "Most accounts left one reply and never returned, and the ten most persistent produced under 6 percent of the total. Leiden criminal law professor Marloes van Noorloos said the insinuations are hard to prosecute as hate speech, though civil servants could face disciplinary action. Jetten, the country's first openly gay prime minister, files a police report every week and has accused platforms of barely moderating hate."
    ],
    "sources": [
     [
      "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/cabinet-to-scrap-welfare-cuts-in-revised-budget-deal-rtl/"
-    ],
-    [
-     "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/cabinet-set-to-postpone-asset-tax-reform-again-to-2029/"
-    ],
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/02/budget-smaller-childcare-allowance-increase-uncertainty-around-box-3-tax-remains"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Politics & Policy",
-   "h3": "Port workers down tools as national transport strike looms Wednesday",
-   "summary": "Dockers in Rotterdam, Amsterdam and Zeeland stopped work on 4 September against social security cuts, ahead of a 24-hour national transport strike on 9 September.",
-   "body": [
-    "FNV Havens and CNV struck on 4 September at the ports of Rotterdam, Amsterdam, Vlissingen and Terneuzen, halting ship handling in parts of Rotterdam from 11:15 to 19:00 and delaying road, rail and inland shipping. Operator ECT expects the backlog to take days to clear.",
-    "Unions demand the cabinet withdraw its 6.5 billion euro social security cut, including halving unemployment benefit duration and trimming the WIA scheme. The action precedes a national transport strike on Wednesday 9 September, when NS will run no trains except the Airport Sprinter."
-   ],
-   "sources": [
-    [
-     "TPO.nl",
-     "https://tpo.nl/2026/09/04/havenstaking-rotterdam-amsterdam-zeeland/"
-    ],
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/02/public-transport-strike-september-9-will-happen-despite-cabinet-concessions"
-    ],
-    [
-     "FNV",
-     "https://www.fnv.nl/nieuwsbericht/sectornieuws/vervoer/2026/08/update-24-uursstaking-ov-spoor-9-september"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Politics & Policy",
-   "h3": "Russian embassy in The Hague uses ON! podcaster as propaganda amplifier",
-   "summary": "Justice for Prosperity said on 4 September that 40 percent of the Russian embassy's posts follow propaganda patterns, amplified over 50 times by podcaster Jan Bennink.",
-   "body": [
-    "Justice for Prosperity analysed over 200 posts by the Russian embassy in The Hague over ten months and concluded on 4 September the account mainly acts as a propaganda channel, with about 45 percent targeting Dutch affairs. Its verified name lets the embassy evade EU sanctions applied to outlets like RT.",
-    "The platform named ON! podcaster Jan Bennink, whose two X accounts have over 70,000 followers, as reposting embassy content over 50 times. The broadcaster risks losing its status after former editor Joost Niemoller praised aspects of Hitler and resigned."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/04/russian-embassy-hague-spreading-propaganda-podcast"
-    ],
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/03/regulator-urges-min-withdraw-broadcasters-public-recognition-hitler-praise"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Politics & Policy",
-   "h3": "PBL backs nitrogen plan but says livestock herd must shrink",
-   "summary": "The Environmental Assessment Agency said on 3 September the cabinet's nitrogen plan is a major step forward, but requires a substantial cut in livestock numbers.",
-   "body": [
-    "The Planbureau voor de Leefomgeving assessed the cabinet's nitrogen plans on 3 September as a serious step forward after years of stalemate, giving the package a comfortable pass. The report says the measures will still require a significant shrinking of the national herd.",
-    "Buy-out schemes and stricter rules will push farmers to cut cattle, pig and poultry numbers, as the plan still falls short of legal targets in some areas, DutchNews.nl reports. The findings will feed into the budget debate, where farm groups and the BBB are expected to push back."
-   ],
-   "sources": [
-    [
-     "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/farmers-face-livestock-cuts-as-nitrogen-plan-falls-short/"
-    ],
-    [
-     "Drimble / ANP",
-     "https://drimble.nl/politiek/107890123/stikstofpakket-krijgt-ruime-voldoende-krimp-veestapel-is-onvermijdelijk.html"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Economy & Housing",
-   "h3": "Rents rise 4.4 percent, smallest increase in three years",
-   "summary": "CBS said on 4 September that rents rose 4.4 percent in July, the smallest increase in three years, down from 4.9 percent in 2025, with Rotterdam seeing the steepest rise.",
-   "body": [
-    "Rents in the Netherlands rose 4.4 percent in July from a year earlier, CBS reported on 4 September, down from 4.9 percent in 2025 and 5.4 percent in 2024. Private tenants saw the largest hikes at 4.5 percent, against 3.8 percent for sitting tenants, while corporations raised social rents 4.4 percent.",
-    "Among the big four cities, Rotterdam recorded the highest rise at 4.7 percent, while Amsterdam, Utrecht and The Hague ranged from 4.3 to 4.5 percent. The figures come as the student room shortage remains above 20,000 despite new construction."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/04/rents-rose-average-44-year-lower-increase-last-year"
-    ],
-    [
-     "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/rents-rise-4-4-nationally-rotterdam-hit-hardest/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Economy & Housing",
-   "h3": "Direct Norway to Netherlands gas pipeline moves to next phase",
-   "summary": "North Sea operator Nogat said on 4 September it is advancing a direct Norway to Netherlands gas pipeline, targeting 2029 and 15 percent of Dutch demand.",
-   "body": [
-    "Nogat announced on 4 September it is moving to the next stage of a direct gas link between Norway and the Netherlands after a positive feasibility study. A direct link, bypassing current routes via the UK, Germany and Belgium, would add over 4 billion cubic metres a year, about 15 percent of demand, from 2029.",
-    "Director Falco van Wissen said a third of European gas imports already come from the Norwegian North Sea and pipeline gas cuts dependence on the US or Middle East. Shareholders including EBN and PGGM will decide on investment in mid-2027."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/04/development-first-direct-gas-pipeline-norway-netherlands-moves-forward"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Economy & Housing",
-   "h3": "Road traffic CO2 falls for first time since the pandemic",
-   "summary": "CBS figures published on 4 September show Dutch road traffic emitted 26.6 billion kg of CO2 in 2025, down from just over 27 billion, the first fall since the pandemic.",
-   "body": [
-    "Road traffic in the Netherlands emitted 26.6 billion kilograms of CO2 in 2025, against a little over 27 billion the year before, CBS reported on 4 September, the first decline since the pandemic. Passenger cars account for more than half the total at 15 billion kilograms.",
-    "CBS attributes the drop mainly to growing numbers of fully electric cars, which emit nothing while driving, though the figures exclude emissions from generating that electricity. Scooters showed the largest relative increase but make up only 0.2 percent of emissions."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/04/slight-drop-traffic-emissions-electric-cars-hit-dutch-roadways"
-    ],
-    [
-     "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/dutch-road-traffic-co2-falls-for-first-time-since-pandemic/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Economy & Housing",
-   "h3": "DNB moved a quarter of its gold out of the US citing geopolitical unrest",
-   "summary": "De Nederlandsche Bank confirmed this week it moved over a quarter of its gold reserves from the US and Canada to the Bank of England between March and August.",
-   "body": [
-    "De Nederlandsche Bank said on 2 September it moved over a quarter of the Dutch gold reserves, worth around 10 billion euros, from the United States and Canada to London between March and August, citing geopolitical unrest. The New York Times reports the Bank of England's vaults hold the world's most tradable bullion.",
-    "The move follows similar reviews by other European central banks since the Iran war began. DNB says the decision is about diversification and liquidity, though the timing has been widely read as a sign of eroding confidence in Washington."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/02/dutch-central-bank-moves-eu10-billion-gold-us-canada-citing-instability"
-    ],
-    [
-     "New York Times",
-     "https://www.nytimes.com/2026/09/03/world/europe/netherlands-gold-reserves-us.html"
-    ],
-    [
-     "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/dutch-central-bank-moves-gold-out-of-us-and-canada/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Society & Culture",
-   "h3": "Officials among thousands posting homophobic abuse at Jetten, AD finds",
-   "summary": "An AD analysis on 4 September found 2,293 homophobic replies to Jetten's 323 posts on X since February, including from council, police and air force staff.",
-   "body": [
-    "Algemeen Dagblad analysed 45,860 replies to Jetten's 323 posts on the PM's X account since February and found 2,293, one in twenty, were homophobic, the paper reported on 4 September. Abuse appeared under almost every post, mostly from ordinary users rather than organised trolls.",
-    "AD identified repeat accounts including a government social support official, a police employee and an air force member. Jetten files weekly police reports without stemming the flow, as the Netherlands slips to 13th of 49 on ILGA-Europe's Rainbow Index."
-   ],
-   "sources": [
-    [
-     "DutchNews.nl",
-     "https://dutchnews.nl/2026/09/public-officials-among-those-abusing-jetten-online-ad-finds"
+     "https://www.dutchnews.nl/2026/09/public-officials-among-those-abusing-jetten-online-ad-finds/"
     ],
     [
      "NL Times",
@@ -712,57 +376,209 @@
   },
   {
    "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Defence blacklists Polarsteps after app exposed soldiers' locations",
+   "summary": "Follow the Money found dozens of Dutch service members could be tracked to bases and missions abroad through the travel app, with home addresses sometimes exposed.",
+   "body": [
+    "Investigative platform Follow the Money reported on 5 September that GPS data leaking from the back end of the social travel app Polarsteps allowed it to trace dozens of Dutch military personnel to bases at home and deployments abroad, and in some cases to their home addresses. The Ministry of Defence blacklisted the app as soon as it received questions from the journalists.",
+    "The platform said it could retrieve names, hometowns, follower lists, photos and GPS tracks for around 23 million users worldwide through the app's API. Experts warned foreign intelligence services could use such data to map troop movements or blackmail individuals. According to Follow the Money, Polarsteps CEO Clare Jones acknowledged the company had known about the exposure since at least December 2025."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/05/dozens-dutch-soldiers-can-tracked-addresses-exposed-using-polarsteps-app"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Farmers still face 5 to 10 percent livestock cut as nitrogen plan falls short",
+   "summary": "PBL found the 20 billion euro nitrogen package would just miss its 2035 target. Minister Van Essen called a blanket cut an emergency brake the cabinet will not use.",
+   "body": [
+    "The environmental assessment agency PBL reviewed the cabinet's nitrogen plan at the government's request and called it an important step, but concluded the measures worked out so far leave a gap. Closing it would still require an across-the-board reduction of 5 to 10 percent in livestock rights, the permits that cap how many animals a farm may keep.",
+    "Agriculture minister Jaimi van Essen said on Friday that a compulsory cut is a no-go and only a last resort if targets are missed in 2035. Farmers must reduce ammonia emissions by 42 to 46 percent against 2019 levels under the June package. PBL expects herds to shrink anyway and some farms to close, while BBB and farm lobby LTO called the extra cut unacceptable."
+   ],
+   "sources": [
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/09/farmers-face-livestock-cuts-as-nitrogen-plan-falls-short/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Nationwide public transport strike on Wednesday goes ahead",
+   "summary": "FNV confirmed the 24-hour stoppage at NS, regional and city transport on 9 September after the cabinet declined to drop welfare cuts, six days before Prinsjesdag.",
+   "body": [
+    "Workers across Dutch public transport and the rail sector will down tools for 24 hours on Wednesday 9 September. The FNV union says the action is a signal to the minority Jetten cabinet against planned cuts to social security, under the slogan Stop de afbraak van onze sociale zekerheid. Travel planner 9292 and NS are warning passengers to expect almost no service that day.",
+    "The strike follows a port workers' stoppage on Friday and is part of a series of actions the unions are building toward Prinsjesdag on 15 September. The Raad van State said court hearings will proceed as scheduled despite the disruption. Weather forecasters expect a wet and windy day, adding to the incentive to work from home."
+   ],
+   "sources": [
+    [
+     "FNV",
+     "https://www.fnv.nl/nieuwsbericht/sectornieuws/vervoer/2026/09/bezuinigingen-niet-van-tafel-ov-staking-gaat-door"
+    ],
+    [
+     "9292",
+     "https://9292.nl/actueel/staking-ov/"
+    ],
+    [
+     "NOS",
+     "https://nos.nl/artikel/2625031-fnv-kondigt-landelijke-ov-staking-van-24-uur-aan-op-9-september"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "Rents up 4.4 percent in July, Rotterdam sees steepest big-city rise",
+   "summary": "CBS figures show a slower increase than the 4.9 percent of 2025 and 5.4 percent of 2024, with sitting tenants paying 3.8 percent more and new lets rising faster.",
+   "body": [
+    "Rents rose an average 4.4 percent in July compared with a year earlier, the national statistics office reported, the third consecutive year of increases above 4 percent but the smallest of the three. Tenants who stayed put saw a 3.8 percent rise, while rents jumped more sharply when homes were re-let to new occupants.",
+    "Among the four big cities Rotterdam recorded 4.7 percent, Utrecht 4.5, The Hague 4.4 and Amsterdam 4.3. Overijssel and Noord-Brabant led the provinces at 4.6 percent and Friesland trailed at 4 percent. The social housing cap this year is 4.1 percent, but re-lets and income-based surcharges of 50 or 100 euros a month can push rents higher."
+   ],
+   "sources": [
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/09/rents-rise-4-4-nationally-rotterdam-hit-hardest/"
+    ],
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/04/rents-rose-average-44-year-lower-increase-last-year"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "Free 0800 hotline opens for people stuck with tax and benefits problems",
+   "summary": "The line, run by help platform Geldfit on weekdays from 9 am to 9 pm, is aimed at citizens who cannot resolve complex cases with the Belastingdienst or Toeslagen on their own.",
+   "body": [
+    "People who hit a wall with the Tax Authority or the Benefits Agency can now call a free 0800 number, NL Times reported on 5 September. Operators at Geldfit assess what each caller needs and route them to the right help. Taxpayer advocate Hayde Zarkeshan told NU.nl that her office knows exactly where people get stuck trying to access legal tax aid.",
+    "The advocate's post was created in the aftermath of the childcare benefits scandal and has handled hundreds of cases since 2025. The launch comes in the same week the government moved to restrict free legal aid for benefits scandal victims in disputes with municipalities. Complex cases can also still go to the Tax Administration's Stella team."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/05/netherlands-opens-free-hotline-complex-tax-benefits-questions"
+    ],
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/05/government-restricts-free-legal-aid-benefits-scandal-victims-fights-cities"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "UK airport data leak hits thousands of Dutch travellers",
+   "summary": "BNR identified Dutch victims in a dark web dump of around 9 million Manchester Airports Group records, which may include the Dutch-born wife of British PM Andy Burnham.",
+   "body": [
+    "Personal data of thousands of Dutch travellers who passed through Manchester, London Stansted or East Midlands airports was published on the dark web earlier this week, NL Times reported on 5 September. News platform BNR traced the Dutch records in a leak affecting roughly 9 million people, a figure it said is probably an undercount.",
+    "BNR said records belonging to Prime Minister Andy Burnham could be identified with certainty and that entries pointing to his wife Marie-France van Heel contained no highly sensitive fields, so her inclusion cannot be confirmed. The breach adds to a run of data stories in the Netherlands, including an Amsterdam travel app that leaked users' details for months."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/05/uk-airport-data-leak-hits-thousands-dutch-british-pms-dutch-wife-may-included"
+    ],
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/09/amsterdam-travel-app-leaked-users-personal-data-for-months/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "Second worker dies after chemical accident at Zwaag industrial site",
+   "summary": "A 40-year-old man died on Friday 5 September hours after a colleague, following reports that the two fell into a vat of chemicals at a Noord-Holland firm.",
+   "body": [
+    "Emergency services were called to an industrial estate in Zwaag at about 9.45 am on Friday 4 September and found two workers who had to be resuscitated after contact with a hazardous substance. One died that morning and the second, a 40-year-old man, died later on Friday, AD reported. Two trauma helicopters were deployed and the area was sealed off.",
+    "The Labour Inspectorate is investigating and said the report concerned a fall situation, without confirming a relative's account to NU.nl that the men fell into a vat of chemicals. The local safety region said the released substances posed no danger to residents nearby."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/05/second-person-dies-following-workplace-accident-involving-hazardous-materials-zwaag"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "Ministry colleague among Dutch still missing after Nepal glacier flood",
+   "summary": "Agriculture minister Van Essen told MPs a civil servant from her ministry has been missing since the 26 August disaster, as two Dutch pilgrims also remain unaccounted for.",
+   "body": [
+    "During a Tweede Kamer debate reported on 5 September, minister Jaimi van Essen paused to say that a colleague from the Ministry of Agriculture, Fisheries, Food Security and Nature had been travelling in the area when the Langtang Lirung glacier collapsed and has not been heard from since. She described the colleague as someone who pours heart and soul into the nature portfolio.",
+    "Three Dutch nationals were reported missing at the end of August. Contact has since been made with a Dutch woman who lives in Nepal, but two people on a pilgrimage to Mount Kailash in Tibet are still missing. Nepal's official toll passed 1,280 on its side of the border, with thousands unaccounted for."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/05/dutch-civil-servant-missing-nepal-tibet-flood"
+    ],
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/09/dutch-woman-living-in-nepal-found-alive-after-surviving-floods/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "At least 49 opinion pieces in Dutch papers were written entirely by AI",
+   "summary": "AI Report analysed 252 recent op-eds in Volkskrant, Trouw, Parool and FD and found 49 fully machine-written and 57 partly so. Volkskrant's editor said he was surprised by the scale.",
+   "body": [
+    "The platform AI Report, run by journalist Alexander Kloepping, examined 252 opinion pieces published last month in major dailies. At least 49 were entirely AI-generated and 57 more were partly so. At de Volkskrant more than a quarter of the pieces were flagged, prompting editor-in-chief Pieter Klok to send contributors a letter banning AI in submitted articles except as a spell-checker.",
+    "FD editor Perry Feenstra said the figure made him uncomfortable but noted that people with something to say and weak writing skills are no longer sidelined. Trouw allows AI for translation and copy-editing, while Het Parool called the practice unacceptable. Writers themselves said they used AI to sharpen their ideas and arguments."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/05/least-49-opinion-pieces-major-dutch-newspapers-fully-ai-generated-57-partly"
+    ]
+   ]
+  },
+  {
+   "hero": false,
    "sub": "Society & Culture",
    "h3": "Dutch soil scientist wins Ig Nobel for burying 1,000 pairs of underpants",
-   "summary": "Dutch soil scientist Marcel van der Heijden shared the 2026 Ig Nobel prize for soil science on 3 September for burying 1,000 pairs of underpants in 25 countries.",
+   "summary": "Marcel van der Heijden of the University of Zurich shared the soil science prize at a ceremony held outside the US for the first time in more than 30 years.",
    "body": [
-    "Marcel van der Heijden of the University of Zurich and three colleagues won the Ig Nobel prize for soil science at the 36th ceremony in Zurich on 3 September. Volunteers in more than 25 countries buried identical cotton underpants and dug them up two months later, with more rotted fabric meaning healthier soil.",
-    "Van der Heijden said the results show soil management significantly affects fertility and ecosystems. It was the first ceremony held outside the US in three decades, and Dutch researchers have won 22 Ig Nobels since 1991."
+    "Van der Heijden and three colleagues had volunteers in more than 25 countries bury identical cotton underpants and dig them up two months later. The more the fabric had rotted, the healthier and more biologically active the soil, showing that management choices directly affect soil life. The Ig Nobels reward research that first makes people laugh and then makes them think.",
+    "This year's ceremony took place in Zurich after organisers said they could not in good conscience ask winners and journalists to travel to the United States, a decision widely read as a response to US immigration policy. Next year's event moves to Antwerp. Dutch researchers have now won 22 Ig Nobels since 1991, including last year's prize for showing a drink improves foreign-language skills."
    ],
    "sources": [
     [
      "DutchNews.nl",
      "https://www.dutchnews.nl/2026/09/dutch-soil-scientist-wins-ig-nobel-for-burying-1000-underpants/"
-    ],
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/04/dutch-scientist-wins-ig-nobel-prize-1000-buried-pairs-underpants"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Society & Culture",
-   "h3": "National water shortage officially over, but Rhine still at half flow",
-   "summary": "The infrastructure ministry downgraded the country from an actual to an impending water shortage on 3 September, though the Rhine may stay at half flow until year end.",
+   "h3": "Overasselt: 32 suspects held as wounded officer leaves hospital",
+   "summary": "Prosecutors are holding 32 people, including 16 French nationals, 11 Dutch and two minors, over the 1 September shootout that killed security guard Barry Leenders.",
    "body": [
-    "The Netherlands moved from level two to level one on its three-stage water shortage scale on 3 September, the infrastructure ministry said, as rain, cooler weather and less irrigation eased demand. The crisis team that met weekly through summer will disband.",
-    "The Rhine still carries only about half its normal volume for early September, and stranded houseboats will not refloat until levels rise. Restrictions remain in the east and south, and IJsselmeer salinisation still concerns drinking water firms, though supplies remain secure."
+    "A police officer wounded in the fatal Overasselt shooting was released from hospital on 5 September, NL Times reported. The attack on Ewijkseweg on 1 September, captured on security cameras showing dozens of armed and masked men, killed 51-year-old security guard Barry Leenders and injured two officers. Prosecutors have remanded 32 suspects into custody, among them 16 French and 11 Dutch nationals and two minors.",
+    "Justice minister David van Weel insisted this week that the Netherlands is not a narco state and vowed to catch a wanted drug trafficker linked to the case. The episode continues to dominate national debate about organised crime days before the cabinet presents its security budget."
    ],
    "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/05/wounded-officer-released-hospital-fatal-overasselt-shooting"
+    ],
     [
      "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/national-water-shortage-officially-over-but-troubles-continue/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Society & Culture",
-   "h3": "Warm weekend ahead as NS bans bags on seats",
-   "summary": "After a code yellow for coastal winds on Friday, Saturday brings 20 to 22 degrees with up to 30 possible on Monday, as NS bans bags on seats from 4 September.",
-   "body": [
-    "The KNMI issued a code yellow on 4 September for gusts of 75 to 90 kilometres per hour along the coast, with Saturday calmer at 20 to 22 degrees under sun and cloud. Sunday and Monday turn summery warm at 27 to 28 degrees, possibly 30 in the south, before wind and rain return Tuesday.",
-    "A formal NS ban on placing bags on seats took effect on 4 September, though passengers will only be asked to move bags, not removed from trains. NS also said it will stop compensating travellers for cancellations caused by strikes."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/04/strong-winds-today-warm-temps-weekend-thermometers-hit-30degc-monday"
+     "https://www.dutchnews.nl/2026/09/prosecutors-hold-32-over-overasselt-attack-including-two-minors/"
     ],
     [
      "NL Times",
-     "https://nltimes.nl/2026/09/04/bags-ns-train-seats-today"
+     "https://nltimes.nl/2026/09/04/justice-min-says-netherlands-narco-state-vows-catch-wanted-drug-trafficker"
     ]
    ]
   }
