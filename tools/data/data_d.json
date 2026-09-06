@@ -1,502 +1,546 @@
 {
- "sports": [
-  {
-   "hero": true,
-   "sub": "Tennis",
-   "h3": "Cerundolo stuns Fritz from two sets down, Blockx dumps out Cobolli",
-   "summary": "Francisco Cerundolo came back from two sets down to beat ninth seed Taylor Fritz 3-6 4-6 6-3 6-4 6-4 on Arthur Ashe on Saturday, while Belgian 28th seed Alexander Blockx beat fifth seed Flavio Cobolli in four sets.",
-   "body": [
-    "Argentine 24th seed Francisco Cerundolo ended Taylor Fritz's home run at the US Open on Saturday 5 September, rallying from two sets to love down for only the second time in his career to win 3-6 4-6 6-3 6-4 6-4 in three hours and 39 minutes. The turning point came at 3-4 in the fifth set, when he saved three break points from 0-40, then broke Fritz for the sixth time and served out the match. Fritz, the 2024 finalist, hit 54 unforced errors and suffered his earliest exit in New York since 2022.",
-    "Earlier on the same court Alexander Blockx of Belgium beat fifth seed Flavio Cobolli 6-7(4) 6-3 6-0 6-3, winning 11 games in a row from 2-3 in the second set. The 21-year-old fired 17 aces, reached the third round of a major for the first time and is the first Belgian man with a top-10 win at the US Open since 2000. Blockx, ranked 116 a year ago, now meets Cerundolo for a place in the quarter-finals."
-   ],
-   "sources": [
-    [
-     "ATP Tour",
-     "https://www.atptour.com/en/news/fritz-cerundolo-us-open-2026-saturday"
-    ],
-    [
-     "CBS Sports",
-     "https://www.cbssports.com/tennis/news/us-open-2026-schedule-results-bracket-live-updates-matches-where-to-watch/live/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Tennis",
-   "h3": "Gauff cruises past Bucsa into US Open fourth round",
-   "summary": "Fourth seed Coco Gauff beat Cristina Bucsa 6-3 6-4 in 88 minutes on Saturday to stretch her winning streak to nine matches.",
-   "body": [
-    "Coco Gauff needed just 88 minutes on Arthur Ashe Stadium on Saturday to beat Spain's Cristina Bucsa 6-3 6-4 and reach the last 16 in New York. The fourth seed closed it out when Bucsa's lob drifted long on match point.",
-    "Gauff arrived in New York after winning the Cincinnati warm-up and has now won nine matches in a row. She had needed a gritty three-setter to get past Paula Badosa in the second round. Her next opponent is either American teenager Iva Jovic or Alex Eala of the Philippines. Defending champions Aryna Sabalenka and Carlos Alcaraz had the day off and return on Sunday."
-   ],
-   "sources": [
-    [
-     "Tennis.com",
-     "https://www.tennis.com/tournaments/us-open/matches/c-bucsa-vs-c-gauff-2026-09-05"
-    ],
-    [
-     "Jamaica Observer",
-     "https://www.jamaicaobserver.com/2026/09/05/gauff-round-four-us-open-straight-set-win/"
-    ],
-    [
-     "WTA",
-     "https://www.wtatennis.com/news/4571859/coco-gauff-defeats-paula-badosa-to-book-spot-in-us-open-third-round-against-cristina-bucsa"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Tennis",
-   "h3": "Keys blows 5-0 lead as Zheng and Potapova upset American seeds",
-   "summary": "Madison Keys lost 1-6 7-6 7-5 to Zheng Qinwen after leading 5-0 in the final set, and last year's finalist Amanda Anisimova went out 6-2 7-5 to Anastasia Potapova.",
-   "body": [
-    "Saturday's third round produced two upsets on the women's side. Madison Keys, the 22nd seed, won the first set 6-1 in 23 minutes against Zheng Qinwen and led 5-0 in the decider before a run of forehand errors let the Chinese Olympic champion back in. Zheng, unseeded after elbow surgery kept her out of last year's tournament, won 1-6 7-6 7-5 for her second win over Keys this year.",
-    "Tenth seed Amanda Anisimova, who reached the final in New York in 2025 after beating Iga Swiatek and Naomi Osaka, lost 6-2 7-5 to 24th seed Anastasia Potapova. Mirra Andreeva advanced with a 6-2 7-6 win over Nikola Bartunkova."
-   ],
-   "sources": [
-    [
-     "Yahoo Sports",
-     "https://sports.yahoo.com/tennis/article/us-open-no-10-amanda-anisimova-and-no-22-madison-keys-suffer-upset-defeats-in-third-round-play-165650860.html"
-    ],
-    [
-     "CBS Sports",
-     "https://www.cbssports.com/tennis/news/us-open-2026-schedule-results-bracket-live-updates-matches-where-to-watch/live/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Formula 1",
-   "h3": "Gasly takes shock maiden pole at Monza for Alpine",
-   "summary": "Pierre Gasly beat George Russell by 0.060s with a 1:21.786 in Q3 on Saturday, his first pole in ten seasons and Alpine's first since 2009.",
-   "body": [
-    "Pierre Gasly produced the surprise of the 2026 season in qualifying at Monza on Saturday 5 September, lapping in 1:21.786 to beat Mercedes driver George Russell by 0.060s and McLaren's Oscar Piastri by 0.18s. It is the Frenchman's first pole in his tenth F1 season and the first for Alpine, in any guise, since Fernando Alonso for Renault in Hungary in 2009. Gasly won his only grand prix at the same circuit in 2020.",
-    "Gasly picked up a double tow behind the two Ferraris on his final lap, while Russell got stuck too close behind Max Verstappen and could not improve enough. Charles Leclerc and Lewis Hamilton qualified fourth and fifth for Ferrari, both within 0.008s of going out in Q2, with Verstappen sixth and reigning champion Lando Norris only ninth. Aston Martin qualified last for the seventh time in 13 races and Lance Stroll was knocked out in Q1 for the 100th time in his career."
-   ],
-   "sources": [
-    [
-     "RACER",
-     "https://racer.com/2026/09/05/gasly-stuns-with-maiden-pole-at-monza"
-    ],
-    [
-     "Formula1.com",
-     "https://www.formula1.com/en/latest/article/gasly-charges-to-sensational-maiden-f1-pole-at-monza-over-russell-and-piastri.4CKkkbvgmqL04ijMNBfuXF"
-    ],
-    [
-     "PlanetF1",
-     "https://www.planetf1.com/news/f1-results-italian-grand-prix-2026-qualifying"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Formula 1",
-   "h3": "Piastri drops to sixth after penalty, Antonelli starts from the back",
-   "summary": "Oscar Piastri was handed a three-place grid penalty for impeding Liam Lawson in Q2, promoting both Ferraris and Verstappen, while Kimi Antonelli starts last after a full engine change.",
-   "body": [
-    "The stewards handed Oscar Piastri a three-place grid penalty on Saturday evening after ruling that his McLaren, which had just left the pits, held up Liam Lawson through the first chicane in the closing stages of Q2. Lawson missed the Q3 cut and vented on the radio. Piastri drops from third to sixth, which moves Charles Leclerc and Lewis Hamilton onto the second row and Max Verstappen up to fifth.",
-    "Kimi Antonelli will start his home race from the back of the grid after Mercedes fitted a completely new power unit to his car. Twelve races in he had already used the maximum four internal combustion engines and exhausts and three energy stores. The 20-year-old, who qualified seventh, said he would attack from the start on Sunday."
-   ],
-   "sources": [
-    [
-     "ESPN",
-     "https://www.espn.com/f1/story/_/id/49813193/oscar-piastri-hit-three-place-grid-penalty-impeding-qualifying-italian-grand-prix-monza"
-    ],
-    [
-     "Formula1.com",
-     "https://www.formula1.com/en/latest/article/piastri-hit-with-three-place-grid-penalty-for-impeding-lawson-in-monza-qualifying.5bmDgovuCPwygEbOIzDKRm"
-    ],
-    [
-     "Sky Sports",
-     "https://www.skysports.com/f1/news/12433/13578004/kimi-antonelli-why-is-mercedes-driver-taking-grid-penalties-at-italian-grand-prix-in-monza-on-home-soil"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Football",
-   "h3": "PSV win heated topper 3-1 in Amsterdam, Ajax still winless at home",
-   "summary": "Ricardo Pepi, debutant Lutsharel Geertruida and Esmir Bajraktarevic scored as PSV beat Ajax 3-1 in the Johan Cruijff ArenA, in a match marred by a brawl after a Ruben van Bommel body check on Aaron Bouwman.",
-   "body": [
-    "PSV took the first topper of the Eredivisie season on Saturday 5 September, winning 3-1 at Ajax. Ricardo Pepi headed in an Ivan Perisic cross after four minutes, Tolu Arokodare levelled in the 23rd minute and new signing Lutsharel Geertruida volleyed PSV back in front with the last kick of the first half. Steven Berghuis and Davy Klaassen both wasted big chances for Ajax in between.",
-    "The second half was dominated by a flashpoint when Ruben van Bommel caught Aaron Bouwman in the face with a body check and was only booked by referee Sander van der Eijk, sparking a melee that spilled onto the benches. Substitute Esmir Bajraktarevic sealed it in stoppage time. It was Michel's first defeat as Ajax coach and a fifth home league game without a win, leaving Ajax six points behind PSV with a game in hand."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/05/psv-win-first-topper-eredivisie-season-beating-ajax-3-1-amsterdam"
-    ],
-    [
-     "NOS",
-     "https://nos.nl/artikel/2629842-psv-verslaat-ajax-in-amsterdam-in-tumultueuze-topper-1-3"
-    ],
-    [
-     "Ajax Showtime",
-     "https://www.ajaxshowtime.com/hoofdnieuws/psv-doet-ajax-pijn-in-johan-cruijff-arena-en-bezorgt-michel-eerste-nederlaag"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Football",
-   "h3": "Feyenoord up to second with 3-1 win at NEC before Barcelona trip",
-   "summary": "Gjivai Zechiel, Luciano Valente and debutant Jerayno Schaken scored in a second-half burst as Feyenoord won 3-1 in Nijmegen, with Anis Hadj Moussa left out for disciplinary reasons.",
-   "body": [
-    "Feyenoord bounced back from last week's 2-2 draw with ADO Den Haag by beating NEC 3-1 at the Goffert on Saturday. All four goals came after the break: Gjivai Zechiel pounced on an Almugera Kabar error for his fourth league goal of the season, Darko Nejasmic replied with a fine left-footed strike from outside the box, then Zechiel set up Luciano Valente for 2-1 and debutant Jerayno Schaken added a late third.",
-    "Giovanni van Bronckhorst left winger Anis Hadj Moussa out of the squad after he turned up late twice, amid reported interest from Al-Ittihad. Feyenoord have 11 points from five games, nine of them earned away, and open their Champions League campaign at FC Barcelona on Wednesday."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/05/feyenoord-climb-second-3-1-win-away-nec-nijmegen"
-    ],
-    [
-     "Voetbal International",
-     "https://www.vi.nl/wedstrijden/2026-09-05/nec-vs-feyenoord"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Football",
-   "h3": "Utrecht v Go Ahead Eagles abandoned after fireworks and thrown cups",
-   "summary": "The Eredivisie match at the Galgenwaard was stopped for good with Go Ahead Eagles leading 3-1 after repeated disturbances from the Bunnikside.",
-   "body": [
-    "FC Utrecht's home match against Go Ahead Eagles on Saturday was abandoned after fireworks were thrown from the Bunnikside and cups landed on the pitch. The trouble began shortly after Victor Edvardsen made it 0-3 for the visitors in the 58th minute.",
-    "Referee halted play for more than 20 minutes before the teams came back out, but he sent both sides inside twice more, first for fireworks on the pitch and then for thrown cups. The game was then called off with Go Ahead leading 3-1. The KNVB will decide how the result is settled."
-   ],
-   "sources": [
-    [
-     "FCUpdate",
-     "https://www.fcupdate.nl/voetbalnieuws/2026/09/fc-utrecht-go-ahead-eagles-stilgelegd-vuurwerk-bunnikside"
-    ],
-    [
-     "Go Ahead Eagles",
-     "https://www.ga-eagles.nl/fc-utrecht-go-ahead-eagles-definitief-gestaakt/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Sailing",
-   "h3": "Spain and Australia dominate day one of SailGP Valencia",
-   "summary": "Diego Botin's Los Gallos won two of three Group B races on home water while Tom Slingsby's Flying Roos topped Group A on his 42nd birthday, as a dying breeze punished any slip.",
-   "body": [
-    "SailGP's first visit to Valencia opened on Saturday 5 September with six races split across two groups in a breeze that faded to about 13 km/h by the end of the day. Spain's Los Gallos won Group B's first two races, the second by well under a second over Denmark's Rockwool Racing, before Nicolai Sehested's Danes led from the gun to take race three. Spain lead the group on 14 points from Denmark on 12 and the United States on 10.",
-    "In Group A, Australia's BONDS Flying Roos sit on 11 points after a win and two more top-four finishes, one ahead of Red Bull Italy, who won twice with Phil Robertson but scored zero in between. Artemis missed race one with a broken jib halyard yet recovered to two thirds. New Zealand's Black Foils finished sixth, fourth and sixth for just two points. Two more group races on Sunday decide who reaches the winner-takes-all final."
-   ],
-   "sources": [
-    [
-     "Boating New Zealand",
-     "https://www.boatingnz.co.nz/2026/09/sailgp-spain-sail-grand-prix-valencia-day-one-report/"
-    ],
-    [
-     "SailGP",
-     "https://www.ussailgpteam.com/2026/schedule/brazil"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Sailing",
-   "h3": "Malizia retakes Ocean Race Atlantic lead as MSIG Europe loses hours",
-   "summary": "Team Malizia leads United by the Ocean by 30.4 nautical miles, while Conrad Colman's crew spent two and a half hours on the bow fixing a snapped furling line in 30 knots.",
-   "body": [
-    "Team Malizia has regained the lead in The Ocean Race Atlantic after losing it to United by the Ocean on day two, and now holds the biggest margin of the race so far at 30.4 nm. The German boat also won Friday's 20-minute Super Sprint, covering 12.02 nm, its second sprint win in three days.",
-    "MSIG Europe sits 175.1 nm off the lead after the furling line on its J2 headsail snapped in 28 to 30 knots, sending the sail flying and forcing skipper Conrad Colman and Elie Pirnay to reroute it by hand in the dark. DMG Mori lost a ballast tank hatch to slamming. With the fleet hard on the wind in squally conditions, organisers think the next few days could threaten the 24-hour record of 641.13 nm."
-   ],
-   "sources": [
-    [
-     "Boating New Zealand",
-     "https://www.boatingnz.co.nz/2026/09/ocean-race-atlantic-malizia-retakes-lead-as-msig-europe-battles-broken-furling-gear/"
-    ],
-    [
-     "The Ocean Race",
-     "https://www.theoceanrace.com/en/atlantic/2026/teams/team-malizia"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "BJJ & Judo",
-   "h3": "Master Worlds wraps in Las Vegas with black belt finals on Saturday",
-   "summary": "The IBJJF World Master Championship ran 3-5 September in Las Vegas, with brown and black belt divisions across all seven age groups on the mats and streaming on FloGrappling.",
-   "body": [
-    "The 2026 IBJJF World Master Jiu-Jitsu Championship concluded on Saturday 5 September in Las Vegas after three days of competition. Brown and black belts across Master 1 through Master 7 competed on Thursday, with purple belt and further black belt brackets on Friday and the closing divisions on Saturday.",
-    "The event ran alongside the IBJJF Jiu-Jitsu Con International in the same venue. Full brackets and results are posted on the IBJJF database, and every mat was streamed live on FloGrappling. Next up on the grappling calendar is ADCC in Krakow on 12-13 September."
-   ],
-   "sources": [
-    [
-     "FloGrappling",
-     "https://www.flograppling.com/articles/16157469-ibjjf-master-worlds-2026-results-every-weight-division-and-belt"
-    ],
-    [
-     "IBJJF",
-     "https://ibjjf.com/events/calendar"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "BJJ & Judo",
-   "h3": "One week to ADCC Krakow: Duarte v Simoes for vacant superfight belt",
-   "summary": "With Gordon Ryan retired, the last two absolute champions Kaynan Duarte and Yuri Simoes headline ADCC 2026 at Tauron Arena on 12-13 September, with all 128 slots filled and men's purses doubled.",
-   "body": [
-    "ADCC's biennial World Championship moves to Tauron Arena in Krakow, Poland next weekend, 12-13 September, the first edition outside the United States in years. The superfight title is vacant for the first time in 17 years after Gordon Ryan retired early in 2026, so 2024 absolute champion Kaynan Duarte faces 2022 absolute winner Yuri Simoes for the belt. Their last ADCC meeting, in 2019, ended when Simoes tore his ACL in the first round.",
-    "All 128 competitor places are confirmed, with six men's brackets of 16 and three women's brackets of eight. Total payout is $362,000, with men's division winners now earning $20,000 and the absolute and superfight winners $50,000 each, though women's purses still lag. The bracket reveal show is on Friday 11 September with the amateur worlds the same day."
-   ],
-   "sources": [
-    [
-     "FloGrappling",
-     "https://www.flograppling.com/articles/14526784-every-athlete-officially-invited-to-adcc-world-championship-2026"
-    ],
-    [
-     "BJJEE",
-     "https://www.bjjee.com/bjj-news/adcc-2026-superfight-confirmed-kaynan-duarte-vs-yuri-simoes/"
-    ],
-    [
-     "MMA Mania",
-     "https://www.mmamania.com/bjj-news/405641/adcc-2026-payouts-increased-but-womens-purses-still-lacking-bjj-beat"
-    ]
-   ]
-  }
- ],
- "consumer-tech": [
-  {
-   "hero": true,
-   "sub": "Devices & Launches",
-   "h3": "IFA 2026 verdict: rollable Lenovo, bezel-free Tecno and Xiaomi's red fold",
-   "summary": "Gizmodo handed out its Best of IFA awards on Saturday as the Berlin show opened to the public, with Lenovo's Project Swan rollable laptop, Tecno's all-screen concept phone and the Xiaomi 18 Fold among the standouts.",
-   "body": [
-    "IFA Berlin runs 4-8 September and the first public day on Saturday coincided with the awards round-ups. Gizmodo's picks included Lenovo's Project Swan concept, a 14-inch laptop with a flexible display hidden in the lid that unrolls sideways into a 17-inch ultrawide, plus the colourful IdeaPad Vibe with swappable keycaps. Tecno showed a fully working phone with no bezels at all, and Lexar's Muse SSD, which tapers from 3.8 mm to 1 mm and clips to an iPhone via MagSafe for ProRes recording, took the mobile accessory prize.",
-    "Xiaomi's 18 Fold sat behind glass in a bright red finish ahead of its launch next week. GSMArena noted the wide passport-style shape, a 5.38-inch cover screen, a 7.58-inch inner panel with a barely visible crease and Xiaomi's own XRING O3 chip. Belkin showed a slim power bank using semi-solid-state cells it claims last three times longer, and TechRadar's own list ran to 25 favourites including exoskeletons and somersaulting robots."
-   ],
-   "sources": [
-    [
-     "Gizmodo",
-     "https://gizmodo.com/gizmodos-best-of-ifa-2026-awards-see-the-winners-2000800027"
-    ],
-    [
-     "GSMArena",
-     "https://www.gsmarena.com/xiaomi_18_fold_with_xring_o3_chip_showcased_at_ifa_2026-news-74457.php"
-    ],
-    [
-     "TechRadar",
-     "https://www.techradar.com/tech/icymi-the-7-biggest-tech-stories-of-the-week-from-the-best-gadgets-of-ifa-2026-to-gpt-6-astra-and-the-agi-era"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "Apple's 'Surprise and Shine' event Wednesday: 18 Pro, iPhone Ultra and more",
-   "summary": "Apple's 9 September keynote at Apple Park is expected to bring the iPhone 18 Pro and Pro Max, the foldable iPhone Ultra, Apple Watch Series 12 and Ultra 4 and AirPods 5, but no standard iPhone 18 until spring.",
-   "body": [
-    "Apple's September event takes place on Wednesday 9 September at 10am Pacific at Apple Park. According to 9to5Mac and MacRumors, the lineup is three flagship phones, the iPhone 18 Pro, 18 Pro Max and the first foldable, expected to be called iPhone Ultra, plus Apple Watch Series 12 with a ceramic case option, Apple Watch Ultra 4 with new health sensors and AirPods 5 in versions with and without noise cancelling.",
-    "The base iPhone 18 is not expected until spring 2027, a break from the usual September cadence, and Engadget reports the cheaper models are likely to cost more because of surging RAM and chip prices. Apple will also confirm release dates for iOS 27, which includes a Passwords app feature that can change your passwords automatically."
-   ],
-   "sources": [
-    [
-     "9to5Mac",
-     "https://9to5mac.com/2026/09/03/apple-will-launch-six-major-new-products-next-week-heres-whats-coming/"
-    ],
-    [
-     "MacRumors",
-     "https://www.macrumors.com/2026/08/27/apple-event-announced-six-new-products/"
-    ],
-    [
-     "Engadget",
-     "https://www.engadget.com/2249734/apple-products-being-discontinued-left-behind-2026/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "Hands-on with Dyson's $499 CameraJet toothbrush at IFA",
-   "summary": "Dyson's first oral care product combines a brush, a water flosser and a camera that scans 28 frames a second to fire water between teeth, and Engadget tried it on a set of fake teeth.",
-   "body": [
-    "Dyson's CameraJet was the headline of the company's ten-product unveiling around IFA, and Engadget got a demo on Friday, albeit on model teeth rather than its own. The $499 device pairs a brush head with a water jet that an onboard camera triggers as it passes each gap, analysing 28 live images a second. It went on sale on 1 September in the US, UK, France, Australia and Japan.",
-    "TechRadar has already reviewed it after a week of use and called it an effective if pricey solution, noting the camera doubles as a dental endoscope so you can see what you missed. Dyson also showed new robot vacuums, haircare devices and a very large air purifier at the same event."
-   ],
-   "sources": [
-    [
-     "Engadget",
-     "https://www.engadget.com/2250930/dyson-camerajet-toothbrush-hands-on-ifa-2026/"
-    ],
-    [
-     "Engadget",
-     "https://www.engadget.com/2248230/dyson-camerajet-is-a-500-three-in-one-toothbrush-that-scans-your-maw/"
-    ],
-    [
-     "TechRadar",
-     "https://www.techradar.com/tech/icymi-the-7-biggest-tech-stories-of-the-week-from-the-best-gadgets-of-ifa-2026-to-gpt-6-astra-and-the-agi-era"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "Anker's SleepLab Pro speaker tracks your sleep with radar",
-   "summary": "The Soundcore SleepLab Pro uses a 60 GHz radar to log heart rate, breathing and sleep stages without a wearable, and learns which sounds and light settings actually put you to sleep.",
-   "body": [
-    "Anker used IFA to show the Soundcore SleepLab Pro, a bedside speaker with a pop-up 60 GHz radar that monitors respiratory rate, heart rate and sleep stages from the nightstand. It plays soothing audio and dims a built-in light gradually, then records which combination worked so you can return to it.",
-    "Anker says the radar can distinguish you from a partner in the same bed. Gizmodo's reporters were sceptical about how contactless tracking compares with a ring or watch that infers sleep from body data. The speaker ships later this year and no price has been announced."
-   ],
-   "sources": [
-    [
-     "Gizmodo",
-     "https://gizmodo.com/ankers-new-smart-speaker-watches-you-sleep-2000806149"
-    ],
-    [
-     "Gizmodo",
-     "https://gizmodo.com/live-updates-from-ifa-2026-in-berlin-2000800025"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "Sonos bets on Ace Ultra headphones and Beam Ultra soundbar",
-   "summary": "Sonos CEO Tom Conrad told TechRadar the $449 Ace Ultra and $699 Beam Ultra, on sale 29 September, are the start of a comeback after two years of software trouble.",
-   "body": [
-    "Sonos announced the Ace Ultra headphones at $449 and the compact Beam Ultra soundbar at $699 on 1 September, with pre-orders open and shipping on 29 September. The Beam Ultra adds up-firing drivers for what Sonos calls true 7.1.2 Dolby Atmos in the same footprint as the old Beam, while the Ace Ultra gets a new driver, next-generation adaptive noise cancelling and a direct Wi-Fi link into the Sonos system.",
-    "In an interview published this weekend, Conrad said the new hardware runs on an AI-infused operating system spanning the whole Sonos range, with opt-in features including a ChatGPT tie-in. Reviewers still note the absence of DTS:X support."
-   ],
-   "sources": [
-    [
-     "TechRadar",
-     "https://www.techradar.com/tech/icymi-the-7-biggest-tech-stories-of-the-week-from-the-best-gadgets-of-ifa-2026-to-gpt-6-astra-and-the-agi-era"
-    ],
-    [
-     "Engadget",
-     "https://www.engadget.com/2248155/sonos-unveils-new-beam-ultra-soundbar-with-true-7-1-2-dolby-atmos/"
-    ],
-    [
-     "Sonos",
-     "https://newsroom.sonos.com/269788-sonos-welcomes-beam-ultra-and-sonos-ace-ultra-to-its-system/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "EVs & Mobility",
-   "h3": "NHTSA opens audit of Tesla Cybercab a day after Austin launch",
-   "summary": "Regulators want to see how Tesla self-certified a car with no steering wheel, pedals or mirrors, in a query covering an estimated 1,000 vehicles opened the same day paid rides began.",
-   "body": [
-    "NHTSA's Office of Defects Investigation opened Audit Query AQ26002 on 3 September, the day Tesla started carrying passengers in the two-seat Cybercab in Austin. The filing says it was prompted by public information and covers about 1,000 vehicles. The agency is examining the technical basis on which Tesla declared the Cybercab compliant with federal safety standards, and specifically how far that relied on Tesla deciding certain standards do not apply to a car without human controls.",
-    "US automakers self-certify rather than get pre-approval, but many standards assume a wheel, pedals and mirrors. Tesla told NHTSA the car meets all applicable rules and that it will expand deployment gradually. The launch itself had no livestream or Musk remarks, with early riders reportedly signing NDAs. Tesla's FSD software is separately under an NHTSA probe covering 3.2 million vehicles."
-   ],
-   "sources": [
-    [
-     "Electrek",
-     "https://electrek.co/2026/09/04/tesla-cybercab-nhtsa-investigation-fmvss-certification/"
-    ],
-    [
-     "Electrek",
-     "https://electrek.co/2026/09/03/tesla-opens-search-for-cybercab-fleet-sales-but-fsd-owners-are-still-left-out/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "EVs & Mobility",
-   "h3": "Tesla FSD v14.3.9 can now take the wheel from a human driver",
-   "summary": "A new active safety feature lets FSD Supervised engage on its own to steer around an imminent collision when braking is not enough, or when it thinks the driver is badly distracted.",
-   "body": [
-    "Tesla's AI team said on Friday that FSD Supervised v14.3.9 is starting to roll out with a feature that activates without the driver's input when a crash looks imminent and automatic emergency braking alone may not prevent it. The system can take directional control and steer around an obstacle. It may also engage if the car judges the driver to be heavily distracted or FSD was disengaged by accident.",
-    "Until now FSD only ran when switched on. A slice of the v14 stack will now sit in the background during manual driving. Tesla has not said whether owners can disable it or how the car decides steering is safer than braking, questions Electrek raised given documented cases of v14 swerving unexpectedly."
-   ],
-   "sources": [
-    [
-     "Electrek",
-     "https://electrek.co/2026/09/04/tesla-fsd-active-safety-collision-avoidance/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "EVs & Mobility",
-   "h3": "VW plans 100,000 job cuts and may stop building EVs at four plants",
-   "summary": "Volkswagen's supervisory board approved its Future Plan 2030 on Thursday, adding 50,000 job cuts and leaving Emden, Zwickau, Hanover and Audi Neckarsulm without new models after 2031 to 2034.",
-   "body": [
-    "Volkswagen's supervisory board unanimously approved a sweeping cost plan on Thursday 3 September that calls for fewer workers, models, options, managers and investments as the group tries to catch up with faster-moving Chinese rivals. A further 50,000 positions will go worldwide, taking total planned reductions to around 100,000.",
-    "Four German sites, Emden, Zwickau, Hanover and Audi's Neckarsulm plant, have no vehicle allocations lined up once current models run out at staggered dates between 2031 and 2034. VW said it cannot currently guarantee competitive production there, which could mean the end of EV assembly at those factories."
-   ],
-   "sources": [
-    [
-     "Electrek",
-     "https://electrek.co/2026/09/03/vw-to-cut-100k-jobs-and-may-stop-building-evs-at-4-plants/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "EVs & Mobility",
-   "h3": "Ford targets 100,000 Fathom sales in the $30k truck's first year",
-   "summary": "The Wall Street Journal reports Ford has set an internal goal that would make the sub-$30,000 electric pickup the best-selling non-Tesla EV in America when production starts in early 2027.",
-   "body": [
-    "Ford wants to sell 100,000 of its upcoming Fathom electric pickup in its first year on sale, according to people cited by the Wall Street Journal. No automaker other than Tesla has moved more than 100,000 units of a single EV in a year in the US, so hitting the target would put the Fathom third in the national EV sales table.",
-    "The truck was developed at a skunkworks operation focused on cheaper manufacturing, uses a NACS charging port and is due to start production in the first quarter of 2027 at a price just under $30,000. Ford's previous electric pickup, the F-150 Lightning, launched well above its promised price and was eventually cancelled despite outselling the Cybertruck."
-   ],
-   "sources": [
-    [
-     "Electrek",
-     "https://electrek.co/2026/09/03/ford-wants-to-sell-100000-fathoms-in-the-30k-ev-trucks-first-year/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "EVs & Mobility",
-   "h3": "Rivian ships RivianOS 2 with Unreal Engine 5 and police alerts",
-   "summary": "Update 2026.31 puts every R1 and R2 on one software stack for the first time, with a rebuilt interface, real-time speed camera warnings and an AI layer called Unified Intelligence.",
-   "body": [
-    "Rivian began rolling out RivianOS 2 on Friday 4 September, its biggest in-car software overhaul since the first R1 shipped. Version 2026.31 brings a redesigned interface, real-time 3D visualisations rendered in Unreal Engine 5 on the R2 and second-generation R1, plus live police and speed-camera alerts.",
-    "The update ends a period in which first-gen R1, second-gen R1 and R2 software had drifted apart. Hardware still sets limits, so original R1s stay on Unreal Engine 4 to keep performance up. Rivian has also confirmed lidar and an in-house chip for R2 advanced driving later in the year."
-   ],
-   "sources": [
-    [
-     "Electrek",
-     "https://electrek.co/2026/09/04/rivian-rivianos-2-software-update-r1-r2/"
-    ],
-    [
-     "InsideEVs",
-     "https://insideevs.com/rivian/r2/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Software & Services",
-   "h3": "IKEA launches Liljebagge, its first Matter smart radiator thermostat",
-   "summary": "The Liljebagge fastens to a radiator and controls it via app or on-device buttons, with Matter and Thread support, at what TechRadar calls an impressively affordable price.",
-   "body": [
-    "IKEA has added a smart radiator thermostat to its growing line of low-cost smart home gear. The Liljebagge attaches to a radiator valve and lets you set the temperature of each room independently through the connected app or buttons on the unit itself.",
-    "It supports Matter and Thread, so it works with Apple, Google and Amazon ecosystems as well as IKEA's own hub. International availability and pricing beyond the initial markets have not been confirmed, though TechRadar expects a worldwide rollout before the heating season."
-   ],
-   "sources": [
-    [
-     "TechRadar",
-     "https://www.techradar.com/tech/icymi-the-7-biggest-tech-stories-of-the-week-from-the-best-gadgets-of-ifa-2026-to-gpt-6-astra-and-the-agi-era"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Software & Services",
-   "h3": "Google Meet and Microsoft Teams rooms will finally talk to each other",
-   "summary": "Google's Workspace weekly recap for 4 September adds device interoperability between Meet and Teams hardware, plus admin audit logs for Gemini Notebook.",
-   "body": [
-    "Google's Workspace Updates recap published on Friday 4 September introduces video conferencing device interoperability between Google Meet and Microsoft Teams, so meeting room hardware certified for one platform can join calls on the other without workarounds.",
-    "The same release gives Workspace administrators full audit logs for Gemini Notebook in the Admin console, showing how the AI notebook is used across an organisation. Both changes are aimed at large customers running mixed Google and Microsoft estates."
-   ],
-   "sources": [
-    [
-     "Google Workspace Updates",
-     "https://workspaceupdates.googleblog.com/2026/09/weekly-recap-09-04-2026.html"
-    ]
-   ]
-  }
- ]
+  "sports": [
+    {
+      "hero": true,
+      "sub": "Tennis",
+      "h3": "Alcaraz crushes Paul, Tiafoe topples Medvedev on US Open Sunday",
+      "summary": "Carlos Alcaraz beat Tommy Paul 6-4 6-3 6-4 to reach a sixth straight US Open quarter-final on Sunday 6 September, while Frances Tiafoe knocked out seventh seed Daniil Medvedev to set up an all-American last-eight tie with Alex Michelsen.",
+      "body": [
+        "Defending champion Carlos Alcaraz needed two hours and 20 minutes on Arthur Ashe Stadium on Sunday 6 September to beat 20th seed Tommy Paul 6-4 6-3 6-4. In his first event in four months after a wrist injury, the Spaniard has dropped one set in four rounds, extended his winning run at the majors to 18 matches and leads Paul 7-2 head-to-head.",
+        "On Louis Armstrong Stadium, 11th seed Frances Tiafoe produced the upset of the day, beating 2021 champion Daniil Medvedev 7-6(1) 6-4 7-6 for his fourth US Open quarter-final. He faces compatriot Alex Michelsen, who beat Tomas Etcheverry 7-6 6-4 6-4 to reach his first Grand Slam quarter-final at 22. Alcaraz meets the winner of Ben Shelton against Stefanos Tsitsipas."
+      ],
+      "sources": [
+        [
+          "ATP Tour",
+          "https://www.atptour.com/en/news/alcaraz-paul-us-open-2026-sunday-r4"
+        ],
+        [
+          "TennisTemple",
+          "https://en.tennistemple.com/actu/tiafoe-downs-medvedev-joins-michelsen-in/hffJ"
+        ],
+        [
+          "ESPN",
+          "https://www.espn.com/tennis/story/_/id/49852862/25-champ-carlos-alcaraz-cruises-quarterfinals-us-open"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Tennis",
+      "h3": "Sabalenka survives Townsend test, Noskova outlasts Kostyuk",
+      "summary": "World number one Aryna Sabalenka beat Taylor Townsend 6-4 6-3 in 75 minutes on Sunday to reach a sixth straight US Open quarter-final, where she will meet Wimbledon champion Linda Noskova.",
+      "body": [
+        "Aryna Sabalenka's bid for a third consecutive US Open title survived a scrappy test on Sunday 6 September. The opening set against home favourite Taylor Townsend featured seven breaks of serve in ten games, and Townsend led 3-1 in the second before the top seed won five straight games to close out a 6-4 6-3 win, her 17th in a row in New York.",
+        "Sabalenka needs the title, plus an early exit for second seed Elena Rybakina, to keep the number one ranking. Next up is sixth seed Linda Noskova, who outlasted Marta Kostyuk 7-5 5-7 6-4 in two hours and 27 minutes. The bottom half is wide open after Saturday's exits for Madison Keys and Amanda Anisimova, with Jessica Pegula, Anna Kalinskaya and Emma Navarro playing Sunday night."
+      ],
+      "sources": [
+        [
+          "WTA",
+          "https://www.wtatennis.com/news/4572925/sabalenka-passes-townsend-test-to-return-to-us-open-quarters"
+        ],
+        [
+          "ESPN",
+          "https://www.espn.com/tennis/story/_/id/49850415/sabalenka-overpowers-townsend-reach-us-open-quarterfinals"
+        ],
+        [
+          "Tennis Tonic",
+          "https://tennistonic.com/tennis-news/1052161/linda-noskova-conquers-kostyuk-in-the-4th-round-at-the-u-s-open-u-s-open-results-highlights/"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Formula 1",
+      "h3": "Antonelli charges from 19th to Monza win, first Italian home winner since 1966",
+      "summary": "Kimi Antonelli overturned an engine penalty to win the Italian Grand Prix on Sunday 6 September, passing Mercedes teammate George Russell on lap 50 of 53 and stretching his championship lead to 66 points.",
+      "body": [
+        "Kimi Antonelli delivered one of the great Monza drives on Sunday 6 September. Starting 19th after a power unit penalty, the 20-year-old Mercedes driver was sixth by the restart after an early red flag and took the lead from teammate George Russell on lap 18. He pitted for fresh mediums under a Virtual Safety Car while Russell stayed out, then made the winning pass on lap 50.",
+        "Antonelli crossed the line 3.857 seconds clear to become the first Italian to win his home grand prix since Ludovico Scarfiotti in 1966. It was his seventh win of the season and stretched his championship lead over Russell to 66 points. Max Verstappen completed the podium for Red Bull, Lando Norris took fourth from Oscar Piastri and Lewis Hamilton salvaged sixth for Ferrari."
+      ],
+      "sources": [
+        [
+          "Formula1.com",
+          "https://www.formula1.com/en/latest/article/antonelli-beats-russell-to-italian-grand-prix-win-with-stunning-comeback-drive.15WtFEBT5JEe4drdeO88t2"
+        ],
+        [
+          "PlanetF1",
+          "https://www.planetf1.com/news/2026-italian-grand-prix-f1-race-results"
+        ],
+        [
+          "Sky Sports",
+          "https://www.skysports.com/f1/news/12433/13582217/italian-gp-kimi-antonelli-sensationally-wins-thrilling-monza-race-from-george-russell-and-max-verstappen"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Formula 1",
+      "h3": "Leclerc walks away from huge Parabolica crash as Ferrari's home race unravels",
+      "summary": "Charles Leclerc crashed heavily at the exit of the Parabolica on lap two of the Italian Grand Prix, bringing out a red flag and leaving Ferrari with a single sixth place at Monza.",
+      "body": [
+        "Ferrari's home weekend collapsed within minutes on Sunday 6 September. Charles Leclerc, running fourth after squeezing teammate Lewis Hamilton onto the gravel at the first chicane, was defending from Oscar Piastri through the Parabolica when the rear of his SF-26 snapped away. The car hit the tyre barrier hard enough to destroy part of it and the race was stopped. Leclerc climbed out unaided.",
+        "The stoppage brought a standing restart with George Russell leading from pole-sitter Pierre Gasly. Hamilton, tenth after the Turn 1 incident, recovered to sixth but called the clash with his teammate far too close for comfort. Leclerc said he had fought a loss of rear grip from the first corner. With McLaren fourth and fifth, Ferrari's deficit to the top three was laid bare."
+      ],
+      "sources": [
+        [
+          "The Race",
+          "https://www.the-race.com/formula-1/f1-2026-italian-gp-red-flag-charles-leclerc-crash-ferrari/"
+        ],
+        [
+          "Formula1.com",
+          "https://www.formula1.com/en/latest/article/leclerc-explains-monza-crash-as-he-reacts-to-way-too-close-hamilton-battle.5tBJS6iY8muL6Um6cgcnvS"
+        ],
+        [
+          "PlanetF1",
+          "https://www.planetf1.com/news/charles-leclerc-italian-grand-prix-2026-crash-red-flag"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Formula 1",
+      "h3": "Verstappen takes podium despite straight-line deficit, Gasly fades to seventh",
+      "summary": "Max Verstappen finished third at Monza after briefly leading, saying Red Bull's lack of energy deployment cost a lot, while pole-sitter Pierre Gasly slipped to seventh for Alpine.",
+      "body": [
+        "Max Verstappen turned fifth on the grid into a podium on Sunday 6 September and even led the Italian Grand Prix for several laps after the restart before both Mercedes swept past. He said Red Bull was too slow on the straights for lack of electrical deployment, forcing late braking and outside passes. Crumbling tarmac at Turn 2 also threw debris into his path. Liam Lawson finished 14th.",
+        "Pierre Gasly's fairytale lasted a handful of laps. The Frenchman led from his first career pole at the original start but faded to seventh after the red flag, with Alpine teammate Franco Colapinto ninth. Arvid Lindblad took eighth for Racing Bulls and Yuki Tsunoda the final point. Both Aston Martins retired, Lance Stroll's hydraulics failure triggering the race-deciding Virtual Safety Car."
+      ],
+      "sources": [
+        [
+          "Formula1.com",
+          "https://www.formula1.com/en/latest/article/verstappen-happy-with-podium-in-italian-grand-prix-as-he-details-issue-that-cost-us-a-lot.1QDh0N4WCfa4TjnOq6J8g1"
+        ],
+        [
+          "GPFans",
+          "https://www.gpfans.com/en/f1-news/1089953/f1-max-verstappen-italian-grand-prix-monza-red-bull-broken-track/"
+        ],
+        [
+          "NL Times",
+          "https://nltimes.nl/2026/09/06/max-verstappen-finishes-third-italian-grand-prix-mercedes-drivers-take-top-two"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Sailing",
+      "h3": "Canfield's US team snatch SailGP Valencia final as Spain crash out at home",
+      "summary": "Taylor Canfield's United States crew beat Tom Slingsby's Australians on the final turn to win the Spain Sail Grand Prix in Valencia on Sunday 6 September, while home team Los Gallos missed the final.",
+      "body": [
+        "The Spain Sail Grand Prix in Valencia ended dramatically on Sunday 6 September. Taylor Canfield's United States SailGP Team trailed Australia's Bonds Flying Roos for almost the entire four-boat final, but when the Australians stalled off their foils in a patchy 13 to 14 km/h breeze the Americans grabbed the inside line at the last mark and won by eleven seconds.",
+        "The US team collected the 400,000 dollar event prize and climbed from fourth to third in the standings on 56 points, one ahead of Artemis. Red Bull Italy, driven by Phil Robertson, took third for a first event podium. Diego Botin's Spanish Los Gallos finished last in the decisive race on home water. Slingsby's Australians lead on 85 points with three events left, starting in Geneva on 19 September."
+      ],
+      "sources": [
+        [
+          "Sail-World",
+          "https://www.sail-world.com/news/299526/US-team-win-Spain-Sail-Grand-Prix-Valencia"
+        ],
+        [
+          "Boating New Zealand",
+          "https://www.boatingnz.co.nz/2026/09/sailgp-spain-sail-grand-prix-valencia-the-final-and-what-the-whole-event-told-us/"
+        ],
+        [
+          "Sailweb",
+          "https://www.sailweb.co.uk/2026/09/06/us-sailgp-snatch-valencia-grand-prix-victory-with-final-mark-shut-out"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Sailing",
+      "h3": "Black Foils sink in Valencia as Maxi Yacht Rolex Cup opens in Porto Cervo",
+      "summary": "Peter Burling's New Zealand crew finished last in their SailGP group in Valencia, while nearly 40 maxis over 60 feet began racing for two world titles at the Maxi Yacht Rolex Cup on Sunday 6 September.",
+      "body": [
+        "It was a weekend to forget for the Black Foils. Peter Burling's New Zealand team finished bottom of Group A after Saturday's six races in Valencia and sit 12th in the SailGP standings on 21 points. The team blamed a lack of light-air time after months lost to February's collision with the French boat in Auckland. Artemis, despite a broken jib halyard, still reached final contention.",
+        "In Sardinia, the Maxi Yacht Rolex Cup opened from Porto Cervo on Sunday 6 September. Organised by the Yacht Club Costa Smeralda with the International Maxi Association, it runs until 12 September and doubles as the Rolex IMA Maxi 1 and Maxi Grand Prix World Championships. Close to 40 yachts over 60 feet are entered, with the WallyCento Galateia and Django 7X defending titles."
+      ],
+      "sources": [
+        [
+          "Boating New Zealand",
+          "https://www.boatingnz.co.nz/2026/09/black-foils-need-big-sunday-after-valencia-start-struggles/"
+        ],
+        [
+          "Yacht Club Costa Smeralda",
+          "https://www.yccs.it/regate-2026/maxi_yacht_rolex_cup-3344/doc-1656/bando_di_regata"
+        ],
+        [
+          "Live Sail Die",
+          "https://www.livesaildie.com/world-class-yachting-returns-to-porto-cervo-this-september-with-the-maxi-yacht-rolex-cup-and-rolex-swan-cup/"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Football",
+      "h3": "PSV win first topper of the season 3-1 at Ajax as Van Bommel escapes red",
+      "summary": "Ricardo Pepi, debutant Lutsharel Geertruida and Esmir Bajraktarevic scored as champions PSV beat Ajax 3-1 in the Johan Cruijff ArenA on Saturday 5 September, leaving Ajax winless at home this season.",
+      "body": [
+        "PSV took just four minutes to lead in Amsterdam on Saturday 5 September, Ricardo Pepi nodding in after Ruben van Bommel headed Ivan Perisic's cross back across goal. Tolu Arokodare levelled for Ajax in the 23rd minute and Steven Berghuis and Davy Klaassen wasted clear chances before debutant Lutsharel Geertruida volleyed PSV back in front with the last kick of the first half.",
+        "The second half was marked by an ugly body check from Van Bommel that caught Ajax defender Aaron Bouwman in the face. Referee Sander van der Eijk showed only yellow, sparking a confrontation on the benches. Substitute Esmir Bajraktarevic sealed the 3-1 win in stoppage time. Ajax have gone five home league games without a win and trail PSV by six points with a game in hand."
+      ],
+      "sources": [
+        [
+          "NL Times",
+          "https://nltimes.nl/2026/09/05/psv-win-first-topper-eredivisie-season-beating-ajax-3-1-amsterdam"
+        ],
+        [
+          "ESPN",
+          "https://www.espn.com/soccer/match/_/gameId/401875618"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Football",
+      "h3": "Feyenoord win 3-1 at NEC without Hadj Moussa ahead of Barcelona test",
+      "summary": "Gjivai Zechiel scored once and set up two more as Feyenoord beat NEC 3-1 in Nijmegen on Saturday 5 September, with Anis Hadj Moussa left out for turning up late twice.",
+      "body": [
+        "Feyenoord bounced back from their 2-2 draw with ADO Den Haag by winning 3-1 at NEC on Saturday 5 September. After a quiet first half, NEC's Dortmund loanee Almugera Kabar miscontrolled in his own half and Gjivai Zechiel converted Nacho Ferri's assist for his fourth league goal of the season. Darko Nejasmic replied almost immediately with a superb left-footed strike from distance.",
+        "Zechiel then set up Luciano Valente for 2-1 just after the hour and debutant Jerayno Schaken added a late third. Coach Giovanni van Bronckhorst left Anis Hadj Moussa at the hotel for disciplinary reasons after the Algerian winger was late twice, amid reported interest from Al-Ittihad. Feyenoord have 11 points from five games and open their Champions League campaign at home to Barcelona on Wednesday."
+      ],
+      "sources": [
+        [
+          "NL Times",
+          "https://nltimes.nl/2026/09/05/feyenoord-climb-second-3-1-win-away-nec-nijmegen"
+        ],
+        [
+          "Rijnmond",
+          "https://www.rijnmond.nl/nieuws/2249194/lees-terug-feyenoord-wint-na-prachtige-doelpunten-van-nec-1-3"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Football",
+      "h3": "Keeper Koeman Jr scores twice, Utrecht fans force abandonment, AZ stay top",
+      "summary": "Telstar goalkeeper Ronald Koeman Jr converted two penalties in a 2-2 draw with Cambuur on Sunday, while FC Utrecht's match against Go Ahead Eagles was suspended after fans threw fireworks and cups.",
+      "body": [
+        "Telstar goalkeeper Ronald Koeman Jr made Eredivisie history on Sunday 6 September as the first keeper to score twice in one league match. Down to ten men after an early red card for Nokkvi Thorisson and trailing 2-0 at newly promoted Cambuur, Telstar won two penalties. Koeman buried the first in the 63rd minute and the second in the 101st. Cambuur stay bottom.",
+        "Saturday's game between FC Utrecht and Go Ahead Eagles was abandoned with 25 minutes left after Utrecht fans twice disrupted play, first with fireworks at 3-0 down and then with plastic cups. The remainder is played behind closed doors on Tuesday. AZ kept a perfect record with a 3-2 comeback win at Heerenveen to stay two points clear of PSV. Excelsior won 3-0 at Willem II."
+      ],
+      "sources": [
+        [
+          "NL Times",
+          "https://nltimes.nl/2026/09/06/fc-utrecht-fans-get-match-suspended-telstar-keeper-breaks-record-scoring-twice"
+        ],
+        [
+          "FCUpdate",
+          "https://www.fcupdate.nl/voetbalcompetities/nederland/eredivisie/programma-uitslagen"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "BJJ & Judo",
+      "h3": "World Master wraps in Las Vegas as ADCC 2026 countdown hits final week",
+      "summary": "The IBJJF World Master Championship concluded its three-day run in Las Vegas on Saturday 5 September, with attention now turning to the ADCC World Championship in Krakow on 12 and 13 September.",
+      "body": [
+        "The 2026 IBJJF World Master Championship closed on Saturday 5 September after three days at the Las Vegas Convention Center, run alongside the Jiu-Jitsu Con festival. Saturday's final day was headlined by the black belt Master 1 and Master 2 brackets, following Friday's purple and senior black belt divisions. FloGrappling streamed all three days and the IBJJF database carries every bracket.",
+        "The grappling calendar now pivots to Krakow, where the ADCC World Championship takes place at Tauron Arena on 12 and 13 September, preceded by the bracket reveal on Friday 11 September. Five men's divisions of 16 and three women's divisions of eight will compete, with Brazil's Micael Galvao favoured to defend his 2024 title. Fight to Win 324 runs on the Saturday night."
+      ],
+      "sources": [
+        [
+          "FloGrappling",
+          "https://www.flograppling.com/articles/16158306-ibjjf-world-master-sept-5-schedule-final-day"
+        ],
+        [
+          "FloGrappling",
+          "https://www.flograppling.com/articles/16157469-ibjjf-master-worlds-2026-results-every-weight-division-and-belt"
+        ],
+        [
+          "FloGrappling",
+          "https://www.flograppling.com/articles/16048196-when-is-the-2026-adcc-world-championships"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "BJJ & Judo",
+      "h3": "Judo heads for Budapest Grand Slam as Baku Worlds loom in October",
+      "summary": "Continental opens in San Salvador and Podgorica filled the judo weekend of 5 and 6 September, with the Hungary Grand Slam in Budapest from 11 to 13 September the last major before the World Championships in Baku.",
+      "body": [
+        "The IJF World Tour had a quiet weekend on 5 and 6 September, with the action spread across smaller ranking events. A continental open in San Salvador drew 141 judoka from 16 nations, while a second open in Podgorica on Sunday featured 128 athletes from 12 countries. Both were streamed on JudoTV and count towards the 2026 world ranking season.",
+        "The next stop is the Hungary Grand Slam in Budapest from 11 to 13 September, with 547 judoka from 71 countries entered. It is the final Grand Slam before the 2026 World Judo Championships in Baku from 4 to 11 October, so most contenders will use it as a last test. Dutch fans will watch the women's -70 kg and -78 kg divisions and the men's +100 kg class."
+      ],
+      "sources": [
+        [
+          "IJF",
+          "https://www.ijf.org/competition/3155"
+        ],
+        [
+          "IJF",
+          "https://www.ijf.org/news/show/baku-set-to-host-the-2026-world-judo-championships"
+        ],
+        [
+          "JudoTV",
+          "https://judotv.com/"
+        ]
+      ]
+    }
+  ],
+  "consumer-tech": [
+    {
+      "hero": true,
+      "sub": "Devices & Launches",
+      "h3": "Apple's Surprise and Shine event on Wednesday: foldable iPhone Ultra headlines",
+      "summary": "Apple holds its September event on Wednesday 9 September at 19:00 Dutch time, with a 2,000 dollar-plus foldable iPhone Ultra, the iPhone 18 Pro and Pro Max, two Apple Watches and AirPods 5 expected, and new CEO John Ternus hosting for the first time.",
+      "body": [
+        "Apple's biggest launch in years takes place on Wednesday 9 September at 19:00 Dutch time. The headline act is the company's first foldable, tipped to be called iPhone Ultra: a book-style device with a 5.5-inch outer display opening to about 7.8 inches, Touch ID in the side button and a 2nm A20 Pro chip. TrendForce estimates a starting price of 2,099 dollars.",
+        "The iPhone 18 Pro and Pro Max keep last year's shape but add a variable aperture camera and a smaller Dynamic Island, with prices expected to rise by 100 to 300 dollars. The standard iPhone 18 slips to spring 2027. Also expected: Apple Watch Series 12, Watch Ultra 4 and AirPods 5. It is John Ternus's first keynote as CEO since Tim Cook stepped down."
+      ],
+      "sources": [
+        [
+          "MacRumors",
+          "https://www.macrumors.com/guide/apple-september-2026-what-to-expect/"
+        ],
+        [
+          "9to5Mac",
+          "https://9to5mac.com/2026/09/03/apple-will-launch-six-major-new-products-next-week-heres-whats-coming/"
+        ],
+        [
+          "MacRumors",
+          "https://www.macrumors.com/2026/09/03/iphone-ultra-features-price-specs/"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "IFA 2026 wraps: somersaulting robots, sleep earbuds and a bezel-less phone",
+      "summary": "Europe's biggest consumer electronics show ran in Berlin from 4 to 8 September, with TechRadar and Gizmodo handing out best-of awards to Agibot's A3 humanoid, Anker's sleep tech, DJI's new cameras and Tecno's bezel-free concept phone.",
+      "body": [
+        "IFA Berlin, which ran from 4 to 8 September, was one of the stronger editions in years according to outlets that walked the halls. TechRadar's 25 Best in Show picks included the 55 kg Agibot A3 humanoid that can somersault and perform in swarms of up to 100 units, the sub-2,000 dollar Hypershell X Ultra S exoskeleton and JMGO's 4K 120Hz Iris Ultra Max projector.",
+        "Gizmodo's awards, published on Saturday 5 September, went to Tecno's working bezel-less concept phone, the Xiaomi 18 Fold, Eufy's 35,000 Pa Omni E35 robot vacuum, Beyerdynamic's 150 dollar Aventho Y headphones with 90 hours of battery and iRobot's Roomba Duo concept, which releases a smaller robot from its head. Robot lawnmowers with edge-trimming arms and plug-in solar batteries for renters were recurring themes."
+      ],
+      "sources": [
+        [
+          "TechRadar",
+          "https://www.techradar.com/tech/ifa-2026-best-in-show-awards-our-25-favorite-reveals-at-the-berlin-tech-expo-from-somersaulting-robots-to-modular-solar-batteries-for-renters"
+        ],
+        [
+          "Gizmodo",
+          "https://gizmodo.com/gizmodos-best-of-ifa-2026-awards-see-the-winners-2000800027"
+        ],
+        [
+          "IFA Berlin",
+          "https://www.ifa-berlin.com/"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "Lenovo's Project Swan rolls a 14-inch laptop out to 17 inches sideways",
+      "summary": "Lenovo used IFA to show a laptop whose flexible display extends horizontally into a 17-inch ultrawide, alongside a 990 g ThinkBook and a fanless 830 g concept, while Lexar claimed the world's thinnest SSD at 3.8 mm.",
+      "body": [
+        "Lenovo dominated the PC news out of Berlin. Project Swan is a concept 14-inch laptop that hides a flexible panel in its lid and unfurls sideways into a 17-inch ultrawide, a twist on the vertical rollable Lenovo already sells. It also showed the fanless sub-830 g Project AeroBlade and shipped the 990 g ThinkBook 14x Gen 2 with Intel Core 7 Series 3 chips.",
+        "Elsewhere, Lexar's Muse SSD tapers from 3.8 mm to 1 mm and ships with a MagSafe sleeve to record 4K ProRes from an iPhone. Belkin introduced 5,000 and 10,000 mAh semi-solid-state power banks it says last three times longer than conventional cells. Acer's Swift Blade 14 claims the lightest laptop title and Alienware showed a 500 Hz tandem OLED. Nvidia RTX Spark laptops arrive in October."
+      ],
+      "sources": [
+        [
+          "TechRadar",
+          "https://www.techradar.com/pro/lenovos-project-swan-rolls-a-14-inch-laptop-out-to-17-inches-sideways-that-is-already-lighter-than-the-rollable-you-can-buy-today"
+        ],
+        [
+          "TechRadar",
+          "https://www.techradar.com/computing/storage-backup/lexar-muse-claims-worlds-thinnest-portable-ssd-title-at-3-8mm-thick-but-it-swaps-usb-c-for-a-bespoke-magnetic-connector"
+        ],
+        [
+          "Gizmodo",
+          "https://gizmodo.com/lenovos-aeroblade-concept-could-bring-us-laptops-that-weigh-less-than-two-pounds-2000805446"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "DJI doubles up: Osmo 360 II shoots 8K60 and Pocket 4P gets a second lens",
+      "summary": "DJI's IFA launches included the Osmo 360 II with 8K at 60 fps and replaceable lenses, and the Osmo Pocket 4P, the first dual-lens pocket gimbal camera with a 1-inch sensor and a 60 mm portrait lens.",
+      "body": [
+        "DJI used Berlin to refresh two of its most popular cameras. The Osmo 360 II adds 8K capture at 60 frames per second, a combination rivals still lack, along with better low-light performance and, for the first time, user-replaceable lenses so a scratched dome no longer means a dead camera. Gizmodo named it the best camera of the show.",
+        "The Osmo Pocket 4P is billed as the world's first dual-lens pocket gimbal. A 20 mm equivalent f/2.0 main lens sits on a new 1-inch sensor with 17 stops of dynamic range, paired with a 60 mm f/1.8 portrait lens offering 3x optical and up to 12x digital zoom. ActiveTrack can frame up to eight people. DJI also showed the legged Romo 2 robot vacuum, which steps over 4 cm obstacles."
+      ],
+      "sources": [
+        [
+          "Gizmodo",
+          "https://gizmodo.com/djis-new-360-camera-fixes-everything-wrong-with-the-first-one-2000806891"
+        ],
+        [
+          "TechRadar",
+          "https://www.techradar.com/tech/ifa-2026-best-in-show-awards-our-25-favorite-reveals-at-the-berlin-tech-expo-from-somersaulting-robots-to-modular-solar-batteries-for-renters"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Devices & Launches",
+      "h3": "Circular Ring 3 adds blood pressure and tap-to-pay in a smaller smart ring",
+      "summary": "Circular unveiled the Ring 3 in Slim and Pro versions at IFA, with NFC payments, vibration alerts, blood pressure monitoring and 12 days of battery life, features the Oura Ring 5 still lacks.",
+      "body": [
+        "French wearable maker Circular is going after Oura with the Ring 3, shown in Berlin in Slim and Pro versions. Both are smaller than last year's Ring 2 and add two features no mainstream smart ring offers: NFC for contactless payments and a vibration motor for silent alarms. Battery life is quoted at 12 days, up from seven, and the Pro adds blood pressure monitoring.",
+        "Sleep tech was a broader theme at IFA 2026. Anker's Soundcore SleepLab Pro is a bedside speaker that uses 60 GHz radar to track heart rate and sleep stages without a wearable or subscription, while its Sleep Earbuds 4 Pro pair in-ear sensors with a case that doubles as a sleep hub. Motorola's Moto Watch Ultra on Wear OS 6 gives Android users another option."
+      ],
+      "sources": [
+        [
+          "TechRadar",
+          "https://www.techradar.com/health-fitness/fitness-trackers/oura-on-notice-circular-ring-3-series-unveiled-with-blood-pressure-monitoring-and-contactless-payment"
+        ],
+        [
+          "Gizmodo",
+          "https://gizmodo.com/gizmodos-best-of-ifa-2026-awards-see-the-winners-2000800027"
+        ],
+        [
+          "TechRadar",
+          "https://www.techradar.com/health-fitness/sleep/anker-unveils-bedside-sleeplab-pro-speaker-with-60ghz-radar-subscription-free-sidekick-tracks-your-sleep-without-a-wearable"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "Google rolls out Gmail Live, Docs Live and Keep Live voice modes",
+      "summary": "Gemini-powered spoken conversations arrived in Gmail, Docs and Keep this week for paying Google AI subscribers, letting users triage an inbox, dictate a first draft or dump notes by talking.",
+      "body": [
+        "Google began rolling out the three Live features announced at I/O in May to Android and iOS this week. Gmail Live lets subscribers hold a spoken back-and-forth with their inbox, asking for details and following up without repeating context. It is available in English worldwide to Google AI Plus, Pro and Ultra subscribers. Docs Live casts Gemini as a hands-free co-writer drawing on Gmail, Drive and the web.",
+        "Keep Live, currently Android-only, listens to what Google calls audio brain dumps and turns a rambling stream of consciousness into structured notes and lists. The launch is part of a push to make voice the primary way to use Workspace on the move. TechRadar reports Google is also building a Canva-style design tool inside Workspace on its Nano Banana image model."
+      ],
+      "sources": [
+        [
+          "9to5Google",
+          "https://9to5google.com/2026/09/03/gmail-docs-keep-live/"
+        ],
+        [
+          "TechCrunch",
+          "https://techcrunch.com/2026/09/03/google-launches-ai-voice-features-in-gmail-docs-and-keep/"
+        ],
+        [
+          "TechRadar",
+          "https://www.techradar.com/pro/you-can-now-talk-to-gemini-directly-in-your-google-docs-drive-gmail-and-more"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "Update Chrome now: sixth zero-day of 2026 patched in 152 release",
+      "summary": "Google shipped Chrome 152.0.7977.82 for Windows, Mac and Linux fixing 12 flaws, including a V8 type confusion bug tracked as CVE-2026-85046 that is already being exploited in the wild.",
+      "body": [
+        "Google published a security advisory on Thursday 3 September announcing Chrome 152.0.7977.82 and .83 for Windows and Mac and .82 for Linux. The update closes a dozen vulnerabilities, ten rated high severity. The most urgent is CVE-2026-85046, a type confusion bug in the V8 JavaScript engine that lets a remote attacker run code inside the browser sandbox via a crafted page. Google confirms active exploitation.",
+        "The flaw was reported by researcher Salvatore Gulizia, who received a 1,000 dollar bounty. It is the sixth Chrome zero-day patched this year. Because the bug sits in V8, every Chromium-based browser is affected, so Edge, Brave, Opera and Vivaldi users should update once their vendors ship fixes. The rollout is staged, so users can force it via Help, then About Google Chrome."
+      ],
+      "sources": [
+        [
+          "TechRadar",
+          "https://www.techradar.com/pro/security/google-patches-multiple-browser-bugs-including-one-that-was-under-active-exploitation-so-update-now"
+        ],
+        [
+          "Google Chrome Releases",
+          "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01882797386.html"
+        ],
+        [
+          "The Hacker News",
+          "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "Software & Services",
+      "h3": "Windows 11 will switch on memory integrity by default, gamers grumble",
+      "summary": "Microsoft is using quality updates to enable memory integrity and Virtualization Based Security on eligible Windows 11 PCs, a move some gamers say costs them frame rates and 1 percent lows.",
+      "body": [
+        "Microsoft has confirmed that upcoming Windows 11 quality updates will automatically turn on memory integrity protection, also known as HVCI, on eligible devices, along with Virtualization Based Security where it is not yet active. The company framed the change as security built in rather than bolted on, hardening kernel-mode drivers. PCs where the feature was deliberately disabled, or managed by group policy, are exempt.",
+        "The reaction on Reddit and elsewhere has been split. VBS has long been blamed for gaming slowdowns, and some users report frame rate hits approaching 10 percent and worse stuttering in 1 percent lows even on high-end hardware. Others say the impact on modern platforms is negligible and secure defaults are right for a mass-market OS. TechRadar's Darren Allan sided with Microsoft, provided Windows tells users."
+      ],
+      "sources": [
+        [
+          "TechRadar",
+          "https://www.techradar.com/computing/windows/microsoft-wants-to-make-windows-11-secure-by-default-but-some-gamers-are-up-in-arms-about-this-security-feature-that-wrecks-their-frame-rates"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "Tesla Cybercab launches in Austin and lands under NHTSA audit on day one",
+      "summary": "Tesla began carrying passengers in its two-seat, steering-wheel-free Cybercab in Austin on Thursday 3 September, the same day US regulators opened an audit into how it self-certified the vehicle. Shares fell 6 percent on Friday.",
+      "body": [
+        "Tesla's long-promised Cybercab entered commercial service in Austin on Thursday 3 September with no livestream, no stage and no remarks from Elon Musk. A small group of shareholders and influencers rode first before the vehicle opened up through the Robotaxi app. The purpose-built two-seater has no steering wheel, pedals or mirrors and runs software closely related to Full Self-Driving.",
+        "The same day, NHTSA's Office of Defects Investigation opened Audit Query AQ26002 covering an estimated 1,000 Cybercabs. Because US automakers self-certify compliance, the agency wants the technical basis for Tesla's view that rules written around a human driver do not apply. It sits alongside an FSD probe covering 3.2 million vehicles. Tesla shares fell about 6 percent on Friday 4 September after the launch was judged underwhelming."
+      ],
+      "sources": [
+        [
+          "Electrek",
+          "https://electrek.co/2026/09/04/tesla-cybercab-nhtsa-investigation-fmvss-certification/"
+        ],
+        [
+          "CNBC",
+          "https://www.cnbc.com/2026/09/04/teslas-stock-drops-as-cybercab-update-underwhelms-nhtsa-probe.html"
+        ],
+        [
+          "Electrek",
+          "https://electrek.co/2026/09/04/tesla-fsd-active-safety-collision-avoidance/"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "RivianOS 2 unifies R1 and R2 software with Unreal Engine 5 graphics",
+      "summary": "Rivian began pushing version 2026.31 to R1 and R2 owners on Friday 4 September, its biggest software overhaul yet, with a rebuilt interface, speed camera alerts and a deeper AI assistant layer.",
+      "body": [
+        "Rivian's RivianOS 2 puts first-generation R1s, second-generation R1s and the new R2 on a single software stack for the first time. The update, numbered 2026.31, started reaching vehicles on Friday 4 September. The R2 and Gen 2 R1 render real-time 3D visualisations of the car in Unreal Engine 5, while Gen 1 trucks stay on Unreal Engine 4. The settings menu gains universal search.",
+        "Navigation adds Real-Time Route Alerts that fold police presence and speed-camera data into Google Maps, a clear nod to Waze. A weather app and Mobile Live Trips sit behind the 14.99 dollar a month Connect+ subscription. The Hey Rivian assistant uses hybrid edge compute on newer vehicles for lower latency. Electrek said the update shows why Volkswagen partnered with Rivian on software."
+      ],
+      "sources": [
+        [
+          "Electrek",
+          "https://electrek.co/2026/09/04/rivian-rivianos-2-software-update-r1-r2/"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "Norway hits 98.7 percent EV share as BYD posts record 440,293 August sales",
+      "summary": "August registration data showed battery electric cars at 98.7 percent of Norway's market, 85.9 percent in Denmark and a record 46.2 percent in Belgium, while BYD's overseas sales jumped 134 percent.",
+      "body": [
+        "Europe's electric transition set fresh records in August. In Norway, battery electric cars took 98.7 percent of new passenger registrations, led by the Volkswagen ID.4 and Toyota bZ4X, with Tesla's Model 3 slipping to seventh. Denmark reached 85.9 percent, Belgium recorded 46.2 percent and Spain's electrified share hit a record 27.7 percent. The Netherlands hovered around 50 percent.",
+        "BYD reported 440,293 new energy vehicle sales for August, its best month of 2026, with overseas deliveries up 134 percent year on year. In Germany the brand registered 5,256 cars, a rise of 372 percent, taking its eight-month total to 36,748. BYD and Xpeng together took 11.4 percent of Norway's market. BYD has also launched what it calls its biggest-ever UK sales event."
+      ],
+      "sources": [
+        [
+          "The Driven",
+          "https://thedriven.io/2026/09/03/evs-set-new-sales-records-across-europe-in-august-reach-98-7-pct-of-new-car-deliveries-in-norway/"
+        ],
+        [
+          "Electric Cars Report",
+          "https://electriccarsreport.com/2026/09/byd-august-2026-sales-hit-record-as-overseas-ev-demand-surges/"
+        ],
+        [
+          "ChinaEVHome",
+          "https://chinaevhome.com/2026/09/04/germanys-august-car-market-grows-2-6-as-byd-xpeng-post-triple-digit-growth/"
+        ]
+      ]
+    },
+    {
+      "hero": false,
+      "sub": "EVs & Mobility",
+      "h3": "Uber and Wayve launch Britain's first autonomous rides in London",
+      "summary": "From Thursday 3 September, London Uber riders can be matched with a Ford Mustang Mach-E driven by Wayve's AI at no extra cost, though a licensed safety driver remains behind the wheel for now.",
+      "body": [
+        "Uber and London-based Wayve switched on what they call the UK's first autonomous ride-hailing service on Thursday 3 September. Riders booking UberX, Uber Electric or Uber Comfort anywhere in London except airports may be offered an electric Mustang Mach-E fitted with the Wayve AI Driver. There is no surcharge and passengers can decline. More than 140,000 Londoners had already opted in.",
+        "A Transport for London-licensed driver stays behind the wheel ready to take over, so this is not yet a driverless robotaxi in the Waymo sense. Wayve has trained its end-to-end AI on London's roads since 2018. The launch follows Uber's investment in the start-up and a deal covering 12 global markets, with Nissan Leafs due in Tokyo later this year. Fully driverless services await the Automated Vehicles Act."
+      ],
+      "sources": [
+        [
+          "Electrek",
+          "https://electrek.co/2026/09/04/uber-just-launched-the-uks-first-autonomous-rides-in-london/"
+        ],
+        [
+          "TechRadar",
+          "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/want-a-ride-in-uber-and-wayves-first-driverless-london-taxis-heres-how-to-boost-your-chances"
+        ]
+      ]
+    }
+  ]
 }

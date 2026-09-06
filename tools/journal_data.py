@@ -3,9 +3,9 @@ import os, json
 _here = os.path.dirname(os.path.abspath(__file__))
 _dd = os.path.join(_here, "data")
 
-DATE_ISO = "2026-09-06"
-DATE_HUMAN = "Sunday, September 6, 2026"
-PREV_ISO = "2026-09-05"
+DATE_ISO = "2026-09-07"
+DATE_HUMAN = "Monday, September 7, 2026"
+PREV_ISO = "2026-09-06"
 MIN_ISO = "2026-03-19"
 
 def _load(name):
