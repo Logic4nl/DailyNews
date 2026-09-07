@@ -1,0 +1,256 @@
+import json
+
+crypto_macro = [
+    {
+        "hero": True,
+        "sub": "Macro & Central Banks",
+        "h3": "Hot jobs report scrambles Fed bets days before rate call",
+        "summary": "Friday's blowout August payrolls print flipped rate-cut hopes into rate-hike worries just as investors head into the Fed's September 15-16 meeting, with markets closed Monday 7 September for Labor Day to digest it.",
+        "body": [
+            "The economy added 162,000 jobs in August, more than triple the 53,000 economists expected, while unemployment held at 4.1 percent, according to the Bureau of Labor Statistics. The surprise strength sent the S&P 500 down 0.4 percent and the Nasdaq Composite down 0.3 percent on Friday 4 September, as traders repriced the odds of a Fed rate increase rather than a cut at the upcoming meeting. Treasury yields jumped on the news, a classic good-news-is-bad-news reaction from a market that had been counting on easier policy.",
+            "With US cash equity and bond markets shut Monday 7 September for the Labor Day holiday, price discovery shifted to currencies, commodities and crypto. Markets were pricing roughly a 60 percent chance of a quarter-point hike at the September 15-16 meeting, a sharp reversal from the cut expectations that dominated over the summer. Fed governor Kevin Warsh has pointed to inflation still running above the 2 percent target across a broad set of consumer categories, while the White House has kept up public pressure on the central bank to lower rates instead."
+        ],
+        "sources": [["CBS News", "https://www.cbsnews.com/news/august-jobs-report-us-labor-market/"], ["CNBC", "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html"]]
+    },
+    {
+        "hero": False,
+        "sub": "Macro & Central Banks",
+        "h3": "Oil jumps to six-week high as US and Iran trade strikes",
+        "summary": "Brent crude climbed toward $98 a barrel on Monday 7 September after the US and Iran exchanged military strikes over the weekend, reviving fears of a Strait of Hormuz disruption.",
+        "body": [
+            "Brent crude rose to around $97.50 a barrel on Monday, its highest level in six weeks and nearly 40 percent above prices seen before the Iran war broke out, after overnight strikes between US and Iranian forces reignited supply fears. Reports also pointed to fresh attacks on Saudi Aramco facilities, adding to the risk premium already baked into prices. Iran separately signaled a shipping arrangement with Oman meant to keep the Strait of Hormuz open, but traders remained on edge about how Washington might respond to the weekend escalation.",
+            "Because US cash and futures markets for equities and bonds were shut for Labor Day, energy and currency markets carried the day's price discovery. Analysts noted that even a partial disruption to Gulf shipping lanes could push oil well past the $100 mark, a scenario that would complicate the Fed's inflation calculus just as it heads into its September meeting. The move extended a volatile few months for crude that has tracked the on-again, off-again nature of the conflict since it first erupted."
+        ],
+        "sources": [["Al Jazeera", "https://www.aljazeera.com/news/2026/7/8/oil-prices-surge-as-us-strikes-iran-reversing-fall-to-pre-war-levels"], ["Bloomberg", "https://www.bloomberg.com/news/articles/2026-09-06/latest-oil-market-news-and-analysis-for-september-7"]]
+    },
+    {
+        "hero": False,
+        "sub": "Macro & Central Banks",
+        "h3": "Dollar softens, 10-year yield hovers near 4.75 percent",
+        "summary": "The dollar index eased toward 98.9 into the week while the 10-year Treasury yield sat near 4.75 percent, with traders weighing the strong jobs data against oil-driven inflation risk ahead of the Fed decision.",
+        "body": [
+            "Heading into the week of 7 September, the dollar index was hovering around 98.89, down slightly from prior sessions, while the 10-year Treasury yield sat near 4.74 to 4.79 percent after climbing on Friday's jobs surprise. Comments from Fed governor Christopher Waller expressing support for holding rates steady had offered some relief earlier in the week, but that was before the weekend's Iran escalation reignited energy-driven inflation concerns. The combination left currency and rates desks bracing for a choppy run into the September 15-16 Fed meeting.",
+            "Strategists said the yield curve, which showed 2-year notes near 4.37 percent and 30-year bonds near 5.25 percent, reflected a market genuinely split between rate-cut and rate-hike scenarios, an unusual setup this late in a cutting cycle. With equities and bond markets closed for Labor Day, Tuesday's reopening was expected to bring a fuller repricing of both the jobs data and the weekend's oil news."
+        ],
+        "sources": [["Federal Reserve H.15", "https://www.federalreserve.gov/releases/h15/"], ["Trading Economics", "https://tradingeconomics.com/united-states/government-bond-yield"]]
+    },
+    {
+        "hero": False,
+        "sub": "Macro & Central Banks",
+        "h3": "ECB holds rates at 2 percent, sticks to meeting-by-meeting path",
+        "summary": "The European Central Bank kept its deposit rate at 2.00 percent, extending a hold that has lasted since its June 2025 cut, and repeated it will move meeting by meeting.",
+        "body": [
+            "The ECB left its deposit facility rate at 2.00 percent, the main refinancing rate at 2.15 percent and the marginal lending rate at 2.40 percent, holding at the lowest levels in more than two years. The bank has now cut rates eight times since June 2024, taking the deposit rate down from a record 4.00 percent, but has paused since last summer as inflation stabilized near target. Policymakers repeated their standard language that decisions will remain data-dependent and taken meeting by meeting rather than on a preset path.",
+            "The hold puts the ECB on a different footing than the Fed, which is debating whether to hike rather than cut at its own September meeting because of a hot US jobs report. Eurozone officials have pointed to steadier wage growth and a softer energy shock, relative to the US, as reasons the currency bloc has more room to stay patient. Analysts said the contrast between a paused ECB and a possibly hiking Fed could keep pressure on the euro-dollar pair into the autumn."
+        ],
+        "sources": [["FXStreet", "https://www.fxstreet.com/analysis/ecb-confident-in-the-current-monetary-policy-stance-202509050525"], ["European Central Bank", "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html"]]
+    },
+    {
+        "hero": False,
+        "sub": "Bitcoin & Ethereum",
+        "h3": "Bitcoin opens above $80,000 as traders eye Fed decision",
+        "summary": "Bitcoin opened Monday 7 September at $80,351, up 0.7 percent from Sunday, before slipping back toward $79,350 by mid-morning as inflation and Fed rate-watch anxiety crept back in.",
+        "body": [
+            "Bitcoin opened at $80,351.40 on Monday, a 0.7 percent gain from Sunday's open, according to Yahoo Finance's daily crypto price tracker. By 9:41am ET the price had eased back to roughly $79,349.91, giving back the overnight gain as broader macro nerves resurfaced. Traders pointed to the looming Fed meeting on September 15-16 as the key catalyst, with the strong August jobs report having already shifted rate expectations away from a cut and toward a possible hike.",
+            "Ethereum moved in tandem, opening at $2,514.80, up 1.4 percent from Sunday, before drifting down to about $2,497.60 by the same mid-morning mark. Analysts framed Monday's action as a holding pattern, with US equity and bond markets closed for Labor Day removing a key source of cross-asset signal. Desks said the next real test would come once Tuesday's reopening let stock and crypto markets trade off the same jobs and oil headlines simultaneously."
+        ],
+        "sources": [["Yahoo Finance", "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-7-2026-crypto-investors-on-rate-watch-140242204.html"]]
+    },
+    {
+        "hero": False,
+        "sub": "Bitcoin & Ethereum",
+        "h3": "Bitcoin ETFs swing from outflows to $731 million inflow day",
+        "summary": "US spot bitcoin ETFs whipsawed in early September, posting a $236 million outflow on 1 September before rebounding to a $731 million inflow on 3 September, their biggest since January.",
+        "body": [
+            "Spot bitcoin ETFs recorded a $236.46 million net outflow on September 1, with BlackRock's iShares Bitcoin Trust (IBIT) accounting for roughly 85 percent of the withdrawals, the largest single-day pullback since July 31. The reversal came just two days later, when the same funds pulled in $731 million on September 3, the biggest single-day haul since mid-January, with IBIT alone capturing $454 million of that total. The swing followed what had been the strongest month of 2026 for the funds in August, when $3.52 billion in net inflows accompanied a 25 percent rally in bitcoin's price.",
+            "The August surge had erased roughly two-thirds of the funds' year-to-date deficit, cutting net outflows for 2026 from about $5.29 billion at the end of July to roughly $1.77 billion. Analysts said the early-September volatility reflected investors repositioning ahead of the Fed's rate decision and the broader macro uncertainty stemming from the Iran-linked oil spike. Flow watchers expect the pattern of sharp daily swings to continue until the Fed meeting clarifies the rate path."
+        ],
+        "sources": [["HedgeCo", "https://hedgeco.net/news/09/2026/spot-bitcoin-etfs-posted-a-236-5-million-net-outflow-on-september-1.html"], ["Cryptonomist", "https://en.cryptonomist.ch/2026/09/04/us-bitcoin-etf-inflows-surge/"]]
+    },
+    {
+        "hero": False,
+        "sub": "Bitcoin & Ethereum",
+        "h3": "Ethereum ETFs stretch inflow streak as ETHB, FETH lead gains",
+        "summary": "Ether spot ETFs notched a twelfth straight day of inflows in early September, with BlackRock's ETHB and Fidelity's FETH drawing fresh money even as Grayscale's ETHE keeps bleeding assets.",
+        "body": [
+            "Ethereum spot ETFs took in $10.95 million in net inflows on September 1, marking twelve consecutive days of gains, and added roughly $218 million over the following week. BlackRock's ETHB led with $11.2 million in a single day, pushing its total assets to $705 million, while Fidelity's FETH added $4.81 million to reach $2.286 billion. The funds had already added $1.8 billion in assets during August, bringing total ether ETF assets to about $15.57 billion.",
+            "The one holdout has been Grayscale's ETHE, which continued shedding assets even as rivals gained, logging $7.4 million in outflows on top of a historic $5.354 billion in cumulative net redemptions since its ETF conversion. Ether itself has been on a strong run, trading near $2,500 after climbing more than 63 percent from its lowest point of the year, with some traders pointing to a bullish flag and golden cross pattern as reasons for the renewed institutional appetite."
+        ],
+        "sources": [["KuCoin", "https://www.kucoin.com/news/flash/ethereum-spot-etfs-record-10-95m-net-inflow-on-sept-1-marking-12th-consecutive-day-of-inflows"], ["Benzinga", "https://www.benzinga.com/crypto/26/09/61643728/ethereum-price-maps-a-bullish-flag-and-golden-cross-as-ethb-etf-inflows-soar"]]
+    },
+    {
+        "hero": False,
+        "sub": "DeFi & Altcoins",
+        "h3": "XRP, Ether and Solana hit by $369 million liquidation wave",
+        "summary": "XRP led a $369 million crypto liquidation wave alongside Ether and Solana last week, a reminder of how quickly altcoin gains can unwind around scheduled token unlocks.",
+        "body": [
+            "XRP, Ether and Solana were caught in a combined $369 million liquidation event, with XRP leading the drop amid a scheduled escrow unlock that added fresh supply to the market at an already fragile moment. The sell-off coincided with broader nervousness tied to the SEC's ongoing overhaul of how it classifies digital assets, which has kept traders guessing about which tokens will get favorable treatment. Solana and XRP-linked investment products had both entered September with assets near $1.5 billion, leaving them exposed when sentiment turned.",
+            "The unwind illustrated how leveraged positioning across major altcoins remains a source of volatility even as the broader market narrative has turned more constructive on regulation. Traders noted that liquidation cascades like this one tend to clear out excess leverage quickly, and several altcoins had partially recovered within days of the initial drop. Still, the episode underscored the risk of concentrated unlocks landing during periods of macro uncertainty like the current Fed and Iran-driven volatility."
+        ],
+        "sources": [["U.Today", "https://u.today/xrp-joins-ether-solana-in-369-million-liquidation-wave-amid-sec-blockchain-overhaul-main-crypto"]]
+    },
+    {
+        "hero": False,
+        "sub": "DeFi & Altcoins",
+        "h3": "Solana's Transaction V1 upgrade set to activate 9 September",
+        "summary": "Solana's Transaction V1 format, which triples maximum transaction size and enables zero-knowledge proofs, is scheduled to go live just two days after the Labor Day close.",
+        "body": [
+            "Solana's Transaction V1 upgrade is set to activate on September 9, 2026, increasing the maximum transaction size by 3.3 times and adding support for more advanced cryptography. The new format allows for zero-knowledge proofs, more complex multi-signature configurations and smoother cross-chain operations, features developers say are needed to keep pace with more complex DeFi applications being built on the network. The change follows a string of infrastructure upgrades the network has rolled out over the past year to handle rising transaction volume.",
+            "The upgrade lands alongside a separate regulatory tailwind, after the SEC approved changes to Nasdaq's Rule 5711(d) explicitly naming bitcoin, ether, Solana and XRP as digital assets that meet exchange trust standards for commodity-based products. The rule also introduces a so-called Hidden 15% provision, letting trusts allocate up to 15 percent of a portfolio to other digital assets beyond the named four. Analysts said the combination of technical and regulatory progress helps explain renewed institutional interest in Solana-linked products heading into September."
+        ],
+        "sources": [["KuCoin", "https://www.kucoin.com/news/flash/top-5-cryptos-to-watch-in-september-2026"]]
+    },
+    {
+        "hero": False,
+        "sub": "DeFi & Altcoins",
+        "h3": "XRP Ledger update adds on-chain vaults and lending markets",
+        "summary": "XRPL's version 3.1.0 update introduces deposit vaults and uncollateralized fixed-term loans, pushing the ledger further into native DeFi credit markets.",
+        "body": [
+            "The XRP Ledger's 3.1.0 release introduces two core DeFi features directly on-chain: vaults that let users deposit assets, and a lending framework that allows brokers to create fixed-term, uncollateralized loans backed by those pooled funds. The update marks a shift for XRPL from a payments-focused ledger toward a platform that can host native credit markets, competing more directly with Ethereum-based lending protocols. Developers said the vault structure is designed to give institutional users a familiar, custody-like entry point into on-chain lending.",
+            "The rollout comes as XRP-linked products face renewed scrutiny following last week's liquidation wave and amid continued uncertainty over the CLARITY Act, the market-structure bill that would clarify how XRP and similar tokens are regulated. Ripple and allied developers have pushed the ledger's DeFi capabilities as a hedge against slow-moving US legislation, betting that on-chain utility will matter more than legislative clarity in the near term. The update was still rolling out to validators as of early September."
+        ],
+        "sources": [["CoinMarketCap", "https://coinmarketcap.com/cmc-ai/xrp/latest-updates/"]]
+    },
+    {
+        "hero": False,
+        "sub": "DeFi & Altcoins",
+        "h3": "Stablecoins hold near $300 billion after summer pullback",
+        "summary": "Total stablecoin supply is sitting around $300 billion after a summer retreat, even as 21 global banks committed to launching a new dollar-denominated stablecoin venture.",
+        "body": [
+            "Stablecoins are holding roughly $300 billion in total supply after pulling back from summer highs, according to tracking published in early September. Separately, 21 leading international financial institutions announced plans to establish a new company in the second half of 2026 to issue a stablecoin, with an initial focus on a US dollar offering and longer-term ambitions to add euro and other G7-currency versions, targeting a launch in the first half of 2027. The initiative reflects growing bank interest in stablecoin rails even as pure-play issuers face a tougher fundraising environment.",
+            "Treasury Secretary Scott Bessent has floated the idea that stablecoin issuers could become trillion-dollar buyers of US government debt, but growth in the sector has stalled just as that kind of demand would be most useful for financing needs. The Treasury Department has also proposed rules defining what counts as issuing, offering or selling a payment stablecoin in the US, and is seeking public comment on how the new federal stablecoin law should apply to cross-border activity. The Financial Stability Board, meanwhile, is still reviewing global stablecoin arrangements as of September 6."
+        ],
+        "sources": [["Santander", "https://www.santander.com/en/press-room/press-releases/2026/09/group-of-leading-international-financial-institutions-to-establish-stablecoin-enterprise"], ["Bloomberg", "https://www.bloomberg.com/news/articles/2026-09-04/stablecoin-retreat-tests-bessent-s-hopes-for-new-treasury-buyers"]]
+    },
+    {
+        "hero": False,
+        "sub": "Regulation & Policy",
+        "h3": "CLARITY Act faces make-or-break Senate vote on 15 September",
+        "summary": "Senate Majority Leader John Thune has scheduled a key procedural vote on the crypto market-structure bill for September 15, though many in the industry expect it to fail.",
+        "body": [
+            "The CLARITY Act, which would give the CFTC exclusive jurisdiction over digital commodity spot markets while leaving the SEC in charge of investment-contract assets, faces a procedural cloture vote on September 15 that needs 60 votes to advance. The bill would for the first time give bitcoin and ether unambiguous statutory classification as commodities, a change the industry has sought for years, but unresolved fights over stablecoin rewards, anti-money-laundering provisions and ethics rules tied to the Trump family's crypto interests have complicated its path. The bill missed its original window when the Senate adjourned for August recess without a vote.",
+            "Industry lobbyists say a failed cloture vote would effectively kill the bill for the year, pushing comprehensive market-structure legislation into 2027 at the earliest. That uncertainty has weighed on sentiment around tokens like XRP and Solana, whose products depend partly on clearer commodity classification to attract more institutional capital. Even so, some observers note that regulators have already moved on their own, with the SEC and CFTC's March interpretive guidance and August's proposed Regulation Crypto Assets giving the industry some clarity even without new legislation."
+        ],
+        "sources": [["CoinDesk", "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month"], ["CNBC", "https://www.cnbc.com/2026/09/01/crypto-enters-september-with-policy-gamble-hanging-by-a-thread.html"]]
+    },
+    {
+        "hero": False,
+        "sub": "Regulation & Policy",
+        "h3": "SEC advances new crypto asset exemptions under Regulation Crypto",
+        "summary": "The SEC's proposed Regulation Crypto Assets would create two new offering exemptions, part of a broader effort begun in March to clarify how securities law applies to digital tokens.",
+        "body": [
+            "Building on interpretive guidance issued jointly with the CFTC in March, the SEC in August proposed new rules meant to clarify when a crypto asset falls under federal securities law, reduce incentives for projects to incorporate offshore, and expand investment access for US retail investors with stronger protections. The proposal includes two new exemptions from standard registration requirements: one for offerings up to $5 million over a four-year period, and another for offerings up to $75 million in any 12-month period. SEC Chair Paul Atkins has framed the approach as fit-for-purpose regulation designed to support innovation rather than push it overseas.",
+            "The March interpretive guidance had already clarified how securities laws treat airdrops, protocol mining, protocol staking and the wrapping of non-security tokens, giving projects a clearer rulebook than they have had in years. Combined with looser postures at both the SEC and CFTC under the current administration, the changes mark a sharp break from the enforcement-heavy approach of prior years. The proposal remains open for public comment, with final rules not expected before the CLARITY Act's fate in Congress becomes clear."
+        ],
+        "sources": [["SEC", "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets"], ["SEC", "https://www.sec.gov/newsroom/speeches-statements/atkins-statement-regulation-crypto-assets-081826"]]
+    }
+]
+
+mental_health = [
+    {
+        "hero": True,
+        "sub": "Research & Studies",
+        "h3": "Nearly 1 in 5 US teens use AI chatbots for mental health advice",
+        "summary": "A nationally representative study found close to 20 percent of American adolescents have turned to AI chatbots for mental health advice, with most keeping the habit secret from parents.",
+        "body": [
+            "The survey, published in JAMA Pediatrics, found that almost one in five adolescents in the US reported using AI chatbots for mental health advice, and more than 40 percent of those users did so at least monthly. Among teens who sought advice this way, 91.7 percent rated the guidance as somewhat or very helpful, a figure researchers say helps explain the habit's staying power even without clinical oversight. The study adds to a growing body of evidence that general-purpose chatbots have quietly become a first stop for adolescent mental health support.",
+            "Perhaps more striking, 63.3 percent of adolescent users said they had not told anyone, including parents or doctors, that they were using AI this way. Researchers flagged this secrecy as a particular concern given that these chatbots are not designed or regulated as clinical tools and can miss warning signs a trained provider would catch. The findings have added urgency to industry moves like OpenAI's new teen-specific ChatGPT mode and to state-level companion chatbot laws that increasingly mandate crisis-response protocols."
+        ],
+        "sources": [["JAMA Pediatrics", "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2849307"], ["PMC", "https://pmc.ncbi.nlm.nih.gov/articles/PMC13227335/"]]
+    },
+    {
+        "hero": False,
+        "sub": "Research & Studies",
+        "h3": "Stanford study finds AI safety testing for mental health chatbots is flawed",
+        "summary": "Stanford researchers reported that averaging expert scores to judge chatbot safety produces answers nobody actually endorses, undermining how the industry tests responses to at-risk users.",
+        "body": [
+            "A Stanford study found that AI developers commonly rely on human experts to rate chatbot responses for safety, but that those experts frequently disagree about what counts as a safe answer, especially in high-stakes cases involving suicidal ideation or self-harm. Averaging disagreeing experts' scores, the researchers found, produces a composite answer that reflects no single expert's actual judgment, meaning the resulting safety benchmark can be misleading. The researchers also noted that the underlying models change so quickly that safety findings can become outdated within months.",
+            "The Stanford Institute for Human-Centered AI convened clinicians, policymakers, ethicists, AI developers and patient advocates for a policy workshop in June to address the gap, and has continued publishing follow-up work through the summer. The findings arrive as regulators in a dozen states have already passed companion-chatbot laws requiring crisis-detection protocols, raising the stakes for getting safety evaluation right. Researchers said the work is meant to push developers toward more transparent, multi-stakeholder frameworks rather than a single averaged safety score."
+        ],
+        "sources": [["Stanford Report", "https://news.stanford.edu/stories/2026/07/study-exposes-major-flaw-in-ai-mental-health-safety-testing"], ["Stanford HAI", "https://hai.stanford.edu/news/the-complexities-of-governing-mental-health-ai"]]
+    },
+    {
+        "hero": False,
+        "sub": "Research & Studies",
+        "h3": "APA survey: a third of psychologists see patients using AI as a co-therapist",
+        "summary": "The American Psychological Association's 2026 survey found more than a third of psychologists report patients treating AI chatbots as an additional mental health professional.",
+        "body": [
+            "The APA's 2026 Chatbots and Mental Health Survey found that more than a third of practicing psychologists have patients who use AI chatbots alongside, or in place of, scheduled therapy sessions, describing the tools as an additional source of support between appointments. Clinicians described mixed reactions, with some patients using chatbots productively to process feelings between sessions and others leaning on them in ways that appeared to substitute for professional care. The survey is one of the first attempts to quantify how widespread the practice has become within a clinical population rather than the general public.",
+            "Psychologists surveyed expressed particular concern about patients disclosing crisis-level distress to a chatbot rather than a licensed provider, given that most consumer AI tools are not built or credentialed to manage acute risk. The APA has said it plans to issue updated guidance for clinicians on how to discuss AI chatbot use directly with patients, treating it as a standard intake question rather than an edge case. The survey adds professional-body weight to a debate that has largely played out through academic studies and lawsuits so far."
+        ],
+        "sources": [["APA", "https://www.apa.org/pubs/reports/chatbots-mental-health-2026"]]
+    },
+    {
+        "hero": False,
+        "sub": "Research & Studies",
+        "h3": "Lived-experience study shapes design priorities for AI chatbots",
+        "summary": "A JMIR Mental Health qualitative study of people with depression found they want AI chatbots to offer actionable steps and validation, paired with clear limits on what the tool can do.",
+        "body": [
+            "The qualitative study, published in JMIR Mental Health, interviewed people with lived experience of depression about what they valued and feared in AI mental health chatbots. Participants prioritized actionable information they could use immediately, emotional validation delivered with clear boundaries about the tool's limitations, and personalization that adapted to their specific situation rather than generic scripted replies. Researchers said participants were generally comfortable using chatbots as a supplement to care but consistently rejected the idea of a chatbot replacing a human therapist entirely.",
+            "The study's authors argued that these preferences should directly inform product design, pushing developers away from open-ended emotional roleplay and toward more structured, clinically grounded interactions. The findings echo broader research suggesting the most successful digital mental health tools position themselves explicitly as a bridge to human care rather than a substitute for it. The paper adds a patient-voice perspective to a field where much of the evidence so far has come from clinical trials or company-sponsored efficacy studies."
+        ],
+        "sources": [["JMIR Mental Health", "https://mental.jmir.org/2026/1/e78288"]]
+    },
+    {
+        "hero": False,
+        "sub": "Research & Studies",
+        "h3": "NIH grant funds Wysa study on AI support for chronic pain and anxiety",
+        "summary": "Washington University in St. Louis is leading a $3.4 million NIH-funded study using Wysa's chatbot to test personalized support for people managing chronic pain alongside anxiety.",
+        "body": [
+            "The National Institutes of Health awarded a $3.4 million grant to a research team at Washington University in St. Louis to study whether Wysa's AI-based chatbot can improve outcomes for patients managing chronic pain together with anxiety, a common but understudied combination. The study builds on Wysa's existing base of more than 30 peer-reviewed publications, which the company cites as evidence it is the most clinically validated consumer AI mental health chatbot on the market. Wysa has already secured a 510(k) clearance for a chronic pain and anxiety digital therapeutic and holds FDA Breakthrough Device status.",
+            "The grant reflects a broader trend of AI mental health vendors pursuing rigorous, federally funded research rather than relying solely on internal efficacy data, partly in response to criticism that the sector has moved faster than the evidence supporting it. Wysa has also expanded its footprint through acquisitions of April Health, a virtual behavioral health provider working with Duke LifePoint Healthcare and MercyOne, and Kins, a physical therapy platform, aiming to combine physical and mental health support under one product. The company's tools are now offered through employee assistance programs at multiple Fortune 500 employers."
+        ],
+        "sources": [["BuildMVPFast", "https://www.buildmvpfast.com/blog/mental-health-ai-chatbots-woebot-wysa-therapeutic-effectiveness-2026"]]
+    },
+    {
+        "hero": False,
+        "sub": "Tools & Applications",
+        "h3": "OpenAI rolls out ChatGPT for Teens with self-harm safeguards",
+        "summary": "OpenAI began a gradual global rollout of a dedicated teen mode on 18 August, adding parental controls and default protections around self-harm and other sensitive topics.",
+        "body": [
+            "OpenAI's ChatGPT for Teens automatically activates for users estimated to be under 18 or who self-identify as being between 13 and 17, limiting conversations about high-risk topics such as self-harm, violence and eating disorders while blocking the chatbot from claiming to have personal feelings or consciousness. The rollout, which began August 18 and expanded over roughly two weeks, also introduces a Study Mode that gives step-by-step guidance rather than direct answers, and lets parents set quiet hours and receive notifications when their teen discusses sensitive topics. The launch follows years of scrutiny over how general-purpose chatbots handle vulnerable young users without dedicated safeguards.",
+            "The new safety measures include age prediction and verification tools designed to catch users who might otherwise misrepresent their age to access the adult version of the product. The move comes as OpenAI faces its own wrongful-death lawsuits alleging ChatGPT contributed to a teenager's suicide, adding legal pressure on top of competitive pressure from state companion-chatbot laws. Child-safety advocates broadly welcomed the changes but said the years-long delay in launching a teen-specific product raised questions about how the industry prioritizes safety versus growth."
+        ],
+        "sources": [["TechCrunch", "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/"], ["NBC News", "https://www.nbcnews.com/tech/tech-news/chatgpt-teen-safety-measures-include-age-verification-openai-says-rcna231637"]]
+    },
+    {
+        "hero": False,
+        "sub": "Tools & Applications",
+        "h3": "Twelve states now regulate AI companion chatbots",
+        "summary": "Colorado, California, New York and nine other states have enacted companion-chatbot laws requiring AI disclosure and crisis-intervention protocols for at-risk users.",
+        "body": [
+            "Twelve states, including Colorado, Georgia, Iowa, New York, Rhode Island, California, Idaho, Nebraska, Oregon, Connecticut and Washington, have enacted companion chatbot laws through the first half of 2026. The laws generally require operators to remind users they are talking to AI rather than a person, with some states mandating reminders every three hours for adults and hourly reminders for minors, and to implement protocols that recognize expressions of suicidal ideation or self-harm and route users to resources such as the 988 Suicide and Crisis Lifeline. New York's law, which took effect in November 2025, was the first in the country to specifically target emotionally responsive companion models.",
+            "Several of the laws go further for minors, prohibiting sexually explicit content, simulated romantic relationships, emotional manipulation and design features meant to maximize engagement. States differ on whether age verification is required to trigger these stricter protections, creating a patchwork that companies operating nationally must now navigate. The wave of state action has moved faster than federal legislation, filling a regulatory gap that has widened as chatbot use among teens has grown."
+        ],
+        "sources": [["multistate.ai", "https://www.multistate.ai/updates/vol-105-state-ai-companion-chatbot-laws"]]
+    },
+    {
+        "hero": False,
+        "sub": "Tools & Applications",
+        "h3": "Character.AI hit with fresh lawsuit alleging design harmed teens",
+        "summary": "A new lawsuit filed on 13 August alleges Character Technologies and Google defectively designed Character.AI in ways that caused serious harm to children and teenagers.",
+        "body": [
+            "Law firm Gibbs Mura filed a lawsuit on August 13 alleging that Character Technologies and Google are responsible for a defectively designed chatbot platform that contributed to psychological harm among minors, including depression, anxiety and self-harm. The filing follows a wave of earlier cases, including one brought by Florida mother Megan Garcia after her son Sewell Setzer III died by suicide following an intense relationship with a Character.AI bot, a case that helped prompt Character.AI's decision earlier this year to settle multiple similar lawsuits. The company has faced sustained scrutiny over whether its products were adequately tested for risks to young users before launch.",
+            "The new filing keeps litigation pressure on the platform even as it works through earlier settlements, and adds to a broader legal reckoning facing AI companion products more generally, including similar suits against OpenAI. Plaintiffs' attorneys argue the cases should push the industry toward mandatory safety testing standards before release, rather than relying on after-the-fact fixes once harm has already occurred. Character.AI has previously said it has since added stronger safeguards for users under 18, including restrictions on open-ended romantic roleplay."
+        ],
+        "sources": [["Class Law Group", "https://www.classlawgroup.com/character-ai-lawsuits"], ["CNN", "https://www.cnn.com/2026/01/07/business/character-ai-google-settle-teen-suicide-lawsuit"]]
+    },
+    {
+        "hero": False,
+        "sub": "Tools & Applications",
+        "h3": "Woebot chases FDA authorization as first cleared AI therapy chatbot",
+        "summary": "Woebot Health, which shut its consumer app in 2025 to focus on enterprise deals, is pursuing FDA De Novo clearance that would make it the first formally authorized AI therapy chatbot.",
+        "body": [
+            "Woebot Health shut down its direct-to-consumer app in June 2025, pivoting toward enterprise and payer-licensed deployments rather than competing head-on with newer large language model chatbots in a crowded consumer subscription market. The company is now pursuing FDA De Novo classification, a regulatory pathway that would make it the first AI therapy chatbot with formal FDA authorization if granted, a milestone the broader digital therapeutics industry has watched closely. Woebot has already received FDA Breakthrough Device designation for a postpartum depression product, which speeds up the agency's review process.",
+            "The shift mirrors a broader trend among digital mental health companies moving away from unregulated consumer wellness apps and toward regulated, clinically validated products sold through health systems and employers. As of 2026 the FDA has cleared more than 1,300 AI-enabled medical devices across specialties, with mental health among the fastest-growing categories, including cleared products for insomnia, ADHD, PTSD-related conditions, major depressive disorder and generalized anxiety disorder. Industry watchers say Woebot's pursuit of formal clearance could set a template for how competitors seeking similar credibility structure their own regulatory strategy."
+        ],
+        "sources": [["BestAITherapy", "https://bestaitherapy.ai/reviews/woebot-review/"], ["PMC", "https://pmc.ncbi.nlm.nih.gov/articles/PMC13296681/"]]
+    }
+]
+
+data = {"crypto-macro": crypto_macro, "mental-health": mental_health}
+
+with open("/tmp/DN/tools/data/data_c.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("written")
