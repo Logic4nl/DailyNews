@@ -1,486 +1,658 @@
 {
-  "mood": {
-    "h3": "Sfeer vandaag",
-    "p": "Dinsdag begint nog droog, maar een brede regenzone trekt vanuit het zuidwesten het land binnen en bereikt in de loop van de ochtend het noordwesten, om aan het einde van de middag heel Nederland te bedekken. Het wordt met 16 tot 18 graden een stuk kouder dan de laatste zomerse dagen van afgelopen weekend, er waait een matige zuidwestenwind en de zon laat zich nauwelijks zien. Na de langste droogte in decennia, met de Rijn nog altijd op een historisch laag peil bij Lobith, is de regen ergens welkom voor de watervoorraad, al is de schade aan de scheepvaart en tuinbouw al geleden. De landelijke stemming is gespannen: het kabinet Jetten worstelt met het begrotingsakkoord voor Prinsjesdag over acht dagen, en morgen legt een landelijke OV-staking het treinverkeer plat. Toch zijn er lichtpuntjes. Uit CBS-cijfers blijkt dat jongere generaties over het algemeen vermogender zijn dan hun voorgangers, en de eerste universiteiten zijn deze week weer gevuld met nieuwe studenten die aan het jaar beginnen."
+ "mood": {
+  "h3": "Sfeer vandaag",
+  "p": "Woensdag begint volgens Weeronline op veel plaatsen droog met hier en daar zon, maar in de loop van de middag trekken buien over het land, mogelijk met onweer, bij een maximum van rond de 18 graden en een stevige westenwind aan de kust. Het KNMI rekent op perioden met regen en tijdelijk veel wind. Het is bovendien de dag van de landelijke 24-uursstaking in het openbaar vervoer: geen treinen, bussen, trams of metro's, alleen de sprinter tussen Amsterdam Centraal, Schiphol en Hoofddorp rijdt. De FNV protesteert tegen de bezuinigingen op WW en WIA, een dag nadat duizenden ambtenaren met een nagemaakte gouden koets naar het ministerie van Financien trokken. Met Prinsjesdag op 15 september in zicht en de wegen al vol door de gesloten A28-brug bij Nijkerk wordt het een dag van thuiswerken, fietsen en geduld."
+ },
+ "global": [
+  {
+   "hero": true,
+   "sub": "Conflicts & Security",
+   "h3": "US hits targets near Kharg Island as Iran threatens Gulf ports",
+   "summary": "The US military struck Iranian oil tankers and other targets near Kharg Island and the port of Jask on Tuesday 8 September, Fox News reported, and the IRGC responded by telling ship crews in Kuwaiti and Bahraini ports to evacuate.",
+   "body": [
+    "Bloomberg, citing a Fox News report, said American forces hit targets around Kharg Island, Iran's main crude export terminal, and the southern port city of Jask on Tuesday. Unnamed US officials described the strikes as part of a strategy to squeeze Iran economically and push Tehran toward ending the war that began in February. West Texas Intermediate rose as much as 1.4 percent to above 94 dollars a barrel in early Asian trading on Wednesday after closing 1.7 percent higher on Tuesday.",
+    "Iran's Revolutionary Guard Corps warned that vessels anchored or docked in Kuwaiti and Bahraini ports hosting US forces would be treated as legitimate targets and told crews to leave immediately, according to the state news agency IRNA. The threat followed a weekend in which US Central Command said it struck three Iranian tankers after the IRGC fired ballistic missiles at two US Navy ships."
+   ],
+   "sources": [
+    [
+     "Bloomberg",
+     "https://www.bloomberg.com/news/articles/2026-09-08/us-military-hit-targets-near-iran-s-kharg-island-fox-news-says"
+    ],
+    [
+     "Fox News",
+     "https://www.foxnews.com/live-news/iran-war-news-trump-israel-september-8"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/liveblog/2026/9/7/iran-war-live-tehran-to-announce-new-hormuz-shipping-route-in-coming-days"
+    ]
+   ]
   },
-  "global": [
-    {
-      "hero": true,
-      "sub": "Conflicts & Security",
-      "h3": "US and Iran trade tanker strikes as Hormuz war grinds on",
-      "summary": "Washington and Tehran escalated attacks on oil tankers and warships near the Strait of Hormuz on Monday 7 September, with Iran firing a ballistic missile toward US carriers.",
-      "body": [
-        "The United States targeted three Iranian oil tankers over the weekend while Iran struck back at tankers and fired a ballistic missile toward US aircraft carriers patrolling near the Strait of Hormuz, according to reporting from Al Jazeera. Analysts described Iran's targeting of the carriers as a calculated escalation, noting that the months long conflict is increasingly being fought at sea as both sides try to assert control over the narrow waterway that once carried a fifth of the world's seaborne oil.",
-        "Hassan Ghashghavi, a spokesman for the Iranian parliament's national security commission, framed the strikes on US warships as part of what he called an existential war with America, and argued the naval blockade should never have existed. Shipping through Hormuz remains close to a standstill, with tanker traffic reduced to a small fraction of pre war levels, even as diplomats in Muscat say a side deal on a temporary safe corridor is nearly finished."
-      ],
-      "sources": [
-        [
-          "Al Jazeera",
-          "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed"
-        ],
-        [
-          "Wikipedia: 2026 Strait of Hormuz crisis",
-          "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Conflicts & Security",
-      "h3": "Russian drones hit Kharkiv and Kyiv region on Monday",
-      "summary": "Russian drone strikes injured a resident in Kharkiv and damaged homes and a warehouse near Kyiv on Monday 7 September, as fighting continued alongside stalled peace efforts.",
-      "body": [
-        "A Russian drone struck a civilian facility in Kharkiv's Shevchenkivskyi district on the evening of 7 September, injuring one person, according to updates from Ukrainian outlets. In the Kyiv region, strikes on the same day damaged a private house, a passenger car, a warehouse and an enterprise across the Brovary and Boryspil districts, adding to a steady pattern of nightly drone barrages against Ukrainian population centres.",
-        "The strikes came as diplomacy showed little movement. President Volodymyr Zelensky said he expects the war to continue and that Ukraine is counting on American energy and air defence support through the winter, while US special envoy Steve Witkoff said progress had been made toward a new round of trilateral talks. Zelensky also said Ukraine's joint FREYJA anti ballistic missile programme and additional long range strike capability would be discussed at an upcoming meeting of his military staff."
-      ],
-      "sources": [
-        [
-          "Kyiv Post",
-          "https://www.kyivpost.com/thread/83898"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Conflicts & Security",
-      "h3": "Journalists hurt in Gaza and Lebanon as ceasefires fray",
-      "summary": "The Committee to Protect Journalists said reporters in Gaza and Lebanon were injured over the weekend into Monday 7 September, underscoring how fragile the October 2025 ceasefires remain.",
-      "body": [
-        "The Committee to Protect Journalists said it is alarmed by a recent escalation in Israeli strikes on Gaza and Lebanon that injured at least four journalists, three of them on Sunday 6 September. Two of the injured worked for Al Manar TV and were hurt in an Israeli drone strike in southern Lebanon. The group said the attacks show that ceasefires reached last October have done little to protect reporters working in either territory.",
-        "Aid officials separately said deliveries into Gaza have fallen to one of their lowest points since the ceasefire took hold, with less food and medical supply entering the strip now than at almost any point since October 2025. Four people were also reported killed in southern Lebanon in Israeli airstrikes that the Israeli military said were a response to Hezbollah drone attacks."
-      ],
-      "sources": [
-        [
-          "Committee to Protect Journalists",
-          "https://cpj.org/2026/09/journalists-in-lebanon-and-gaza-injured-amid-fragile-ceasefires/amp/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Conflicts & Security",
-      "h3": "North Korea keeps testing missiles as Russia arms flow",
-      "summary": "North Korea fired a barrage of ballistic missiles from Pyongyang in its latest test this year, while Ukrainian intelligence says Pyongyang has begun supplying Russia with newer short range missiles.",
-      "body": [
-        "Japanese and South Korean military authorities detected roughly ten ballistic missiles launched from Pyongyang on 1 September, part of what South Korean assessments count as North Korea's eleventh suspected ballistic missile test of the year following an August 31 launch that flew about 690 kilometres into the Sea of Japan. The pace of testing has accelerated through the summer as Kim Jong Un's government continues to expand its missile programme despite international sanctions.",
-        "Ukrainian military intelligence said in late August that Russia has now received its first Hwasong-11C, also known as KN-30, short range ballistic missiles from North Korea, adding to earlier transfers of KN-23 and KN-24 missiles already used against Ukrainian targets. The transfers underline deepening military cooperation between Pyongyang and Moscow even as North Korea keeps testing new systems closer to home."
-      ],
-      "sources": [
-        [
-          "Al Jazeera",
-          "https://www.aljazeera.com/news/2026/8/12/n-korea-launches-ballistic-missile-as-s-korea-us-plan-military-drills"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Conflicts & Security",
-      "h3": "Sahel violence spreads toward Nigeria and coastal states",
-      "summary": "Armed groups linked to JNIM and Islamic State Sahel province are pushing attacks beyond Mali, Burkina Faso and Niger into Benin, Togo and Nigeria, UN and regional officials warned this month.",
-      "body": [
-        "Militant groups are increasingly using drones, encrypted communications and cryptocurrency to coordinate cross border operations, according to briefings reviewed by regional analysts, as the security crisis that has gripped the Sahel for years now spills into coastal West African states. A UN Security Council briefing said renewed diplomacy is beginning to yield some results even as the terrorist threat continues to grow across the wider region.",
-        "The spread of violence has coincided with a widening diplomatic rift between Nigeria and the Sahelian juntas in Mali, Burkina Faso and Niger, with each new flashpoint hardening rather than softening positions. There have been some positive signs too, including the reopening of the Kamba border crossing between Niger and Nigeria, though aid agencies say only 14 percent of the funding required for this year's humanitarian response across the region has been received so far."
-      ],
-      "sources": [
-        [
-          "Al Jazeera",
-          "https://www.aljazeera.com/news/2026/8/22/nigeria-and-the-sahel-a-growing-security-divide"
-        ],
-        [
-          "UN Meetings Coverage",
-          "https://press.un.org/en/2026/sc16413.doc.htm"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Diplomacy & Trade",
-      "h3": "AfD wins Saxony-Anhalt vote but falls short of majority",
-      "summary": "Germany's far right Alternative for Germany more than doubled its vote share to win Sunday 6 September's Saxony-Anhalt state election, though it fell just short of an outright majority.",
-      "body": [
-        "The AfD took 43.9 percent of the vote in Saxony-Anhalt on Sunday, a swing of more than 23 points from the 20.8 percent it won at the last election, giving it 39 seats in the state parliament. The result more than doubled the party's previous share and left the long dominant Christian Democrats, who managed just 17.2 percent, a distant second. The Social Democrats came third with 9.3 percent, with the Greens and the Left party close behind.",
-        "Despite the historic result, the AfD does not have enough seats to govern alone, and other parties have so far refused to work with it, leaving the shape of the next state government uncertain. Analysts described the outcome as a landmark for the party's eastern German strongholds and a warning sign ahead of further state votes, even as mainstream parties debate whether their long standing refusal to cooperate with the AfD can hold."
-      ],
-      "sources": [
-        [
-          "NPR",
-          "https://www.npr.org/2026/09/06/nx-s1-5955677/german-afd-far-right"
-        ],
-        [
-          "CNN",
-          "https://edition.cnn.com/2026/09/06/europe/germany-afd-state-election-majority-intl"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Diplomacy & Trade",
-      "h3": "Iran says Hormuz shipping deal with Oman is days away",
-      "summary": "Tehran said on Monday 7 September that a deal with Oman to manage a temporary safe corridor through the Strait of Hormuz is in its final stages, even as fighting continued at sea.",
-      "body": [
-        "Iranian officials said an agreement with Oman covering a temporary safe shipping route through Hormuz is close to completion after weeks of negotiation, according to Bloomberg. The arrangement is meant to help restore the June 17 ceasefire between Washington and Tehran, resolve the standoff over the strait that once carried a fifth of the world's oil, and open space for wider talks on Iran's nuclear programme.",
-        "Washington has pushed back on suggestions that Iran would effectively control traffic through any safe route, insisting that transit should not require Iranian permits, approvals or fees. Hardliners in Tehran have accused the United States of being the real obstacle to a deal, saying the strait will stay closed until their conditions are met, which has left the timeline for any agreement uncertain despite the upbeat statements."
-      ],
-      "sources": [
-        [
-          "Bloomberg",
-          "https://www.bloomberg.com/news/articles/2026-09-07/iran-says-strait-of-hormuz-deal-with-oman-just-days-away"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Diplomacy & Trade",
-      "h3": "Oil hits one month high near $98 on Hormuz fears",
-      "summary": "Brent crude climbed to nearly $98 a barrel on Monday 7 September as renewed Hormuz strikes dimmed hopes the strait would reopen soon.",
-      "body": [
-        "Brent crude touched $97.89 a barrel and West Texas Intermediate topped $92 on 7 September, marking the highest levels since July, as fighting between US and Iranian forces resumed in the strait after roughly a month of relative calm. Both sides struck tankers over the weekend, feeding fears that the flow of oil through the world's most important chokepoint will stay disrupted well into autumn.",
-        "Traders were also weighing Iran's claim that a side deal with Oman on a temporary safe corridor is close, which would normally ease prices, but scepticism about whether Washington will accept the terms kept a risk premium baked into the market. The US Energy Information Administration has already lifted its price outlook to reflect what it calls a reshaped forecast driven by the ongoing Hormuz crisis."
-      ],
-      "sources": [
-        [
-          "Vantage Markets",
-          "https://www.vantagemarkets.com/market-analysis/brent-wti-crude-oil-price-today-hormuz-tanker-strikes-september-7-2026/"
-        ],
-        [
-          "Bloomberg",
-          "https://www.bloomberg.com/news/articles/2026-09-07/latest-oil-market-news-and-analysis-for-sept-8"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Diplomacy & Trade",
-      "h3": "Trump asks Supreme Court to block mailed ballots in transit",
-      "summary": "President Trump asked the Supreme Court on Sunday 6 September to let the Postal Service refuse to deliver or return ballots already in the mail, his third such bid in six weeks.",
-      "body": [
-        "Trump's request would let the US Postal Service withhold delivery or return of ballots that are already in transit, an escalation of a fight over mail voting rules that has already reached the high court twice in recent weeks. A federal judge had blocked the underlying Postal Service rule, ruling that no state could comply in time since it would require every state to redesign ballot envelopes, secure approval for the new design and upload each voter's name and address to a federal portal.",
-        "The petition landed as Trump spent the Labor Day holiday in Bedminster, New Jersey, with plans to return to Washington to mark the 25th anniversary of September 11 later in the week. Separately in Washington, a bipartisan push to raise the payroll tax gained traction as a way to avoid deep cuts to retirement benefits, even drawing interest from some Republicans normally opposed to any tax increase."
-      ],
-      "sources": [
-        [
-          "GovBrief",
-          "https://govbrief.today/what-happened-today-september-6-2026/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Diplomacy & Trade",
-      "h3": "Congress presses White House on Venezuela war powers",
-      "summary": "Lawmakers continued to question the legal basis for US military operations tied to Venezuela on Monday 7 September, months after the January capture of Nicolas Maduro.",
-      "body": [
-        "Eight months after US forces captured former Venezuelan leader Nicolas Maduro and his wife Cilia Flores in a January raid, congressional scrutiny of the broader military campaign has intensified. The Senate recently voted down a bipartisan war powers resolution that would have required congressional authorisation before further US military action in or against Venezuela, a defeat for lawmakers who argue the campaign has operated with insufficient oversight.",
-        "Human rights groups have continued to question the legality of a string of earlier strikes on alleged drug trafficking boats that preceded the Maduro operation, arguing the campaign set a troubling precedent for unilateral use of force in the region. Defense officials have defended the operations as necessary counter narcotics and security measures."
-      ],
-      "sources": [
-        [
-          "Council on Foreign Relations",
-          "https://www.cfr.org/articles/operation-southern-spear-us-military-campaign-targeting-venezuela"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Diplomacy & Trade",
-      "h3": "France's revolving door government still hunting a budget",
-      "summary": "France entered the week with Prime Minister Sebastien Lecornu still trying to stabilise a governing majority as the country's fourth government in a year works toward a budget deal.",
-      "body": [
-        "Lecornu, who was appointed in September 2025, briefly resigned in October and was then reappointed within days, remains the fourth prime minister to hold the post in roughly a year. His predecessor Francois Bayrou was ousted after failing to build a stable majority following a confidence vote tied to his austerity budget, continuing a pattern of parliamentary fragmentation that has dogged French politics since the 2024 snap elections.",
-        "With the next presidential contest not scheduled until April or May 2027, an early legislative election looks unlikely, leaving Lecornu to govern with a fragile coalition through further budget negotiations. Analysts note the instability has made it harder for Paris to commit to shared European positions on everything from defence spending to the bloc's response to the Hormuz crisis."
-      ],
-      "sources": [
-        [
-          "Time",
-          "https://time.com/7315503/france-government-collapse-emmanuel-macron-francois-bayrou-budget-national-rally/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Diplomacy & Trade",
-      "h3": "Small boats protests flare at Portsmouth and Dover",
-      "summary": "Demonstrations over Channel crossings broke out at Portsmouth and the Port of Dover as UK lawmakers returned to Westminster on Monday 7 September for a new sitting week.",
-      "body": [
-        "A protest in Portsmouth over small boat arrivals prompted the local police and crime commissioner to call the unrest a wake up call for the government, while separate demonstrations were also reported at the Port of Dover. The protests added pressure on ministers as parliament resumed business, with the Commons taking up housing, communities and local government questions followed by remaining stages of the Health Bill.",
-        "In the House of Lords, members debated draft legislation to nationalise the rail network through the creation of Great British Railways, a flagship plan from the government to bring train operations back under public control. Immigration policy and small boat crossings remain among the most politically charged issues facing the government heading into the autumn parliamentary session."
-      ],
-      "sources": [
-        [
-          "UK Parliament",
-          "https://www.parliament.uk/business/news/2026/september-2026/coming-up-in-the-commons-7-11-september/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Humanitarian & Climate",
-      "h3": "Sudan's war leaves 33.7 million needing aid in 2026",
-      "summary": "Nearly three years of conflict in Sudan has pushed 33.7 million people, half of them children, into need of humanitarian assistance, aid agencies said in updates current through early September.",
-      "body": [
-        "Sudan's civil war has driven mass displacement, food insecurity and disease outbreaks that have collapsed essential services across the country, according to the 2026 Humanitarian Needs and Response Plan tracked on ReliefWeb. Eastern Africa as a whole is now one of the world's most severe humanitarian hotspots, with 48.5 million people across the region in need this year, and aid officials say the parallel Middle East conflict is disrupting supply routes and pushing up fuel and food costs.",
-        "A first standard allocation of 40 million dollars from the Sudan Humanitarian Fund is meant to plug some of the most critical gaps, but agencies say funding remains far short of what is needed. In South Sudan, conflict around Nasir is separately sustaining an emergency level food crisis and a risk of famine that has persisted from April through September."
-      ],
-      "sources": [
-        [
-          "ReliefWeb",
-          "https://reliefweb.int/report/sudan/sudan-humanitarian-needs-and-response-plan-2026-summary"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Humanitarian & Climate",
-      "h3": "Famine confirmed in El Fasher as siege toll mounts",
-      "summary": "Food security monitors have confirmed famine conditions in Sudan's El Fasher and Kadugli, with rights groups saying tens of thousands fled North Darfur after the city's fall.",
-      "body": [
-        "The Integrated Food Security Phase Classification system has confirmed famine in El Fasher and Kadugli, with twenty other areas of Sudan at risk of crossing the same threshold. Amnesty International has said the Rapid Support Forces committed ethnic cleansing during its siege of El Fasher, which ran from May 2024 until the city's fall in October 2025, restricting food and aid while shelling the city almost daily and forcing residents to eat ambaz, a peanut byproduct normally fed to animals.",
-        "Roughly 61.7 percent of Sudan's population, or 28.9 million people, are now facing acute food shortages nationwide. Aid workers warn that El Obeid, now under siege by the Rapid Support Forces, could become the next city to face conditions similar to those that produced famine in El Fasher."
-      ],
-      "sources": [
-        [
-          "Al Jazeera",
-          "https://www.aljazeera.com/news/2026/7/1/amnesty-says-rsf-committed-ethnic-cleansing-in-sudans-el-fasher"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Humanitarian & Climate",
-      "h3": "2026 on track to be second warmest year on record",
-      "summary": "Carbon Brief's tracking shows 2026 is likely to rank as the second or third warmest year on record globally, with ocean surface temperatures still running at record levels into September.",
-      "body": [
-        "Carbon Brief's state of the climate analysis puts 2026 roughly tied with 2023 and 2025 for the warmest years measured, with a strong El Nino expected to develop further later in the year and push temperatures higher still. Daily global sea surface temperatures hit 20.86 degrees Celsius in June, breaking the previous record of 20.83 degrees set on the same date in 2023 and 2024, and ocean heat has stayed at record levels every day since.",
-        "Scientists tracking the pattern say the persistence of record ocean warmth, layered on top of a developing El Nino, makes further extreme heat events more likely into the autumn. Europe and the United States have already recorded shocking extreme heat this year that has surprised climate scientists monitoring long term trends."
-      ],
-      "sources": [
-        [
-          "Carbon Brief",
-          "https://www.carbonbrief.org/state-of-the-climate-strong-el-nino-puts-2026-on-track-for-second-warmest-year"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Humanitarian & Climate",
-      "h3": "El Obeid siege raises fears of a second Sudan famine",
-      "summary": "Aid monitors warned this month that El Obeid, now surrounded by Rapid Support Forces fighters, could face a famine similar to the one confirmed in El Fasher.",
-      "body": [
-        "Analysts tracking the siege said the pattern around El Obeid closely mirrors the months long blockade that preceded confirmed famine conditions in El Fasher and Kadugli, with humanitarian access into the city sharply restricted. Aid groups say the risk illustrates how quickly localised sieges in Sudan's civil war can tip into full blown famine once food and medical supplies are cut off for an extended period.",
-        "The warning comes as international donors continue to struggle to fund Sudan's response plan, with the country's overall humanitarian caseload now standing at 33.7 million people in need. Aid officials say the parallel Middle East conflict has made the funding and logistics picture even harder, diverting attention and resources away from a crisis that is already one of the world's largest."
-      ],
-      "sources": [
-        [
-          "Al Jazeera",
-          "https://www.aljazeera.com/news/2026/7/6/el-obeid-under-siege-by-rsf-could-this-be-sudans-next-el-fasher"
-        ]
-      ]
-    }
-  ],
-  "netherlands": [
-    {
-      "hero": true,
-      "sub": "Politics & Policy",
-      "h3": "Jetten cabinet races to finish budget before Prinsjesdag",
-      "summary": "With Prinsjesdag just over a week away on 15 September, the Jetten minority cabinet was still trying on Monday 7 September to secure enough opposition support to pass its budget.",
-      "body": [
-        "Finance minister Eelco Heinen must have a finished budget ready for his traditional black briefcase by Prinsjesdag, but as of Monday the cabinet still lacked firm commitments from enough opposition parties in both the Second and First Chamber. Because the coalition governs without a majority, it needs broad support from left and right leaning opposition parties to get the Miljoenennota through parliament, and initial signals were not encouraging.",
-        "Leaked details suggest the government has largely abandoned planned cuts to social security and will delay a planned increase in the health insurance deductible by a year, while setting aside 1.5 billion euros to help restore household purchasing power. GroenLinks-PvdA leader Jesse Klaver said he had heard nothing further from prime minister Rob Jetten since their last conversation and worried that difficult choices were being postponed rather than made."
-      ],
-      "sources": [
-        [
-          "NOS",
-          "https://nos.nl/artikel/2629171-kabinet-rekent-op-brede-steun-oppositie-voor-begroting-maar-die-is-nog-sceptisch"
-        ],
-        [
-          "NOS",
-          "https://nos.nl/artikel/2629262-bezuinigingen-sociale-zekerheid-grotendeels-geschrapt-eerste-details-prinsjesdagstukken-uitgelekt"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Politics & Policy",
-      "h3": "Nationwide transport strike set to halt trains on Wednesday",
-      "summary": "Unions confirmed a 24 hour strike will hit NS, ProRail, DB Cargo and city transit on Wednesday 9 September over planned cuts to unemployment and disability benefits.",
-      "body": [
-        "FNV members at NS, ProRail, DB Cargo, regional bus operators and city transit companies including GVB, RET and HTM will down tools for a full day on Wednesday, with NS train staff walking out from 02:00 that morning until 02:00 on Thursday. ProRail confirmed to trade outlet SpoorPro that essentially no trains will run nationwide, with only the Airport Sprinter between Amsterdam Central, Schiphol and Hoofddorp continuing to operate.",
-        "The union says the strike is meant to send an unmistakable signal to The Hague that plans to further tighten unemployment and disability insurance are unacceptable and must be dropped from the budget entirely. FNV confirmed on Monday that despite ongoing budget talks, the cuts were not yet off the table and the strike would go ahead as planned."
-      ],
-      "sources": [
-        [
-          "FNV",
-          "https://www.fnv.nl/nieuwsbericht/sectornieuws/vervoer/2026/09/bezuinigingen-niet-van-tafel-ov-staking-gaat-door"
-        ],
-        [
-          "SpoorPro",
-          "https://www.spoorpro.nl/actueel/2026/09/03/prorail-bevestigt-geen-treinen-tijdens-staking/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Politics & Policy",
-      "h3": "Rutte faces corona commission for a second and final time",
-      "summary": "Former prime minister Mark Rutte answered questions from the parliamentary Covid inquiry commission on Monday 7 September in what was billed as its last week of public hearings.",
-      "body": [
-        "Rutte appeared before the commission from 10:00 on Monday morning to account for his cabinet's handling of the pandemic, in what was described as his second and final hearing before the panel. The session fell in the commission's closing week of public testimony, after which it is expected to move toward drafting its final conclusions on the government's coronavirus response.",
-        "Commentators noted the commission still had many open questions for Rutte specifically around what has been called the method Rutte, his hands on approach to steering cabinet decisions during the pandemic, and whether he remained genuinely open to internal criticism of the government's Covid strategy at the time."
-      ],
-      "sources": [
-        [
-          "TPO",
-          "https://tpo.nl/2026/09/07/coronacommissie-verhoort-rutte-tweede-keer/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Economy & Housing",
-      "h3": "Housing shortfall grows to 410,000 homes nationwide",
-      "summary": "The Netherlands is now about 410,000 homes short of what its population needs, CBS figures confirmed this week, up from 400,000 a year earlier.",
-      "body": [
-        "The shortage now represents 4.8 percent of the national housing stock, and only 69,189 new homes were completed in 2025, well below the government's annual target of 100,000. Officials point to a mix of causes including nitrogen emission rules that delay building permits, high construction material costs, municipal planning processes that can take eight to twelve years from start to finish, and an electricity grid too congested to easily support new developments.",
-        "House prices continue to climb even as supply grows slightly, with Rabobank's housing market quarterly showing no clear signs of cooling. The price index for existing owner occupied homes rose 8.57 percent year on year in 2025 before easing to a still brisk 4.98 percent in March 2026, leaving first time buyers, particularly younger Gen Z buyers, struggling to enter the market."
-      ],
-      "sources": [
-        [
-          "Rabobank",
-          "https://www.rabobank.com/knowledge/d011508452-dutch-housing-market-quarterly-no-signs-of-cooling-even-as-supply-grows"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Economy & Housing",
-      "h3": "CBS: younger generations wealthier than their parents were",
-      "summary": "New CBS data published Monday 7 September found that, contrary to popular perception, younger generations in the Netherlands are generally wealthier at the same age than the generations before them.",
-      "body": [
-        "Statistics Netherlands compared wealth accumulation across generations at equivalent ages and found today's younger adults hold more assets on average than their predecessors did, even as concerns about housing affordability and stagnant purchasing power dominate political debate. The finding complicates the common narrative that younger Dutch households are falling behind financially compared with earlier generations.",
-        "Researchers cautioned that averages can mask large disparities, since homeownership, inheritance and regional differences all shape individual wealth trajectories very differently. The report lands just as the housing shortage and rental crisis remain central themes in the run up to Prinsjesdag budget negotiations."
-      ],
-      "sources": [
-        [
-          "NL Times",
-          "https://nltimes.nl/2026/09/07/netherlands-younger-generations-generally-wealthier-predecessors"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Economy & Housing",
-      "h3": "Record low Rhine keeps freshwater and shipping under strain",
-      "summary": "Weeks after the Rhine hit its lowest recorded level at the Dutch border, the drought's economic toll on shipping and horticulture is still being tallied heading into autumn.",
-      "body": [
-        "The Rhine's discharge at Lobith fell below 615 cubic metres per second in mid August, breaking the previous record low set during the 2022 drought, and the river's level dropped to 6.47 metres above NAP. The Netherlands has since moved back down from a level two to a level one water shortage classification after weeks of rain, but officials say the reduced river volume will continue to be felt for months.",
-        "The government estimates damage to businesses, from inland shipping operators to greenhouse horticulture, at tens to hundreds of millions of euros, with restrictions on lock operations introduced in several regions to conserve freshwater. The delta commissioner has separately warned that the Netherlands needs to roughly double its water infrastructure spending, a recommendation expected to feature in the full 2027 Delta Programme due on Prinsjesdag."
-      ],
-      "sources": [
-        [
-          "DutchNews.nl",
-          "https://www.dutchnews.nl/2026/09/netherlands-must-double-water-spending-delta-commissioner-warns/"
-        ],
-        [
-          "NL Times",
-          "https://nltimes.nl/2026/07/30/rhine-reaches-lowest-water-level-ever-recorded-dutch-border"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Economy & Housing",
-      "h3": "Delta commissioner urges doubling of water spending",
-      "summary": "The Netherlands must roughly double what it spends on water infrastructure, the country's delta commissioner warned this week ahead of the full 2027 Delta Programme due on Prinsjesdag.",
-      "body": [
-        "The warning follows a summer in which the Rhine hit its lowest recorded water level at the Dutch border and the government was forced to formally declare a national water shortage. The commissioner argues that current investment levels are not enough to protect the country against a future of more frequent droughts and more extreme rainfall, both linked to climate change.",
-        "The full revised Delta Programme strategy will be published alongside the national budget on 15 September, giving parliament its first detailed look at how much extra funding the government is prepared to commit. Water boards and provinces have separately pressed The Hague for clarity on financing, warning that further delays could leave both freshwater supply and flood defences increasingly exposed."
-      ],
-      "sources": [
-        [
-          "DutchNews.nl",
-          "https://www.dutchnews.nl/2026/09/netherlands-must-double-water-spending-delta-commissioner-warns/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Society & Culture",
-      "h3": "PISA 2025 results land Tuesday amid reading concerns",
-      "summary": "The new PISA 2025 scores were due for release on Tuesday 8 September, with Dutch education watchers bracing for another weak result after a sharp decline in reading ability.",
-      "body": [
-        "In the last PISA round, Dutch secondary students scored 459 points in reading, well below both the EU average of 480 and the OECD average of 476, placing the Netherlands second lowest in Europe after Greece. Roughly a third of Dutch students are now considered insufficiently literate, and the decline has accelerated markedly since the 2018 round, outpacing the average drop seen across other EU14 countries.",
-        "Education researchers have linked the slide to reduced reading for pleasure among teenagers and changes in how Dutch language exams are structured, and the new figures released this week were expected to show whether recent literacy campaigns have made any dent in the trend. The results carry political weight too, since school quality has become a recurring theme in budget debates ahead of Prinsjesdag."
-      ],
-      "sources": [
-        [
-          "Stichting Lezen",
-          "https://www.lezen.nl/onderzoek/leesprestaties-nederlandse-middelbare-scholieren-gaan-achteruit/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Society & Culture",
-      "h3": "Fortuna Sittard beats promoted ADO Den Haag on the road",
-      "summary": "Fortuna Sittard continued its strong start to the Eredivisie season with an away win over newly promoted ADO Den Haag on Sunday 6 September.",
-      "body": [
-        "Fortuna Sittard travelled to the WerkTalent Stadion sitting sixth in the table with seven points from four matches, while hosts ADO Den Haag were second from bottom with just a single point from their opening four games back in the top flight after a five year absence. It was the two clubs' first Eredivisie meeting since ADO's relegation five seasons ago.",
-        "The result extended Fortuna's positive form under coach Robin Peters and left ADO still searching for their first win since returning to the Eredivisie. The Limburg club's start has drawn attention as one of the division's early surprises, while ADO faces mounting pressure to secure results before the international break."
-      ],
-      "sources": [
-        [
-          "Sofascore",
-          "https://www.sofascore.com/football/match/ado-den-haag-fortuna-sittard/hjbsqjb"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Society & Culture",
-      "h3": "Universities open their doors for the new academic year",
-      "summary": "Dutch universities in Amsterdam, Leiden, Utrecht and elsewhere welcomed students back for the first semester in the first week of September.",
-      "body": [
-        "The start of the academic year brought the usual wave of introduction events, housing scrambles and orientation activities across university towns, with IamExpat noting that international students in particular continue to face a tight and sometimes scam prone rental market as they search for rooms near campus.",
-        "The timing coincides with mounting attention on the housing shortage more broadly, as students compete with other groups for a limited supply of affordable rooms in university cities. Universities have repeated calls for more purpose built student housing as enrolment, including from international students, continues to grow year over year."
-      ],
-      "sources": [
-        [
-          "IamExpat",
-          "https://www.iamexpat.nl/expat-info/dutch-news/september-2026-6-changes-expats-netherlands-need-know-about"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Society & Culture",
-      "h3": "Waste Free Week kicks off with local food saving drives",
-      "summary": "The national Waste Free Week began this week, with entrepreneurs in Panningen among those organising local efforts to cut daily food waste.",
-      "body": [
-        "Local businesses in Panningen partnered up during the campaign week to redistribute surplus food that would otherwise be thrown away, part of a broader national push highlighted by NOS to reduce the large quantities of edible food Dutch households and retailers discard every day.",
-        "Campaigners used the week to press supermarkets and restaurants to donate more unsold food to charities and food banks, framing the effort as both an environmental and a cost of living measure at a time when household budgets are under pressure from high grocery prices."
-      ],
-      "sources": [
-        [
-          "NOS",
-          "https://nos.nl/nieuws/laatste"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Society & Culture",
-      "h3": "Last taste of summer gives way to autumn rain",
-      "summary": "Monday 7 September brought the season's final warm spell, with highs up to 29 degrees in Limburg, before a wet and much cooler Tuesday moved in.",
-      "body": [
-        "Temperatures ranged from a milder 24 degrees on the coast up to 29 degrees in Limburg and along the eastern border on Monday, giving much of the country one last summery day before autumn weather arrived. Forecasters had flagged the shift for days, describing Monday as the last chance to enjoy shorts and terraces before a broad frontal system moved in.",
-        "By Tuesday 8 September, a low pressure system over Scotland pushed a wide band of rain across the country, dropping daytime highs to 16 to 18 degrees with a fresh southwesterly wind and almost no sunshine. The cooler, wetter pattern is expected to persist into midweek, arriving just as the country braces for Wednesday's nationwide transport strike."
-      ],
-      "sources": [
-        [
-          "DutchNews.nl",
-          "https://www.dutchnews.nl/2026/09/last-taste-of-summer-today-before-the-rain-sets-in/"
-        ]
-      ]
-    }
-  ]
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Houthi strikes on Saudi cities and oil sites wound 73",
+   "summary": "Yemen's Houthis attacked Abha, Khamis Mushait, Jazan and Najran on Tuesday 8 September, injuring 73 people and igniting fires at energy facilities, the Saudi-led coalition said.",
+   "body": [
+    "Reuters reported that the Saudi-led coalition in Yemen counted 73 injured civilians, including women and children, after a wave of Houthi drone and missile attacks on southern Saudi Arabia. Fires broke out at several oil facilities and utilities, and operations were temporarily suspended. The southern region hosts the 400,000 barrel a day Jazan refinery, one of the kingdom's largest.",
+    "The Houthis said the attacks were retaliation for more than 120 Saudi strikes on Yemen over the previous three days, after weeks of renewed fighting shattered a four-year truce in the civil war. Coalition spokesman Turki al-Maliki called the escalation dangerous and irresponsible, and Riyadh vowed to respond."
+   ],
+   "sources": [
+    [
+     "Reuters",
+     "https://www.reuters.com/world/middle-east/saudi-led-coalition-yemen-says-73-injured-houthi-attacks-kingdom-2026-09-08/"
+    ],
+    [
+     "NPR",
+     "https://www.npr.org/2026/09/08/g-s1-142296/houthi-attacks-saudi-arabia"
+    ],
+    [
+     "Arab News",
+     "https://www.arabnews.com/saudi-arabia/houthi-attacks-on-saudi-arabia-wound-73-people-officials-say-3000870"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Iran to declare Hormuz exclusion zone as tanker traffic dwindles",
+   "summary": "Iran's Supreme National Security Council said on Monday 7 September it will announce a restricted zone outside the Strait of Hormuz within days, while shipping data showed transits at their lowest since May.",
+   "body": [
+    "Mohsen Rezaei, secretary of Iran's Supreme National Security Council, said Tehran would soon publish a prohibited zone stretching from the US Navy blockade line through the strait and into the Gulf, where vessels transiting without Iranian permission would be stopped, Reuters reported. Parliament speaker Mohammad Baqer Qalibaf separately threatened to target Gulf energy infrastructure, including US oil and gas interests, if American attacks continue.",
+    "Al Jazeera reported that Iran also says a deal with Oman to manage shipping through the strait is in its final stages and would include a temporary safe route. Kpler data cited by Reuters showed an average of only about 10 ships a day passing through the waterway on Sunday."
+   ],
+   "sources": [
+    [
+     "Reuters",
+     "https://www.reuters.com/world/middle-east/iran-says-announce-new-restricted-zone-gulf-coming-days-2026-09-07/"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/liveblog/2026/9/7/iran-war-live-tehran-to-announce-new-hormuz-shipping-route-in-coming-days"
+    ],
+    [
+     "Bloomberg",
+     "https://www.bloomberg.com/news/articles/2026-09-07/latest-oil-market-news-and-analysis-for-sept-8"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Russia resumes Kyiv strikes after three-day pause, two dead",
+   "summary": "Russian drones and missiles hit Kyiv and the Odesa region overnight into Tuesday 8 September, killing at least two people and ending a pause that coincided with US envoy visits.",
+   "body": [
+    "AP reported that at least two people were killed and around ten injured as Russia struck civilian infrastructure at some 16 locations around the Ukrainian capital. President Zelenskyy said residential buildings suffered significant damage. Ukraine answered with drone attacks on Russian territory and on occupied Crimea that officials said killed at least two people.",
+    "The strikes followed three days without attacks on Moscow or Kyiv while Steve Witkoff and Jared Kushner met Vladimir Putin and Volodymyr Zelenskyy. CBS News said the resumption underlined the limited immediate results of the diplomatic push."
+   ],
+   "sources": [
+    [
+     "AP News",
+     "https://apnews.com/article/russia-ukraine-war-kyiv-missiles-drones-attacks-fd634a6786462bc95b7dfefc97d2331e"
+    ],
+    [
+     "CBS News",
+     "https://www.cbsnews.com/news/ukraine-russia-war-peace-talks-witkoff-kushner-strikes-kyiv/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Ukraine's prosecutor general quits amid corruption probe",
+   "summary": "Prosecutor General Ruslan Kravchenko submitted his resignation on Monday 7 September, days after anti-corruption agents raided his office.",
+   "body": [
+    "Reuters reported that Kravchenko cited political reasons, saying he did not want the office to be used as an instrument of political confrontation. The Kyiv Independent said his office is accused of running a scheme that took bribes to protect fraudulent call centres while laundering millions of dollars.",
+    "The resignation lands at a sensitive moment for Kyiv, which is pressing Western partners for winter support and trying to demonstrate progress on governance. Democracy Now noted the raid by anti-corruption agents came only days before he stepped down."
+   ],
+   "sources": [
+    [
+     "Reuters",
+     "https://www.reuters.com/business/aerospace-defense/ukraines-prosecutor-general-submits-resignation-citing-political-conflict-2026-09-08/"
+    ],
+    [
+     "Kyiv Independent",
+     "https://kyivindependent.com/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Israeli strikes kill 12 in southern Lebanese town",
+   "summary": "Strikes on Kfar Roummane on Monday 7 September killed at least 12 people including two children and a medic, Lebanon's health ministry said, with no prior evacuation warning.",
+   "body": [
+    "Reuters and the New York Times reported that the Israeli military said it was responding to Hezbollah drone attacks and targeted what it called Hezbollah infrastructure. The attacks came a day after Israeli strikes killed seven people and days after the IDF said it had captured a ridge overlooking Nabatieh.",
+    "Despite a ceasefire, Israel says its troops will stay in southern Lebanon until Hezbollah is disarmed. Residents interviewed by Democracy Now described shrapnel injuries and concussions among children treated at local clinics."
+   ],
+   "sources": [
+    [
+     "Reuters",
+     "https://www.reuters.com/world/middle-east/israeli-strikes-southern-lebanese-town-kill-11-state-news-agency-says-2026-09-07/"
+    ],
+    [
+     "New York Times",
+     "https://www.nytimes.com/2026/09/07/world/middleeast/israel-lebanon-strikes-hezbollah.html"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Gaza strikes continue as 16 ceasefire violations logged in a day",
+   "summary": "Israeli strikes and shelling killed several Palestinians across Gaza on Tuesday 8 September, including a man hit in a tent north of Nuseirat, as funerals were held for around 100 bodies recovered in Zeitoun.",
+   "body": [
+    "Reuters reported that a weekend strike on a vehicle in western Gaza City killed a man and his eight-year-old daughter, with the IDF saying it had targeted a Hamas militant. A tank shell fired at a school sheltering displaced families killed a three-year-old boy, medics said. Palestinian outlets counted 16 new violations of the October 2025 ceasefire on Tuesday alone.",
+    "Families in Gaza City's Zeitoun district buried about 100 people whose remains were pulled from the rubble of buildings destroyed earlier in the war, including 55 members of one family killed in November 2023."
+   ],
+   "sources": [
+    [
+     "Reuters",
+     "https://www.reuters.com/world/middle-east/israeli-strike-kills-two-people-gaza-medics-say-2026-09-06/"
+    ],
+    [
+     "Reuters",
+     "https://www.reuters.com/world/middle-east/israeli-clearance-gaza-rubble-could-destroy-evidence-says-un-expert-2026-09-07/"
+    ],
+    [
+     "Democracy Now",
+     "https://www.democracynow.org/2026/9/8/headlines"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "West Bank teen shot dead as Netanyahu orders outposts removed",
+   "summary": "A 19-year-old Palestinian was killed and three wounded when settlers and soldiers converged on the village of Hajja on Monday 7 September, a day after Netanyahu reportedly ordered unauthorised outposts dismantled.",
+   "body": [
+    "Reuters reported that villagers confronted nine armed settlers from a nearby outpost and were then trapped by Israeli troops approaching from the other side. In a separate incident a Palestinian who stabbed a settler inside an outpost was shot dead. The UN counts at least 79 Palestinians killed in the West Bank this year, including 19 children.",
+    "Sources told Reuters that Prime Minister Netanyahu has ordered unauthorised settler outposts to be dismantled, and Israel's Supreme Court ruled that defence authorities must allow three families chased out of Jalud to return home."
+   ],
+   "sources": [
+    [
+     "Reuters",
+     "https://www.reuters.com/world/middle-east/two-palestinians-killed-israeli-stabbed-west-bank-settler-violence-flares-2026-09-07/"
+    ],
+    [
+     "Reuters",
+     "https://www.reuters.com/world/middle-east/israels-netanyahu-orders-west-bank-settler-outposts-be-removed-sources-say-2026-09-06/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Pentagon polygraphed 50 Joint Staff members over leaks",
+   "summary": "About 50 officers and civilians on the US military's Joint Staff were given lie detector tests in August over reports on dwindling missile stocks, the New York Times reported on Tuesday 8 September.",
+   "body": [
+    "The New York Times said investigators asked whether staff had discussed munitions stockpiles, including long-range missiles and Patriot interceptors, with journalists or passed on classified material. The tests followed press reports that the Iran war had depleted key US weapons.",
+    "Democracy Now noted that Defense Secretary Pete Hegseth has not briefed the Pentagon press corps on the Iran war since 5 May and has restricted reporters' access inside the building. Reuters separately reported that the White House has reviewed candidates to replace Deputy Defense Secretary Steve Feinberg."
+   ],
+   "sources": [
+    [
+     "New York Times",
+     "https://www.nytimes.com/2026/09/04/us/politics/pentagon-staff-polygraph-tests.html"
+    ],
+    [
+     "Democracy Now",
+     "https://www.democracynow.org/2026/9/8/headlines"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Canada's counter-tariffs kick in as Trump targets Bombardier",
+   "summary": "Canadian retaliatory tariffs on about 27.6 billion Canadian dollars of US goods took effect at 12:01 am on Tuesday 8 September, hours after Trump said Bombardier jets should no longer be sold in the United States.",
+   "body": [
+    "CNBC reported duties ranging from 15 to 50 percent on hundreds of product lines, with US steel, aluminium and iron facing the top 50 percent rate alongside furniture, motorcycles and clothing. Ottawa described the move as a dollar for dollar response to US Section 338 tariffs on Canadian exports.",
+    "On Truth Social the day before, Trump demanded Americans stop buying Bombardier aircraft unless the company builds them in the United States, Reuters and the Washington Post reported. Trade talks between the two countries have stalled."
+   ],
+   "sources": [
+    [
+     "Reuters",
+     "https://www.reuters.com/business/autos-transportation/canadas-retaliatory-tariffs-take-effect-us-trade-talks-stall-2026-09-08/"
+    ],
+    [
+     "CNBC",
+     "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
+    ],
+    [
+     "Washington Post",
+     "https://www.washingtonpost.com/business/2026/09/08/trump-threatens-ban-bombardier-jet-sales-canadas-tariffs-take-effect/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Kremlin open to new talks as US floats winter de-escalation",
+   "summary": "Kremlin spokesman Dmitry Peskov said on Monday 7 September that Moscow does not rule out resuming three-way talks, after Witkoff and Kushner's first joint visit to Kyiv produced no breakthrough.",
+   "body": [
+    "Reuters reported Peskov saying it was too early to say when or where talks might happen. Witkoff spoke of substantive progress after three hours with Putin on Saturday, but Zelenskyy said the visit yielded no deal and that the war will continue, the Kyiv Independent reported.",
+    "Zelenskyy told Axios that Washington is testing whether Russia and Ukraine could agree limited steps before and during winter, covering energy and electricity facilities, grain shipments and oil and gas exports, while restarting talks on a broader settlement. He said the message from the envoys was that the Russians are ready to negotiate."
+   ],
+   "sources": [
+    [
+     "Axios",
+     "https://www.axios.com/2026/09/07/zelensky-ukraine-russia-war-witkoff-kushner-putin-trump"
+    ],
+    [
+     "Reuters",
+     "https://www.reuters.com/world/europe/kremlin-says-it-does-not-rule-out-restart-peace-talks-with-ukraine-us-2026-09-07/"
+    ],
+    [
+     "Kyiv Independent",
+     "https://kyivindependent.com/us-envoys-witkoff-kushner-arrive-in-ukraine/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "AfD's 44% in Saxony-Anhalt rattles Berlin, Merz stays put",
+   "summary": "The far-right AfD won 43.8 percent in Sunday's Saxony-Anhalt state election, the strongest far-right result in Germany since the Nazi era, and Chancellor Friedrich Merz said on Monday 7 September he will not step down.",
+   "body": [
+    "Reuters reported turnout of 77 percent and a heavy defeat for Merz's CDU. AfD deputy parliamentary leader Beatrix von Storch told the BBC the party is very close to taking power and urged rivals to open coalition talks, though mainstream parties have pledged not to govern with the AfD.",
+    "Migrant organisations in the state warned the result will deepen everyday discrimination. Dutch Prime Minister Rob Jetten called the outcome a wake-up call for Europe."
+   ],
+   "sources": [
+    [
+     "Reuters",
+     "https://www.reuters.com/world/germanys-far-right-afd-seeks-landmark-state-victory-saxony-anhalt-votes-2026-09-06/"
+    ],
+    [
+     "BBC News",
+     "https://www.bbc.co.uk/news/articles/cpd0113082eo"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Iceland summons US envoy over Trump's flag-covered map",
+   "summary": "Iceland's foreign minister summoned Ambassador Billy Long on Monday 7 September after Trump posted an image showing Iceland and other countries draped in the American flag under the label United States of America.",
+   "body": [
+    "Reuters reported that Foreign Minister Thorgerdur Gunnarsdottir called the post completely inappropriate. The image is the latest in a series of territorial provocations from Trump, who on the same day shared memes renaming New Mexico as New America, prompting Governor Michelle Lujan Grisham to say the state's name is not up for debate.",
+    "Russia's foreign ministry meanwhile criticised the deployment of an advanced US missile system to Norway, saying launchers able to reach Moscow dealt another blow to prospects for strategic stability talks."
+   ],
+   "sources": [
+    [
+     "Reuters",
+     "https://www.reuters.com/world/americas/iceland-summons-us-ambassador-after-trump-posts-map-showing-island-under-2026-09-08/"
+    ],
+    [
+     "Reuters",
+     "https://www.reuters.com/business/aerospace-defense/russia-slams-us-despatch-missile-system-to-norway-another-blow-idea-arms-talks-2026-09-07/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Gulf states hedge on US security as UAE builds new trade routes",
+   "summary": "UAE presidential adviser Anwar Gargash told the Hili Forum in Abu Dhabi on Monday 7 September that the country is building alternative energy and trade routes so it is not held hostage by the Iran war.",
+   "body": [
+    "Reuters reported that Qatar's foreign ministry spokesman Majed al-Ansari added that Gulf Arab states should not rely solely on their strategic partnerships with the United States for security. The comments reflect growing frustration in Gulf capitals seven months into a conflict that has repeatedly disrupted Hormuz shipping.",
+    "Cuba's foreign minister separately said no talks with Washington are under way or planned, while a willingness to stay in contact remains."
+   ],
+   "sources": [
+    [
+     "Reuters",
+     "https://www.reuters.com/world/middle-east/uae-builds-alternative-trade-energy-routes-after-iran-attacks-official-says-2026-09-07/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Nepal-Tibet flood toll passes 1,350 with nearly 4,000 missing",
+   "summary": "Nepal's government put the death toll from the Bhotekoshi glacier collapse floods at 1,355 with about 3,916 people missing as of the weekend, making it the country's deadliest disaster since the 2015 earthquake.",
+   "body": [
+    "ABC News and UN News reported that at least 65,000 people have been directly affected and damage is estimated at roughly 400 billion rupees. On the Chinese side, the mudslide in Gyirong, Tibet, left 31 dead and 531 missing as of 2 September.",
+    "CNN reported that the glacier showed visible signs of instability days before it gave way, raising questions about early warning. Time described the tragedy as a warning for a warming world, and the World Meteorological Organization has linked rapidly melting ice to heightened glacier collapse risk."
+   ],
+   "sources": [
+    [
+     "ABC News",
+     "https://abcnews.com/International/nepal-tibet-flood-death-toll-tops-1100-tens/story?id=136136947"
+    ],
+    [
+     "UN News",
+     "https://news.un.org/en/story/2026/08/1168233"
+    ],
+    [
+     "Time",
+     "https://time.com/article/2026/09/01/flood-deaths-trishuli-tibet-himalayas-china-nepal/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Women now head one in four Gaza households, UN Women finds",
+   "summary": "A UN Women report presented in Geneva on Tuesday 8 September estimates 86,290 Gaza households are now headed by women, double the pre-October 2023 rate.",
+   "body": [
+    "UN Women said widows and women whose husbands are missing, detained or severely injured are more likely than male-headed households to lack shelter, food and money, and nearly one in five reports safety concerns compared with one in twelve women in male-headed homes.",
+    "The report counts 246 women and girls killed by Israeli bombardment and ground operations since the October 2025 ceasefire took effect, roughly six a week through late July. UN News quoted the agency as saying these women face impossible choices every day in allocating scarce resources."
+   ],
+   "sources": [
+    [
+     "UN Women",
+     "https://www.unwomen.org/en/news-stories/press-release/2026/09/women-head-one-in-four-households-in-gaza-as-war-tears-families-apart-and-reshapes-household-structures"
+    ],
+    [
+     "UN News",
+     "https://news.un.org/en/story/2026/09/1168291"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "WMO: wildfire smoke and heatwaves undermining air quality gains",
+   "summary": "The World Meteorological Organization's annual air quality and climate bulletin, released on Monday 7 September, warns that intensifying wildfires and heatwaves threaten to reverse progress on clean air.",
+   "body": [
+    "Reuters reported that the WMO urged governments to treat air pollution and climate change as linked problems requiring coordinated policy rather than separate tracks. The agency pointed to smoke from fires in Canada, Europe and Indonesia that blanketed cities this summer.",
+    "The bulletin follows a UN Environment Programme report earlier this month warning that global heating will reach at least 1.8C even under optimistic scenarios, and comes as July 2026 tied as the warmest July on record."
+   ],
+   "sources": [
+    [
+     "Reuters",
+     "https://www.reuters.com/sustainability/cop/wildfires-heat-waves-threaten-undermine-air-quality-un-weather-agency-says-2026-09-07/"
+    ],
+    [
+     "WMO",
+     "https://wmo.int/media/news/wmo-bulletin-shows-air-quality-and-climate-interlinkages"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Documents point to secret Sudanese chemical weapons stockpile",
+   "summary": "Internal materials reviewed by the Washington Post show Sudan's army built and hid a chlorine bomb stockpile used against the RSF for at least six months between July 2024 and January 2025.",
+   "body": [
+    "The Washington Post reported that senior military officials sought to conceal the programme after the weapons were used. The revelation adds to a catalogue of alleged atrocities in a war that has produced the world's largest hunger crisis, with famine risk persisting across 14 areas according to the World Food Programme.",
+    "Amnesty International concluded in July that the RSF committed crimes against humanity and ethnic cleansing in El Fasher, and fighting has since shifted to Kordofan and Blue Nile."
+   ],
+   "sources": [
+    [
+     "Washington Post",
+     "https://www.washingtonpost.com/world/2026/09/05/trove-documents-reveals-alleged-chemical-weapons-stockpile-sudan/"
+    ],
+    [
+     "Amnesty International",
+     "https://www.amnesty.org/en/latest/news/2026/07/sudan-rsf-atrocities-in-el-fasher-a-stain-on-the-conscience-of-humanity-new-report/"
+    ]
+   ]
+  }
+ ],
+ "netherlands": [
+  {
+   "hero": true,
+   "sub": "Politics & Policy",
+   "h3": "Nationwide 24-hour transport strike halts trains, buses and trams",
+   "summary": "Public transport across the Netherlands stops for 24 hours on Wednesday 9 September as FNV and CNV members strike against social security cuts, with only the Schiphol sprinter running.",
+   "body": [
+    "NS runs no regular trains, and regional buses, trams, metros and the Amsterdam ferries are also out of service, NL Times and DutchNews reported. The only exception is the sprinter between Amsterdam Centraal, Schiphol and Hoofddorp, which runs four times an hour under a 2024 court ruling secured by the airport. International services including Eurostar, ICE and NightJet do not run within the Netherlands. It is the first nationwide 24-hour transport strike since May 2019.",
+    "The unions called the action in July against cabinet plans to cut 6.5 to 6.8 billion euros from social security, including halving unemployment benefit duration from 24 to 12 months and scaling back disability insurance. The cabinet has since dropped a faster rise in the state pension age and scrapped or delayed most of the remaining cuts, but FNV says too many savings remain on the table. An FNV spokesperson told Parool that transport workers face an above-average risk of ending up on disability benefit."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/08/public-transport-strike-halt-trains-buses-trams-tomorrow-schiphol-train-will-run"
+    ],
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/09/nationwide-24-hour-transport-strike-to-go-ahead-as-unions-rally/"
+    ],
+    [
+     "FNV",
+     "https://www.fnv.nl/cao-sector/vervoer/spoor/belangrijke-informatie-over-de-ov-staking-op-9-sep"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Public sector workers march on finance ministry behind mock coach",
+   "summary": "Around 3,000 civil servants, care workers and university staff rallied in The Hague on Tuesday 8 September, pulling a replica golden coach to the finance ministry a week before Prinsjesdag.",
+   "body": [
+    "DutchNews reported that staff from councils, provinces, ministries, water boards and universities joined home care and nursing home workers, while The Hague's street cleaners walked out. FNV said the coach carried a briefcase of alternative budget plans. Chairman Hans Spekman accused the cabinet of dismantling a safety net people have paid into for years.",
+    "The rally was the second of three days of action this week, after dockers in Rotterdam, Amsterdam and Zeeland walked out on Friday and ahead of Wednesday's transport strike. NL Times noted that a record seven in ten Dutch voters say they are dissatisfied with the Jetten cabinet ahead of budget day on 15 September."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/08/3000-public-sector-workers-protest-social-security-cuts-hague-tuesday"
+    ],
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/09/nationwide-24-hour-transport-strike-to-go-ahead-as-unions-rally/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Minister moves to strip ON! of its broadcasting licence",
+   "summary": "Education and culture minister Rianne Letschert intends to revoke Ongehoord Nederland's provisional public broadcasting licence after a broadcast in which its then editor-in-chief praised Hitler, RTL Nieuws reported on Tuesday 8 September.",
+   "body": [
+    "NL Times reported that Letschert met the broadcaster on Tuesday afternoon before informing parliament. ON! has ten days to respond orally, after which the minister takes a final decision, and it may keep broadcasting in the meantime. Director Peter Vlemmix said on air that the broadcaster will not accept the move lying down.",
+    "Pressure has mounted from all sides: the NPO formally asked for revocation on Monday saying cooperation had broken down, the Dutch Media Authority said it has no confidence ON! will fix its operations, and a broad majority in parliament backs intervention. According to RTL, no public broadcaster has ever been removed from the system mid-term."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/08/govt-takes-first-step-pull-ons-public-broadcaster-license-hitler-praise"
+    ],
+    [
+     "RTL Nieuws",
+     "https://www.rtl.nl/nieuws/politiek/artikel/5649088/minister-letschert-komt-met-voorgenomen-besluit-om-omroep-ongehoord"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Benefits scandal victims file charges over hidden tax office data",
+   "summary": "Parents from the childcare benefits scandal and bankrupted SME owners pressed criminal charges on Tuesday 8 September against tax and benefits officials accused of concealing 19.5 million files in restricted data vaults.",
+   "body": [
+    "Trouw reported that lawyer Merijn van Leeuwen filed the complaint on behalf of Stichting Herstel Ongekend Onrecht and the Belangenvereniging Gedupeerde Ondernemers. The vaults, revealed in April, hold emails from hundreds of benefits officials and documents on the tax office's fraud approach that victims say were withheld from parliament and the civil courts.",
+    "State secretaries Eelco Eerenberg and Sandra Palmen apologised in August but declined to press charges, saying a BDO review found no intent or criminal conduct. The finance ministry told Trouw the data was not handed to the parliamentary inquiry due to time pressure. Van Leeuwen wants the Rijksrecherche to trace who set up the vaults and why, and says he will go to court if prosecutors decline the case."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/08/victims-press-charges-tax-officials-hidden-benefits-scandal-data"
+    ],
+    [
+     "Trouw",
+     "https://www.trouw.nl/politiek/gedupeerde-toeslagenouders-eisen-een-onderzoek-van-de-rijksrecherche-naar-verborgen-datakluizen~bb52c3aa/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Jetten calls AfD landslide in Saxony-Anhalt a wake-up call",
+   "summary": "Prime Minister Rob Jetten said on Monday 7 September that the far-right AfD's 44 percent win in the German state of Saxony-Anhalt should be a wake-up call for democratic parties across Europe.",
+   "body": [
+    "NL Times reported Jetten's comments at his weekly press conference, where he linked the result to the need for mainstream governments to deliver on housing, security and purchasing power. Germany's mainstream parties have pledged not to form a coalition with the AfD.",
+    "The remarks come as Jetten's own cabinet faces record dissatisfaction ahead of Prinsjesdag and a general election campaign later this month, with strikes over social security cuts dominating the week."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/07/dutch-pm-jetten-calls-electoral-win-far-right-afd-german-state-wake-call"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Delta commissioner: water spending must double to 2% of GDP",
+   "summary": "Delta commissioner Co Verdaas told infrastructure minister Vincent Karremans on Monday 7 September that spending on flood defences and fresh water must rise from about 11 billion euros a year to at least 2 percent of GDP.",
+   "body": [
+    "NOS and DutchNews reported that the six-yearly review of the delta programme calls for billions in new pumps at IJmuiden and later on the Afsluitdijk, preparations for a successor to the Maeslantkering near Rotterdam, and a larger water buffer in the IJsselmeer. The IJmuiden works alone are put at around 2 billion euros and protect some 4 million people and Schiphol.",
+    "Verdaas said technology alone will not be enough: land use must change in the Bollenstreek, the sandy east and south, and salinising parts of Friesland and Groningen, and households should expect wet feet and flooded cellars more often. The full Deltaprogramma 2027 is published on Prinsjesdag alongside the budget, after a summer in which the Rhine hit its lowest level in 80 years."
+   ],
+   "sources": [
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/09/netherlands-must-double-water-spending-delta-commissioner-warns/"
+    ],
+    [
+     "NOS",
+     "https://nos.nl/artikel/2630054-miljarden-extra-nodig-voor-wateraanpak-maar-zelfs-dan-niet-alle-schade-te-voorkomen"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "ASML breaks ground on Eindhoven campus for 20,000 extra jobs",
+   "summary": "ASML marked the start of construction of Brainport Industries Campus North near Eindhoven on Tuesday 8 September, with Prime Minister Rob Jetten and predecessor Dick Schoof attending.",
+   "body": [
+    "NL Times reported that the expansion is designed to house an extra 20,000 jobs, nearly doubling ASML's Dutch workforce, with at least 3,000 positions by the end of the first phase in 2029. CEO Christophe Fouquet thanked national and local government for the cooperation that kept the company's core activities in the region after 2024 reports that it might expand abroad.",
+    "Two bottlenecks had to be cleared first: a rare nitrogen permit in Noord-Brabant, granted on grounds of major public interest with nature compensation, and a grid connection that TenneT is providing by extending a high-voltage station at Best. ASML says meeting AI-driven demand for chip machines is one of its biggest concerns."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/08/asml-celebrates-start-campus-construction-will-open-extra-20000-jobs"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "Amsterdam has lost 38% of its business hotel guests since 2019",
+   "summary": "ABN Amro research published on Tuesday 8 September shows business overnight stays in Amsterdam fell from 5.82 million in 2019 to 3.59 million last year, while tourists who fill the rooms spend far less.",
+   "body": [
+    "NL Times reported that the business share of hotel nights dropped from 32 to nearly 18 percent. The tourism board NBTC says business visitors spend on average twice as much as leisure travellers, and researcher Stef Driessen told Parool that the loss hits hotels directly because business guests book on weekdays outside holiday periods.",
+    "The study also found a shift toward day trips: 61 percent of international visitors and 85 percent of Dutch visitors to the city centre no longer stay overnight in Amsterdam, undermining the city's long-standing strategy of attracting quality visitors."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/08/amsterdam-lost-38-business-travelers-tourists-spend-much-less-money-abn-amro"
+    ],
+    [
+     "ABN Amro",
+     "https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/de-gast-betaalt-meer-het-hotel-ontvangt-minder.html"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "A28 bridge at Nijkerk shut indefinitely, 550 km of jams by 8 am",
+   "summary": "Rijkswaterstaat said on Tuesday 8 September it cannot guarantee the safety of the Hardenberger bridge carrying the A28 after sand and gravel washed away around a pillar, and gave no reopening date.",
+   "body": [
+    "NL Times reported that repairs had been planned for November but a recent inspection showed the situation had deteriorated faster than expected. Material is being brought in by ship to shore up the pillar. The ANWB counted more than 550 kilometres of traffic jams by 8:01 am on Tuesday, with detour routes on the A1, A6 and A27 clogged.",
+    "DutchNews described gridlock around the closure, and the timing is awkward with Wednesday's transport strike pushing more commuters onto the roads. Transport en Logistiek Nederland has warned of costs for hauliers."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/08/a28-bridge-near-nijkerk-remain-closed-unknown-time-safety-cant-guaranteed"
+    ],
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/09/gridlock-around-a28-after-bridge-closed-for-emergency-repairs/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "Younger Dutch generations mostly richer than their parents, CBS says",
+   "summary": "Statistics agency CBS reported on Monday 7 September that most younger generations in the Netherlands have higher wealth at the same age than their predecessors did.",
+   "body": [
+    "NL Times and DutchNews reported the CBS finding that, adjusted for inflation, later-born cohorts generally hold more assets than earlier ones did at the same stage of life, driven largely by home ownership and pension entitlements. The picture is uneven, with renters and those without inherited wealth lagging.",
+    "The data lands in a week of debate about intergenerational fairness, as unions strike over cuts to unemployment and disability benefits and the cabinet postpones reform of the box 3 asset tax to 2029."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/07/netherlands-younger-generations-generally-wealthier-predecessors"
+    ],
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/09/younger-generations-mostly-richer-than-their-parents-cbs/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "PISA: four in ten Dutch 15-year-olds lack basic reading skills",
+   "summary": "New PISA results published on Tuesday 8 September show more than 39 percent of Dutch 15-year-olds fall short of the minimum reading level needed for full participation in society.",
+   "body": [
+    "NL Times reported that 6,600 Dutch pupils were among 760,000 students from 91 countries tested. Of the 14 EU countries that have taken part in every PISA round since 2006, Dutch students have consistently scored lower than their European peers.",
+    "Hanneke Propitius of Stichting Lezen en Schrijven told RTL that three million people aged 16 to 75 struggle with reading, writing or arithmetic, affecting everything from workplace safety rules to medicine instructions. New statutory Dutch and maths targets took effect in schools this term."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/08/dutch-15-year-olds-reading-skills-fall-4-10-lack-basic-proficiency"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "German grid saboteur had Doetinchem substation on target list",
+   "summary": "Daniel V., the 48-year-old climate activist wanted for sabotaging German power infrastructure, listed the Doetinchem substation as a potential target in a notebook found in his camper, FAZ reported on Tuesday 8 September.",
+   "body": [
+    "NL Times reported that Oost-Nederland police told NOS they were unaware of the information. V. sent handwritten letters claiming attacks on substations in Brandenburg and North Rhine-Westphalia, describing fossil power generation as a crime causing indescribable suffering. Police found explosives at his home in Gevelsberg and his camper in the Hambach Forest, but he remains at large.",
+    "It is unclear whether he is linked to the 21 explosive devices found near the Graustein substation in Saxony on Monday. The Netherlands summoned the Russian ambassador last week after explosive drones were found in Germany, adding to concern about critical infrastructure."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/08/activist-wanted-sabotaging-german-power-gird-also-planned-attack-doetinchem"
+    ],
+    [
+     "NOS",
+     "https://nos.nl/artikel/2630085-duitse-klimaatactivist-wil-ook-in-nederland-toeslaan-op-energienet"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "Nazi official's daughter surrenders looted Goudstikker portrait",
+   "summary": "An Argentine judge approved a settlement under which Patricia Kadgien gives up all claim to Portrait of a Lady, looted from Amsterdam dealer Jacques Goudstikker, DutchNews reported on Monday 7 September.",
+   "body": [
+    "Kadgien and her husband avoid trial for concealing the work by each paying about 1,400 euros to a Mar del Plata hospital. The painting passes to Marei von Saher, Goudstikker's daughter-in-law and sole heir, who has agreed to let it be shown in Argentina before it is handed over, AP reported.",
+    "AD journalists spotted the work in August 2025 in estate agent photos of Kadgien's house. Her father Friedrich Kadgien was financial adviser to Hermann Goering and fled to Argentina after the war. A court-ordered examination attributed the portrait to Giacomo Ceruti rather than Giuseppe Ghislandi, with a value of around 290,000 dollars."
+   ],
+   "sources": [
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/09/nazis-daughter-gives-up-looted-goudstikker-painting/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "Dutch flying car PAL-V cleared for production, in the air by 2028",
+   "summary": "EASA has granted PAL-V a production licence, allowing the Dutch flying car maker to start building its first vehicles with deliveries expected by 2028, DutchNews reported on Tuesday 8 September.",
+   "body": [
+    "The European aviation safety agency's approval follows years of certification work for the Liberty, a road-legal gyroplane that converts between driving and flying modes. The company says production of the first cars will begin soon.",
+    "DutchNews noted that the project has repeatedly missed earlier launch targets, and buyers will still need a gyroplane pilot licence and access to an airfield to take off."
+   ],
+   "sources": [
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/09/dutch-flying-car-finally-cleared-for-take-off-by-2028/"
+    ]
+   ]
+  }
+ ]
 }

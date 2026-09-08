@@ -1,442 +1,530 @@
 {
-  "sports": [
-    {
-      "hero": true,
-      "sub": "Tennis",
-      "h3": "Sabalenka and Alcaraz cruise into US Open quarterfinals",
-      "summary": "Defending champions Aryna Sabalenka and Carlos Alcaraz both advanced at Flushing Meadows on Sunday 6 September, setting up a heavyweight final week.",
-      "body": [
-        "Aryna Sabalenka beat Taylor Townsend 6-4, 6-3 on Sunday 6 September to reach the US Open quarterfinals as the defending champion and top seed. On the men's side Carlos Alcaraz needed just over two hours to see off Tommy Paul 6-4, 6-3, 6-4, continuing his bid for a second straight US Open title. Both wins came on Arthur Ashe Stadium in front of sellout crowds on the tournament's second Sunday.",
-        "Elsewhere in the men's draw, Frances Tiafoe outlasted Daniil Medvedev 7-6(1), 6-4, 7-6(6) in a match that swung on two tight tiebreaks, while Ben Shelton dismissed Stefanos Tsitsipas 6-2, 6-3, 6-4 to reach his third straight US Open quarterfinal. Sabalenka now waits to see whether Wimbledon champion Linda Noskova or Marta Kostyuk will stand across the net for a semifinal spot, with the tournament running through 13 September."
-      ],
-      "sources": [
-        [
-          "The Washington Post",
-          "https://www.washingtonpost.com/sports/tennis/2026/09/06/us-open-day-eight-results/fd876800-aa0b-11f1-b498-8697f35a6743_story.html"
-        ],
-        [
-          "Al Jazeera",
-          "https://www.aljazeera.com/sports/2026/9/6/sabalenka-through-to-us-open-quarterfinals"
-        ],
-        [
-          "Bleacher Report",
-          "https://bleacherreport.com/articles/25496817-us-open-tennis-2026-results-sundays-bracket-winners-losers-and-highlights"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Tennis",
-      "h3": "Laver Cup rosters locked in for O2 Arena return",
-      "summary": "Team Europe and Team World confirmed their full six man lineups on Monday 7 September ahead of the Laver Cup running 25-27 September in London.",
-      "body": [
-        "Team Europe will lean on Carlos Alcaraz as its headline act, supported by Alexander Zverev, Casper Ruud, Flavio Cobolli, Jakub Mensik and Rafael Jodar, with Yannick Noah returning as captain for the ninth edition of the event. Team World counters with Alex de Minaur, Ben Shelton and Taylor Fritz leading a squad rounded out by Alexander Bublik, Learner Tien and Tommy Paul, coached by Andre Agassi.",
-        "The event returns to London's O2 Arena with Team World defending the title it won in 2025, breaking Europe's long stranglehold on the trophy. Organizers expect Alcaraz's participation, fresh off his US Open run, to be the main draw for ticket sales, though his workload through the American hard court swing has raised questions about how fresh he will look by the London weekend."
-      ],
-      "sources": [
-        [
-          "Puntodebreak",
-          "https://www.puntodebreak.com/en/2026/07/28/the-laver-cup-2026-officially-announces-all-the-players-who-will-participate"
-        ],
-        [
-          "LTA",
-          "https://lta.org.uk/news/laver-cup-2026-tickets-dates-and-pre-sale"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Tennis",
-      "h3": "Davis Cup playoff ties take shape for later this month",
-      "summary": "With the US Open in its final week, attention is turning to Davis Cup qualifiers and World Group playoffs scheduled for 18-19 and 19-20 September.",
-      "body": [
-        "The Davis Cup calendar for 2026 lists a second round of qualifiers alongside World Group I and World Group II playoff ties in the middle of September, giving national federations a narrow window to finalize squads once the US Open wraps up. Several nations are expected to lean on players who reach deep rounds in New York, creating scheduling headaches for captains balancing recovery time against team commitments.",
-        "The ties carry weight for promotion and relegation within the Davis Cup's tiered format, with results feeding into who competes at the higher levels in 2027. Federations are expected to confirm final squads in the coming days once the Flushing Meadows draw is fully resolved."
-      ],
-      "sources": [
-        [
-          "Davis Cup",
-          "https://www.daviscup.com/en/calendar_2026"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Formula 1",
-      "h3": "Antonelli storms from 19th to win home Italian Grand Prix",
-      "summary": "Kimi Antonelli produced a stunning comeback drive to win the Italian Grand Prix at Monza on Sunday 6 September, becoming the first Italian to win there in 60 years.",
-      "body": [
-        "Kimi Antonelli started 19th on the grid and fought through the field to beat Mercedes teammate George Russell by 3.857 seconds, with Max Verstappen completing the podium 14.718 seconds back. It was the first time an Italian driver had won his home grand prix since Ludovico Scarfiotti's victory in 1966, and it came in front of a delirious tifosi crowd at the Tempio della Velocita.",
-        "The result extended Antonelli's championship lead over Russell to 66 points, nearly three race wins clear with the season entering its final stretch. Further back, Lewis Hamilton finished sixth behind both McLarens, pole sitter Pierre Gasly came home seventh, and Charles Leclerc's home race ended in disappointment after he crashed out on just the third lap."
-      ],
-      "sources": [
-        [
-          "Formula1.com",
-          "https://www.formula1.com/en/latest/article/antonelli-beats-russell-to-italian-grand-prix-win-with-stunning-comeback-drive.15WtFEBT5JEe4drdeO88t2"
-        ],
-        [
-          "The Race",
-          "https://www.the-race.com/formula-1/f1-2026-italian-grand-prix-race-results/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Football",
-      "h3": "PSV crush Ajax 3-1 in season's first Eredivisie classic",
-      "summary": "PSV Eindhoven beat Ajax 3-1 on Saturday 5 September in the first Klassieker of the new season, sending an early title-race statement.",
-      "body": [
-        "The reigning champions took control of the match in Eindhoven and never let go, converting their chances while Ajax struggled to break down a well organized PSV backline. The win continued PSV's strong start to the campaign as they look to defend the title they claimed for a third straight season the previous term.",
-        "Ajax will have to regroup quickly with a congested September fixture list ahead, while PSV fans left the Philips Stadion already dreaming of another title defense. The result also reopened old wounds in a rivalry that has swung heavily PSV's way over the past few seasons."
-      ],
-      "sources": [
-        [
-          "Total Dutch Football",
-          "https://totaldutchfootball.com/2026/09/05/eredivisie-saturday-ajax-vs-psv-preview/"
-        ],
-        [
-          "DutchNews.nl",
-          "https://www.dutchnews.nl/2026/04/psv-seal-eredivisie-title-after-feyenoord-draw-in-volendam/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Football",
-      "h3": "Groningen and Twente share spoils in tight draw",
-      "summary": "Groningen and Twente drew 2-2 on Sunday 6 September as the rest of the Eredivisie round played out across the country.",
-      "body": [
-        "The two sides traded goals throughout the match without either finding a winner, leaving both with a point apiece in a congested midtable picture. The draw came on a weekend that also featured Heerenveen hosting AZ, Telstar taking on Cambuur, and a clash between ADO Den Haag and Fortuna Sittard.",
-        "With PSV pulling clear at the top after their win over Ajax, the battle for the rest of the European qualification places remains wide open through the opening weeks of the season. Neither Groningen nor Twente will be satisfied with a draw given both sides' ambitions to push into the top half of the table this term."
-      ],
-      "sources": [
-        [
-          "Football Web Pages",
-          "https://www.footballwebpages.co.uk/dutch-eredivisie/fixtures-results"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Football",
-      "h3": "Oranje squad readies for final World Cup qualifying tests",
-      "summary": "Already through to the 2026 World Cup, the Netherlands is preparing for qualifying fixtures against Germany on 24 September and Serbia on 27 September.",
-      "body": [
-        "The Dutch squad list features Jurrien Timber, Frenkie de Jong and Memphis Depay all included, while Jeremie Frimpong misses out as the squad sharpens ahead of the group's remaining matches. The Netherlands sealed its World Cup spot back in November with a 4-0 win over Lithuania, capping an unbeaten qualifying campaign in which they scored 27 goals across eight games.",
-        "Even with qualification secured, coach Ronald Koeman is expected to use the September window to test combinations and fitness levels ahead of next summer's tournament in the United States, Mexico and Canada. The clash with Germany in particular carries extra edge given the historic rivalry between the two neighbors."
-      ],
-      "sources": [
-        [
-          "UEFA.com",
-          "https://www.uefa.com/european-qualifiers/news/02a6-20d15935831f-d0d88d0f1da0-1000--netherlands-at-the-world-cup-2026-squad-fixtures-group-a/"
-        ],
-        [
-          "Olympics.com",
-          "https://www.olympics.com/en/news/fifa-world-cup-2026-netherlands-players-squad-list-key-stats-schedule"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Sailing",
-      "h3": "SailGP grows to record 13 nation fleet for new season",
-      "summary": "SailGP's 2026 season is underway with a record 13 national teams and a 12.8 million dollar prize purse, building toward the next stop in Saint-Tropez.",
-      "body": [
-        "The league's growth this season includes the debut of Artemis SailGP representing Sweden, led by Olympic veteran Iain Percy and driven by Nathan Outteridge, joining a fleet that now spans nine venues from Perth to Abu Dhabi. The Saint-Tropez stop is set for 12-13 September, giving European fans a rare close look at the F50 catamarans racing in home waters.",
-        "SailGP's expansion comes as the league jostles for position alongside the America's Cup, with several top sailors now having to choose which circuit to prioritize as calendars increasingly overlap. Organizers see the bigger fleet and prize pool as key to cementing SailGP's place as a season long championship rather than a series of one-off exhibitions."
-      ],
-      "sources": [
-        [
-          "Yachting World",
-          "https://www.yachtingworld.com/tag/sailgp"
-        ],
-        [
-          "US SailGP Team",
-          "https://www.ussailgpteam.com/news"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Sailing",
-      "h3": "America's Cup challengers push on toward Naples 2027",
-      "summary": "Challenger of Record GB1 Athena Racing continues its build toward the 38th America's Cup match in Naples in July 2027.",
-      "body": [
-        "Emirates Team New Zealand remains the defender, while Ben Ainslie's GB1 Athena Racing holds Challenger of Record status heading into a cycle that will see the Preliminary Regatta held in Cagliari, Sardinia in May, with teams racing AC40 foiling monohulls. The cycle has drawn attention for tension between the Cup and SailGP over athlete availability, a dynamic that has intensified as both events schedule more racing.",
-        "Teams are using the current window to refine boat designs and sailor lineups before the pressure of the Naples match builds through 2027. The Cup's return to Italian waters is expected to draw one of the largest crowds in the event's modern history given the country's growing sailing fanbase."
-      ],
-      "sources": [
-        [
-          "Sail-World",
-          "https://www.sail-world.com/news/293190/Crunch-time-for-SailGP-and-the-Cup"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Grappling & Judo",
-      "h3": "ADCC heads to Poland for biggest grappling weekend of the year",
-      "summary": "The 2026 ADCC World Championship moves to Krakow's Tauron Arena on 12-13 September, marking the event's first ever visit to Poland.",
-      "body": [
-        "The no-gi grappling world's most prestigious title fight brings together ADCC champions, trials winners and elite invitees for two days of competition, with organizers highlighting a strong crop of rookies expected to shake up the brackets. FloSports holds exclusive streaming rights, with FloGrappling also carrying the ADCC Amateur Worlds and Fight to Win 324 across the same weekend.",
-        "The move to Poland reflects ADCC's continued push to grow its footprint in Europe after years of events concentrated in the Middle East and United States. Early bouts are expected to stream free on YouTube, a move organizers hope will widen the audience beyond dedicated grappling fans."
-      ],
-      "sources": [
-        [
-          "FloGrappling",
-          "https://www.flograppling.com/articles/15999460-5-things-to-know-about-the-2026-adcc-world-championship"
-        ],
-        [
-          "FloGrappling",
-          "https://www.flograppling.com/articles/16143212-the-top-rookies-ready-to-shake-up-adcc-2026"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Grappling & Judo",
-      "h3": "Judo's Grand Slam circuit rolls into Budapest",
-      "summary": "The Hungary Grand Slam runs 11-13 September in Budapest, drawing 547 judoka from 71 countries to the International Judo Federation's home city.",
-      "body": [
-        "The Budapest stop carries extra symbolism as the host city of the IJF's headquarters, and it forms part of a packed 2026 Grand Slam calendar that also includes Tashkent, Tbilisi, Dushanbe, Astana, Ulaanbaatar, Abu Dhabi and Tokyo. Organizers describe the entry list as one of the strongest of the season given the scale of participation.",
-        "The event gives judoka a key opportunity to bank ranking points ahead of the season's championship events, with several Olympic medalists expected to compete. Hungarian fans are expected to turn out in force given judo's strong following in the country."
-      ],
-      "sources": [
-        [
-          "IJF.org",
-          "https://www.ijf.org/news/show/a-packed-2026-season-ahead-for-world-judo"
-        ]
-      ]
-    }
-  ],
-  "consumer-tech": [
-    {
-      "hero": true,
-      "sub": "Devices & Launches",
-      "h3": "Apple set for foldable iPhone reveal at Surprise and Shine event",
-      "summary": "Apple confirmed its September 9 event will be new CEO John Ternus's first product launch, with rumors pointing to a foldable iPhone alongside the iPhone 18 Pro line.",
-      "body": [
-        "Apple's Surprise and Shine event is set for Wednesday 9 September at 10am Pacific, and it doubles as John Ternus's debut as chief executive after taking over from Tim Cook on 1 September. Rumors ahead of the show point to a book style foldable iPhone, possibly branded iPhone Ultra, with a roughly 5.5 inch outer OLED display that unfolds into a display near 7.8 inches. The iPhone 18 Pro and Pro Max are also expected, alongside new Apple Watches and AirPods.",
-        "Apple is skipping a standard iPhone 18 this year and will wait until spring 2027 to launch a cheaper model, according to previews circulating on Monday 7 September. The event is also expected to bring release dates for iOS 27, iPadOS 27, macOS Golden Gate, tvOS 27, watchOS 27 and visionOS 27, giving developers and users a clearer picture of the software roadmap for the year ahead."
-      ],
-      "sources": [
-        [
-          "MacRumors",
-          "https://www.macrumors.com/guide/apple-september-2026-what-to-expect/"
-        ],
-        [
-          "TidBITS",
-          "https://tidbits.com/2026/08/28/apples-surprise-and-shine-event-set-for-9-september-2026/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Devices & Launches",
-      "h3": "IFA Berlin closes with AI appliances and first Wi-Fi 8 routers",
-      "summary": "IFA Berlin 2026 wrapped up its run from 4 to 8 September with AI-heavy home appliances, new routers and toothbrushes headlining the show floor.",
-      "body": [
-        "Samsung expanded its Bespoke AI lineup with deeper generative features across fridges, washing machines and robot vacuums, using local neural processing so devices can manage power use without needing constant cloud access. LG's presentation leaned on energy efficient smart living and transparent OLED display technology, while TP-Link used the show to reveal the first Wi-Fi 8 routers, the Archer 8 Ultra and a companion Deco 8 Ultra mesh system.",
-        "Dyson unveiled a 500 dollar electric toothbrush called the CameraJet, its first, built with an AI camera and integrated water flosser, and Anker showed off a bedside speaker called SleepLab Pro that tracks sleep, heart rate and breathing without a wearable. The 2026 IFA Innovation Awards went to Anker, Insta360 and LG Electronics as the three main prize winners, with further recognition spread across 13 additional categories."
-      ],
-      "sources": [
-        [
-          "Tech Digest",
-          "https://www.techdigest.tv/2026/09/ifa-2026-key-announcements-so-far.html"
-        ],
-        [
-          "Gizmodo",
-          "https://gizmodo.com/live-updates-from-ifa-2026-in-berlin-2000800025"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Devices & Launches",
-      "h3": "Huawei's Mate XT2 tri-fold lands two days before Apple",
-      "summary": "Huawei unveiled its second generation tri-fold phone, the Mate XT2, on Monday 7 September, just ahead of Apple's own foldable reveal.",
-      "body": [
-        "The Mate XT2 runs Huawei's Kirin 9050 Pro chip and keeps the two hinge design of its predecessor, but now folds inward to protect the main screen when closed rather than leaving part of the display exposed. Huawei says it is the first folding phone with a hardware level anti peeping screen that blocks side viewers from reading private content, and pricing starts at 19,999 yuan, about 2,800 dollars, rising to 24,999 yuan for the 1TB version with the privacy screen. Sales begin on 12 September.",
-        "Analysis firm Omdia forecasts foldable phone shipments will rise 22 percent in 2026 to more than 22 million units, a sharp jump from 2025's 6 percent growth, underlining how competitive the category has become just as Apple prepares to enter it for the first time."
-      ],
-      "sources": [
-        [
-          "Business Today",
-          "https://www.businesstoday.in/technology/news/story/huawei-mate-xt2-is-here-tri-fold-phone-takes-on-apple-ahead-of-foldable-iphone-launch-553728-2026-09-07"
-        ],
-        [
-          "TechRepublic",
-          "https://www.techrepublic.com/article/news-huawei-mate-xt2-tri-fold-apac-china/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Devices & Launches",
-      "h3": "Sony revives budget favorite with new XM4C headphones",
-      "summary": "Sony relaunched its well reviewed WH-1000XM4 as the cheaper XM4C on Monday 7 September, alongside two new budget models.",
-      "body": [
-        "The WH-1000XM4C arrives at 299.99 dollars in Lavender, Black and Platinum Silver, keeping the QN1 noise cancelling chip, multipoint Bluetooth and both 10 band and gaming focused EQ presets from the original. It sits below Sony's current flagship WH-1000XM6, giving budget conscious buyers a proven design at a lower price point.",
-        "Sony also released the WH-CH730N at 179.99 dollars and the WH-CH530 at 69.99 dollars, both aimed at shoppers who want noise cancellation or basic wireless listening without the premium price tag. The three launches together give Sony a wider spread across price tiers heading into the holiday shopping season."
-      ],
-      "sources": [
-        [
-          "9to5Toys",
-          "https://9to5toys.com/2026/09/07/sony-upgrades-1000xm4-new-xm4c-headphones/"
-        ],
-        [
-          "9to5Google",
-          "https://9to5google.com/2026/09/07/sony-wh-1000xm4c-launch-for-299-alongside-two-more-affordable-headphones/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Devices & Launches",
-      "h3": "iPhone 18 Pro camera leaks tease variable aperture control",
-      "summary": "Code leaks published Monday 7 September point to new camera features for the iPhone 18 Pro Max just two days before Apple's event.",
-      "body": [
-        "The leaked code describes an exclusive variable aperture feature for the iPhone 18 Pro Max, along with a manual focus slider that lets users adjust focus distance without a third party app. iOS 27 is also said to support aperture based image correction, blending between as many as four reference points to keep photos sharp across different aperture settings.",
-        "Other rumors point to a possible Dark Cherry color option and a new A20 chip, with some reports suggesting a price increase in certain markets including the UAE. With the official unveiling set for Wednesday 9 September, these leaks give the clearest picture yet of what Apple's camera team has been working on this year."
-      ],
-      "sources": [
-        [
-          "MacRumors",
-          "https://www.macrumors.com/2026/09/07/five-iphone-18-pro-camera-features-seemingly-leak/"
-        ],
-        [
-          "Gulf News",
-          "https://gulfnews.com/technology/iphone-18-pro-7-biggest-leaks-before-you-upgrade-camera-dark-cherry-design-and-more-1.500610815"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Devices & Launches",
-      "h3": "Meta previews longer-lasting Ray-Ban Gen 3 glasses",
-      "summary": "Meta is teasing its Ray-Ban Meta Gen 3 glasses ahead of Meta Connect on 23 September, promising hours of continuous AI use instead of minutes.",
-      "body": [
-        "The Gen 3 glasses are expected to run Live AI for hours at a stretch, up from roughly 30 minutes on the current generation, turning the glasses into what Meta describes as an all day memory layer. A faster onboard chip is expected to handle more AI processing directly on the device, while wind tuned microphones aim to make outdoor calls clearer, and battery life is being built to last a full day on a single charge, addressing one of the most common complaints about the current lineup.",
-        "The preview follows Meta's June launch of a cheaper 299 dollar smart glasses line built with Ray-Ban parent EssilorLuxottica but without Ray-Ban or Oakley branding, showing the company pushing on two fronts at once as it tries to make wearable AI mainstream."
-      ],
-      "sources": [
-        [
-          "The Gadgeteer",
-          "https://the-gadgeteer.com/2026/05/25/smart-glasses-2026-design-strategy/"
-        ],
-        [
-          "CNBC",
-          "https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Software & Services",
-      "h3": "Android's September drop adds Gemini memory and calmer rides",
-      "summary": "Google's September 2026 Android Feature Drop, rolling out this week, adds five updates including Gemini powered item tracking and a new motion sickness aid.",
-      "body": [
-        "Gemini can now remember where users have placed items through Find Hub, and Gemini Live's Guided Vision feature offers spoken descriptions and reframing tips for low light or fine print situations. Google Messages picks up native Google Keep list sharing inside chats along with custom Chat Themes that match text bubble colors to a chosen design.",
-        "The new Motion Assist feature displays a bubble like overlay that moves in the direction of travel, aiming to reduce motion sickness for passengers using their phones in a moving vehicle. Google also quietly added infrastructure to a Kids Auth Module meant to manage regulatory compliance notices on Android devices used by younger users."
-      ],
-      "sources": [
-        [
-          "9to5Google",
-          "https://9to5google.com/2026/09/07/september-2026-google-system-updates/"
-        ],
-        [
-          "Google Blog",
-          "https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Software & Services",
-      "h3": "OpenAI ships GPT-6 Astra across ChatGPT and Codex",
-      "summary": "OpenAI rolled out GPT-6 Astra on Friday 4 September, a major model upgrade for computer use, browsing and professional work that is still generating headlines this week.",
-      "body": [
-        "The new model targets computer use, web browsing, software engineering and science tasks, and OpenAI says it completes computer use tasks nearly twice as fast as before while preserving more context in Codex sessions. The rollout covers ChatGPT, the API, Azure and Amazon Bedrock, and adds beta plugins for Zendesk and OneNote along with the ability for eligible users to share live Sites outside their workspace.",
-        "Alongside the model launch, OpenAI introduced Daybreak for Frontline Defenders, a 1 billion dollar initiative offering subsidized access to its Daybreak cyber models, training and technical support to help defenders of essential services in the United States and abroad guard against cyberattacks."
-      ],
-      "sources": [
-        [
-          "9to5Mac",
-          "https://9to5mac.com/2026/09/04/openai-releasing-major-upgrade-to-chatgpt-and-codex-with-gpt-6-astra-details-here/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "EVs & Mobility",
-      "h3": "Rivian unifies its lineup with RivianOS 2 rollout",
-      "summary": "Rivian began rolling out RivianOS 2 this week, the biggest software overhaul since the original R1 launched, unifying its full vehicle lineup on one platform.",
-      "body": [
-        "Version 2026.31 brings first and second generation R1 vehicles together with the mass market R2 on a single software foundation for the first time, featuring a rebuilt interface with context aware controls and real time police and speed camera alerts. Newer hardware gains Unreal Engine 5 rendering for onscreen visuals, and an expanded AI layer called Unified Intelligence aims to make the car's assistant more capable across daily tasks.",
-        "The update lands as Rivian prepares two events this month marking the restart of construction on its 5 billion dollar EV plant in Georgia and the opening of its East Coast headquarters in Atlanta later this year, signaling the company is pushing forward on manufacturing expansion even as it refines existing vehicles."
-      ],
-      "sources": [
-        [
-          "Electrek",
-          "https://electrek.co/2026/07/13/california-ev-rebate-rivian-lucid-tesla/"
-        ],
-        [
-          "WardsAuto",
-          "https://www.wardsauto.com/news/archive-auto-rivian-supply-chain-manufacturing-scaling-r2-production/757493/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "EVs & Mobility",
-      "h3": "Tesla FSD update can now override manual driving to dodge a crash",
-      "summary": "Tesla is rolling out a new Full Self-Driving Supervised version this week that can intervene even when a driver is manually controlling the car to avoid a collision.",
-      "body": [
-        "The update expands Tesla's crash avoidance systems beyond passive alerts, allowing the software to take corrective action in real time if it detects an imminent collision while a human is behind the wheel. The change reflects Tesla's continued push to fold more autonomous safety features into vehicles still classified as requiring driver supervision.",
-        "The rollout comes as Tesla works to keep its share of the EV market steady after a rocky first half of 2026, with the company still accounting for 45 percent of new EV sales in the country despite an 8.4 percent year over year sales decline in the first quarter. Safety focused updates like this one are seen as a way to differentiate Tesla's driver assistance suite from rivals as competition intensifies."
-      ],
-      "sources": [
-        [
-          "Electrek",
-          "https://electrek.co/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "EVs & Mobility",
-      "h3": "Lucid presses ahead with operational reset after big loss",
-      "summary": "Lucid Motors continues implementing its operational reset this week after a 1.02 billion dollar quarterly net loss and its largest ever recall.",
-      "body": [
-        "Lucid identified 1.4 billion dollars in potential cash flow improvements for 2026 across operating expenses, capital spending and working capital, organizing the effort around three priorities the company calls Cash and Cost, Customer and Quality, and Culture and Team. The reset followed a recall covering 27,185 vehicles, a number that exceeds the company's total sales from the prior year, even as quarterly revenue rose 56 percent.",
-        "Lucid has cut its US workforce by 18 percent, on top of an earlier 12 percent reduction, and dropped a second production shift at its Arizona plant as it works to control costs. On the brighter side, the Lucid Gravity SUV was named 2026 World Luxury Car of the Year, and Gravity robotaxi test vehicles have begun service with both Uber and Nuro."
-      ],
-      "sources": [
-        [
-          "Lucid Group IR",
-          "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-announces-operational-reset-and-second-quarter-2026/"
-        ],
-        [
-          "CarBuzz",
-          "https://carbuzz.com/lucid-slashes-staff-second-time-2026/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "EVs & Mobility",
-      "h3": "US falls behind as global EV sales keep climbing",
-      "summary": "A global EV outlook highlighted this week shows the United States falling behind a worldwide sales boom after the loss of federal purchase incentives.",
-      "body": [
-        "US EV buyers purchased around 216,000 new electric cars in the first quarter of 2026, a 27 percent drop from the year before, with EVs slipping to 5.8 percent of new vehicle sales after peaking near 10.6 percent in the third quarter of 2025. The slide followed the termination of federal tax credits for new and used EV purchases after September 2025, alongside a proposed annual 250 dollar fee for EV owners in some states.",
-        "Globally the picture looks very different, with international sales continuing to climb even as the American market cools. Tesla still accounts for 45 percent of US EV sales despite its own 8.4 percent year over year decline, underscoring how much the entire domestic market has softened rather than any single automaker losing ground to rivals."
-      ],
-      "sources": [
-        [
-          "Rest of World",
-          "https://restofworld.org/2026/iea-global-ev-outlook-us-sales-drop/"
-        ]
-      ]
-    }
-  ]
+ "sports": [
+  {
+   "hero": true,
+   "sub": "Tennis",
+   "h3": "Sabalenka survives Noskova thriller, Tiafoe wins five-setter in New York",
+   "summary": "On Tuesday 8 September Aryna Sabalenka beat Wimbledon champion Linda Noskova 7-6(1) 3-6 7-6(7) to reach a sixth straight US Open semifinal, while Frances Tiafoe came from two sets down to beat Alex Michelsen.",
+   "body": [
+    "Top seed Aryna Sabalenka kept her bid for a third consecutive US Open title alive on Tuesday 8 September, edging sixth seed Linda Noskova in a match that lasted two hours and 22 minutes at Arthur Ashe Stadium. According to ESPN, Sabalenka closed it out with a second-serve ace in the deciding tiebreak after Noskova, who won Wimbledon in July, had hit 18 aces and saved seven of nine break points.",
+    "CBS Sports reported that Sabalenka fell behind 4-2 in the third set before breaking straight back, avoiding the kind of collapse that has cost her in earlier majors. She now faces either Jessica Pegula or Emma Navarro in Thursday's semifinal, with the two Americans meeting in Tuesday's night session."
+   ],
+   "sources": [
+    [
+     "ESPN",
+     "https://www.espn.com/tennis/story/_/id/49870845/sabalenka-edges-noskova-remains-alive-us-open-three-peat"
+    ],
+    [
+     "CBS Sports",
+     "https://www.cbssports.com/tennis/news/us-open-2026-schedule-results-bracket-live-updates-quarterfinals/live/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Tennis",
+   "h3": "Van de Zandschulp survives five-hour epic, meets Zverev in quarterfinal",
+   "summary": "Botic van de Zandschulp came back from two sets down and saved a match point to beat Arthur Gea in five hours and 13 minutes, NOS reported early on Tuesday 8 September. He faces top seed Alexander Zverev on Wednesday.",
+   "body": [
+    "The last Dutch player standing at the US Open reached the quarterfinals for the second time in his career after a 3-6 6-7(0) 7-6(7) 7-6(3) 6-4 win over Frenchman Arthur Gea that finished in the early hours of Tuesday New York time. NL Times noted that the 30-year-old lost the second-set tiebreak 7-0 and then saved a match point in the third before taking the next two tiebreaks.",
+    "In the fifth set Van de Zandschulp broke in the opening game, was broken straight back, then broke again in the seventh game and served out the match. His only previous quarterfinal was also in New York, in 2021, when he lost in four sets to eventual champion Daniil Medvedev."
+   ],
+   "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2630130-van-de-zandschulp-weer-kwartfinalist-us-open-na-slijtageslag-nu-tegen-zverev"
+    ],
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/08/van-de-zandschulp-last-dutch-player-us-open-reaches-quarterfinals-5-set-win"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Tennis",
+   "h3": "Alcaraz and Shelton headline Tuesday night session at Arthur Ashe",
+   "summary": "Defending champion Carlos Alcaraz met home favourite Ben Shelton in the late quarterfinal on Tuesday 8 September, after Jessica Pegula and Emma Navarro opened the night session in the first all-American women's quarterfinal since 2015.",
+   "body": [
+    "The ATP Tour reported that eighth seed Ben Shelton reached the last eight without facing a break point against Stefanos Tsitsipas, winning 6-2 6-3 6-4, while Alcaraz beat Tommy Paul 6-4 6-3 6-4 to extend his Grand Slam winning streak to 18 matches. Alcaraz led the head to head 3-0 going into the match, and Shelton told Olympics.com he would need special tennis to beat the Spaniard for the first time.",
+    "With Jannik Sinner absent after withdrawing before the tournament and Novak Djokovic out in the first round, Alcaraz is the clear favourite for the title. The winner plays Frances Tiafoe in Friday's semifinal. ESPN noted that three of the four remaining men in the top half were American, giving the hosts their best chance in years of ending a men's singles drought that dates back to 2003."
+   ],
+   "sources": [
+    [
+     "ATP Tour",
+     "https://www.atptour.com/en/news/shelton-tsitsipas-us-open-2026-r4"
+    ],
+    [
+     "ESPN",
+     "https://www.espn.com/tennis/story/_/id/49854593/us-open-2026-americans-carlos-alcaraz-ben-shelton-frances-tiafoe-alex-michelsen"
+    ],
+    [
+     "Olympics.com",
+     "https://www.olympics.com/en/news/us-open-2026-ben-shelton-carlos-alcaraz-quarter-final-tennis-h2h-preview"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Sailing",
+   "h3": "America's Cup teams cleared to train in Naples ahead of preliminary regatta",
+   "summary": "From Wednesday 9 September the nine crews entered for the Louis Vuitton 38th America's Cup Preliminary Regatta in Naples are permitted to train on the Bay of Naples, with racing scheduled for 24 to 27 September.",
+   "body": [
+    "The Naples event is the second official regatta of the current cycle and the first competitive racing on the course that will host the Louis Vuitton Cup and the America's Cup Match in 2027, according to Emirates Team New Zealand. Teams will race identical AC40 foiling yachts off the Lungomare between Castel dell'Ovo and Posillipo, with fleet races on 25 and 26 September and a winner-takes-all match race final on 27 September.",
+    "Six teams and nine boats will take part. Emirates Team New Zealand, GB1 and Luna Rossa each field a second AC40 for their Women's and Youth crews, while Tudor Team Alinghi, La Roche-Posay Racing Team and the American Racing Challenger Team USA bring one boat each. The Americans join the preliminary fleet for the first time this cycle. Australia is not yet competing."
+   ],
+   "sources": [
+    [
+     "America's Cup",
+     "https://www.americascup.com/news/4110_BREAKING-NEWS-SECOND-LOUIS-VUITTON-PRELIMINARY-REGATTA-WILL-BE-IN-NAPLES-FROM-24-27-SEPTEMBER"
+    ],
+    [
+     "Emirates Team New Zealand",
+     "https://emirates-team-new-zealand.americascup.com/en/news/812_UP-NEXT-PR-2NAPOLI-2427-SEPTEMBER-2026-38TH-AMERICA-S-CUP.html"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Formula 1",
+   "h3": "Antonelli wins Monza from 20th on the grid, extends title lead to 66 points",
+   "summary": "Kimi Antonelli went from the back of the grid to victory at the Italian Grand Prix on Sunday 6 September, beating Mercedes teammate George Russell by 3.9 seconds with Max Verstappen third for Red Bull.",
+   "body": [
+    "PlanetF1 described the drive as sensational. Antonelli had taken a back-of-the-grid engine penalty and started 20th, yet was up to sixth by the standing restart that followed a red flag for Charles Leclerc's heavy crash at Parabolica on lap two. Leclerc was unhurt. Verstappen led by lap 12 before both Mercedes closed in, and Antonelli passed Russell for the lead at the start of lap 18.",
+    "Pierre Gasly had taken his first career pole for Alpine and led the opening laps but faded to seventh. Lando Norris and Oscar Piastri finished fourth and fifth for McLaren, Lewis Hamilton was sixth for Ferrari after being forced onto the gravel by Leclerc early on and rookie Arvid Lindblad took eighth for Racing Bulls. Lance Stroll and Fernando Alonso both retired for Aston Martin."
+   ],
+   "sources": [
+    [
+     "PlanetF1",
+     "https://www.planetf1.com/news/2026-italian-grand-prix-f1-race-results"
+    ],
+    [
+     "GPFans",
+     "https://www.gpfans.com/en/f1-news/1089945/f1-standings-2026-latest-points-leaders-after-italian-grand-prix/"
+    ],
+    [
+     "Formula1.com",
+     "https://www.formula1.com/en/results/2026/races/1293/italy/race-result"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Formula 1",
+   "h3": "Verstappen tells Red Bull its weaknesses were clear despite Monza podium",
+   "summary": "An untelevised radio exchange published on Tuesday 8 September showed Max Verstappen telling team boss Laurent Mekies that the RB22's weaknesses were obvious at Monza, days after Helmut Marko admitted the car's development had gone in the wrong direction.",
+   "body": [
+    "Motorsport Week reported that Mekies praised Verstappen's race pace and overtaking as a big step forward on the cooldown lap. Verstappen replied that the podium was nice but that the team could clearly see its weaknesses, pointing to straight-line speed and ride quality. He later said a rear axle problem first noticed in qualifying had stayed with him all race and that the car struggled over bumps and kerbs.",
+    "The Dutchman also said Red Bull cannot match the energy deployment of the Mercedes-powered cars, which hurts on a track like Monza. His third place followed a first-lap crash at his home race in Zandvoort and was his third podium in four races, but Red Bull has still not won a Grand Prix in 2026."
+   ],
+   "sources": [
+    [
+     "Motorsport Week",
+     "https://www.motorsportweek.com/2026/09/08/max-verstappen-red-bull-f1-weakneses/"
+    ],
+    [
+     "PlanetF1",
+     "https://www.planetf1.com/news/helmut-marko-blunt-adrian-newey-verdict-red-bull-wrong-direction"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Football",
+   "h3": "PSV beats Ajax 3-1 in tempestuous Amsterdam topper, AZ stays perfect",
+   "summary": "PSV won 1-3 at the Johan Cruijff ArenA on Saturday 5 September through goals from Ricardo Pepi, Lutsharel Geertruida and Esmir Bajraktarevic, while AZ remained the only Eredivisie side with a perfect record after five rounds.",
+   "body": [
+    "NOS described an exceptional first half in which both teams attacked relentlessly. Pepi scored after five minutes from a Ruben van Bommel header, Tolu Arokodare levelled for Ajax in the 23rd minute and Geertruida restored PSV's lead just before the break from a corner. Ajax had chances through Steven Berghuis and Davy Klaassen to go ahead in between.",
+    "The second half was less open and grew ugly in the final quarter when Van Bommel injured Aaron Bouwman with a reckless challenge, sparking scuffles and yellow cards for six players and Ajax coach Michel. Substitute Bajraktarevic settled the game in stoppage time from a Sven Mijnans pass. Ajax debutants included Sofyan Amrabat and Viktor Tsyhankov."
+   ],
+   "sources": [
+    [
+     "NOS",
+     "https://nos.nl/artikel/2629842-psv-verslaat-ajax-in-amsterdam-in-tumultueuze-topper-1-3"
+    ],
+    [
+     "Voetbal International",
+     "https://www.vi.nl/nieuws/bekijk-hier-alle-samenvattingen-van-speelronde-5-in-de-eredivisie"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Football",
+   "h3": "NEC denies Excelsior historic start with stoppage-time equaliser",
+   "summary": "Noe Lebreton scored in injury time to give NEC a 2-2 draw against Excelsior in a rearranged Eredivisie match in Nijmegen on Tuesday 8 September, denying the Rotterdam club a move up to third place.",
+   "body": [
+    "The match was the postponed round three fixture, moved because of NEC's European commitments. Voetbal International reported that NEC coach made eight changes and Adam Tahaui rewarded him with a 10th-minute opener, cutting inside from the edge of the box and finishing into the near corner. Irakli Yegoian set up David Garden to equalise just before half-time on a rain-soaked pitch.",
+    "Excelsior debutant Valentin Sulzbacher, signed from Red Bull Salzburg, scored with his first touch to put the visitors 2-1 up in the second half. NEC's Perr Schuurs, recently back from a long injury layoff, came close to levelling and Dusan Tadic headed a late chance wide before Lebreton pounced in stoppage time."
+   ],
+   "sources": [
+    [
+     "Voetbal International",
+     "https://www.vi.nl/nieuws/nec-sleept-in-slotfase-nog-een-punt-uit-het-vuur-tegen-revelatie-excelsior"
+    ],
+    [
+     "Voetbal International",
+     "https://www.vi.nl/nieuws/rick-kruys-wordt-bij-nac-opvolger-van-ontslagen-carl-hoefkens"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Football",
+   "h3": "Dumfries beats former club Inter as Real Madrid open Champions League",
+   "summary": "Denzel Dumfries started for Real Madrid in a 2-1 win over Internazionale at the Bernabeu on Tuesday 8 September, his first Champions League match since leaving the Italian club after 207 appearances.",
+   "body": [
+    "Voetbal International reported that Kylian Mbappe opened the scoring after Inter lost possession, with Brahim Diaz providing the pass. The goal took Mbappe to 71 Champions League goals, level with Real icon Raul and behind only Cristiano Ronaldo, Lionel Messi, Robert Lewandowski and Karim Benzema on the all-time list. Federico Valverde made it 2-0 after a poor back pass from Benjamin Pavard.",
+    "Inter goalkeeper Josep Martinez kept the Italians in the game with a string of saves from Mbappe and Carlos Augusto pulled one back with about 15 minutes left, but Thibaut Courtois held firm. Jose Mourinho, who won the Champions League with Inter in 2010, handed Dumfries the start against the club where he reached two Champions League finals between 2021 and 2026."
+   ],
+   "sources": [
+    [
+     "Voetbal International",
+     "https://www.vi.nl/nieuws/dumfries-verslaat-oude-liefde-inter-bij-cl-debuut-voor-real-madrid"
+    ],
+    [
+     "Voetbal International",
+     "https://www.vi.nl/nieuws/veerman-kent-succesvol-champions-league-debuut-bij-dortmund"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Grappling & Judo",
+   "h3": "ADCC Worlds head to Krakow this weekend without Ryan, Ruotolos or Reis",
+   "summary": "The ADCC World Championships take place at Tauron Arena in Krakow on 12 and 13 September, the first time Poland has hosted the event and the first European edition since 2017. Brackets are revealed on Friday 11 September.",
+   "body": [
+    "FloGrappling, which streams the event, notes that the biennial tournament returns to Europe with a new host. MMA Mania reported on Monday 7 September that the field is thinner on star power than in previous years: Gordon Ryan retired early in 2026, vacating the superfight belt after 17 years, Craig Jones is also retired and Kade and Tye Ruotolo, Andrew Tackett and Nick Rodriguez are not on the card.",
+    "Five reigning champions have withdrawn, including Adele Fornarino for a UFC BJJ title shot and Diogo Reis and Mica Galvao following the arrest of coach Melqui Galvao. Three champions do return, among them Felipe Pena and double champion Kaynan Duarte, who will compete at 99 kg, face Yuri Simoes in the headline superfight and possibly enter the absolute division as well."
+   ],
+   "sources": [
+    [
+     "FloGrappling",
+     "https://www.flograppling.com/articles/16048196-when-is-the-2026-adcc-world-championships"
+    ],
+    [
+     "MMA Mania",
+     "https://www.mmamania.com/bjj-news/470249/adcc-2026-preview-and-predictions-everything-you-need-to-know-about-the-bjj-card-thats-being-slept-on"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Grappling & Judo",
+   "h3": "Budapest Grand Slam draws 536 judoka from 70 nations this weekend",
+   "summary": "The IJF Hungary Grand Slam runs from 11 to 13 September in Budapest, home city of the International Judo Federation, with 326 men and 210 women entered across the 14 weight categories.",
+   "body": [
+    "The IJF lists 536 competitors from 70 countries and six continents for the Budapest event, which the federation billed as the September centrepiece of the World Judo Tour. European federations account for 397 of the entries, with 54 from Asia, 45 from the Pan-American confederation and 27 from Africa.",
+    "Day one on Friday covers the men's -60 kg and -66 kg and the women's -48 kg, -52 kg and -57 kg. Saturday brings the men's -73 kg and -81 kg alongside the women's -63 kg and -70 kg, with the heavier categories on Sunday. The -73 kg division is the largest with 65 entries."
+   ],
+   "sources": [
+    [
+     "IJF",
+     "https://www.ijf.org/competition/3155"
+    ],
+    [
+     "IJF",
+     "https://www.ijf.org/news/show/2026-promises-non-stop-judo-action"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Grappling & Judo",
+   "h3": "IBJJF World Master wraps three days in Las Vegas as Jiu-Jitsu Con follows",
+   "summary": "The IBJJF World Master Championship ran from 3 to 5 September in Las Vegas with brown and black belts across seven Master age divisions, FloGrappling reported, with the IBJJF Jiu-Jitsu Con seminar programme staged alongside.",
+   "body": [
+    "FloGrappling's coverage described an action-packed opening day with some academies dominating both male and female divisions. All seven Master age groups, from Master 1 for competitors aged 30 and over up to Master 7, held matches on day one, followed by purple belt divisions and the older black belt brackets on Friday.",
+    "Full results by weight, belt and age group are published on the IBJJF results database. The event is one of the largest gi tournaments on the calendar and doubles as a gathering point for the sport, with the Jiu-Jitsu Con seminar schedule running in the same venue."
+   ],
+   "sources": [
+    [
+     "FloGrappling",
+     "https://www.flograppling.com/articles/16157469-ibjjf-master-worlds-2026-results-every-weight-division-and-belt"
+    ],
+    [
+     "FloGrappling",
+     "https://www.flograppling.com/articles/16145414-ibjjf-jiu-jitsu-con-2026-schedule-seminars-list"
+    ]
+   ]
+  }
+ ],
+ "consumer-tech": [
+  {
+   "hero": true,
+   "sub": "Devices & Launches",
+   "h3": "Apple event today: iPhone 18 Pro and first foldable iPhone expected",
+   "summary": "Apple holds its September event on Wednesday 9 September at 10:00 Pacific time, 19:00 in Amsterdam, where MacRumors expects the iPhone 18 Pro and Pro Max, a book-style foldable possibly called iPhone Ultra, two Apple Watches and AirPods 5.",
+   "body": [
+    "MacRumors' event preview says the foldable will have a roughly 5.5-inch outer OLED display and a 7.8-inch inner screen in a layout wider than it is tall, closer to a folded iPad mini than a conventional phone. It is expected to be around 4.5 mm thick when open, use a Touch ID side button instead of Face ID and carry a dual rear camera without a telephoto lens. Bloomberg has reported that MagSafe charging will be included.",
+    "The device is expected to run a 2 nm A20 Pro chip with 12 GB of RAM and possibly Apple's own C2 modem. The standard iPhone 18 is not expected at this event, with Apple reportedly shifting it to a spring 2027 launch. Other products tipped for the keynote include the Apple Watch Series 12 with a ceramic case option, Apple Watch Ultra 4 and AirPods 5 in versions with and without active noise cancellation."
+   ],
+   "sources": [
+    [
+     "MacRumors",
+     "https://www.macrumors.com/guide/apple-september-2026-what-to-expect/"
+    ],
+    [
+     "AppleInsider",
+     "https://appleinsider.com/articles/26/08/26/what-to-expect-from-apples-surprise-and-shine-iphone-18-pro-event-on-september-9"
+    ],
+    [
+     "9to5Mac",
+     "https://9to5mac.com/2026/08/25/ios-27-release-date-when-next-major-iphone-update-is-coming/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Devices & Launches",
+   "h3": "Huawei unveils Mate XT2 tri-fold with built-in privacy display",
+   "summary": "Huawei launched the Mate XT2 Ultimate Design in China on Monday 7 September, a tri-panel foldable that opens to a 10.2-inch 3K screen, priced from 19,999 yuan or about 2,980 dollars, Engadget reported.",
+   "body": [
+    "Engadget said the Mate XT2 is the first tri-fold with a built-in privacy display, a feature Samsung introduced on the Galaxy S26 Ultra. The new hinge folds the panels inwards, unlike the 2024 original, and the phone measures 6.5 inches when closed. It runs Huawei's Kirin 9050 Pro chip, which the company claims is 42 percent faster than the chip in the first Mate XT.",
+    "The camera system comprises a 50-megapixel main sensor, a 40-megapixel ultra-wide and a 50-megapixel periscope with 3.5x optical zoom, plus an 8-megapixel selfie camera on the inner display. The phone ships with HarmonyOS 7."
+   ],
+   "sources": [
+    [
+     "Engadget",
+     "https://www.engadget.com/2252175/huawei-mate-xt2-worlds-first-foldable-with-built-in-privacy-display/"
+    ],
+    [
+     "Ubergizmo",
+     "https://www.ubergizmo.com/2026/09/huawei-mate-xt-2-tri-fold-launched-specs-privacy-display-and-features/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Devices & Launches",
+   "h3": "Xiaomi 18 Fold debuts in-house XRING O3 chip and A4-ratio screens",
+   "summary": "Xiaomi formally launched the 18 Fold, its first so-called mid-size foldable, with a 7.68-inch inner and 5.38-inch outer display, Engadget reported on Tuesday 8 September after hands-on time at IFA in Berlin.",
+   "body": [
+    "The phone is the first Xiaomi flagship to run the company's own XRING O3 processor, built on a 3 nm process with a 10-core all-big-core CPU and 16-core GPU. Xiaomi says it is the first system on chip to support LPDDR6 memory and claims 45 percent faster on-device NPU decoding than its previous flagship chip.",
+    "Both screens use a new Xiaomi HyperRGB panel with a full RGB subpixel structure, peak brightness of 4,000 nits and 1-120 Hz adaptive refresh. At 219 grams it is the lightest foldable Xiaomi has made, although Engadget found it slightly thicker than Samsung's Galaxy Z Fold 8 with a larger battery. A three-link hinge and Shield Glass 3.0 protect the displays."
+   ],
+   "sources": [
+    [
+     "Engadget",
+     "https://www.engadget.com/2252401/xiaomi-18-fold-hands-on-ifa-2026/"
+    ],
+    [
+     "GSMArena",
+     "https://www.gsmarena.com/xiaomi_18_fold_with_xring_o3_chip_showcased_at_ifa_2026-news-74457.php"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Devices & Launches",
+   "h3": "IFA 2026 wrap: stair-climbing robot vacuums and a fanless 10 mm laptop",
+   "summary": "As IFA Berlin closed on Tuesday 8 September, TechRadar and Gizmochina named Roborock's wheel-legged Saros Rover and Lenovo's solid-state-cooled Project AeroBlade among the standout reveals of the show.",
+   "body": [
+    "Gizmochina reported that the Saros Rover drew the longest queues at the show. Roborock describes it as the first robot vacuum built on a wheel-leg architecture that raises or lowers each leg independently, performs small jumps and adjusts its body on slopes, letting it cross thresholds and individual stair steps.",
+    "Lenovo's Project AeroBlade concept is a 14-inch ThinkBook under 830 grams and under 10 mm thick that replaces fans with Frore's AirJet solid-state cooling chips. TechRadar's Best in Show list of 25 products also included Acer's 799 gram Swift Blade 14, Anker's MindBase smart home hub, Mammotion mowing robots, exoskeletons and modular solar batteries aimed at renters."
+   ],
+   "sources": [
+    [
+     "TechRadar",
+     "https://www.techradar.com/tech/ifa-2026-best-in-show-awards-our-25-favorite-reveals-at-the-berlin-tech-expo-from-somersaulting-robots-to-modular-solar-batteries-for-renters"
+    ],
+    [
+     "Gizmochina",
+     "https://www.gizmochina.com/2026/09/08/best-of-ifa-2026/"
+    ],
+    [
+     "Android Authority",
+     "https://www.androidauthority.com/android-authority-best-of-ifa-2026-awards-3707989/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Devices & Launches",
+   "h3": "Sony revives the WH-1000XM4 as a 300 dollar XM4C",
+   "summary": "Sony is bringing back its 2020 headphones as the WH-1000XM4C this autumn at 299.99 dollars, alongside the 180 dollar WH-CH730N and 69.99 dollar WH-CH530 arriving in September, Engadget reported on Monday 7 September.",
+   "body": [
+    "Rather than build a new upper-midrange model, Sony is reissuing a well-reviewed favourite with the same design as the original XM4. The XM4C keeps QN1-powered active noise cancellation and multipoint Bluetooth and adds Sony's latest sound tuning, a 10-band equaliser, a gaming EQ and the Quick Access shortcut for streaming services.",
+    "Battery life drops to 27 hours with noise cancelling on, three hours less than the original, but a three-minute charge now gives an hour of playback. At 300 dollars it undercuts the current WH-1000XM6 by a wide margin and comes in black and platinum silver."
+   ],
+   "sources": [
+    [
+     "Engadget",
+     "https://www.engadget.com/2251246/sony-revives-its-wh-1000xm4-headphones-as-a-refreshed-300-dollar-option/"
+    ],
+    [
+     "TechPowerUp",
+     "https://www.techpowerup.com/352446/sony-releases-wh-1000xm4c-wireless-headphones-and-refreshes-mid-range-lineup"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Devices & Launches",
+   "h3": "Nintendo announces Zelda 40th Anniversary Switch 2 for 29 October",
+   "summary": "Nintendo used a Zelda anniversary Direct on Tuesday 8 September to announce a Triforce-themed Switch 2 console, Pro Controller and carrying case launching on 29 October, with a general Nintendo Direct following on Wednesday.",
+   "body": [
+    "Nintendo's press release lists the Legend of Zelda 40th Anniversary Edition at 62,980 yen in Japan. The console, dock and Joy-Con 2 controllers carry Triforce motifs, and the matching Pro Controller and case release the same day.",
+    "Nintendo Life reported that the Direct focused on non-game initiatives for the anniversary as well as details of the Switch 2 version of The Legend of Zelda: Ocarina of Time. EventHubs noted that a general Nintendo Direct is scheduled for 9 September, so broader software news was held back a day."
+   ],
+   "sources": [
+    [
+     "Nintendo",
+     "https://www.nintendo.co.jp/corporate/release/en/2026/260908_2.html"
+    ],
+    [
+     "Nintendo Life",
+     "https://www.nintendolife.com/news/2026/09/nintendo-reveals-what-to-expect-from-the-zelda-40th-anniversary-direct"
+    ],
+    [
+     "EventHubs",
+     "https://www.eventhubs.com/news/2026/sep/04/nintendo-direct-september-loz/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Software & Services",
+   "h3": "September Android drop adds Gemini inventory, Motion Assist and video search",
+   "summary": "Google's September Android update brings five features across Gemini, Find Hub and Messages to hundreds of millions of phones, Android Authority reported, while Pixel 6 owners receive Android 17 QPR1 as their final major OS upgrade.",
+   "body": [
+    "The drop lets users build a searchable inventory of belongings in Find Hub by telling Gemini where items are stored, adds a Motion Assist overlay designed to reduce motion sickness when reading on the move and extends Circle to Search to content inside videos in supported apps. Google Keep notes and lists can now be shared and edited by everyone in a Google Messages chat, and Gemini Live gains a guided vision mode that describes what the camera sees.",
+    "Forbes reported that some features reach devices as old as Android 9, with Samsung Galaxy phones included alongside Pixels. Separately, Google's Pixel package bundles the monthly security patch, the final Android 17 QPR1 build and the next Pixel Feature Drop."
+   ],
+   "sources": [
+    [
+     "Android Authority",
+     "https://www.androidauthority.com/september-2026-android-drop-3705528/"
+    ],
+    [
+     "Forbes",
+     "https://www.forbes.com/sites/jaymcgregor/2026/09/02/google-android-september-drop-free-upgrade-gemini-intelligence-2026/"
+    ],
+    [
+     "PhoneArena",
+     "https://www.phonearena.com/news/september-android-drop-brings-5-new-features-to-pixel-and-galaxy-phones_id182988"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Software & Services",
+   "h3": "iOS 27 expected on 14 September, but Siri AI skips the EU at launch",
+   "summary": "9to5Mac expects iOS 27 to become available on Monday 14 September, five days after Apple's iPhone event. Macworld reports the update runs on every iPhone from the iPhone 11 onward, though the new Siri AI features will not be available in the EU at launch.",
+   "body": [
+    "The release brings a more context-aware Siri, AI-assisted editing in Photos, faster app launches, improved parental controls and refinements to the Liquid Glass design introduced last year, according to Macworld. Wallet, Messages, Notes, CarPlay and AirPods all pick up new features.",
+    "Advanced Apple Intelligence functions require an iPhone 15 Pro or newer. Macworld notes that the Siri AI capabilities will not roll out in the European Union initially, continuing a pattern of delayed EU availability for Apple's AI features amid regulatory uncertainty."
+   ],
+   "sources": [
+    [
+     "9to5Mac",
+     "https://9to5mac.com/2026/08/25/ios-27-release-date-when-next-major-iphone-update-is-coming/"
+    ],
+    [
+     "Macworld",
+     "https://www.macworld.com/article/2986799/ios-27-new-iphone-features-release-date-beta-compatiblity-apple-intelligence-siri.html"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Software & Services",
+   "h3": "Windows Insider builds add math support to Narrator and browser resume",
+   "summary": "Microsoft released new Windows 11 Insider Preview builds to the Beta and Experimental channels on Tuesday 8 September, adding math reading and navigation to the Narrator screen reader and a smarter phone-to-PC Resume feature.",
+   "body": [
+    "The Windows Insider Blog said Narrator can now read and navigate mathematical content, giving blind and low-vision users clearer and more natural math experiences in documents and web pages.",
+    "The Resume feature, which lets users pick up a web page from their phone on the PC, now offers two options when the phone's browser is not installed on the computer: open the page in the PC's default browser or install the phone's browser for a native experience."
+   ],
+   "sources": [
+    [
+     "Windows Insider Blog",
+     "https://blogs.windows.com/windows-insider/2026/09/08/announcing-new-builds-for-8-september-2026/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "EVs & Mobility",
+   "h3": "NHTSA audits how Tesla certified the wheel-less Cybercab",
+   "summary": "The US safety regulator opened an audit query into Tesla's Cybercab on its Austin launch day, examining how a vehicle with no steering wheel, pedals or mirrors was self-certified as compliant with federal standards, Electrek reported.",
+   "body": [
+    "The Open Audit Query, numbered AQ26002 and prompted by public information, covers an estimated 1,000 Cybercab vehicles. NHTSA said it is examining the process and technical data Tesla relied on and the extent to which the certification depended on determinations that certain Federal Motor Vehicle Safety Standards do not apply to the vehicle.",
+    "US automakers self-certify compliance rather than seeking pre-approval, and many standards were written around a human driver. Tesla told the agency the Cybercab meets all applicable standards and that it plans to expand deployment gradually to more vehicles and locations."
+   ],
+   "sources": [
+    [
+     "Electrek",
+     "https://electrek.co/2026/09/04/tesla-cybercab-nhtsa-investigation-fmvss-certification/"
+    ],
+    [
+     "Electrek",
+     "https://electrek.co/2026/08/24/tesla-semi-factory-inauguration-nevada/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "EVs & Mobility",
+   "h3": "BYD targets 2 million overseas sales in 2026 after record August exports",
+   "summary": "BYD told investors it expects overseas sales of 1.9 to 2 million vehicles this year and more than 2.5 million in 2027, ChinaEVHome reported on Tuesday 8 September, after overseas deliveries hit a record 188,746 units in August.",
+   "body": [
+    "Overseas passenger car and pickup sales reached 1,157,954 units from January to August, up more than 85 percent year on year. Management said growth is currently constrained by shipping capacity and that adding vessels could unlock further exports. Overseas profit averaged around 20,000 yuan per vehicle in the first half.",
+    "Local production is expanding. The Indonesia plant has started output, Brazil is ramping towards 300,000 units a year and the Hungary factory is expected to begin assembly in November or December. BYD plans about 6,000 megawatt charging stations abroad through Shell's network and has already entered Germany and the UK, while a battery shortage has left a backlog of roughly 250,000 orders for flash-charging models until early 2027."
+   ],
+   "sources": [
+    [
+     "ChinaEVHome",
+     "https://chinaevhome.com/2026/09/08/byd-targets-up-to-2m-overseas-sales-in-2026-eyes-over-2-5m-in-2027/"
+    ],
+    [
+     "Electrek",
+     "https://electrek.co/2026/09/04/byd-launches-biggest-sales-event-uk-phevs-evs/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "EVs & Mobility",
+   "h3": "Rivian says R2 pre-order conversion is beating expectations",
+   "summary": "At the Goldman Sachs Communacopia and Technology conference on Tuesday 8 September, Rivian said early R2 feedback has been phenomenal and pre-order conversion is running ahead of internal targets, with eyes-off autonomy targeted for 2027.",
+   "body": [
+    "According to a transcript summary published by Investing.com, Rivian used the conference to update investors on the R2 launch, its autonomy roadmap and custom silicon strategy while acknowledging the costs and execution risks of scaling production.",
+    "The company said its Gen 3 hardware remains on track for late 2026 and will support multiple performance tiers, with lower-end versions priced below Gen 2 hardware and higher-end versions at about the same level or slightly above. A supervised point-to-point driving feature is due by year end."
+   ],
+   "sources": [
+    [
+     "Investing.com",
+     "https://www.investing.com/news/transcripts/rivian-at-goldman-sachs-communacopia--technology-conference-2026-r2-gains-93CH-4892567"
+    ],
+    [
+     "Rivian Newsroom",
+     "https://rivian.com/newsroom"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "EVs & Mobility",
+   "h3": "Tesla lines up Semi factory opening and European truck debut this month",
+   "summary": "Tesla will formally inaugurate its Semi factory in Sparks, Nevada on 24 September, Electrek reported, days after revealing the European specification of the electric truck at IAA Transportation in Hannover from 15 to 20 September.",
+   "body": [
+    "The invite-only inauguration includes factory tours and ride-alongs and comes five months after the first truck rolled off the line in April. The facility sits next to Gigafactory Nevada and is heavily vertically integrated, with most manufacturing on the same site.",
+    "Tesla is building two versions, a Standard Range rated at 325 miles and a Long Range rated at 500 miles, both with an 800 kW three-motor powertrain producing more than 1,000 horsepower. Electrek reported in August that Swedish freight company Einride has ordered 500 Semis, the largest electric truck order to date."
+   ],
+   "sources": [
+    [
+     "Electrek",
+     "https://electrek.co/2026/08/24/tesla-semi-factory-inauguration-nevada/"
+    ],
+    [
+     "Electrek",
+     "https://electrek.co/2026/09/01/in-sept-tesla-will-re-launch-3-products-it-launched-a-decade-ago-for-a-stock-pump/"
+    ],
+    [
+     "Electrek",
+     "https://electrek.co/2026/08/20/tesla-semi-europe-launch-iaa-transportation/"
+    ]
+   ]
+  }
+ ]
 }

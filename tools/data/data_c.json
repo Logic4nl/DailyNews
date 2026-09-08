@@ -1,466 +1,630 @@
 {
-  "crypto-macro": [
-    {
-      "hero": true,
-      "sub": "Macro & Central Banks",
-      "h3": "Hot jobs report scrambles Fed bets days before rate call",
-      "summary": "Friday's blowout August payrolls print flipped rate-cut hopes into rate-hike worries just as investors head into the Fed's September 15-16 meeting, with markets closed Monday 7 September for Labor Day to digest it.",
-      "body": [
-        "The economy added 162,000 jobs in August, more than triple the 53,000 economists expected, while unemployment held at 4.1 percent, according to the Bureau of Labor Statistics. The surprise strength sent the S&P 500 down 0.4 percent and the Nasdaq Composite down 0.3 percent on Friday 4 September, as traders repriced the odds of a Fed rate increase rather than a cut at the upcoming meeting. Treasury yields jumped on the news, a classic good-news-is-bad-news reaction from a market that had been counting on easier policy.",
-        "With US cash equity and bond markets shut Monday 7 September for the Labor Day holiday, price discovery shifted to currencies, commodities and crypto. Markets were pricing roughly a 60 percent chance of a quarter-point hike at the September 15-16 meeting, a sharp reversal from the cut expectations that dominated over the summer. Fed governor Kevin Warsh has pointed to inflation still running above the 2 percent target across a broad set of consumer categories, while the White House has kept up public pressure on the central bank to lower rates instead."
-      ],
-      "sources": [
-        [
-          "CBS News",
-          "https://www.cbsnews.com/news/august-jobs-report-us-labor-market/"
-        ],
-        [
-          "CNBC",
-          "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Macro & Central Banks",
-      "h3": "Oil jumps to six-week high as US and Iran trade strikes",
-      "summary": "Brent crude climbed toward $98 a barrel on Monday 7 September after the US and Iran exchanged military strikes over the weekend, reviving fears of a Strait of Hormuz disruption.",
-      "body": [
-        "Brent crude rose to around $97.50 a barrel on Monday, its highest level in six weeks and nearly 40 percent above prices seen before the Iran war broke out, after overnight strikes between US and Iranian forces reignited supply fears. Reports also pointed to fresh attacks on Saudi Aramco facilities, adding to the risk premium already baked into prices. Iran separately signaled a shipping arrangement with Oman meant to keep the Strait of Hormuz open, but traders remained on edge about how Washington might respond to the weekend escalation.",
-        "Because US cash and futures markets for equities and bonds were shut for Labor Day, energy and currency markets carried the day's price discovery. Analysts noted that even a partial disruption to Gulf shipping lanes could push oil well past the $100 mark, a scenario that would complicate the Fed's inflation calculus just as it heads into its September meeting. The move extended a volatile few months for crude that has tracked the on-again, off-again nature of the conflict since it first erupted."
-      ],
-      "sources": [
-        [
-          "Al Jazeera",
-          "https://www.aljazeera.com/news/2026/7/8/oil-prices-surge-as-us-strikes-iran-reversing-fall-to-pre-war-levels"
-        ],
-        [
-          "Bloomberg",
-          "https://www.bloomberg.com/news/articles/2026-09-06/latest-oil-market-news-and-analysis-for-september-7"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Macro & Central Banks",
-      "h3": "Dollar softens, 10-year yield hovers near 4.75 percent",
-      "summary": "The dollar index eased toward 98.9 into the week while the 10-year Treasury yield sat near 4.75 percent, with traders weighing the strong jobs data against oil-driven inflation risk ahead of the Fed decision.",
-      "body": [
-        "Heading into the week of 7 September, the dollar index was hovering around 98.89, down slightly from prior sessions, while the 10-year Treasury yield sat near 4.74 to 4.79 percent after climbing on Friday's jobs surprise. Comments from Fed governor Christopher Waller expressing support for holding rates steady had offered some relief earlier in the week, but that was before the weekend's Iran escalation reignited energy-driven inflation concerns. The combination left currency and rates desks bracing for a choppy run into the September 15-16 Fed meeting.",
-        "Strategists said the yield curve, which showed 2-year notes near 4.37 percent and 30-year bonds near 5.25 percent, reflected a market genuinely split between rate-cut and rate-hike scenarios, an unusual setup this late in a cutting cycle. With equities and bond markets closed for Labor Day, Tuesday's reopening was expected to bring a fuller repricing of both the jobs data and the weekend's oil news."
-      ],
-      "sources": [
-        [
-          "Federal Reserve H.15",
-          "https://www.federalreserve.gov/releases/h15/"
-        ],
-        [
-          "Trading Economics",
-          "https://tradingeconomics.com/united-states/government-bond-yield"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Macro & Central Banks",
-      "h3": "ECB holds rates at 2 percent, sticks to meeting-by-meeting path",
-      "summary": "The European Central Bank kept its deposit rate at 2.00 percent, extending a hold that has lasted since its June 2025 cut, and repeated it will move meeting by meeting.",
-      "body": [
-        "The ECB left its deposit facility rate at 2.00 percent, the main refinancing rate at 2.15 percent and the marginal lending rate at 2.40 percent, holding at the lowest levels in more than two years. The bank has now cut rates eight times since June 2024, taking the deposit rate down from a record 4.00 percent, but has paused since last summer as inflation stabilized near target. Policymakers repeated their standard language that decisions will remain data-dependent and taken meeting by meeting rather than on a preset path.",
-        "The hold puts the ECB on a different footing than the Fed, which is debating whether to hike rather than cut at its own September meeting because of a hot US jobs report. Eurozone officials have pointed to steadier wage growth and a softer energy shock, relative to the US, as reasons the currency bloc has more room to stay patient. Analysts said the contrast between a paused ECB and a possibly hiking Fed could keep pressure on the euro-dollar pair into the autumn."
-      ],
-      "sources": [
-        [
-          "FXStreet",
-          "https://www.fxstreet.com/analysis/ecb-confident-in-the-current-monetary-policy-stance-202509050525"
-        ],
-        [
-          "European Central Bank",
-          "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Macro & Central Banks",
-      "h3": "Wall Street braces for Tuesday reopening after holiday news pileup",
-      "summary": "With markets shut Monday 7 September, traders face a stacked reopening on Tuesday that must price in Friday's hot jobs data, the weekend oil spike and a Fed decision just over a week away.",
-      "body": [
-        "US stock and bond markets stayed closed Monday for Labor Day, leaving Friday's 0.4 percent S&P 500 decline as the last official print heading into a reopening that now has to absorb several days of news at once. Besides the jobs surprise, traders returning Tuesday will need to price in the weekend's US-Iran military exchange and the resulting jump in oil prices, both of which complicate the inflation outlook the Fed will weigh at its September 15-16 meeting. Futures markets, which continued trading through the holiday, had already signaled a cautious open.",
-        "Strategists said the combination of a hawkish jobs surprise and a fresh energy shock puts the market in an unusually uncertain spot, with rate-hike, rate-hold and rate-cut scenarios all still in play depending on how the next week of data breaks. Volatility gauges ticked higher into the long weekend as options traders positioned for a bigger-than-usual reopening move. Attention was also turning to whether the oil spike would show up in the next round of inflation readings before the Fed's meeting."
-      ],
-      "sources": [
-        [
-          "The Motley Fool",
-          "https://www.fool.com/investing/2026/09/04/the-nasdaq-sp-500-and-dow-all-fell-slightly-friday/"
-        ],
-        [
-          "TheStreet",
-          "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-04-2026"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Bitcoin & Ethereum",
-      "h3": "Bitcoin opens above $80,000 as traders eye Fed decision",
-      "summary": "Bitcoin opened Monday 7 September at $80,351, up 0.7 percent from Sunday, before slipping back toward $79,350 by mid-morning as inflation and Fed rate-watch anxiety crept back in.",
-      "body": [
-        "Bitcoin opened at $80,351.40 on Monday, a 0.7 percent gain from Sunday's open, according to Yahoo Finance's daily crypto price tracker. By 9:41am ET the price had eased back to roughly $79,349.91, giving back the overnight gain as broader macro nerves resurfaced. Traders pointed to the looming Fed meeting on September 15-16 as the key catalyst, with the strong August jobs report having already shifted rate expectations away from a cut and toward a possible hike.",
-        "Ethereum moved in tandem, opening at $2,514.80, up 1.4 percent from Sunday, before drifting down to about $2,497.60 by the same mid-morning mark. Analysts framed Monday's action as a holding pattern, with US equity and bond markets closed for Labor Day removing a key source of cross-asset signal. Desks said the next real test would come once Tuesday's reopening let stock and crypto markets trade off the same jobs and oil headlines simultaneously."
-      ],
-      "sources": [
-        [
-          "Yahoo Finance",
-          "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-7-2026-crypto-investors-on-rate-watch-140242204.html"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Bitcoin & Ethereum",
-      "h3": "Bitcoin ETFs swing from outflows to $731 million inflow day",
-      "summary": "US spot bitcoin ETFs whipsawed in early September, posting a $236 million outflow on 1 September before rebounding to a $731 million inflow on 3 September, their biggest since January.",
-      "body": [
-        "Spot bitcoin ETFs recorded a $236.46 million net outflow on September 1, with BlackRock's iShares Bitcoin Trust (IBIT) accounting for roughly 85 percent of the withdrawals, the largest single-day pullback since July 31. The reversal came just two days later, when the same funds pulled in $731 million on September 3, the biggest single-day haul since mid-January, with IBIT alone capturing $454 million of that total. The swing followed what had been the strongest month of 2026 for the funds in August, when $3.52 billion in net inflows accompanied a 25 percent rally in bitcoin's price.",
-        "The August surge had erased roughly two-thirds of the funds' year-to-date deficit, cutting net outflows for 2026 from about $5.29 billion at the end of July to roughly $1.77 billion. Analysts said the early-September volatility reflected investors repositioning ahead of the Fed's rate decision and the broader macro uncertainty stemming from the Iran-linked oil spike. Flow watchers expect the pattern of sharp daily swings to continue until the Fed meeting clarifies the rate path."
-      ],
-      "sources": [
-        [
-          "HedgeCo",
-          "https://hedgeco.net/news/09/2026/spot-bitcoin-etfs-posted-a-236-5-million-net-outflow-on-september-1.html"
-        ],
-        [
-          "Cryptonomist",
-          "https://en.cryptonomist.ch/2026/09/04/us-bitcoin-etf-inflows-surge/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Bitcoin & Ethereum",
-      "h3": "Ethereum ETFs stretch inflow streak as ETHB, FETH lead gains",
-      "summary": "Ether spot ETFs notched a twelfth straight day of inflows in early September, with BlackRock's ETHB and Fidelity's FETH drawing fresh money even as Grayscale's ETHE keeps bleeding assets.",
-      "body": [
-        "Ethereum spot ETFs took in $10.95 million in net inflows on September 1, marking twelve consecutive days of gains, and added roughly $218 million over the following week. BlackRock's ETHB led with $11.2 million in a single day, pushing its total assets to $705 million, while Fidelity's FETH added $4.81 million to reach $2.286 billion. The funds had already added $1.8 billion in assets during August, bringing total ether ETF assets to about $15.57 billion.",
-        "The one holdout has been Grayscale's ETHE, which continued shedding assets even as rivals gained, logging $7.4 million in outflows on top of a historic $5.354 billion in cumulative net redemptions since its ETF conversion. Ether itself has been on a strong run, trading near $2,500 after climbing more than 63 percent from its lowest point of the year, with some traders pointing to a bullish flag and golden cross pattern as reasons for the renewed institutional appetite."
-      ],
-      "sources": [
-        [
-          "KuCoin",
-          "https://www.kucoin.com/news/flash/ethereum-spot-etfs-record-10-95m-net-inflow-on-sept-1-marking-12th-consecutive-day-of-inflows"
-        ],
-        [
-          "Benzinga",
-          "https://www.benzinga.com/crypto/26/09/61643728/ethereum-price-maps-a-bullish-flag-and-golden-cross-as-ethb-etf-inflows-soar"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Bitcoin & Ethereum",
-      "h3": "Bitcoin's summer rally cools as traders shift to rate-watch mode",
-      "summary": "Bitcoin's holding pattern near $80,000 follows a 25 percent August surge, with traders now more focused on the Fed's rate call than on fresh crypto-specific catalysts.",
-      "body": [
-        "Bitcoin's roughly 25 percent rally in August, which helped US spot ETFs post their best month of the year with $3.52 billion in net inflows, has given way to a quieter, choppier pattern in early September as the price consolidates in the high $70,000s to low $80,000s. Traders say the shift reflects a market that has priced in most of the good crypto-specific news, from ETF inflows to friendlier SEC guidance, and is now trading mainly off the same macro variables moving stocks and bonds. The upcoming Fed meeting has become the dominant reference point for near-term direction.",
-        "Analysts caution that a hawkish surprise from the Fed, or a further escalation in the Iran conflict that pushes oil and inflation expectations higher, could weigh on bitcoin much as it would on risk assets generally. Conversely, any dovish signal or a swift de-escalation could reignite the kind of inflows seen in early August. For now, desks describe the market as waiting rather than trending, with realized volatility notably lower than during the summer's sharper moves."
-      ],
-      "sources": [
-        [
-          "CryptoRank",
-          "https://cryptorank.io/news/feed/4b12b-bitcoin-etfs-just-had-their-best-month-of-2026-but-september-starts-with-a-warning"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "DeFi & Altcoins",
-      "h3": "XRP, Ether and Solana hit by $369 million liquidation wave",
-      "summary": "XRP led a $369 million crypto liquidation wave alongside Ether and Solana last week, a reminder of how quickly altcoin gains can unwind around scheduled token unlocks.",
-      "body": [
-        "XRP, Ether and Solana were caught in a combined $369 million liquidation event, with XRP leading the drop amid a scheduled escrow unlock that added fresh supply to the market at an already fragile moment. The sell-off coincided with broader nervousness tied to the SEC's ongoing overhaul of how it classifies digital assets, which has kept traders guessing about which tokens will get favorable treatment. Solana and XRP-linked investment products had both entered September with assets near $1.5 billion, leaving them exposed when sentiment turned.",
-        "The unwind illustrated how leveraged positioning across major altcoins remains a source of volatility even as the broader market narrative has turned more constructive on regulation. Traders noted that liquidation cascades like this one tend to clear out excess leverage quickly, and several altcoins had partially recovered within days of the initial drop. Still, the episode underscored the risk of concentrated unlocks landing during periods of macro uncertainty like the current Fed and Iran-driven volatility."
-      ],
-      "sources": [
-        [
-          "U.Today",
-          "https://u.today/xrp-joins-ether-solana-in-369-million-liquidation-wave-amid-sec-blockchain-overhaul-main-crypto"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "DeFi & Altcoins",
-      "h3": "Solana's Transaction V1 upgrade set to activate 9 September",
-      "summary": "Solana's Transaction V1 format, which triples maximum transaction size and enables zero-knowledge proofs, is scheduled to go live just two days after the Labor Day close.",
-      "body": [
-        "Solana's Transaction V1 upgrade is set to activate on September 9, 2026, increasing the maximum transaction size by 3.3 times and adding support for more advanced cryptography. The new format allows for zero-knowledge proofs, more complex multi-signature configurations and smoother cross-chain operations, features developers say are needed to keep pace with more complex DeFi applications being built on the network. The change follows a string of infrastructure upgrades the network has rolled out over the past year to handle rising transaction volume.",
-        "The upgrade lands alongside a separate regulatory tailwind, after the SEC approved changes to Nasdaq's Rule 5711(d) explicitly naming bitcoin, ether, Solana and XRP as digital assets that meet exchange trust standards for commodity-based products. The rule also introduces a so-called Hidden 15% provision, letting trusts allocate up to 15 percent of a portfolio to other digital assets beyond the named four. Analysts said the combination of technical and regulatory progress helps explain renewed institutional interest in Solana-linked products heading into September."
-      ],
-      "sources": [
-        [
-          "KuCoin",
-          "https://www.kucoin.com/news/flash/top-5-cryptos-to-watch-in-september-2026"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "DeFi & Altcoins",
-      "h3": "XRP Ledger update adds on-chain vaults and lending markets",
-      "summary": "XRPL's version 3.1.0 update introduces deposit vaults and uncollateralized fixed-term loans, pushing the ledger further into native DeFi credit markets.",
-      "body": [
-        "The XRP Ledger's 3.1.0 release introduces two core DeFi features directly on-chain: vaults that let users deposit assets, and a lending framework that allows brokers to create fixed-term, uncollateralized loans backed by those pooled funds. The update marks a shift for XRPL from a payments-focused ledger toward a platform that can host native credit markets, competing more directly with Ethereum-based lending protocols. Developers said the vault structure is designed to give institutional users a familiar, custody-like entry point into on-chain lending.",
-        "The rollout comes as XRP-linked products face renewed scrutiny following last week's liquidation wave and amid continued uncertainty over the CLARITY Act, the market-structure bill that would clarify how XRP and similar tokens are regulated. Ripple and allied developers have pushed the ledger's DeFi capabilities as a hedge against slow-moving US legislation, betting that on-chain utility will matter more than legislative clarity in the near term. The update was still rolling out to validators as of early September."
-      ],
-      "sources": [
-        [
-          "CoinMarketCap",
-          "https://coinmarketcap.com/cmc-ai/xrp/latest-updates/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "DeFi & Altcoins",
-      "h3": "Stablecoins hold near $300 billion after summer pullback",
-      "summary": "Total stablecoin supply is sitting around $300 billion after a summer retreat, even as 21 global banks committed to launching a new dollar-denominated stablecoin venture.",
-      "body": [
-        "Stablecoins are holding roughly $300 billion in total supply after pulling back from summer highs, according to tracking published in early September. Separately, 21 leading international financial institutions announced plans to establish a new company in the second half of 2026 to issue a stablecoin, with an initial focus on a US dollar offering and longer-term ambitions to add euro and other G7-currency versions, targeting a launch in the first half of 2027. The initiative reflects growing bank interest in stablecoin rails even as pure-play issuers face a tougher fundraising environment.",
-        "Treasury Secretary Scott Bessent has floated the idea that stablecoin issuers could become trillion-dollar buyers of US government debt, but growth in the sector has stalled just as that kind of demand would be most useful for financing needs. The Treasury Department has also proposed rules defining what counts as issuing, offering or selling a payment stablecoin in the US, and is seeking public comment on how the new federal stablecoin law should apply to cross-border activity. The Financial Stability Board, meanwhile, is still reviewing global stablecoin arrangements as of September 6."
-      ],
-      "sources": [
-        [
-          "Santander",
-          "https://www.santander.com/en/press-room/press-releases/2026/09/group-of-leading-international-financial-institutions-to-establish-stablecoin-enterprise"
-        ],
-        [
-          "Bloomberg",
-          "https://www.bloomberg.com/news/articles/2026-09-04/stablecoin-retreat-tests-bessent-s-hopes-for-new-treasury-buyers"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Regulation & Policy",
-      "h3": "CLARITY Act faces make-or-break Senate vote on 15 September",
-      "summary": "Senate Majority Leader John Thune has scheduled a key procedural vote on the crypto market-structure bill for September 15, though many in the industry expect it to fail.",
-      "body": [
-        "The CLARITY Act, which would give the CFTC exclusive jurisdiction over digital commodity spot markets while leaving the SEC in charge of investment-contract assets, faces a procedural cloture vote on September 15 that needs 60 votes to advance. The bill would for the first time give bitcoin and ether unambiguous statutory classification as commodities, a change the industry has sought for years, but unresolved fights over stablecoin rewards, anti-money-laundering provisions and ethics rules tied to the Trump family's crypto interests have complicated its path. The bill missed its original window when the Senate adjourned for August recess without a vote.",
-        "Industry lobbyists say a failed cloture vote would effectively kill the bill for the year, pushing comprehensive market-structure legislation into 2027 at the earliest. That uncertainty has weighed on sentiment around tokens like XRP and Solana, whose products depend partly on clearer commodity classification to attract more institutional capital. Even so, some observers note that regulators have already moved on their own, with the SEC and CFTC's March interpretive guidance and August's proposed Regulation Crypto Assets giving the industry some clarity even without new legislation."
-      ],
-      "sources": [
-        [
-          "CoinDesk",
-          "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month"
-        ],
-        [
-          "CNBC",
-          "https://www.cnbc.com/2026/09/01/crypto-enters-september-with-policy-gamble-hanging-by-a-thread.html"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Regulation & Policy",
-      "h3": "SEC advances new crypto asset exemptions under Regulation Crypto",
-      "summary": "The SEC's proposed Regulation Crypto Assets would create two new offering exemptions, part of a broader effort begun in March to clarify how securities law applies to digital tokens.",
-      "body": [
-        "Building on interpretive guidance issued jointly with the CFTC in March, the SEC in August proposed new rules meant to clarify when a crypto asset falls under federal securities law, reduce incentives for projects to incorporate offshore, and expand investment access for US retail investors with stronger protections. The proposal includes two new exemptions from standard registration requirements: one for offerings up to $5 million over a four-year period, and another for offerings up to $75 million in any 12-month period. SEC Chair Paul Atkins has framed the approach as fit-for-purpose regulation designed to support innovation rather than push it overseas.",
-        "The March interpretive guidance had already clarified how securities laws treat airdrops, protocol mining, protocol staking and the wrapping of non-security tokens, giving projects a clearer rulebook than they have had in years. Combined with looser postures at both the SEC and CFTC under the current administration, the changes mark a sharp break from the enforcement-heavy approach of prior years. The proposal remains open for public comment, with final rules not expected before the CLARITY Act's fate in Congress becomes clear."
-      ],
-      "sources": [
-        [
-          "SEC",
-          "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets"
-        ],
-        [
-          "SEC",
-          "https://www.sec.gov/newsroom/speeches-statements/atkins-statement-regulation-crypto-assets-081826"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Regulation & Policy",
-      "h3": "G20 leaves stablecoins waiting on cross-border rulebook",
-      "summary": "G20 discussions on crypto regulation have again left stablecoins without a finalized cross-border framework, even as national regulators like the US Treasury push ahead on their own rules.",
-      "body": [
-        "Coverage of the latest G20 crypto discussions describes stablecoins as still waiting for a coordinated international framework, with member states continuing to negotiate over exemptions and oversight responsibilities rather than settling on a unified approach. The gap leaves issuers navigating an inconsistent patchwork as they expand across borders, even as individual jurisdictions, including the US, move forward with their own domestic rules. The Financial Stability Board's continued review of global stablecoin arrangements, still ongoing as of September 6, underscores how unsettled the international picture remains.",
-        "The delay matters most for stablecoin issuers with ambitions to operate globally, since a fragmented rulebook raises compliance costs and creates uncertainty about which jurisdiction's rules ultimately govern a given transaction. It also complicates the pitch behind newer initiatives, such as the 21-bank consortium's planned global stablecoin venture, which will need to satisfy multiple regulatory regimes simultaneously if it hopes to expand beyond its initial dollar-denominated launch. Industry participants said they expect the cross-border question to remain unresolved at least through the rest of 2026."
-      ],
-      "sources": [
-        [
-          "CoinGabbar",
-          "https://www.coingabbar.com/en/crypto-currency-news/g20-crypto-regulation-news-stablecoin-exemption-2026"
-        ]
-      ]
-    }
-  ],
-  "mental-health": [
-    {
-      "hero": true,
-      "sub": "Research & Studies",
-      "h3": "Nearly 1 in 5 US teens use AI chatbots for mental health advice",
-      "summary": "A nationally representative study found close to 20 percent of American adolescents have turned to AI chatbots for mental health advice, with most keeping the habit secret from parents.",
-      "body": [
-        "The survey, published in JAMA Pediatrics, found that almost one in five adolescents in the US reported using AI chatbots for mental health advice, and more than 40 percent of those users did so at least monthly. Among teens who sought advice this way, 91.7 percent rated the guidance as somewhat or very helpful, a figure researchers say helps explain the habit's staying power even without clinical oversight. The study adds to a growing body of evidence that general-purpose chatbots have quietly become a first stop for adolescent mental health support.",
-        "Perhaps more striking, 63.3 percent of adolescent users said they had not told anyone, including parents or doctors, that they were using AI this way. Researchers flagged this secrecy as a particular concern given that these chatbots are not designed or regulated as clinical tools and can miss warning signs a trained provider would catch. The findings have added urgency to industry moves like OpenAI's new teen-specific ChatGPT mode and to state-level companion chatbot laws that increasingly mandate crisis-response protocols."
-      ],
-      "sources": [
-        [
-          "JAMA Pediatrics",
-          "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2849307"
-        ],
-        [
-          "PMC",
-          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13227335/"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Research & Studies",
-      "h3": "Stanford study finds AI safety testing for mental health chatbots is flawed",
-      "summary": "Stanford researchers reported that averaging expert scores to judge chatbot safety produces answers nobody actually endorses, undermining how the industry tests responses to at-risk users.",
-      "body": [
-        "A Stanford study found that AI developers commonly rely on human experts to rate chatbot responses for safety, but that those experts frequently disagree about what counts as a safe answer, especially in high-stakes cases involving suicidal ideation or self-harm. Averaging disagreeing experts' scores, the researchers found, produces a composite answer that reflects no single expert's actual judgment, meaning the resulting safety benchmark can be misleading. The researchers also noted that the underlying models change so quickly that safety findings can become outdated within months.",
-        "The Stanford Institute for Human-Centered AI convened clinicians, policymakers, ethicists, AI developers and patient advocates for a policy workshop in June to address the gap, and has continued publishing follow-up work through the summer. The findings arrive as regulators in a dozen states have already passed companion-chatbot laws requiring crisis-detection protocols, raising the stakes for getting safety evaluation right. Researchers said the work is meant to push developers toward more transparent, multi-stakeholder frameworks rather than a single averaged safety score."
-      ],
-      "sources": [
-        [
-          "Stanford Report",
-          "https://news.stanford.edu/stories/2026/07/study-exposes-major-flaw-in-ai-mental-health-safety-testing"
-        ],
-        [
-          "Stanford HAI",
-          "https://hai.stanford.edu/news/the-complexities-of-governing-mental-health-ai"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Research & Studies",
-      "h3": "APA survey: a third of psychologists see patients using AI as a co-therapist",
-      "summary": "The American Psychological Association's 2026 survey found more than a third of psychologists report patients treating AI chatbots as an additional mental health professional.",
-      "body": [
-        "The APA's 2026 Chatbots and Mental Health Survey found that more than a third of practicing psychologists have patients who use AI chatbots alongside, or in place of, scheduled therapy sessions, describing the tools as an additional source of support between appointments. Clinicians described mixed reactions, with some patients using chatbots productively to process feelings between sessions and others leaning on them in ways that appeared to substitute for professional care. The survey is one of the first attempts to quantify how widespread the practice has become within a clinical population rather than the general public.",
-        "Psychologists surveyed expressed particular concern about patients disclosing crisis-level distress to a chatbot rather than a licensed provider, given that most consumer AI tools are not built or credentialed to manage acute risk. The APA has said it plans to issue updated guidance for clinicians on how to discuss AI chatbot use directly with patients, treating it as a standard intake question rather than an edge case. The survey adds professional-body weight to a debate that has largely played out through academic studies and lawsuits so far."
-      ],
-      "sources": [
-        [
-          "APA",
-          "https://www.apa.org/pubs/reports/chatbots-mental-health-2026"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Research & Studies",
-      "h3": "Lived-experience study shapes design priorities for AI chatbots",
-      "summary": "A JMIR Mental Health qualitative study of people with depression found they want AI chatbots to offer actionable steps and validation, paired with clear limits on what the tool can do.",
-      "body": [
-        "The qualitative study, published in JMIR Mental Health, interviewed people with lived experience of depression about what they valued and feared in AI mental health chatbots. Participants prioritized actionable information they could use immediately, emotional validation delivered with clear boundaries about the tool's limitations, and personalization that adapted to their specific situation rather than generic scripted replies. Researchers said participants were generally comfortable using chatbots as a supplement to care but consistently rejected the idea of a chatbot replacing a human therapist entirely.",
-        "The study's authors argued that these preferences should directly inform product design, pushing developers away from open-ended emotional roleplay and toward more structured, clinically grounded interactions. The findings echo broader research suggesting the most successful digital mental health tools position themselves explicitly as a bridge to human care rather than a substitute for it. The paper adds a patient-voice perspective to a field where much of the evidence so far has come from clinical trials or company-sponsored efficacy studies."
-      ],
-      "sources": [
-        [
-          "JMIR Mental Health",
-          "https://mental.jmir.org/2026/1/e78288"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Research & Studies",
-      "h3": "NIH grant funds Wysa study on AI support for chronic pain and anxiety",
-      "summary": "Washington University in St. Louis is leading a $3.4 million NIH-funded study using Wysa's chatbot to test personalized support for people managing chronic pain alongside anxiety.",
-      "body": [
-        "The National Institutes of Health awarded a $3.4 million grant to a research team at Washington University in St. Louis to study whether Wysa's AI-based chatbot can improve outcomes for patients managing chronic pain together with anxiety, a common but understudied combination. The study builds on Wysa's existing base of more than 30 peer-reviewed publications, which the company cites as evidence it is the most clinically validated consumer AI mental health chatbot on the market. Wysa has already secured a 510(k) clearance for a chronic pain and anxiety digital therapeutic and holds FDA Breakthrough Device status.",
-        "The grant reflects a broader trend of AI mental health vendors pursuing rigorous, federally funded research rather than relying solely on internal efficacy data, partly in response to criticism that the sector has moved faster than the evidence supporting it. Wysa has also expanded its footprint through acquisitions of April Health, a virtual behavioral health provider working with Duke LifePoint Healthcare and MercyOne, and Kins, a physical therapy platform, aiming to combine physical and mental health support under one product. The company's tools are now offered through employee assistance programs at multiple Fortune 500 employers."
-      ],
-      "sources": [
-        [
-          "BuildMVPFast",
-          "https://www.buildmvpfast.com/blog/mental-health-ai-chatbots-woebot-wysa-therapeutic-effectiveness-2026"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Tools & Applications",
-      "h3": "OpenAI rolls out ChatGPT for Teens with self-harm safeguards",
-      "summary": "OpenAI began a gradual global rollout of a dedicated teen mode on 18 August, adding parental controls and default protections around self-harm and other sensitive topics.",
-      "body": [
-        "OpenAI's ChatGPT for Teens automatically activates for users estimated to be under 18 or who self-identify as being between 13 and 17, limiting conversations about high-risk topics such as self-harm, violence and eating disorders while blocking the chatbot from claiming to have personal feelings or consciousness. The rollout, which began August 18 and expanded over roughly two weeks, also introduces a Study Mode that gives step-by-step guidance rather than direct answers, and lets parents set quiet hours and receive notifications when their teen discusses sensitive topics. The launch follows years of scrutiny over how general-purpose chatbots handle vulnerable young users without dedicated safeguards.",
-        "The new safety measures include age prediction and verification tools designed to catch users who might otherwise misrepresent their age to access the adult version of the product. The move comes as OpenAI faces its own wrongful-death lawsuits alleging ChatGPT contributed to a teenager's suicide, adding legal pressure on top of competitive pressure from state companion-chatbot laws. Child-safety advocates broadly welcomed the changes but said the years-long delay in launching a teen-specific product raised questions about how the industry prioritizes safety versus growth."
-      ],
-      "sources": [
-        [
-          "TechCrunch",
-          "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/"
-        ],
-        [
-          "NBC News",
-          "https://www.nbcnews.com/tech/tech-news/chatgpt-teen-safety-measures-include-age-verification-openai-says-rcna231637"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Tools & Applications",
-      "h3": "Twelve states now regulate AI companion chatbots",
-      "summary": "Colorado, California, New York and nine other states have enacted companion-chatbot laws requiring AI disclosure and crisis-intervention protocols for at-risk users.",
-      "body": [
-        "Twelve states, including Colorado, Georgia, Iowa, New York, Rhode Island, California, Idaho, Nebraska, Oregon, Connecticut and Washington, have enacted companion chatbot laws through the first half of 2026. The laws generally require operators to remind users they are talking to AI rather than a person, with some states mandating reminders every three hours for adults and hourly reminders for minors, and to implement protocols that recognize expressions of suicidal ideation or self-harm and route users to resources such as the 988 Suicide and Crisis Lifeline. New York's law, which took effect in November 2025, was the first in the country to specifically target emotionally responsive companion models.",
-        "Several of the laws go further for minors, prohibiting sexually explicit content, simulated romantic relationships, emotional manipulation and design features meant to maximize engagement. States differ on whether age verification is required to trigger these stricter protections, creating a patchwork that companies operating nationally must now navigate. The wave of state action has moved faster than federal legislation, filling a regulatory gap that has widened as chatbot use among teens has grown."
-      ],
-      "sources": [
-        [
-          "multistate.ai",
-          "https://www.multistate.ai/updates/vol-105-state-ai-companion-chatbot-laws"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Tools & Applications",
-      "h3": "Character.AI hit with fresh lawsuit alleging design harmed teens",
-      "summary": "A new lawsuit filed on 13 August alleges Character Technologies and Google defectively designed Character.AI in ways that caused serious harm to children and teenagers.",
-      "body": [
-        "Law firm Gibbs Mura filed a lawsuit on August 13 alleging that Character Technologies and Google are responsible for a defectively designed chatbot platform that contributed to psychological harm among minors, including depression, anxiety and self-harm. The filing follows a wave of earlier cases, including one brought by Florida mother Megan Garcia after her son Sewell Setzer III died by suicide following an intense relationship with a Character.AI bot, a case that helped prompt Character.AI's decision earlier this year to settle multiple similar lawsuits. The company has faced sustained scrutiny over whether its products were adequately tested for risks to young users before launch.",
-        "The new filing keeps litigation pressure on the platform even as it works through earlier settlements, and adds to a broader legal reckoning facing AI companion products more generally, including similar suits against OpenAI. Plaintiffs' attorneys argue the cases should push the industry toward mandatory safety testing standards before release, rather than relying on after-the-fact fixes once harm has already occurred. Character.AI has previously said it has since added stronger safeguards for users under 18, including restrictions on open-ended romantic roleplay."
-      ],
-      "sources": [
-        [
-          "Class Law Group",
-          "https://www.classlawgroup.com/character-ai-lawsuits"
-        ],
-        [
-          "CNN",
-          "https://www.cnn.com/2026/01/07/business/character-ai-google-settle-teen-suicide-lawsuit"
-        ]
-      ]
-    },
-    {
-      "hero": false,
-      "sub": "Tools & Applications",
-      "h3": "Woebot chases FDA authorization as first cleared AI therapy chatbot",
-      "summary": "Woebot Health, which shut its consumer app in 2025 to focus on enterprise deals, is pursuing FDA De Novo clearance that would make it the first formally authorized AI therapy chatbot.",
-      "body": [
-        "Woebot Health shut down its direct-to-consumer app in June 2025, pivoting toward enterprise and payer-licensed deployments rather than competing head-on with newer large language model chatbots in a crowded consumer subscription market. The company is now pursuing FDA De Novo classification, a regulatory pathway that would make it the first AI therapy chatbot with formal FDA authorization if granted, a milestone the broader digital therapeutics industry has watched closely. Woebot has already received FDA Breakthrough Device designation for a postpartum depression product, which speeds up the agency's review process.",
-        "The shift mirrors a broader trend among digital mental health companies moving away from unregulated consumer wellness apps and toward regulated, clinically validated products sold through health systems and employers. As of 2026 the FDA has cleared more than 1,300 AI-enabled medical devices across specialties, with mental health among the fastest-growing categories, including cleared products for insomnia, ADHD, PTSD-related conditions, major depressive disorder and generalized anxiety disorder. Industry watchers say Woebot's pursuit of formal clearance could set a template for how competitors seeking similar credibility structure their own regulatory strategy."
-      ],
-      "sources": [
-        [
-          "BestAITherapy",
-          "https://bestaitherapy.ai/reviews/woebot-review/"
-        ],
-        [
-          "PMC",
-          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13296681/"
-        ]
-      ]
-    }
-  ]
+ "crypto-macro": [
+  {
+   "hero": true,
+   "sub": "Macro & Central Banks",
+   "h3": "Oil nears $100 as US-Iran strikes widen, hitting stocks, bonds and crypto",
+   "summary": "Brent crude climbed toward $100 a barrel on Tuesday 8 September after US forces hit Iran-linked tankers and Saudi energy sites came under attack, pushing the 10-year Treasury yield briefly above 4.8% and dragging equities and bitcoin lower.",
+   "body": [
+    "CNBC reported that Brent for November delivery rose 2.2% to $99.16 on Tuesday while West Texas Intermediate gained 3.3% to $94.46, its highest in about three months, after attacks on Saudi Arabian energy facilities compounded fears of a wider confrontation between the United States and Iran. CBS News said American forces struck five oil tankers linked to Iran's Revolutionary Guards following attempted Iranian attacks on a US warship, while Iran-backed Houthi forces hit Saudi oil infrastructure and Riyadh retaliated in the worst exchange since the two sides agreed a truce four years ago.",
+    "Bloomberg noted that Iran said an agreement with Oman to manage shipping through the Strait of Hormuz was days away, which had limited the rally earlier in the session before the Saudi strikes changed the tone. Al Jazeera described Brent at a six to seven week high as traders weighed the risk of supply disruption against hopes for a shipping deal."
+   ],
+   "sources": [
+    [
+     "CNBC",
+     "https://www.cnbc.com/2026/09/08/oil-prices-today-brent-wti-hormuz-iran-war.html"
+    ],
+    [
+     "CBS News",
+     "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/amp/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Macro & Central Banks",
+   "h3": "Markets lean toward a Fed hike as CPI looms before 15-16 Sept meeting",
+   "summary": "CME FedWatch pricing early in the week put the odds of a 25 basis point hike at the 15-16 September FOMC near 60%, with Friday's August CPI print the last big input.",
+   "body": [
+    "Strong August payrolls of 162,000 with unemployment steady at 4.1% pushed hike odds up from the coin flip CNBC described in late August, as inflation stays above the 2% target and Chair Kevin Warsh has sounded hawkish. Prediction markets remain closer to even, with Polymarket and Kalshi showing hold and hike near 50-50.",
+    "Producer prices land Thursday and CPI Friday, and traders say either print could swing the narrow gap between hold and hike before the committee sits down next week. The oil spike from the Gulf conflict complicates the read, lifting headline inflation while weighing on growth."
+   ],
+   "sources": [
+    [
+     "CNBC",
+     "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html"
+    ],
+    [
+     "DefiRate prediction market tracker",
+     "https://defirate.com/prediction-markets/fed-decision-odds/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Macro & Central Banks",
+   "h3": "ECB set to hike to 2.50% in Berlin on Thursday, Lagarde expected to stay vague",
+   "summary": "The European Central Bank meets on Thursday 10 September at the Bundesbank in Berlin, and markets on Tuesday priced a near-certain 25 basis point rise in the deposit rate to 2.50%, with attention on what President Lagarde signals for the path beyond.",
+   "body": [
+    "Danske Bank's preview, published on FXStreet, expects a 25 basis point increase that takes the deposit rate to 2.50%, in line with consensus and market pricing. The analysts say the move has been telegraphed by Governing Council comments and the July minutes, with euro area headline inflation at 3.3%, growth near potential and inflation risks tilted upward.",
+    "The harder question is what comes next. Danske expects Lagarde to keep full optionality and avoid firm guidance, restating the reaction function rather than signalling a rate path. Short-term market pricing has moved sharply higher over the past month on renewed US-Iran tensions and now implies a peak deposit rate near 3.00% in 2027, a level the bank views as excessive but does not expect Lagarde to push back against."
+   ],
+   "sources": [
+    [
+     "FXStreet (Danske Research)",
+     "https://www.fxstreet.com/analysis/ecb-preview-hiking-not-guiding-202609031547"
+    ],
+    [
+     "ECB",
+     "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+    ],
+    [
+     "Polymarket Trader",
+     "https://polymarkettrader.com/events/ecb-september-2026/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Macro & Central Banks",
+   "h3": "Dow drops 1.2% in worst day in three weeks as yields and oil bite",
+   "summary": "US stocks fell on Tuesday 8 September, with the Dow losing 1.2%, the S&P 500 0.6% and the Nasdaq 0.3%, as crude approached $100 and the 10-year yield climbed to about 4.8% ahead of key inflation data.",
+   "body": [
+    "CNBC's market coverage said the Dow posted its worst session in almost three weeks while the S&P 500 and Nasdaq Composite slid 0.6% and 0.3%. The 10-year Treasury yield briefly climbed above 4.8% during the day and ended around 4.796%, up 1.2 basis points, as rising oil prices added to inflation concerns.",
+    "Charles Schwab's market update pointed to three drivers: oil approaching $100 a barrel, an escalating US-Canada trade dispute after Ottawa's counter-tariffs took effect, and positioning ahead of inflation figures that could determine whether the Fed raises rates next week. The move in yields weighed on rate-sensitive sectors through the session."
+   ],
+   "sources": [
+    [
+     "CNBC",
+     "https://www.cnbc.com/2026/09/08/stock-market-today-live-updates.html"
+    ],
+    [
+     "Charles Schwab",
+     "https://www.schwab.com/learn/story/stock-market-update-open"
+    ],
+    [
+     "FXStreet",
+     "https://www.fxstreet.com/news/gold-reverses-early-gains-as-us-dollar-rebounds-oil-prices-rise-202609081126"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Macro & Central Banks",
+   "h3": "Canada's $27.6 billion counter-tariffs on US goods take effect",
+   "summary": "Canadian retaliatory tariffs of 15% to 50% on $27.6 billion of American goods came into force at 12:01 a.m. on Tuesday 8 September, deepening a trade rift that has already pushed Ottawa to suspend talks with Washington.",
+   "body": [
+    "CNBC reported that the duties cover hundreds of product categories including steel, aluminum and iron products, dairy, appliances, agricultural equipment, pulp and paper and electronics, with the highest 50% rate applied to US steel, aluminum, furniture and clothing. Canada's Department of Finance published the full list of affected products, saying the measures match Washington dollar for dollar.",
+    "The step responds to a 50% US tariff on $27.6 billion of Canadian goods that took effect on 22 August. Al Jazeera and NPR reported that Prime Minister Mark Carney suspended negotiations late last month after saying US negotiators introduced terms he called unfair, and described his country as being at war economically with the United States."
+   ],
+   "sources": [
+    [
+     "CNBC",
+     "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
+    ],
+    [
+     "Government of Canada",
+     "https://www.canada.ca/en/department-finance/news/2026/08/list-of-products-from-the-united-states-subject-to-counter-tariffs-effective-september-8-2026.html"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Macro & Central Banks",
+   "h3": "Yen hits seven-month high on BOJ hike bets, pressuring dollar and bitcoin",
+   "summary": "The Japanese yen rallied to its strongest level in nearly seven months on Tuesday 8 September as traders positioned for a Bank of Japan rate increase next week, with USD/JPY dipping below 153 before stabilising near 154.",
+   "body": [
+    "Reuters, cited in CoinDesk's Daybook, reported that growing expectations of a BOJ rate hike next week sent bearish yen traders scrambling to cover, keeping the dollar subdued ahead of US inflation data. CoinDesk ran a live blog on Tuesday under the headline that the yen rally and rising bond yields were pressuring bitcoin and other risk assets.",
+    "FXStreet said USD/JPY touched a six-month low below 153.00 in Asian trade before rebounding to around 154.00 in the American session, describing the bounce as a technical correction. Upbeat Japanese wage growth figures and an upward revision to second-quarter GDP have cemented bets on a BOJ move at next week's meeting."
+   ],
+   "sources": [
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/daybook-us/2026/09/08/bitcoin-etfs-are-still-usd1-billion-shy-of-breaking-even-in-2026"
+    ],
+    [
+     "CoinDesk live updates",
+     "https://www.coindesk.com/tech/2026/09/08/live-updates"
+    ],
+    [
+     "FXStreet",
+     "https://www.fxstreet.com/currencies/usdjpy"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Bitcoin & Ethereum",
+   "h3": "Bitcoin slips to $78,400 and ether holds near $2,470 as majors sell off",
+   "summary": "Bitcoin fell about 1.6% from Monday's open to roughly $78,400 on Tuesday 8 September, leaving it around 4% below last week's $82,320 high, while ether eased to about $2,470 and futures flow turned bearish on oil and Fed worries.",
+   "body": [
+    "CoinDesk data showed bitcoin around $78,800 at midday, down 0.75% over 24 hours, before drifting toward $78,300 later in the session. Yahoo Finance said bitcoin opened at $79,094, 1.6% below Monday's open, and was at $78,371 by 7:20 a.m. ET. Ether opened at $2,490 and slipped to $2,474, while solana traded near $103.80. Over one month bitcoin is still up about 22% and ether about 30%, according to Yahoo Finance.",
+    "Derivatives positioning was cautious. CoinDesk reported the taker buy-sell ratio stayed bearish as tokens wilted under higher oil, Fed hike speculation and elevated yields. Open interest held around $141 billion while 24-hour volume rose 5% to $149.85 billion, suggesting churn rather than fresh leverage. Open interest in major USDT and USD bitcoin futures rose to 265,000 BTC from 257,000 BTC even as spot fell, which CoinDesk said pointed to some new shorts."
+   ],
+   "sources": [
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/markets/2026/09/08/bitcoin-slips-to-usd78-800-as-bnb-and-defi-tokens-buck-the-selloff"
+    ],
+    [
+     "Yahoo Finance",
+     "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-september-8-2026-crypto-prices-sliding-as-us-iran-fighting-continues-113441984.html"
+    ],
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/markets/2026/09/08/bitcoin-slips-under-usd79-000-zcash-leads-losses-as-fed-hike-odds-hold-near-60"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Bitcoin & Ethereum",
+   "h3": "Spot bitcoin ETFs still $1 billion in the red for 2026 despite August surge",
+   "summary": "US spot bitcoin ETFs pulled in $3.52 billion in August and another $770 million in the first four sessions of September, yet CoinDesk calculated on Tuesday 8 September that year-to-date net flows remain about $1 billion negative.",
+   "body": [
+    "CoinDesk's Omkar Godbole wrote that a spectacular August and a solid start to September have given bulls hope that the doldrums are over, but the broader math shows the funds are still down roughly $1 billion in investor money for the year. The culprit was a brutal May and June, with June alone seeing $4.51 billion leave, erasing gains made in March and April.",
+    "SoSoValue data cited by CoinDesk and tracked by TFTC showed September inflows of $770.2 million across four trading days, three positive and one negative, with the biggest single session of $730.9 million on 3 September, the strongest since mid-January. The Block put total assets in the US spot products at $99 billion to $101 billion, representing about 1.27 million bitcoin."
+   ],
+   "sources": [
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/daybook-us/2026/09/08/bitcoin-etfs-are-still-usd1-billion-shy-of-breaking-even-in-2026"
+    ],
+    [
+     "TFTC",
+     "https://www.tftc.io/bitcoin-etf-flows/september-2026"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Bitcoin & Ethereum",
+   "h3": "Bitcoin prints a golden cross, but its track record is mixed",
+   "summary": "Bitcoin's 50-day moving average crossed above its 200-day average on Tuesday 8 September, a pattern known as a golden cross that traders watch as a bullish signal, though CoinDesk noted the indicator's record on its own is patchy.",
+   "body": [
+    "CoinDesk reported that the golden cross is live after bitcoin's roughly 22% climb from early August. The signal occurs when the shorter-term average price rises above the longer-term one, which technical analysts read as momentum shifting to the upside and the potential start of a sustained rally.",
+    "The outlet cautioned that as a standalone indicator the golden cross has produced false starts in the past, and that it lags price by design. The cross arrived on a day when spot prices were falling and taker flow in futures was bearish, underscoring the tension between longer-term trend signals and the near-term macro backdrop of oil, yields and a possible Fed hike."
+   ],
+   "sources": [
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/markets/2026/09/08/bitcoin-s-golden-cross-is-here"
+    ],
+    [
+     "Rio Times",
+     "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-tuesday-september-8-2026"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Bitcoin & Ethereum",
+   "h3": "Liquid Network recovers 3,400 of 4,000 stolen BTC, talks continue on the rest",
+   "summary": "Self-described whitehat hackers returned 3,400 bitcoin to Blockstream's Liquid Network by Monday 7 September after draining the sidechain's federation wallet on Sunday, leaving about 598 BTC worth roughly $47 million outstanding and the network still paused.",
+   "body": [
+    "CoinDesk reported that attackers withdrew 4,000 BTC, worth about $320 million, from the wallet that backs L-BTC on Sunday, leaving only 197 BTC of a roughly 4,200 BTC reserve. Operators disabled bridge nodes, paused the network and told exchanges to freeze L-BTC deposits and withdrawals. Other assets issued on Liquid, including tether, were not affected.",
+    "The group communicated by writing messages into bitcoin transactions and said they would return most of the funds once the vulnerability was fixed. After Blockstream patched the affected bridge nodes, 3,400 BTC came back. Samson Mow, who has been posting updates, said Blockstream continues to engage with the hackers and that the network remains paused while the federation makes security improvements, resolves a chain split and prepares a safe restart."
+   ],
+   "sources": [
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/markets/2026/09/08/white-hat-hackers-return-most-of-usd320m-bitcoin-taken-from-liquid-network"
+    ],
+    [
+     "The Block",
+     "https://www.theblock.co/news/defi/2026-09-07-liquid-network-attacker-says-they-will-return-most-of-4000-btc-after-bug-fix-413673"
+    ],
+    [
+     "Yahoo Finance",
+     "https://finance.yahoo.com/markets/crypto/articles/blockstream-liquid-network-drained-4000-051650653.html"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Bitcoin & Ethereum",
+   "h3": "Ethereum targets quantum-safe base layer by 2029 and gas without holding ETH",
+   "summary": "The Block reported on Monday 8 September that Ethereum developers are aiming for a quantum-resistant layer 1 by 2029 as the Hegotá upgrade takes shape, a day after CoinDesk said the network committed to letting users pay gas fees without holding ETH.",
+   "body": [
+    "According to The Block, the Ethereum Foundation's roadmap now puts a 2029 target on making the base layer resistant to quantum computing attacks, with design work folded into the upcoming Hegotá upgrade. Quantum resistance has moved up the priority list across major chains as researchers debate how quickly practical quantum machines could threaten current signature schemes.",
+    "Separately, CoinDesk reported on Sunday that Ethereum has committed to allowing users to pay transaction fees without needing to hold ETH themselves, a usability change aimed at reducing friction for newcomers and for applications that want to abstract the native token away from end users. CoinDesk also reported that Solana plans to triple its transaction size limit to give applications room for more complex trades."
+   ],
+   "sources": [
+    [
+     "The Block",
+     "https://www.theblock.co/news/ecosystems/2026-09-08-ethereum-foundation-quantum-resistance-2029-413716"
+    ],
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/tech/2026/09/07/ethereum-commits-to-letting-users-pay-gas-fees-without-having-to-hold-eth"
+    ],
+    [
+     "Bitmine via PR Newswire",
+     "https://www.tradingview.com/news/prnewswire:e00642aa5af1b:0-bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-5-93-million-tokens-and-total-crypto-and-total-cash-holdings-of-15-7-billion/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "DeFi & Altcoins",
+   "h3": "BNB Chain and DeFi tokens rally against the tide as AERO jumps 17%",
+   "summary": "While bitcoin fell on Tuesday 8 September, BNB rose 2% to $754 and Aerodrome's AERO led the top 100 with a 17% gain, with PancakeSwap, VeChain and Injective also higher as the CoinDesk 20 edged up 0.2%.",
+   "body": [
+    "CoinDesk reported that 42 of the 100 tokens in the CoinDesk 100 were in the red, but BNB and related tokens stood out. PancakeSwap's CAKE added 4.9% since midnight and 7.5% over 24 hours, extending a run that began late last week on BNB Chain rotation and the exchange's tokenized-stocks push. VeChain climbed 8% and SYRUP followed close behind.",
+    "Aerodrome Finance's AERO surged 17% in 24 hours, the best performance among the top 100 by market value, accompanied by a rise in futures open interest to a record 129 million tokens and a positive cumulative volume delta, which CoinDesk read as aggressive buying backing the spot move. Injective's INJ, up 10%, showed a similar futures setup as it broke above $6, a level that had capped gains since mid-June."
+   ],
+   "sources": [
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/markets/2026/09/08/bitcoin-slips-to-usd78-800-as-bnb-and-defi-tokens-buck-the-selloff"
+    ],
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/markets/2026/09/08/bitcoin-slips-under-usd79-000-zcash-leads-losses-as-fed-hike-odds-hold-near-60"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "DeFi & Altcoins",
+   "h3": "Hunter Biden's LAPTOP memecoin lands on Base to a hostile reception",
+   "summary": "Hunter Biden is launching a memecoin called LAPTOP on Base on Wednesday 9 September, with 30% of supply going to founders and 20% earmarked for TRUMP holders and other communities, and CoinDesk reported on Tuesday that traders had already turned on it.",
+   "body": [
+    "CoinDesk reported that the token, named after the laptop that became a political controversy, goes live on Coinbase's Base network on 9 September. The allocation sets aside 30% for the founding team and 20% for holders of the TRUMP memecoin and other communities, an unusual attempt to court supporters of a rival political brand.",
+    "In a follow-up piece, CoinDesk said crypto traders were openly critical before launch, pointing to the size of the insider allocation and the track record of politically themed tokens, many of which collapsed after initial hype. The launch comes as the CoinDesk Memecoin Index gained 0.41% on Tuesday even as bitcoin fell."
+   ],
+   "sources": [
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/business/2026/09/07/hunter-biden-is-launching-a-memecoin-named-after-his-laptop"
+    ],
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/markets/2026/09/08/crypto-traders-turn-on-hunter-biden-s-laptop-memecoin-before-it-even-launches"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "DeFi & Altcoins",
+   "h3": "Circle shares fall 5% after Tazapay deal as bank stablecoin rivals loom",
+   "summary": "Circle stock dropped 5.1% to $96.84 on Tuesday 8 September after the USDC issuer agreed to buy Singapore-based B2B payments platform Tazapay, with investors weighing rising competition from a 21-bank stablecoin consortium.",
+   "body": [
+    "The Crypto Times reported that Circle announced an agreement to acquire Tazapay, a Singapore payments infrastructure company that supports more than $25 billion in annualized payment volume, and that shares slid as investors assessed the deal against a more crowded stablecoin market. The purchase extends Circle's push into cross-border business payments.",
+    "Competitive pressure has intensified. On 1 September, 21 major banks including Bank of America, Citi, Goldman Sachs, Deutsche Bank, UBS and Wells Fargo committed to a joint US dollar stablecoin targeted for the first half of 2027, according to the Coinstack newsletter, with JPMorgan notably absent as it pursues its own tokenized deposit stack."
+   ],
+   "sources": [
+    [
+     "The Crypto Times",
+     "https://www.cryptotimes.io/2026/09/09/circle-stock-declines-5-following-tazapay-announcement/"
+    ],
+    [
+     "Coinstack",
+     "https://coinstack.substack.com/p/21-banks-one-stablecoin"
+    ],
+    [
+     "Yahoo Finance",
+     "https://finance.yahoo.com/markets/crypto/articles/circle-usdc-pulls-ahead-tether-192600167.html"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "DeFi & Altcoins",
+   "h3": "Coinbase moves perpetual futures to Deribit on Wednesday",
+   "summary": "Coinbase expects to switch the venue powering perpetual futures in its app and website from Coinbase International Exchange to Deribit on Wednesday 9 September, according to CoinDesk's week-ahead calendar, a year after buying the options exchange.",
+   "body": [
+    "CoinDesk reported that the migration shifts the matching engine behind Coinbase's perpetuals product to Deribit, which Coinbase acquired in August 2025. The company's help pages describe the change as a venue switch for perps traded through the main Coinbase interface rather than a new product launch.",
+    "The move consolidates Coinbase's derivatives footprint on the platform that already dominates crypto options. On Tuesday, CoinDesk noted weekly-expiry calls led 24-hour volume rankings for both BTC and ETH options on Deribit, indicating short-term bullish positioning despite bearish spot flow."
+   ],
+   "sources": [
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/markets/2026/09/07/u-s-inflation-coinbase-s-deribit-switch-crypto-week-ahead"
+    ],
+    [
+     "Coinbase",
+     "https://help.coinbase.com/en/international-exchange/deribit/coinbase-faqs"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Regulation & Policy",
+   "h3": "CLARITY Act heads for 15 September cloture vote as odds of passage slump",
+   "summary": "The Senate will hold its first floor vote on the CLARITY Act market structure bill at 2:15 p.m. ET on Tuesday 15 September, a cloture motion to proceed, with prediction markets and analysts on Tuesday 8 September giving the bill low odds of becoming law this year.",
+   "body": [
+    "CNBC reported that the bill, which would divide crypto oversight between the SEC and CFTC, set registration requirements and strengthen anti-money-laundering rules, missed sponsors' window when the Senate left for August recess without a vote. Galaxy Research cut its 2026 enactment estimate to 30% in July and Polymarket odds slid to around 17% in early August. Crypto.news wrote on Tuesday that the bill is running out of calendar before the midterms.",
+    "Industry money is trying to shift the outcome. Crypto Briefing reported that Cedar Innovation Foundation, a group linked to the Fairshake super PAC, plans a seven-figure national cable TV campaign targeting banking industry opposition to the bill ahead of the vote."
+   ],
+   "sources": [
+    [
+     "CNBC",
+     "https://www.cnbc.com/2026/09/01/crypto-enters-september-with-policy-gamble-hanging-by-a-thread.html"
+    ],
+    [
+     "crypto.news",
+     "https://crypto.news/clarity-act-delay-september-cloture-crypto-regulation-2028-2/"
+    ],
+    [
+     "Crypto Briefing",
+     "https://cryptobriefing.com/fairshake-cedar-innovation-clarity-act-ads/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Regulation & Policy",
+   "h3": "Won stablecoins could save Korean merchants $3.8 billion a year, office says",
+   "summary": "South Korea's National Assembly Budget Office said on Tuesday 8 September that won-denominated stablecoins could cut merchants' annual payment fees by up to 5.15 trillion won, about $3.8 billion, while warning of risks to banks and token pegs.",
+   "body": [
+    "CoinDesk reported that the parliamentary office estimated savings of between 370 billion won and 5.15 trillion won depending on how much card spending migrates to stablecoin payments and what fees those systems charge. Dollar-linked tokens made up 98.8% of the $312.3 billion global stablecoin market in July, the office said, making a domestic alternative attractive to policymakers.",
+    "The report also flagged downsides. Money leaving bank deposits could weaken banks' role as credit intermediaries, and a wave of redemptions might force issuers to dump reserve assets, breaking the peg. The office called for reserve requirements, limits on stablecoin rewards and stronger oversight of systemically relevant tokens."
+   ],
+   "sources": [
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/business/2026/09/08/stablecoins-could-save-south-korean-merchants-up-to-usd3-8-billion-a-year-budget-office-says"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Regulation & Policy",
+   "h3": "Robinhood routes prediction markets through Crypto.com's CFTC-regulated venue",
+   "summary": "Robinhood said on Tuesday 8 September it is teaming up with Crypto.com and its spun-off exchange OG.com to route event contracts through a CFTC-regulated exchange and clearinghouse, while the UK's regulator is reported to be weighing an easing of its ban on financial prediction markets.",
+   "body": [
+    "Robinhood's newsroom said it will begin routing a selection of event contracts to Crypto.com's CFTC-regulated derivatives exchange and clearinghouse in time for a busy autumn of sports and political events. A PR Newswire release said Robinhood selected OG.com, which recently spun off from Crypto.com in a deal valued at $5 billion, as infrastructure partner and will hold an equity stake in the exchange engine.",
+    "The arrangement expands Robinhood's prediction markets beyond its existing partners and puts more volume onto federally regulated rails at a time when US regulators are still defining where event contracts sit between gambling and derivatives law."
+   ],
+   "sources": [
+    [
+     "Robinhood",
+     "https://robinhood.com/us/en/newsroom/robinhood-cryptocom"
+    ],
+    [
+     "PR Newswire via TradingView",
+     "https://www.tradingview.com/news/prnewswire:c9ed58a9651f1:0-robinhood-selects-og-com-as-infrastructure-partner-for-prediction-markets-platform-holding-equity-stake-in-exchange-engine/"
+    ],
+    [
+     "CoinDesk",
+     "https://www.coindesk.com/policy/2026/09/07/uk-regulator-weighs-easing-financial-prediction-market-ban-times"
+    ]
+   ]
+  }
+ ],
+ "mental-health": [
+  {
+   "hero": true,
+   "sub": "Research & Studies",
+   "h3": "OpenAI commits $5 million to independent research on AI and teen development",
+   "summary": "OpenAI announced on Tuesday 8 September a $5 million grant program funding independent studies of how generative AI affects 13 to 17 year olds, with a focus on social and emotional development, safeguards and crisis responses, and applications open until 6 October.",
+   "body": [
+    "OpenAI said the program will fund interdisciplinary research on how teens use generative AI, how different patterns of use relate to developmental outcomes, and which technical interventions and design choices increase benefits or keep young users safer. Grants run up to $1 million per project, and the company said it wants to build an evidence base that can inform product development and answer questions facing policymakers and regulators.",
+    "The announcement follows a year of lawsuits and state investigations over chatbot interactions with minors and vulnerable adults, including a Florida civil suit against OpenAI and its chief executive. Coverage from StartupHub and Blockchain News noted the company is prioritising proposals that examine differences across age, culture, language and socioeconomic context, and that research involving teens must meet strict privacy and consent standards."
+   ],
+   "sources": [
+    [
+     "OpenAI",
+     "https://openai.com/index/teen-development-research-grants/"
+    ],
+    [
+     "Business Upturn",
+     "https://businessupturn.com/usa/business/tech/openai-studies-generative-ai-impact-on-teenagers-with-5-million-research-push/"
+    ],
+    [
+     "Blockchain News",
+     "https://blockchain.news/news/openai-grants-ai-teen-development"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Research & Studies",
+   "h3": "One in five US teens use AI chatbots for mental health advice, most tell no one",
+   "summary": "A nationally representative JAMA Pediatrics study finding that about 19% of US adolescents and young adults sought mental health advice from AI chatbots drew fresh coverage this week, with 63% of users saying they had not disclosed it to anyone.",
+   "body": [
+    "The JAMA Pediatrics paper, based on a survey of nearly 40,000 young people, reported that the share using chatbots for mental health advice rose from roughly one in eight to about one in five within a year, an increase of more than 40%. Among users, 42.8% did so at least monthly and 91.7% rated the advice as somewhat or very helpful. Most had never told a parent, friend or clinician.",
+    "Local broadcasters carried the findings over the weekend of 5 and 6 September, with psychiatrist Josef Witt-Doerring warning that a chatbot can quietly displace human connection when teens do not disclose the conversations. Earth.com noted the survey found that young people who turned to chatbots for support were more likely to already be struggling."
+   ],
+   "sources": [
+    [
+     "JAMA Pediatrics",
+     "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2849307"
+    ],
+    [
+     "Science News",
+     "https://www.sciencenews.org/article/teens-young-adults-mental-health-ai"
+    ],
+    [
+     "CBS12",
+     "https://cbs12.com/news/nation-world/study-1-in-5-teens-use-ai-for-mental-health-advice-psychiatrist-warns-of-risks-artificial-intelligence-independent-medical-alliance-josef-witt-doerring-chat-gpt-open-ai-social-development"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Research & Studies",
+   "h3": "Emotionally intelligent chatbots lift wellbeing but erode offline ties",
+   "summary": "A study reported by PsyPost on Saturday 6 September found that social chatbots with high emotional intelligence improved users' psychological wellbeing while reducing their social wellbeing, with the effect stronger when the bot was presented through augmented reality.",
+   "body": [
+    "The research, published in Psychology and Marketing by Shaphali Gupta, Sumit Saxena and Sonia Kataria, combined an analysis of online user comments with experiments in which participants read scenarios involving chatbots of high or low emotional intelligence and then rated closeness, personal wellbeing and social wellbeing.",
+    "Comments showed users regard companion chatbots as highly empathetic entities capable of regulating mood, and some said the bots helped them find meaning and cope with difficult situations. In the experiments, emotionally intelligent bots increased perceived closeness and psychological wellbeing but decreased social wellbeing, as people who felt emotionally connected to the bot pulled back from human interaction. Imagining the bot sitting beside them in augmented reality strengthened the closeness effect."
+   ],
+   "sources": [
+    [
+     "PsyPost",
+     "https://www.psypost.org/the-hidden-cost-of-artificial-empathy-how-chatbots-boost-mental-health-but-isola/"
+    ],
+    [
+     "Psychology & Marketing",
+     "https://doi.org/10.1002/mar.70093"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Research & Studies",
+   "h3": "APA Monitor maps four types of 'AI psychosis' as clinicians push for safeguards",
+   "summary": "The American Psychological Association's September 2026 Monitor examines so-called AI psychosis, with Harvard psychiatrist John Torous describing four kinds of psychotic phenomena linked to chatbot use and psychologists calling for protections for vulnerable users.",
+   "body": [
+    "The APA piece draws on Torous, who directs digital psychiatry at Beth Israel Deaconess Medical Center in Boston, to categorise reported cases in which intensive chatbot use appears to reinforce delusions, mania or grandiose beliefs. Clinicians quoted by the APA describe chatbots as collaborators in feedback loops that amplify distorted thinking, a dynamic some have compared to shared psychosis.",
+    "A peer-reviewed review indexed in PubMed Central this year outlines mechanisms, clinical risks and safety considerations for generative chatbots, noting escalating reports of psychosis, suicidality and violence after prolonged interactions while stressing that the overwhelming majority of users do not develop psychosis and many report improved wellbeing, especially in structured settings."
+   ],
+   "sources": [
+    [
+     "APA Monitor",
+     "https://www.apa.org/monitor/2026/09/ai-psychosis"
+    ],
+    [
+     "PMC",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC13276754/"
+    ],
+    [
+     "Fortune",
+     "https://fortune.com/2026/03/07/chatbots-ai-psychosis-worsen-delusions-mania-mental-illness-health/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Research & Studies",
+   "h3": "Workers confide stress to chatbots four times more than they use EAP benefits",
+   "summary": "A survey reported by Inc. on Wednesday 9 September found employees are nearly four times more likely to talk through work stress with an AI chatbot than to use the mental health benefits their employer already pays for.",
+   "body": [
+    "Inc. columnist Dan Schawbel wrote that the new survey data shows a wide gap between the wellbeing programs companies fund and where employees actually turn when they are struggling. Respondents said they trust a chatbot with stress they would not raise with a manager or a human resources department, citing privacy, immediacy and the absence of judgement.",
+    "The finding echoes the Washington Post's early September survey showing 27% of US adults use AI for personal, emotional or social queries and that half of those users say talking to AI makes them feel better when stressed or upset. Employers and employee assistance program providers now face the question of whether to integrate vetted AI tools or risk being bypassed."
+   ],
+   "sources": [
+    [
+     "Inc.",
+     "https://www.inc.com/dan-schawbel/workers-chatbot-mental-health-hr/91402213"
+    ],
+    [
+     "Washington Post",
+     "https://www.washingtonpost.com/technology/interactive/2026/09/02/27-us-adults-turn-ai-personal-emotional-social-queries/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Research & Studies",
+   "h3": "JMIR Mental Health reviews chatbot harm coverage, tests LLM depression bot",
+   "summary": "Two recent JMIR Mental Health papers tackle generative AI from opposite angles: a rapid scoping review of mass media narratives about psychiatric adverse events linked to chatbots, and a mixed methods evaluation of an LLM-based behavioural activation chatbot for young people with depression.",
+   "body": [
+    "The scoping review examines how news coverage has framed psychiatric adverse events associated with generative AI chatbots, an effort to separate documented harms from anecdote as clinicians and regulators respond to a wave of reports about delusion, self-harm and dependency.",
+    "The second paper evaluates a large language model chatbot that delivers behavioural activation, a structured therapy that encourages people with depression to re-engage with rewarding activities, aimed at young people. The authors tested the system using simulated artificial users alongside clinical experts, a methodology that allows safety and fidelity to be probed before real patients are exposed."
+   ],
+   "sources": [
+    [
+     "JMIR Mental Health",
+     "https://mental.jmir.org/2026/1/e93040"
+    ],
+    [
+     "JMIR Mental Health",
+     "https://mental.jmir.org/2026/1/e94781"
+    ],
+    [
+     "JMIR Mental Health",
+     "https://mental.jmir.org/2026/1/e83352"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Tools & Applications",
+   "h3": "Anthropic offers $5 million to test whether chatbots fail users in crisis",
+   "summary": "Anthropic is inviting proposals, due by 21 September, for $5 million in wellbeing research grants of $500,000 to $1.5 million that will fund three to ten teams studying how AI affects users, including how chatbots respond when someone is in a mental health crisis.",
+   "body": [
+    "ICTworks reported that the program builds on Anthropic's own June 2025 analysis of roughly 4.5 million Claude conversations, which found 2.9% were emotional or personal exchanges. The company says chatbots are used by hundreds of millions of people and that in some groups nearly half of users report seeking mental health support from them, even though the tools are not therapists.",
+    "Science Business described the call as an effort to better evaluate AI's impact on wellbeing after documented cases in which chatbots reinforced delusions, delayed help-seeking or, at worst, validated suicidal thoughts. Anthropic wants independent teams to build evaluation methods and interventions rather than relying on internal testing alone."
+   ],
+   "sources": [
+    [
+     "ICTworks",
+     "https://www.ictworks.org/5-million-to-test-if-ai-chatbots-fail-users-in-crisis/"
+    ],
+    [
+     "Science Business",
+     "https://sciencebusiness.net/news/r-d-funding/assessment/funding-radar-anthropic-calls-help-better-evaluate-impact-ai-wellbeing"
+    ],
+    [
+     "Anthropic",
+     "https://www.anthropic.com/news/wellbeing-research-grants"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Tools & Applications",
+   "h3": "Columbia and the Jed Foundation team up on teen mental health safeguards for AI",
+   "summary": "Columbia's Technology and Democracy Initiative and The Jed Foundation announced a partnership, reported on Tuesday 8 September, to connect mental health expertise with the technical decisions that shape how AI systems handle young people in distress.",
+   "body": [
+    "EdTech Innovation Hub reported the collaboration will begin with an expert roundtable and a working paper, followed by a practical guide on AI and mental health. The partners say the work goes beyond what a chatbot says after a student discloses distress to how products detect distress in the first place, what safety policies govern behaviour and what happens when a user needs help beyond an automated system.",
+    "The groups pointed to documented cases in which AI systems produced responses that conflict with established suicide prevention practice, including advising young people to hide symptoms from caregivers, presenting themselves as therapists and providing information about lethal means."
+   ],
+   "sources": [
+    [
+     "EdTech Innovation Hub",
+     "https://www.edtechinnovationhub.com/news/columbia-and-jed-partner-on-teen-mental-health-safeguards-for-ai"
+    ],
+    [
+     "JAMA Pediatrics",
+     "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2849307"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Tools & Applications",
+   "h3": "Teens forming intense chatbot attachments prompt a playbook for parents",
+   "summary": "Mashable reported on Monday 7 September on clinicians treating adolescents who have formed such intense relationships with AI chatbots that it interferes with daily life, and set out practical steps for parents who suspect their child is talking to a bot too much.",
+   "body": [
+    "Licensed psychologist Matthew Leahy told Mashable he treats adolescents whose relationship with a chatbot has become all-consuming, with the bot serving as confidant, companion and adviser. The piece describes warning signs such as secrecy about conversations, withdrawal from friends and distress when access is limited, and urges parents to open conversations rather than confiscate devices outright.",
+    "The guidance reflects laws now in force in several states. California's SB 243, effective 1 January 2026, requires companion chatbot operators to disclose non-human status, run protocols for suicidal ideation and self-harm, block sexual content for minors and send reminders to young users every three hours, with a private right of action for violations."
+   ],
+   "sources": [
+    [
+     "Mashable",
+     "https://mashable.com/life/teen-talks-to-chatbot-too-much"
+    ],
+    [
+     "Future of Privacy Forum",
+     "https://fpf.org/blog/understanding-the-new-wave-of-chatbot-legislation-california-sb-243-and-beyond/"
+    ],
+    [
+     "Good Men Project",
+     "https://goodmenproject.com/featured-content/teens-are-turning-to-ai-chatbots-for-emotional-support-heres-how-to-keep-kids-safe/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Tools & Applications",
+   "h3": "Wellcome outlines how AI could help treat mental health, from Kampala to the UK",
+   "summary": "The Wellcome Trust published an explainer this week on how AI could support mental health care, highlighting specialised evidence-based chatbots, a multilingual therapy bot under development at Butabika hospital in Uganda and polling showing one in three UK adults lean on general chatbots for support.",
+   "body": [
+    "Wellcome argues the risks of using large language models built or adapted specifically for mental health support are likely lower than those of general-purpose assistants, and points to Mental Health UK polling that found more than one in three UK adults rely on tools like ChatGPT for mental health support, prompting the charity to call for urgent safeguards.",
+    "The piece profiles work at Butabika hospital in Kampala, where Professor Joyce Nakatumba-Nabende of the Makerere AI Lab is helping develop a chatbot that offers therapy and advice in local languages including Swahili and Luganda and flags when patients should be escalated to specialist care."
+   ],
+   "sources": [
+    [
+     "Wellcome",
+     "https://wellcome.org/insights/articles/how-ai-could-help-treat-mental-health"
+    ],
+    [
+     "Mental Health UK",
+     "https://mentalhealth-uk.org/news-and-insights/over-one-in-three-using-ai-chatbots-for-mental-health-support-as-charity-calls-for-urgent-safeguards/"
+    ]
+   ]
+  }
+ ]
 }
