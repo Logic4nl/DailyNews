@@ -1,39 +1,653 @@
 {
-"mood": {"h3": "Sfeer vandaag", "p": "Zondag wordt volgens Weeronline een zonnige en droge dag: een zwakke tot matige zuidoostenwind trekt warmere lucht aan en het wordt overal boven de 20 graden, in het zuiden 23 tot 24 graden en plaatselijk zelfs 25. Na het weekend gaat het nog verder omhoog, met dinsdag in het zuidoosten mogelijk rond de 29 graden, uitzonderlijk warm voor eind september. Die nazomer staat in contrast met de droogte: op de IJssel geldt eenrichtingsverkeer voor schepen omdat het water te laag staat. In Den Haag draait alles om de begroting, nu Pro en Volt samen optrekken om het minderheidskabinet-Jetten extra toezeggingen af te dwingen. Aan de pomp voelt iedereen de oorlog in het Midden-Oosten, met benzine op een recordprijs van 2,727 euro per liter. Amsterdam is nog aangeslagen door de dodelijke schietpartij op een vol terras bij de NDSM-werf."},
-"global": [
-{"hero": true, "sub": "Conflicts & Security", "h3": "Trump rejects Iran's seven-day plan to reopen Hormuz", "summary": "On Saturday 26 September Trump dismissed an Iranian roadmap to reopen the Strait of Hormuz within a week, while Tehran said it will not drop its conditions.", "body": ["Iranian Foreign Minister Abbas Araghchi unveiled the proposal at the UN General Assembly on Friday. It asks Washington to lift its naval blockade of Iranian ports, release frozen Iranian funds and restore the waiver on oil sanctions, after which the strait would reopen and talks on a final deal would start by day seven.", "Speaking at the White House, Trump said Iran only wanted a deal because it was losing badly and called the offer unacceptable. The Wall Street Journal reported that he has told aides he expects to resume bombing Iran after the November midterms, and he posted a map renaming the waterway the 'Trump Strait'.", "Araghchi said Iran was still waiting for a formal answer through mediators and that any reopening depends on its conditions being met. Tehran also wants a ceasefire on all fronts, which would require Israel to halt strikes on Hezbollah in Lebanon."], "sources": [["Al Jazeera", "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz"], ["The Guardian", "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz"], ["Al Jazeera", "https://www.aljazeera.com/news/2026/9/26/trump-reportedly-rejects-irans-seven-day-ceasefire-proposal-whats-next"]]},
-{"hero": false, "sub": "Conflicts & Security", "h3": "Russia and Ukraine trade strikes, at least 10 dead", "summary": "Overnight attacks into Saturday 26 September killed four people in Ukraine and six in Russia and occupied areas, officials on both sides said.", "body": ["In Zaporizhzhia two women died under the rubble of their home after a Russian barrage of drones and missiles, and a separate strike killed two people in Sumy. President Zelenskyy said Russia was escalating daily and urged partners to respond more forcefully.", "Ukrainian drones killed three people in Russia's Krasnodar region and set fire to two industrial sites, reportedly including an oil refinery. The Moscow-installed head of occupied Zaporizhzhia said three more people died there. The violence comes as the US pushes for talks and Moscow accuses Europe of blocking them."], "sources": [["Al Jazeera", "https://www.aljazeera.com/news/2026/9/26/at-least-10-people-killed-in-russian-and-ukrainian-attacks"]]},
-{"hero": false, "sub": "Conflicts & Security", "h3": "Danish intelligence: Russia could strike NATO within months", "summary": "Denmark's military intelligence service warned on 24 September of a 'low but growing risk' of a limited Russian attack on a NATO member.", "body": ["The Danish Defence Intelligence Service said Moscow appears more willing to take risks after four and a half years of war. A limited strike with long-range weapons on infrastructure that supports Ukraine could come in the coming months, aimed at diverting European resources and splitting the alliance.", "The agency saw no signs of a full invasion but said Russia might send small numbers of troops without insignia into bordering NATO states. The same day Poland called a fire at a Starlink ground station an act of sabotage."], "sources": [["CNBC", "https://www.cnbc.com/2026/09/25/russia-ukraine-war-nato-denmark-putin.html"]]},
-{"hero": false, "sub": "Conflicts & Security", "h3": "Drone incursions push Europe's east toward open confrontation", "summary": "Moldova recorded four Russian drones in its airspace this week, two of which exploded on its territory, as neighbours call the attacks deliberate.", "body": ["DW reports that drone overflights have become almost daily in parts of central and southeastern Europe since the summer, forcing airspace closures and airport suspensions. Poland, Romania and Moldova are now regularly hit by spillover from Russian strikes on Ukraine.", "Officials in the Baltic states, Poland, Romania and Moldova increasingly describe the incidents as intentional aggression rather than hybrid warfare. Analysts expect Moscow to intensify sabotage and airspace violations in the months ahead."], "sources": [["DW", "https://www.dw.com/en/russia-expected-to-intensify-hybrid-war-on-europe/a-79444596"]]},
-{"hero": false, "sub": "Conflicts & Security", "h3": "Saudi Arabia intercepts six Houthi missiles aimed at oil route", "summary": "The Saudi-led coalition said Houthi missiles targeted Taif and the Red Sea port area of Yanbu, pushing oil to a one-week high.", "body": ["Yanbu is the kingdom's main alternative export route while the Strait of Hormuz is disrupted, and its east-west pipeline is only now restarting after drone strikes earlier this month. The Houthis said they were aiming at Riyadh and Saudi Aramco facilities.", "Oil rose about 3% before easing on reports of US-Iran contacts over Hormuz. The Houthis declared a naval blockade of Saudi Arabia in July and recently seized Yemen's entire western coast, reaching the Bab el-Mandeb strait."], "sources": [["The Guardian", "https://www.theguardian.com/world/2026/sep/25/saudi-arabia-intercepts-houthi-missiles-oil-prices-climbs"]]},
-{"hero": false, "sub": "Conflicts & Security", "h3": "Pakistan and Afghanistan clash again on the border", "summary": "Pakistani sources said several Afghan Taliban fighters were killed in cross-border fire in the Gulistan area on Friday 25 September.", "body": ["The clashes followed Pakistani air strikes on 10 locations in Afghanistan's Kandahar, Paktia and Khost provinces on Thursday. Islamabad said it was responding to a drone incursion, which the Taliban government denies, and Kabul promised an appropriate response.", "The escalation threatens mediation by China, Turkiye, Qatar and Saudi Arabia after the neighbours' worst fighting in years in February. Pakistan accuses Kabul of sheltering militants, a charge the Taliban reject."], "sources": [["Al Jazeera", "https://www.aljazeera.com/news/2026/9/25/pakistani-forces-kill-afghan-taliban-fighters-in-border-escalation"]]},
-{"hero": false, "sub": "Conflicts & Security", "h3": "Fighting in Tigray raises fears of a new Ethiopian war", "summary": "Clashes between Tigrayan forces and the federal army have spread into Afar and Amhara, with internet and phone services disrupted.", "body": ["Residents report panic buying and cannot reach their money through digital apps, as ATMs in the region stopped working months ago. Relations between Addis Ababa and the TPLF have worsened for more than six months.", "Each side blames the other: the TPLF says it is resisting a federal offensive with drone strikes, while the government says Tigrayan forces struck first after seizing airports. The fighting puts the 2022 Pretoria peace deal under severe strain."], "sources": [["BBC News", "https://www.bbc.com/news/articles/c6d94wywx0ypo"]]},
-{"hero": false, "sub": "Conflicts & Security", "h3": "Sudan's army takes Sodari as RSF drones hit El Obeid", "summary": "The army and allied Joint Force captured the North Kordofan town of Sodari on 25 September, while an RSF drone strike on a displacement shelter in El Obeid killed two.", "body": ["The capture extends the military's westward push after it took towns on the El Obeid to Khartoum road in July, though the RSF still holds positions west and south of El Obeid. Local sources alleged that around 17 prisoners were killed when troops entered Sodari.", "Saudi Arabia filed a complaint at the UN Security Council accusing the RSF of a drone strike on a King Salman relief truck near El Obeid. The RSF has stepped up drone attacks on frontline cities in recent weeks."], "sources": [["Sudans Post", "https://sudanspost.com/sudanese-army-and-allies-seize-sodari-in-fresh-blow-to-rsf"], ["Sudan Tribune", "https://sudantribune.com/article/319294"], ["Sudan Tribune", "https://sudantribune.com/article/319268"]]},
-{"hero": false, "sub": "Diplomacy & Trade", "h3": "Trump-Xi summit heavy on pageantry, light on results", "summary": "Xi Jinping's first Washington visit in over a decade ended with a trade truce extended to 10 January and plans for two more meetings.", "body": ["The leaders met behind closed doors for about 90 minutes, with no sign of breakthroughs on AI, Taiwan, trade or the Iran war. Senate Democrats and former diplomats criticised the state visit for favouring ceremony over substance.", "Xi again raised the 'Thucydides Trap' and argued the risk of conflict between rising and established powers can be overcome. The FT reports the two will meet twice more after the summit left core tensions unresolved."], "sources": [["The Guardian", "https://www.theguardian.com/us-news/2026/sep/25/key-takeaways-trump-xi-summit-whitehouse-china-ai-trade"], ["Financial Times", "https://www.ft.com/content/bd99d372-d3d1-4972-a3fe-1bed8f71e14c"]]},
-{"hero": false, "sub": "Diplomacy & Trade", "h3": "German and Russian foreign ministers meet for first time since 2022", "summary": "Johann Wadephul and Sergei Lavrov held a 20-minute meeting at the UN on Saturday 26 September, requested by Berlin.", "body": ["Wadephul said he urged Moscow to step back from its dangerous escalation toward Germany, Europe and NATO, raised drone incursions and pressed for a Black Sea grain export arrangement. The talks ended with a handshake.", "Lavrov said nothing new came out of the conversation. In his General Assembly speech he defended the war in Ukraine, vowed Russia would see it through and accused Europe of trying to derail peace talks."], "sources": [["PBS News", "https://www.pbs.org/newshour/world/german-and-russian-foreign-ministers-have-rare-meeting-at-united-nations-general-assembly"], ["Al Jazeera", "https://www.aljazeera.com/news/2026/9/27/german-russian-foreign-ministers-hold-rare-talks-amid-rising-tensions"], ["The New York Times", "https://www.nytimes.com/2026/09/26/world/europe/russia-germany-lavrov-ukraine-war.html"]]},
-{"hero": false, "sub": "Diplomacy & Trade", "h3": "Pope Leo draws 800,000 to Paris after warning on AI", "summary": "The Vatican estimated 800,000 people attended Pope Leo XIV's open-air Mass on Place de la Concorde on Saturday 26 September.", "body": ["The turnout was about 200,000 more than had registered, with crowds lining the Champs-Elysees as the American pope passed in the popemobile. It was the high point of his first visit to France as pope.", "Earlier in the trip he gave a major speech on artificial intelligence and Europe's future, warning against a 'paradise of machines' and insisting technology must stay at the service of people."], "sources": [["AP News", "https://apnews.com/article/france-pope-concorde-catholics-mass-5fc1201a104e6f5a1b044a7ceb39fb1a"], ["PBS News", "https://www.pbs.org/newshour/world/pope-leo-draws-800000-people-to-central-paris-for-open-air-mass-on-iconic-square"], ["The Guardian", "https://www.theguardian.com/world/live/2026/sep/25/pope-leo-france-paris-notre-dame-metz-ai-europe-latest-news-updates"]]},
-{"hero": false, "sub": "Politics & Elections", "h3": "United Russia wins record 349 Duma seats", "summary": "Final results published on 25 September gave the Kremlin party 349 of 450 seats in Russia's first wartime parliamentary vote.", "body": ["United Russia took 58% of the party-list vote and 209 single-seat districts, beating its 2016 record of 343 seats. The Communists came second with 37 seats, followed by LDPR, New People and A Just Russia.", "Turnout in the 18 to 20 September vote was put at 59.8%. Independent observers called it the least competitive election in modern Russian history, and the new Duma will include 46 veterans of the war in Ukraine."], "sources": [["AP News", "https://apnews.com/article/russia-parliament-election-duma-putin-ukraine-da0abcee5249692473a1fd7c02814ebc"], ["The Moscow Times", "https://www.themoscowtimes.com/2026/09/25/united-russia-wins-record-state-duma-majority-in-elections-dubbed-as-the-most-uncompetitive-in-modern-history-a93791"], ["Meduza", "https://meduza.io/en/news/2026/09/25/united-russia-won-349-of-450-seats-in-russia-s-new-state-duma-parliament-will-include-46-war-participants"]]},
-{"hero": false, "sub": "Politics & Elections", "h3": "Monarchy-aligned PAM tops Morocco's election", "summary": "Provisional results give the Authenticity and Modernity Party 97 of 395 seats, with turnout down to 38%.", "body": ["PAM overtook its senior coalition partner RNI, which won 66 seats, while Istiqlal took 65 and the Islamist PJD rebounded from 13 to 54. The king appoints the prime minister from the largest party, putting PAM in line to lead a new coalition.", "It was the first vote since the Gen Z protests of last year, and the next government faces pressure on jobs, wages and living costs. It will also manage heavy investment ahead of Morocco co-hosting the 2030 World Cup."], "sources": [["Al Jazeera", "https://www.aljazeera.com/news/2026/9/24/monarchy-aligned-pam-leads-in-morocco-election-provisional-results"]]},
-{"hero": false, "sub": "Politics & Elections", "h3": "Polls point to a punishing midterm for Republicans", "summary": "With the 3 November midterms weeks away, a CNN poll has Trump 34 points underwater, far worse than before the GOP's 2006 and 2018 losses.", "body": ["CNN's poll of polls puts Trump 29 points net negative, against roughly 13 to 15 points at the same stage in 2018. Analysts say he appears to be the most unpopular president on the eve of a midterm in modern polling.", "An Emerson survey gives Democrats an 11-point lead on the generic congressional ballot. Democrats need a net gain of four seats to win the Senate, where Republicans hold 53 seats."], "sources": [["CNN", "https://www.cnn.com/2026/09/25/politics/2026-midterm-election-trump"], ["Emerson College Polling", "https://emersoncollegepolling.com/september-2026-national-poll-democrats"]]},
-{"hero": false, "sub": "Humanitarian & Climate", "h3": "Six dead, four of them US tourists, in Athens building blast", "summary": "A suspected gas explosion brought down a two-storey building in Athens' historic Plaka district on Friday 25 September.", "body": ["Rescuers recovered six bodies, including four people believed to be American tourists and an elderly British-Greek couple who lived upstairs. Two women were hurt in an adjacent building, and neighbouring properties were evacuated.", "Athens mayor Haris Doukas blamed a major gas leak and said two badly damaged buildings may have to be demolished. Local residents had earlier warned authorities and network operators about risks, and officials now face questions over the response."], "sources": [["Al Jazeera", "https://www.aljazeera.com/news/2026/9/26/four-american-tourists-among-6-killed-in-suspected-gas-leak-blast-in-athens"], ["The Guardian", "https://www.theguardian.com/world/2026/sep/26/greek-authorities-seek-answers-after-six-killed-in-athens-apartment-block-explosion"]]},
-{"hero": false, "sub": "Humanitarian & Climate", "h3": "UN: Gaza suffers worst economic collapse on record", "summary": "An UNCTAD report released on 24 September found 90% of working-age Gazans jobless and per capita GDP at $0.58 a day in 2025.", "body": ["The agency estimates 92% of Gaza's business premises have been damaged or destroyed, and industrial and farm output is down 94%. Daily income per person is 82% below the already low 2022 level, leaving the population wholly dependent on food aid.", "UNCTAD's acting chief said the collapse has wiped out decades of development. The report describes the strip's economy as the most severe crisis it has ever recorded."], "sources": [["The Independent", "https://www.the-independent.com/news/world/middle-east/gaza-economic-crisis-un-b3056482.html"]]},
-{"hero": false, "sub": "Humanitarian & Climate", "h3": "Israel to let EU-funded water projects into Gaza", "summary": "Israel pledged to admit 43 million euros of EU aid for essential services such as water pumps, the first such projects in a year.", "body": ["EU Commissioner Dubravka Suica secured the promise from Israeli Foreign Minister Gideon Saar on the margins of the UN General Assembly. The project aims to cut Gazans' exposure to sewage and disease from waste piling up in the streets.", "Separately the UK announced an 88 million pound package for Gaza and the West Bank, including emergency water trucking for 150,000 people. The US-led Board of Peace has set out a six-month plan needing 2.45 billion dollars for its first 66 projects."], "sources": [["The National", "https://www.thenationalnews.com/news/europe/2026/09/25/israel-promises-to-allow-eu-aid-for-essential-services-into-gaza-for-first-time-in-year"], ["Smart Water Magazine", "https://smartwatermagazine.com/news/newsroom/uk-pledges-88-million-for-water-sanitation-and-healthcare-in-gaza"]]},
-{"hero": false, "sub": "Humanitarian & Climate", "h3": "Nepal PM calls deadly glacier flood a warning to the world", "summary": "Balendra Shah told the UN that the 26 August disaster, which killed at least 1,453 people, demands faster climate action.", "body": ["The torrent of mud, rock and water was triggered by a glacial collapse near the China-Tibet border. Nepal's disaster authority says 5,500 people remain missing and 13,795 were rescued.", "World Weather Attribution described the event as a compound crisis driven by long-term warming, glacier retreat, permafrost thaw and unstable geology. Shah noted Nepal produces under 0.1% of global emissions yet pays a colossal price."], "sources": [["Al Jazeera", "https://www.aljazeera.com/news/2026/9/25/nepals-leader-labels-devastating-flood-a-warning-to-the-world"]]},
-{"hero": false, "sub": "Humanitarian & Climate", "h3": "Nor'easter floods US north-east, 100,000 lose power", "summary": "A slow-moving storm battered New Jersey, New York, Delaware and Massachusetts on Saturday 26 September with high winds and coastal flooding.", "body": ["Tens of millions of people were in the storm's path, and forecasters warned of more wind, high tides and heavy rain over several days. On Long Island some residents paddled kayaks down flooded streets.", "Events were cancelled from Massachusetts to Maryland ahead of the storm, which was forecast to bring gusts up to 60 mph. Marina owners on the Jersey Shore reported water levels not seen since Hurricane Sandy."], "sources": [["The Guardian", "https://www.theguardian.com/us-news/2026/sep/26/noreaster-north-east-us"], ["The Washington Post", "https://www.washingtonpost.com/nation/2026/09/25/strong-noreaster-cancels-events-massachusetts-maryland/"]]}
-],
-"netherlands": [
-{"hero": true, "sub": "Politics & Policy", "h3": "Pro and Volt join forces to force budget deal", "summary": "On Saturday 26 September Pro and Volt began joint budget talks with PM Jetten, offering the minority cabinet a stable majority in both chambers.", "body": ["Pro leader Jesse Klaver said the combined votes of his left-wing party and pro-European Volt would carry the D66, VVD and CDA cabinet through both houses. In the Senate, Pro is the largest group but still needs Volt's two seats to reach the 16 the coalition lacks.", "Jetten says ministers have prepared a new offer on welfare, purchasing power and the Box 3 asset tax. Finance minister Eelco Heinen has already postponed or scrapped about half of the 6 billion euros in welfare cuts, but Pro wants more.", "The VVD fears that concessions to the left will push its voters to JA21 and the PVV. JA21 argues for deeper welfare cuts and lower taxes, while Klaver has threatened to block the whole budget if the cabinet tries separate deals per ministry."], "sources": [["DutchNews.nl", "https://www.dutchnews.nl/2026/09/opposition-parties-pro-and-volt-team-up-to-force-budget-deal/"], ["NL Times", "https://nltimes.nl/2026/09/26/stable-majority-support-might-delivered-pro-volt-join-forces"]]},
-{"hero": false, "sub": "Politics & Policy", "h3": "Cabinet tables new Box 3 offer to win budget support", "summary": "After Friday's council of ministers on 25 September, Jetten said a revised package on purchasing power, social security and Box 3 is on the table.", "body": ["The coalition parties had long been split on the wealth tax, with D66 and CDA on one side and the VVD on the other. Jetten said they now see room for a good proposal but gave no details or funding plan, although the changes are expected to cost billions.", "Heinen's draft budget had proposed higher taxes on labour to fill the gap, while many MPs want the money raised from wealth instead. Jetten also dropped his refusal to talk to the BBB, which had backed a no-confidence motion against the cabinet."], "sources": [["NL Times", "https://nltimes.nl/2026/09/25/cabinet-seeks-opposition-backing-budget-new-box-3-asset-tax-plans"]]},
-{"hero": false, "sub": "Politics & Policy", "h3": "Jetten tells UN: hands off the ICC", "summary": "In his first UN General Assembly speech on Thursday 24 September, PM Rob Jetten defended the International Criminal Court in The Hague.", "body": ["Without naming Donald Trump, Jetten said attempts to undermine the court threaten the entire international legal order. The US has already sanctioned 13 ICC staff, including its president, and is reported to be weighing sanctions on the court as a whole.", "As host state, the Netherlands must help the court with security, visas and transport of defendants and witnesses. Jetten also called for Russia to be held to account for its war in Ukraine."], "sources": [["DutchNews.nl", "https://www.dutchnews.nl/2026/09/jetten-pulls-no-punches-at-first-un-speech/"]]},
-{"hero": false, "sub": "Politics & Policy", "h3": "Justice minister Van Weel survives no-confidence vote", "summary": "David van Weel apologised to MPs on 24 September over his account of about 10,000 criminal complaints police left uninvestigated.", "body": ["In June he told parliament that most of the cases were reports rather than formal complaints. The Court of Audit later found only 10% were verbal reports, and said victims of serious crimes such as sexual offences had been denied justice.", "Van Weel first called the dispute a difference of insight, which angered MPs. He later admitted he had given the impression of trivialising the report, and a PVV motion of no confidence failed to pass."], "sources": [["DutchNews.nl", "https://www.dutchnews.nl/2026/09/van-weel-survives-no-confidence-debate-over-crime-stats-row/"]]},
-{"hero": false, "sub": "Politics & Policy", "h3": "State orders inquiry into decades of donor conception abuses", "summary": "The health ministry has commissioned an independent historical review of sperm donation, funded with 650,000 euros.", "body": ["The probe follows revelations that a prolific donor kept donating for years despite being known to authorities. Health minister Sophie Hermans said no full review has been done before, and it will cover the period from the 1950s to the 2025 law capping donors at 12 mothers.", "ZonMw will oversee the research, which should begin around mid-2027 and report before the 2030 evaluation of the donor law. The role of the health inspectorate and the ministry itself will also be examined."], "sources": [["NL Times", "https://nltimes.nl/2026/09/25/netherlands-investigate-decades-abuses-donor-conception-system"]]},
-{"hero": false, "sub": "Economy & Housing", "h3": "Petrol hits record 2.727 euros per litre", "summary": "The recommended pump price for petrol rose 1.5 cents to a record 2.727 euros on Friday 25 September, UnitedConsumers data show.", "body": ["Petrol was almost 50 cents cheaper before the Middle East war began. Diesel eased slightly to 2.794 euros, though the EU average diesel price hit a record on Thursday.", "A possible US ban on diesel exports could push prices higher, with Morgan Stanley warning Europe would be hit hardest. Dutch stations near the border also fear losing customers to Germany, which is cutting fuel prices by 17 cents a litre."], "sources": [["NL Times", "https://nltimes.nl/2026/09/25/gasoline-price-netherlands-reaches-record-eu2727-per-liter-0"]]},
-{"hero": false, "sub": "Economy & Housing", "h3": "Cabinet wants energy firms to fund gas storage", "summary": "With state operator EBN facing a loss of about 1 billion euros, the government wants suppliers such as Essent, Eneco and Vattenfall to hold their own reserves.", "body": ["Storage at Norg, Grijpskerk, Bergermeer and Alkmaar is currently filled at public expense, but high prices give companies no incentive to stock up. The Netherlands cut its November filling target from 74% to 64%, and storage stands at 57.5%.", "Since Groningen production ended, the sites are filled with imported gas, much of it costly LNG from the US. A similar storage obligation already applies in Austria."], "sources": [["DutchNews.nl", "https://www.dutchnews.nl/2026/09/cabinet-wants-private-companies-to-pay-more-towards-gas-storage/"]]},
-{"hero": false, "sub": "Economy & Housing", "h3": "House price growth slows to 3.3%", "summary": "CBS figures show prices rose 3.3% year on year in August while dipping 0.1% from July. Transactions fell 2.9%.", "body": ["Annual growth peaked at 11.5% in January 2025 and has cooled steadily since. The average price of an existing home rose to 503,523 euros after passing half a million in July.", "Prices are now 17.8% above the previous peak of July 2022."], "sources": [["DutchNews.nl", "https://www.dutchnews.nl/2026/09/house-price-growth-slows-to-3-3-transactions-fall/"]]},
-{"hero": false, "sub": "Economy & Housing", "h3": "Experts: mid-market rentals key to unlocking housing", "summary": "Housing experts say the cabinet's new acceleration plan will not end stagnation unless it adds mid-market rental homes.", "body": ["Housing minister Elanor Boekholt-O'Sullivan presented an action plan this week focused on building faster. Vastgoed Belang calculates that 76,000 mid-market rentals have left the market since the Affordable Rent Act took effect.", "Pararius founder Jasper de Groot said the cabinet is partly reversing its own earlier measures. VU economist Hans Koster noted that tenants in cheap social housing have little incentive to move even when their incomes rise."], "sources": [["NL Times", "https://nltimes.nl/2026/09/26/experts-mid-market-rentals-key-getting-housing-market-stagnation"]]},
-{"hero": false, "sub": "Economy & Housing", "h3": "Tata Steel deal deadline pushed to March 2027", "summary": "The cabinet, Tata Steel and Noord-Holland extended talks on a tailored green deal, worth up to 2 billion euros in state aid, to 1 March 2027.", "body": ["Climate minister Stientje van Veldhoven said the main cause is a regional agency's plan to revoke permits for the IJmuiden coke plants, which would change the timeline and costs. The cabinet chose not to walk away despite the criminal pollution case brought against the company in July.", "Frisse Wind and Greenpeace welcomed the pause, calling for independent health measurements before any deal. Van Veldhoven said the 2 billion euro ceiling will not be raised."], "sources": [["NL Times", "https://nltimes.nl/2026/09/25/tata-steel-dutch-government-push-back-sustainability-deal-deadline"]]},
-{"hero": false, "sub": "Economy & Housing", "h3": "Drought forces one-way shipping on the IJssel", "summary": "Since Friday 25 September barges from Arnhem to Zutphen must detour up to 300 km because the river is too shallow for ships to pass.", "body": ["Rijkswaterstaat says the summer drought has cut Rhine flow at Lobith to about 600 cubic metres per second. Inland shipping group KBN said boats were already sailing with half or a third of their normal loads.", "The detour will add further costs for a sector already hit by low water limits."], "sources": [["DutchNews.nl", "https://www.dutchnews.nl/2026/09/ships-on-ijssel-restricted-to-one-way-traffic-as-drought-endures/"]]},
-{"hero": false, "sub": "Society & Culture", "h3": "Prison officer shot dead on busy Amsterdam terrace", "summary": "Marcel Blijd, a warden at Zaanstad prison, was shot at close range at the NDSM quay on Friday afternoon 25 September.", "body": ["Witnesses said the gunman argued with Blijd about a loose dog before firing, then threw the gun into the water and waited for police. Dozens of people on the terrace saw the attack, and the suspect is in custody.", "Het Parool reported that the suspect was previously held at Zaanstad, which houses some of Amsterdam's most dangerous offenders. Detectives are investigating a possible link to Blijd's 30-year prison career."], "sources": [["DutchNews.nl", "https://www.dutchnews.nl/2026/09/man-shot-dead-in-packed-bar-in-amsterdam-was-prison-warden/"], ["NL Times", "https://nltimes.nl/2026/09/26/victim-confronted-suspect-loose-dog-prior-fatal-shooting-amsterdam-noord"]]},
-{"hero": false, "sub": "Society & Culture", "h3": "Stress-related sick days up 12% in a year", "summary": "Occupational health services ArboNed and HumanCapitalCare report stress absence rose 12% in a year and 49% since 2021.", "body": ["Workload, money worries, health issues and caring for relatives are the main drivers. Average absenteeism was 4.9% from July 2025 to June 2026, up from 4.8% a year earlier.", "Only 11% of absence reports account for 83% of all sick days. ArboNed's medical director urged employers to spot warning signs before staff drop out long term."], "sources": [["NL Times", "https://nltimes.nl/2026/09/26/number-stress-related-sick-days-rises-12-year-49-since-2021"]]}
-]
+ "mood": {
+  "h3": "Sfeer vandaag",
+  "p": "Maandag begint het warme najaarsweekje voorzichtig: in het westen en noorden blijft het bewolkt met hier en daar wat lichte regen en maxima rond 19 tot 20 graden, van Utrecht tot Enschede wordt het 21 tot 24 graden en in Limburg kan het 25 graden worden. Dinsdag en woensdag volgt de echte nazomer met op veel plekken meer dan 25 graden en lokaal zelfs 30, waardoor De Bilt septemberrecords kan breken. Woensdagavond brengen buien en onweer verkoeling. Politiek draait alles om de Box 3-onderhandelingen en het geschrapte korten op uitkeringen, terwijl de beelden van premier Jetten die van het D66-podium werd geleid het gesprek bepalen. Voetballiefhebbers genieten nog na van Meerdinks twee goals in Belgrado."
+ },
+ "global": [
+  {
+   "hero": true,
+   "sub": "Conflicts & Security",
+   "h3": "Trump expects Iran talks this week but keeps strikes on the table",
+   "summary": "On Sunday 27 September Trump said he expects indirect talks with Iran to resume within days, a day after rejecting Tehran's Hormuz proposal, while refusing to rule out new strikes before the November midterms.",
+   "body": [
+    "President Donald Trump told Axios in a phone interview on Sunday that he expects negotiations with Iran to restart in the coming week, one day after turning down Tehran's plan to reopen the Strait of Hormuz. He argued Iran had overplayed its hand and said the offer resembled something Washington might have accepted a year ago. Regional sources quoted by CBS said a new round of indirect talks, again mediated by Qatar, could take place as early as Monday.",
+    "Speaking to Fox News the same day, Trump declined to exclude further military strikes on Iran before the 3 November midterm elections, saying it was possible but that he did not want to discuss it. He again predicted oil prices would fall back to pre-war levels once the conflict ends.",
+    "Iranian Foreign Minister Abbas Araghchi said mediators had not yet formally conveyed any US response. He told NBC Iran was fully prepared for fighting to resume but remained ready for diplomacy, and insisted Tehran's plan required a halt to hostilities across the region, including Lebanon. President Masoud Pezeshkian had told CBS on Friday that Iran would admit UN nuclear inspectors as part of a long-term ceasefire.",
+    "On Capitol Hill the debate split along familiar lines. Republican Senator John Kennedy called Iran's plan not a serious offer and urged continued sanctions and the naval blockade, while Democrat Jim Himes warned that Iran could use pressure on shipping to influence the midterm vote."
+   ],
+   "sources": [
+    [
+     "CBS News",
+     "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/liveblog/2026/9/27/iran-war-live-tehran-awaits-official-response-as-trump-rejects-hormuz-plan"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Iran claims capture of US underwater drone in Hormuz; US denies",
+   "summary": "Iran's Revolutionary Guards said on Sunday they seized a US Remus 600 underwater drone in the Strait of Hormuz, a claim the US military dismissed as desperate.",
+   "body": [
+    "The naval arm of Iran's Revolutionary Guards announced on state television on Sunday 27 September that it had captured an American unmanned underwater vehicle operating in the Strait of Hormuz. It described the craft as a Remus 600 used for espionage and said specialists were now trying to recover its data after an operation involving intelligence work and electronic warfare.",
+    "The US military told Al Jazeera it retains positive control of all of its drone assets and called the Iranian claim clearly desperate. Washington has not confirmed losing any vehicle in the waterway.",
+    "A senior Iranian general separately warned Gulf neighbours that the strait will stay closed until what Tehran calls US economic warfare ends, saying the war is not over even though Iran considers itself the winner."
+   ],
+   "sources": [
+    [
+     "CBS News",
+     "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/liveblog/2026/9/27/iran-war-live-tehran-awaits-official-response-as-trump-rejects-hormuz-plan"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Five held on terror suspicion near US-used RAF Fairford base",
+   "summary": "UK counterterrorism police arrested five men early on Sunday after three suspicious vans were seen heading towards RAF Fairford, a base used by US bombers in the Iran war.",
+   "body": [
+    "Gloucestershire police received a call at 00:45 on Sunday 27 September about three vehicles apparently travelling towards RAF Fairford, a UK-owned base operated by the US Air Force. Five men were first detained under the Explosives Act and are now held on suspicion of preparing a terrorist act, which allows detention for up to 14 days without charge.",
+    "Around 85 households in the village of Whelford were evacuated and a 400-metre cordon was set up while army bomb disposal teams examined the vans. Aerial footage showed a robot moving between three white trucks. Police have not disclosed the men's nationalities.",
+    "Fairford has hosted American bombers carrying out limited strikes on Iranian missile sites, and Tehran has called bases used against it legitimate targets. Trump praised the arrests, saying the suspects had been under watch for a long time, while Prime Minister Andy Burnham's office said he was receiving updates."
+   ],
+   "sources": [
+    [
+     "AP via WCAX",
+     "https://www.wcax.com/2026/09/27/uk-police-evacuate-homes-near-air-base-used-by-us-detain-men-suspected-explosives-offensives/"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/9/27/uk-police-evacuate-homes-near-air-base-used-by-us"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Russian attacks kill 14 in Ukraine as Kyiv endures fourth night",
+   "summary": "Russian strikes killed at least 14 people and injured 57 across Ukraine over 26 and 27 September, with Odesa hit by a mass attack and Kyiv bombarded for a fourth straight night.",
+   "body": [
+    "Ukraine's Air Force said Russia launched 170 Shahed-type drones overnight into Sunday 27 September, 76 of them jet-powered, and that 147 were shot down or suppressed. Odesa Oblast suffered what its governor called a mass strike that damaged a residential block, a medical facility, a hotel and a grain store.",
+    "Deaths were reported in Zaporizhzhia (four), Donetsk (three), Sumy (two, with 28 injured by a glide bomb), Dnipropetrovsk and Kharkiv. In Kyiv, drones damaged two kindergartens, two schools and warehouses, a man was killed and the headquarters of mobile operator Kyivstar was hit. By late Sunday a strike on a Kyiv market had killed two more people.",
+    "Zelensky said Russia fired more than 2,200 drones, about 1,650 glide bombs and 38 missiles over the past week. He also claimed 10,660 Russian troops were killed or wounded in the same period as Ukraine advanced in the Lyman sector, a figure that could not be independently verified."
+   ],
+   "sources": [
+    [
+     "Kyiv Independent",
+     "https://kyivindependent.com/ukraine-war-latest-russian-attacks-kill-14-injure-57-across-ukraine-in-mass-strike/"
+    ],
+    [
+     "France 24",
+     "https://www.france24.com/en/europe/20260927-russian-strikes-kill-eight-ukraine-war-moscow"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Israel kills man who abducted Noa Argamani on 7 October",
+   "summary": "An Israeli strike in Nuseirat on Sunday killed Saher Saqr, who drove the motorcycle used to kidnap Noa Argamani and Avinatan Or from the Nova festival in 2023.",
+   "body": [
+    "The Israeli military, the Shin Bet and the police Lahav 433 unit said on Sunday 27 September that Saher Nidal Latfi Saqr was killed in an airstrike in the Nuseirat area of central Gaza. Israel Police released footage of the strike.",
+    "According to the joint statement, Saqr was linked to global jihadist groups, had supplied weapons to Hamas and was recently planning attacks on soldiers and civilians together with Hamas and Islamic Jihad operatives, which Israel described as a violation of the ceasefire.",
+    "Argamani was held for about eight months before being rescued in Nuseirat in June 2024. Separately on Sunday, Palestinian media reported that an Israeli drone strike on a car in Gaza City killed one person and that three were wounded in other strikes."
+   ],
+   "sources": [
+    [
+     "Times of Israel",
+     "https://www.timesofisrael.com/terrorist-from-abduction-of-noa-argamani-avinatan-or-on-oct-7-killed-in-strike-idf/"
+    ],
+    [
+     "Middle East Eye",
+     "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-drone-strike-kills-palestinian-gaza-city"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Strike on Taiz market kills seven as Yemen war widens",
+   "summary": "An airstrike on a central market in Yemen's Taiz killed seven people and wounded 40 on Sunday, according to Houthi media, which blamed a Saudi jet.",
+   "body": [
+    "The Houthi-run Al-Masirah channel said on Sunday 27 September that a Saudi fighter jet struck a marketplace in Taiz province in southwest Yemen, killing seven people and wounding around 40, including children. Military sources in the Saudi-backed government told Reuters the Houthis had recently set up a camp near the market.",
+    "The strike comes as the Houthis push a September offensive that has given them control of Yemen's entire Red Sea coast, including the Bab al-Mandab Strait. They have also declared a blockade on Saudi energy exports, which are already squeezed by Iran's closure of Hormuz.",
+    "The UN said last week that the fighting had displaced close to 130,000 Yemenis since early September, including more than 2,700 pregnant women, and warned that another 100,000 could flee within three months."
+   ],
+   "sources": [
+    [
+     "CBS News (AFP)",
+     "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/"
+    ],
+    [
+     "UN News",
+     "https://news.un.org/en/story/2026/09/1168387"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Riyadh schools switch to remote learning for a week",
+   "summary": "Saudi authorities on Sunday ordered schools in Riyadh to close for the week and move lessons online, amid near-daily Houthi attacks on the kingdom.",
+   "body": [
+    "Parents across the Saudi capital received emails on Sunday 27 September telling them schools must stay closed all week and teach remotely, according to messages seen by AFP. The instruction reportedly came from the authorities at short notice.",
+    "No official reason was given. The decision follows heightened tension in the Gulf and an intensifying campaign of missile and drone launches by Iran-backed Houthi forces in Yemen aimed at Saudi territory, including an attempted strike on Riyadh condemned by the UN last week."
+   ],
+   "sources": [
+    [
+     "CBS News (AFP)",
+     "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/"
+    ],
+    [
+     "UN News",
+     "https://news.un.org/en/story/2026/09/1168387"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Netanyahu makes secret day trip to Abu Dhabi",
+   "summary": "Israeli Prime Minister Benjamin Netanyahu flew to the UAE on Sunday to meet President Mohamed bin Zayed, an Israeli official confirmed.",
+   "body": [
+    "Netanyahu travelled to Abu Dhabi on a private plane on Sunday 27 September and spent the day there meeting Emirati President Mohamed bin Zayed, Channel 12 first reported, citing two sources. An Israeli official later confirmed the visit, while the Prime Minister's Office and the Emirati embassy did not immediately comment.",
+    "Iran, regional security and the wider military situation in the Middle East were reported to be the main topics. The trip comes amid an Israeli row over a Haaretz report that bin Zayed warned Netanyahu about a planned Hamas operation shortly before 7 October 2023, a report Netanyahu denies and has threatened to sue over as he faces a difficult reelection campaign."
+   ],
+   "sources": [
+    [
+     "Times of Israel",
+     "https://www.timesofisrael.com/liveblog_entry/netanyahu-flies-to-abu-dhabi-to-meet-emirati-president-report/"
+    ],
+    [
+     "US News (Reuters)",
+     "https://www.usnews.com/news/world/articles/2026-09-27/israels-netanyahu-visited-abu-dhabi-on-sunday-israeli-official-says"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Poland offers to host Ukraine's future Patriot factory",
+   "summary": "Poland proposed on Sunday that Ukraine build its planned Patriot missile production on Polish soil, after Trump granted Kyiv a licence to make the interceptors.",
+   "body": [
+    "Deputy Defence Minister Magdalena Sobkowiak-Czarnecka told Polish media on Sunday 27 September that if Ukraine plans a Patriot factory, Warsaw would like it built in Poland, which she called safe territory. The proposal follows Zelensky's announcement on 25 September that Trump had approved Ukrainian production of Patriot air defence missiles.",
+    "Ukraine faces a severe shortage of Patriot interceptors, the only weapons that reliably stop Russian ballistic missiles. Zelensky said last week he had secured a new batch but did not name the supplier.",
+    "Sobkowiak-Czarnecka also said Polish lawmakers want to speed up construction of a planned US base in western Poland for at least 5,000 troops, with Washington expected to choose the location by December."
+   ],
+   "sources": [
+    [
+     "Kyiv Independent",
+     "https://kyivindependent.com/poland-offers-to-host-patriot-system-production-site-for-ukraine-after-kyiv-secures-license-from-us/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Lavrov vows to finish Ukraine war, pitches Eurasian security bloc",
+   "summary": "In his UN General Assembly speech on Saturday, Russian Foreign Minister Sergei Lavrov accused the West of double standards and said Moscow's goals in Ukraine would be achieved.",
+   "body": [
+    "Addressing the 81st UN General Assembly on Saturday 26 September, Lavrov said Western powers were destabilising the world through force and double standards and that Russia's military operation in Ukraine would be carried through to the end. He accused European governments of arming Kyiv and obstructing peace talks that he said the Trump administration also wants.",
+    "Lavrov condemned the US seizure of Venezuelan President Nicolas Maduro and the killing of Iran's Supreme Leader Ali Khamenei, and said US-Israeli strikes on safeguarded Iranian nuclear sites had badly damaged the non-proliferation system. He argued the US peace plan for Gaza had not brought peace and warned that West Bank settlement expansion would leave no land for a Palestinian state.",
+    "He announced that Russia, Belarus and like-minded partners had launched work on a Eurasian Charter on Diversity and Multipolarity, and opposed permanent Security Council seats for Germany and Japan while backing Brazil, India and more African representation."
+   ],
+   "sources": [
+    [
+     "UN News",
+     "https://news.un.org/en/story/2026/09/1168457"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Blockaded Iran shifts trade north to the shrinking Caspian",
+   "summary": "With its southern ports under US naval blockade, Iran is routing more food imports through Caspian ports, though falling water levels and weak infrastructure limit the shift, Al Jazeera reported on Sunday.",
+   "body": [
+    "Iran's northern ports have raised their share of essential goods handled from 18 percent before the war to about 30 percent, according to the head of the Ports and Maritime Organization. Container arrivals at Caspian ports rose 50 percent year on year in the five months to 22 August, said the governor of Gilan province.",
+    "Capacity remains a hard ceiling. Northern ports account for only 30 million of Iran's 300 million tonnes of nominal port capacity, and falling Caspian water levels mean berths that once took 6,000-tonne vessels now handle only 4,000 tonnes. Trucks queue for days at land crossings such as Norduz on the Armenian border.",
+    "Analysts warn the pivot increases dependence on sanctioned Russia and that Iran's most valuable exports, oil and iron ore, still need southern routes. Tehran is pushing to complete the Rasht-Astara railway, a missing link in the North-South Transport Corridor."
+   ],
+   "sources": [
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/economy/2026/9/27/can-iran-shift-trade-north-to-caspian-sea-as-war-impairs-strait-of-hormuz"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Elections",
+   "h3": "Swiss voters reject strict neutrality and food initiatives",
+   "summary": "Around 70 percent of Swiss voters on Sunday rejected a proposal to write a narrow definition of neutrality into the constitution, and a food security initiative also failed.",
+   "body": [
+    "A projection by GFS Bern for public broadcaster SRG showed about 71 percent voting no on Sunday 27 September to the neutrality initiative, which would have defined Swiss neutrality as perpetual and armed. It would have barred cooperation with military alliances unless Switzerland was attacked and limited sanctions to those approved by the UN Security Council.",
+    "The initiative was organised by the sovereignist group Pro Switzerland and backed by the Swiss People's Party, which argued that adopting EU sanctions on Russia and closer NATO cooperation had eroded neutrality. The government, parliament and nearly all major parties opposed it, saying it would tie Switzerland's hands in a crisis.",
+    "Voters also clearly rejected a second popular initiative on food security, which called for more sustainable domestic production, more plant-based food and clean drinking water."
+   ],
+   "sources": [
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/9/27/swiss-voters-set-to-reject-tighter-neutrality-rules-in-referendum"
+    ],
+    [
+     "Swissinfo",
+     "https://www.swissinfo.ch/eng/votes/september-27-votes-results-from-across-switzerland/92068632"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Elections",
+   "h3": "Serbia's Vucic resigns presidency to run for prime minister",
+   "summary": "Serbian President Aleksandar Vucic announced his resignation on Sunday so he can lead his party's list as prime ministerial candidate in snap elections on 25 October.",
+   "body": [
+    "Vucic told hundreds of flag-waving supporters outside the presidency in Belgrade on Sunday 27 September that it was his last evening in the building. His presidential term was due to end in May 2027, and he had dissolved parliament on 9 September to call early legislative elections.",
+    "Resigning allows him to run as the Serbian Progressive Party's candidate for prime minister. Analysts expect he would remain Serbia's most powerful figure in that role, having served as either president or prime minister since 2014.",
+    "Vucic, known for close ties to Moscow, has faced sustained protests since November 2025, triggered by the deadly collapse of a railway station canopy in Novi Sad that demonstrators blamed on corruption."
+   ],
+   "sources": [
+    [
+     "Kyiv Independent",
+     "https://kyivindependent.com/serbias-russian-friendly-president-vucic-announces-resignation-plans-to-run-for-pm/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Elections",
+   "h3": "Brazil enters final week with Lula and Flavio Bolsonaro neck and neck",
+   "summary": "With Brazil's first round set for Sunday 4 October, the latest Datafolha poll shows Lula at 47 percent and Flavio Bolsonaro at 45 percent in a runoff, a statistical tie.",
+   "body": [
+    "A Datafolha survey of 2,002 people taken on 22 and 23 September gave President Luiz Inacio Lula da Silva a two-point runoff lead over Senator Flavio Bolsonaro, inside the two-point margin of error. In the first round Lula polled 40 percent against 36 percent for Bolsonaro, with Augusto Cury, Ronaldo Caiado and Renan Santos in single digits.",
+    "Other polls released the same week were just as tight: Quaest had Bolsonaro ahead 42 to 41 in a runoff and BTG Pactual/Nexus showed Lula ahead 46 to 45. If no candidate wins more than half the valid votes on 4 October, the top two meet in a second round.",
+    "Flavio Bolsonaro is the eldest son of former President Jair Bolsonaro, who is serving a 27-year sentence for trying to overturn his 2022 defeat. Lula is seeking a fourth, non-consecutive term."
+   ],
+   "sources": [
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/9/25/brazils-lula-and-flavio-bolsonaro-still-essentially-tied-in-new-poll"
+    ],
+    [
+     "US News (Reuters)",
+     "https://www.usnews.com/news/world/articles/2026-09-24/lula-holds-lead-over-flavio-bolsonaro-ahead-of-brazil-election-datafolha-poll-shows"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Elections",
+   "h3": "US Senate's last week before midterms as Trump hits the road",
+   "summary": "The US Senate sits for a final week before the 3 November midterms while Trump plans rallies in Oklahoma and Alabama, as some Republicans distance themselves over the Iran war.",
+   "body": [
+    "Senators return to Washington this week for the last time before Election Day, with a final vote scheduled for Monday night on the bipartisan Protect College Sports Act. The bill would write athletes' name, image and likeness pay into law, guarantee a fifth year of eligibility and limit transfers.",
+    "Trump is set to hold campaign rallies in Oklahoma on Thursday and Alabama on Friday. Gray DC reported that some Republicans in tight races have begun distancing themselves from the president, particularly over the Iran war, which polls show is deeply unpopular with voters.",
+    "Control of both chambers is at stake in November. Congress earlier passed a stopgap funding bill running to 11 December, removing the threat of a shutdown when the fiscal year ends on 30 September."
+   ],
+   "sources": [
+    [
+     "WCAX (Gray DC)",
+     "https://www.wcax.com/2026/09/27/week-ahead-washington-september-27/"
+    ],
+    [
+     "NPR",
+     "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Avalanche buries Himlung base camp in Nepal, 14 missing",
+   "summary": "An avalanche struck the base camp of 7,126-metre Himlung in Nepal amid a severe storm, leaving 14 Nepali expedition workers missing as of Sunday 27 September.",
+   "body": [
+    "The Expedition Outfitters Association of Nepal first said ten workers were unaccounted for, eight from Himalayan Holidays Nepal and two from Imagine Nepal, before raising the figure to 14. All are Nepali Sherpas, kitchen staff and crew who had been setting up camp since 18 September ahead of the climbing season.",
+    "Bad weather has grounded helicopters and volunteers on foot have been unable to reach the site in the Nar-Phu Valley near the Tibetan border. No foreign climbers were on the mountain, as permits had not yet been issued.",
+    "The storm, which formed in the Bay of Bengal, has dumped heavy snow across Nepal's mountains, ending the Manaslu season and triggering a landslide near Samagaon early on Sunday. Authorities had urged trekkers and staff to stay in villages, still reeling from last month's deadly Langtang floods."
+   ],
+   "sources": [
+    [
+     "Explorersweb",
+     "https://explorersweb.com/fourteen-missing-as-avalanche-hits-himlung-base-camp/"
+    ],
+    [
+     "CNN",
+     "https://edition.cnn.com/2026/09/27/asia/nepal-avalanche-missing-intl-hnk"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Sudanese flight into Chad surges twentyfold as aid runs dry",
+   "summary": "The UN refugee agency said on Friday 25 September that about 400 Sudanese now cross into eastern Chad each day, 20 times the previous rate, while its response is only 20 percent funded.",
+   "body": [
+    "UNHCR reported that arrivals through the Adre and Tine border areas accelerated sharply over the past week, bringing the number of Sudanese refugees reaching Chad this year to more than 55,000. They are fleeing fighting between the army and the Rapid Support Forces in Darfur, Kordofan and Blue Nile, notably around El Fasher.",
+    "The transit centre in Tine now shelters more than 4,300 people. Some 31,000 refugee families lack proper shelter and most people receive less than half the minimum daily water requirement.",
+    "The agency has received about 20 percent of the 1.6 billion dollars it needs, leaving a gap of 1.28 billion. It warned that without more support, more Sudanese would attempt the dangerous route to Europe, where arrivals rose 245 percent last year to over 14,100."
+   ],
+   "sources": [
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/9/25/more-than-55000-sudanese-refugees-flee-to-chad-as-un-calls-for-funding"
+    ],
+    [
+     "US News (Reuters)",
+     "https://www.usnews.com/news/world/articles/2026-09-25/number-of-sudanese-fleeing-to-chad-surges-20-fold-as-aid-runs-dry-un-says"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Ukraine drops four tonnes of food by drone into occupied Oleshky",
+   "summary": "Ukrainian forces used drones to deliver about four tonnes of food to 100 points in Russian-occupied Oleshky, Kherson's governor said on Sunday.",
+   "body": [
+    "Kherson Oblast Governor Oleksandr Prokudin said on Sunday 27 September that military and law enforcement units had distributed roughly four tonnes of food across the occupied town by drone. The programme has run since March 2026 because the last successful vehicle convoy reached Oleshky on 26 May.",
+    "Prokudin accused Russian forces of shooting down supply drones, confiscating or reselling aid and detaining residents who pick up parcels. Oleshky, less than 4 kilometres from Kherson city across the Dnipro, has shrunk from about 24,000 residents to roughly 2,000.",
+    "The Council of Europe's human rights commissioner, Michael O'Flaherty, warned on 25 September that civilians there lack food, medicine, water and electricity and called for a local ceasefire so aid can get in."
+   ],
+   "sources": [
+    [
+     "Kyiv Independent",
+     "https://kyivindependent.com/ukraine-war-latest-russian-attacks-kill-14-injure-57-across-ukraine-in-mass-strike/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Humanitarian & Climate",
+   "h3": "Cuba calls US oil blockade collective punishment at the UN",
+   "summary": "Cuban Foreign Minister Bruno Rodriguez told the UN General Assembly on Saturday that the US fuel blockade aims to trigger a humanitarian crisis, as Trump predicted a deal without military action.",
+   "body": [
+    "Speaking in New York on Saturday 26 September, Rodriguez said the energy blockade imposed since January, which bars countries from exporting fuel to Cuba, amounts in practice to a naval blockade. He said more than 7,000 containers, many carrying food and medical supplies, were stuck in ports around the world.",
+    "The island has suffered repeated nationwide blackouts and shortages of basic goods. Rodriguez said Havana remained open to talks with Washington based on sovereign equality and without preconditions, and warned that any US military action would cause enormous destruction.",
+    "At the White House the same day, Trump said he expected the two countries to make a deal and did not think the military would be needed. Earlier in the week he had called Cuba a failed state in his own UN speech, prompting a Cuban walkout."
+   ],
+   "sources": [
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/9/26/cuba-condemns-us-collective-punishment-as-trump-predicts-deal"
+    ],
+    [
+     "UN News",
+     "https://news.un.org/en/story/2026/09/1168458"
+    ]
+   ]
+  }
+ ],
+ "netherlands": [
+  {
+   "hero": true,
+   "sub": "Politics & Policy",
+   "h3": "PM Jetten escorted off stage as Gaza protesters disrupt D66 congress",
+   "summary": "Security walked Prime Minister Rob Jetten off the podium on Sunday 27 September after pro-Palestinian protesters shouted down his speech at the D66 party congress.",
+   "body": [
+    "Jetten was addressing D66 members at the party congress on Sunday when pro-Palestinian demonstrators interrupted, De Telegraaf reported. He first tried to carry on and defuse the moment with a joke, but when the protesters drowned him out, security staff led him away from the podium.",
+    "The protesters wanted attention for the continuing crisis in Gaza. Jetten returned and resumed his speech once they had left the hall.",
+    "He told delegates that such protests are part of life in a country that values free speech and the right to demonstrate, and thanked members for the respectful way they had handled the demonstrators. The incident came a week after his debut UN speech and in the middle of tense budget talks with the opposition."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/27/pm-jetten-pulled-stage-d66-speech-disrupted-gaza-protesters"
+    ],
+    [
+     "De Telegraaf",
+     "https://www.telegraaf.nl/politiek/premier-jetten-kort-van-podium-gehaald-tijdens-toespraak-d66-congres-na-verstoring-door-pro-palestijnse-demonstranten/162224568.html"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Leaked offer: cabinet drops benefit cuts and speeds Box 3 overhaul",
+   "summary": "After Saturday's talks with five opposition parties, leaks show the Jetten cabinet is prepared to scrap WW and WIA benefit cuts and bring forward a tax on realised capital gains from 2028.",
+   "body": [
+    "Prime Minister Rob Jetten and Finance Minister Eelco Heinen met opposition leaders on Saturday 26 September. According to De Telegraaf, the cabinet is willing to cancel planned cuts to unemployment (WW) and disability (WIA) benefits entirely, a key demand of the unions, and to accelerate the switch to taxing actual investment returns in Box 3 from 2028.",
+    "Taxing gains only on sale would cost more than 10 billion euros in early years. The gap would reportedly be filled mainly via Box 2, by making it harder for business owners to borrow tax-free from their own companies, a temporary Box 2 rate cut to prompt one-off dividend payouts and a lower tax-free threshold for savings. Money earmarked for a higher in-work tax credit could instead fund a lower rate for middle incomes.",
+    "Pro leader Jesse Klaver said he saw real willingness to drop the social security cuts for the first time. JA21 leader Joost Eerdmans and SGP leader Chris Stoffer said the package leaned left but welcomed the Box 3 plan, while asking how it would be financed."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/27/insiders-allege-pm-jetten-wants-scrap-benefit-cuts-speed-box-3-tax-shift"
+    ],
+    [
+     "De Telegraaf",
+     "https://www.telegraaf.nl/politiek/aanbod-van-kabinet-jetten-aan-oppositie-uitgelekt-versnelde-verbouwing-box-3-en-geen-bezuinigingen-op-uitkeringen/162197011.html"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "VVD wants face coverings banned at protests; D66 objects",
+   "summary": "Coalition party VVD is pushing to write a ban on face-covering clothing at demonstrations into law, but partner D66, mayors and civil servants oppose it, Trouw reported on Saturday.",
+   "body": [
+    "VVD MP Claire Martens-America wants to add the ban to a bill updating the right to demonstrate, due in parliament early next year. A parliamentary majority supports the idea in principle, so the VVD could get its way. She told Trouw it is not normal in a state under the rule of law for masked people to pull up paving stones and throw them at police.",
+    "D66 MP Joost Sneller countered that mayors can already ban face coverings when there is reason to, and noted that the VVD usually stresses leaving such judgements to police and mayors. He said the mayors' view that current powers suffice matters when rights are being restricted.",
+    "A similar bill from former justice minister Foort van Oosten in the Schoof cabinet stalled over practical objections."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/26/vvd-pushes-statutory-ban-face-coverings-protests-d66-resists"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Policy",
+   "h3": "Pro elects ex-FNV leader Kitty Jong as first party chair",
+   "summary": "Members of Pro, the merged GroenLinks-PvdA party, elected Kitty Jong as their first chair and voted to join the Party of European Socialists, results showed on Saturday 26 September.",
+   "body": [
+    "In a membership referendum from 18 to 25 September, about 38,700 members voted, a turnout of just over 35 percent against a required 15 percent. More than 65 percent backed affiliating with the Party of European Socialists, whose MEPs sit in the S&D group.",
+    "Jong, a former vice chair of the FNV trade union, beat former PvdA MP and Oxfam Novib director Michiel Servaes and RoodGroen founder Frank van de Wolde. She said Pro must grow into a broader left-wing people's party and hit out at the VVD and JA21 leaders for branding it extreme.",
+    "MEP Mohammed Chahim said Pro's MEPs would keep working from both the Greens and S&D groups until the 2029 European elections."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/26/pro-elects-kitty-jong-first-chair-joins-european-socialists"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "Record petrol prices cut household fuel buying by 10 litres a month",
+   "summary": "Dutch households have bought about ten litres less fuel a month since the Iran war began, a 12 percent drop, ABN Amro data reported by FD on Sunday show.",
+   "body": [
+    "ABN Amro analysed debit card payments at filling stations by about 240,000 car-owning households and found fuel purchases down around 12 percent year on year. Motorists are also switching more often to cheaper stations, especially across the border. The recommended petrol price hit a record 2.727 euros a litre on Friday.",
+    "ING reported a similar trend, with litres sold through 10 September about five percent below a year earlier. Both private and company-car drivers have changed their behaviour.",
+    "Weekday daytime congestion fell seven percent between March and August, possibly because people make fewer leisure trips. Sales of used electric cars jumped when the war started, but there is no sign of a mass switch to EVs."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/27/households-buy-10-liters-less-fuel-month-gasoline-prices-hit-historic-highs"
+    ],
+    [
+     "FD",
+     "https://fd.nl/economie/1612354/ander-tankgedrag-door-torenhoge-benzineprijs-minder-liters-vaker-bij-goedkopere-pomp"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "Online order values fall for first time since the pandemic",
+   "summary": "The average Dutch online purchase fell 3 percent to 100 euros in the first half of 2026, the first drop since Covid, industry body Thuiswinkel.org said.",
+   "body": [
+    "Dutch consumers made more than 170 million online purchases in the first six months of 2026, up three percent on a year earlier, but total online spending was flat at 17.1 billion euros, according to Thuiswinkel.org figures reported on Sunday 27 September.",
+    "One in seven online purchases is now made abroad, with China the fastest-growing market thanks to AliExpress and Temu. Nearly half of all online purchases are made on smartphones, with an average spend of 80 euros against 126 euros on laptops and desktops.",
+    "Online sales still account for about 11 percent of all retail purchases, a share that has been stable for years."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/27/dutch-shoppers-spend-less-per-order-first-time-since-covid-19-pandemic"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "Credit Agricole's investment bank opens Amsterdam office",
+   "summary": "Credit Agricole Corporate and Investment Bank is opening an office in Amsterdam, citing opportunities in Dutch energy, infrastructure and technology, it was reported on Sunday.",
+   "body": [
+    "The subsidiary of the French banking group said the Netherlands hosts some of Europe's most ambitious investment programmes. The Amsterdam office, led by country representative Erik Brommer, will serve Dutch companies and international firms operating in the country as part of a wider Benelux expansion.",
+    "Credit Agricole CIB describes itself as the world's ninth-largest investment bank, operating in more than 35 countries with 10,776 employees. Its services include IPO and M&A advice, financing and green bond issuance."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/27/french-bank-credit-agricole-corporate-investment-bank-opens-amsterdam-office"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "A27 Merwede Bridge reopens early after 400-tonne weight cut",
+   "summary": "Rijkswaterstaat reopened the Merwede Bridge near Gorinchem on Sunday, ahead of the planned Monday morning, after replacing its asphalt with a lighter layer.",
+   "body": [
+    "The 65-year-old bridge on the A27 closed on Thursday evening so crews could lay thinner asphalt, removing about 400 tonnes. The weight saving is meant to keep the span safely in use until a new Merwede Bridge is built.",
+    "A 70 km/h speed limit now applies because of height differences that can form at the expansion joints. The ban on trucks and coaches, in force since July after inspectors found the structure weaker than expected, remains in place.",
+    "Around 18,000 trucks a day used to cross the bridge. Traffic fell sharply after the ban but did not stop entirely, and police ran enforcement checks in August."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/27/merwede-bridge-a27-reopens-early-finish-weight-cutting-work"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "Maastricht University suspends Gazan student over 7 October video",
+   "summary": "Maastricht University provisionally suspended a student from Gaza after he posted an Instagram video on Saturday appearing to claim he took part in the Hamas attack of 7 October 2023.",
+   "body": [
+    "In the since-deleted video, the 22-year-old reportedly watched footage of the attack, pointed at masked men and said 'this is me', De Telegraaf reported. Whether he actually took part has not been confirmed. About 1,200 people were killed in the attack.",
+    "The university confirmed the post and said the student may not attend classes while it decides whether and under what conditions he can continue. It said the post and reactions to it could cause concern and unrest among students.",
+    "According to De Telegraaf, the student has around 30,000 Instagram followers and has also posted jihadist gestures and a message about the death of a brother in Jabalia."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/27/maastricht-university-suspends-gazan-student-post-claiming-oct-7-israel-attack"
+    ],
+    [
+     "De Telegraaf",
+     "https://www.telegraaf.nl/binnenland/gazaanse-student-22-in-maastricht-geschorst-na-filmpje-over-deelname-aan-hamas-aanslagen-in-israel-dit-ben-ik/162218242.html"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "Hospitals banned 281 aggressive patients last year, more in 2026",
+   "summary": "Dutch hospitals blacklisted patients at least 281 times in 2025 and already 205 times in the first seven months of 2026, an RTL survey of 41 hospitals published on Sunday found.",
+   "body": [
+    "Spitting, kicking, punching, intimidation and death threats can all lead to a hospital ban. Seven hospitals have already issued more bans in 2026 than in all of last year. Health law professor Martin Buijsen of Erasmus University said care providers may only end a treatment relationship for compelling reasons and usually must first issue a warning.",
+    "Noordwest Ziekenhuisgroep pointed to stress, worry, long waits, confusion, mental health problems and substance use as triggers. Rijnstate in Arnhem said visitors have shorter fuses and that social polarisation is visible on the wards, adding that police often drop complaints for lack of capacity.",
+    "The Dutch Patients Federation called the aggression unacceptable and urged clearer communication to defuse tension, warning that staff may leave the profession and worsen shortages."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/27/hospitals-banned-nearly-300-patients-last-year-due-aggression-towards-staff"
+    ],
+    [
+     "RTL Nieuws",
+     "https://www.rtl.nl/nieuws/binnenland/artikel/5655031/ziekenhuizen-agressie-verbod-zwarte-lijst-agressief-gedrag"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "NDSM shooter and victim may have met in prison, Parool reports",
+   "summary": "The 61-year-old prison officer shot dead on a crowded NDSM terrace on Friday may have known his alleged killer, 37-year-old Amin D., from the Zaanstad prison complex, Het Parool reported on Sunday.",
+   "body": [
+    "Insiders told Het Parool that the victim, Marcel, had worked at the Judicial Complex Zaanstad for more than 30 years, and that Amin D. had previously been held there and at the Bijlmerbajes. Police have not confirmed a link.",
+    "Acquaintances described D. as known in Amsterdam-Noord neighbourhoods such as Molenwijk, with a record of serious violence including an attempted killing. Sources called him a weapons fanatic.",
+    "The two argued around 15:00 on Friday about D.'s loose dog before he drew a pistol and shot Marcel, threw the gun into the water, leashed his dog and waited for police. The family has asked media not to publish Marcel's full name."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/27/victim-ndsm-shooting-amsterdam-noord-may-known-killer-prison"
+    ],
+    [
+     "Het Parool",
+     "https://www.parool.nl/misdaad/schutter-die-op-vol-terras-marcel-61-doodschoot-is-37-jarige-amin-d-uit-amsterdam-noord~b012524b/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "Late September heat could break records, up to 30C midweek",
+   "summary": "Weeronline forecasts highs of 25 to 28 degrees across much of the country on Tuesday and Wednesday, with local peaks of 30, potentially breaking late September records.",
+   "body": [
+    "Monday starts milder in the west and north at 19 to 20 degrees with clouds and occasional light rain, while Utrecht to Enschede reaches 21 to 24 and Limburg around 25 degrees, according to the forecast published on Sunday 27 September.",
+    "Tuesday and Wednesday will be warmer everywhere, with large parts of the country above 25 degrees. Late September normally averages about 17 degrees and De Bilt has never recorded 25 degrees in the final days of the month.",
+    "Showers and possible thunderstorms move in from the west on Wednesday evening. After that highs settle around 20 degrees, with Thursday the cloudiest and wettest day."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/27/late-september-heat-might-break-dutch-records-highs-set-reach-28degc-midweek"
+    ],
+    [
+     "Weeronline",
+     "https://www.weeronline.nl/nieuws/27-9-2026-weekverwachting"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "Amnesty drive collects over 4,000 kg of fireworks before ban",
+   "summary": "A government campaign letting people hand in fireworks anonymously and fine-free has collected more than 4,000 kilograms, the Justice Ministry said on Sunday.",
+   "body": [
+    "Enschede recorded the biggest haul with more than 686 kilograms on Monday, followed by Deventer (334 kg), Rotterdam (190 kg), Assen (114.7 kg) and Emmen (61.5 kg). The campaign runs until 9 October, with collection points still open in cities including Amsterdam, Zwolle, Leiden, Haarlem and Groningen.",
+    "Consumer fireworks are banned nationwide this New Year, with only small items such as sparklers allowed. Associations can seek exemptions if they hold no more than 200 kilograms, have a safety plan and two trained supervisors.",
+    "More than 150 municipalities, among them Amsterdam, Rotterdam, Utrecht and Maastricht, say they will not grant exemptions, citing unclear rules and a lack of staff. Just over ten are willing to."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/27/dutch-campaign-collects-4000-kilograms-fireworks-ahead-national-ban"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Society & Culture",
+   "h3": "Rarely lent Matisse works arrive at Amsterdam's H'ART Museum",
+   "summary": "H'ART Museum has begun installing 'Chez Matisse', a show of 80 works from the Centre Pompidou that runs from 3 October to 14 February.",
+   "body": [
+    "The exhibition includes 37 paintings, sculptures and graphic works by Henri Matisse, plus pieces by contemporaries and artists he influenced such as Picasso, Barnett Newman and Mark Rothko. The loans are possible because the Centre Pompidou in Paris is closed for renovation.",
+    "Highlights include Figure decorative sur fond ornemental (1925-1926) and La Blouse roumaine (1940), which has left the Pompidou only once before. Curator Brigit Boelens said Matisse broke with every academic tradition.",
+    "It is only the third Matisse exhibition on this scale in the Netherlands, and the first since 2015."
+   ],
+   "sources": [
+    [
+     "NL Times",
+     "https://nltimes.nl/2026/09/27/rarely-lent-matisse-art-shown-hart-museum-amsterdam-oct-3-feb-14"
+    ]
+   ]
+  }
+ ]
 }

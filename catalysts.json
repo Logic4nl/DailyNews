@@ -1,6 +1,51 @@
 {
- "note": "Curated dated event stream. THESIS = signed deal / financing / filing on a held name. MACRO = beta, rates, geopolitics. Held-name items pin above macro. Add new items on top; collapse repeats. Refreshed 2026-08-30.",
+ "note": "Curated dated event stream. THESIS = signed deal / financing / filing on a held name. MACRO = beta, rates, geopolitics. Held-name items pin above macro. Add new items on top; collapse repeats. Refreshed 2026-09-28.",
  "items": [
+  {
+   "date": "2026-09-28",
+   "ticker": "MACRO",
+   "relevance": "MACRO",
+   "text": "Week ahead: August PCE (Wed) and September payrolls (Fri) are the first major US prints since the Fed's 16 September hike; JOLTS and consumer confidence Tuesday, ISM manufacturing Thursday. The US 10-year yield closed the prior week at its highest level since 2007.",
+   "source": "CMC Markets / CNBC",
+   "trust": "confirmation",
+   "url": "https://www.cmcmarkets.com/en-gb/news-and-analysis/the-week-ahead-us-pce-jobs-report-micron-earnings"
+  },
+  {
+   "date": "2026-09-26",
+   "ticker": "IREN",
+   "relevance": "THESIS",
+   "text": "JPMorgan double-upgraded IREN from Underweight to Overweight with a 65 dollar target (from 46), modelling about 2,065 MW and roughly 24 billion dollars of annual revenue by 2030 at about 13 million dollars per MW. Upgrade date not confirmed from the primary note.",
+   "source": "24/7 Wall St. / TheStreet",
+   "trust": "confirmation",
+   "url": "https://www.thestreet.com/investing/stocks/jpmorgan-double-upgrades-iren-stock"
+  },
+  {
+   "date": "2026-09-25",
+   "ticker": "CIFR",
+   "relevance": "THESIS",
+   "text": "Cipher Digital amended its Barber Lake lease with Fluidstack and added a binding 10-year follow-on lease from an unnamed leading AI lab, taking the site term to 20 years and contracted revenue from about 3.8 billion to over 9 billion dollars. Cipher absorbs the first 359.3 million dollars of any cost overrun above budget.",
+   "source": "Cipher Digital press release (GlobeNewswire)",
+   "trust": "high",
+   "url": "https://www.globenewswire.com/news-release/2026/09/25/3369064/0/en/cipher-digital-expands-barber-lake-lease-term-to-20-years-increasing-revenue-to-over-9-billion.html"
+  },
+  {
+   "date": "2026-09-23",
+   "ticker": "CIFR",
+   "relevance": "THESIS",
+   "text": "UBS initiated Cipher, Core Scientific, Applied Digital, TeraWulf and Hut 8 at Buy, estimating the ex-miner group has leased about 5 GW (roughly 125 billion dollars of contracted revenue) with 12 GW of expansion potential.",
+   "source": "Benzinga / Proactive Investors",
+   "trust": "confirmation",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/initiation/26/09/61951090/hut-8-terawulf-applied-digital-ubs-sees-at-least-30-upside"
+  },
+  {
+   "date": "2026-09-23",
+   "ticker": "SLNH",
+   "relevance": "THESIS",
+   "text": "Soluna presented at the Water Tower Research conference on its stranded-renewables AI/HPC model; conditionally classified ERCOT base load in Texas totals 266 MW (Dorothy 100 MW plus Kati 166 MW). No named hyperscaler tenant for Kati 2 disclosed, so the year-end trim rule stays ARMED.",
+   "source": "Investing.com transcript",
+   "trust": "confirmation",
+   "url": "https://www.investing.com/news/transcripts/soluna-holdings-at-water-tower-research-ai-push-gains-ground-93CH-4913717"
+  },
   {
    "date": "2026-09-08",
    "ticker": "MACRO",
