@@ -2,275 +2,201 @@
  "sports": [
   {
    "hero": true,
-   "sub": "Football",
-   "h3": "Meerdink double hands Xavi first Oranje win in Belgrade",
-   "summary": "The Netherlands beat Serbia 2-1 in the Nations League on Sunday 27 September, with Mexx Meerdink scoring both goals in his breakout international night.",
+   "sub": "Tennis",
+   "h3": "Zverev and Djokovic on quarter-final course in Beijing",
+   "summary": "Monday's China Open draw puts US Open champion Zverev and six-time winner Djokovic in the same quarter.",
    "body": [
-    "Mexx Meerdink made himself the story of Xavi Hernandez's second match in charge of the Netherlands, scoring twice as Oranje won 2-1 against Serbia at the Rajko Mitic Stadium in Belgrade on Sunday 27 September. The result gave Xavi his first victory as national coach, three days after his debut ended in a 1-1 draw with Germany.",
-    "The Dutch went ahead on 30 minutes when Aleksa Terzic was penalised for bringing down Crysencio Summerville and Meerdink converted the penalty for his first senior international goal. Serbia coach Veljko Paunovic sent on Dusan Tadic and Luka Jovic at half-time and Jovic equalised within a minute of the restart after Bart Verbruggen had twice kept out close-range efforts.",
-    "Ruben van Bommel then hit the post and Tijjani Reijnders fired over from a free position before Meerdink restored the lead in the 69th minute, running onto a pass from Guus Til and finishing with his left foot. Jovic headed just wide late on. The one worry for Xavi was Cody Gakpo, who was forced off injured in the first half.",
-    "According to Flashscore, the win stretches the Dutch unbeaten run in competitive games after 90 minutes to 18 matches, and they have not lost any of their last 12 away games in regulation time. Serbia have now lost four in a row across all competitions."
+    "Top seed Zverev opens against lefty Cameron Norrie, while Djokovic, unbeaten in 29 Beijing matches, starts against Nuno Borges on his first visit since 2015.",
+    "With Sinner absent and dropping 500 points, Zverev can close in on the year-end No. 1 spot. Medvedev faces a qualifier and Mensik meets Bublik in round one."
    ],
    "sources": [
     [
-     "Flashscore",
-     "https://www.flashscore.com/news/soccer-uefa-nations-league-serbia-netherlands-report-27-09-2026/pGYbs6Xa/"
+     "ATP Tour",
+     "https://www.atptour.com/en/news/beijing-draw-2026-preview"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Tennis",
+   "h3": "Alcaraz opens Tokyo defence against Michelsen",
+   "summary": "The champion meets the in-form US Open quarter-finalist first up, while Nishikori plays Tiafoe in his Tokyo farewell.",
+   "body": [
+    "Alcaraz, back from a wrist injury, could face Tommy Paul in the quarters and Taylor Fritz in a repeat of last year's final. Michelsen has never played him.",
+    "Two-time champion Kei Nishikori is competing in Tokyo for the final time against second seed Tiafoe. Holger Rune returns to the tour against Kyrian Jacquet after his Achilles injury."
+   ],
+   "sources": [
+    [
+     "ATP Tour",
+     "https://www.atptour.com/en/news/tokyo-2026-draw-preview"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Tennis",
+   "h3": "Rybakina tops China Open field, Gauff and Swiatek could clash",
+   "summary": "The WTA 1000 draw in Beijing sets up a possible quarter-final between two former champions.",
+   "body": [
+    "World No. 1 and US Open winner Rybakina leads the 96-player field ahead of Sabalenka, Gauff and Andreeva. Swiatek leads Gauff 11-5 but lost their only 2026 meeting.",
+    "Main draw play starts Wednesday 30 September after qualifying ends today. Sabalenka could meet Osaka in the last eight for the fifth time this season."
+   ],
+   "sources": [
+    [
+     "WTA",
+     "https://www.wtatennis.com/news/4582857/beijing-draw-past-champions-iga-swiatek-coco-gauff-could-meet-in-china-open-quarters"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Tennis",
+   "h3": "Medvedev and Rublev meet in Hangzhou final",
+   "summary": "The top two seeds contest the title on Tuesday after straight-sets semi-final wins.",
+   "body": [
+    "Rublev beat Kyrian Jacquet 7-6, 6-1 for his 400th tour-level win, while Medvedev saw off Roman Safiullin 7-5, 6-4 without dropping a set all week.",
+    "Medvedev leads the head-to-head 8-2 and won all three of their 2023 meetings in straight sets. Both head to Beijing next."
+   ],
+   "sources": [
+    [
+     "ATP Tour",
+     "https://www.atptour.com/en/news/hangzhou-2026-semi-final-report"
     ],
     [
-     "VAVEL",
-     "https://www.vavel.com/en-us/soccer/2026/09/27/1272983-serbia-vs-netherlands-live-score-uefa-nations-league.html"
+     "Last Word On Sports",
+     "https://lastwordonsports.com/tennis/2026/09/28/atp-hangzhou-final-prediction-medvedev-rublev/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Formula 1",
+   "h3": "Verstappen awaits engine verdict before Sepang",
+   "summary": "Red Bull is still analysing Verstappen's power unit, while Colapinto already carries a five-place grid drop.",
+   "body": [
+    "No penalty has been decided for Verstappen yet, but an engine change could push him down the grid. Colapinto was penalised for the Baku crash that eliminated Norris and Gasly.",
+    "F1 returns to track at Sepang on Friday 2 October. Rain risk and a heat index near 40C are forecast for the relocated Bahrain Grand Prix."
+   ],
+   "sources": [
+    [
+     "Grande Premio",
+     "https://grandepremio.com/en/f1/f1-today-20260928-hamilton-ferrari-baku-sepang/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Formula 1",
+   "h3": "Norris apologises to Colapinto and drops ban call",
+   "summary": "The McLaren driver walked back his demand for a race ban after their Baku collision.",
+   "body": [
+    "Norris had called for Colapinto to be banned after being taken out in Azerbaijan. He has now apologised and withdrawn that call.",
+    "McLaren are expected to be strong at high-speed Sepang. Cadillac is separately investigating Bottas's late Baku crash."
+   ],
+   "sources": [
+    [
+     "Grande Premio",
+     "https://grandepremio.com/en/f1/norris-apologises-to-colapinto-and-withdraws-call-for-race-ban-after-baku-crash/"
     ],
     [
      "ESPN",
-     "https://www.espn.com/soccer/match/_/gameId/401861068"
+     "https://www.espn.com/f1/story/_/id/49971200/bahrain-grand-prix-malaysia-2026-circuit-sepang-race-f1-start-s-how-watch-schedule-usa-tv-channel-live-stream-predictions-results"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Formula 1",
+   "h3": "Russell says his title form came too late",
+   "summary": "Fresh from winning in Baku, Russell admitted his best form arrived late in the season.",
+   "body": [
+    "Russell trails Mercedes teammate Antonelli 302 to 236 after cutting the gap by 15 points in Azerbaijan. He believes an earlier peak would have left him better placed.",
+    "Sepang hosts its first F1 race since 2017 on Sunday. Pirelli has brought the C2 to C4 compounds for an abrasive surface that has not been resurfaced."
+   ],
+   "sources": [
+    [
+     "Grande Premio",
+     "https://grandepremio.com/en/f1/russell-admits-2026-f1-title-form-arrived-late-after-baku-win/"
+    ],
+    [
+     "Formula 1",
+     "https://www.formula1.com/en/racing/2026/bahrain"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Football",
-   "h3": "Greece stun Klopp's Germany to top Oranje's Nations League group",
-   "summary": "Greece won 1-0 in Augsburg on Sunday 27 September, their first ever victory over Germany, and lead Group A2 after two wins from two.",
+   "h3": "Xavi demands better pressing before Greece trip",
+   "summary": "After a first win in Serbia, the Oranje coach wants a sharper press when his side visits group leaders Greece on Thursday.",
    "body": [
-    "The Netherlands' group took a surprising turn on Sunday 27 September when Greece beat Germany 1-0 in Augsburg. It was Greece's first win over Germany in the history of the fixture and left Jurgen Klopp without a victory in his first two games as German head coach.",
-    "Germany, who made five changes after their 1-1 draw in the Netherlands, dominated possession but struggled to create clear chances. Karim Adeyemi was their most dangerous forward, shooting over after a run into the box and forcing a save from distance.",
-    "The decisive moment came in the 74th minute. Christos Tzolis broke down the left and his cutback reached Dimitrios Kourbelis on the edge of the area, whose shot deflected off Joshua Kimmich and past goalkeeper Alexander Nubel. Konstantinos Mavropanos was named man of the match."
+    "Xavi said the three points mattered most but admitted the first-half pressing in Belgrade was poor. He praised two-goal Mexx Meerdink for his work rate as well as his finishing.",
+    "The Netherlands play in Greece on 1 October, then host Serbia on 4 October. PSV defender Geertruida has left the camp injured and was not replaced."
    ],
    "sources": [
     [
-     "Flashscore",
-     "https://www.flashscore.com/news/soccer-uefa-nations-league-germany-greece-report-27-09-2026/vwfYe5ng/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Tennis",
-   "h3": "Zverev clinches Laver Cup as Team Europe win 13-5 in London",
-   "summary": "Alexander Zverev beat Learner Tien 7-6(3), 6-3 at The O2 on Sunday 27 September to seal the Laver Cup for Team Europe.",
-   "body": [
-    "Team Europe reclaimed the Laver Cup on Sunday 27 September, finishing 13-5 winners over Team World at The O2 in London. Carrying a 7-5 lead into the final day, when each match is worth three points, Europe needed two wins and got them in the first two matches.",
-    "Flavio Cobolli and Jakub Mensik opened the day by beating Alex de Minaur and Taylor Fritz 7-5, 6-3 in doubles after recovering from an early break. It was Cobolli's first Laver Cup win at his third appearance, while Mensik finished the week unbeaten in doubles after also partnering Carlos Alcaraz on Friday.",
-    "Zverev then closed it out against Team World debutant Learner Tien. The American saved three break points at 5-5 in the first set and forced a tiebreak, which Zverev controlled. The German broke for 3-2 in the second set, saved another triple break point at 4-2 and served out the match in 1 hour 49 minutes, with Alcaraz waiting as the next singles player."
-   ],
-   "sources": [
-    [
-     "Laver Cup",
-     "https://lavercup.com/news/2026/09/27/zverev-again-clinches-laver-cup-for-team-europe"
+     "Goal",
+     "https://www.goal.com/en-ca/lists/netherlands-xavi-tactical-shift-serbia/blt6bd733b6820fa40e"
     ],
     [
-     "ATP Tour",
-     "https://www.atptour.com/en/news/laver-cup-2026-sunday-report"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Tennis",
-   "h3": "Noskova and Muchova win Billie Jean King Cup for Czechia",
-   "summary": "Czechia beat first-time finalists Ukraine 2-0 in Shenzhen on Sunday 27 September to claim a 12th Billie Jean King Cup title.",
-   "body": [
-    "The two players who met in this year's Wimbledon final joined forces to deliver the Billie Jean King Cup for Czechia on Sunday 27 September. Karolina Muchova beat Anhelina Kalinina 6-2, 6-3 before Wimbledon champion Linda Noskova sealed a 2-0 win over Ukraine by defeating Elina Svitolina 6-3, 7-6(5) in Shenzhen.",
-    "Noskova converted her third match point with a big serve and forehand, finishing with 10 aces to Svitolina's six. She went unbeaten through the competition, and Czechia never needed a deciding doubles rubber all week after also shutting out Britain in the quarterfinals and Spain in the semifinals.",
-    "It is Czechia's 12th title in the event formerly known as the Fed Cup and the first since 2018. Only the United States, with 18, have won more. Captain Barbora Strycova, who won six titles as a player, became the fourth woman to win as both player and captain after Margaret Court, Chris Evert and Billie Jean King."
-   ],
-   "sources": [
-    [
-     "AP via ClickOnDetroit",
-     "https://www.clickondetroit.com/sports/2026/09/27/wimbledon-finalists-noskova-and-muchova-secure-the-billie-jean-king-cup-title-for-czechia/"
-    ],
-    [
-     "Billie Jean King Cup",
-     "https://www.billiejeankingcup.com/en/news/live-ukr-v-cze-2026-billie-jean-king-cup-final"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Tennis",
-   "h3": "Fernandez takes Singapore, Birrell wins first title in Seoul",
-   "summary": "Leylah Fernandez won the Singapore Tennis Open and Kimberly Birrell claimed her maiden WTA title at the Korea Open, both on Sunday 27 September.",
-   "body": [
-    "Leylah Fernandez won the last nine games of the Singapore Tennis Open final on Sunday 27 September, beating first-time finalist Talia Gibson 7-5, 6-0 in 1 hour 38 minutes. Gibson had a set point at 5-4 in the opener but never got another chance. It is the Canadian's sixth career title and second at WTA 500 level, after a week in which she beat top seed Mirra Andreeva and came from a set down against Maja Chwalinska.",
-    "Fernandez had arrived in Singapore with a 17-23 record for the season. Three of her six titles have now come in Asia: Hong Kong 2023, Osaka 2025 and Singapore 2026.",
-    "In Seoul, 28-year-old Kimberly Birrell finally won a tour-level singles title at the third attempt, beating fellow Australian Maya Joint 6-4, 6-2 in the first all-Australian WTA final since 2017. Birrell recovered from an early break, converted six of ten break points and profited from 41 unforced errors by Joint."
-   ],
-   "sources": [
-    [
-     "WTA",
-     "https://www.wtatennis.com/news/4582367/fernandez-wins-final-eight-games-to-claim-sixth-career-title-in-singapore"
-    ],
-    [
-     "WTA",
-     "https://www.wtatennis.com/news/4582300/birrell-wins-first-wta-tour-singles-title-in-all-australian-final"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Tennis",
-   "h3": "Pegula and holder Anisimova pull out of China Open",
-   "summary": "World number 3 Jessica Pegula and defending champion Amanda Anisimova have withdrawn from Beijing, where qualifying starts on 28 September.",
-   "body": [
-    "The China Open has lost two of its biggest names before a ball is struck in the main draw. World number 3 Jessica Pegula and defending champion Amanda Anisimova both withdrew with ongoing injuries, the WTA said, with Marta Kostyuk and Sorana Cirstea also pulling out.",
-    "Anisimova has a left wrist problem that already forced her out of the Singapore Tennis Open, while Pegula's injury was not specified. Beijing would have been the first event for both since the US Open, where Pegula reached the semifinals. Anisimova won the title in 2025, the second WTA 1000 crown of her career.",
-    "The list of withdrawals now also includes Madison Keys, McCartney Kessler, Zhang Shuai, Karolina Pliskova, Emma Raducanu and Hanne Vandewinkel. Qualifying runs on 28 and 29 September and the 96-player main draw begins on Wednesday 30 September. It is the second-to-last WTA 1000 event of the season."
-   ],
-   "sources": [
-    [
-     "WTA",
-     "https://www.wtatennis.com/news/4581969/jessica-pegula-defending-champion-amanda-anisimova-withdraw-from-china-open-with-injuries"
-    ],
-    [
-     "ATP Tour",
-     "https://www.atptour.com/en/news/tokyo-atp-500-2026-history-draw-schedule"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Formula 1",
-   "h3": "Antonelli leads by 66 as F1 heads to Bahrain GP at Sepang",
-   "summary": "Kimi Antonelli's title lead over George Russell stands at 66 points after Baku, with the relocated Bahrain Grand Prix at Sepang next on 4 October.",
-   "body": [
-    "After the Saturday race in Baku on 26 September, Kimi Antonelli leads Mercedes teammate George Russell by 66 points with eight rounds left, and no other driver is within 100 points. The standings show Antonelli on 302, Russell on 236 and Lewis Hamilton third on 199.",
-    "Antonelli admitted he drove in damage limitation mode in Azerbaijan. A hydraulics issue in first practice, a power unit change and a rare qualifying crash left him 16th on the grid, and contact with Oliver Bearman at a safety car restart cost him most of the left side of his floor. He still recovered to fifth, losing 15 points to the race winner.",
-    "The next round is the Bahrain Grand Prix, cancelled in March because of the war in the Middle East and now rescheduled for 4 October at Sepang in Malaysia. Singapore follows on 11 October with the season's final sprint, and Qatar and Abu Dhabi remain on the calendar despite continuing uncertainty."
-   ],
-   "sources": [
-    [
-     "RacingNews365",
-     "https://racingnews365.com/when-can-kimi-antonelli-win-the-2026-f1-drivers-world-championship"
-    ],
-    [
-     "RacingNews365",
-     "https://racingnews365.com/kimi-antonelli-reveals-mindset-shift-as-he-drove-like-his-grandmother"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Formula 1",
-   "h3": "Bortoleto penalised in Baku despite FIA marshal error",
-   "summary": "Stewards gave Audi's Gabriel Bortoleto a 10-second penalty for passing under yellow flags, while admitting wrong safety car boards added to the confusion.",
-   "body": [
-    "The Azerbaijan Grand Prix classification changed again after the race when Audi driver Gabriel Bortoleto received a 10-second time penalty, dropping him from 13th to 15th. The ruling was confirmed on Sunday 27 September.",
-    "The incident happened between turns six and seven on the first lap after the opening safety car restart. Marshals in that sector were showing physical SC boards alongside waved yellow flags, even though race control had not deployed the safety car. Bortoleto said he saw no electronic signal or steering wheel warning and his team told him there was no safety car, so he passed Sergio Perez.",
-    "The stewards accepted that the conflicting signals contributed significantly and cleared him of breaching safety car rules. However, they ruled that a waved yellow flag is an instruction in its own right and must be respected regardless of any other signal, and applied the standard penalty for overtaking under single yellows."
-   ],
-   "sources": [
-    [
-     "GPFans",
-     "https://www.gpfans.com/en/f1-news/1090788/f1-gabriel-bortoleto-penalty-despite-fia-safety-car-error-azerbaijan-grand-prix/"
-    ],
-    [
-     "PlanetF1",
-     "https://www.planetf1.com/news/fia-azerbaijan-grand-prix-gabriel-bortoleto-investigation"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Formula 1",
-   "h3": "Hamilton bristles at claim Ferrari have slipped to fourth",
-   "summary": "Lewis Hamilton finished sixth in Baku, 22.382 seconds off the winner, and rejected suggestions that Ferrari are now only the fourth-fastest team.",
-   "body": [
-    "Lewis Hamilton had a lonely Azerbaijan Grand Prix on 26 September, qualifying sixth and finishing sixth, 22.382 seconds behind race winner George Russell. On Baku's 2.2-kilometre flat-out section, Ferrari's known straight-line speed deficit left him unable to challenge the cars ahead or defend easily from those behind.",
-    "He told reporters, including RacingNews365, that he spent most of the race in no man's land and that there was little he could do on the straights. Ferrari have acknowledged a power unit shortfall to Mercedes this season, even though the SF-26 chassis is still strong in the corners.",
-    "Asked whether Ferrari had now fallen to fourth in the pecking order behind Mercedes, Red Bull and McLaren, Hamilton pushed back, saying he did not see why he should agree and that Ferrari had at least beaten McLaren on the day. Ferrari are expected to bring a further upgrade before the end of the season."
-   ],
-   "sources": [
-    [
-     "RacingNews365",
-     "https://racingnews365.com/lewis-hamilton-hits-back-after-ferrari-baku-disappointment-why-would-i-agree"
-    ],
-    [
-     "GPFans",
-     "https://www.gpfans.com/en/f1-news/1090484/f1-schedule-2026-september-azerbaijan-middle-east-conflict/"
+     "FCUpdate",
+     "https://www.fcupdate.nl/voetbalnieuws/2026/09/geertruida-verlaat-oranje-selectie-xavi-roept-geen-vervanger-op"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Sailing",
-   "h3": "Luna Rossa crush Team New Zealand to win Naples regatta",
-   "summary": "Luna Rossa won both fleet races and the match race final against Emirates Team New Zealand on Sunday 27 September to take the America's Cup Preliminary Regatta in Naples.",
+   "h3": "Tienpont and Walta reach double-handed worlds final",
+   "summary": "The Dutch pair qualified directly for Wednesday's winner-takes-all offshore final in Marseille.",
    "body": [
-    "Luna Rossa turned their overnight lead into a complete win on the final day of the Louis Vuitton 38th America's Cup Preliminary Regatta in Naples on Sunday 27 September. In 11 to 14 knot sea breezes the Italian AC40 won both fleet races and then beat defenders Emirates Team New Zealand in the match race final, never trailing at a single mark all day.",
-    "Peter Burling and Marco Gradoni took the upper hand in the pre-start of the final when the Kiwis, helmed by Nathan Outteridge and Seb Menzies, tacked too late for the right side of the course. Luna Rossa covered every move, led by more than 200 metres on the last upwind leg and crossed the line around 350 metres ahead in front of huge crowds in the race village.",
-    "La Roche-Posay Racing Team took third overall. Tudor Team Alinghi, third overnight, faded after a costly gybe, and skipper Paul Goodison said the team were one manoeuvre away from a good result. The British GB1 crew said their focus had been on getting their AC75 sailing rather than on AC40 racing."
+    "Simeon Tienpont and Christiane Walta took fourth in the opening 90-mile qualifier after a bold starboard-tack call. France's Pratt and Radulic won it, and Belgium led the second qualifier.",
+    "Eleven Sun Fast 30 crews will contest a planned 48-hour final, with the event ending on 2 October. The final spot was due to be decided in Monday's repechage."
    ],
    "sources": [
     [
-     "Sail-World",
-     "https://www.sail-world.com/news/300230/Americas-Cup-Preliminary-Regatta-2-Overall"
+     "World Sailing",
+     "https://www.sailing.org/2026/09/25/exciting-first-day-of-racing-in-marseille-ends-with-the-french-flag-flying-high/"
     ],
     [
-     "Reuters via 93.3 The Drive",
-     "https://www.933thedrive.com/2026/09/27/sailing-italy-dominate-to-win-americas-cup-run-up-regatta-in-naples/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Sailing",
-   "h3": "Kiwi youth crew edge Luna Rossa 2 to Women and Youth title",
-   "summary": "Emirates Team New Zealand Women and Youth won their division in Naples on 27 September, while ARC Team USA impressed on debut.",
-   "body": [
-    "Behind the headline battle in Naples, the Women and Youth title went down to the last leg of the final fleet race on Sunday 27 September. Jake Pye and co-helm Erica Dawson for Emirates Team New Zealand Women and Youth stayed just ahead of Luna Rossa 2, sailed by Margherita Porro and Max Antoniazzi, and gybed on the line to take the title.",
-    "Pye said he did not know the points situation until the final race and admitted the team had a few hiccups, but saw the win as a marker for next year's Youth and Women's America's Cup events.",
-    "The new American challenger ARC Team USA, which won the first race of the regatta on day one, described its week as a rollercoaster. Co-helm Lucas Calabrese said many of their mistakes were self-inflicted and could be fixed. French skipper Quentin Delapierre praised La Roche-Posay's speed but said two capsizes had cost the team."
-   ],
-   "sources": [
-    [
-     "Sail-World",
-     "https://www.sail-world.com/news/300230/Americas-Cup-Preliminary-Regatta-2-Overall"
-    ],
-    [
-     "Sail-World Day 1",
-     "https://www.sail-world.com/news/300183/Americas-Cup-Preliminary-Regatta-2-Day-1"
+     "DutchSail",
+     "https://www.dutchsail.com/nieuws/2026/9/23/tienpont-en-walta-klaar-voor-wk-offshore-double-handed-in-marseille"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "BJJ & Judo",
-   "h3": "Rider Zuchi banned three years, stripped of 2026 world title",
-   "summary": "USADA confirmed a three-year ban for the IBJJF heavyweight world champion after a positive test, as ADCC stars head to the No-Gi Pans from 2 October.",
+   "h3": "Musumeci wants to vacate UFC BJJ belt for MMA",
+   "summary": "After outpointing Bryce Mitchell at UFC BJJ 11, the bantamweight champion says the title no longer motivates him.",
    "body": [
-    "Brazilian heavyweight Rider Zuchi, full name Rider Samelo do Amaral, has accepted a three-year suspension after testing positive for anabolic steroids at the IBJJF World Championship in late May, USADA announced. The sample, taken on 31 May, contained drostanolone and a nandrolone metabolite.",
-    "The 30-year-old loses his 2026 world heavyweight title and all IBJJF results since 23 August 2024, the date USADA says he began using the substances. His ban runs from 1 July 2026, making him ineligible until July 2029. He received a one-year reduction from the standard four years for admitting the violation within 20 days.",
-    "IBJJF is not a signatory to the World Anti-Doping Code but hired USADA to run testing at its world championship under WADA standards."
+    "Musumeci won a unanimous decision in a match played without leg locks, leaning on wrestling instead. He plans to open talks with the UFC about giving up the belt he has held since June 2025.",
+    "He says he has already won every title he wanted in his weight class. His MMA debut is targeted for November or December."
    ],
    "sources": [
     [
-     "FloGrappling",
-     "https://www.flograppling.com/articles/16199524-rider-zuchi-e-pego-no-anti-doping-e-fica-suspenso-por-3-anos"
-    ],
-    [
-     "FloGrappling",
-     "https://www.flograppling.com/articles/16199865-list-adcc-veterans-competing-at-ibjjf-no-gi-pans"
+     "BJJEE",
+     "https://www.bjjee.com/bjj-news/mikey-musumeci-wants-to-vacate-ufc-bjj-title-i-dont-have-any-more-desire/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "BJJ & Judo",
-   "h3": "Kata worlds wrap in Sarajevo as Asian Games judo nears",
-   "summary": "The World Judo Kata Championships ran in Sarajevo on 26 and 27 September, and Asian Games judo starts in Nagoya on Wednesday 30 September.",
+   "h3": "Fowler keeps UFC BJJ title after split draw with Rodriguez",
+   "summary": "The light heavyweight rematch in Las Vegas ended level, so Mason Fowler retains his belt.",
    "body": [
-    "There was no IJF Grand Prix or Grand Slam this weekend. Instead the World Judo Championships Kata were held in Sarajevo on 26 and 27 September, with 456 judoka from 34 countries across five continents competing in seven kata disciplines, from Nage-no-kata to Koshiki-no-kata and Itsutsu-no-kata. European federations supplied 282 of the competitors.",
-    "Attention now shifts to the 20th Asian Games in Aichi-Nagoya, Japan. Judo runs from 30 September to 3 October at the Aichi International Arena, with 204 athletes from 32 nations entered.",
-    "The schedule opens on Wednesday with the lightest categories: men's 60kg and 66kg and women's 48kg and 52kg. The middle weights follow on Thursday, the heavy divisions on Friday 2 October and the mixed team event closes the programme on Saturday 3 October."
+    "Nick Rodriguez had said the payday mattered more to him than the belt and promised a faster pace. The judges could not separate the pair at the Meta Apex.",
+    "Elsewhere on the card, Jay Rodriguez submitted Kevin Beuhring with an inverted D'Arce and Mason Stritzel won by heel hook."
    ],
    "sources": [
     [
-     "IJF",
-     "https://www.ijf.org/competition/3228"
+     "Combat Press",
+     "https://combatpress.com/2026/09/ufc-bjj-11-results-musumeci-wins-decision-fowler-retains-with-split-draw/"
     ],
     [
-     "Wikipedia",
-     "https://en.wikipedia.org/wiki/Judo_at_the_2026_Asian_Games"
+     "BJJEE",
+     "https://www.bjjee.com/bjj-news/nick-rodriguez-says-money-is-his-real-motivation-ahead-of-ufc-bjj-belt-match/"
     ]
    ]
   }
@@ -278,226 +204,185 @@
  "consumer-tech": [
   {
    "hero": true,
-   "sub": "Devices & Launches",
-   "h3": "Apple's next iPad mini, HomePod mini and Apple TV leak",
-   "summary": "Official Apple images found by MacRumors on 25 and 26 September confirm a new iPad mini with A20 Pro, a HomePod mini 2 in new colours and a fourth-generation Apple TV 4K.",
+   "sub": "EVs & Mobility",
+   "h3": "VW confirms ID. Tiguan to replace ID.4 and ID.5",
+   "summary": "Volkswagen's best-selling SUV goes electric in 2027, with an official debut due in early October.",
    "body": [
-    "Three unreleased Apple products surfaced in Apple's own code and image files late last week, spotted by MacRumors contributor Aaron Perris and published on 25 and 26 September. The finds point to an October launch for a new iPad mini, a second-generation HomePod mini and a new Apple TV 4K.",
-    "The iPad mini is listed with an A20 Pro chip, a front camera moved to the landscape edge (making it the last iPad to adopt that position) and a small groove at the top of the display glass for a new speaker design. Bloomberg's Mark Gurman has previously reported water resistance, a vibration-based speaker and a possible OLED panel, with launch expected by the end of October.",
-    "The HomePod mini 2 keeps the original design but comes in green, pink, blue, white and black. It is expected to gain a new chip and support for Apple's upgraded Siri. The original launched in October 2020 at 99 dollars and later rose to 129 dollars.",
-    "The image for an Apple TV 4K (4th generation) shows no external changes. Rumoured upgrades include an A17 Pro or newer chip, 8GB of RAM for Apple Intelligence and Apple's N1 chip for Wi-Fi 7 and Bluetooth 6. The current model dates from October 2022, and Apple raised its US prices in June to 199 and 249 dollars."
+    "The ID.4 and ID.5 have sold over 950,000 units since 2021. Camouflaged prototype images show a boxier shape close to the combustion Tiguan and pop-out door handles.",
+    "Sales start in Europe in early 2027, with the US to follow. The cabin is expected to bring back physical buttons, plus better range and charging."
    ],
    "sources": [
     [
-     "MacRumors",
-     "https://www.macrumors.com/2026/09/26/three-new-apple-products-just-leaked/"
-    ],
-    [
-     "MacRumors",
-     "https://www.macrumors.com/2026/09/25/ipad-mini-8-leaked/"
-    ],
-    [
-     "MacRumors",
-     "https://www.macrumors.com/2026/09/25/first-look-at-homepod-mini-2/"
+     "Electrek",
+     "https://electrek.co/2026/09/28/volkswagens-best-seller-electric-2027-replace-id-4-id-5-images/"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "Honor unveils Magic9 series with ARRI cameras today",
-   "summary": "Honor launches the Magic9, Magic9 Pro Max and Magic9 Super Edition in China on Monday 28 September, with the base model priced from CNY 5,999.",
+   "sub": "EVs & Mobility",
+   "h3": "Storms threaten Tesla's Roadster demo on 1 October",
+   "summary": "Tesla told invitees the outdoor hover demonstration could be rescheduled due to weather.",
    "body": [
-    "Honor's tenth-anniversary Magic flagships go official in China on Monday 28 September. The line-up has three models: the Magic9, the Magic9 Pro Max and a new Magic9 Super Edition, all already on pre-order.",
-    "CEO Li Jian has already confirmed pricing for the base Magic9 with 16GB of RAM and 512GB of storage: a list price of CNY 6,499 (about 968 dollars) and an anniversary price of CNY 5,999 (about 893 dollars), falling to CNY 5,499 with China's national subsidy. GSMArena notes this puts it in line with the vivo X500 and Oppo Find X10.",
-    "The Magic9 and Pro Max carry ARRI branding and colour science, and the Pro Max adds a cinematic microphone and support for a clip-on teleconverter. Reported specs for the base phone include a 6.37-inch 120Hz OLED screen, Snapdragon 8 Elite Gen 5, a 200MP main camera, a 200MP periscope with 3.5x zoom and an 8,000mAh battery with 80W wired charging."
+    "The event near Waco relies on a SpaceX cold gas thruster package and must be held outside. Forecasts show an 82% chance of rain with thunderstorms and strong gusts.",
+    "The next-gen Roadster was unveiled in 2017 and has slipped repeatedly since. No backup date has been given."
    ],
    "sources": [
     [
-     "GSMArena",
-     "https://www.gsmarena.com/heres_how_much_honors_magic9_will_cost-news-74755.php"
-    ],
-    [
-     "GSMArena",
-     "https://www.gsmarena.com/honor_reveals_magic9_series_designs_and_colors_super_edition_to_get_11000mah_battery-news-74601.php"
+     "Electrek",
+     "https://electrek.co/2026/09/28/tesla-roadster-demo-weather-delay-warning/"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "Some iPhone 18 Pro Max owners lose AT&T service",
-   "summary": "A subset of US iPhone 18 Pro Max users report failed AT&T connections and eSIM setup, with iOS 27.0.1 expected this week.",
+   "sub": "EVs & Mobility",
+   "h3": "Wall Street split on Tesla Q3 deliveries",
+   "summary": "Bank forecasts range from about 422,000 to 482,000 cars ahead of Friday's report.",
    "body": [
-    "A number of iPhone 18 Pro Max owners in the United States are unable to connect to AT&T for calls, texts or data, or are struggling with eSIM activation, according to complaints on the MacRumors forums, Reddit and Apple's support community reported on 25 September.",
-    "The US iPhone 18 Pro Max is the only new iPhone this year that uses a Qualcomm modem. The iPhone 18 Pro and the iPhone Duo use Apple's own C2 modem worldwide, as does the Pro Max outside the US. MacRumors says it is not clear whether the modem is a factor.",
-    "Apple is testing iOS 27.0.1, which is expected to be released this week and could include a carrier fix."
+    "JPMorgan and Goldman both cut estimates after a weak August in the US and China. Nearly every forecast implies a drop from last year's record 497,099.",
+    "Analysts badly underestimated Q2, when Tesla beat consensus by 74,000 units. High fuel prices may be offsetting the lost US tax credit."
    ],
    "sources": [
     [
-     "MacRumors",
-     "https://www.macrumors.com/2026/09/25/iphone-18-pro-max-att-cellular-issues/"
+     "Electrek",
+     "https://electrek.co/2026/09/28/tesla-q3-2026-delivery-estimates-wall-street-split/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "EVs & Mobility",
+   "h3": "BYD's cheapest EV grows into the Great Seagull",
+   "summary": "The second-generation hatch, sold in Europe as the Dolphin Surf, gets much bigger and more powerful.",
+   "body": [
+    "Filings show it is 425mm longer with a 95 kW motor, up from 55 kW. New images suggest a rear motor, a frunk and roof LiDAR on some test cars.",
+    "BYD plans a China launch by end of 2026. A European version could cost around 30,000 euros, up from 22,900."
+   ],
+   "sources": [
+    [
+     "Electrek",
+     "https://electrek.co/2026/09/28/byd-overhauling-cheapest-ev-bigger/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "EVs & Mobility",
+   "h3": "Chery's Omoda and Jaecoo set Canada launch",
+   "summary": "The Chinese brands will arrive in late 2026 under Canada's new low-tariff quota.",
+   "body": [
+    "A teaser site confirms the timing but no models, prices or dealers yet. The Jaecoo E5 compact SUV has been spotted testing in Ontario.",
+    "Canada cut its Chinese EV tariff to 6.1% for up to 49,000 vehicles a year. BYD is also targeting a late 2026 Canadian start."
+   ],
+   "sources": [
+    [
+     "Electrek",
+     "https://electrek.co/2026/09/28/omoda-jaecoo-canada-launch-late-2026-ev-lineup/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Software & Services",
-   "h3": "Google will turn Gemini Gems into skills from 17 November",
-   "summary": "A notice in the Gemini app spotted on 27 September says custom Gems will be migrated automatically to the newer skills system.",
+   "h3": "Gemini fully replaces Google Assistant on Android",
+   "summary": "The switch-back option is gone and Assistant has vanished on phones in the US and Europe.",
    "body": [
-    "Google is retiring Gems, the custom versions of Gemini it introduced in 2024. A banner in the Gems manager, reported by 9to5Google on 27 September, says Gems will become skills starting 17 November 2026 and will be migrated automatically, remaining usable until then.",
-    "Skills arrived with Gemini Spark and serve a similar purpose, letting users give Gemini custom instructions. Gems can go further by setting a default tool such as image creation or Canvas, attaching files for context and sharing via links.",
-    "Skills are easier to call up: users type a slash in the prompt box and can combine several at once, instead of digging through the side panel. Google AI Pro and Ultra subscribers can already create skills from the Gemini Spark tab."
+    "The Gemini app no longer offers a way back to Assistant, and the change covers tablets, Wear OS, headphones and Android Auto. Long-pressing the power button now calls Gemini.",
+    "Nest speakers and smart displays keep Assistant for now. The shutdown had slipped from 2025 into 2026."
    ],
    "sources": [
     [
      "9to5Google",
-     "https://9to5google.com/2026/09/27/gemini-gems-skills/"
+     "https://9to5google.com/2026/09/28/google-assistant-gemini-android/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Software & Services",
-   "h3": "Google blends Liquid Glass into its iPhone apps",
-   "summary": "Google Photos 7.94 and Google Health on iOS now use Apple's translucent Liquid Glass alongside Material 3 Expressive, 9to5Google reported on 26 September.",
+   "h3": "iOS 27.0.1 fixes iPhone 18 Pro Face ID reboots",
+   "summary": "Apple's first iOS 27 patch targets crashes and a camera artifact on its newest phones.",
    "body": [
-    "A year after Apple introduced Liquid Glass, Google has started adopting the translucent material in its own iPhone apps, mixing it with its Material 3 Expressive design language.",
-    "In Google Photos version 7.94 the floating bottom bar, which used to have a solid background like the Android app, is now made of Liquid Glass and respects the system's Default and More clear transparency settings. Buttons in the top bar have also been updated.",
-    "Google Health's bottom navigation bar has been given the same treatment, and its Ask Coach floating button now has a frosted look."
+    "iPhone 18 Pro models could restart when Face ID failed, and some 2x photos showed a color artifact. A bug freezing the touchscreen when opening both control panels is also fixed.",
+    "iPadOS 27.0.1 arrived too, and iOS 26.7.1 brings security fixes for iPhones still on the older release."
    ],
    "sources": [
     [
-     "9to5Google",
-     "https://9to5google.com/2026/09/26/material-3-liquid-glass/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Software & Services",
-   "h3": "TikTok settles Alabama child addiction case for at least $100M",
-   "summary": "TikTok agreed on 26 September to pay Alabama at least 100 million dollars and add a two-hour daily limit for minors, days before trial.",
-   "body": [
-    "TikTok has settled a lawsuit brought by Alabama that accused the app of misleading users about safety and being designed to addict children. The deal, reported on Saturday 26 September, came just before the case was due to go to trial on Monday.",
-    "TikTok will pay at least 100 million dollars, and the state attorney general's office says the total could reach 300 million dollars depending on certain conditions. The company also agreed to a two-hour daily time limit for underage users, extra parental controls and restrictions on overnight use and cosmetic filters.",
-    "Attorney General Steve Marshall said parents could rest easier, while TikTok said the settlement built on its existing teen safety tools."
-   ],
-   "sources": [
-    [
-     "TechCrunch",
-     "https://techcrunch.com/2026/09/26/tiktok-agrees-to-pay-at-least-100m-in-alabama-settlement/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Software & Services",
-   "h3": "Gemini gets a Buy button for Flipkart in India test",
-   "summary": "Google is testing direct purchases from Flipkart inside Gemini and AI Mode, TechCrunch reported on 26 September, ahead of India's festive sales.",
-   "body": [
-    "Google has begun testing a Buy button on selected Flipkart product listings inside Gemini and Search's AI Mode in India, TechCrunch reported on 26 September. Tapping it opens a Flipkart-branded checkout without leaving the AI interface.",
-    "The test is limited to some users and a small range of products, mainly smartphones, electronics and accessories. Listings from rivals such as Amazon appear alongside but without the direct purchase option. A source said Google plans a wider rollout later in October, before India's festive shopping season.",
-    "Google declined to give details, saying it is always testing new features. Earlier this year it introduced the Universal Commerce Protocol, an open standard for AI agents to handle shopping and checkout, though the Flipkart flow looks different from the Google-hosted checkout it demonstrated."
-   ],
-   "sources": [
-    [
-     "TechCrunch",
-     "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Software & Services",
-   "h3": "Banks win class status in Apple Pay fee lawsuit",
-   "summary": "A US judge has certified a class of card issuers suing Apple over Apple Pay fees, letting banks and credit unions sue together.",
-   "body": [
-    "An antitrust case accusing Apple of shutting rivals out of tap-to-pay on the iPhone is moving ahead. US District Judge Jeffrey White has certified a class covering every US entity that issued an Apple Pay-enabled card and paid Apple fees on those transactions, MacRumors and 9to5Mac reported on 25 September.",
-    "The judge also rejected Apple's attempt to exclude expert testimony that the plaintiffs say shows monopoly power in mobile wallets.",
-    "First filed in 2022, the suit says Apple collects up to 1 billion dollars a year by charging issuers 0.15 percent on credit transactions and half a cent on debit transactions, while blocking competing wallets from the NFC chip. It contrasts this with Android, which allows multiple wallets and charges issuers nothing."
-   ],
-   "sources": [
-    [
-     "MacRumors",
-     "https://www.macrumors.com/2026/09/25/apple-pay-antitrust-lawsuit-advances/"
+     "9to5Mac",
+     "https://9to5mac.com/2026/09/28/apple-releases-ios-27-0-1-for-iphone-heres-whats-new/"
     ],
     [
      "9to5Mac",
-     "https://9to5mac.com/2026/09/25/apple-faces-class-action-over-apple-pay-fees-charged-to-card-issuers/"
+     "https://9to5mac.com/2026/09/28/ios-26-7-1-available-now-for-iphone-with-security-fixes/"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "EVs & Mobility",
-   "h3": "EU vote on Dutch-approved Tesla FSD slips to December",
-   "summary": "The agenda for the EU's 6 October vehicle committee lists only discussion of the RDW's FSD request, pushing any EU-wide vote to December at the earliest.",
+   "sub": "Software & Services",
+   "h3": "AI agent Instinct raises $1B at $10B valuation",
+   "summary": "The texting-based assistant quadrupled its valuation in a month.",
    "body": [
-    "Tesla owners in Europe will wait longer for an EU-wide decision on Full Self-Driving (Supervised). The draft agenda for the Technical Committee on Motor Vehicles meeting on 6 October gives only a 25-minute slot to continued discussion of the Netherlands' request, with no vote listed, Electrek reported on 25 September. The committee does not meet again until December.",
-    "The Dutch regulator RDW approved FSD Supervised nationally in April using the Article 39 exemption for new technology and has asked the European Commission to extend that approval across the bloc. Tesla had said on 1 September that a vote could come on 6 October.",
-    "Approval needs a qualified majority of 15 of 27 member states representing 65 percent of the EU population. So far only Denmark, Belgium, Estonia, Lithuania, Slovenia and Czechia have recognised the Dutch approval, giving seven countries with about 12 percent of the population."
-   ],
-   "sources": [
-    [
-     "Electrek",
-     "https://electrek.co/2026/09/25/eu-delays-tesla-fsd-vote-december-tcmv-agenda/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "EVs & Mobility",
-   "h3": "Tesla starts Semi deliveries from new Nevada plant",
-   "summary": "Tesla began handing over its electric Semi at a new Reno factory designed for 50,000 trucks a year, nearly a decade after the 2017 reveal.",
-   "body": [
-    "Tesla has finally started delivering its Semi electric truck to customers, marking the moment at an event at a new dedicated factory next to Gigafactory Nevada near Reno late last week. The truck was first shown in 2017 and was originally due in production in 2019.",
-    "The plant is designed to build up to 50,000 trucks a year, about 1,000 a week, and create 3,000 jobs. The longest-range version is expected to cover 500 miles or more per charge, depending on load, and cost just under 300,000 dollars before incentives. Shorter-range versions will follow. Tesla did not publish a final sticker price.",
-    "Engineers Dan Priestley and Lars Moravy said the truck is now about 1,000 pounds lighter than the original, uses one drive-axle oil instead of three and has conventional roll-down side windows after years of criticism of the original pop-out design. A demonstration showed a Semi charging from 3 to 60 percent on a Tesla megawatt charger during the 30-minute presentation."
+    "Sequoia, Benchmark and Coatue joined the Series C for the startup, which only opened invite-only access in August. It books, buys and makes phone calls on users' behalf.",
+    "Privacy worries forced an early policy rewrite, and Meta's Muse agent now tops US app stores. Instinct still has no mobile app."
    ],
    "sources": [
     [
      "TechCrunch",
-     "https://techcrunch.com/2026/09/25/tesla-finally-moves-to-electrify-trucking-after-a-decade-of-work-and-delays/"
+     "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Devices & Launches",
+   "h3": "Honor Magic9 Pro Max launches at RMB 6,499",
+   "summary": "Honor's new flagship pairs two 200MP cameras with ARRI cinema tools and an 8,800mAh battery.",
+   "body": [
+    "The phone runs a top Snapdragon chip, claims 10,000-nit peak brightness and records ARRI-mode 4K at 60fps. It charges at 100W wired and 80W wireless.",
+    "Pricing in China starts around $910 with up to 1TB storage. It ships with MagicOS 11 on Android 17 and IP69K protection."
+   ],
+   "sources": [
+    [
+     "Gizmochina",
+     "https://www.gizmochina.com/2026/09/28/honor-magic-9-pro-max-launched-dual-200mp-cameras-8800mah-battery-price/"
     ],
     [
-     "Electrek",
-     "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory/"
+     "PhoneArena",
+     "https://www.phonearena.com/news/honor-magic-9-pro-max-is-made-official_id183646"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "EVs & Mobility",
-   "h3": "Renault revives the 8 Gordini as a 270 hp electric concept",
-   "summary": "Renault showed an electric Renault 8 Gordini concept on 26 September, reworking the 1964 rally icon with 270 hp and staggered 19 and 20-inch wheels.",
+   "sub": "Devices & Launches",
+   "h3": "Apple tests four designs for a lighter Vision Pro",
+   "summary": "Bloomberg says a new headset project, N224, could arrive in late 2028 or early 2029.",
    "body": [
-    "Renault has added another electric retro concept to its line-up with a reborn Renault 8 Gordini, revealed on 26 September. The original, launched in 1964, had a 95 hp four-cylinder engine mounted behind the rear axle and became a famously lively training car for a generation of French rally drivers, including Jean Ragnotti.",
-    "The new concept keeps the boxy silhouette but uses a 270 hp electric drivetrain with modern suspension, wide tracks and flared wings. It rides on 19-inch wheels at the front and larger 20-inch wheels at the rear, a nod to the original's rear-engine layout, according to design chief Alexandre Malval.",
-    "Renault says designers produced more than 300 sketches before two proposals were merged into the final design. The paint is a three-layer blue with a mother-of-pearl effect inspired by the Bleu de France of the original car, and the cabin carries rally-style details."
+    "One concept moves compute and battery into an external puck like Meta's new VR glasses, though some executives prefer an all-in-one design. Apple is also trying plastic and titanium to cut weight.",
+    "The project follows the shelved Vision Air and may succeed the M5 model rather than undercut it."
    ],
    "sources": [
     [
-     "Electrek",
-     "https://electrek.co/2026/09/26/renault-8-gordini-reborn-as-270-hp-electric-rally-retromobile/"
+     "9to5Mac",
+     "https://9to5mac.com/2026/09/27/apple-working-on-new-lighter-vision-pro-version/"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "EVs & Mobility",
-   "h3": "Waymo concentrates robotaxis as Zoox grounds Atlanta fleet",
-   "summary": "TechCrunch's 27 September mobility briefing finds 80 percent of Waymo's roughly 4,000 robotaxis in California and Texas, while Zoox paused Atlanta testing over gas exposure.",
+   "sub": "Devices & Launches",
+   "h3": "Gemini can now control Pixel Buds settings",
+   "summary": "A Pixel Buds app update lets voice commands change EQ, noise cancelling and touch controls.",
    "body": [
-    "TechCrunch's weekly mobility newsletter on 27 September looked at how autonomous vehicle companies are trying to scale. Vehicle registration data show about 80 percent of Waymo's roughly 4,000 robotaxis are in California and Texas, and its Texas fleet grew by more than 49 percent in three weeks. Waymo is also opening its service to teenagers.",
-    "Wayve signed a commercial deal with Mercedes-Benz to put its Level 2 assisted driving system into at least one model within two years, adding to earlier agreements with Nissan and Stellantis and a planned robotaxi service with Nissan and Uber in Tokyo.",
-    "Self-driving truck firm Aurora says it expects more than 200 driverless trucks on the road by the end of 2026 and more than 30,000 by 2030, with Texas as its main base."
+    "Pixel Buds now appear as a Gemini Connected App, so asking for more bass or ANC works directly. The update is rolling out widely on the Play Store.",
+    "Dynamic ANC for Pixel Buds Pro 2, Pixel Watch sleep sync and tap-to-translate likely need a firmware update."
    ],
    "sources": [
     [
-     "TechCrunch",
-     "https://techcrunch.com/2026/09/27/techcrunch-mobility-av-companies-pick-their-lanes/"
+     "9to5Google",
+     "https://9to5google.com/2026/09/28/pixel-buds-gemini-controls/"
     ]
    ]
   }
