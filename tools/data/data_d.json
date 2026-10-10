@@ -2,249 +2,270 @@
  "sports": [
   {
    "hero": true,
-   "sub": "Tennis",
-   "h3": "Hurkacz knocks Djokovic out of Shanghai Masters",
-   "summary": "Hubert Hurkacz beat Novak Djokovic 6-4, 6-3 in the second round in Shanghai, while top seed Alexander Zverev and Ben Shelton moved through.",
+   "sub": "Formula 1",
+   "h3": "Verstappen wins wet Singapore Sprint and takes GP pole",
+   "summary": "Max Verstappen won the first ever Sprint at Marina Bay after George Russell crashed out of the lead, then beat Charles Leclerc to pole for today's Grand Prix.",
    "body": [
-    "The 2023 Shanghai champion needed only 87 minutes to beat Djokovic on Friday. It was the Pole's first win over the Serbian after losing all eight of their earlier meetings.",
-    "Zverev, the top seed with world number one Jannik Sinner absent through a knee injury, got past Chinese wild card Wu Yibing 6-4, 7-6 (4). Shelton marked his 24th birthday with a 6-3, 7-6 (6) win over Daniel Altmaier."
-   ],
-   "sources": [
-    [
-     "NBC Sports",
-     "https://www.nbcsports.com/tennis/news/novak-djokovic-exits-shanghai-masters-as-ben-shelton-and-alexander-zverev-advance"
-    ],
-    [
-     "Washington Times",
-     "https://www.washingtontimes.com/news/2026/oct/9/novak-djokovic-exits-shanghai-masters-birthday-boy-shelton-top-seeded/"
-    ],
-    [
-     "Olympics.com",
-     "https://www.olympics.com/en/news/shanghai-masters-2026-alcaraz-zverev-schedule-watch-live-tennis"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Tennis",
-   "h3": "Alcaraz defends Tokyo title, opens Shanghai bid today",
-   "summary": "Carlos Alcaraz beat Jiri Lehecka 7-6 (4), 6-4 in the Japan Open final, his first title since a four-month wrist layoff.",
-   "body": [
-    "The top seed and defending champion had to work hard against world number 19 Lehecka in Tuesday's final. It was his third title of 2026, including the Australian Open, and the 27th of his career.",
-    "Alcaraz had a first-round bye in Shanghai as second seed. He starts his campaign on Saturday against Argentina's Juan Manuel Cerundolo, who beat Nicolas Mejia to set up the meeting."
-   ],
-   "sources": [
-    [
-     "The Star / Reuters",
-     "https://www.thestar.com.my/sport/tennis/2026/10/06/tennis-alcaraz-sinks-lehecka-to-retain-japan-open-crown"
-    ],
-    [
-     "Tico Times",
-     "https://ticotimes.net/2026/10/08/carlos-alcaraz-juan-manuel-cerundolo-shanghai-2026"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Tennis",
-   "h3": "Mertens stuns Swiatek to reach Beijing semis",
-   "summary": "Elise Mertens beat Iga Swiatek 7-6 (0), 6-3 at the China Open and will face home favourite Zheng Qinwen next.",
-   "body": [
-    "The Belgian won the first-set tiebreak without dropping a point and broke Swiatek in the second to close it out on Friday. The WTA noted it was her third straight win over a Grand Slam champion.",
-    "Zheng reached the last four by beating sixth seed Elina Svitolina 6-3, 7-6 (6). The other semi-final pits Mirra Andreeva against Nikola Bartunkova."
+    "Max Verstappen finally broke his Singapore duck on Saturday, winning a rain-hit Sprint that started late because of standing water at Turns 2 and 3. Russell beat him into the first corner on the damp track but went off on the second lap, later blaming more battery deployment than he expected. Verstappen then controlled the shortened 20-lap race to finish 2.591 seconds clear of Lewis Hamilton, with Leclerc third.",
+    "It was his first Sprint win of the season and his first victory of any kind at Marina Bay. Attrition was heavy: eight of the 22 starters were out by lap 15, Lance Stroll and Sergio Perez collided and the two McLarens tangled on the final lap. Kimi Antonelli, Liam Lawson, Oliver Bearman, Nico Hulkenberg and Lando Norris completed the points.",
+    "Under the lights in the evening, Verstappen added his first career Singapore Grand Prix pole with a 1m 31.373s set on his first run, just 0.054s ahead of Leclerc. Hamilton was quickest in Q1 and Q2 but could not improve on his final lap and starts third, ahead of Antonelli and Norris. The race starts at 14:00 Dutch time."
    ],
    "sources": [
     [
      "ESPN",
-     "https://www.espn.com/tennis/story/_/id/50141092/elise-mertens-beats-iga-swiatek-reach-china-open-semis"
+     "https://www.espn.com/f1/story/_/id/50131336/max-verstappen-claims-sprint-victory-singapore-grand-prix-george-russell-crashes-lead-marina-bay-circuit-formula-1"
+    ],
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/sports/2026/10/10/verstappen-singapore-gp-sprint-rain-russell-hamilton-leclerc"
+    ],
+    [
+     "Formula1.com",
+     "https://www.formula1.com/en/latest/article/verstappen-beats-leclerc-to-pole-position-for-the-singapore-gp.7yum1V3S9aSTyj3Zzzs0Y9"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Formula 1",
+   "h3": "Russell takes grid drop as Antonelli stretches title lead",
+   "summary": "Mercedes' George Russell starts the Singapore GP from the back half of the grid after an engine change, while team mate Kimi Antonelli now leads the title race by 89 points.",
+   "body": [
+    "George Russell's bad Saturday did not end with his Sprint crash. The Mercedes driver took sixth in qualifying knowing he faces a hefty grid penalty for fitting a new engine, so every driver classified behind him gains a place. He also reported smelling fire in the car during Q1.",
+    "Antonelli's fourth place in the Sprint stretched his championship advantage over Russell to 89 points. McLaren's weekend went the other way: Oscar Piastri recovered from his last-lap collision with Norris to qualify seventh, while Red Bull's Isack Hadjar retired from the Sprint and could not set a representative lap in qualifying."
+   ],
+   "sources": [
+    [
+     "RaceFans",
+     "https://www.racefans.net/2026/10/10/2026-singapore-grand-prix-sprint-race-result-and-championship-points/"
+    ],
+    [
+     "Formula1.com",
+     "https://www.formula1.com/en/latest/article/verstappen-beats-leclerc-to-pole-position-for-the-singapore-gp.7yum1V3S9aSTyj3Zzzs0Y9"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Tennis",
+   "h3": "Zheng becomes first Chinese finalist in Beijing",
+   "summary": "Wild card Zheng Qinwen beat Elise Mertens 7-5, 6-2 to set up a China Open final against Mirra Andreeva today.",
+   "body": [
+    "Zheng Qinwen ended Elise Mertens' giant-killing run on Saturday night, winning eight of the last ten games to take the semifinal 7-5, 6-2 in 92 minutes. The Olympic champion is the first Chinese player to reach the final of her home WTA 1000 event in Beijing and is now chasing her first title at that level.",
+    "Her opponent is fourth seed Mirra Andreeva, who beat Nikola Bartunkova 6-2, 6-2 and has not dropped a set all week. The pair have met once before, in the 2024 Beijing quarterfinals, when Zheng came from a set down to win. A strong result would push Zheng back toward the top 30 after a resurgent two months."
+   ],
+   "sources": [
+    [
+     "WTA",
+     "https://www.wtatennis.com/news/4590078/zheng-becomes-first-chinese-finalist-in-beijing-with-straight-sets-win-over-mertens"
     ],
     [
      "WTA",
-     "https://www.wtatennis.com/news/4589506/mertens-giant-killing-run-continues-with-swiatek-upset-in-beijing-quarterfinals"
+     "https://www.wtatennis.com/news/4589836/mirra-andreeva-vs-zheng-qinwen-everything-to-know-about-china-open-beijing-final"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "Formula 1",
-   "h3": "Verstappen takes Singapore Sprint pole from Russell",
-   "summary": "Max Verstappen lapped Marina Bay in 1:31.156 to beat George Russell by 0.120s and keep pole after a yellow-flag probe.",
+   "sub": "Tennis",
+   "h3": "Moustached Alcaraz starts Shanghai bid in 66 minutes",
+   "summary": "Carlos Alcaraz beat Juan Manuel Cerundolo 6-3, 6-3 to stretch his winning streak to seven matches and set up a meeting with Zizou Bergs.",
    "body": [
-    "The Red Bull driver set his time on softs in SQ3, with Charles Leclerc third for Ferrari. Oscar Piastri and Lando Norris lined up fourth and fifth for McLaren, ahead of Lewis Hamilton and championship leader Kimi Antonelli.",
-    "Stewards looked into whether Verstappen had slowed enough for yellow flags but left the result unchanged. The Sprint runs on Saturday, with eight points for the winner."
+    "Fresh from defending his Tokyo title, Carlos Alcaraz needed just 66 minutes to open his Shanghai campaign. He hit 24 winners and won 13 of 20 trips to the net, saying the fast court suited an attacking approach he had not originally planned.",
+    "The Spaniard also turned up with a moustache, the result of a team bet that everyone would grow one if he won Tokyo. Bergs, who thrashed Ignacio Buse 6-0, 6-3, is next, with a possible fourth-round clash against defending champion Valentin Vacherot. Daniil Medvedev and Felix Auger-Aliassime both came from a set down to advance."
    ],
    "sources": [
     [
-     "Formula1.com",
-     "https://www.formula1.com/en/latest/article/verstappen-clinches-pole-position-in-singapore-sprint-qualifying-ahead-of-russell.4dvkvpkCXftdhX7sLI2dcQ"
-    ],
-    [
-     "Sky Sports",
-     "https://www.skysports.com/f1/news/13596695/singapore-gp-sprint-qualifying-max-verstappen-claims-pole-position-from-george-russell-but-faces-yellow-flags-investigation"
+     "Perfect Tennis",
+     "https://www.perfect-tennis.com/shanghai-masters-2026-day-four-recap/"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "Formula 1",
-   "h3": "Russell fastest in practice but faces back-of-grid start",
-   "summary": "George Russell topped the only practice session in Singapore, but a power unit penalty will drop him to the rear for Sunday's race.",
+   "sub": "Tennis",
+   "h3": "Van de Zandschulp knocks out Michelsen in Shanghai",
+   "summary": "Botic van de Zandschulp beat 31st seed Alex Michelsen 6-4, 6-4 as defending champion Valentin Vacherot also moved through.",
    "body": [
-    "Russell's 1:32.274 left him 0.198s clear of Leclerc, with Norris third and Hamilton fourth. Nico Hulkenberg stopped his Audi with a gearbox problem, bringing out a brief Virtual Safety Car.",
-    "Mercedes had to fit new engine parts after Russell's late retirement in Malaysia, and the penalty applies only to the Grand Prix. He sits 84 points behind team-mate Antonelli and has reverted to the older car spec used to win in Azerbaijan."
+    "Dutch number one Botic van de Zandschulp produced one of the cleaner upsets of the second round, beating American Alex Michelsen 6-4, 6-4 to reach the last 32 of the Masters 1000 event.",
+    "Vacherot, who won the title last year as world number 204, opened his defence with a 6-4, 7-6(5) win over Sebastian Baez and meets Tommy Paul next. Stefanos Tsitsipas reached 400 tour-level wins against Luciano Darderi, while Taylor Fritz, Casper Ruud and Arthur Fils also progressed."
    ],
    "sources": [
     [
-     "Formula1.com",
-     "https://www.formula1.com/en/latest/article/fp1-russell-beats-leclerc-and-norris-to-top-spot-in-sole-practice-ahead-of-singapore-gp.6gZxy1UbfI5R8VLWXUBwZu"
+     "Perfect Tennis",
+     "https://www.perfect-tennis.com/shanghai-masters-2026-day-four-recap/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Tennis",
+   "h3": "World No. 277 Zhou Yi stuns Musetti",
+   "summary": "Chinese wild card Zhou Yi saved three set points to beat Lorenzo Musetti in two tiebreaks and now faces Djokovic's conqueror Hubert Hurkacz.",
+   "body": [
+    "Home wild card Zhou Yi pulled off the biggest upset of the opening days in Shanghai, beating former world number five Lorenzo Musetti 7-6(7), 3-6, 7-6(1). Zhou saved three set points in the opener and dominated the deciding tiebreak.",
+    "His reward is a third-round match against Hubert Hurkacz, who ended Novak Djokovic's run on Friday. Top seed Alexander Zverev survived an ankle scare against Wu Yibing and meets Quentin Halys, while Flavio Cobolli and Andrey Rublev were among the seeds to fall early."
+   ],
+   "sources": [
+    [
+     "ATP Tour",
+     "https://www.atptour.com/en/news/zhou-musetti-shanghai-2026-friday"
     ],
     [
-     "Formula1.com",
-     "https://www.formula1.com/en/latest/article/russell-promises-all-out-attack-from-back-of-singapore-grid-amid-engine-penalty.1Owe717iaaEqDioJZqUyaJ"
+     "ATP Tour",
+     "https://www.atptour.com/en/news/zverev-shelton-shanghai-2026-report-friday"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Sailing",
-   "h3": "Team New Zealand back on the water in Auckland",
-   "summary": "The America's Cup defender restarted its AC75 test programme on the Hauraki Gulf, the first team to sail again after the Naples regatta.",
+   "h3": "Hurricane cuts J/22 Worlds short in New Orleans",
+   "summary": "Glenn Darden won the 46-boat J/22 World Championship after racing was halted following day two as Hurricane Isaias closed in on the Gulf coast.",
    "body": [
-    "Tuesday was day 22 of the team's 45 permitted sailing days for 2026. Co-helm Seb Menzies said the session was about recommissioning the boat and crew after time off.",
-    "The crew ran tight figure-of-eight drills to rehearse aggressive match-race starts in a choppy easterly. Observers also spotted a new jib sheeting system and test markings on the foil wings."
+    "The J/22 World Championship in New Orleans was scheduled for 7 to 10 October but organisers stopped racing after two days and seven races as Hurricane Isaias approached. Forecasts had the storm reaching Category 2 strength with winds near 110 mph at landfall.",
+    "American Glenn Darden was declared champion after dominating the shortened series. The event became one of several on the US calendar disrupted by an active late hurricane season."
    ],
    "sources": [
     [
-     "Sail-World",
-     "https://www.sail-world.com/news/300480/Americas-Cup-ETNZ-restarts-in-Auckland"
+     "Scuttlebutt Sailing News",
+     "https://www.sailingscuttlebutt.com/2026/10/08/storm-shortens-j-22-world-championship/"
+    ],
+    [
+     "Scuttlebutt Sailing News",
+     "https://www.sailingscuttlebutt.com/2026/10/07/chaos-for-j-22-world-championships/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Sailing",
-   "h3": "Luna Rossa damages AC75 hull in Cagliari training",
-   "summary": "The Italian challenger holed its hull when a Lidar pole broke in a wave crash on its first day back in a month.",
+   "h3": "Route du Rhum village opens in nine days",
+   "summary": "A record-sized 118-boat fleet across six classes is due to leave Saint-Malo for Guadeloupe on 1 November, with the race village opening on 20 October.",
    "body": [
-    "Luna Rossa returned to the water in Sardinia on 6 October with Peter Burling and Ruggero Tita among the helms. The team logged about 106 minutes of foiling with 24 tacks and 23 gybes.",
-    "In the final session the boat slammed into a wave, snapping the Lidar pole onto the starboard hull. Shore crew taped the small hole and the boat sailed on before the day ended."
+    "Saint-Malo is preparing for the 2026 Route du Rhum, which starts on Sunday 1 November at 13:02. A total of 118 solo skippers are entered across the Ultim, Ocean Fifty, IMOCA and Class40 fleets plus two new vintage categories for multihulls and monohulls.",
+    "The race village opens on 20 October around the Vauban and Duguay-Trouin basins and runs for almost two weeks. Charles Caudrelier defends his Ultim title against Armel Le Cleac'h, Thomas Coville, Tom Laperche and Anthony Marchand."
    ],
    "sources": [
     [
-     "Sail-World",
-     "https://www.sail-world.com/news/300526/AC-Recon-Oct-6-Italians-resume-AC75-testing"
+     "Ville de Saint-Malo",
+     "https://www.saint-malo.fr/actualites/j-30-depart-route-du-rhum-2026/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Football",
-   "h3": "Oranje guaranteed pot 1 for Euro 2028 qualifying draw",
-   "summary": "After four Nations League games under Xavi Hernandez, the Netherlands cannot drop out of the top seeding pot for the Euro 2028 qualifying draw.",
+   "h3": "Feyenoord beat AZ to end their unbeaten start",
+   "summary": "Goals from Nacho Ferri and Javi Lopez gave Feyenoord a 2-0 win over leaders AZ in De Kuip, lifting the Rotterdam side to the top of the Eredivisie.",
    "body": [
-    "Two wins over Serbia and draws with Germany and Greece leave Oranje top of their group on eight points. Sunday's 2-1 win in Eindhoven came via a Teun Koopmeiners free kick and a late Joshua Zirkzee tap-in.",
-    "With Serbia still on zero, the Dutch are sure of a top-three finish, which secures pot 1 for the draw in Belfast on 6 December. They host Greece in Amsterdam on 13 November and then face Germany."
+    "Feyenoord handed AZ their first league defeat of the season on Saturday evening. Nacho Ferri opened the scoring after 13 minutes and Javi Lopez doubled the lead just before the hour as Danny Makkelie's match stayed firmly in Feyenoord's control.",
+    "AZ arrived top with 19 points from seven games, two clear of Feyenoord. The result flips the order after matchday eight and keeps the title race tight with PSV, who won at home to Heerenveen on Friday."
    ],
    "sources": [
     [
-     "FCUpdate",
-     "https://www.fcupdate.nl/voetbalnieuws/2026/10/oranje-pot-1-ek-kwalificatie-2028-xavi-hernandez"
+     "FC Update",
+     "https://www.fcupdate.nl/voetbalnieuws/2026/10/feyenoord-az-live-eredivisie-koppositie"
     ],
     [
-     "FCUpdate",
-     "https://www.fcupdate.nl/voetbalnieuws/2026/10/nederland-servie-live-nations-league-oranje-philips-stadion"
+     "FR-Fans",
+     "https://www.fr-fans.nl/nieuws/79329/live-feyenoord-az"
+    ],
+    [
+     "VI",
+     "https://www.vi.nl/wedstrijden/2026-10-10/feyenoord-vs-az"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Football",
-   "h3": "Dutch women hit Hungary for eight in World Cup play-off",
-   "summary": "Victoria Pelova and Lineth Beerensteyn both scored hat-tricks in a 0-8 away win, putting the Netherlands on course for the 2027 World Cup.",
+   "h3": "Ajax held by NEC again in Amsterdam",
+   "summary": "Tolu Arokodare's early goal was cancelled out by a Tjaronn Chery penalty as Ajax drew 1-1 with NEC for the second season running.",
    "body": [
-    "Beerensteyn struck twice inside the opening quarter in Felcsut and Arjan Veurink's side led 0-4 at the break. Damaris Egurrola also scored and Pelova completed her first career hat-trick.",
-    "Danielle van de Donk won her 175th cap on the night. The return leg is in Tilburg on Tuesday, with Turkey or Slovenia waiting in the final round."
+    "Ajax started brightly at the Johan Cruijff ArenA when Tolu Arokodare scored in the seventh minute, but Tjaronn Chery levelled from the spot 12 minutes later and the hosts could not find a winner.",
+    "The draw leaves Ajax fifth on 15 points after eight matches, already well off the pace set by Feyenoord, AZ and PSV. NEC extended their unbeaten record in Amsterdam to four seasons."
    ],
    "sources": [
     [
-     "OnsOranje",
-     "https://www.onsoranje.nl/nieuws/nederlands-elftal-vrouwen/82764/oranje-zet-nieuwe-stap-richting-wk-met-monsterzege-op"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Football",
-   "h3": "Unconvincing PSV beat Heerenveen to go top for a day",
-   "summary": "PSV won 2-0 at home to Heerenveen on Friday and lead the Eredivisie on goal difference ahead of AZ against Feyenoord.",
-   "body": [
-    "Heerenveen had the better first-half chances but Guus Til headed PSV in front after half an hour. A late own goal by Marcus Linday from a Filip Kostic header sealed it.",
-    "Peter Bosz's side now have 19 points from eight games, level with AZ. The Alkmaar side visit Feyenoord on Saturday, and either team can reclaim top spot."
-   ],
-   "sources": [
-    [
-     "FCUpdate",
-     "https://www.fcupdate.nl/voetbalnieuws/2026/10/heerenveen-laat-matig-psv-ontsnappen-in-eindhoven"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "BJJ & Judo",
-   "h3": "Grigalashvili and Kaju reign at judo Worlds in Baku",
-   "summary": "Tato Grigalashvili won a fourth world title at -81kg and Haruka Kaju defended her -63kg crown as the Baku World Championships passed halfway.",
-   "body": [
-    "Grigalashvili beat home fighter Zelim Tckaev with a waza-ari deep into golden score, and Azerbaijan added a bronze through Omar Rajabli. Kaju's win stretched her run to 40 straight contests.",
-    "Japan has dominated the week, with Ai Tsunoda Roustant taking her first senior title at -70kg and Murao winning -90kg on day five. The championships end on 11 October with the mixed team event."
-   ],
-   "sources": [
-    [
-     "IJF",
-     "https://www.ijf.org/news/show/grigalashvili-and-kaju-confirm-their-greatness"
+     "Ajax",
+     "https://english.ajax.nl/articles/highlights-ajax-nec-10102026/"
     ],
     [
-     "Euronews",
-     "https://www.euronews.com/2026/10/06/judo-japan-crowns-two-new-world-champions-in-baku"
+     "ESPN",
+     "https://www.espn.com/soccer/match/_/gameId/401875589/nec-nijmegen-ajax-amsterdam"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "BJJ & Judo",
-   "h3": "Van Heemst and Van Lieshout miss out on bronze in Baku",
-   "summary": "Two Dutch judoka lost bronze medal contests this week, leaving the Netherlands still waiting for a first medal in Baku.",
+   "sub": "BJJ & Grappling",
+   "h3": "FloGrappling boss says UFC BJJ is losing money",
+   "summary": "Ben Kovacs argues the economics of pro grappling rarely work and that the UFC's jiu-jitsu events cannot be profitable at current pay and production costs.",
    "body": [
-    "World Championship debutant Yael van Heemst lost the -78kg bronze bout to Germany's Anna Monta Olekin by ippon inside two minutes on Friday. European champion Joanne van Lieshout fell to Mongolia's Enkhriilen Lkhagvatogoo in the -63kg bronze match on Wednesday.",
-    "The Dutch have eleven judoka in Azerbaijan. Simeon Catharina and Michael Korrel both went out at -100kg, and Marit Kamps lost in round two at -78kg."
+    "FloGrappling general manager Ben Kovacs used a podcast appearance to argue that most fans only care about a handful of high-stakes matchups, so events should be shorter. He held up Fight to Win as one of the few promotions that works, thanks to tight venue costs, athletes who help sell tickets and modest prize money.",
+    "Kovacs said he knows what UFC BJJ pays and what production costs, and is certain the promotion is losing money. He estimated that 10,000 subscribers at five dollars would cover only about a third of a main event purse, and blamed inflated athlete expectations partly on old star contracts."
    ],
    "sources": [
     [
-     "Nieuws.nl / ANP",
-     "https://nieuws.nl/sport/judoka-van-heemst-verliest-duel-om-brons-bij-wk-debuut"
-    ],
-    [
-     "Nieuws.nl / ANP",
-     "https://nieuws.nl/sport/judoka-van-lieshout-verliest-strijd-om-brons-op-wk-in-bakoe"
+     "BJJ Eastern Europe",
+     "https://www.bjjee.com/bjj-news/flograppling-gm-ben-kovacs-says-ufc-bjj-is-losing-money-doesnt-math-out/"
     ]
    ]
   },
   {
    "hero": false,
-   "sub": "BJJ & Judo",
-   "h3": "Jaworski takes double gold at No-Gi Pans",
-   "summary": "Pawel Jaworski won the medium-heavyweight division and the open class at the IBJJF Pan No-Gi Championship in New Jersey.",
+   "sub": "BJJ & Grappling",
+   "h3": "Victor Hugo explains his ADCC retirement",
+   "summary": "The heavyweight submitted all four opponents at ADCC 2026, then skipped the absolute and walked away from the event, though a 2028 return in Brazil is not ruled out.",
    "body": [
-    "The fresh ADCC world champion finished his division final with a triangle choke at the Meadowlands Exposition Center. More than 2,300 athletes registered for the 2 to 4 October event.",
-    "Jaworski has now won five straight major titles. One more would make him the first winner of the IBJJF No-Gi Grand Slam, with the European No-Gi starting on 28 October."
+    "Victor Hugo said a pre-event question from Ben Kovacs about retiring if he won everything planted the idea. As the submissions piled up in the +99 kg division, he decided to set the standard and leave on a high.",
+    "He skipped the absolute because of the long wait between the finals and the open bracket and doubts about his recovery. When reminded that ADCC 2028 is rumoured for Brazil, Hugo admitted that prospect was exciting."
    ],
    "sources": [
     [
-     "IBJJF",
-     "https://ibjjf.com/news/2026-pan-no-gi-championship-results-breakdown"
+     "BJJ Eastern Europe",
+     "https://www.bjjee.com/bjj-news/victor-hugo-announces-possible-retirement-from-adcc-everythings-moving-fast/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "BJJ & Grappling",
+   "h3": "Zuchi stripped of IBJJF world title over doping",
+   "summary": "Rider Zuchi has been banned for three years and lost his 2026 heavyweight world title after testing positive for anabolic steroids.",
+   "body": [
+    "A sample taken from Rider Zuchi at the IBJJF World Championship on 31 May showed drostanolone and a nandrolone metabolite. USADA announced the sanction and the IBJJF has revised the results.",
+    "Nicholas Maglicic, beaten by Zuchi in the final, becomes the official heavyweight world champion. Zuchi received a one-year reduction for admitting the violation and is eligible again from 1 July 2027."
+   ],
+   "sources": [
+    [
+     "BJJ Eastern Europe",
+     "https://www.bjjee.com/bjj-news/rider-zuchi-stripped-of-ibjjf-world-title-banned-for-three-years/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Judo",
+   "h3": "Tasoev ends Kokauri's home dream in Baku final",
+   "summary": "Inal Tasoev retained the +100 kg world title against Azerbaijan's Ushangi Kokauri, while 19-year-old Lee Hyeonji won the women's +78 kg crown.",
+   "body": [
+    "The final individual day of the World Championships in Baku ended in disappointment for the home crowd as Inal Tasoev beat Ushangi Kokauri in the heavyweight final, leaving Kokauri with silver once again. Lukas Krpalek and Azerbaijan's Kanan Nasibov took bronze, and Dutchman Jur Spijkers finished seventh.",
+    "South Korean teenager Lee Hyeonji needed less than five minutes of total fight time to dominate the women's heavyweight category, beating France's Romane Dicko in the final. The championships close today with the mixed team event."
+   ],
+   "sources": [
+    [
+     "JudoInside",
+     "https://judoinside.com/news/8262/Inal_Tasoev_crushes_Azerbaijans_heavyweight_dream_as_Kokauri_takes_silver_again"
     ],
     [
-     "FloGrappling",
-     "https://www.flograppling.com/articles/16215977-2026-pan-ibjjf-jiu-jitsu-no-gi-championship-guide"
+     "JudoInside",
+     "https://judoinside.com/news/8261/Teenage_sensation_Lee_Hyeonji_storms_to_world_title_in_less_than_five_minutes"
+    ],
+    [
+     "JudoInside",
+     "https://judoinside.com/event/18500/2026_World_Championships_Baku/judo-results"
     ]
    ]
   }
@@ -253,212 +274,229 @@
   {
    "hero": true,
    "sub": "Devices & Launches",
-   "h3": "Apple sets 'Welcome home' launch for 13 October",
-   "summary": "Apple will unveil new smart home products on Tuesday, expected to include a first home hub, a new Apple TV 4K and a HomePod mini refresh.",
+   "h3": "PC shipments plunge 20% as memory crunch bites",
+   "summary": "IDC counted 62.7 million PCs shipped in Q3 2026, down 20.1% on a year earlier, and warned high prices will persist.",
    "body": [
-    "Greg Joswiak teased the date on Thursday, and press invites went out for a hands-on event in Tribeca, New York. Bloomberg says there will also be an online video presentation.",
-    "The hub reportedly has a square display of around 6 inches, works on a counter or a wall and runs Siri AI. The Apple TV is said to get a newer chip, 12GB of RAM and Apple's N1 wireless chip, and LG-made accessories such as a doorbell and lock may appear too."
+    "Global PC shipments fell to 62.7 million units in the third quarter, according to IDC. That is 9.1 percent below the previous quarter and 20.1 percent below the same period in 2025, as the AI-driven memory shortage keeps pushing up component costs.",
+    "IDC blamed supply problems and elevated prices for suppressing demand. Its consumer devices research director said retailers now fear carrying too much stock, which could bring some promotions, but prices will stay far above last year's levels and the outlook could worsen before it improves.",
+    "The figures follow IDC's first quarterly decline in nine quarters back in July and repeated cuts to its 2026 forecast. Buyers who can wait are being advised to hold off for a year if possible."
+   ],
+   "sources": [
+    [
+     "Engadget",
+     "https://www.engadget.com/2281788/idc-worldwide-pc-shipments-in-q3-fell-20-percent-from-last-year/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Devices & Launches",
+   "h3": "Intel revives old socket to keep DDR4 alive",
+   "summary": "Gigabyte says Intel will launch new CPUs on the five-year-old LGA 1700 socket in early 2027, likely so buyers can stick with much cheaper DDR4 memory.",
+   "body": [
+    "Motherboard maker Gigabyte has indicated that Intel plans fresh processors for LGA 1700, a socket introduced in 2021. The expectation is refreshed Raptor Lake and Alder Lake chips that can run on DDR4.",
+    "The logic is cost. A 32GB DDR4 kit sells for around $210 while an equivalent DDR5 kit costs upwards of $480. Intel has not confirmed the plan, but a company vice president recently said Raptor Lake will stay around for years partly because demand for DDR4 platforms remains strong."
+   ],
+   "sources": [
+    [
+     "Engadget",
+     "https://www.engadget.com/2282431/intel-is-reportedly-launching-new-cpus-on-old-sockets-that-support-ddr4-memory/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Devices & Launches",
+   "h3": "Next Google TV Streamer gets mics and presence sensing",
+   "summary": "A slimmer second-generation Google TV Streamer is in development with built-in microphones, a faster chip, more storage and a revised remote.",
+   "body": [
+    "9to5Google reports that Google is working on a new TV Streamer that keeps the current shape but is narrower. Cutouts on the slanted top will house microphones for hands-free Hey Google commands.",
+    "It also adds presence sensing to wake an ambient screen when someone enters the room, plus a faster processor and more than the current 32GB of storage. The remote gains two extra shortcut buttons. No launch date is known, and the refresh follows a $50 price rise for the existing model in August."
+   ],
+   "sources": [
+    [
+     "9to5Google",
+     "https://9to5google.com/2026/10/09/next-gen-google-tv-streamer/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Devices & Launches",
+   "h3": "Panos Panay teases more Alexa hardware and 'Neo'",
+   "summary": "Amazon's devices chief hinted that more Alexa-branded products are coming and let slip a new cross-device design language called Neo.",
+   "body": [
+    "Speaking at the launch of the Alexa Tablet series, which replaces the Fire tablets, Panos Panay confirmed it is the first Amazon hardware branded Alexa. Asked whether more would follow, he said not that reporters had seen yet.",
+    "He also revealed that design lead Ralf Groene is building a Neo design language meant to tie AI conversations together across devices so users can pick up where they left off. Panay promised more on Neo and new Echo hardware later this month."
+   ],
+   "sources": [
+    [
+     "Engadget",
+     "https://www.engadget.com/2280951/panos-panay-tease-neo-design-language-and-alexa-interface/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Software & Services",
+   "h3": "Free Gemini users now limited to Flash-Lite",
+   "summary": "Since 9 October, people using the Gemini app without a paid plan can only pick the Flash-Lite model, while AI Plus subscribers lose Pro.",
+   "body": [
+    "Google has tightened model access in the Gemini app. Personal accounts without a subscription now only get Gemini 3.5 Flash-Lite, losing both Flash and Pro, while the $4.99 AI Plus tier keeps Flash but drops Pro on a cutoff date Google is emailing to each account.",
+    "Reports initially said AI Pro would gain Deep Think, but Google's help pages have been inconsistent on that point. All models are also getting low, medium and high effort settings this month, with higher effort consuming more of a user's limits."
+   ],
+   "sources": [
+    [
+     "Engadget",
+     "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/"
+    ],
+    [
+     "9to5Google",
+     "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Software & Services",
+   "h3": "iOS 27.2 with new Siri languages due late October",
+   "summary": "Siri AI support for French, Japanese, Korean, Portuguese and Spanish arrives in iOS 27.2, likely in the week of 26 October, but not for iPhones in the EU.",
+   "body": [
+    "Apple is testing iOS 27.2 unusually early because iOS 27.1 is reserved for the iPhone Duo, which launches on 23 October. The second public beta landed on 6 October.",
+    "Apple has promised the five new Siri AI languages in October, which effectively confirms the release month. The update also brings Apple TV app profiles, Dual Capture for Group FaceTime and a reworked Up Next in Podcasts. Siri AI remains unavailable on iPhones and iPads in the EU."
    ],
    "sources": [
     [
      "9to5Mac",
-     "https://9to5mac.com/2026/10/08/apple-announces-special-event-for-october-13-welcome-home/"
+     "https://9to5mac.com/2026/10/07/ios-27-2-release-date-new-iphone-features-are-coming-soon/"
     ],
     [
      "MacRumors",
-     "https://www.macrumors.com/2026/10/08/apple-announce-10-new-products-this-month/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "Touchscreen OLED MacBook Pro tipped for 27 October",
-   "summary": "Bloomberg reports a second Apple launch around 27 October with OLED touchscreen MacBook Pros, an M6 iMac and an OLED iPad mini.",
-   "body": [
-    "The 14-inch and 16-inch MacBook Pro models are said to use M5 Pro and M5 Max chips, a lighter design and a camera cutout. A base 14-inch model with the M6 chip is also expected.",
-    "The iPad mini would gain an OLED panel, an A20 Pro chip and water resistance. One rumour says the screen stays at 60Hz."
-   ],
-   "sources": [
-    [
-     "MacRumors",
-     "https://www.macrumors.com/2026/10/08/apple-october-27-macbook-pro/"
-    ],
-    [
-     "MacRumors",
-     "https://www.macrumors.com/2026/10/08/apple-announce-10-new-products-this-month/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "iPhone Duo foldable pre-orders open 16 October",
-   "summary": "Apple's first foldable iPhone goes on pre-order next Friday and reaches stores on 23 October.",
-   "body": [
-    "The book-style Duo pairs a 5.4-inch outer screen with a 7.6-inch inner display that has only a slight crease. Buyers can start setting up orders from Monday.",
-    "Apple Stores will also offer to put the owner's name on the phone's startup screen. It is the headline launch in a busy month for Apple hardware."
-   ],
-   "sources": [
-    [
-     "MacRumors",
-     "https://www.macrumors.com/2026/10/08/iphone-duo-set-up-pre-order-from-monday/"
-    ],
-    [
-     "MacRumors",
-     "https://www.macrumors.com/2026/10/09/iphone-duo-name-personalization/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "Apple trims iPhone 18 Pro orders on weak demand",
-   "summary": "Nikkei Asia says Apple cut October component orders for the iPhone 18 Pro by at least 15 percent after a $100 price rise.",
-   "body": [
-    "The Pro and Pro Max start at $1,199 and $1,299, with Apple blaming AI-driven memory chip costs for price increases across its range. Apple shares fell after the report.",
-    "Nikkei also points to Apple's split launch plan as a factor, with the base iPhone 18 moving to spring 2027. Some buyers may also be waiting for the iPhone Duo."
-   ],
-   "sources": [
-    [
-     "MacRumors",
-     "https://www.macrumors.com/2026/10/09/apple-cuts-iphone-18-pro-orders-price-demand/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "Microsoft prices Surface Laptop Ultra at $2,599",
-   "summary": "Microsoft's 15-inch creator laptop runs on Nvidia's Arm-based RTX Spark chip and arrives on 16 October.",
-   "body": [
-    "The chip pairs a Blackwell RTX GPU with up to 6,144 cores and a Grace CPU with up to 20 cores, plus up to 128GB of unified memory. The laptop has a mini-LED touchscreen and magnetic USB-C charging.",
-    "Microsoft is offering up to $1,000 back for traded-in MacBooks. A $5,999 Surface RTX Spark Dev Box aimed at AI developers was also announced."
-   ],
-   "sources": [
-    [
-     "MacRumors",
-     "https://www.macrumors.com/2026/10/07/microsoft-surface-laptop-ultra/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Devices & Launches",
-   "h3": "Amazon drops Fire OS for Android Alexa Tablets",
-   "summary": "Amazon's new aluminium tablets run Android with Google Play and Alexa+, starting at $229.99.",
-   "body": [
-    "The flagship Alexa Tablet 12 Pro costs $499.99 with a MediaTek Dimensity 8400 chip and a 120Hz 12-inch screen. A $549.99 version adds a matte glare-reducing display made with Corning.",
-    "An 11-inch model starts at $329.99 and an 8.7-inch model at $229.99, with kids editions too. Shipping starts on 14 October in North America and 19 October in parts of Europe."
-   ],
-   "sources": [
-    [
-     "MacRumors",
-     "https://www.macrumors.com/2026/10/08/amazon-unveils-new-ipad-rivals/"
-    ],
-    [
-     "Droid Life",
-     "https://www.droid-life.com/2026/10/08/amazon-alexa-tablets-start-at-229-ship-with-google-play/"
+     "https://www.macrumors.com/2026/10/06/ios-27-2-public-beta-2/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Software & Services",
-   "h3": "Google opens SynthID AI detector to everyone",
-   "summary": "Anyone can now upload images, video or audio to Google's SynthID Detector to check for hidden AI watermarks.",
+   "h3": "Pixel Watch 4 gets Gemini watch face generator",
+   "summary": "A rolling update brings the Pixel Watch 5's AI watch face creator and its stock faces to last year's model.",
    "body": [
-    "The tool, first offered to journalists last year, is now live worldwide in English and requires sign-in. It reads SynthID watermarks used by Google, OpenAI, Nvidia and Kakao.",
-    "Google stresses it is not a general AI detector and cannot tell AI-made from AI-edited files. Apple plans to support SynthID later this year."
+    "Pixel Watch 4 owners are reporting an update that adds the text-prompt watch face generator introduced with the Pixel Watch 5. Users describe the look they want in the Pixel Watch app and Gemini builds a matching design.",
+    "The update also brings the newer model's Weave, Modular, Reveal and Chronograph faces plus a Steph Curry dial. Separately, Google Health 5.10 is rolling out with irregular rhythm notifications in Japan."
    ],
    "sources": [
     [
-     "MacRumors",
-     "https://www.macrumors.com/2026/10/07/google-synthid-detector/"
+     "9to5Google",
+     "https://9to5google.com/2026/10/09/pixel-watch-4-update-adds-ai-face-generator/"
+    ],
+    [
+     "9to5Google",
+     "https://9to5google.com/2026/10/09/google-health-5-10-release-notes/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Software & Services",
-   "h3": "October Pixel update is the last for the Pixel 6",
-   "summary": "Google's small October patch reached Pixel 6 through Pixel 11 phones and should be the final update for the Pixel 6 and 6 Pro.",
+   "h3": "Emmys move to Prime Video from 2027",
+   "summary": "Amazon has won exclusive global rights to stream the Emmy Awards free in more than 240 countries and territories under a six-year deal.",
    "body": [
-    "The release follows September's larger Android 17 QPR1 drop and lists only three bug fixes. These include a VoIP ringtone distortion fix and a keyboard bug in search fields.",
-    "The Pixel 6 and 6 Pro launched in October 2021 and have reached the end of their five-year support window. Google confirmed their end-of-life status in July."
+    "The deal with the Television Academy ends the long rotation of the ceremony between ABC, CBS, Fox and NBC. Viewers will not need a Prime subscription to watch, and Amazon is reportedly paying $20 million to $25 million a year.",
+    "The Emmys become the first major entertainment awards show to go streaming-only, ahead of the Oscars' move to YouTube in 2029."
    ],
    "sources": [
     [
-     "Droid Life",
-     "https://www.droid-life.com/2026/10/06/2026-october-pixel-update-download/"
+     "Engadget",
+     "https://www.engadget.com/2278708/the-emmy-awards-are-moving-to-prime-video-in-2027/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "EVs & Mobility",
+   "h3": "Tesla Model 3 and Model Y can now power homes",
+   "summary": "Powershare home backup now works on new Model 3 and Model Y cars in the US when paired with a Powerwall 3.",
+   "body": [
+    "Tesla has extended Powershare vehicle-to-home backup to its best-selling cars. Model 3 and Model Y vehicles ordered from 1 October are supported, along with some earlier cars, and owners can check under Additional Vehicle Info in the software menu.",
+    "A Powerwall 3 is required for now and the system delivers up to 11.52 kW, with Tesla claiming more than two days of backup for a typical home. Feeding power back to the grid is not supported."
+   ],
+   "sources": [
+    [
+     "Electrek",
+     "https://electrek.co/2026/10/06/tesla-powershare-home-backup-model-3-model-y-powerwall-3/"
     ],
     [
-     "TechRepublic",
-     "https://www.techrepublic.com/article/news-google-pixel-october-2026-security-update/"
+     "Tesla",
+     "https://www.tesla.com/powershare"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "EVs & Mobility",
-   "h3": "Tesla renames FSD 'Assisted Driving' in Europe",
-   "summary": "After Germany called 'Full Self-Driving' misleading, Tesla now sells the system in Europe as Tesla Assisted Driving.",
+   "h3": "BYD opens orders for bigger 'Great Seagull'",
+   "summary": "Blind pre-orders are open in China for the second-generation Seagull, which grows by 425 mm and switches to a 95 kW rear motor.",
    "body": [
-    "Germany's transport ministry said the name overstated a system that still needs full driver attention. In return, Berlin will back EU-wide approval, with the speed limit tolerance capped at 10 percent.",
-    "The system is approved in eight EU countries including the Netherlands, but an EU vote has slipped to December at the earliest. In the US, Tesla still sells it as Full Self-Driving (Supervised)."
+    "BYD's cheapest EV, sold abroad as the Dolphin Surf, is getting much larger. Regulatory filings show the new model at 4,205 mm long with a 2,650 mm wheelbase, a 95 kW rear motor in place of the old 55 kW front unit and a roof-mounted lidar.",
+    "Prices have not been announced. The current car starts at about 69,900 yuan and was the world's sixth best-selling EV through August. A full launch is expected before the end of 2026."
    ],
    "sources": [
     [
      "Electrek",
-     "https://electrek.co/2026/10/09/tesla-fsd-renamed-tesla-assisted-driving-europe/"
+     "https://electrek.co/2026/10/09/byd-launches-pre-orders-for-new-seagull-10k-ev-gets-bigger/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "EVs & Mobility",
-   "h3": "VW ID. Tiguan arrives to replace the ID.4",
-   "summary": "Volkswagen's electric Tiguan offers up to 600km WLTP range and goes on sale in Germany from 42,695 euros.",
+   "h3": "Hyundai cuts Ioniq 5 and Ioniq 9 prices by 10%",
+   "summary": "Ahead of 2027 models, Hyundai is taking $3,500 off the Ioniq 5 and up to $7,000 off the three-row Ioniq 9 in the US this month.",
    "body": [
-    "The SUV comes with 58kWh or 77kWh batteries and up to 299 PS in all-wheel-drive form. Inside, physical buttons return alongside a 15-inch centre screen and a retro Golf IV gauge mode.",
-    "European sales open on 13 October, and the car will replace the ID.4 and ID.5, which sold over 950,000 units combined. North America follows later."
+    "The 2026 Ioniq 5, already one of the cheapest EVs in the US from about $35,000, is $3,500 off in October, with leases from $339 a month. The Ioniq 9 gets up to $7,000 in savings from a $58,995 base price.",
+    "Hyundai is also offering low-rate financing on both models. The deals arrive as the US EV market adjusts to life without the federal tax credit, which ended a year ago."
    ],
    "sources": [
     [
      "Electrek",
-     "https://electrek.co/2026/10/09/volkswagens-best-seller-goes-ev-replace-id-4-images/"
+     "https://electrek.co/2026/10/09/hyundai-offers-10-discount-ioniq-5-ioniq-9-evs"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "EVs & Mobility",
-   "h3": "VW recalls 22,500 ID.4s, advises 80% charge cap",
-   "summary": "Volkswagen is recalling 22,524 ID.4 SUVs in the US over a battery fire risk and told owners to limit charging to 80 percent.",
+   "h3": "Tesla opens first Semi Megachargers in Georgia",
+   "summary": "Two sites near Atlanta and Savannah with 14 stalls rated up to 1.2 MW create the Tesla Semi's first public corridor outside California.",
    "body": [
-    "VW told US regulators that charging some 2023 to 2026 models above 80 percent could trigger thermal propagation. The root cause is still unknown and battery supplier SK Battery America has been asked for details.",
-    "There is no fix yet, and owner letters go out on 27 November. It follows an earlier global battery recall of almost 100,000 VW EVs this year."
+    "Tesla has switched on an eight-stall Megacharger site in Conley south of Atlanta and a six-stall site at a Pilot truck stop in Ellabell near the Port of Savannah. The two are about 220 miles apart, letting even the standard-range Semi run the busy port-to-Atlanta freight lane.",
+    "The Pilot site is the first from a partnership announced in January, a season later than planned. Tesla is well behind its target of roughly 37 Megacharger sites this year, even as Semi volume production starts in Nevada."
    ],
    "sources": [
     [
      "Electrek",
-     "https://electrek.co/2026/10/08/volkswagen-recalls-22500-id-4-evs-tells-owners-charge-to-80/"
+     "https://electrek.co/2026/10/09/tesla-semi-megacharger-atlanta-savannah-pilot-georgia/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "EVs & Mobility",
-   "h3": "BMW iX4 promises 428 miles from $66,200",
-   "summary": "BMW's new electric coupe-SUV, the third Neue Klasse model, goes on sale in March 2027.",
+   "h3": "Jaguar reveals Type 01 electric GT",
+   "summary": "Jaguar unveiled its four-door Type 01 in New York, a high-performance electric GT expected to start around 120,000 pounds in the UK.",
    "body": [
-    "The iX4 50 xDrive has 468 hp and an estimated 428 miles from a 112.2kWh battery, or 828km on WLTP. Its 800V system charges at up to 400kW.",
-    "An M60 version with 603 hp follows later. Inside is BMW's panoramic display across the windscreen base, with bidirectional charging as standard."
+    "The Type 01 is the first production car of Jaguar's all-electric relaunch and was revealed in New York this week. UK pricing is expected from about 120,000 pounds, with heavily personalised cars going well beyond 150,000.",
+    "Orders are due to open in early 2027 and first deliveries are planned for the second half of that year. Australian reports put local pricing near 300,000 Australian dollars."
    ],
    "sources": [
     [
-     "Electrek",
-     "https://electrek.co/2026/10/08/bmws-new-ix4-428-miles-range-66000-price-tag/"
+     "BusinessDay",
+     "https://www.businessday.co.za/motoring/2026-10-07-global-reveal-jaguar-type-01-ushers-in-a-new-electric-era/"
+    ],
+    [
+     "The Driven",
+     "https://thedriven.io/2026/10/07/jaguar-unveils-its-new-electric-future-with-type-01-four-door-gt-yours-from-around-300000/"
     ]
    ]
   }

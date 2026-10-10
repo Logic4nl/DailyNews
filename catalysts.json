@@ -1,6 +1,15 @@
 {
- "note": "Curated dated event stream. THESIS = signed deal / financing / filing on a held name. MACRO = beta, rates, geopolitics. Held-name items pin above macro. Add new items on top; collapse repeats. Refreshed 2026-09-28.",
+ "note": "Curated dated event stream. THESIS = signed deal / financing / filing on a held name. MACRO = beta, rates, geopolitics. Held-name items pin above macro. Add new items on top; collapse repeats. Refreshed 2026-10-11.",
  "items": [
+  {
+   "date": "2026-09-30",
+   "ticker": "SLNH",
+   "relevance": "THESIS",
+   "text": "Soluna amended its Kati 1 co-mining agreement with a Bitdeer subsidiary (Dory Creek LLC), lifting the deployment from 28 MW to 35 MW (about 2.42 EH/s), completion expected November 2026; K1BC phase now fully subscribed. Bitcoin co-mining, not an AI/HPC tenant: does not satisfy the Kati 2 named hyperscaler lease condition.",
+   "source": "Soluna 8-K exhibit 99.1 (SEC EDGAR)",
+   "trust": "high",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000064463/000149315226044444/ex99-1.htm"
+  },
   {
    "date": "2026-09-28",
    "ticker": "MACRO",
