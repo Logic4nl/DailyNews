@@ -1,346 +1,370 @@
 {
  "mood": {
   "h3": "Sfeer vandaag",
-  "p": "Dinsdag wordt een uitzonderlijk warme nazomerdag: na een bewolkt begin breekt de zon door en loopt het kwik op naar ongeveer 26 graden, in het zuidoosten zelfs 28 tot 29 graden, warmer dan ooit gemeten op de laatste dagen van september. Het blijft droog, wat slecht nieuws is voor de Rijn die bij Lobith een recordlaagte bereikte. In Den Haag heerst voorzichtige opluchting nu het kabinet de bezuinigingen op uitkeringen schrapt en een begrotingsakkoord met de oppositie vanavond binnen bereik lijkt."
+  "p": "Een grijze, natte zaterdag: in het midden van het land valt verspreid zo'n 5 millimeter regen bij maxima rond 14 graden en een matige zuidwestenwind, zondag blijft het wisselvallig. Politiek Den Haag kijkt naar de VS, nu premier Jetten belooft het Internationaal Strafhof steen voor steen te beschermen tegen nieuwe Amerikaanse sancties. Forenzen met de streekbus houden woensdag rekening met een landelijke staking."
  },
  "global": [
   {
    "hero": true,
    "sub": "Conflicts & Security",
-   "h3": "Oil jumps as Trump rejects Iran's Hormuz plan; Qatar steps in",
-   "summary": "Brent neared $108 on Monday after Trump turned down Tehran's seven-day proposal, while Qatari mediators prepared separate talks with both sides.",
+   "h3": "Russian strike on buses in Kramatorsk kills at least 30",
+   "summary": "A Russian attack on two buses in the frontline city of Kramatorsk killed at least 30 people, part of a day in which at least 41 Ukrainians died nationwide.",
    "body": [
-    "Brent rose more than 3% in Asian trading before closing near $105 after Washington rejected Iran's offer to reopen the Strait of Hormuz in exchange for lifting the blockade and unfreezing assets. Tanker transits rose to 132 last week but remain far below prewar levels.",
-    "Qatar was expected to meet Iranian foreign minister Araqchi and US officials separately on Monday or Tuesday to discuss an amended plan. Iranian officials privately doubt a deal is possible before the US midterms."
+    "Two buses were hit on a street in Kramatorsk in Donetsk oblast on Thursday, leaving at least 30 dead and 18 wounded, according to local authorities. Prosecutors released images of bodies and debris around the burnt-out shell of one vehicle.",
+    "Ukrainian officials said Russian attacks across the country killed at least 41 people and injured 67 over 24 hours, with 35 deaths in Donetsk oblast alone and glide bombs hitting homes in Zaporizhzhia. Russia also launched 136 drones overnight, of which air defences downed or suppressed 114."
    ],
    "sources": [
     [
      "Al Jazeera",
-     "https://www.aljazeera.com/economy/2026/9/28/oil-prices-surge-after-trump-rejects-irans-plan-to-reopen-strait-of-hormuz"
-    ],
-    [
-     "US News/Reuters",
-     "https://www.usnews.com/news/world/articles/2026-09-28/us-iran-set-to-hold-separate-talks-with-mediators-on-monday-or-tuesday-official-says"
-    ],
-    [
-     "Bloomberg",
-     "https://www.bloomberg.com/news/articles/2026-09-28/iran-officials-pessimistic-about-deal-with-us-before-midterms"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "Russian strikes kill eight across Ukraine, Kharkiv high-rise hit",
-   "summary": "An overnight strike tore through a Kharkiv apartment block before daylight attacks hit central Kyiv and Dnipro.",
-   "body": [
-    "Russian drones and missiles killed at least eight people and injured dozens across Ukraine. In Kharkiv's Saltivskyi district two floors of a residential building were destroyed, with children among the wounded.",
-    "Jet-powered drones then struck central Kyiv in broad daylight for more than two hours, hitting a business centre, while Dnipro was also targeted."
-   ],
-   "sources": [
-    [
-     "Al Jazeera",
-     "https://www.aljazeera.com/news/2026/9/28/russian-strikes-kill-eight-injure-dozens-across-ukraine"
-    ],
-    [
-     "Euromaidan Press",
-     "https://euromaidanpress.com/2026/09/28/russia-hits-a-kharkiv-high-rise-overnight-injuring-43-people-then-strikes-central-kyiv-and-dnipro-in-broad-daylight/"
-    ],
-    [
-     "Ukrinform",
-     "https://www.ukrinform.net/rubric-ato/4168624-twenty-injured-in-overnight-attack-on-kharkiv-including-eight-children.html"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "Kremlin says Ukraine is 'paying the price' for its attacks",
-   "summary": "Moscow framed its escalating strikes as retaliation and signalled little appetite for a quick peace deal.",
-   "body": [
-    "Kremlin spokesman Dmitry Peskov said Kyiv was paying for months of attacks on Russian soil and that Russian forces would keep hitting targets systematically. Putin has cited drone raids on Moscow during the parliamentary vote and on St Petersburg in June.",
-    "Russia still demands that Ukraine leave four annexed regions, drop its NATO bid and accept limits on its army, terms Kyiv and its allies reject."
-   ],
-   "sources": [
-    [
-     "US News/Reuters",
-     "https://www.usnews.com/news/world/articles/2026-09-28/kremlin-says-ukraine-is-now-paying-the-price-for-its-own-attacks-on-russia"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Conflicts & Security",
-   "h3": "Ukraine hits four oil depots in Russia's Krasnodar region",
-   "summary": "SBU drones set fuel sites ablaze overnight, days after a strike on a missile component plant in Azov.",
-   "body": [
-    "Ukraine's security service said its Alpha unit hit four depots in Krasnodar Krai, including sites in Novotitarovskaya and a Lukoil facility in Pavlovskaya, with fires reported.",
-    "The General Staff separately confirmed a strike on the Azov Optical-Mechanical Plant in Rostov Oblast, part of Russia's Tactical Missiles Corporation."
-   ],
-   "sources": [
-    [
-     "The New Voice of Ukraine",
-     "https://english.nv.ua/nation/ukraine-s-sbu-strikes-four-oil-depots-in-russia-s-krasnodar-krai-50645268.html"
+     "https://www.aljazeera.com/news/2026/10/8/russia-attack-in-ukraines-kramatorsk-kills-12"
     ],
     [
      "Kyiv Independent",
-     "https://kyivindependent.com/ukraine-strikes-russian-defense-plant-producing-missile-components-general-staff-says/"
+     "https://kyivindependent.com/russian-attacks-kill-at-least-41-injure-67-across-ukraine-as-glide-bombs-strike-zaporizhzhia/"
+    ],
+    [
+     "Euronews",
+     "https://www.euronews.com/2026/10/09/35-killed-in-strikes-on-ukraines-donetsk-region-as-russia-reports-four-dead-across-belgoro"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Conflicts & Security",
-   "h3": "Israeli strikes kill two in Gaza as ceasefire toll passes 1,400",
-   "summary": "Two separate attacks killed at least two Palestinians on Monday, health officials in the enclave said.",
+   "h3": "Ukraine strike on Donetsk HQ kills record 20 Russian officers",
+   "summary": "Independent monitors say Ukrainian missiles killed 20 Russian officers, including seven colonels, at command posts in occupied Donetsk.",
    "body": [
-    "The Israeli military said it struck a militant in Nuseirat but gave no further detail. Israel is increasingly worried about Hamas tightening its grip on the areas it still controls.",
-    "Gaza health officials say more than 1,400 Palestinians, mostly civilians, have been killed since the truce began, while Israel reports four soldiers killed."
+    "Russian outlet Mediazona reported that a Ukrainian missile strike on the headquarters of Russia's Central Military District and its 41st Combined Arms Army killed 20 officers. Eighteen died on the spot and two later succumbed to injuries.",
+    "The dead included seven colonels, six lieutenant colonels and five majors, the highest officer toll from a single attack that monitors have recorded. Kyiv has stepped up long-range strikes on command and logistics targets in recent weeks."
    ],
    "sources": [
     [
-     "US News/Reuters",
-     "https://www.usnews.com/news/world/articles/2026-09-28/israeli-strikes-kill-at-least-two-people-in-gaza-officials-say"
-    ],
-    [
-     "Haaretz",
-     "https://www.haaretz.com/gaza/2026-09-28/ty-article/at-least-two-palestinians-killed-in-separate-israeli-airstrikes-in-gaza/000001a0-e845-d272-adf6-fdc723160000"
+     "Kyiv Independent",
+     "https://kyivindependent.com/record-20-russian-officers-killed-in-ukrainian-strikes-on-headquarters-in-donetsk-monitors-say/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Conflicts & Security",
-   "h3": "IDF hits Hezbollah sites after drone attack on troops",
-   "summary": "Israel struck southern Lebanon after an explosive drone was launched at soldiers in its security zone.",
+   "h3": "Trump pledges no Iran strikes before 3 November midterms",
+   "summary": "Trump said talks with Tehran were productive and ruled out attacks until after the US vote, sending oil prices lower.",
    "body": [
-    "No troops were hurt, but the air force hit several Hezbollah launch sites used for drones and anti-tank missiles. An Apache strike near Mayfadoun hit a commercial centre a day earlier.",
-    "The Israeli military said it remains committed to its agreement with Lebanon despite the exchanges."
+    "President Donald Trump said late on Thursday that Washington would not attack Iran before the 3 November midterm elections, citing productive discussions with the Islamic Republic. Oil prices slipped on Friday as fears over Gulf supply eased.",
+    "US media have reported that the Pentagon has drawn up strike plans and that Trump has told aides he expects a new bombing campaign after the vote. The Kremlin said Trump welcomed Russian efforts toward an Iran settlement, while Iran's Revolutionary Guards claimed a strike on an LPG carrier near the Strait of Hormuz."
    ],
    "sources": [
     [
-     "Haaretz",
-     "https://www.haaretz.com/israel-news/israel-security/2026-09-27/ty-article/.premium/idf-strikes-hezbollah-targets-after-explosive-drone-launched-at-troops-overnight/000001a0-e194-d259-a3b4-e99c407c0000"
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/10/9/trump-says-us-will-not-strike-iran-before-midterm-elections"
     ],
     [
-     "JNS",
-     "https://www.jns.org/news/israel-news/idf-strikes-hezbollah-weapons-storage-site-in-southern-lebanon"
+     "Al Jazeera analysis",
+     "https://www.aljazeera.com/news/2026/10/9/is-trump-signalling-a-return-to-war-with-iran-after-the-midterms"
+    ],
+    [
+     "Al Jazeera live",
+     "https://www.aljazeera.com/news/liveblog/2026/10/10/iran-war-live-kremlin-says-trump-welcomed-russia-effort-in-iran-deal"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Conflicts & Security",
-   "h3": "South Africa reels after two mass shootings leave 28 dead",
-   "summary": "The toll from a tavern attack near Johannesburg rose to 18, hours after ten were killed in Cape Town.",
+   "h3": "Houthi missiles kill three at Riyadh airport, Saudi coalition hits back",
+   "summary": "A Saudia pilot was among three people killed in Houthi strikes on King Khalid International Airport, prompting a large coalition offensive in Yemen.",
    "body": [
-    "Eight gunmen with assault rifles stormed a bar in Wedela township late on Saturday. Police suspect a revenge attack linked to gangs running illegal gold mining in the area.",
-    "Only four victims have been identified, including two Lesotho nationals. A separate shooting in Cape Town on Sunday killed ten more."
+    "Saudi aviation authorities said attacks on Riyadh's main airport on Thursday killed Saudia captain Hamoud Ali Alkalthami and two other Saudi citizens and wounded people of several nationalities. Diplomats sheltered in place and a Saudia aircraft was damaged before the airport reopened.",
+    "The Houthis said the strikes avenged Saudi raids on the airports in Sanaa and Hodeidah and warned airlines that Saudi airspace outside Mecca and Medina is a target. The Saudi-led coalition responded with what it called a large-scale operation, claiming 136 Houthi military targets destroyed."
+   ],
+   "sources": [
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three"
+    ],
+    [
+     "Euronews",
+     "https://www.euronews.com/2026/10/09/houthi-missile-strikes-kill-three-at-riyadh-airport-including-airline-captain"
+    ],
+    [
+     "France 24",
+     "https://www.france24.com/en/live-news/20261009-saudi-arabia-says-three-killed-at-airport-as-yemen-war-expands"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Conflicts & Security",
+   "h3": "Ethiopia and Eritrea trade invasion charges over Tigray",
+   "summary": "Addis Ababa told the UN Security Council that Eritrea has launched an all-out invasion, while Asmara says it faces a war of aggression.",
+   "body": [
+    "Ethiopian Foreign Minister Gedion Timothewos wrote to the Security Council that Eritrean troops had pushed up to 60km into Tigray. Witnesses placed Eritrean units around Adigrat and a foreign security source estimated 5,000 to 8,000 soldiers inside Ethiopia.",
+    "Ethiopian drones have struck the Eritrean forces, which Addis Ababa accuses of backing the TPLF. Federal troops entered Mekelle without a fight last weekend as the rebels withdrew, and the two neighbours cut diplomatic ties last week."
+   ],
+   "sources": [
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/10/9/ethiopia-and-eritrea-accuse-one-another-of-launching-war"
+    ],
+    [
+     "Africanews",
+     "https://www.africanews.com/2026/10/07/eritrean-troops-deploy-in-ethiopias-tigray-region-witnesses-say/"
+    ],
+    [
+     "France 24",
+     "https://www.france24.com/en/live-news/20261008-ethiopia-drones-hit-eritrean-troops-in-tigray"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Navi Pillay wins Nobel Peace Prize for upholding international law",
+   "summary": "The 85-year-old South African jurist, a former ICC and Rwanda tribunal judge, was honoured for holding states and leaders to account.",
+   "body": [
+    "The Norwegian Nobel Committee awarded the 2026 prize to Navi Pillay, who defended Nelson Mandela as an anti-apartheid lawyer and later presided over the International Criminal Tribunal for Rwanda. She sat on the ICC appeals chamber from 2003 to 2008 before becoming UN human rights chief.",
+    "Pillay most recently chaired the UN inquiry that concluded Israel had committed genocide in Gaza. The committee said judges and international legal institutions are under political attack, and the award carries 12 million Swedish kronor, around 1.07 million euros."
+   ],
+   "sources": [
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/10/former-icc-judge-navi-pillay-awarded-nobel-peace-prize/"
+    ],
+    [
+     "Al Jazeera",
+     "https://aljazeera.com/news/2026/10/9/who-is-navi-pillay-winner-of-the-2026-nobel-peace-prize"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "US sanctions the International Criminal Court itself",
+   "summary": "Rubio announced a ban on transactions with the ICC, the first time Washington has targeted the institution rather than its staff.",
+   "body": [
+    "Secretary of State Marco Rubio said the measures would cut off the court's resources, blocking its US property and barring funds, goods or services to it. Temporary exemptions cover maintenance, technology and pensions while member states seek a diplomatic fix.",
+    "Washington had already sanctioned ICC judges and prosecutors over the Afghanistan probe and the warrant for Benjamin Netanyahu, who thanked the US. Deputy prosecutor Nazhat Shameem Khan condemned the move, and the court, which has about 900 staff, urged its members to step up support."
+   ],
+   "sources": [
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation"
+    ],
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/10/trump-administration-sanctions-international-criminal-court/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Diplomacy & Trade",
+   "h3": "Ukraine, Europe and US envoys meet in Miami on ending the war",
+   "summary": "Witkoff and Kushner host Ukrainian, E3, EU and NATO officials on Friday and Saturday, with Russia absent.",
+   "body": [
+    "The US special envoys are hosting two days of talks in Miami with a Ukrainian team that includes Kyrylo Budanov and Rustem Umerov. National security advisers from France, Germany and the UK attend along with the European Commission and NATO's Geoffrey van Leeuwen.",
+    "Washington said the agenda covers security guarantees and a post-war prosperity plan. Kyiv hopes to secure a limited ceasefire covering the Black Sea, energy infrastructure or both, and Zelensky said the US has floated trilateral talks with Russia by the end of October."
    ],
    "sources": [
     [
      "Euronews",
-     "https://www.euronews.com/2026/09/28/death-toll-in-south-africa-bar-shooting-rises-to-18-police-say"
+     "https://www.euronews.com/2026/10/09/ukrainian-and-european-officials-fly-to-miami-for-us-led-peace-talks"
     ],
     [
-     "US News/Reuters",
-     "https://www.usnews.com/news/world/articles/2026-09-28/south-african-police-death-toll-from-weekend-tavern-shooting-rises-to-18"
+     "France 24",
+     "https://www.france24.com/en/europe/20261008-trump-envoys-ukraine-peace-talks-miami"
+    ],
+    [
+     "Kyiv Independent",
+     "https://kyivindependent.com/us-proposes-trilateral-talks-with-russia-ukraine-by-end-of-october-zelensky-says/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Diplomacy & Trade",
-   "h3": "US and China list $30bn of goods each for tariff cuts",
-   "summary": "Toys and kitchenware from China and US farm goods, coal and medical kit are on the relief lists after the Trump-Xi summit.",
+   "h3": "Trump strikes diesel deal with Putin as US fuel prices soar",
+   "summary": "Russia will ship more than 4 million tonnes of diesel to world markets, and the US Treasury waived sanctions on it until April 2027.",
    "body": [
-    "Washington published details of the first tariff reductions agreed at last week's summit, and the two sides also set up a channel for handling AI incidents.",
-    "Beijing said a two-month truce extension would give both sides time to review implementation and tackle remaining disputes."
+    "After a call with Vladimir Putin, Trump said Russia would supply over 300,000 tonnes of diesel immediately, 500,000 tonnes in November and 1 million tonnes after that, with 3 million more depending on refinery repairs. A Treasury general licence suspends sanctions on Russian diesel through April 2027.",
+    "US diesel averages 6.27 dollars a gallon according to AAA, as Ukrainian drone strikes on refineries forced Moscow to halt exports. Zelensky said the easing plays into Russia's hands and critics argue it clashes with US sanctions law."
    ],
    "sources": [
     [
-     "Euronews",
-     "https://www.euronews.com/2026/09/28/us-and-china-name-goods-for-possible-tariff-cuts-what-it-could-mean-for-europe"
+     "Al Jazeera",
+     "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices"
     ],
     [
-     "The Hill",
-     "https://thehill.com/homenews/administration/6112947-donald-trump-xi-jinping-tariffs/"
+     "CNBC",
+     "https://www.cnbc.com/2026/10/09/trump-putin-russian-diesel-us-global-markets.html"
     ],
     [
-     "Modern Diplomacy",
-     "https://moderndiplomacy.eu/2026/09/28/us-china-trade-truce-extended-as-both-sides-seek-progress-on-tariffs-and-trade/"
+     "CNBC",
+     "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Diplomacy & Trade",
-   "h3": "EU presses China to accept export quotas",
-   "summary": "Brussels wants caps on Chinese exports as talks enter the final stretch and threatens trade measures without progress.",
+   "h3": "UK and Germany ratify Kensington defence treaty in Berlin",
+   "summary": "Prime Minister Andy Burnham and Chancellor Friedrich Merz exchanged ratification papers for the first German-British mutual defence pact since 1945.",
    "body": [
-    "The European Commission is pushing Beijing toward quotas to rebalance a lopsided trade relationship and has set next month as a deadline for tangible results.",
-    "The push comes as Washington and Beijing ease tariffs, raising fears in Europe that diverted Chinese goods could flood its market."
+    "Merz hosted Burnham at the Chancellery on 8 October, where the two sides formally brought the Kensington Treaty into force. It commits both countries to assist each other if attacked and to hold close dialogue on strategic issues including nuclear threats.",
+    "The treaty forms one leg of a London, Paris and Berlin security triangle. It also covers joint defence exports such as Boxer vehicles and Typhoon jets and a plan to develop a deep precision strike missile within a decade."
    ],
    "sources": [
     [
-     "Euronews",
-     "https://www.euronews.com/2026/09/28/eu-pushes-china-to-accept-import-quotas-in-bid-to-rebalance-trade"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "UN Council hears West Bank is at breaking point",
-   "summary": "Ambassadors met as settler attacks hit record levels and the year-old Gaza peace plan stalls.",
-   "body": [
-    "OCHA has logged more than 1,600 settler attacks this year, nearly seven a day, and over 4,300 Palestinians displaced. UN deputy coordinator Ramiz Alakbarov warned the Palestinian Authority is near collapse.",
-    "Speakers said civilian suffering in Gaza continues despite the ceasefire and a new peace framework."
-   ],
-   "sources": [
-    [
-     "UN News",
-     "https://news.un.org/en/story/2026/09/1168464"
+     "Bundesregierung",
+     "https://www.bundesregierung.de/breg-de/aktuelles/bundeskanzler-merz-empfaengt-den-britischen-premierminister-burnham-2455532"
     ],
     [
-     "UN Press",
-     "https://press.un.org/en/2026/sc16440.doc.htm"
+     "Kyiv Post",
+     "https://www.kyivpost.com/amp/post/56493"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Diplomacy & Trade",
-   "h3": "UAE confirms bin Zayed hosted Netanyahu",
-   "summary": "Abu Dhabi said the Emirati president and the Israeli PM discussed bilateral relations during Sunday's snap visit.",
+   "h3": "India raises rates for first time since 2023 as inflation climbs",
+   "summary": "The Reserve Bank of India lifted its repo rate by 25 basis points to 5.50% and signalled more hikes may follow.",
    "body": [
-    "The confirmation followed reports that Netanyahu flew in secretly and also met senior officials from several other regional states.",
-    "The visit is a sign that Gulf ties with Israel are holding despite the wider Iran war and pressure over Gaza."
+    "The RBI joined other major central banks in tightening after retail inflation rose for 10 straight months to 4.8% in August, above its 4% target. The move matched economist expectations.",
+    "Governor Sanjay Malhotra said cuts are off the table for now and the next step can only be a hike or a pause. HSBC and Goldman Sachs expect another increase in December."
    ],
    "sources": [
     [
-     "Times of Israel",
-     "https://www.timesofisrael.com/liveblog-september-28-2026/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "UN General Assembly wraps up its annual debate",
-   "summary": "The 81st session's high-level week closed on Monday under the theme of restoring trust in the UN.",
-   "body": [
-    "Leaders and ministers used the week to push on Ukraine, Iran and Gaza, though talks on the sidelines produced little concrete progress.",
-    "The debate ran from 22 to 28 September, with the last speakers delivering statements in Monday's plenary."
-   ],
-   "sources": [
-    [
-     "UN Press",
-     "https://press.un.org/en/blog/ga12791"
-    ],
-    [
-     "UN PGA",
-     "https://www.un.org/pga/81/event/general-debate-of-the-eighty-first-session-of-the-general-assembly/"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Diplomacy & Trade",
-   "h3": "Lula widens first-round lead but runoff stays a coin toss",
-   "summary": "New polls give Lula a five-point edge over Flavio Bolsonaro ahead of Sunday's vote.",
-   "body": [
-    "BTG/Nexus has Lula at 42% against 37%, while Quaest shows 39% to 34% in the first round.",
-    "Runoff simulations are much tighter, with Quaest showing a tie at 41% and BTG/Nexus a two-point Lula edge. A second round would be held on 25 October."
-   ],
-   "sources": [
-    [
-     "US News/Reuters",
-     "https://www.usnews.com/news/world/articles/2026-09-28/brazils-lula-widens-first-round-lead-runoff-with-bolsonaro-stays-tight-btg-nexus-poll-shows"
-    ],
-    [
-     "Rio Times",
-     "https://www.riotimesonline.com/quaest-poll-lula-flavio-tied-41-runoff-september-28-2026/"
+     "CNBC",
+     "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Humanitarian & Climate",
-   "h3": "Hurricane Polo bears down on Baja California",
-   "summary": "Residents boarded up homes as the major hurricane headed for landfall on the Baja California Sur coast.",
+   "h3": "Hurricane Isaias slams Florida Panhandle as Category 2",
+   "summary": "The season's first Atlantic hurricane came ashore near Destin with 105 mph winds, cutting power to over 500,000 customers.",
    "body": [
-    "Forecasters warned of 15 to 30 cm of rain and life-threatening floods and mudslides, with Polo due to move into Sonora late Monday or early Tuesday.",
-    "The US Southwest could see heavy rain later in the week, and the US embassy urged travellers to be ready to evacuate."
+    "Isaias made landfall near Destin on Friday evening, the first US hurricane landfall since Milton exactly two years ago. A flash flood emergency was issued for Destin, Fort Walton Beach and coastal Okaloosa County, and Florida declared an emergency in more than a third of its counties.",
+    "More than half a million homes and businesses in Florida and Alabama lost power. The storm is forecast to weaken over Alabama and the Tennessee Valley on Saturday, with rain spreading to more than 15 eastern states, and some Gulf oil wells paused output."
    ],
    "sources": [
     [
      "NBC News",
-     "https://www.nbcnews.com/weather/hurricanes/hurricane-polo-forecast-path-mexico-baja-california-flooding-rcna600287"
+     "https://www.nbcnews.com/weather/hurricanes/live-blog/live-updates-hurricane-isaias-rcna602422"
     ],
     [
-     "CBS News",
-     "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/"
+     "Fox Weather",
+     "https://www.foxweather.com/live-news/live-updates-hurricane-isaias-threatens-the-gulf-coast-with-dangerous-landfall-expected-tonight"
+    ],
+    [
+     "CNN",
+     "https://www.cnn.com/2026/10/09/weather/live-news/hurricane-isaias-gulf-storm"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Humanitarian & Climate",
-   "h3": "Hurricane Nolo nears Category 5 southwest of Hawaii",
-   "summary": "The storm is tracking away from the main islands but threatens the remote northwestern chain.",
+   "h3": "Magnitude 7.7 quake in Panama triggers regional tsunami alerts",
+   "summary": "A powerful earthquake off Panama's Pacific coast shook the capital and prompted tsunami warnings from Guatemala to Chile.",
    "body": [
-    "Nolo packed 155 mph winds about 410 miles southwest of Honolulu, sending dangerous surf onto south-facing shores after soaking the Big Island.",
-    "A hurricane warning covers Papahanaumokuakea from Nihoa to French Frigate Shoals, with hurricane conditions expected by Wednesday."
+    "The USGS placed the epicentre about 10km southwest of Pitaloza Arriba. The US National Weather Service issued tsunami warnings for Panama, Colombia, Ecuador, Nicaragua and Guatemala, and Chile's navy issued its own alert.",
+    "In Penonome a historic tower collapsed and balconies fell from a residential block, while Panama City residents fled into the streets. Schools were closed and President Jose Raul Mulino appealed for calm, after deadly quakes earlier this year in Venezuela and Colombia."
    ],
    "sources": [
     [
-     "Honolulu Star-Advertiser",
-     "https://www.staradvertiser.com/2026/09/28/breaking-news/hurricane-nolo-remains-category-4-far-southwest-of-hawaii/"
-    ],
-    [
-     "Hawaii News Now",
-     "https://www.hawaiinewsnow.com/2026/09/28/hurricane-nolo-close-category-5-intensity-track-away-main-hawaiian-islands/"
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/10/9/tsunami-warnings-across-latin-america-after-7-7-magnitude-earthquake-hits"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Humanitarian & Climate",
-   "h3": "Rare September nor'easter lingers over US Northeast",
-   "summary": "The slow storm has cut power to more than 100,000 customers and caused at least one death.",
+   "h3": "Gaza ceasefire exists in name only, over 100 NGOs warn",
+   "summary": "A year after the US-backed truce, aid groups say Israeli fire has killed more than 1,400 Palestinians, including at least 327 children.",
    "body": [
-    "Flooding, toppled trees and downed lines hit New Jersey to New England. Atlantic City saw its highest water since Sandy in 2012.",
-    "A New York City Housing Authority worker was killed by a falling tree, and forecasters compared the coastal flooding to Sandy and Irene."
+    "Amnesty International, the Norwegian Refugee Council, Save the Children, Oxfam and dozens of other groups said Israeli forces still kill and injure Palestinians daily. Aid restrictions are preventing families from recovering, they said.",
+    "More than 74,000 Palestinians have been killed since October 2023 and about 80% of structures in the enclave are damaged. On Thursday Israeli forces shot dead at least one Palestinian in central Gaza camps and shelled areas of Khan Younis."
    ],
    "sources": [
     [
-     "Weather.com",
-     "https://weather.com/2026/09/27/news/weather/noreaster-northeast-impacts-flooding-travel-power"
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/10/9/gaza-ceasefire-exists-in-name-only-more-than-100-ngos-say"
     ],
     [
-     "Washington Post",
-     "https://www.washingtonpost.com/weather/2026/09/26/major-noreaster-is-battering-east-coast/"
+     "Times of Israel",
+     "https://www.timesofisrael.com/liveblog-oct-9-2026/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Humanitarian & Climate",
-   "h3": "Fighting in Ituri threatens DR Congo's Ebola response",
-   "summary": "Aid teams warn that violence around a Bunia displacement camp is scattering families during the country's worst outbreak.",
+   "h3": "Cars torched as anti-migrant riots hit Soweto and Durban",
+   "summary": "Some 24 vehicles were burned and foreign-owned shops looted in protests over a court ruling on asylum seekers.",
    "body": [
-    "Soldiers searching for weapons entered Kigonze camp, prompting thousands to flee. The outbreak has passed 7,400 confirmed cases, with weekly North Kivu cases doubling to over 200.",
-    "Responders have received less than a third of the funding they need, and IOM has raised under $30 million of its $110 million appeal."
+    "Police said 10 cars were set alight in Johannesburg's Soweto and 14 in Durban, where three people were arrested and officers fired rubber bullets. Fresh clashes broke out in Durban on Friday and violence also flared outside the Constitutional Court.",
+    "Protesters object to a July ruling that removed procedural barriers to claiming asylum, including for people who entered irregularly. The government blamed deliberate disinformation about the judgment and vowed to prosecute those responsible."
    ],
    "sources": [
     [
-     "UN News",
-     "https://news.un.org/en/story/2026/09/1168465"
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/10/8/south-africa-protests-turn-violent-amid-rage-over-asylum-ruling"
     ],
     [
-     "GlobalSecurity/IOM",
-     "https://www.globalsecurity.org/military/library/news/2026/09/mil-260922-iom01.htm"
+     "France 24",
+     "https://www.france24.com/en/live-news/20261009-clashes-in-durban-as-fresh-anti-migrant-riots-erupt-in-south-africa"
+    ],
+    [
+     "News24",
+     "https://www.news24.com/southafrica/news/anti-foreigner-violence-erupts-outside-concourt-20261009-0639"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Elections",
+   "h3": "Maduro and wife charged with torture conspiracy in New York",
+   "summary": "A new count accuses the former Venezuelan leader and Cilia Flores of directing abuse of opponents, including three US citizens.",
+   "body": [
+    "The indictment filed in Manhattan federal court adds conspiracy to commit torture to existing drug trafficking charges. Prosecutors say the scheme ran from 1999 to 2025 and involved waterboarding, rape and beatings by military and intelligence officials.",
+    "They allege Maduro personally ordered harsher treatment of a defiant detained officer. The couple, held in Brooklyn's Metropolitan Detention Center, have pleaded not guilty to the drug charges and face trial on 1 June 2027."
+   ],
+   "sources": [
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/10/8/venezuelas-nicolas-maduro-and-his-wife-charged-over-torture-allegations"
+    ],
+    [
+     "France 24",
+     "https://www.france24.com/en/americas/20261008-us-files-new-torture-charges-venezuela-nicolas-maduro-cilia-flores"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Politics & Elections",
+   "h3": "ICE shooting of Bronx man with child in car sparks protests",
+   "summary": "Federal agents shot Oscar Bergal during an arrest in Marble Hill while his five-year-old sat in the back seat.",
+   "body": [
+    "DHS said Bergal, a 28-year-old Dominican national with a criminal conviction, refused to leave his car and rammed two ICE vehicles before officers fired, grazing his neck. Homeland Security Secretary Markwayne Mullin said agents did not know a child was inside.",
+    "The incident drew protests and condemnation from city leaders, while federal officials used it to attack New York's sanctuary policies. NYPD body camera footage of the aftermath has since been released."
+   ],
+   "sources": [
+    [
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/10/9/dhs-defends-ice-shooting-in-nyc-says-officers-believed-they-were-in-danger"
+    ],
+    [
+     "NBC News",
+     "https://www.nbcnews.com/news/us-news/dhs-officials-defend-actions-shooting-nyc-immigrant-outcry-rcna602490"
+    ],
+    [
+     "CBS New York",
+     "https://www.cbsnews.com/newyork/news/marble-hill-ice-shooting/"
     ]
    ]
   }
@@ -349,200 +373,212 @@
   {
    "hero": true,
    "sub": "Politics & Policy",
-   "h3": "Budget deal in sight as cabinet scraps €6bn welfare cuts",
-   "summary": "Coalition parties D66, CDA and VVD hope to seal a deal with the opposition by Tuesday evening after weekend talks.",
+   "h3": "Netherlands vows to protect ICC as US sanctions the court",
+   "summary": "Prime minister Rob Jetten pledged to defend the Hague-based court stone by stone hours before Washington targeted the institution itself.",
    "body": [
-    "Pro and Volt say the cabinet has fully dropped its planned €6 billion social security cuts, keeping the two-year WW term and leaving WIA untouched. The right is being courted with Box 3 wealth tax changes.",
-    "Volt leader Laurens Dassen said the key question is where the missing money will come from. JA21 and SGP are less enthusiastic."
+    "Foreign minister Tom Berendsen called the US measures an undesirable new escalation and said the Netherlands stands behind the court. The sanctions cut the ICC off from American companies, including financial and technology providers.",
+    "The move came on the same day former ICC judge Navi Pillay won the Nobel Peace Prize. As host state, the Netherlands is also facing a Russian request to extradite nine ICC officials convicted in absentia in Moscow."
    ],
    "sources": [
     [
      "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/budget-deal-in-sight-after-coalition-agree-to-scrap-welfare-cuts/"
+     "https://www.dutchnews.nl/2026/10/trump-administration-sanctions-international-criminal-court/"
     ],
     [
-     "WNL",
-     "https://wnl.tv/2026/09/28/kabinet-deelt-cadeautjes-uit-aan-links-en-rechts-bondje-progressief-nederland-en-volt-strategisch-slim"
+     "Al Jazeera",
+     "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Politics & Policy",
-   "h3": "Pro tables bill to take abortion out of the criminal code",
-   "summary": "The opposition party wants abortion regulated as healthcare rather than as a crime with exceptions.",
+   "h3": "Russia asks NL to extradite ICC president Akane",
+   "summary": "Moscow wants nine ICC officials handed over for their role in the arrest warrant against Vladimir Putin.",
    "body": [
-    "MP Lisa Vliegenthart, a former midwife, handed the bill to Dolle Mina campaigners outside parliament on Monday.",
-    "Abortion has been legal since the 1980s, but performing one is still technically a crime unless done by a doctor in a licensed clinic under the 24-week rules."
+    "Russian prosecutors requested the extradition of court president Tomoko Akane and eight colleagues, sentenced in absentia in December to terms of 3.5 to 15 years. The ICC warrant concerns the alleged unlawful deportation of children from occupied Ukraine.",
+    "Japan, Akane's home country, called the request regrettable and the measures unjust. The US has separately sanctioned 13 court staff, Akane among them, over the Gaza investigation."
    ],
    "sources": [
     [
      "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/pro-tables-bill-to-remove-abortion-from-dutch-criminal-code/"
+     "https://www.dutchnews.nl/2026/10/russia-wants-nl-to-hand-over-icc-judges/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Politics & Policy",
-   "h3": "Israel strips Dutch diplomats in Ramallah of their status",
-   "summary": "Israel is retaliating against the Dutch ban on goods from illegal settlements that took effect last week.",
+   "h3": "Rainbow flag to fly over parliament for first time on Sunday",
+   "summary": "MPs voted 90 to 36 to overrule the presidium and raise the flag for Coming Out Day.",
    "body": [
-    "Foreign minister Gideon Saar gave the diplomats seven days to hand back Israeli-issued documents, after which their immunity lapses.",
-    "Dutch foreign minister Berendsen called the move unnecessary and said the ban is about complying with international law, not targeting Israel."
+    "Parliament's presidium had dropped the plan after objections led by the SGP, whose MP Diederik van Dijk called it an activist symbol. Pro MP Kati Piri then tabled a motion backing LGBTI rights and an inclusive workplace.",
+    "Van Dijk forced a roll-call vote late on Thursday, so MPs who had already gone home had to return to The Hague. The motion passed comfortably."
    ],
    "sources": [
     [
      "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/israel-strips-dutch-diplomats-status-over-settlement-goods-ban/"
+     "https://www.dutchnews.nl/2026/10/mps-vote-to-fly-rainbow-flag-at-parliament-for-first-time/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Politics & Policy",
-   "h3": "Inspectors demand urgent plan for youth detention centres",
-   "summary": "Staff shortages are putting young detainees and staff under serious pressure, three inspectorates warn.",
+   "h3": "Yeşilgöz now calls Russia the enemy, policy stays the same",
+   "summary": "The defence minister changed her wording during the defence budget debate but said it does not signal a shift in security policy.",
    "body": [
-    "Around 450 young people are held in six youth detention centres meant to focus on education and treatment. Shortened daily programmes have become the norm.",
-    "The inspectorates have asked junior justice minister Claudia van Bruggen for a short-term action plan."
+    "Dilan Yeşilgöz told NOS that sabotage, drone incidents and intimidation across Europe meant the threat must be named plainly. She stressed the Netherlands is not at war and will not suddenly change course.",
+    "She described a new reality in which Putin is testing NATO's strength. In August the cabinet published a draft law giving the AIVD and MIVD sweeping new powers against Russia, China and Iran."
    ],
    "sources": [
     [
      "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/inspectors-demand-urgent-action-on-youth-detention-centres/"
+     "https://www.dutchnews.nl/2026/10/defence-minister-calls-russia-the-enemy-but-policy-unchanged/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Politics & Policy",
-   "h3": "Minister finds money to reach people missing out on benefits",
-   "summary": "Minister Thierry Aartsen has found €8.2 million for 2027 to contact people entitled to support.",
+   "h3": "MPs want faster terror-glorification law after Dam banner",
+   "summary": "A 'We support Hamas' banner carried onto the Dam on 7 October was judged legal, prompting calls to speed up a pending bill.",
    "body": [
-    "The funds come from a budget earmarked for upskilling employees. A planned cut to the outreach service was reversed after criticism.",
-    "Aartsen told the Tweede Kamer he still needs a permanent funding source for the measure."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/28/minister-finds-funds-program-contact-people-entitled-benefits"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Economy & Housing",
-   "h3": "Dynamic power prices double compared to last September",
-   "summary": "Wholesale electricity on dynamic contracts averaged 15.14 cents per kWh this month.",
-   "body": [
-    "Between 1 and 25 September prices were more than twice the 7.29 cents seen a year earlier, excluding taxes and fees.",
-    "Whether a dynamic contract pays off depends on how much a household can shift its consumption and export."
-   ],
-   "sources": [
-    [
-     "NL Times",
-     "https://nltimes.nl/2026/09/28/electricity-twice-costly-september-year-ago-dynamic-contracts"
-    ]
-   ]
-  },
-  {
-   "hero": false,
-   "sub": "Economy & Housing",
-   "h3": "ACM wants clarity on AI pricing after airline fare probe",
-   "summary": "Some seats had 35 different prices, the consumer watchdog found.",
-   "body": [
-    "One in three tickets cost 40% above the average fare, yet passengers had no easy way to find the cheapest option.",
-    "Chairman Martijn Snoep said similar algorithmic pricing is spreading to online shops, concert tickets and petrol stations."
+    "About 150 people joined the march, some chanting in praise of 7 October, and police stopped them heading to the Jewish quarter. Mayor Femke Halsema called it shocking but lawful, while JA21 and SGP MPs criticised the lack of intervention.",
+    "Justice minister David van Weel's bill would create three offences, including public support for banned terror groups, with up to two years in prison. Peace group PAX warns it could be used against activists and journalists."
    ],
    "sources": [
     [
      "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/market-watchdog-calls-for-transparency-on-ai-in-price-setting/"
+     "https://www.dutchnews.nl/2026/10/mps-push-for-legal-changes-after-pro-hamas-demonstration-on-dam/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Economy & Housing",
-   "h3": "Rhine hits record low at Lobith, Dutch cruise ship stuck",
-   "summary": "The river fell to 6.1 metres at the border on Sunday, below August's record.",
+   "h3": "Regional bus drivers to strike nationwide on Wednesday",
+   "summary": "FNV and CNV called a 24-hour walkout covering 13,000 workers and threaten weekly action days if employers do not move.",
    "body": [
-    "Upstream in Cologne the Dutch Melody with 140 passengers ran aground mid-river before another ship helped it free.",
-    "Flow at Lobith fell below 600 cubic metres per second for the first time, and levels are expected to drop further."
+    "The strike hits regional services run by Arriva, EBS, Qbuzz, Keolis, Transdev and RET, but not city transport in Amsterdam, Rotterdam or The Hague. The collective agreement expired on 1 July and talks collapsed after eight rounds.",
+    "An ultimatum to employers' group VWOV lapsed without reply this week. The unions say future strike dates will be announced at short notice."
    ],
    "sources": [
     [
      "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/dutch-river-cruise-stranded-as-rhine-falls-to-new-record-levels/"
+     "https://www.dutchnews.nl/2026/10/unions-call-regional-transport-strike-threaten-weekly-walkout/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Economy & Housing",
-   "h3": "Amsterdam top destination for young people leaving home",
-   "summary": "A third of the 174,000 people aged 18 to 30 who left home in 2024 settled in Amsterdam, CBS says.",
+   "h3": "Home buyers gain bargaining room as listings jump 24%",
+   "summary": "NVM says fewer homes sell above asking price as former rentals flood the market, though the average price still rose to 503,000 euros.",
    "body": [
-    "The capital drew 12,760 young movers and 5,475 students, ahead of Rotterdam, Utrecht and Groningen.",
-    "Half of students moving out went into private rentals, while non-students most often bought a home."
+    "Just under two-thirds of homes sold between mid-June and mid-September went over the asking price, down from 71% a year earlier. Some 39,000 homes were listed with NVM agents, 24% more than last year, while sales held at about 41,700.",
+    "Prices rose 1.8% nationally but only 0.6% in Greater Amsterdam and dipped around Haarlem, Leiden and Zeeland. Much of the extra supply comes from landlords selling apartments, which shrinks the rental market."
    ],
    "sources": [
     [
      "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/amsterdam-top-destination-for-young-people-leaving-home/"
+     "https://www.dutchnews.nl/2026/10/buyers-get-more-room-to-negotiate-as-housing-supply-grows/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "Up to 11,000 homes bought with forged mortgage papers",
+   "summary": "An unpublished FEC report says criminal groups use fake pay slips and tax returns to acquire housing.",
+   "body": [
+    "NOS reported that between 6,000 and 11,000 Dutch homes were bought with forged documents in recent years, according to a report that has sat with the justice ministry for over six months. Gangs use the properties for money laundering, illegal letting, labour exploitation and drug crime.",
+    "Banking association chair Medy van der Laan told MPs the fraud is growing and asked for banks and notaries to verify income with the tax office. Pro MP Hanneke Mutluer wants the report published."
+   ],
+   "sources": [
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/10/rampant-mortgage-fraud-used-by-gangs-to-buy-up-homes-around-nl/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "Customs chief warns cuts come as cocaine seizures rise 20%",
+   "summary": "Nanette van Schelven told MPs her agency faces budget cuts while drug gangs keep finding new smuggling methods.",
+   "body": [
+    "Customs seized 19,332 kilos of cocaine in the first half of 2026, up from 16,104 kilos a year earlier and close to last year's full total of about 24,500 kilos. It also intercepted over 106 million illegal cigarettes.",
+    "Because customs is not formally part of the security sector, it misses out on extra security funding despite a 2027 budget of nearly 982 million euros. Van Schelven said efficiency gains alone cannot close the gap."
+   ],
+   "sources": [
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/10/drugs-gangs-adapting-as-customs-faces-cuts-chief-tells-mps/"
+    ]
+   ]
+  },
+  {
+   "hero": false,
+   "sub": "Economy & Housing",
+   "h3": "Only licensed medicinal cannabis grower Bedrocan goes bust",
+   "summary": "A Groningen court declared the firm bankrupt, leaving around 7,000 patients facing a switch to imported products.",
+   "body": [
+    "Bedrocan, based in Veendam with its main site in Emmeloord and about 70 staff, lost its state contract at the start of the year. A law letting growers sell directly to pharmacies will not take effect until 1 July 2028.",
+    "The state Bureau for Medicinal Cannabis holds a limited stockpile and will move to imports during 2027. Patients include people with MS, severe pain and some forms of epilepsy."
+   ],
+   "sources": [
+    [
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/10/nls-only-legal-medicinal-cannabis-grower-goes-bust/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Society & Culture",
-   "h3": "Hospitals cut patient access to records over Citrix flaw",
-   "summary": "The NCSC told hospitals to disconnect Citrix systems after a critical vulnerability was found.",
+   "h3": "Groningen venues ban smart glasses over privacy fears",
+   "summary": "Around 30 museums, festivals and clubs say camera glasses threaten the privacy and safety of visitors and artists.",
    "body": [
-    "Amphia in Breda, ETZ in Tilburg and Frisius in Leeuwarden were among those affected over the weekend. US agency CISA said the flaw is being actively exploited.",
-    "Doctors could still view records, but patients lost access during online consultations."
+    "Signatories include the Groninger Museum, Groninger Archieven, Noorderlicht and the Grand Theatre. Optician chain Hans Anders stopped selling Meta camera glasses last week after pressure from privacy campaigners.",
+    "Privacy watchdog AP says sharing footage without consent breaches GDPR and the Consumentenbond warns the recording light can be covered. MPs want a full ban, but the cabinet prefers narrower restrictions."
    ],
    "sources": [
     [
      "DutchNews.nl",
-     "https://www.dutchnews.nl/2026/09/hospitals-block-access-to-patients-records-after-cyber-threat/"
+     "https://www.dutchnews.nl/2026/10/museums-festivals-and-clubs-in-groningen-ban-smart-glasses/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Society & Culture",
-   "h3": "Suspected ShinyHunters member arrested in Odido hack probe",
-   "summary": "A 23-year-old Dutch hacker is being questioned over the theft of data on over six million Odido customers.",
+   "h3": "Maastricht region plans 30 care zones to fight loneliness",
+   "summary": "Insurers CZ and VGZ are putting 33.4 million euros into neighbourhoods that help older people live at home longer.",
    "body": [
-    "Krebs on Security named him as a hacker once known as Umbreon, arrested around 16 September. He was charged in 2023 with extorting companies.",
-    "Police say the attackers got in by posing as IT staff to trick an Odido employee. He is due in Rotterdam court on Tuesday."
+    "The Deltaplan Maastricht Heuvelland brings together councils, insurers, hospitals and residents to combine care, activities and accessible housing. Nineteen of the 30 zones are being developed and the rest should open next year.",
+    "Chair Petra Lamberts told NOS that loneliness predicts future care needs. Shared living rooms and group activities are meant to keep people active and less reliant on nursing homes."
    ],
    "sources": [
     [
-     "NL Times",
-     "https://nltimes.nl/2026/09/28/dutch-authorities-arrest-suspected-shinyhunters-member-odido-hack-probe"
-    ],
-    [
-     "Krebs on Security",
-     "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/10/maastricht-area-plans-30-care-zones-to-tackle-loneliness/"
     ]
    ]
   },
   {
    "hero": false,
    "sub": "Society & Culture",
-   "h3": "Over 46 Dutch drivers held in Croatia for people smuggling",
-   "summary": "Dutch nationals recruited online are driving migrants from Croatia toward Slovenia, prosecutors say.",
+   "h3": "Report says old transgender law caused profound harm",
+   "summary": "Radboud University researchers found the 1985 to 2014 rules required sterilisation and, until 2001, forced some people to divorce.",
    "body": [
-    "The Public Prosecution Service called the number of arrests this year shocking. More than 120 Dutch people have been caught in five years.",
-    "Offenders face up to three years in Croatian prison, and Europol says online recruitment makes the networks hard to dismantle."
+    "The study, titled An Inhuman Law and commissioned by the education ministry, drew on 28 interviews with trans and intersex people. Until 2001 applicants had to be unmarried, and until 2014 they had to be permanently infertile to change legal gender.",
+    "Participants described years of negotiating with doctors and officials at the cost of their own wellbeing. Some 2,000 people are thought to have been affected, the Volkskrant reported."
    ],
    "sources": [
     [
-     "NL Times",
-     "https://nltimes.nl/2026/09/28/46-dutch-drivers-arrested-croatia-year-people-smuggling"
+     "DutchNews.nl",
+     "https://www.dutchnews.nl/2026/10/new-report-says-transgender-law-caused-profound-suffering/"
     ]
    ]
   }

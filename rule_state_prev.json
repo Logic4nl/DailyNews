@@ -1,5 +1,5 @@
 {
-  "slnh_hard_stop": "CLEAR",
+  "slnh_hard_stop": "ARMED",
   "slnh_year_end_trim": "ARMED",
   "slnh_upside_ladder": "CLEAR",
   "slnh_invalidations": "CLEAR",
